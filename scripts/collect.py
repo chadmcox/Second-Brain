@@ -370,6 +370,11 @@ def _jsonld_date(blobs: list[str]) -> str:
     return ""
 
 
+_WRITTEN_DATE = re.compile(
+    r"\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|"
+    r"Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.? \d{1,2}, \d{4}\b")
+
+
 def parse_article(html_text: str) -> dict:
     """Title, description and publish date from an article page's metadata."""
     m = _MetaCollector()
@@ -387,6 +392,10 @@ def parse_article(html_text: str) -> dict:
         or m.meta.get("twitter:description") or ""
     date = (m.meta.get("article:published_time") or m.meta.get("date")
             or m.meta.get("publish-date") or _jsonld_date(m.jsonld) or m.time)
+    if not parse_date(date):
+        # No machine-readable date: use the first written date near the top.
+        found = _WRITTEN_DATE.search(strip_html(html_text)[:6000])
+        date = found.group(0).replace(".", "") if found else ""
     return {
         "title": re.sub(r"\s+", " ", title),
         "summary_text": strip_html(desc),
@@ -583,12 +592,20 @@ def call_model(model: str, token: str, payload: list[dict], topic_ids: list[str]
     req = urllib.request.Request(MODELS_ENDPOINT, data=body, method="POST", headers={
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
-        "Accept": "application/json",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
         "User-Agent": USER_AGENT,
     })
     try:
         with urllib.request.urlopen(req, timeout=90) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
+            raw = resp.read().decode("utf-8", "replace")
+            try:
+                data = json.loads(raw)
+            except json.JSONDecodeError:
+                raise SummariesStopped(
+                    f"GitHub Models answered HTTP {resp.status} "
+                    f"({resp.headers.get('Content-Type', 'no content type')}) "
+                    f"with a body that is not JSON: {raw[:160]!r}")
     except urllib.error.HTTPError as exc:
         detail = exc.read(600).decode("utf-8", "replace")
         if exc.code == 429:
