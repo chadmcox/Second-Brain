@@ -365,6 +365,66 @@ filter = "all"
 topics = ["scout"]
 
 [[sources]]
+id = "learn-mdo"
+name = "What's new in Defender for Office 365"
+group = "microsoft"
+type = "learn"
+url = "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+home = "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new"
+filter = "all"
+topics = ["defender"]
+
+[[sources]]
+id = "learn-mde"
+name = "What's new in Defender for Endpoint"
+group = "microsoft"
+type = "learn"
+url = "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+home = "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+filter = "all"
+topics = ["defender"]
+
+[[sources]]
+id = "learn-mdi"
+name = "What's new in Defender for Identity"
+group = "microsoft"
+type = "learn"
+url = "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+home = "https://learn.microsoft.com/en-us/defender-for-identity/whats-new"
+filter = "all"
+topics = ["defender"]
+
+[[sources]]
+id = "learn-mdca"
+name = "What's new in Defender for Cloud Apps"
+group = "microsoft"
+type = "learn"
+url = "https://learn.microsoft.com/en-us/cloud-app-security/release-notes"
+home = "https://learn.microsoft.com/en-us/cloud-app-security/release-notes"
+filter = "all"
+topics = ["defender"]
+
+[[sources]]
+id = "learn-mdc"
+name = "What's new in Defender for Cloud"
+group = "microsoft"
+type = "learn"
+url = "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+home = "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes"
+filter = "all"
+topics = ["defender"]
+
+[[sources]]
+id = "learn-entra"
+name = "Microsoft Entra releases and announcements"
+group = "microsoft"
+type = "learn"
+url = "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+home = "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+filter = "all"
+topics = ["entra"]
+
+[[sources]]
 id = "openai"
 name = "OpenAI News"
 group = "competitor"

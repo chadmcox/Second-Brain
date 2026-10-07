@@ -500,61 +500,127 @@ def _md_text(value: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(value)).strip()
 
 
+_MD_GENERIC = {"new features", "enhancements", "improvements", "bug fixes", "fixes", "new feature",
+               "features", "updates", "changes", "general availability", "public preview"}
+_MD_LABEL = re.compile(r"^(type|service category|product capability|roadmap id|details|what changed|why|"
+                       r"try this|learn|additional resources|business impact|personal impact|"
+                       r"why this matters)\s*:", re.I)
+_MD_PLAIN_DATE = re.compile(r"^[A-Z][a-z]{2,8}\.? \d{1,2}, \d{4}$")
+
+
 def parse_learn(markdown: str, page_url: str) -> list[dict]:
     """Entries from a Microsoft Learn "what's new" page fetched as Markdown.
 
-    Handles the two layouts those pages use: bullets that start with a bold
-    title, and Feature | Description | Learn more tables, both under dated
-    "## Month [DD,] YYYY" headings.
+    Under each dated "## Month [DD,] YYYY" heading it understands the layouts
+    those pages use: "### Title" sections with a paragraph, bullets (with or
+    without a bold lead-in), and tables that have a Feature column.
     """
     base = page_url.split("?", 1)[0].split("#", 1)[0]
     entries: list[dict] = []
     date: datetime | None = None
     anchor = group = ""
-    current: dict | None = None
+    bullet: dict | None = None        # bullet item still collecting its description
+    section: dict | None = None       # "### Title" that may turn out to be an item or a group
+    columns: list[str] | None = None  # header of the table being read
 
-    def add(title: str, text: str) -> dict:
+    def add(title: str, text: str, when: datetime | None = None) -> dict:
         entry = {
             "url": f"{base}#{anchor}" if anchor else base,
             "key": f"{base}|{anchor}|{group}|{title}".lower(),
-            "title": title, "published": date,
+            "title": clip(title, 200), "published": when or date,
             "summary_text": " ".join(x for x in (f"{group}." if group else "", text) if x),
             "body_text": "", "categories": [group] if group else [],
         }
         entries.append(entry)
         return entry
 
+    def close_section(as_group: bool = False) -> None:
+        nonlocal section, group
+        if section is None:
+            return
+        if as_group or section["title"].lower() in _MD_GENERIC:
+            group = section["title"]
+        elif section["text"]:
+            saved, group = group, ""
+            add(section["title"], section["text"], section["date"])
+            group = saved
+        section = None
+
     for line in markdown.splitlines():
         heading = _MD_DATE.match(line)
         if heading:
+            close_section()
             raw = heading.group(1)
             date = parse_date(raw) or parse_date(re.sub(r"^(\w+)\s+(\d{4})$", r"\1 1, \2", raw))
             anchor = re.sub(r"[^a-z0-9]+", "-", (raw + heading.group(2)).lower()).strip("-")
-            group, current = "", None
+            group, bullet, columns = "", None, None
             continue
         if date is None:
             continue
-        if re.match(r"^#{2,4}\s", line):
-            group, current = _md_text(line.lstrip("#")), None
+        stripped = line.strip()
+        if re.match(r"^#{1,2}\s", line):          # an undated H1/H2 ends the dated part
+            close_section()
+            date = None
             continue
-        item = _MD_ITEM.match(line)
-        if item:
-            current = add(_md_text(item.group(1)), "")
+        if re.match(r"^#{3,5}\s", line):
+            close_section()
+            title = _md_text(line.lstrip("#"))
+            bullet, columns = None, None
+            if title.lower() in _MD_GENERIC:
+                group = title
+            else:
+                section = {"title": title, "text": "", "date": None}
             continue
-        if line.lstrip().startswith("|"):
-            cells = [c.strip() for c in line.strip().strip("|").split("|")]
-            if len(cells) >= 2 and not set(cells[0]) <= set("-: ") and cells[0].lower() != "feature":
-                add(_md_text(cells[0]), _md_text(cells[1]))
-            current = None
+        if stripped.startswith("|"):
+            cells = [c.strip() for c in stripped.strip("|").split("|")]
+            if columns is None:
+                columns = [_md_text(c).lower() for c in cells]
+                continue
+            if set("".join(cells)) <= set("-: "):
+                continue
+            if "feature" in columns and len(cells) == len(columns):
+                if section is not None and not section["text"]:
+                    close_section(as_group=True)
+                title = _md_text(cells[columns.index("feature")])
+                rest = [_md_text(c) for k, c in zip(columns, cells)
+                        if k not in ("feature", "learn more", "type") and _md_text(c)]
+                if title:
+                    add(title, ". ".join(r.rstrip(".") for r in rest) + ("." if rest else ""))
+            bullet = None
             continue
-        if current is not None and line.strip():
-            text = _md_text(line)
-            # the first plain paragraph is the description; labelled fields follow it
-            if re.match(r"^(roadmap id|details|what changed|why|try this|learn|additional resources|"
-                        r"business impact|personal impact)\b", text, re.I):
-                current = None
-            elif text and len(current["summary_text"]) < 600:
-                current["summary_text"] = (current["summary_text"] + " " + text).strip()
+        columns = None
+        if not stripped:
+            continue
+        alone = _MD_ITEM.match(line)
+        top_bullet = re.match(r"^[-*]\s+(.*)$", line)
+        if alone or top_bullet:
+            if section is not None and section["text"]:
+                section["text"] = clip(section["text"] + " " + _md_text(stripped.lstrip("-* ")), 700)
+                continue
+            close_section(as_group=True)
+            if alone:
+                bullet = add(_md_text(alone.group(1)), "")
+            else:
+                body = top_bullet.group(1)
+                lead = re.match(r"^\*\*(.+?)\*\*\s*:?\s*(.*)$", body)
+                text = _md_text(body)
+                title = _md_text(lead.group(1)).rstrip(":") if lead else \
+                    clip(re.split(r"(?<=[.!?])\s", text, maxsplit=1)[0], 120)
+                bullet = add(title, text) if len(title) > 3 else None
+            continue
+        text = _md_text(stripped)
+        if not text or _MD_LABEL.match(text):
+            if bullet is not None and _MD_LABEL.match(text or ""):
+                bullet = None                      # labelled fields follow the description
+            continue
+        if section is not None:
+            if _MD_PLAIN_DATE.match(text) and parse_date(text.replace(".", "")):
+                section["date"] = parse_date(text.replace(".", ""))
+            elif len(section["text"]) < 700:
+                section["text"] = (section["text"] + " " + text).strip()
+        elif bullet is not None and len(bullet["summary_text"]) < 700:
+            bullet["summary_text"] = (bullet["summary_text"] + " " + text).strip()
+    close_section()
     return [e for e in entries if e["title"] and e["published"]]
 
 

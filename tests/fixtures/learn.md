@@ -33,3 +33,38 @@ Updates released between September 22, 2026, and October 06, 2026.
 ### Improvements
 
 This release improves reliability.
+
+## May 2026
+
+### Public Preview - Soft-delete for device objects
+
+**Type:** New feature
+**Service category:** Device Access Management
+
+Admins can restore deleted devices. Supported for:
+
+- Windows devices
+- macOS devices
+
+### Scanning specific blobs (GA)
+
+May 5, 2026
+
+On-demand scanning now supports targeted scanning.
+
+| Date | Category | Update |
+| ---- | -------- | ------ |
+| May 5, 2026 | GA | [Scanning specific blobs](#x) |
+
+## April 2026
+
+- **Reporting in Teams**: Users can report group calls. More text.
+- (Preview) Plain bullet without bold lead. Second sentence here.
+
+| Type | Feature | Preview/GA | Description |
+|---|---|---|---|
+| Feature | [WSL plug-in](https://learn.test/wsl) | GA | Extends protection to WSL. |
+
+## Related content
+
+- [Some link](https://learn.test/z)

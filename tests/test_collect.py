@@ -372,8 +372,20 @@ class UnitTests(unittest.TestCase):
 
     def test_learn_page(self):
         rows = collect.parse_learn((FIX / "learn.md").read_text(), "https://learn.test/notes?tabs=all")
-        self.assertEqual([r["title"] for r in rows],
+        self.assertEqual([r["title"] for r in rows][:4],
                          ["Navigate to changes", "Second item", "App skill (Frontier)", "Local browser use"])
+        more = {r["title"]: r for r in rows[4:]}
+        self.assertEqual(list(more), [
+            "Public Preview - Soft-delete for device objects", "Scanning specific blobs (GA)",
+            "Reporting in Teams", "(Preview) Plain bullet without bold lead.", "WSL plug-in"])
+        self.assertEqual(more["Public Preview - Soft-delete for device objects"]["summary_text"],
+                         "Admins can restore deleted devices. Supported for: Windows devices macOS devices")
+        blobs = more["Scanning specific blobs (GA)"]
+        self.assertEqual(collect.iso(blobs["published"]), "2026-05-05T00:00:00Z")
+        self.assertEqual(blobs["summary_text"], "On-demand scanning now supports targeted scanning.")
+        self.assertEqual(more["Reporting in Teams"]["summary_text"],
+                         "Reporting in Teams: Users can report group calls. More text.")
+        self.assertEqual(more["WSL plug-in"]["summary_text"], "GA. Extends protection to WSL.")
         first = rows[0]
         self.assertEqual(first["url"], "https://learn.test/notes#october-06-2026")
         self.assertEqual(collect.iso(first["published"]), "2026-10-06T00:00:00Z")
@@ -384,7 +396,8 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(app["url"], "https://learn.test/notes#june-2026-general-availability")
         self.assertEqual(collect.iso(app["published"]), "2026-06-01T00:00:00Z")
         self.assertEqual(app["summary_text"], "New features. Create apps from a description.")
-        self.assertEqual(len({r["key"] for r in rows}), 4)
+        self.assertEqual(len({r["key"] for r in rows}), len(rows))
+        self.assertNotIn("Improvements", [r["title"] for r in rows])
 
     def test_scoped_theme_only_tags_its_group(self):
         cl = collect.Classifier([{"id": "ai-threats", "theme": True, "scope": "security", "any": ["ai agents"]}])
