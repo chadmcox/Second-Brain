@@ -5,7 +5,7 @@ reads official Microsoft blogs and competitor news pages, keeps the posts about 
 you track, optionally writes a short AI summary of each, and publishes the result with GitHub
 Pages.
 
-It tracks Microsoft 365 Copilot, Copilot Studio, GitHub Copilot, Copilot Cowork, Opal, Copilot Autopilot, Agent 365, Entra and
+It tracks Microsoft 365 Copilot, Copilot Studio, GitHub Copilot, Copilot Cowork, Copilot Autopilot, Agent 365, Entra and
 Defender, plus OpenAI, Anthropic, Google, xAI, Meta, Mistral, Salesforce and CrowdStrike.
 
 No servers and no packages to install: the collector uses only the Python standard library.
@@ -44,8 +44,8 @@ General → Workflow permissions** and choose **Read and write permissions**.
 Everything is in [`config.toml`](config.toml). Edit it on github.com; saving starts a run.
 
 - **Add a product**: copy a `[[topics]]` block and set the words that identify it. `none`
-  lists phrases that rule a post out (this is how Windows Autopilot and Optimizely Opal are
-  kept away from Copilot Autopilot and Microsoft's Opal).
+  lists phrases that rule a post out (this is how Windows Autopilot is kept away from
+  Copilot Autopilot).
 - **Add a theme**: a `[[topics]]` block with `theme = true` tags posts from every company
   (personal agents and decision models are set up this way).
 - **Add a site with an RSS feed**: copy a `[[sources]]` block with `type = "rss"`.

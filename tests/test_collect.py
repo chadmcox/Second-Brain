@@ -297,7 +297,7 @@ class UnitTests(unittest.TestCase):
     def test_status(self):
         s = collect.detect_status
         self.assertEqual(s("What's new in Agent 365", "Frontier AI models are everywhere", [], "post"), "")
-        self.assertEqual(s("Opal (Frontier) is here", "", [], "post"), "frontier")
+        self.assertEqual(s("Cowork (Frontier) is here", "", [], "post"), "frontier")
         self.assertEqual(s("Retiring the legacy connector", "now available", [], "post"), "retiring")
         self.assertEqual(s("Cowork GA", "", [], "post"), "ga")
         self.assertEqual(s("Meet the gateway", "", [], "post"), "")

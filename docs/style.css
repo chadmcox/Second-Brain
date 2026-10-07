@@ -16,7 +16,6 @@
   --lane-cowork: #7440c9;
   --lane-copilotstudio: #0d7396;
   --lane-githubcopilot: #5f6d12;
-  --lane-opal: #0b8577;
   --lane-autopilot: #b4530a;
   --lane-agent365: #b3206f;
   --lane-entra: #2f7d32;
@@ -32,14 +31,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0f1518; --surface: #161e22; --ink: #e6ecea; --muted: #93a1a8; --line: #2a363c;
     --accent: #6cc5cc; --accent-ink: #06282b; --new: #f0c060;
-    --lane-copilot: #6ea0ff; --lane-cowork: #b490f5; --lane-copilotstudio: #5cc4ea; --lane-githubcopilot: #c5d46b; --lane-opal: #4fd1bf; --lane-autopilot: #f0a45b;
+    --lane-copilot: #6ea0ff; --lane-cowork: #b490f5; --lane-copilotstudio: #5cc4ea; --lane-githubcopilot: #c5d46b; --lane-autopilot: #f0a45b;
     --lane-agent365: #f07db8; --lane-entra: #7ccb7f; --lane-defender: #f08a7c; --lane-other: #9aa9b1;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0f1518; --surface: #161e22; --ink: #e6ecea; --muted: #93a1a8; --line: #2a363c;
   --accent: #6cc5cc; --accent-ink: #06282b; --new: #f0c060;
-  --lane-copilot: #6ea0ff; --lane-cowork: #b490f5; --lane-copilotstudio: #5cc4ea; --lane-githubcopilot: #c5d46b; --lane-opal: #4fd1bf; --lane-autopilot: #f0a45b;
+  --lane-copilot: #6ea0ff; --lane-cowork: #b490f5; --lane-copilotstudio: #5cc4ea; --lane-githubcopilot: #c5d46b; --lane-autopilot: #f0a45b;
   --lane-agent365: #f07db8; --lane-entra: #7ccb7f; --lane-defender: #f08a7c; --lane-other: #9aa9b1;
 }
 
@@ -49,7 +48,6 @@
 [data-lane="cowork"] { --lane: var(--lane-cowork); }
 [data-lane="copilotstudio"] { --lane: var(--lane-copilotstudio); }
 [data-lane="githubcopilot"] { --lane: var(--lane-githubcopilot); }
-[data-lane="opal"] { --lane: var(--lane-opal); }
 [data-lane="autopilot"] { --lane: var(--lane-autopilot); }
 [data-lane="agent365"] { --lane: var(--lane-agent365); }
 [data-lane="entra"] { --lane: var(--lane-entra); }

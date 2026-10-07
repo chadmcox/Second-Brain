@@ -6,7 +6,7 @@
 
   var DAY = 86400000;
   var PAGE = 120;
-  var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "opal", "autopilot", "agent365", "entra", "defender", "ai-threats", "incidents"];
+  var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "autopilot", "agent365", "entra", "defender", "ai-threats", "incidents"];
   var VIEWS = ["overview", "microsoft", "competitors", "security", "models", "sources"];
   var FEEDS = { microsoft: "microsoft", competitors: "competitor", security: "security" };
   var DEFAULTS = { scope: "", theme: "", status: "", range: "30", q: "", key: "", roadmap: "" };

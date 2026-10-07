@@ -51,13 +51,6 @@ any = ["cowork"]
 none = ["coworking"]
 
 [[topics]]
-id = "opal"
-name = "Opal"
-any = ["opal", "computer use agent", "windows 365 for agents"]
-none = ["optimizely"]
-scope = "microsoft"
-
-[[topics]]
 id = "autopilot"
 name = "Copilot Autopilot"
 any = ["autopilot"]
