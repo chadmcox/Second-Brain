@@ -1,2 +1,583 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>Copilot &amp; Agent Watch</title><link>https://github.com/</link><description>Filled in by the first collection run.</description></channel></rss>
+<rss version="2.0">
+  <channel>
+    <title>Copilot &amp; Agent Watch</title>
+    <link>https://chadmcox.github.io/Second-Brain/</link>
+    <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
+    <lastBuildDate>Wed, 07 Oct 2026 02:24:00 +0000</lastBuildDate>
+    <item>
+      <title>[Meta] Introducing TRIBE v2: A Predictive Foundation Model Trained to Understand How the Human Brain Processes Complex Stimuli</title>
+      <link>https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/</link>
+      <guid isPermaLink="false">f993eb8e38c0</guid>
+      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Meta] Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
+      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
+      <guid isPermaLink="false">f46da8bae972</guid>
+      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Meta] Introducing Muse Image and Muse Video</title>
+      <link>https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/</link>
+      <guid isPermaLink="false">d3d113bb08b2</guid>
+      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
+      <description>Muse Image follows instructions faithfully, edits with precision, composes from multiple references, and draws on Instagram for social context. Muse Video delivers exceptional visual fidelity with native audio support.</description>
+    </item>
+    <item>
+      <title>[Meta] Scaling How We Build and Test Our Most Advanced AI</title>
+      <link>https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/</link>
+      <guid isPermaLink="false">c2c8a1270846</guid>
+      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
+      <description>As we build more capable, personalized AI, reliability, security, and user protections are more important than ever.</description>
+    </item>
+    <item>
+      <title>[Meta] Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics</title>
+      <link>https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/</link>
+      <guid isPermaLink="false">bde5e15a43c6</guid>
+      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Meta] Introducing Muse Spark 1.1</title>
+      <link>https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/</link>
+      <guid isPermaLink="false">9fc4a4963406</guid>
+      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Meta] How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects</title>
+      <link>https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/</link>
+      <guid isPermaLink="false">4a1497318d76</guid>
+      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Meta] From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery</title>
+      <link>https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/</link>
+      <guid isPermaLink="false">3c5753723cca</guid>
+      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Meta] Mapping the World's Forests with Greater Precision: Introducing Canopy Height Maps v2</title>
+      <link>https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/</link>
+      <guid isPermaLink="false">21f86e2d045a</guid>
+      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
+      <description>In partnership with the World Resources Institute, today we’re announcing Canopy Height Maps v2 (CHMv2), an open source model, along with world-scale maps generated with the model.</description>
+    </item>
+    <item>
+      <title>[Meta] How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet</title>
+      <link>https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/</link>
+      <guid isPermaLink="false">0368a1148022</guid>
+      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Google] EmbeddingGemma 2: an open, lightweight multimodal embedding model</title>
+      <link>https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/</link>
+      <guid isPermaLink="false">4dd290070848</guid>
+      <pubDate>Tue, 06 Oct 2026 19:57:04 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Anthropic] Expanding the Cyber Verification Program</title>
+      <link>https://www.anthropic.com/news/cyber-verification-program</link>
+      <guid isPermaLink="false">a22a6ca92e5c</guid>
+      <pubDate>Tue, 06 Oct 2026 19:00:00 +0000</pubDate>
+      <description>We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.</description>
+    </item>
+    <item>
+      <title>[Google] EmbeddingGemma 2: an open, lightweight multimodal embedding model</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/</link>
+      <guid isPermaLink="false">ab5e6ca801d9</guid>
+      <pubDate>Tue, 06 Oct 2026 16:00:00 +0000</pubDate>
+      <description>EmbeddingGemma 2</description>
+    </item>
+    <item>
+      <title>[OpenAI] Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
+      <link>https://openai.com/index/atlassian-partnership</link>
+      <guid isPermaLink="false">60ef2af305e7</guid>
+      <pubDate>Tue, 06 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Trustworthy, Explainable, and Accountable: How to Give AI Autonomy Without Letting It Run Wild</title>
+      <link>https://www.salesforce.com/news/stories/giving-ai-autonomy-without-running-wild/</link>
+      <guid isPermaLink="false">d11cf4a75b89</guid>
+      <pubDate>Tue, 06 Oct 2026 15:00:00 +0000</pubDate>
+      <description>Salesforce Principal Architect of Ethical AI Practice Kathy Baxter explains how pairing a probabilistic model with deterministic logic gives agents the ability to take action — without giving up the guardrails.</description>
+    </item>
+    <item>
+      <title>[Google] More than 100 startups joining our Google for Startups Gemini Startup Forum</title>
+      <link>https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/gemini-startup-forum-2026/</link>
+      <guid isPermaLink="false">24c40af55551</guid>
+      <pubDate>Tue, 06 Oct 2026 14:00:00 +0000</pubDate>
+      <description>Four people are seated on chairs during a panel discussion on stage in front of a screen.</description>
+    </item>
+    <item>
+      <title>[Mistral] Introducing Mistral Large 4</title>
+      <link>https://mistral.ai/news/mistral-large-4/</link>
+      <guid isPermaLink="false">8eda8214ccb1</guid>
+      <pubDate>Tue, 06 Oct 2026 12:00:27 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[OpenAI] Sharing AI progress in mathematics</title>
+      <link>https://openai.com/index/sharing-ai-progress-in-mathematics</link>
+      <guid isPermaLink="false">47b9255d8fa0</guid>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+      <description>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Advancing computer use with Ironclad</title>
+      <link>https://openai.com/index/advancing-computer-use-with-ironclad</link>
+      <guid isPermaLink="false">9964af802e9c</guid>
+      <pubDate>Tue, 06 Oct 2026 10:00:00 +0000</pubDate>
+      <description>Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.</description>
+    </item>
+    <item>
+      <title>[CrowdStrike] Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers</title>
+      <link>https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</link>
+      <guid isPermaLink="false">3176965c7711</guid>
+      <pubDate>Tue, 06 Oct 2026 05:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Google] Here’s how I use technology to bring science to life in my classroom.</title>
+      <link>https://blog.google/products-and-platforms/products/education/science-teacher-gemini/</link>
+      <guid isPermaLink="false">c5505c8ec47d</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
+      <description>See how this teacher uses Gemini and Gemini Notebook to build digital literacy and refine lesson plans. Read the full story to improve your teaching.</description>
+    </item>
+    <item>
+      <title>[Google] Gemini helps me bring hands-on learning into the classroom.</title>
+      <link>https://blog.google/products-and-platforms/products/education/english-teacher-gemini/</link>
+      <guid isPermaLink="false">c00c6a75f519</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
+      <description>A teacher uses Google Gemini to design interactive role-playing simulations and nutrition lessons. See how AI boosts classroom engagement.</description>
+    </item>
+    <item>
+      <title>[Google] My eighth-grade students built our school newscast from scratch with Gemini.</title>
+      <link>https://blog.google/products-and-platforms/products/education/gemini-student-newscast/</link>
+      <guid isPermaLink="false">b235f2ec1126</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Eighth graders built The Cougar Rumble newscast using Gemini and Google Docs. See how these students streamlined their production workflow today.</description>
+    </item>
+    <item>
+      <title>[Google] Technology is helping my fellow math teachers trade weekend prep for personalized learning.</title>
+      <link>https://blog.google/products-and-platforms/products/education/education-officer-gemini/</link>
+      <guid isPermaLink="false">6d121789f599</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Teachers use Gemini to build custom K-6 math worksheets and save hours of prep time. See how Google AI transforms classroom instruction.</description>
+    </item>
+    <item>
+      <title>[Google] I replaced traditional coding tests with real conversations about how my students solve problems using AI.</title>
+      <link>https://blog.google/products-and-platforms/products/education/gemini-google-colab/</link>
+      <guid isPermaLink="false">67b0b753591b</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Replace coding tests with AI-driven interviews using Google Gemini in Colab. See how this professor evaluates student judgment. Read the full report.</description>
+    </item>
+    <item>
+      <title>[Google] I use technology to give students a voice and become critical digital citizens.</title>
+      <link>https://blog.google/products-and-platforms/products/education/teacher-voices-sweden/</link>
+      <guid isPermaLink="false">5d4b22a769b3</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Empower students using Google Sites, Gemini, and Vids to build critical thinking skills. See how these tools help kids find their voice today.</description>
+    </item>
+    <item>
+      <title>[Google] I teach my students that in the AI era, critical thinking comes first.</title>
+      <link>https://blog.google/products-and-platforms/products/education/teacher-stories-gemini-middle-school/</link>
+      <guid isPermaLink="false">43f0498be7eb</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
+      <description>A California teacher uses Gemini to streamline lesson planning in Google Drive. See how she prioritizes critical thinking in the AI era.</description>
+    </item>
+    <item>
+      <title>[Google] My students use Gemini to brainstorm creative ideas.</title>
+      <link>https://blog.google/products-and-platforms/products/education/teacher-voices-gemini-creativity/</link>
+      <guid isPermaLink="false">19d2cb09d93c</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Fifth graders use Google Gemini to write songs about history and create art. See how this teacher integrates AI into the classroom.</description>
+    </item>
+    <item>
+      <title>[Google] Gemini helps me give a voice to students who cannot write.</title>
+      <link>https://blog.google/products-and-platforms/products/education/special-education-gemini/</link>
+      <guid isPermaLink="false">04133777c4cc</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Special education teachers use Google Gemini to generate visual guides and voice prompts, empowering non-writing students. Read the full story.</description>
+    </item>
+    <item>
+      <title>[Google] Making AI training available to UK and Ireland educators</title>
+      <link>https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/</link>
+      <guid isPermaLink="false">8b93b5bfd227</guid>
+      <pubDate>Mon, 05 Oct 2026 07:00:00 +0000</pubDate>
+      <description>A collage of floating Google Workspace for Education interface elements on a soft, light background.</description>
+    </item>
+    <item>
+      <title>[CrowdStrike] New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation</title>
+      <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</link>
+      <guid isPermaLink="false">92bfbebf7d75</guid>
+      <pubDate>Mon, 05 Oct 2026 05:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[CrowdStrike] Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365</title>
+      <link>https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</link>
+      <guid isPermaLink="false">3ee2b512c089</guid>
+      <pubDate>Mon, 05 Oct 2026 05:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Anthropic] Claude Frontier Academy: $100M to train 10,000 engineers</title>
+      <link>https://www.anthropic.com/news/claude-frontier-academy</link>
+      <guid isPermaLink="false">9f2dde650fe4</guid>
+      <pubDate>Fri, 02 Oct 2026 23:01:00 +0000</pubDate>
+      <description>Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.</description>
+    </item>
+    <item>
+      <title>[Google] Google Workspace Weekly Recap - October 2, 2026</title>
+      <link>https://workspaceupdates.googleblog.com/2026/10/weekly-recap-10-02-2026.html</link>
+      <guid isPermaLink="false">da784f1db055</guid>
+      <pubDate>Fri, 02 Oct 2026 18:43:57 +0000</pubDate>
+      <description>Create more natural, expressive AI voiceovers in Google Vids with upgraded Gemini 3.8 Flash Lite TTS We are upgrading the underlying text-to-speech (TTS) engine powering AI voiceovers and avatar narration in Google Vids to the latest Gemini 3.8 Flash Lite TTS model. | Learn more. Introducing skills in the Gemini app and Workspace, plus what’s next for Gems We recently introduced skills—reusable prompts that guide…</description>
+    </item>
+    <item>
+      <title>[Salesforce] Salesforce’s Agentic CX Vision: 8 Dreamforce Announcements CX Leaders Need to Act On</title>
+      <link>https://www.salesforce.com/news/linked-content/salesforces-agentic-cx-vision-8-dreamforce-announcements-cx-leaders-need-to-act-on/</link>
+      <guid isPermaLink="false">dc05ff46a23a</guid>
+      <pubDate>Fri, 02 Oct 2026 17:00:58 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[OpenAI] A model guide for the GPT-6 family</title>
+      <link>https://openai.com/index/practical-guide-building-gpt-6</link>
+      <guid isPermaLink="false">8e206c4d9ed6</guid>
+      <pubDate>Fri, 02 Oct 2026 16:15:00 +0000</pubDate>
+      <description>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Chatham scales its capital markets expertise with OpenAI</title>
+      <link>https://openai.com/index/chatham-financial</link>
+      <guid isPermaLink="false">a97398f76ee5</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.</description>
+    </item>
+    <item>
+      <title>[Microsoft] What’s New in Microsoft Copilot | September 2026</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-september-2026/ba-p/4559107</link>
+      <guid isPermaLink="false">2ff5525a9da9</guid>
+      <pubDate>Thu, 01 Oct 2026 20:25:35 +0000</pubDate>
+      <description>Welcome to the September 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and efficient in the apps they use every day. We had some big announcements last week about how we’re introducing the new Copilot to connect the tools people rely on with the next…</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Salesforce] Multiplayer AI: The Shift from Smarter Individuals to a Smarter Company</title>
+      <link>https://www.salesforce.com/news/stories/multiplayer-ai/</link>
+      <guid isPermaLink="false">7ec2efb426ee</guid>
+      <pubDate>Thu, 01 Oct 2026 17:00:00 +0000</pubDate>
+      <description>Work is a team sport. We can get good results working alone, but when a team gets in a room and focuses on the same problem at the same time, something changes. It can be a real power-up. Slack has fueled that kind of collaboration for a decade. Today, Slack is evolving into what we […]</description>
+    </item>
+    <item>
+      <title>[Google] Find your learning tools all in one place with the student hub in Gemini</title>
+      <link>https://workspaceupdates.googleblog.com/2026/10/find-your-learning-tools-all-in-one-place-with-the-student-hub-in-Gemini.html</link>
+      <guid isPermaLink="false">c33d1debbeed</guid>
+      <pubDate>Thu, 01 Oct 2026 16:22:17 +0000</pubDate>
+      <description>We recently announced a new, dedicated hub in the Gemini app to help get students started with all of Gemini's learning tools. Initially available in personal accounts, the Gemini student hub is now available to Google Workspace for Education users of all ages. The hub helps keep students organized; they can start a study notebook, create flashcards, take a practice quiz, and more. As Gemini creates more learning…</description>
+    </item>
+    <item>
+      <title>[OpenAI] How Albertsons Companies is reimagining retail from the inside out</title>
+      <link>https://openai.com/index/albertsons-reimagining-retail</link>
+      <guid isPermaLink="false">a80484c2d584</guid>
+      <pubDate>Thu, 01 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.</description>
+    </item>
+    <item>
+      <title>[Anthropic] Barclays scales Claude to upgrade operations and improve client experience</title>
+      <link>https://www.anthropic.com/news/barclays-scales-claude</link>
+      <guid isPermaLink="false">91b1f786ee50</guid>
+      <pubDate>Thu, 01 Oct 2026 15:19:00 +0000</pubDate>
+      <description>Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Getting to ROI: How Brands Turn Cost Centers into Revenue Engines with AI</title>
+      <link>https://www.salesforce.com/news/stories/getting-to-roi-with-ai/</link>
+      <guid isPermaLink="false">0f6c3d07fa69</guid>
+      <pubDate>Thu, 01 Oct 2026 15:00:00 +0000</pubDate>
+      <description>Key Takeaways Salesforce customers across industries recently described their agentic rollouts, sharing what worked, what surprised them, and what they’d tell others just getting started on their own AI journeys. A clear pattern emerged. Customers seeing real results don’t just deploy. They listen to their users, define success, and build the guardrails to sustain it. […]</description>
+    </item>
+    <item>
+      <title>[OpenAI] The Den frees up 10-15 hours a week to grow with ChatGPT Work</title>
+      <link>https://openai.com/index/the-den-family-social</link>
+      <guid isPermaLink="false">3bba52758573</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description>As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.</description>
+    </item>
+    <item>
+      <title>[Microsoft] Available today: OpenAI's GPT-6.1 Sol and Claude Sonnet 5.5 in Microsoft Copilot</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-1-sol-and-claude-sonnet-5-5-in/ba-p/4560801</link>
+      <guid isPermaLink="false">08174d195a33</guid>
+      <pubDate>Wed, 30 Sep 2026 23:28:22 +0000</pubDate>
+      <description>Earlier this month, Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Sol joined model choice in Microsoft Copilot. Now, we're continuing to expand that choice by bringing GPT-6.1 Sol and Claude Sonnet 5.5 to Microsoft Copilot, giving users more model options for how they delegate work to Copilot. As customers take on different kinds of work with Copilot, expanded model choice gives them more flexibility to choose the…</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Google] Gemini 4 Argon: our next era of frontier intelligence</title>
+      <link>https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/</link>
+      <guid isPermaLink="false">15e70ee5e4a7</guid>
+      <pubDate>Wed, 30 Sep 2026 20:01:45 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Microsoft] Introducing the plugin registry - one place to discover and govern plugins for Microsoft Copilot</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/introducing-the-plugin-registry-one-place-to-discover-and-govern/ba-p/4559682</link>
+      <guid isPermaLink="false">44f33e988dc0</guid>
+      <pubDate>Wed, 30 Sep 2026 19:11:46 +0000</pubDate>
+      <description>On September 25, we introduced the new Microsoft Copilot to connect the tools people rely on with the next generation of capabilities they’ll need to build, customize and scale AI across work. Agents in Copilot already help you work with your organization’s knowledge and automate business processes. Now, we’re giving you more ways to customize Copilot with plugins that contain skills, connectors, and agents, adding…</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Salesforce] Salesforce has built the TSA a new AI agent to make travelling less awful for everyone</title>
+      <link>https://www.salesforce.com/news/linked-content/salesforce-has-built-the-tsa-a-new-ai-agent-to-make-travelling-less-awful-for-everyone/</link>
+      <guid isPermaLink="false">954adbe7b658</guid>
+      <pubDate>Wed, 30 Sep 2026 17:00:06 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Google] Introducing skills in the Gemini app and Workspace, plus what’s next for Gems</title>
+      <link>https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html</link>
+      <guid isPermaLink="false">5d832f423fde</guid>
+      <pubDate>Wed, 30 Sep 2026 16:11:32 +0000</pubDate>
+      <description>We recently introduced skills—reusable prompts that guide Gemini—in the Gemini app and Google Workspace. Over the coming weeks, skills will roll out to Workspace users and eventually replace Gems as the tool for tailoring instructions for specific tasks. Read on for more details on skills, plus critical information and dates related to the transition away from Gems in the Gemini app, Workspace, Google Classroom, and…</description>
+    </item>
+    <item>
+      <title>[Microsoft] What's new in Agent 365 - September 2026</title>
+      <link>https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-september-2026/ba-p/4560803</link>
+      <guid isPermaLink="false">934e6ee1233e</guid>
+      <pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+      <description>Since launching Agent 365 in May 2026, nearly 50 million agents have been registered across tens of thousands of organizations. As agent adoption accelerates, IT and security teams are looking beyond simple visibility and governance to a new challenge: understanding which agents are delivering value, where resources are being spent, and how to optimize a growing agent estate at scale. This month’s Agent 365 updates…</description>
+      <category>agent365</category>
+    </item>
+    <item>
+      <title>[Google] Introducing SynthID Bio</title>
+      <link>https://deepmind.google/blog/introducing-synthid-bio/</link>
+      <guid isPermaLink="false">0a622a33b8e3</guid>
+      <pubDate>Wed, 30 Sep 2026 15:03:07 +0000</pubDate>
+      <description>Proof of concept for watermarking AI-generated proteins while preserving biological function.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Disrupting a coordinated model-distillation campaign</title>
+      <link>https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign</link>
+      <guid isPermaLink="false">6a91381a4292</guid>
+      <pubDate>Wed, 30 Sep 2026 10:30:00 +0000</pubDate>
+      <description>Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Salesforce Signs Definitive Agreement to Acquire Listen Labs</title>
+      <link>https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/</link>
+      <guid isPermaLink="false">dee2bf679544</guid>
+      <pubDate>Tue, 29 Sep 2026 20:00:00 +0000</pubDate>
+      <description>Salesforce, the #1 AI CRM, today announced it has signed a definitive agreement to acquire Listen Labs, an AI-powered customer research and human simulation platform. Listen Labs’s AI agents design studies, conduct in-depth research, and synthesize insights, automating the lifecycle of connecting with customers and analyzing their feedback. Listen Labs streamlines this process from months […]</description>
+    </item>
+    <item>
+      <title>[Google] Create more natural, expressive AI voiceovers in Google Vids with upgraded Gemini 3.8 Flash Lite TTS</title>
+      <link>https://workspaceupdates.googleblog.com/2026/09/create-more-natural-expressive-ai-voiceovers-in-Google-Vids-with-upgraded-Gemini-3.8-Flash-Lite-TTS.html</link>
+      <guid isPermaLink="false">8068154f80bf</guid>
+      <pubDate>Tue, 29 Sep 2026 16:18:59 +0000</pubDate>
+      <description>We are upgrading the underlying text-to-speech (TTS) engine powering AI voiceovers and avatar narration in Google Vids to the latest Gemini 3.8 Flash Lite TTS model. High-quality voiceover is essential for compelling video communication. With this model upgrade, Google Vids creators will experience: Superior Naturalness &amp; Inflection: Improved sentence flow, lifelike pacing, and context-aware emphasis that reduces…</description>
+    </item>
+    <item>
+      <title>[Microsoft] Sign in to Microsoft apps with passkeys from external identity providers</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-entra-blog/sign-in-to-microsoft-apps-with-passkeys-from-external-identity/ba-p/4556448</link>
+      <guid isPermaLink="false">67240f041651</guid>
+      <pubDate>Tue, 29 Sep 2026 15:00:00 +0000</pubDate>
+      <description>Organizations that use an external identity provider to authenticate Microsoft 365 users can now extend browser-based passkeys, security keys, and eligible single sign-on sessions to supported Microsoft app sign-ins—including Outlook, Teams, OneDrive, Word, Excel, PowerPoint, and Microsoft To Do—on Android, iOS, and managed macOS. Previously, some Microsoft app sign-ins used an embedded web view that couldn’t…</description>
+      <category>entra</category>
+    </item>
+    <item>
+      <title>[OpenAI] Introducing GPT-6.1 Sol</title>
+      <link>https://openai.com/index/introducing-gpt-6-1-sol</link>
+      <guid isPermaLink="false">dd66acaed2a0</guid>
+      <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
+      <description>Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.</description>
+    </item>
+    <item>
+      <title>[OpenAI] DevDay 2026 Recap</title>
+      <link>https://openai.com/index/devday-2026-recap</link>
+      <guid isPermaLink="false">19db7cc5ca5c</guid>
+      <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
+      <description>Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Introducing dots</title>
+      <link>https://openai.com/index/introducing-dots</link>
+      <guid isPermaLink="false">884977ecb800</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.</description>
+    </item>
+    <item>
+      <title>[Microsoft] Evolution of the Copilot pricing model</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/evolution-of-the-copilot-pricing-model/ba-p/4559416</link>
+      <guid isPermaLink="false">8e000442f562</guid>
+      <pubDate>Mon, 28 Sep 2026 17:09:45 +0000</pubDate>
+      <description>You need to know what AI is going to cost so you can plan for it and manage it. That’s a fair ask. As AI becomes more agentic, we’re committed to delivering predictable value for everyday AI, while enabling state-of-the-art AI experiences that deliver more value and cost more to run. That’s why Copilot pricing is evolving to combine predictable per-user pricing with usage-based pricing Everyday AI Everyday AI is…</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Mistral] Hallo, Deutschland!</title>
+      <link>https://mistral.ai/news/hallo-deutschland/</link>
+      <guid isPermaLink="false">037cad16ab3a</guid>
+      <pubDate>Mon, 28 Sep 2026 15:57:59 +0000</pubDate>
+      <description>Mistral opens a Munich hub for Physics AI and Industrial AI research, partnering with German industry.</description>
+    </item>
+    <item>
+      <title>[Microsoft] Change Management Best Practices to Drive Value with Agent Builder</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/change-management-best-practices-to-drive-value-with-agent/ba-p/4559753</link>
+      <guid isPermaLink="false">db5600055c09</guid>
+      <pubDate>Mon, 28 Sep 2026 15:00:00 +0000</pubDate>
+      <description>Most organizations start in the same place: licenses are provisioned, a handful of enthusiasts begin experimenting, and excitement around AI is high. Yet for most employees, building and using agents remains largely unexplored. The technology is ready, but widespread adoption has yet to follow. The challenge is rarely technical. More often, it is about driving awareness, building confidence, demonstrating value, and…</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[CrowdStrike] A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack</title>
+      <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</link>
+      <guid isPermaLink="false">330df04f27e6</guid>
+      <pubDate>Mon, 28 Sep 2026 04:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[xAI] Team Bots: shared AI teammates that learn as they work</title>
+      <link>https://x.ai/news/team-bots</link>
+      <guid isPermaLink="false">e09691c053d0</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Give a Grok Bot the files, apps, and expertise it needs, then share it so your whole team can work from the same context.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Basis completes a tax workbook 2x faster with GPT-6 Astra</title>
+      <link>https://openai.com/index/basis-tax-workbook-with-astra</link>
+      <guid isPermaLink="false">bf0fe8cc388a</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Are you a Codex Original?</title>
+      <link>https://openai.com/form/codex-originals</link>
+      <guid isPermaLink="false">914f14710638</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.</description>
+    </item>
+    <item>
+      <title>[Google] Google Workspace Weekly Recap - September 25, 2026</title>
+      <link>https://workspaceupdates.googleblog.com/2026/09/weekly-recap-09-25-2026.html</link>
+      <guid isPermaLink="false">255bc8081836</guid>
+      <pubDate>Fri, 25 Sep 2026 19:00:43 +0000</pubDate>
+      <description>Use AI to supercharge your financial analysis with Workday for Google Sheets Use AI to supercharge your financial analysis with Workday for Google Sheets Google Sheets Rapid Release Scheduled Release Workday for Google Sheets is a new add-on available in the Google Workspace Marketplace that connects Workday Adaptive Planning directly to Google Sheets and Slides. Deeply integrated with the AI-powered “Ask Workday”…</description>
+    </item>
+    <item>
+      <title>[OpenAI] Proaction boosts sales 60% and saves 75+ hours with Codex</title>
+      <link>https://openai.com/index/proaction</link>
+      <guid isPermaLink="false">d2d497e5eee4</guid>
+      <pubDate>Fri, 25 Sep 2026 19:00:00 +0000</pubDate>
+      <description>With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.</description>
+    </item>
+    <item>
+      <title>[Microsoft] Measuring the value of Cowork: From AI interactions to completed work</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/measuring-the-value-of-cowork-from-ai-interactions-to-completed/ba-p/4554464</link>
+      <guid isPermaLink="false">a4c2c5f85ae0</guid>
+      <pubDate>Fri, 25 Sep 2026 15:15:10 +0000</pubDate>
+      <description>You have invested in Copilot. Adoption is climbing, prompt volume is up, and your dashboards are full of engagement charts. Yet the question leadership keeps asking is: How do we quantify the value of AI when it helps us across so many kinds of work? Value has always been incredibly hard to define for software, and as a result organizations looked to signals like usage trends as a proxy. These metrics were good…</description>
+      <category>copilot</category>
+      <category>cowork</category>
+    </item>
+    <item>
+      <title>[Microsoft] Introducing the new Copilot with Home, Code and Autopilot</title>
+      <link>https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/</link>
+      <guid isPermaLink="false">dd6b92d54e54</guid>
+      <pubDate>Fri, 25 Sep 2026 12:07:25 +0000</pubDate>
+      <description>We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition.</description>
+      <category>copilot</category>
+      <category>autopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft] Build where you want, run with confidence: Now Microsoft hosts and manages the code created by Copilot</title>
+      <link>https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-where-you-want-run-with-confidence-now-microsoft-hosts-and-manages-the-code-created-by-copilot/</link>
+      <guid isPermaLink="false">ccbf59809223</guid>
+      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Meet Microsoft Copilot Managed Runtime, an enterprise platform that helps teams build and run apps with security, governance, and IT control.</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Salesforce] The ‘SaaSpocalypse’ is over. How Salesforce now plans to thrive in an AI world</title>
+      <link>https://www.salesforce.com/news/linked-content/the-saaspocalypse-is-over-how-salesforce-now-plans-to-thrive-in-an-ai-world/</link>
+      <guid isPermaLink="false">07285c53331d</guid>
+      <pubDate>Thu, 24 Sep 2026 19:00:11 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Google] Introducing Gemini 3.8 Live with Live Avatar</title>
+      <link>https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/</link>
+      <guid isPermaLink="false">e7107d9a76d9</guid>
+      <pubDate>Thu, 24 Sep 2026 16:20:39 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Salesforce] Five Big Ideas Coming Out of Dreamforce 2026</title>
+      <link>https://www.salesforce.com/news/stories/five-dreamforce-2026-takeaways/</link>
+      <guid isPermaLink="false">6c60ec5380a4</guid>
+      <pubDate>Thu, 24 Sep 2026 15:00:00 +0000</pubDate>
+      <description>In the leadup to Dreamforce 2026, dozens of announcements outlined what enterprises look like when software meets AI, but the event itself filled in the picture. Organizations are being transformed. Ways of working within them are transforming just as quickly. To see how headless architecture, Slack Code, purpose-trained models, and more are going to shape […]</description>
+    </item>
+    <item>
+      <title>[Google] Gemini Omni 1.1 Flash now in Vids with improved extension quality, 1080p, and duration control</title>
+      <link>https://workspaceupdates.googleblog.com/2026/09/gemini-omni-11-flash-now-in-vids-with-improved-extension-quality-1080p-and-duration-control.html</link>
+      <guid isPermaLink="false">4d08a6ea2f71</guid>
+      <pubDate>Wed, 23 Sep 2026 19:02:00 +0000</pubDate>
+      <description>Users now have access to Gemini Omni 1.1 Flash directly within Google Vids. Omni 1.1 provides higher quality video extension with significant improvements in character and audio consistency. Additionally, Vids now supports generating AI videos and upscaling AI videos to 1080p to be publish ready. Omni in Vids user experience Extend scenes with smooth transitions: Make scenes last longer while keeping the visual…</description>
+    </item>
+    <item>
+      <title>[Google] Ground AI prompts in Google Docs on existing sources from Gemini Notebook</title>
+      <link>https://workspaceupdates.googleblog.com/2026/09/ground-ai-prompts-in-google-docs-on-existing-sources-from-Gemini-Notebook.html</link>
+      <guid isPermaLink="false">8579da813135</guid>
+      <pubDate>Wed, 23 Sep 2026 18:26:49 +0000</pubDate>
+      <description>We are introducing the ability to use Gemini Notebook as a context source in Google Docs. Building on our Workspace Intelligence foundation, this feature bridges the gap between deep research and content creation by grounding your drafts in a curated knowledge base – all without the need to switch tabs or copy-paste between tools. If you’ve organized research in Gemini Notebook, you can now seamlessly tap into that…</description>
+    </item>
+    <item>
+      <title>[Anthropic] Claude discovers a novel enzyme system</title>
+      <link>https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</link>
+      <guid isPermaLink="false">f82afb648776</guid>
+      <pubDate>Wed, 23 Sep 2026 16:06:00 +0000</pubDate>
+      <description>In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.</description>
+    </item>
+    <item>
+      <title>[Google] Advancing Private AI Compute with secure, server-side memory</title>
+      <link>https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/</link>
+      <guid isPermaLink="false">4c4abcff4acd</guid>
+      <pubDate>Wed, 23 Sep 2026 16:00:57 +0000</pubDate>
+      <description>Introducing private, server-side memory to Private AI Compute for personal AI.</description>
+    </item>
+    <item>
+      <title>[Microsoft] Integrated Security Operations Center in Microsoft Defender</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/integrated-security-operations-center-in-microsoft-defender/ba-p/4559097</link>
+      <guid isPermaLink="false">ba42912c6de9</guid>
+      <pubDate>Wed, 23 Sep 2026 16:00:00 +0000</pubDate>
+      <description>AI is transforming the attacker’s operating model, accelerating threats to unprecedented speed and scale. Yet many security operations centers still depend on fragmented data, tools, intelligence, and workflows. Analysts spend valuable time rebuilding context and coordinating action across systems, while the economics of operating the SOC become increasingly difficult to sustain. Security operations need a new…</description>
+      <category>defender</category>
+    </item>
+    <item>
+      <title>[Microsoft] Reimagining Case Management in Microsoft Defender</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/reimagining-case-management-in-microsoft-defender/ba-p/4558044</link>
+      <guid isPermaLink="false">673d243b2630</guid>
+      <pubDate>Wed, 23 Sep 2026 15:35:09 +0000</pubDate>
+      <description>Security work extends beyond the signal Identifying a threat, exposure, or data risk is only the start. Security teams still need to assign ownership, bring together the right context, coordinate investigation and response, document decisions, track actions, and maintain accountability through resolution. That work is not identical across organizations. Each team has its own responsibilities, processes…</description>
+      <category>defender</category>
+    </item>
+    <item>
+      <title>[Google] Gemini 3.8 text-to-speech says hello</title>
+      <link>https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/</link>
+      <guid isPermaLink="false">be2314c62992</guid>
+      <pubDate>Wed, 23 Sep 2026 15:25:14 +0000</pubDate>
+      <description />
+    </item>
+  </channel>
+</rss>
