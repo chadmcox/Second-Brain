@@ -1,6 +1,6 @@
 # Copilot & Agent Watch
 
-A small news site that lives in a GitHub repository. Several times a day a GitHub Action
+A small news site that lives in a GitHub repository. Once a day a GitHub Action
 reads official Microsoft blogs and competitor news pages, keeps the posts about the products
 you track, optionally writes a short AI summary of each, and publishes the result with GitHub
 Pages.

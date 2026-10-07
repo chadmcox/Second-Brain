@@ -4,7 +4,7 @@
 [site]
 title = "Copilot & Agent Watch"
 url = "https://chadmcox.github.io/Second-Brain/"
-ingest_days = 45        # ignore posts older than this when they are first seen
+ingest_days = 92        # ignore posts older than this when they are first seen
 retention_days = 180    # drop stored posts older than this
 max_items = 1500
 
@@ -237,6 +237,7 @@ name = "Anthropic News"
 group = "competitor"
 company = "Anthropic"
 type = "page"
+max_new = 40            # posts opened per run when catching up
 url = "https://www.anthropic.com/news"
 home = "https://www.anthropic.com/news"
 link_pattern = "^/news/[a-z0-9][a-z0-9-]+/?$"
@@ -280,6 +281,7 @@ name = "xAI News"
 group = "competitor"
 company = "xAI"
 type = "page"
+max_new = 40            # posts opened per run when catching up
 url = "https://x.ai/news"
 home = "https://x.ai/news"
 link_pattern = "^/news/[a-z0-9][a-z0-9-]+/?$"
@@ -291,6 +293,7 @@ name = "Meta AI Blog"
 group = "competitor"
 company = "Meta"
 type = "page"
+max_new = 40            # posts opened per run when catching up
 url = "https://ai.meta.com/blog/"
 home = "https://ai.meta.com/blog/"
 link_pattern = "^/blog/[a-z0-9][a-z0-9-]+/?$"
