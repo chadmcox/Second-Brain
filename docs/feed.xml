@@ -4,7 +4,31 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 07 Oct 2026 18:29:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 18:47:45 +0000</lastBuildDate>
+    <item>
+      <title>[NVIDIA] NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents</title>
+      <link>https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/</link>
+      <guid isPermaLink="false">327e963986a0</guid>
+      <pubDate>Wed, 07 Oct 2026 18:45:28 +0000</pubDate>
+      <description>At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of […]</description>
+    </item>
+    <item>
+      <title>[The Record] Arizona courts say hackers stole info on more than 1.3 million people</title>
+      <link>https://therecord.media/arizona-courts-say-hackers-stole-info-on-over-1-million</link>
+      <guid isPermaLink="false">b729d4f8cf8a</guid>
+      <pubDate>Wed, 07 Oct 2026 18:31:00 +0000</pubDate>
+      <description>The investigation into the incident revealed cybercriminals were able to breach the Fines/Fees and Restitution Enforcement (FARE) Program, a statewide program that helps the court collect outstanding debts tied to traffic and criminal violations.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Copilot Studio Now Builds Agents, Workflows, Apps</title>
+      <link>https://www.youtube.com/shorts/AsXVsH08EGw</link>
+      <guid isPermaLink="false">26c0cf4a17c6</guid>
+      <pubDate>Wed, 07 Oct 2026 18:30:01 +0000</pubDate>
+      <description>What can you build in Copilot Studio now? Agents with your chosen model, skills, connectors, APIs, MCPs, knowledge, and memory, all running on the GitHub Copilot harness. Add multi-step workflows that bring in other agents or people, and full-stack apps you generate with natural language, without writing a single line of code. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started…</description>
+      <category>copilotstudio</category>
+      <category>githubcopilot</category>
+    </item>
     <item>
       <title>[GitHub] Intelligent local model routing is coming to GitHub Copilot</title>
       <link>https://www.youtube.com/watch?v=QIHnmqYU614</link>
@@ -43,6 +67,14 @@
       <guid isPermaLink="false">87f43b6934de</guid>
       <pubDate>Wed, 07 Oct 2026 15:46:17 +0000</pubDate>
       <description>Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft] Discover local models in GitHub Copilot CLI</title>
+      <link>https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli</link>
+      <guid isPermaLink="false">cfd130b4e19f</guid>
+      <pubDate>Wed, 07 Oct 2026 15:46:13 +0000</pubDate>
+      <description>GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running…</description>
       <category>githubcopilot</category>
     </item>
     <item>
@@ -162,6 +194,13 @@
       <pubDate>Wed, 07 Oct 2026 08:07:38 +0000</pubDate>
       <description>Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026. The company said it also found an additional</description>
       <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[CrowdStrike] Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
+      <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
+      <guid isPermaLink="false">ef3a25c289a4</guid>
+      <pubDate>Wed, 07 Oct 2026 05:00:00 +0000</pubDate>
+      <description />
     </item>
     <item>
       <title>[OpenAI] GPT-6 and Intelligent UI for everyone</title>
@@ -588,44 +627,6 @@
       <pubDate>Mon, 05 Oct 2026 06:40:19 +0000</pubDate>
       <description>Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. "CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to</description>
       <category>incidents</category>
-    </item>
-    <item>
-      <title>[CrowdStrike] New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation</title>
-      <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</link>
-      <guid isPermaLink="false">92bfbebf7d75</guid>
-      <pubDate>Mon, 05 Oct 2026 05:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[CrowdStrike] Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365</title>
-      <link>https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</link>
-      <guid isPermaLink="false">3ee2b512c089</guid>
-      <pubDate>Mon, 05 Oct 2026 05:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Microsoft] On-demand malware scanning now supports scanning specific blobs, files, containers, and file shares (GA)</title>
-      <link>https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#october-2026</link>
-      <guid isPermaLink="false">07e110c813dc</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description>On-demand malware scanning in Microsoft Defender for Storage now supports targeted scanning of specific items. Instead of scanning an entire storage account, you can scope scans to a single blob or file, a specific container or file share, or all objects matching a path prefix. You can use filters in the REST API request body to specify which items to scan. When no filters are provided, the scan covers the entire…</description>
-      <category>defender</category>
-    </item>
-    <item>
-      <title>[Microsoft] KSPM misconfiguration recommendations moving to controller-level scope (GA)</title>
-      <link>https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#october-2026</link>
-      <guid isPermaLink="false">010082d21586</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Kubernetes security posture management (KSPM) misconfiguration recommendations are being updated to align their resource scope with Kubernetes workload controllers. Previously, recommendations appeared at the individual running container instance level. They will now appear at the container deployment or top-level controller scope, such as Deployment or StatefulSet. As a result, you might see changes to affected…</description>
-      <category>defender</category>
-    </item>
-    <item>
-      <title>[GitHub] How to protect your repo in 2 minutes with gh-secure</title>
-      <link>https://www.youtube.com/shorts/J3Z6bO3LvUw</link>
-      <guid isPermaLink="false">228c379292d3</guid>
-      <pubDate>Sun, 04 Oct 2026 15:00:37 +0000</pubDate>
-      <description>Just one command can help you stop leaking secrets into your public code. Give your repositories essential security hygiene with gh-secure from the GitHub Security Lab. Install and use it in the Copilot app, Copilot CLI, or GitHub CLI. https://gh.io/gh-secure #GitHubSecurity #GitHubCopilot #GitHub Stay up-to-date on all things GitHub by connecting with us: YouTube: https://gh.io/subgithub Blog: https://github.blog…</description>
-      <category>copilot</category>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T18:29:49Z",
+ "generated": "2026-10-07T18:47:45Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -40,13 +40,7 @@
   },
   {
    "id": "autopilot",
-   "name": "Copilot Autopilot",
-   "theme": false,
-   "scope": "microsoft"
-  },
-  {
-   "id": "scout",
-   "name": "Microsoft Scout",
+   "name": "Copilot Autopilot (formerly Scout)",
    "theme": false,
    "scope": "microsoft"
   },
@@ -106,7 +100,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-07T18:29:49Z",
+  "checked": "2026-10-07T18:47:45Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -203,6 +197,23 @@
     "previous": null
    },
    {
+    "id": "anthropic/claude-haiku-5.5",
+    "lab": "Anthropic",
+    "name": "Claude Haiku 5.5",
+    "input": 0.1,
+    "output": 0.5,
+    "context": 1000000,
+    "about": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use.",
+    "released": "2026-10-07T18:31:23Z",
+    "url": "https://openrouter.ai/anthropic/claude-haiku-5.5",
+    "previous": {
+     "name": "Claude Haiku 4.5",
+     "input": 1.0,
+     "output": 5.0,
+     "change_pct": -90
+    }
+   },
+   {
     "id": "anthropic/claude-sonnet-5.5",
     "lab": "Anthropic",
     "name": "Claude Sonnet 5.5",
@@ -252,18 +263,6 @@
      "output": 50.0,
      "change_pct": 0
     }
-   },
-   {
-    "id": "anthropic/claude-haiku-4.5",
-    "lab": "Anthropic",
-    "name": "Claude Haiku 4.5",
-    "input": 1.0,
-    "output": 5.0,
-    "context": 200000,
-    "about": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models.",
-    "released": "2025-10-15T17:00:38Z",
-    "url": "https://openrouter.ai/anthropic/claude-haiku-4.5",
-    "previous": null
    },
    {
     "id": "google/gemini-3.8-flash",
@@ -614,7 +613,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-07T18:29:49Z",
+  "checked": "2026-10-07T18:47:45Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -643,7 +642,7 @@
     "full_name": "github/awesome-copilot",
     "url": "https://github.com/github/awesome-copilot",
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-    "stars": 39772,
+    "stars": 39773,
     "language": "JavaScript",
     "pushed": "2026-10-07T06:50:56Z",
     "created": "2025-06-11T16:57:39Z",
@@ -654,7 +653,7 @@
     "log": [
      [
       "2026-10-07",
-      39772
+      39773
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1580,7 +1579,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 20
   },
@@ -1594,7 +1593,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 3
   },
@@ -1608,7 +1607,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 19
   },
@@ -1622,7 +1621,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 7
   },
@@ -1636,7 +1635,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 4
   },
@@ -1649,10 +1648,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 1,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
-   "count": 13
+   "count": 14
   },
   {
    "id": "gh-blog-copilot",
@@ -1664,7 +1663,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 11
   },
@@ -1678,7 +1677,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 0
   },
@@ -1692,7 +1691,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 5
   },
@@ -1706,7 +1705,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 0
   },
@@ -1720,7 +1719,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 115
   },
@@ -1733,8 +1732,8 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 14,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 94
   },
@@ -1748,13 +1747,13 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 8
   },
   {
    "id": "learn-scout-whats-new",
-   "name": "What's new in Microsoft Scout",
+   "name": "What's new in Microsoft Scout (now Autopilot)",
    "home": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new",
    "group": "microsoft",
    "company": "",
@@ -1762,7 +1761,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 6
   },
@@ -1775,8 +1774,8 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 3,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 3
   },
@@ -1789,8 +1788,8 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 10,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 10
   },
@@ -1803,8 +1802,8 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 7,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 7
   },
@@ -1817,8 +1816,8 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 2
   },
@@ -1831,8 +1830,8 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 21,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 21
   },
@@ -1846,7 +1845,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 0
   },
@@ -1859,8 +1858,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 110
   },
@@ -1874,7 +1873,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 10
   },
@@ -1888,7 +1887,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 12
   },
@@ -1902,7 +1901,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 27
   },
@@ -1916,7 +1915,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 7
   },
@@ -1930,7 +1929,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 31
   },
@@ -1944,7 +1943,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 3
   },
@@ -1958,7 +1957,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 2
   },
@@ -1972,7 +1971,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 12
   },
@@ -1986,7 +1985,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 11
   },
@@ -1999,10 +1998,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 1,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
-   "count": 5
+   "count": 6
   },
   {
    "id": "nvidia",
@@ -2013,10 +2012,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 1,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
-   "count": 13
+   "count": 14
   },
   {
    "id": "amd",
@@ -2028,7 +2027,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 7
   },
@@ -2042,7 +2041,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 43
   },
@@ -2056,7 +2055,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 10
   },
@@ -2069,10 +2068,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 1,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
-   "count": 4
+   "count": 5
   },
   {
    "id": "bleepingcomputer",
@@ -2084,7 +2083,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 13
   },
@@ -2098,7 +2097,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "",
    "count": 30
   },
@@ -2112,7 +2111,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "UCc3pNIRzIZ8ynI38GO6H01Q",
    "count": 14
   },
@@ -2125,10 +2124,10 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 1,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "UCJ9905MRHxwLZ2jeNQGIWxA",
-   "count": 14
+   "count": 15
   },
   {
    "id": "yt-copilot-studio",
@@ -2140,7 +2139,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "UCn8PsBlVsGUt8J3tZCKsMPA",
    "count": 3
   },
@@ -2154,7 +2153,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "UC4s3tv0Qq_OSUBfR735Jc6A",
    "count": 3
   },
@@ -2168,7 +2167,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "UCsMica-v34Irf9KVTh6xx-g",
    "count": 10
   },
@@ -2181,8 +2180,8 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
    "count": 10
   },
@@ -2196,12 +2195,68 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:29:49Z",
+   "last_ok": "2026-10-07T18:47:45Z",
    "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "count": 9
   }
  ],
  "items": [
+  {
+   "id": "327e963986a0",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+   "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+   "published": "2026-10-07T18:45:28Z",
+   "first_seen": "2026-10-07T18:47:45Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b729d4f8cf8a",
+   "url": "https://therecord.media/arizona-courts-say-hackers-stole-info-on-over-1-million",
+   "title": "Arizona courts say hackers stole info on more than 1.3 million people",
+   "published": "2026-10-07T18:31:00Z",
+   "first_seen": "2026-10-07T18:47:45Z",
+   "source": "therecord",
+   "group": "security",
+   "company": "The Record",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "The investigation into the incident revealed cybercriminals were able to breach the Fines/Fees and Restitution Enforcement (FARE) Program, a statewide program that helps the court collect outstanding debts tied to traffic and criminal violations.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "26c0cf4a17c6",
+   "url": "https://www.youtube.com/shorts/AsXVsH08EGw",
+   "title": "Copilot Studio Now Builds Agents, Workflows, Apps",
+   "published": "2026-10-07T18:30:01Z",
+   "first_seen": "2026-10-07T18:47:45Z",
+   "source": "yt-mechanics",
+   "group": "video",
+   "company": "Microsoft Mechanics",
+   "kind": "video",
+   "topics": [
+    "copilotstudio",
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "What can you build in Copilot Studio now? Agents with your chosen model, skills, connectors, APIs, MCPs, knowledge, and memory, all running on the GitHub Copilot harness. Add multi-step workflows that bring in other agents or people, and full-stack apps you generate with natural language, without writing a single line of code. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
   {
    "id": "3ab018f5b14f",
    "url": "https://www.youtube.com/watch?v=QIHnmqYU614",
@@ -2293,6 +2348,25 @@
    ],
    "status": "ga",
    "excerpt": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "cfd130b4e19f",
+   "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
+   "title": "Discover local models in GitHub Copilot CLI",
+   "published": "2026-10-07T15:46:13Z",
+   "first_seen": "2026-10-07T18:47:45Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -2573,6 +2647,23 @@
    ],
    "status": "",
    "excerpt": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026. The company said it also found an additional",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "ef3a25c289a4",
+   "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
+   "title": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
+   "published": "2026-10-07T05:00:00Z",
+   "first_seen": "2026-10-07T18:47:45Z",
+   "source": "crowdstrike",
+   "group": "competitor",
+   "company": "CrowdStrike",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -4929,7 +5020,7 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "scout"
+    "autopilot"
    ],
    "status": "ga",
    "excerpt": "The updated Service application brings Dynamics 365 Customer Service context, actions, and guided workflows into Scout. Customer service teams can work with service information and take supported actions in the flow of work, reducing the need to switch to Dynamics 365. First-party tools delivered through the Service package on Dynamics 365 MCP respect Dynamics 365 business logic and the user's existing permissions…",
@@ -4950,7 +5041,7 @@
    "topics": [
     "copilot",
     "cowork",
-    "scout"
+    "autopilot"
    ],
    "status": "dev",
    "excerpt": "The updated Service application brings Dynamics 365 Customer Service context, actions, and guided workflows into supported Copilot experiences, including Chat, Cowork, Code, and Scout. Customer service teams can work with service information and take supported actions in the flow of work, reducing the need to switch to Dynamics 365. First-party tools delivered through the Service package on Dynamics 365 MCP respect…",
@@ -13794,7 +13885,7 @@
    "company": "Microsoft",
    "kind": "post",
    "topics": [
-    "scout"
+    "autopilot"
    ],
    "status": "",
    "excerpt": "New features. Review SharePoint list columns and items, and create or update list items.",
@@ -13813,7 +13904,7 @@
    "company": "Microsoft",
    "kind": "post",
    "topics": [
-    "scout"
+    "autopilot"
    ],
    "status": "",
    "excerpt": "New features. Retrieve available Teams meeting transcripts, and find and book meeting rooms.",
@@ -13851,7 +13942,7 @@
    "company": "Microsoft",
    "kind": "post",
    "topics": [
-    "scout"
+    "autopilot"
    ],
    "status": "",
    "excerpt": "New features. Share OneDrive and SharePoint files with specific people, set view or edit access, and check who currently has access, subject to your access and organization policies.",
@@ -13870,7 +13961,7 @@
    "company": "Microsoft",
    "kind": "post",
    "topics": [
-    "scout"
+    "autopilot"
    ],
    "status": "",
    "excerpt": "New features. Turn on Use a GitHub Enterprise host on the sign-in screen to sign in to GitHub Enterprise Cloud (for example, your-org.ghe.com).",
@@ -13927,7 +14018,7 @@
    "company": "Microsoft",
    "kind": "post",
    "topics": [
-    "scout"
+    "autopilot"
    ],
    "status": "",
    "excerpt": "New features. List, create, update, enable, disable, and delete Outlook inbox rules.",
@@ -13965,7 +14056,7 @@
    "company": "Microsoft",
    "kind": "post",
    "topics": [
-    "scout"
+    "autopilot"
    ],
    "status": "",
    "excerpt": "New features. Store Co-Create workspaces in OneDrive or SharePoint.",
