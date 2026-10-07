@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T16:33:19Z",
+ "generated": "2026-10-07T18:26:24Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -41,6 +41,12 @@
   {
    "id": "autopilot",
    "name": "Copilot Autopilot",
+   "theme": false,
+   "scope": "microsoft"
+  },
+  {
+   "id": "scout",
+   "name": "Microsoft Scout",
    "theme": false,
    "scope": "microsoft"
   },
@@ -100,7 +106,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-07T16:33:19Z",
+  "checked": "2026-10-07T18:26:24Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -546,7 +552,7 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "lab": "DeepSeek",
     "name": "DeepSeek V4.1 Flash",
-    "input": 0.05,
+    "input": 0.3,
     "output": 1.2,
     "context": 1048576,
     "about": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
@@ -556,7 +562,7 @@
      "name": "DeepSeek V4 Flash 0731",
      "input": 0.018,
      "output": 1.28,
-     "change_pct": -4
+     "change_pct": 16
     }
    },
    {
@@ -608,7 +614,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-07T16:33:19Z",
+  "checked": "2026-10-07T18:26:24Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -616,7 +622,7 @@
     "full_name": "wshobson/agents",
     "url": "https://github.com/wshobson/agents",
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-    "stars": 40272,
+    "stars": 40270,
     "language": "Python",
     "pushed": "2026-10-05T01:07:11Z",
     "created": "2025-07-24T23:28:14Z",
@@ -627,7 +633,7 @@
     "log": [
      [
       "2026-10-07",
-      40272
+      40270
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -637,7 +643,7 @@
     "full_name": "github/awesome-copilot",
     "url": "https://github.com/github/awesome-copilot",
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-    "stars": 39771,
+    "stars": 39772,
     "language": "JavaScript",
     "pushed": "2026-10-07T06:50:56Z",
     "created": "2025-06-11T16:57:39Z",
@@ -648,7 +654,7 @@
     "log": [
      [
       "2026-10-07",
-      39771
+      39772
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -679,9 +685,9 @@
     "full_name": "jlcodes99/cockpit-tools",
     "url": "https://github.com/jlcodes99/cockpit-tools",
     "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot /…",
-    "stars": 18692,
+    "stars": 18693,
     "language": "Rust",
-    "pushed": "2026-10-07T16:13:23Z",
+    "pushed": "2026-10-07T17:05:24Z",
     "created": "2026-01-16T07:09:32Z",
     "labels": [
      "GitHub Copilot"
@@ -690,7 +696,7 @@
     "log": [
      [
       "2026-10-07",
-      18692
+      18693
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -784,7 +790,7 @@
     "full_name": "microsoft/apm",
     "url": "https://github.com/microsoft/apm",
     "description": "Agent Package Manager",
-    "stars": 3972,
+    "stars": 3973,
     "language": "Python",
     "pushed": "2026-10-06T14:51:27Z",
     "created": "2025-09-18T13:45:22Z",
@@ -795,7 +801,7 @@
     "log": [
      [
       "2026-10-07",
-      3972
+      3973
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -931,7 +937,7 @@
     "full_name": "FrancyJGLisboa/agent-skills-platform",
     "url": "https://github.com/FrancyJGLisboa/agent-skills-platform",
     "description": "Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.",
-    "stars": 2403,
+    "stars": 2402,
     "language": "Python",
     "pushed": "2026-09-15T17:31:46Z",
     "created": "2025-10-18T15:01:46Z",
@@ -942,7 +948,7 @@
     "log": [
      [
       "2026-10-07",
-      2403
+      2402
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1574,7 +1580,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 20
   },
@@ -1588,7 +1594,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 3
   },
@@ -1602,7 +1608,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 19
   },
@@ -1616,7 +1622,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 7
   },
@@ -1630,7 +1636,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 4
   },
@@ -1643,10 +1649,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "new": 2,
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
-   "count": 11
+   "count": 13
   },
   {
    "id": "gh-blog-copilot",
@@ -1657,10 +1663,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "new": 1,
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
-   "count": 10
+   "count": 11
   },
   {
    "id": "ms-security",
@@ -1672,7 +1678,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 0
   },
@@ -1686,7 +1692,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 5
   },
@@ -1700,7 +1706,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 0
   },
@@ -1713,10 +1719,52 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "new": 1,
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
-   "count": 114
+   "count": 115
+  },
+  {
+   "id": "learn-copilot-release-notes",
+   "name": "Microsoft 365 Copilot release notes",
+   "home": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all",
+   "group": "microsoft",
+   "company": "",
+   "type": "learn",
+   "ok": true,
+   "error": "",
+   "new": 80,
+   "last_ok": "2026-10-07T18:26:24Z",
+   "channel_id": "",
+   "count": 80
+  },
+  {
+   "id": "learn-cowork-whats-new",
+   "name": "What's new in Copilot Cowork",
+   "home": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new",
+   "group": "microsoft",
+   "company": "",
+   "type": "learn",
+   "ok": true,
+   "error": "",
+   "new": 8,
+   "last_ok": "2026-10-07T18:26:24Z",
+   "channel_id": "",
+   "count": 8
+  },
+  {
+   "id": "learn-scout-whats-new",
+   "name": "What's new in Microsoft Scout",
+   "home": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new",
+   "group": "microsoft",
+   "company": "",
+   "type": "learn",
+   "ok": true,
+   "error": "",
+   "new": 6,
+   "last_ok": "2026-10-07T18:26:24Z",
+   "channel_id": "",
+   "count": 6
   },
   {
    "id": "openai",
@@ -1728,7 +1776,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 109
   },
@@ -1742,7 +1790,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 10
   },
@@ -1756,7 +1804,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 12
   },
@@ -1770,7 +1818,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 27
   },
@@ -1784,7 +1832,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 7
   },
@@ -1798,7 +1846,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 31
   },
@@ -1812,7 +1860,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 3
   },
@@ -1826,7 +1874,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 2
   },
@@ -1840,7 +1888,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 12
   },
@@ -1854,7 +1902,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 11
   },
@@ -1868,7 +1916,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 5
   },
@@ -1882,7 +1930,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 13
   },
@@ -1896,7 +1944,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 7
   },
@@ -1909,10 +1957,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "new": 1,
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
-   "count": 42
+   "count": 43
   },
   {
    "id": "ms-threat-intel",
@@ -1924,7 +1972,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 10
   },
@@ -1938,7 +1986,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 4
   },
@@ -1952,7 +2000,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 13
   },
@@ -1965,8 +2013,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "",
    "count": 30
   },
@@ -1980,7 +2028,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "UCc3pNIRzIZ8ynI38GO6H01Q",
    "count": 14
   },
@@ -1993,8 +2041,8 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "UCJ9905MRHxwLZ2jeNQGIWxA",
    "count": 14
   },
@@ -2008,7 +2056,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "UCn8PsBlVsGUt8J3tZCKsMPA",
    "count": 3
   },
@@ -2021,8 +2069,8 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "UC4s3tv0Qq_OSUBfR735Jc6A",
    "count": 3
   },
@@ -2035,8 +2083,8 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 3,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "UCsMica-v34Irf9KVTh6xx-g",
    "count": 10
   },
@@ -2049,8 +2097,8 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
    "count": 9
   },
@@ -2063,13 +2111,89 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 4,
-   "last_ok": "2026-10-07T16:33:19Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:26:24Z",
    "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "count": 9
   }
  ],
  "items": [
+  {
+   "id": "c13c9140efc7",
+   "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
+   "title": "Secret protection must scale with software",
+   "published": "2026-10-07T17:45:34Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0825a4897dea",
+   "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+   "title": "Multimodal open d1 decision models for the edge",
+   "published": "2026-10-07T16:54:33Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [
+    "decision-models"
+   ],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5260e9d19f4f",
+   "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
+   "title": "Purpose-built model for leaked secret detection",
+   "published": "2026-10-07T16:13:56Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we’re bringing context-aware…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "87f43b6934de",
+   "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+   "title": "Local sandboxing for GitHub Copilot now generally available",
+   "published": "2026-10-07T15:46:17Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "ga",
+   "excerpt": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
   {
    "id": "35545ae5e825",
    "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
@@ -2936,6 +3060,140 @@
    ],
    "status": "",
    "excerpt": "How do you know an AI agent is ready for production? Evaluations in Copilot Studio run structured tests against your agent using your own conversations, 10 auto-generated tests, or a CSV of test cases. Here, 18 test cases met the evaluation criteria 89% of the time, with results for each test. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started: https://copilotstudio.microsoft.com #Shorts #CopilotStudio…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e6ca4fee8c2d",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Create custom skills in Copilot in PowerPoint",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "PowerPoint. Create custom skills in Copilot in PowerPoint for tailored workflows for your specific presentation needs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e471085646b6",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Edit query string and user identity mapping rules for Copilot connectors",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. Admins can now edit query string and user identity mapping rules directly in connector settings without opening a support ticket.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e1fd734fdfb0",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Admin Center - detailed report on Everyone except external user permissions",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 SharePoint. The new report provides SharePoint Advanced Management admins complete item-level details of permissions granted to special SharePoint groups: Everyone and Everyone except external users.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "bce25b8358c8",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Regenerate response for alternative answers",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. The Regenerate action lets you quickly get an alternative response to your latest prompt using options like Try Again or Switch Model, helping you explore different answers and improve output quality.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "9a622da4f192",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Copilot Analytics - Cowork adoption and impact",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot",
+    "cowork"
+   ],
+   "status": "",
+   "excerpt": "Viva Insights. Deeper insights into Cowork adoption and impact, accessible from Copilot dashboard and Consumption dashboard in the Microsoft 365 services tab. Includes export capability. All metrics can be queried by analysts with the new Consumption query (credit usage data) and through the Person query (Cowork usage data) in advanced insights.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8d8469a16cb5",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "PowerPoint. You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "4c941f41e89c",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Seamless Search and Chat Integration",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Microsoft 365 Chat brings the power of conversational AI directly into Microsoft 365 Copilot Search, enabling users to move effortlessly from finding information to acting on it. Search results become the foundation for contextual chat, allowing you to ask follow-up questions, synthesize insights, and generate content—all in one unified experience. This integration reduces workflow…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -4313,6 +4571,25 @@
    "competes_with": []
   },
   {
+   "id": "974e4e15a73d",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573382",
+   "title": "Dynamics 365 Customer Service: Service tools, skills and plugins are now available for Scout",
+   "published": "2026-09-30T23:31:03Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "scout"
+   ],
+   "status": "ga",
+   "excerpt": "The updated Service application brings Dynamics 365 Customer Service context, actions, and guided workflows into Scout. Customer service teams can work with service information and take supported actions in the flow of work, reducing the need to switch to Dynamics 365. First-party tools delivered through the Service package on Dynamics 365 MCP respect Dynamics 365 business logic and the user's existing permissions…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "83a4e3cdbc1e",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571678",
    "title": "Dynamics 365 Customer Service: Service tools, skills and plugins are now available for Cowork, Code and Scout",
@@ -4324,7 +4601,8 @@
    "kind": "roadmap",
    "topics": [
     "copilot",
-    "cowork"
+    "cowork",
+    "scout"
    ],
    "status": "dev",
    "excerpt": "The updated Service application brings Dynamics 365 Customer Service context, actions, and guided workflows into supported Copilot experiences, including Chat, Cowork, Code, and Scout. Customer service teams can work with service information and take supported actions in the flow of work, reducing the need to switch to Dynamics 365. First-party tools delivered through the Service package on Dynamics 365 MCP respect…",
@@ -6426,6 +6704,502 @@
    "topics": [],
    "status": "",
    "excerpt": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "fd068a4d18a1",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Planner Agent chat",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Introducing built-in Planner Agent chat with natural language Q&A, smart task discovery, and in-plan task management.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "f55a644be41b",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "New profile cards for buildings, rooms and desks",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Buildings, rooms and desks that are added to the Places directory will have new profile cards, accessible from Copilot Chat and across other Microsoft 365 entry points.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e548d35a8add",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Copilot Analytics - Power user insights in Copilot dashboard",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Viva Insights. Understand who is building a habit using Copilot with the new power user insights in Copilot dashboard",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e4bd03e54ba9",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "CarPlay support for the Microsoft Copilot app",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot app. The Microsoft Copilot app is now supported on Apple CarPlay for hands-free use.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e2b20c89b4e5",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Pre-setup guides, editability, actionable errors & alerting support available for Connector admins",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. Pre-setup guides, editability, actionable errors & alerting support available for Connector admins.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d3f8753d4ec0",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Navigate to your workbook changes directly from the Copilot chat pane response",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Excel. In Copilot in Excel, the response contains links to highlight where changes are made in your workbook. Navigate directly to new sheets, tables, ranges, and objects like charts and shapes.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "cb8cc5e3a92e",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Create user-defined custom skills in Copilot in PowerPoint",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "PowerPoint. Create user-defined custom skills in Copilot to tailor assistance to your specific presentation needs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c90f6328983a",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "New Copilot Notebooks design in the Microsoft 365 Copilot App",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot app. The new Copilot Notebooks design in the Microsoft 365 Copilot app now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. While this is the quicker, light-weight Notebooks experience, you can still find…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b7cd28e00765",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Federated Copilot Connectors",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "Microsoft 365 Copilot extensibility. Microsoft is announcing the General Availability (GA) of federated Copilot connectors for Microsoft 365 Copilot. Federated Copilot connectors enable users to securely connect Copilot to popular third-party sources and retrieve data in real time using the Model Context Protocol (MCP). These connectors do not store or index customer data in Microsoft services; access occurs in real…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b737a970ed3f",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "See email attachments as pills in Copilot search results",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. When users search for an email in Microsoft 365 Copilot search, that email's attachments now appear as pills directly on the result, so users can spot and open attachments without opening the email.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b594925aec20",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Integrated extensibility experience capability for declarative agents for Microsoft 365 Copilot available in Copilot Chat in classic Outlook for Windows",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Outlook. We added integrated extensibility experience support for declarative agents in Copilot Chat in Outlook. This release note covers availability in classic Outlook for Windows.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b087477e44d1",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "GitHub Copilot AI cost dashboard in Insights",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot",
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. A centralized dashboard in Insights shows GitHub Copilot AI consumption, cost, and adoption metrics across your organization.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "a3658101f9a7",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "New dedicated License Requests page in Microsoft 365 Admin Center",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 admin center. We are introducing a new dedicated License Requests page in the Microsoft 365 Admin Center to help admins more easily discover, review, and manage Microsoft 365 Copilot license requests submitted by users.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "723af76088d1",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Copilot usage snapshot PBI at day level with fresh data",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Viva Insights. A day level Copilot adoption Power BI report reflecting the most recent copilot activity & freshest insights.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "672774e733f9",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Copilot Enhanced Topic Assignment",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Viva Glint. We're upgrading our topic assignment pipeline to be powered by Copilot, delivering significantly improved accuracy in categorizing survey comments into relevant topics.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "6174c9f69a61",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "People Skills - removal and deletion admin control",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. A new admin control in the People Skills settings lets administrators permanently remove their organization's People Skills data from the tenant. With this new control, organizations can delete their entire skills library along with all users confirmed, inferred, and imported skills data—giving them full control to offboard from People Skills in support of data governance and compliance needs.…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5e3c1ba97933",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Vision in Microsoft 365 Copilot can analyze content shared on desktop screen and through mobile camera",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot app. Vision in Microsoft 365 Copilot helps you make faster, more informed decisions by understanding context from what you share on screen or camera. Copilot can analyze visual inputs from shared desktop screens and provide detailed insights about the content. You can also use vision on mobile during a real-time voice session to share your device camera, front or back, and ask questions about…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "528f37bb22e4",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Delegate complex work with Copilot Cowork",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot",
+    "cowork"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot app. Copilot Cowork helps you delegate complex work by describing the outcome you need. Cowork gathers context from your emails, meetings, chats, files, and business data, works across tools and systems, and returns completed results.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "45d2863bbcbb",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Additional Outlook triage actions in Copilot",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Microsoft 365 Copilot now supports more natural language triage actions in Outlook, including deleting, moving, copying, categorizing messages, and managing inbox rules and folders with confirmation prompts for bulk or mailbox changes.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "44389a9a3ef5",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Find meetings based on topics and keywords",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Copilot will be able to find meetings based on topics or keywords from relevant data like meeting body, chat, and transcription. The search for meetings based on transcript text is based on meetings in last two months.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "4270ff32ac50",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Unlocking Deeper Copilot Insights with Enhanced Power BI Filtering",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Enable Global and Insights admins to turn on additional attributes as filters in Power BI reports, including reserved attributes and your organization’s custom attributes. Users who have access to Power BI reports can then use these newly enabled filters to tailor reports to their business needs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "41a897626739",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "\"Sort by\" filter for Outlook Mail in Copilot search",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Users can now sort Outlook Mail results by date in ascending or descending order within Copilot Search.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2e55cd551cca",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Add references to your Copilot Notebooks from the Quick Access section in Search on the Microsoft Copilot app",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot app. Users can quickly add references to a Copilot Notebook through the Quick Access section in Search on the Microsoft Copilot app.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2c324fdd1555",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "See Copilot usage in show changes pane",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Excel. Users can now view Copilot usage details directly within the Show Changes pane in Excel.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "10bf855b54b2",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Copilot chat pane available in Microsoft Forms",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot Chat. The Copilot chat pane is now built into Microsoft Forms, helping users improve forms and quizzes, draft and send invitations, and analyze responses. Available to Microsoft 365 Copilot licensed business users through the Copilot icon in Forms.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0a7f1f3c5355",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026",
+   "title": "Configure organizational policy link for blocked Microsoft 365 Copilot app",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot app. If your organization blocks the Copilot Chat in the Microsoft 365 Copilot app, you can provide a link to company policy or internal guidance for users who are blocked from accessing Copilot Chat in the Microsoft 365 Copilot app.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -8944,6 +9718,82 @@
    "competes_with": []
   },
   {
+   "id": "ffc046361c51",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#september-2026",
+   "title": "Edit existing Office files",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-cowork-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "cowork"
+   ],
+   "status": "",
+   "excerpt": "Enhancements. Edit Word, Excel, and PowerPoint files in OneDrive and SharePoint while preserving the shared file and its existing version history.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "f271bee477c3",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#september-2026",
+   "title": "GPT 6 Astra model",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-cowork-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "cowork"
+   ],
+   "status": "ga",
+   "excerpt": "New features. GPT 6 Astra is now available in the model selector as the latest model for tough problems.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d7893d263093",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#september-2026",
+   "title": "Claude Fable 5.1 model",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-cowork-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "cowork"
+   ],
+   "status": "ga",
+   "excerpt": "New features. Fable 5.1 is now available in the model selector as the most advanced model for ambitious work, replacing Fable 5.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "cb6a5f1fa0d1",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#september-2026",
+   "title": "Plugins on the mobile app",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-cowork-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "cowork"
+   ],
+   "status": "",
+   "excerpt": "New features. Plugins are discoverable and configurable on the mobile app. To find them, select the attach menu (+) > Skills.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "85562dc16345",
    "url": "https://huggingface.co/blog/webgpu-kernels",
    "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
@@ -8973,6 +9823,25 @@
    "topics": [],
    "status": "",
    "excerpt": "LatchBio evaluated Grok's performance on biosecurity monitoring and adversarial biological tasks. They found that Grok 4.6 detects and refuses dangerous queries more reliably than any other frontier system.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2ead54ae8f8d",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#september-2026",
+   "title": "App skill (Frontier)",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-cowork-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "cowork"
+   ],
+   "status": "frontier",
+   "excerpt": "New features. Create lightweight, interactive apps from a description without writing code. Refine your app in chat, open it, publish it, and share it with people in your organization.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -9382,6 +10251,101 @@
    "competes_with": []
   },
   {
+   "id": "feb4e56e6f4d",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Select models when using Researcher in Copilot Chat",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot Chat. You can now choose supported Researcher models and modes directly within Chat when adding the Researcher agent to your conversation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "f230b7520f68",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Unified web and work chat experience with dedicated Work IQ button",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Use a new Work IQ button located in the top left of the Chat UI to switch access to work data on/off without leaving the chat experience.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "f201b889fa1c",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Enable Sonnet 5 in models menu",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Word. Copilot uses a higher default reasoning level with Sonnet 5 for more accurate drafting and edits.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "de1e0a06a59a",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Outlook Emails in Copilot Notebooks",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Outlook Emails as References in Copilot Notebooks bring email content into the notebook experience, enabling users to ground Copilot in the conversations, decisions, and context that drive their work. By adding emails as knowledge sources, users can connect context from their emails directly to their projects, enriching notebooks beyond files alone and improving downstream outputs like…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d40fa532360c",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Scheduling with Copilot chat in classic Outlook for Windows",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Outlook. Users can now schedule meetings directly from chat or by clicking \"Schedule with Copilot\" in the UI. Simply ask Copilot to schedule a meeting with colleagues, and it will find available times, book rooms, draft agendas, and send invites—all within the chat experience. This feature is available to users with a Microsoft 365 Copilot license.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "cfc376addf8c",
    "url": "https://openai.com/index/introducing-admin-plugin",
    "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
@@ -9399,6 +10363,197 @@
    "competes_with": []
   },
   {
+   "id": "cafbb0a1f0df",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Open Outlook emails within Copilot Chat",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. You can now open Outlook emails directly within any full-app Microsoft 365 Copilot experience for faster browsing and reference.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "baab9c9de71d",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Teams Meetings in Copilot Notebooks",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "OneNote. Meetings as References in Copilot Notebooks bring Teams meeting content into the notebook experience, enabling users to ground Copilot on the discussions, decisions, and context that drive their work. By adding meetings as knowledge sources, users can connect transcripts, notes, chats, and shared content directly to their projects, enriching notebooks beyond files alone and improving downstream outputs like…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b8fc625d616c",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Viva Engage private content in Microsoft 365 Copilot",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Viva Engage content from private communities and events will be used as grounding source for Microsoft 365 Copilot. When a user queries in Microsoft 365 Copilot, they will only be able to see content they are privileged to access.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b1565a99ee6f",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Organizational Messages now supports Hybrid-joined Devices",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 admin center. Organizational Messages now supports Hybrid-joined Devices.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "adec8feb3e52",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Reference an email with when using Copilot in PowerPoint to create a presentation",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "PowerPoint. You can now reference an email when using Copilot in PowerPoint to create a presentation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8d60b241ae54",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Use voice for Q&A during Read Aloud in Word",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Word. Interact in real time with read aloud in Word with Copilot. While your document is being read aloud, you can ask questions with your voice—such as “What does this mean?” or “Summarize this section”—and get answers instantly. No need to pause and search manually. This keeps you in context, reduces interruptions, and helps you understand and act faster.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "85880493e6bc",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Simplified design for the Microsoft 365 Copilot app",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot app. A refreshed design for the Microsoft 365 Copilot web and desktop app simplifies the user experience to drive engagement with Copilot. This includes updates to the chat home screen, chat response layout, and navigation pane.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "6ad6dc7de1d4",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Page steering and auto-triggering of pages on mobile",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot app. Users can now steer, refine, and edit pages using Copilot commands like \"Shorten this page.\" They can also prompt Copilot to auto-create pages from chat, such as \"Create a new page for XYZ.\"",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "654387b7b1e8",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Copilot Chat available when using Copilot Search",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Copilot Chat will be available for Microsoft 365 Copilot users from the side pane on the right-hand side when using Copilot Search in the Microsoft 365 Copilot app. This allows users to engage with Copilot while browsing universal search without switching pages or losing context.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2f9793e15c22",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Generate and edit images in Copilot Cowork",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot",
+    "cowork"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot app. Create and modify images in Copilot Cowork using OpenAI's ChatGPT Images 2.0 model for enhanced visual content generation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "2983dbf79834",
    "url": "https://huggingface.co/blog/gradio-workflow-guide",
    "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
@@ -9411,6 +10566,82 @@
    "topics": [],
    "status": "",
    "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "188c5600c4bb",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Use Python when Editing with Copilot in Excel",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Excel. Edit with Copilot helps you work with Python in Excel by executing Python code for advanced analysis, automation, and data transformation with results outputted directly in your workbook.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0e2c23d80730",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Updated Copilot Notebooks UX",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Users will find an updated, streamlined UX flow within Copilot Notebooks.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "06300239df73",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Explain slide selection during PowerPoint Live with Microsoft 365 Copilot",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "PowerPoint. This feature enhances the PowerPoint Live meeting experience by using Copilot to let attendees select slide text and get explanations for the content.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "00ca74892082",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Work IQ APIs – Unified REST Endpoint for Agents and Workflows",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. Introduces a new REST endpoint for Work IQ that serves as a unified entry point for invoking agents and workflows, providing a consistent, scalable alternative to legacy Copilot Chat endpoints.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -10527,6 +11758,44 @@
    "competes_with": []
   },
   {
+   "id": "d5285a19ef57",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Reference web sources when creating a presentation with Copilot in PowerPoint",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "PowerPoint. You can now ask Copilot in PowerPoint to reference relevant online sources while creating a presentation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c14686ed93dd",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Parallel content and identity crawl improves content freshness",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. Copilot connectors now run content crawl and identity crawl in parallel, making ingested content available to users faster than before.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "b1770b5350ce",
    "url": "https://x.ai/news/introducing-grok-bot",
    "title": "Introducing Grok Bot",
@@ -10539,6 +11808,158 @@
    "topics": [],
    "status": "",
    "excerpt": "Grok Bot is your team of always-on agents. They have their own computer, work inside tools and apps like you do, and keep working 24/7.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "a42e85c6d8e0",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Outlook: Prepare for meetings with Copilot in classic Outlook for Windows",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Outlook. With so many of us in back-to-back meetings, it can be a real struggle to stay on top of pre-reads, action items, and even what each meeting is about. Copilot quickly prepares you for meetings within minutes by bringing real-time insights and summarizing relevant context, tasks, documents, and other resources. You can also chat directly with Copilot to prepare more deeply, to ensure you're ready to go. This…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "80ef98a72b65",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Copilot uses enterprise assets hosted on Adobe Experience Manager when creating presentations",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "PowerPoint. Once you connect your asset library hosted on Adobe Experience Manager to Microsoft 365 and Copilot, Copilot will create presentations using your organization's images.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "718389d047fc",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Consumption Dashboard tracks Copilot credit usage",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Viva Insights. The Consumption Dashboard tracks Copilot credit usage across AI services and provides budget information to managers, analysts, and administrators.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "4102efeeaafd",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Choose Anthropic models when editing with Copilot in Word",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Word. You can choose to select Anthropic models, in addition to OpenAI models, when editing a Word document using Copilot.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3b2ab1329ee8",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Planner Agent in group-based basic plans",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Planner Agent will now be available for Microsoft 365 Copilot licensed users in all group-based Planner plans, including basic plans.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "363f3f304ea2",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Create a presentation with Copilot in PowerPoint directly from the PowerPoint Web App",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "PowerPoint. You can now create a presentation with Copilot in PowerPoint just as you open the PowerPoint web app.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2d41be9ec2e6",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "ServiceNow connectors support role-based permissions",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. ServiceNow Knowledge and Catalog connectors now enforce access permissions based on user roles such as admin, knowledge manager, and knowledge admin.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "1f1cf77b306a",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Outlook: Copilot provides coaching feedback in chat as you draft, edit, and format emails",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Outlook. Copilot now provides coaching feedback on email drafts via chat and can apply suggestions directly to your message in Outlook. Users have the option to choose which suggestions are applied, and Copilot updates your email in place.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -11214,6 +12635,178 @@
    "competes_with": []
   },
   {
+   "id": "ae92f9421b99",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#august-2026",
+   "title": "Local browser use",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-cowork-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "copilot",
+    "cowork"
+   ],
+   "status": "ga",
+   "excerpt": "Enhancements. This feature moved from Frontier to general availability to all Microsoft 365 Copilot tenants. Cowork can complete web tasks for you in Microsoft Edge on your device, using your existing sign-ins and your organization's policies. Requires that Edge is installed.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "ab99c3ef0e4e",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#august-2026",
+   "title": "Event-driven tasks",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-cowork-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "cowork"
+   ],
+   "status": "",
+   "excerpt": "New features. Set up tasks that run when something happens, such as when you receive a matching email or a Teams message (including when you're @mentioned). Describe what to watch for in your message, and Cowork proposes the automation for you to review and confirm. Event-driven tasks appear alongside scheduled prompts on the Automations page.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "979ffa35edea",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#august-2026",
+   "title": "Workspace file input for plugin tools",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-cowork-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "cowork"
+   ],
+   "status": "",
+   "excerpt": "Enhancements. Plugin connector tools can now accept files from your session as input. Plugin authors declare a tool parameter with contentEncoding: base64, and Cowork resolves the workspace file to content before calling the tool—so a tool can convert a document, analyze an image, or attach a file to another system.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "9366bcccdaf3",
+   "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
+   "title": "SharePoint Lists",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-scout-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "scout"
+   ],
+   "status": "",
+   "excerpt": "New features. Review SharePoint list columns and items, and create or update list items.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "79b69627cb31",
+   "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
+   "title": "Teams meeting transcripts and rooms",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-scout-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "scout"
+   ],
+   "status": "",
+   "excerpt": "New features. Retrieve available Teams meeting transcripts, and find and book meeting rooms.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "690feb0eef76",
+   "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
+   "title": "File sharing and access",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-scout-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "scout"
+   ],
+   "status": "",
+   "excerpt": "New features. Share OneDrive and SharePoint files with specific people, set view or edit access, and check who currently has access, subject to your access and organization policies.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "650edfe9c3a7",
+   "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
+   "title": "GitHub Enterprise Cloud sign-in",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-scout-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "scout"
+   ],
+   "status": "",
+   "excerpt": "New features. Turn on Use a GitHub Enterprise host on the sign-in screen to sign in to GitHub Enterprise Cloud (for example, your-org.ghe.com).",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "316e1213a2cc",
+   "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
+   "title": "Outlook inbox rules",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-scout-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "scout"
+   ],
+   "status": "",
+   "excerpt": "New features. List, create, update, enable, disable, and delete Outlook inbox rules.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "1fcdff41fc3d",
+   "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
+   "title": "Cloud-stored Co-Create workspaces",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-scout-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "scout"
+   ],
+   "status": "",
+   "excerpt": "New features. Store Co-Create workspaces in OneDrive or SharePoint.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "46632d714c48",
    "url": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/detecting-cve-2026-54121-certighost-with-microsoft-defender/ba-p/4542861",
    "title": "Detecting CVE-2026-54121 (Certighost) with Microsoft Defender",
@@ -11502,6 +13095,82 @@
    "competes_with": []
   },
   {
+   "id": "d8857843d093",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
+   "title": "Lists in Context IQ",
+   "published": "2026-07-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot Chat. Users will be able to search for and select SharePoint Lists through the Context IQ menu to help ground their prompts when using Copilot Chat.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c8f47b08ae31",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
+   "title": "Admins can now edit user mappings and query filters for ServiceNow Connector",
+   "published": "2026-07-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. Support connection edit of user mapping, query filter for ServiceNow",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "ba1c9d1f9938",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
+   "title": "Surface rich images inline within responses",
+   "published": "2026-07-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Copilot now displays rich images from files and meetings directly within responses to improve comprehension.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "a03ba1a0a5cc",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
+   "title": "Plan and build solutions on SharePoint with Copilot in SharePoint",
+   "published": "2026-07-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 SharePoint. Copilot in SharePoint lets you plan and build SharePoint solutions using natural language commands.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "6d964f10c333",
    "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
    "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
@@ -11519,6 +13188,44 @@
    "competes_with": []
   },
   {
+   "id": "5f3153c0151e",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
+   "title": "Enable adaptive card refresh in custom engine agents",
+   "published": "2026-07-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. Adaptive card refresh now works in custom engine agents, improving dynamic content updates.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "4e788a35ddfd",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
+   "title": "Floating Copilot icon in File Previewer for OneDrive",
+   "published": "2026-07-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 SharePoint. A new Copilot icon button provides a quick, visible entry point to Copilot directly within the file previewer in OneDrive. Positioned at the bottom-right corner (instead of the command bar), this button surfaces contextual prompts tailored to the file type and offers seamless access to Copilot chat, making it easier to get insights and take action without leaving the preview experience.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "4de65930d591",
    "url": "https://x.ai/news/grok-voice-think-fast-2",
    "title": "Introducing Grok Voice Think Fast 2.0",
@@ -11531,6 +13238,102 @@
    "topics": [],
    "status": "",
    "excerpt": "Introducing our most capable speech-to-speech voice model.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "4b08a61d53ff",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
+   "title": "Take Screenshot in Copilot",
+   "published": "2026-07-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot Chat. Give users a fast, built‑in way to capture screenshots and include them in Copilot prompts, helping them communicate visual context more easily and receive more accurate, actionable assistance.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "49fea3bd697c",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
+   "title": "SharePoint list support in Agent Builder",
+   "published": "2026-07-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot",
+    "copilotstudio"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "430cc2a322e6",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
+   "title": "List email attachments in Microsoft 365 Copilot",
+   "published": "2026-07-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot Chat. Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3d1d981da2e2",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
+   "title": "Redesign Overview experience in Copilot notebooks in OneNote",
+   "published": "2026-07-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "OneNote. The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "38e959f44523",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
+   "title": "Redesign Overview experience in Copilot notebooks in OneNote",
+   "published": "2026-07-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot Chat. The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -12477,6 +14280,84 @@
    "competes_with": []
   },
   {
+   "id": "e53ebc83c8dc",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-15-2026",
+   "title": "Access agents with Model Context Protocol in Office apps",
+   "published": "2026-07-15T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot Extensibility. Agents built with the Model Context Protocol (MCP) are available in Word, Excel, PowerPoint, Outlook, and Catalyst.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "bb9fa8b89921",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-15-2026",
+   "title": "Microsoft Edge: v.149 - Modern, unified, and updated Look and Feel",
+   "published": "2026-07-15T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Microsoft Edge will update the Look and Feel to give customers a unified experience across all of Microsoft AI surfaces including Copilot and Bing. This will change multiple elements of the UX such as spacing, corners, fonts, default colors, etc.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b72dd09414cc",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-15-2026",
+   "title": "Copilot Prompt Gallery - Company-wide prompt publishing",
+   "published": "2026-07-15T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot. Organizations can build their own collections of prompts that are tailored to their business needs and workflows and distribute these to all users within the tenant.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "a5aa2319228a",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-15-2026",
+   "title": "Submit agent to Agent Store from Agent Builder",
+   "published": "2026-07-15T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot",
+    "copilotstudio",
+    "agent-registries"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 admin center. Customers can submit their agents built in Agent Builder to the Agent Store under the \"Built by your org\" section, after admin review and approval in Microsoft 365 Admin Center. This governed flow enables admins to review, approve, and publish submitted agents so that they can be discovered and used by others in the Agent Store. This helps organizations share validated agents at scale…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "7a6e0dd34e66",
    "url": "https://x.ai/news/grok-build-open-source",
    "title": "Grok Build is Now Open Source",
@@ -12489,6 +14370,63 @@
    "topics": [],
    "status": "",
    "excerpt": "Explore the harness behind our coding agent and TUI.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "740dfef99ba8",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-15-2026",
+   "title": "Manage Federated Copilot Connectors in Microsoft 365 admin center connectors tab",
+   "published": "2026-07-15T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot Extensibility. Admins can now deploy and manage Federated Copilot Connectors (MCP-based connectors) directly from the Connectors tab under Copilot in the Microsoft 365 admin center.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "503be7ffbeeb",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-15-2026",
+   "title": "Create brand kits from your brand guidelines",
+   "published": "2026-07-15T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot App. Seamlessly create brand kits by uploading your brand guidelines document.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0944c43f491e",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-15-2026",
+   "title": "Admins can manage access more precisely with support for nested permissions in Confluence and ServiceNow",
+   "published": "2026-07-15T00:00:00Z",
+   "first_seen": "2026-10-07T18:26:24Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot Extensibility. Support for hierarchical ACLs for SNOW and Confluence connectors.",
    "summary": "",
    "relevance": "",
    "competes_with": []

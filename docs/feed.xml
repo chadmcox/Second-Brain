@@ -4,7 +4,39 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 07 Oct 2026 16:33:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 18:26:24 +0000</lastBuildDate>
+    <item>
+      <title>[Microsoft] Secret protection must scale with software</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/</link>
+      <guid isPermaLink="false">c13c9140efc7</guid>
+      <pubDate>Wed, 07 Oct 2026 17:45:34 +0000</pubDate>
+      <description>Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Multimodal open d1 decision models for the edge</title>
+      <link>https://huggingface.co/blog/LiquidAI/open-d1</link>
+      <guid isPermaLink="false">0825a4897dea</guid>
+      <pubDate>Wed, 07 Oct 2026 16:54:33 +0000</pubDate>
+      <description />
+      <category>decision-models</category>
+    </item>
+    <item>
+      <title>[Microsoft] Purpose-built model for leaked secret detection</title>
+      <link>https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection</link>
+      <guid isPermaLink="false">5260e9d19f4f</guid>
+      <pubDate>Wed, 07 Oct 2026 16:13:56 +0000</pubDate>
+      <description>Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we’re bringing context-aware…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft] Local sandboxing for GitHub Copilot now generally available</title>
+      <link>https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available</link>
+      <guid isPermaLink="false">87f43b6934de</guid>
+      <pubDate>Wed, 07 Oct 2026 15:46:17 +0000</pubDate>
+      <description>Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure…</description>
+      <category>githubcopilot</category>
+    </item>
     <item>
       <title>[The Hacker News] Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely</title>
       <link>https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html</link>
@@ -595,36 +627,6 @@
       <pubDate>Sat, 03 Oct 2026 14:36:33 +0000</pubDate>
       <description>The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and Carbon Black Threat Hunter Team, has hit critical infrastructure, government, and education organizations. "In the</description>
       <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations</title>
-      <link>https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html</link>
-      <guid isPermaLink="false">3dc5273a31df</guid>
-      <pubDate>Sat, 03 Oct 2026 11:00:00 +0000</pubDate>
-      <description>Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility, control, and the ability to respond to risk at scale. This report examines how core areas of</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[GitHub] Replay: Open Source Friday with Mastra</title>
-      <link>https://www.youtube.com/watch?v=I541TmZiV2Q</link>
-      <guid isPermaLink="false">a99213e5cf26</guid>
-      <pubDate>Sat, 03 Oct 2026 06:20:04 +0000</pubDate>
-      <description>Abhi Aiyer, CTO at Mastra, joins Open Source Friday to talk about building AI applications with TypeScript. Mastra is a TypeScript-first framework for agents, workflows, memory, tools, and MCP. Abhi covers how the project grew out of the Gatsby team's work, demos Mastra Studio with a weather agent, and walks through observability, evals, observational memory, and coding-agent primitives. 0:00 Welcome to Open Source…</description>
-    </item>
-    <item>
-      <title>[Anthropic] Claude Frontier Academy: $100M to train 10,000 engineers</title>
-      <link>https://www.anthropic.com/news/claude-frontier-academy</link>
-      <guid isPermaLink="false">9f2dde650fe4</guid>
-      <pubDate>Fri, 02 Oct 2026 23:01:00 +0000</pubDate>
-      <description>Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.</description>
-    </item>
-    <item>
-      <title>[Microsoft] Copilot code review: API support and new default effort level</title>
-      <link>https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level</link>
-      <guid isPermaLink="false">c50f0986cd4e</guid>
-      <pubDate>Fri, 02 Oct 2026 19:13:50 +0000</pubDate>
-      <description>You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default…</description>
-      <category>githubcopilot</category>
     </item>
   </channel>
 </rss>
