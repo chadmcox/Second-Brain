@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-07T02:30:23Z",
+ "generated": "2026-10-07T02:32:46Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
- "summaries": "stopped after 0: GitHub Models answered HTTP 200 (text/plain) via curl, after urllib got HTTP 200 (text/plain) 'OK\\r\\n' with a body that is not JSON: 'OK\\n'",
+ "summaries": "off until the SUMMARY_ENDPOINT and SUMMARY_API_KEY repository secrets are set",
  "statuses": {
   "ga": "Generally available",
   "preview": "Preview",
@@ -54,7 +54,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 12
   },
   {
@@ -67,7 +67,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 1
   },
   {
@@ -80,7 +80,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 7
   },
   {
@@ -93,7 +93,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 3
   },
   {
@@ -106,7 +106,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 3
   },
   {
@@ -119,7 +119,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 0
   },
   {
@@ -132,7 +132,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 4
   },
   {
@@ -145,7 +145,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 0
   },
   {
@@ -158,7 +158,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 62
   },
   {
@@ -171,7 +171,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 58
   },
   {
@@ -184,7 +184,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 10
   },
   {
@@ -197,7 +197,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 12
   },
   {
@@ -210,7 +210,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 15
   },
   {
@@ -223,7 +223,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 7
   },
   {
@@ -236,7 +236,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 12
   },
   {
@@ -249,7 +249,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 0
   },
   {
@@ -262,7 +262,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 7
   },
   {
@@ -275,7 +275,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 10
   },
   {
@@ -288,7 +288,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:30:23Z",
+   "last_ok": "2026-10-07T02:32:46Z",
    "count": 5
   }
  ],
@@ -4384,6 +4384,7 @@
   "21c4d9567dc3",
   "21f86e2d045a",
   "24f3065d0ad5",
+  "2a6cdd816b0e",
   "39aa86ee035b",
   "3a0b4572422c",
   "3bcb8ce06dde",
@@ -4392,9 +4393,12 @@
   "420ae9b5bcfc",
   "4a1497318d76",
   "4de65930d591",
+  "4f0dc3b05402",
   "51b0395e5456",
   "53b313cc8d71",
+  "57d58bc6e4b5",
   "588f9cc195c1",
+  "5c14792446f5",
   "5d5986221c3c",
   "6258cf13f3d5",
   "6605bff5a015",
@@ -4405,15 +4409,20 @@
   "774843208f32",
   "79ae92d8dc3d",
   "7a6e0dd34e66",
+  "854c9ebb9d9b",
+  "85baf3e38c6a",
+  "92bfe920b288",
   "930a1981a21f",
   "973625546c2e",
   "9de0dd4cab13",
   "9fc4a4963406",
   "a7903de9b5cd",
   "abadfb45f943",
+  "af5489b08890",
   "b1770b5350ce",
   "b298bf870518",
   "b55bb23dbf0c",
+  "b7286a934474",
   "b846f83a598d",
   "bcd1f238be35",
   "bde5e15a43c6",
@@ -4422,7 +4431,9 @@
   "c2c8a1270846",
   "c86cb1ef6e1a",
   "c91966f53c52",
+  "cfcddfa066b0",
   "d3d113bb08b2",
+  "dc256bdc3d4b",
   "dde532a86bfe",
   "e2276f6ee0ea",
   "ec20be66493b",
@@ -4430,6 +4441,7 @@
   "f15e6dd96920",
   "f3631456aedd",
   "f46da8bae972",
+  "f862cdc60e6e",
   "f993eb8e38c0"
  ]
 }
