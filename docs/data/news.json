@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T02:32:46Z",
+ "generated": "2026-10-07T02:40:47Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -17,6 +17,14 @@
   {
    "id": "copilot",
    "name": "Microsoft 365 Copilot"
+  },
+  {
+   "id": "copilotstudio",
+   "name": "Copilot Studio"
+  },
+  {
+   "id": "githubcopilot",
+   "name": "GitHub Copilot"
   },
   {
    "id": "cowork",
@@ -54,7 +62,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 12
   },
   {
@@ -67,7 +75,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 1
   },
   {
@@ -80,7 +88,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 7
   },
   {
@@ -93,7 +101,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 3
   },
   {
@@ -106,8 +114,34 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 3
+  },
+  {
+   "id": "gh-changelog-copilot",
+   "name": "GitHub Changelog: Copilot",
+   "home": "https://github.blog/changelog/label/copilot/",
+   "group": "microsoft",
+   "company": "",
+   "type": "rss",
+   "ok": true,
+   "error": "",
+   "new": 10,
+   "last_ok": "2026-10-07T02:40:47Z",
+   "count": 10
+  },
+  {
+   "id": "gh-blog-copilot",
+   "name": "GitHub Blog: Copilot",
+   "home": "https://github.blog/ai-and-ml/github-copilot/",
+   "group": "microsoft",
+   "company": "",
+   "type": "rss",
+   "ok": true,
+   "error": "",
+   "new": 10,
+   "last_ok": "2026-10-07T02:40:47Z",
+   "count": 10
   },
   {
    "id": "ms-security",
@@ -119,7 +153,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 0
   },
   {
@@ -132,7 +166,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 4
   },
   {
@@ -145,7 +179,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 0
   },
   {
@@ -158,7 +192,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 62
   },
   {
@@ -171,7 +205,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 58
   },
   {
@@ -184,7 +218,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 10
   },
   {
@@ -197,7 +231,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 12
   },
   {
@@ -210,7 +244,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 15
   },
   {
@@ -223,7 +257,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 7
   },
   {
@@ -236,7 +270,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 12
   },
   {
@@ -249,7 +283,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 0
   },
   {
@@ -262,7 +296,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 7
   },
   {
@@ -275,7 +309,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 10
   },
   {
@@ -288,11 +322,31 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:32:46Z",
+   "last_ok": "2026-10-07T02:40:47Z",
    "count": 5
   }
  ],
  "items": [
+  {
+   "id": "bb30d565ebf0",
+   "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+   "title": "Update your IDE to restore agent activity in Copilot usage metrics",
+   "published": "2026-10-06T23:43:00Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "copilot",
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
   {
    "id": "4dd290070848",
    "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
@@ -617,6 +671,25 @@
    "competes_with": []
   },
   {
+   "id": "4b0c57f28723",
+   "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+   "title": "ReviewBench: An open benchmark for AI code review",
+   "published": "2026-10-05T15:59:40Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "8b93b5bfd227",
    "url": "https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/",
    "title": "Making AI training available to UK and Ireland educators",
@@ -761,6 +834,25 @@
    "competes_with": []
   },
   {
+   "id": "c50f0986cd4e",
+   "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+   "title": "Copilot code review: API support and new default effort level",
+   "published": "2026-10-02T19:13:50Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "da784f1db055",
    "url": "https://workspaceupdates.googleblog.com/2026/10/weekly-recap-10-02-2026.html",
    "title": "Google Workspace Weekly Recap - October 2, 2026",
@@ -773,6 +865,25 @@
    "topics": [],
    "status": "",
    "excerpt": "Create more natural, expressive AI voiceovers in Google Vids with upgraded Gemini 3.8 Flash Lite TTS We are upgrading the underlying text-to-speech (TTS) engine powering AI voiceovers and avatar narration in Google Vids to the latest Gemini 3.8 Flash Lite TTS model. | Learn more. Introducing skills in the Gemini app and Workspace, plus what’s next for Gems We recently introduced skills—reusable prompts that guide…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d3c3f6996fb2",
+   "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+   "title": "Selected models in GitHub Copilot deprecated",
+   "published": "2026-10-02T18:24:19Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "retiring",
+   "excerpt": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -867,6 +978,44 @@
    "competes_with": []
   },
   {
+   "id": "819b8b6c47de",
+   "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+   "title": "GitHub Copilot can now interact with desktop apps with computer use",
+   "published": "2026-10-01T19:11:26Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "preview",
+   "excerpt": "Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b33dfcad9023",
+   "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+   "title": "GitHub Copilot in VS Code, September 2026 releases",
+   "published": "2026-10-01T19:09:10Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "7ec2efb426ee",
    "url": "https://www.salesforce.com/news/stories/multiplayer-ai/",
    "title": "Multiplayer AI: The Shift from Smarter Individuals to a Smarter Company",
@@ -879,6 +1028,25 @@
    "topics": [],
    "status": "",
    "excerpt": "Work is a team sport. We can get good results working alone, but when a team gets in a room and focuses on the same problem at the same time, something changes. It can be a real power-up. Slack has fueled that kind of collaboration for a decade. Today, Slack is evolving into what we […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "90b9985c3923",
+   "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
+   "title": "Dynamic workflows in Copilot CLI and the Copilot app",
+   "published": "2026-10-01T16:30:10Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "ga",
+   "excerpt": "Dynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub Copilot SDK. These let you define an orchestration in code to get the reliability and…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -1076,7 +1244,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "Makers can now give their Copilot Studio agents their own accounts, making it a governed Microsoft 365 identity for shared, collaborative business processes that spans across teams. With its own mailbox, Teams presence & Office access, the agent can collaborate where work happens while admins can control and govern its access, policies and use as its own first-class entity. GA date: November CY2026 Preview date…",
@@ -1152,7 +1321,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "Soon agents can help makers improve agents using lessons from completed runs. It will identify repeated tool sequences that can be handled by workflows to standardize agent behavior, minimize errors, and most importantly control costs. Makers will be presented with recommendations and supporting evidence, expected impact, and the related instruction and tool changes. Makers accept recommendations, configure, test…",
@@ -1324,6 +1494,25 @@
    "competes_with": []
   },
   {
+   "id": "40e72bec9edf",
+   "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
+   "title": "HydraFusion in VS Code and the GitHub Copilot app",
+   "published": "2026-09-30T14:31:19Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "preview",
+   "excerpt": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "6a91381a4292",
    "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
    "title": "Disrupting a coordinated model-distillation campaign",
@@ -1352,6 +1541,7 @@
    "kind": "roadmap",
    "topics": [
     "copilot",
+    "copilotstudio",
     "cowork"
    ],
    "status": "dev",
@@ -1373,6 +1563,25 @@
    "topics": [],
    "status": "",
    "excerpt": "Salesforce, the #1 AI CRM, today announced it has signed a definitive agreement to acquire Listen Labs, an AI-powered customer research and human simulation platform. Listen Labs’s AI agents design studies, conduct in-depth research, and synthesize insights, automating the lifecycle of connecting with customers and analyzing their feedback. Listen Labs streamlines this process from months […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "9be84db4b5c5",
+   "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
+   "title": "GPT-6.1 Sol in GitHub Copilot",
+   "published": "2026-09-29T17:02:27Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "ga",
+   "excerpt": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -1542,6 +1751,25 @@
    "competes_with": []
   },
   {
+   "id": "c579283ea8d7",
+   "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+   "title": "Claude Sonnet 5.5 in GitHub Copilot",
+   "published": "2026-09-28T18:03:57Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "ga",
+   "excerpt": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs. In our early…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "8e000442f562",
    "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/evolution-of-the-copilot-pricing-model/ba-p/4559416",
    "title": "Evolution of the Copilot pricing model",
@@ -1588,7 +1816,8 @@
    "company": "Microsoft",
    "kind": "post",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "",
    "excerpt": "Most organizations start in the same place: licenses are provisioned, a handful of enthusiasts begin experimenting, and excitement around AI is high. Yet for most employees, building and using agents remains largely unexplored. The technology is ready, but widespread adoption has yet to follow. The challenge is rarely technical. More often, it is about driving awareness, building confidence, demonstrating value, and…",
@@ -1665,6 +1894,25 @@
    "competes_with": []
   },
   {
+   "id": "123d8dcecccf",
+   "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+   "title": "Enterprise managed settings in-product validator",
+   "published": "2026-09-25T23:24:57Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "d110702adba6",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=570967",
    "title": "Microsoft Power Platform governance and administration: Maker Guidelines",
@@ -1675,7 +1923,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "The Maker guidelines feature gives organizations a direct way to share guidance with Copilot Studio makers in the flow of work. Administrators can explain which tools, models, connectors, and channels are approved for an environment and point makers to the right policy, request process, or support contact. The message appears in the Review pane alongside the agent's blockers and warnings and remains available when…",
@@ -1737,6 +1986,25 @@
    "competes_with": []
   },
   {
+   "id": "aabbcb7a3a47",
+   "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+   "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+   "published": "2026-09-25T18:00:00Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "a4c2c5f85ae0",
    "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/measuring-the-value-of-cowork-from-ai-interactions-to-completed/ba-p/4554464",
    "title": "Measuring the value of Cowork: From AI interactions to completed work",
@@ -1787,7 +2055,8 @@
    "company": "Microsoft",
    "kind": "post",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "",
    "excerpt": "Meet Microsoft Copilot Managed Runtime, an enterprise platform that helps teams build and run apps with security, governance, and IT control.",
@@ -1810,6 +2079,25 @@
    ],
    "status": "dev",
    "excerpt": "Microsoft Copilot in the Dynamics 365 Field Service mobile app brings conversational AI chat capabilities directly to frontline workers. Once enabled, technicians can ask natural-language questions about Dynamics 365 Field Service data and receive contextual answers based on the app experience and their organization’s Dataverse data. With standard capabilities, Dataverse Q&A supports questions such as “What is the…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "234391b377f9",
+   "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+   "title": "When chat is the wrong UI",
+   "published": "2026-09-24T20:00:00Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "What is a developer to do when they need something more tangible than a chat box? Enter canvases.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -1897,6 +2185,25 @@
    "topics": [],
    "status": "",
    "excerpt": "Users now have access to Gemini Omni 1.1 Flash directly within Google Vids. Omni 1.1 provides higher quality video extension with significant improvements in character and audio consistency. Additionally, Vids now supports generating AI videos and upscaling AI videos to 1080p to be publish ready. Omni in Vids user experience Extend scenes with smooth transitions: Make scenes last longer while keeping the visual…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "078c955aa93d",
+   "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+   "title": "Rendering huge pull requests in the GitHub Copilot app",
+   "published": "2026-09-23T18:29:49Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -2140,6 +2447,7 @@
    "kind": "post",
    "topics": [
     "copilot",
+    "copilotstudio",
     "cowork"
    ],
    "status": "",
@@ -2521,6 +2829,25 @@
    "competes_with": []
   },
   {
+   "id": "6e4c7787bb9e",
+   "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+   "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+   "published": "2026-09-17T00:26:43Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "363bbead77de",
    "url": "https://openai.com/index/astra-for-law",
    "title": "Introducing Astra for Law",
@@ -2686,7 +3013,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "Now makers will have clear visibility into their consumption costs directly associated with their evaluations, including a breakdown of usage for eval generation, test runs and model grading/judgement. Makers can see the costs as they test, iterate, and review conversations, making usage transparent throughout the development lifecycle. GA date: September CY2026",
@@ -2743,7 +3071,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "Now makers will have clear visibility into their consumption costs directly within preview tab and agent history for their preview/testing usage as well as all every historical run. Makers can see the costs as they test, iterate, and review conversations, making usage costs transparent throughout the development experience. GA date: September CY2026",
@@ -2800,7 +3129,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "Now makers will have clear visibility into their consumption costs directly within Monitor tab at both a per-agent level and an estimated breakdown of those costs across the agents lifecylce. This will allow makers to see costs distributed across activities such as authoring, testing, evaluations, and production usage, helping connect overall consumption to specific actions and experiences. GA date: September CY2026",
@@ -2957,6 +3287,25 @@
    "competes_with": []
   },
   {
+   "id": "c44b2451dba4",
+   "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+   "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+   "published": "2026-09-11T18:26:10Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "c3aa33826442",
    "url": "https://openai.com/index/cognition-devin-testing-with-astra",
    "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
@@ -2988,6 +3337,25 @@
    ],
    "status": "dev",
    "excerpt": "Copilot Chat can now better match search results from text that appears inside images embedded in Word and PowerPoint files is user's working files — such as scanned contracts in Word, text from tables, text from images — content that was previously difficult to search and find. GA date: October CY2026",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "aa97fe2ce391",
+   "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+   "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+   "published": "2026-09-10T21:31:19Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "preview",
+   "excerpt": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3040,6 +3408,7 @@
    "kind": "post",
    "topics": [
     "copilot",
+    "copilotstudio",
     "cowork"
    ],
    "status": "",
@@ -3077,6 +3446,7 @@
    "kind": "post",
    "topics": [
     "copilot",
+    "copilotstudio",
     "cowork"
    ],
    "status": "",
@@ -3396,10 +3766,30 @@
    "kind": "post",
    "topics": [
     "copilot",
+    "copilotstudio",
     "cowork"
    ],
    "status": "ga",
    "excerpt": "GPT-6 Astra joins the frontier models available in Copilot Cowork and Copilot Studio, giving customers more choice for complex work they want to delegate to AI. Astra expands the range of work that can be handed off to Copilot. Instead of breaking work into smaller pieces and guiding it step by step, you can delegate larger tasks and focus your time on reviewing results, making decisions, and moving work forward. As…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "87ef5c15d39b",
+   "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+   "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+   "published": "2026-09-04T16:04:14Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "preview",
+   "excerpt": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3437,6 +3827,25 @@
    ],
    "status": "",
    "excerpt": "Welcome to the August 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and efficient in the apps they use every day. Let’s take a closer look at what’s new this month: User capabilities: More control for effort level and cost in Cowork Text selections…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c18b3bb292c9",
+   "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+   "title": "GitHub Copilot app for Beginners: Run several agents at once",
+   "published": "2026-09-03T16:00:00Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3571,7 +3980,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "Copilot Studio is evolving to an app-first agent creation experience. Makers start with the application their agent will work with and configure the capabilities it needs. This update brings tools and knowledge into a more unified experience, simplifying how agents are created and configured. GA date: October CY2026",
@@ -3590,10 +4000,30 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "Copilot Studio agents can now render rich, interactive UI inline using MCP Apps, an extension of the Model Context Protocol. When an agent calls a UI-enabled tool from a compatible MCP server, interactive experiences like sortable tables and drilldowns render directly in the conversation. Users can now explore and act on data without leaving the chat or switching tools. A plain-text fallback keeps the agent working…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0461be447f8d",
+   "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+   "title": "How we make AI coding more cost efficient without sacrificing task quality",
+   "published": "2026-09-02T18:00:00Z",
+   "first_seen": "2026-10-07T02:40:47Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3628,7 +4058,8 @@
    "company": "Microsoft",
    "kind": "post",
    "topics": [
-    "copilot"
+    "copilotstudio",
+    "githubcopilot"
    ],
    "status": "",
    "excerpt": "Explore the latest Copilot Studio updates, including the GitHub Copilot harness and new ways for agents to use skills, enterprise knowledge, and more.",
@@ -3682,6 +4113,7 @@
    "kind": "post",
    "topics": [
     "copilot",
+    "copilotstudio",
     "cowork"
    ],
    "status": "ga",
@@ -3792,7 +4224,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "Copilot Studio now let’s makers require human approval before an agent runs specific tools. With a per-tool, per-agent toggle, any gated tool call pauses and shows an approval request describing what the agent intends to do, so a person can approve, approve for the session, or deny before the action runs. This gives organizations a deterministic guardrail for high-stakes or sensitive operations like sending emails…",
@@ -3869,7 +4302,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "This update is meant to bridge the experience of using Copilot Studio agents in M365 Copilot with the Copilot Chat experience. With these updates, agent responses in Copilot Chat will look (similar formatting, compressed chain of thought), feel (smoother streaming, resume/retry and voice dictation) and behave (deliver clickable citations and tool execution traces) very similarly to Copilot Chat responses themselves.…",
@@ -4100,7 +4534,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "Enables sharing of agents with other makers in the new GHCP harness. Makers can grant other makers Agent Viewer (view analytics/evaluations only) or Editor (view, edit, configure, share, publish) access to an agent, with auto-assigned security roles. GA date: October CY2026 Preview date: September CY2026",
@@ -4207,7 +4642,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "copilot"
+    "copilot",
+    "copilotstudio"
    ],
    "status": "dev",
    "excerpt": "Configure the connectors your agent needs, with a simple in-chat sign-in instead of a full settings experience. GA date: September CY2026",
@@ -4375,6 +4811,8 @@
   "0173ac5f251d",
   "0368a1148022",
   "04411cc50484",
+  "08b309f8cc66",
+  "0ba4fe7ff0ce",
   "0bc8c8213ee1",
   "0d2817854dc7",
   "1410b1a514a7",
@@ -4385,16 +4823,20 @@
   "21f86e2d045a",
   "24f3065d0ad5",
   "2a6cdd816b0e",
+  "2db767bb8e7d",
+  "35f668e71f34",
   "39aa86ee035b",
   "3a0b4572422c",
   "3bcb8ce06dde",
   "3c5753723cca",
   "3f215c8c1541",
   "420ae9b5bcfc",
+  "493bf5935eda",
   "4a1497318d76",
   "4de65930d591",
   "4f0dc3b05402",
   "51b0395e5456",
+  "51cd17c95d4b",
   "53b313cc8d71",
   "57d58bc6e4b5",
   "588f9cc195c1",
@@ -4402,17 +4844,20 @@
   "5d5986221c3c",
   "6258cf13f3d5",
   "6605bff5a015",
+  "666b2774ae49",
   "676577ce317b",
   "6fd6d2da5a36",
   "74e694667f61",
   "750b59cf8263",
   "774843208f32",
   "79ae92d8dc3d",
+  "79b5674bbe85",
   "7a6e0dd34e66",
   "854c9ebb9d9b",
   "85baf3e38c6a",
   "92bfe920b288",
   "930a1981a21f",
+  "954a71b68d4f",
   "973625546c2e",
   "9de0dd4cab13",
   "9fc4a4963406",
@@ -4433,6 +4878,7 @@
   "c91966f53c52",
   "cfcddfa066b0",
   "d3d113bb08b2",
+  "dbd65cf0b1df",
   "dc256bdc3d4b",
   "dde532a86bfe",
   "e2276f6ee0ea",
@@ -4441,6 +4887,7 @@
   "f15e6dd96920",
   "f3631456aedd",
   "f46da8bae972",
+  "f5f44eb67ae6",
   "f862cdc60e6e",
   "f993eb8e38c0"
  ]
