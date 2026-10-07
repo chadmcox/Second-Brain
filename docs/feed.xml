@@ -4,7 +4,7 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 07 Oct 2026 04:22:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 04:45:00 +0000</lastBuildDate>
     <item>
       <title>[Microsoft] Update your IDE to restore agent activity in Copilot usage metrics</title>
       <link>https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics</link>
@@ -107,6 +107,13 @@
       <description>Four people are seated on chairs during a panel discussion on stage in front of a screen.</description>
     </item>
     <item>
+      <title>[NVIDIA] Why Telecom Operators Are Building Their AI Strategy on Open Models</title>
+      <link>https://blogs.nvidia.com/blog/telecom-operators-open-models/</link>
+      <guid isPermaLink="false">c84805ae92ec</guid>
+      <pubDate>Tue, 06 Oct 2026 13:00:19 +0000</pubDate>
+      <description>Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with […]</description>
+    </item>
+    <item>
       <title>[Mistral] Introducing Mistral Large 4</title>
       <link>https://mistral.ai/news/mistral-large-4/</link>
       <guid isPermaLink="false">8eda8214ccb1</guid>
@@ -175,6 +182,13 @@
       <pubDate>Tue, 06 Oct 2026 06:56:57 +0000</pubDate>
       <description>The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. "To date, our review has determined that the incident occurred as the result of a security failure</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance</title>
+      <link>https://huggingface.co/blog/tiiuae/falcon-emirati</link>
+      <guid isPermaLink="false">085f7195b66f</guid>
+      <pubDate>Tue, 06 Oct 2026 06:44:39 +0000</pubDate>
+      <description />
     </item>
     <item>
       <title>[CrowdStrike] Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers</title>
@@ -289,6 +303,13 @@
       <category>incidents</category>
     </item>
     <item>
+      <title>[NVIDIA] From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps</title>
+      <link>https://blogs.nvidia.com/blog/ai-breast-cancer-startups/</link>
+      <guid isPermaLink="false">c2f51f56b801</guid>
+      <pubDate>Mon, 05 Oct 2026 13:00:57 +0000</pubDate>
+      <description>Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms with fewer colleagues. And when a diagnosis arrives, the tests that inform treatment can take weeks to return results. […]</description>
+    </item>
+    <item>
       <title>[The Hacker News] The Credential Layer Is Expanding Faster Than Security Teams Can See It</title>
       <link>https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html</link>
       <guid isPermaLink="false">20616b5d110d</guid>
@@ -348,6 +369,13 @@
       <pubDate>Sun, 04 Oct 2026 07:20:32 +0000</pubDate>
       <description>A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a</description>
       <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Hugging Face] The Agent Said It Was Done. The Database Disagreed.</title>
+      <link>https://huggingface.co/blog/microsoft/thinkingbox</link>
+      <guid isPermaLink="false">89764eae0099</guid>
+      <pubDate>Sat, 03 Oct 2026 22:56:48 +0000</pubDate>
+      <description />
     </item>
     <item>
       <title>[The Hacker News] Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware</title>
@@ -418,6 +446,20 @@
       <description>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</description>
     </item>
     <item>
+      <title>[Hugging Face] Open-sourcing AstaBrief, the fast report-generation model in Asta</title>
+      <link>https://huggingface.co/blog/allenai/astabrief</link>
+      <guid isPermaLink="false">d599f0a282be</guid>
+      <pubDate>Fri, 02 Oct 2026 15:19:50 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[NVIDIA] NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI</title>
+      <link>https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/</link>
+      <guid isPermaLink="false">1f284fec3a90</guid>
+      <pubDate>Fri, 02 Oct 2026 13:00:39 +0000</pubDate>
+      <description>Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, […]</description>
+    </item>
+    <item>
       <title>[The Hacker News] OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling</title>
       <link>https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html</link>
       <guid isPermaLink="false">7732b6c00457</guid>
@@ -434,11 +476,25 @@
       <category>incidents</category>
     </item>
     <item>
+      <title>[Hugging Face] AutoSynthData: Generating Training Data for Enterprise Agents</title>
+      <link>https://huggingface.co/blog/ServiceNow-AI/autosynthdata</link>
+      <guid isPermaLink="false">a885ed61f54a</guid>
+      <pubDate>Fri, 02 Oct 2026 04:01:31 +0000</pubDate>
+      <description />
+    </item>
+    <item>
       <title>[OpenAI] Chatham scales its capital markets expertise with OpenAI</title>
       <link>https://openai.com/index/chatham-financial</link>
       <guid isPermaLink="false">a97398f76ee5</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <description>Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.</description>
+    </item>
+    <item>
+      <title>[NVIDIA] How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast</title>
+      <link>https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/</link>
+      <guid isPermaLink="false">c68e4b407e02</guid>
+      <pubDate>Thu, 01 Oct 2026 23:44:13 +0000</pubDate>
+      <description>GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, […]</description>
     </item>
     <item>
       <title>[Microsoft] What’s New in Microsoft Copilot | September 2026</title>
@@ -525,6 +581,13 @@
       <description>Key Takeaways Salesforce customers across industries recently described their agentic rollouts, sharing what worked, what surprised them, and what they’d tell others just getting started on their own AI journeys. A clear pattern emerged. Customers seeing real results don’t just deploy. They listen to their users, define success, and build the guardrails to sustain it. […]</description>
     </item>
     <item>
+      <title>[NVIDIA] Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment</title>
+      <link>https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/</link>
+      <guid isPermaLink="false">2d4cb7a285af</guid>
+      <pubDate>Thu, 01 Oct 2026 13:00:49 +0000</pubDate>
+      <description>AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year […]</description>
+    </item>
+    <item>
       <title>[The Hacker News] OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates</title>
       <link>https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html</link>
       <guid isPermaLink="false">c698c79d197c</guid>
@@ -547,74 +610,6 @@
       <pubDate>Thu, 01 Oct 2026 05:21:10 +0000</pubDate>
       <description>Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. "Their investigation identified malicious activity involving third-party security products, including a zero-day vulnerability, and recovered a customized tool used by the attacker</description>
       <category>incidents</category>
-    </item>
-    <item>
-      <title>[OpenAI] The Den frees up 10-15 hours a week to grow with ChatGPT Work</title>
-      <link>https://openai.com/index/the-den-family-social</link>
-      <guid isPermaLink="false">3bba52758573</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <description>As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.</description>
-    </item>
-    <item>
-      <title>[Microsoft] Available today: OpenAI's GPT-6.1 Sol and Claude Sonnet 5.5 in Microsoft Copilot</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-1-sol-and-claude-sonnet-5-5-in/ba-p/4560801</link>
-      <guid isPermaLink="false">08174d195a33</guid>
-      <pubDate>Wed, 30 Sep 2026 23:28:22 +0000</pubDate>
-      <description>Earlier this month, Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Sol joined model choice in Microsoft Copilot. Now, we're continuing to expand that choice by bringing GPT-6.1 Sol and Claude Sonnet 5.5 to Microsoft Copilot, giving users more model options for how they delegate work to Copilot. As customers take on different kinds of work with Copilot, expanded model choice gives them more flexibility to choose the…</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[Google] Gemini 4 Argon: our next era of frontier intelligence</title>
-      <link>https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/</link>
-      <guid isPermaLink="false">15e70ee5e4a7</guid>
-      <pubDate>Wed, 30 Sep 2026 20:01:45 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Microsoft] Introducing the plugin registry - one place to discover and govern plugins for Microsoft Copilot</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/introducing-the-plugin-registry-one-place-to-discover-and-govern/ba-p/4559682</link>
-      <guid isPermaLink="false">44f33e988dc0</guid>
-      <pubDate>Wed, 30 Sep 2026 19:11:46 +0000</pubDate>
-      <description>On September 25, we introduced the new Microsoft Copilot to connect the tools people rely on with the next generation of capabilities they’ll need to build, customize and scale AI across work. Agents in Copilot already help you work with your organization’s knowledge and automate business processes. Now, we’re giving you more ways to customize Copilot with plugins that contain skills, connectors, and agents, adding…</description>
-      <category>copilot</category>
-      <category>agent-registries</category>
-    </item>
-    <item>
-      <title>[Salesforce] Salesforce has built the TSA a new AI agent to make travelling less awful for everyone</title>
-      <link>https://www.salesforce.com/news/linked-content/salesforce-has-built-the-tsa-a-new-ai-agent-to-make-travelling-less-awful-for-everyone/</link>
-      <guid isPermaLink="false">954adbe7b658</guid>
-      <pubDate>Wed, 30 Sep 2026 17:00:06 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Google] Introducing skills in the Gemini app and Workspace, plus what’s next for Gems</title>
-      <link>https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html</link>
-      <guid isPermaLink="false">5d832f423fde</guid>
-      <pubDate>Wed, 30 Sep 2026 16:11:32 +0000</pubDate>
-      <description>We recently introduced skills—reusable prompts that guide Gemini—in the Gemini app and Google Workspace. Over the coming weeks, skills will roll out to Workspace users and eventually replace Gems as the tool for tailoring instructions for specific tasks. Read on for more details on skills, plus critical information and dates related to the transition away from Gems in the Gemini app, Workspace, Google Classroom, and…</description>
-    </item>
-    <item>
-      <title>[Microsoft] What's new in Agent 365 - September 2026</title>
-      <link>https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-september-2026/ba-p/4560803</link>
-      <guid isPermaLink="false">934e6ee1233e</guid>
-      <pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
-      <description>Since launching Agent 365 in May 2026, nearly 50 million agents have been registered across tens of thousands of organizations. As agent adoption accelerates, IT and security teams are looking beyond simple visibility and governance to a new challenge: understanding which agents are delivering value, where resources are being spent, and how to optimize a growing agent estate at scale. This month’s Agent 365 updates…</description>
-      <category>agent365</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager</title>
-      <link>https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html</link>
-      <guid isPermaLink="false">31db54260bd2</guid>
-      <pubDate>Wed, 30 Sep 2026 15:24:54 +0000</pubDate>
-      <description>Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround. It carries a</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Google] Introducing SynthID Bio</title>
-      <link>https://deepmind.google/blog/introducing-synthid-bio/</link>
-      <guid isPermaLink="false">0a622a33b8e3</guid>
-      <pubDate>Wed, 30 Sep 2026 15:03:07 +0000</pubDate>
-      <description>Proof of concept for watermarking AI-generated proteins while preserving biological function.</description>
     </item>
   </channel>
 </rss>

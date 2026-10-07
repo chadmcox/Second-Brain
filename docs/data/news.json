@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T04:22:03Z",
+ "generated": "2026-10-07T04:45:00Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -100,7 +100,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-07T04:22:03Z",
+  "checked": "2026-10-07T04:45:00Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -608,7 +608,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-07T04:22:03Z",
+  "checked": "2026-10-07T04:45:00Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -637,9 +637,9 @@
     "full_name": "github/awesome-copilot",
     "url": "https://github.com/github/awesome-copilot",
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-    "stars": 39748,
+    "stars": 39749,
     "language": "JavaScript",
-    "pushed": "2026-10-07T04:18:17Z",
+    "pushed": "2026-10-07T04:24:18Z",
     "created": "2025-06-11T16:57:39Z",
     "labels": [
      "GitHub Copilot"
@@ -648,7 +648,7 @@
     "log": [
      [
       "2026-10-07",
-      39748
+      39749
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -679,7 +679,7 @@
     "full_name": "jlcodes99/cockpit-tools",
     "url": "https://github.com/jlcodes99/cockpit-tools",
     "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot /…",
-    "stars": 18676,
+    "stars": 18678,
     "language": "Rust",
     "pushed": "2026-10-01T17:54:44Z",
     "created": "2026-01-16T07:09:32Z",
@@ -690,7 +690,7 @@
     "log": [
      [
       "2026-10-07",
-      18676
+      18678
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1574,7 +1574,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 20
   },
   {
@@ -1587,7 +1587,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 3
   },
   {
@@ -1600,7 +1600,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 19
   },
   {
@@ -1613,7 +1613,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 7
   },
   {
@@ -1626,7 +1626,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 4
   },
   {
@@ -1639,7 +1639,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 10
   },
   {
@@ -1652,7 +1652,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 10
   },
   {
@@ -1665,7 +1665,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 0
   },
   {
@@ -1678,7 +1678,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 5
   },
   {
@@ -1691,7 +1691,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 0
   },
   {
@@ -1704,7 +1704,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 114
   },
   {
@@ -1716,8 +1716,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 3,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "new": 0,
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 109
   },
   {
@@ -1730,7 +1730,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 10
   },
   {
@@ -1743,7 +1743,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 12
   },
   {
@@ -1756,7 +1756,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 27
   },
   {
@@ -1769,7 +1769,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 7
   },
   {
@@ -1782,7 +1782,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 31
   },
   {
@@ -1795,7 +1795,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 3
   },
   {
@@ -1808,7 +1808,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 2
   },
   {
@@ -1821,7 +1821,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 12
   },
   {
@@ -1834,7 +1834,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 10
   },
   {
@@ -1847,8 +1847,47 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 5
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA Blog",
+   "home": "https://blogs.nvidia.com/",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "type": "rss",
+   "ok": true,
+   "error": "",
+   "new": 13,
+   "last_ok": "2026-10-07T04:45:00Z",
+   "count": 13
+  },
+  {
+   "id": "amd",
+   "name": "AMD Press Releases",
+   "home": "https://ir.amd.com/news-events/press-releases",
+   "group": "competitor",
+   "company": "AMD",
+   "type": "rss",
+   "ok": true,
+   "error": "",
+   "new": 7,
+   "last_ok": "2026-10-07T04:45:00Z",
+   "count": 7
+  },
+  {
+   "id": "huggingface",
+   "name": "Hugging Face Blog",
+   "home": "https://huggingface.co/blog",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "type": "rss",
+   "ok": true,
+   "error": "",
+   "new": 40,
+   "last_ok": "2026-10-07T04:45:00Z",
+   "count": 40
   },
   {
    "id": "ms-threat-intel",
@@ -1860,7 +1899,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 10
   },
   {
@@ -1873,7 +1912,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 2
   },
   {
@@ -1886,7 +1925,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 9
   },
   {
@@ -1899,7 +1938,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:22:03Z",
+   "last_ok": "2026-10-07T04:45:00Z",
    "count": 25
   }
  ],
@@ -2144,6 +2183,23 @@
    "competes_with": []
   },
   {
+   "id": "c84805ae92ec",
+   "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+   "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+   "published": "2026-10-06T13:00:19Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "8eda8214ccb1",
    "url": "https://mistral.ai/news/mistral-large-4/",
    "title": "Introducing Mistral Large 4",
@@ -2305,6 +2361,23 @@
    ],
    "status": "",
    "excerpt": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. \"To date, our review has determined that the incident occurred as the result of a security failure",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "085f7195b66f",
+   "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+   "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+   "published": "2026-10-06T06:44:39Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -2577,6 +2650,23 @@
    "competes_with": []
   },
   {
+   "id": "c2f51f56b801",
+   "url": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
+   "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
+   "published": "2026-10-05T13:00:57Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms with fewer colleagues. And when a diagnosis arrives, the tests that inform treatment can take weeks to return results. […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "20616b5d110d",
    "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
    "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
@@ -2718,6 +2808,23 @@
    ],
    "status": "",
    "excerpt": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "89764eae0099",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+   "title": "The Agent Said It Was Done. The Database Disagreed.",
+   "published": "2026-10-03T22:56:48Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -2962,6 +3069,40 @@
    "competes_with": []
   },
   {
+   "id": "d599f0a282be",
+   "url": "https://huggingface.co/blog/allenai/astabrief",
+   "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+   "published": "2026-10-02T15:19:50Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "1f284fec3a90",
+   "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+   "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+   "published": "2026-10-02T13:00:39Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "7732b6c00457",
    "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
    "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
@@ -3000,6 +3141,23 @@
    "competes_with": []
   },
   {
+   "id": "a885ed61f54a",
+   "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+   "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+   "published": "2026-10-02T04:01:31Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "a97398f76ee5",
    "url": "https://openai.com/index/chatham-financial",
    "title": "Chatham scales its capital markets expertise with OpenAI",
@@ -3012,6 +3170,23 @@
    "topics": [],
    "status": "",
    "excerpt": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c68e4b407e02",
+   "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+   "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+   "published": "2026-10-01T23:44:13Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "ga",
+   "excerpt": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, […]",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3231,6 +3406,23 @@
    "topics": [],
    "status": "",
    "excerpt": "Key Takeaways Salesforce customers across industries recently described their agentic rollouts, sharing what worked, what surprised them, and what they’d tell others just getting started on their own AI journeys. A clear pattern emerged. Customers seeing real results don’t just deploy. They listen to their users, define success, and build the guardrails to sustain it. […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2d4cb7a285af",
+   "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
+   "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
+   "published": "2026-10-01T13:00:49Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year […]",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3706,6 +3898,23 @@
    "competes_with": []
   },
   {
+   "id": "9c486db49df6",
+   "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+   "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+   "published": "2026-09-30T15:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "40e72bec9edf",
    "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
    "title": "HydraFusion in VS Code and the GitHub Copilot app",
@@ -3816,6 +4025,23 @@
    "competes_with": []
   },
   {
+   "id": "581ab3112c30",
+   "url": "https://huggingface.co/blog/open-tts-leaderboard",
+   "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+   "published": "2026-09-30T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "297821855237",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571880",
    "title": "Microsoft Copilot Studio: Discover & Add Skills from the skill catalog",
@@ -3907,6 +4133,23 @@
    "competes_with": []
   },
   {
+   "id": "493cf3fce1b8",
+   "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+   "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+   "published": "2026-09-29T15:30:38Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "67240f041651",
    "url": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/sign-in-to-microsoft-apps-with-passkeys-from-external-identity/ba-p/4556448",
    "title": "Sign in to Microsoft apps with passkeys from external identity providers",
@@ -3938,6 +4181,23 @@
    "topics": [],
    "status": "",
    "excerpt": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "984223f109f3",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+   "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+   "published": "2026-09-29T13:07:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -4090,6 +4350,23 @@
    "competes_with": []
   },
   {
+   "id": "29d9216db5ff",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+   "title": "AMD to Acquire World Labs to Advance the Future of AI Compute",
+   "published": "2026-09-28T20:05:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "amd",
+   "group": "competitor",
+   "company": "AMD",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "c579283ea8d7",
    "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
    "title": "Claude Sonnet 5.5 in GitHub Copilot",
@@ -4182,6 +4459,23 @@
    "competes_with": []
   },
   {
+   "id": "9552195c964d",
+   "url": "https://huggingface.co/blog/Hcompany/holo4",
+   "title": "Holo4: powering generalist computer-use agents",
+   "published": "2026-09-28T09:44:05Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "330df04f27e6",
    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/",
    "title": "A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack",
@@ -4228,6 +4522,23 @@
    "topics": [],
    "status": "",
    "excerpt": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "a30a6af008de",
+   "url": "https://huggingface.co/blog/rl-environments",
+   "title": "Welcome RL Environments to the hub",
+   "published": "2026-09-28T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -4567,6 +4878,23 @@
    "competes_with": []
   },
   {
+   "id": "c2a53f233272",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+   "published": "2026-09-24T14:08:57Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "554d138912e8",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=569018",
    "title": "PowerPoint: Skills in Brand Kit",
@@ -4834,6 +5162,23 @@
    "competes_with": []
   },
   {
+   "id": "301ba2c6df75",
+   "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+   "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+   "published": "2026-09-23T02:30:22Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partners are showcasing breakthrough AI advancements across the Southeast Asia region […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "73fafdf6f45f",
    "url": "https://openai.com/index/airbnb-gpt-6-astra",
    "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
@@ -4944,6 +5289,23 @@
    "competes_with": []
   },
   {
+   "id": "193bdb306b4d",
+   "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+   "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+   "published": "2026-09-22T12:00:41Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "ce45d8dc0f6c",
    "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
    "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
@@ -4961,6 +5323,23 @@
    "competes_with": []
   },
   {
+   "id": "fb8ad85c459c",
+   "url": "https://huggingface.co/blog/omlx",
+   "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+   "published": "2026-09-22T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "c485f3f61a99",
    "url": "https://x.ai/news/grok-bot-customer-support",
    "title": "How SpaceXAI is using Grok Bot to scale customer support",
@@ -4973,6 +5352,40 @@
    "topics": [],
    "status": "",
    "excerpt": "We rebuilt the combined SpaceXAI and Cursor support operation around Grok Bot, expanding to a much broader product portfolio without adding headcount.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "98acfe91fd30",
+   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+   "title": "Transformers now runs llama.cpp quants",
+   "published": "2026-09-22T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2960c64a019e",
+   "url": "https://huggingface.co/blog/evaleval-aisi",
+   "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+   "published": "2026-09-22T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -5016,6 +5429,23 @@
    "competes_with": []
   },
   {
+   "id": "9ee6cf4f42f1",
+   "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+   "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+   "published": "2026-09-21T18:00:07Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "6d417ad6063f",
    "url": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/prepare-your-tenant-estate-for-ai-join-our-upcoming-webinars/ba-p/4554525",
    "title": "Prepare your tenant estate for AI: Join our upcoming webinars",
@@ -5035,6 +5465,57 @@
    "competes_with": []
   },
   {
+   "id": "173eb9a2ab25",
+   "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+   "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+   "published": "2026-09-21T16:00:46Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2776c8ddc12b",
+   "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+   "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+   "published": "2026-09-21T16:00:10Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "dd63189f99f4",
+   "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+   "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+   "published": "2026-09-21T14:51:34Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "d37f5b2c5927",
    "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
    "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
@@ -5047,6 +5528,40 @@
    "topics": [],
    "status": "",
    "excerpt": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "405872456e62",
+   "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+   "title": "5 Companies Using NVIDIA AI for Clean Energy",
+   "published": "2026-09-21T10:00:35Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "eb792e0fc342",
+   "url": "https://huggingface.co/blog/tokenizers-v1",
+   "title": "tokenizers v1: encode, decode and scaling, measured",
+   "published": "2026-09-21T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -5628,6 +6143,23 @@
    "competes_with": []
   },
   {
+   "id": "16a7b27ed0ae",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+   "title": "Your Agent Aced the Task. Will It Do It Again?",
+   "published": "2026-09-15T16:00:44Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "287b73dbebf6",
    "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
    "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
@@ -5957,6 +6489,40 @@
    "topics": [],
    "status": "",
    "excerpt": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d4e55a9164f4",
+   "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+   "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+   "published": "2026-09-10T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "cb50b0c3c856",
+   "url": "https://huggingface.co/blog/gradio-workflow-1111",
+   "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+   "published": "2026-09-10T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -6395,6 +6961,23 @@
    "competes_with": []
   },
   {
+   "id": "96a3500c5a4b",
+   "url": "https://huggingface.co/blog/Hcompany/neomme",
+   "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+   "published": "2026-09-03T13:13:48Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "be4a3c542626",
    "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
@@ -6458,6 +7041,57 @@
    "topics": [],
    "status": "ga",
    "excerpt": "Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks, and can invite their whole organization, including people without an existing seat.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b844bdeeb825",
+   "url": "https://huggingface.co/blog/train-to-paint-with-code",
+   "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+   "published": "2026-09-03T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "86b47b47cb74",
+   "url": "https://huggingface.co/blog/funes",
+   "title": "Give Your Coding Agents a Memory You Own",
+   "published": "2026-09-03T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "45020768fad9",
+   "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+   "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+   "published": "2026-09-03T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -6858,6 +7492,23 @@
    "competes_with": []
   },
   {
+   "id": "23bdbfdbd061",
+   "url": "https://huggingface.co/blog/allenai/benchmirt",
+   "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+   "published": "2026-09-01T21:39:07Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "dfd1ea2e5518",
    "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
    "title": "Introducing agentic video understanding with Gemini",
@@ -6964,6 +7615,23 @@
    "competes_with": []
   },
   {
+   "id": "85562dc16345",
+   "url": "https://huggingface.co/blog/webgpu-kernels",
+   "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "7b7f1282e8a8",
    "url": "https://x.ai/news/biosafety-at-the-frontier",
    "title": "Biosecurity at the frontier",
@@ -7017,6 +7685,23 @@
    "competes_with": []
   },
   {
+   "id": "f8fe976a7c87",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live",
+   "title": "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
+   "published": "2026-08-31T11:15:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "amd",
+   "group": "competitor",
+   "company": "AMD",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "7bc341571432",
    "url": "https://openai.com/index/polimill",
    "title": "Polimill builds Japan's next-generation public AI infrastructure",
@@ -7046,6 +7731,23 @@
    "topics": [],
    "status": "",
    "excerpt": "Grok Bot now has a tighter integration with X.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b0b2c2da12a5",
+   "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+   "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+   "published": "2026-08-28T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -7213,6 +7915,23 @@
    "competes_with": []
   },
   {
+   "id": "5309d9655463",
+   "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+   "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+   "published": "2026-08-26T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "504dd1ec9508",
    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
    "title": "The Hugging Face incident and the road ahead",
@@ -7283,6 +8002,40 @@
    "competes_with": []
   },
   {
+   "id": "74043a2c13e4",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+   "title": "Granite 4.2 LLMs: How They're Built",
+   "published": "2026-08-25T15:14:14Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "f6b26e55a489",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+   "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+   "published": "2026-08-25T11:39:24Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "cfc376addf8c",
    "url": "https://openai.com/index/introducing-admin-plugin",
    "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
@@ -7295,6 +8048,23 @@
    "topics": [],
    "status": "",
    "excerpt": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2983dbf79834",
+   "url": "https://huggingface.co/blog/gradio-workflow-guide",
+   "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -7370,6 +8140,23 @@
    "competes_with": []
   },
   {
+   "id": "bcd3314d2ba2",
+   "url": "https://huggingface.co/blog/pwc-search",
+   "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+   "published": "2026-08-21T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "973625546c2e",
    "url": "https://x.ai/news/grok-4-6-vertex-ai",
    "title": "Grok 4.6 on Gemini Enterprise Agent Platform",
@@ -7382,6 +8169,23 @@
    "topics": [],
    "status": "ga",
    "excerpt": "Grok 4.6 is now available via Gemini Enterprise Agent Platform.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "68e9fb1705e1",
+   "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+   "title": "Measuring benchmark optimization in speech recognition",
+   "published": "2026-08-21T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -7420,6 +8224,23 @@
    ],
    "status": "dev",
    "excerpt": "M365 Copilot now supports Writing blocks. Edit drafts, memos, emails, and more inline while using Chat for easy editing and iteration. GA date: September CY2026",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c7cdb6722fd8",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+   "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+   "published": "2026-08-20T16:52:57Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -7640,6 +8461,23 @@
    "competes_with": []
   },
   {
+   "id": "5ce8103476b1",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+   "title": "How Much Memory Does Your Agent Actually Need?",
+   "published": "2026-08-18T18:09:38Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "68c52c81310f",
    "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
    "title": "Pacing model development in an era of cyber-critical capabilities",
@@ -7686,6 +8524,23 @@
    "topics": [],
    "status": "",
    "excerpt": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, with about $12K in model and infrastructure costs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e520424e436f",
+   "url": "https://huggingface.co/blog/multi-vector-encoder",
+   "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+   "published": "2026-08-18T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -7746,6 +8601,23 @@
    "competes_with": []
   },
   {
+   "id": "b597a3d03ee7",
+   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+   "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+   "published": "2026-08-17T19:46:21Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "f137d9ea2f9f",
    "url": "https://openai.com/index/the-defenders-window",
    "title": "The Defender’s Window",
@@ -7760,6 +8632,23 @@
    ],
    "status": "",
    "excerpt": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d556a48bace2",
+   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+   "title": "State of Open Models: Summer 2026 Observations",
+   "published": "2026-08-14T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -7798,6 +8687,23 @@
    ],
    "status": "",
    "excerpt": "Most organizations have moved their applications, devices, and business processes to the cloud, but identity often remains dependent on Active Directory. That gap can increase operational complexity, limit modern security controls, and slow the adoption of new cloud and AI capabilities. For years, organizations evaluated identity modernization by asking what cloud could do that Active Directory could not. Today, the…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c1c988556190",
+   "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+   "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+   "published": "2026-08-13T17:16:04Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -7868,6 +8774,40 @@
    "topics": [],
    "status": "preview",
    "excerpt": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5fa28c256021",
+   "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+   "title": "What We Learned by Reproducing 2,200 papers from ICML",
+   "published": "2026-08-13T00:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e43158037a35",
+   "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+   "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+   "published": "2026-08-12T16:14:36Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -8093,6 +9033,23 @@
    "competes_with": []
   },
   {
+   "id": "5eb3c49c6262",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+   "published": "2026-08-11T13:37:10Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "51c36b16bdbf",
    "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
    "title": "In-region inference, open models, and new European infrastructure for sovereign AI.",
@@ -8218,6 +9175,23 @@
    ],
    "status": "",
    "excerpt": "Hello everyone, I'm Yina Arenas. I'm honored to have joined Microsoft Security as the CVP and Chief Product Officer of Identity and Network Access and to introduce myself to the legendary Microsoft Entra community. Having spent much of my career focused on platform innovation, I've seen how transformative technology can be when it's built on trust. Today, as organizations embrace AI at unprecedented scale, identity…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e5b664a37aa3",
+   "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+   "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+   "published": "2026-08-10T16:25:36Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -8436,6 +9410,23 @@
    ],
    "status": "ga",
    "excerpt": "Agent Readiness gives makers a real-time, always-visible health check for their Copilot Studio agents. A single \"Review\" indicator in the build experience surfaces anything blocking or at risk — from policy restrictions to missing evaluations — before it derails a publish. Blocked capabilities are grayed out up front with a clear reason, so makers never waste time configuring something that was never going to work.…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d6ce5e9a886c",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
+   "title": "AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market",
+   "published": "2026-08-06T20:05:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "amd",
+   "group": "competitor",
+   "company": "AMD",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -9235,6 +10226,40 @@
    "competes_with": []
   },
   {
+   "id": "84eeb01a5360",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
+   "title": "AAI 2026: AMD Delivers Full-Stack Compute for the Agentic AI Era",
+   "published": "2026-07-23T18:30:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "amd",
+   "group": "competitor",
+   "company": "AMD",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "748686cdc89e",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1293/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference-solution",
+   "title": "AMD and Cerebras Announce Industry-Leading Ultra-Low-Latency and High Throughput AI Inference Solution",
+   "published": "2026-07-23T17:45:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "amd",
+   "group": "competitor",
+   "company": "AMD",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "3bcb8ce06dde",
    "url": "https://x.ai/news/workflows",
    "title": "Workflows in Grok Build",
@@ -9283,6 +10308,23 @@
    "topics": [],
    "status": "",
    "excerpt": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "cb2411b50e1f",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
+   "title": "AMD and Anthropic Announce Strategic Partnership to Deploy Up to 2 Gigawatts of AMD Instinct MI450 Series GPUs",
+   "published": "2026-07-22T13:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "amd",
+   "group": "competitor",
+   "company": "AMD",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -9570,6 +10612,23 @@
    ],
    "status": "",
    "excerpt": "Migration planning starts with visibility One of the first challenges organizations face when planning a migration from Azure AD B2C to Microsoft Entra External ID is understanding exactly what is implemented in their tenant today. Over time, Azure AD B2C deployments often grow to include custom user journeys, federation integrations, claims transformations, API connections, and tailored sign-up and sign-in…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "6b30e23cb364",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership",
+   "title": "Microsoft to Deploy Next-Gen AMD Instinct and AMD EPYC Processors as the Companies Expand Their Long-Term Strategic Partnership",
+   "published": "2026-07-20T13:00:00Z",
+   "first_seen": "2026-10-07T04:45:00Z",
+   "source": "amd",
+   "group": "competitor",
+   "company": "AMD",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
    "summary": "",
    "relevance": "",
    "competes_with": []
