@@ -4,7 +4,7 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 07 Oct 2026 16:03:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:05:29 +0000</lastBuildDate>
     <item>
       <title>[BleepingComputer] PoeLLM malware infects exposed AI servers in cryptomining attacks</title>
       <link>https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/</link>
@@ -93,15 +93,6 @@
       <category>incidents</category>
     </item>
     <item>
-      <title>[Microsoft Developer] Day 03 | AI BUILDER SERIES | Copilot Cowork Build your first skill? #m365 #microsoftoffice #copilot</title>
-      <link>https://www.youtube.com/shorts/cHBOFtX_zy0</link>
-      <guid isPermaLink="false">b8b1c4d21aa6</guid>
-      <pubDate>Wed, 07 Oct 2026 08:17:57 +0000</pubDate>
-      <description>In this video, In this video, we explore Agent Skills in Microsoft Copilot Cowork and build a custom skill from scratch. You’ll learn how Skills extend Cowork with reusable instructions, workflows, and domain-specific behavior. 🔹 Understand what Agent Skills are 🔹 Learn how Skills fit into Cowork orchestration 🔹 Manage built-in and custom Skills 🔹 Create a Skill using the native Add Skill experience 🔹 Build a…</description>
-      <category>copilot</category>
-      <category>cowork</category>
-    </item>
-    <item>
       <title>[The Hacker News] Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws</title>
       <link>https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html</link>
       <guid isPermaLink="false">c6065c24705d</guid>
@@ -126,7 +117,7 @@
       <description />
     </item>
     <item>
-      <title>[Microsoft 365] How AI gives her more time to focus on people</title>
+      <title>[Microsoft] How AI gives her more time to focus on people</title>
       <link>https://www.youtube.com/shorts/cAMjVquiEL0</link>
       <guid isPermaLink="false">5547cf8beeb0</guid>
       <pubDate>Tue, 06 Oct 2026 19:30:30 +0000</pubDate>
@@ -140,6 +131,14 @@
       <pubDate>Tue, 06 Oct 2026 19:21:53 +0000</pubDate>
       <description>On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Developer] Turn Meeting Transcripts into Project Plans with GitHub Copilot Agents | MVP Unplugged</title>
+      <link>https://www.youtube.com/watch?v=sRXhjodSZTc</link>
+      <guid isPermaLink="false">55aabcb407ba</guid>
+      <pubDate>Tue, 06 Oct 2026 19:00:07 +0000</pubDate>
+      <description>Welcome to the next MVP Unplugged, where Microsoft MVPs share real-world projects and insights from the field! In this episode, host Justin Garrett sits down with Microsoft MVP Mahmoud A. Atallah to explore an Azure Delivery Factory custom agent that turns meeting transcripts, proposals, PDFs, and briefs into structured requirements and execution-ready project artifacts. Mahmoud walks through his process in GitHub…</description>
+      <category>githubcopilot</category>
     </item>
     <item>
       <title>[Anthropic] Expanding the Cyber Verification Program</title>
@@ -175,7 +174,7 @@
       <category>incidents</category>
     </item>
     <item>
-      <title>[Microsoft 365] How this data scientist is using AI to help 130,000 AT&amp;T employees</title>
+      <title>[Microsoft] How this data scientist is using AI to help 130,000 AT&amp;T employees</title>
       <link>https://www.youtube.com/watch?v=4mjXPWPkWo8</link>
       <guid isPermaLink="false">a45ff66309cb</guid>
       <pubDate>Tue, 06 Oct 2026 16:30:18 +0000</pubDate>
@@ -528,6 +527,15 @@
       <category>copilot</category>
     </item>
     <item>
+      <title>[Microsoft Developer] Oct 8 Webinar on Copilot Studio!</title>
+      <link>https://www.youtube.com/shorts/sAZI_iD-cVU</link>
+      <guid isPermaLink="false">2e01e640a6f2</guid>
+      <pubDate>Sun, 04 Oct 2026 13:15:33 +0000</pubDate>
+      <description>🚀 Save your spot: https://aka.ms/CopilotStudio/Skilling 📅 October 8, 2026 🕒 8:00 AM - 9:00 AM (UTC-07:00) Pacific Time (US &amp; Canada) Discover what to learn first, how to get started building with Copilot Studio, and how Agent Academy can help you develop practical AI builder skills. #CopilotStudio #AI #Agents #AgentAcademy</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
+    </item>
+    <item>
       <title>[The Hacker News] ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members</title>
       <link>https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html</link>
       <guid isPermaLink="false">9e761cdf7429</guid>
@@ -617,14 +625,6 @@
       <guid isPermaLink="false">8e206c4d9ed6</guid>
       <pubDate>Fri, 02 Oct 2026 16:15:00 +0000</pubDate>
       <description>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</description>
-    </item>
-    <item>
-      <title>[Microsoft Copilot Studio] Meet Autopilot in Copilot</title>
-      <link>https://www.youtube.com/shorts/1q1ha9cuD6k</link>
-      <guid isPermaLink="false">08f838006baa</guid>
-      <pubDate>Fri, 02 Oct 2026 16:00:02 +0000</pubDate>
-      <description>Autopilot can take on routine tasks and longer-running processes, helping move work toward completion while people stay focused on the decisions and outcomes that need them most. Hear Microsoft Copilot EVP Jacob Andreou explain how Autopilot changes what teams can delegate to AI. #MicrosoftCopilot #AutopilotInCopilot</description>
-      <category>copilot</category>
     </item>
   </channel>
 </rss>
