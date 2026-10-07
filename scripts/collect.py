@@ -16,7 +16,10 @@ import html
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 import time
 import tomllib
 import urllib.error
@@ -586,6 +589,45 @@ class _NoRedirect(urllib.request.HTTPRedirectHandler):
 _NO_REDIRECT = urllib.request.build_opener(_NoRedirect)
 
 
+def _post_urllib(body: bytes, token: str) -> tuple[int, str, str]:
+    req = urllib.request.Request(MODELS_ENDPOINT, data=body, method="POST", headers={
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+        "User-Agent": "copilot-agent-watch",
+    })
+    try:
+        # Never follow redirects here: urllib would turn the POST into a GET
+        # and could hand the token to another host.
+        with _NO_REDIRECT.open(req, timeout=90) as resp:
+            return resp.status, resp.headers.get("Content-Type", ""), resp.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as exc:
+        return exc.code, exc.headers.get("Content-Type", ""), exc.read(2000).decode("utf-8", "replace")
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
+        raise SummariesStopped(describe_error(exc))
+
+
+def _post_curl(body: bytes, token: str) -> tuple[int, str, str]:
+    """Same request through curl. The token goes in a private temp file, not argv."""
+    with tempfile.TemporaryDirectory() as tmp:
+        hdr, dat = Path(tmp) / "h", Path(tmp) / "d"
+        hdr.write_text(f"Authorization: Bearer {token}\n", encoding="utf-8")
+        hdr.chmod(0o600)
+        dat.write_bytes(body)
+        try:
+            out = subprocess.run(
+                ["curl", "-sS", "--max-time", "90", "-X", "POST", MODELS_ENDPOINT,
+                 "-H", "Content-Type: application/json", "-H", f"@{hdr}",
+                 "--data-binary", f"@{dat}", "-w", "\n%{http_code} %{content_type}"],
+                capture_output=True, text=True, timeout=120)
+        except (subprocess.SubprocessError, OSError) as exc:
+            raise SummariesStopped(f"curl failed: {exc}")
+    if out.returncode != 0:
+        raise SummariesStopped(f"curl failed: {out.stderr.strip()[:160]}")
+    text, _, tail = out.stdout.rpartition("\n")
+    code, _, ctype = tail.partition(" ")
+    return (int(code) if code.isdigit() else 0), ctype, text
+
+
 def call_model(model: str, token: str, payload: list[dict], topic_ids: list[str]) -> str:
     body = json.dumps({
         "model": model,
@@ -597,39 +639,28 @@ def call_model(model: str, token: str, payload: list[dict], topic_ids: list[str]
              + "\n\nPosts:\n" + json.dumps(payload, ensure_ascii=False)},
         ],
     }).encode("utf-8")
-    req = urllib.request.Request(MODELS_ENDPOINT, data=body, method="POST", headers={
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json",
-        "User-Agent": "copilot-agent-watch",
-    })
+    status, ctype, raw = _post_urllib(body, token)
+    how = "urllib"
+    if not raw.lstrip().startswith("{") and shutil.which("curl"):
+        first = f"urllib got HTTP {status} ({ctype}) {raw[:60]!r}"
+        status, ctype, raw = _post_curl(body, token)
+        how = f"curl, after {first}"
+    if status == 429:
+        raise SummariesStopped("rate limit reached; the rest will be summarised next run")
+    if status in (401, 403):
+        raise SummariesStopped(
+            f"HTTP {status} from GitHub Models. Check that the workflow has "
+            "'permissions: models: read' and that GitHub Models is enabled for the account")
+    if status in (400, 404, 422):
+        raise ModelUnavailable(f"HTTP {status}: {raw[:200]}")
     try:
-        # Never follow redirects here: urllib would turn the POST into a GET
-        # and could hand the token to another host.
-        with _NO_REDIRECT.open(req, timeout=90) as resp:
-            raw = resp.read().decode("utf-8", "replace")
-            try:
-                data = json.loads(raw)
-            except json.JSONDecodeError:
-                raise SummariesStopped(
-                    f"GitHub Models answered HTTP {resp.status} "
-                    f"({resp.headers.get('Content-Type', 'no content type')}) "
-                    f"with a body that is not JSON: {raw[:160]!r}")
-    except urllib.error.HTTPError as exc:
-        detail = exc.read(600).decode("utf-8", "replace")
-        if 300 <= exc.code < 400:
-            raise SummariesStopped(
-                f"GitHub Models redirected (HTTP {exc.code}) to {exc.headers.get('Location', '?')}")
-        if exc.code == 429:
-            raise SummariesStopped("rate limit reached; the rest will be summarised next run")
-        if exc.code in (401, 403):
-            raise SummariesStopped(
-                f"HTTP {exc.code} from GitHub Models. Check that the workflow has "
-                "'permissions: models: read' and that GitHub Models is enabled for the account")
-        if exc.code in (400, 404, 422):
-            raise ModelUnavailable(f"HTTP {exc.code}: {detail[:200]}")
-        raise SummariesStopped(f"HTTP {exc.code}: {detail[:200]}")
-    except (urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
-        raise SummariesStopped(describe_error(exc))
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        raise SummariesStopped(
+            f"GitHub Models answered HTTP {status} ({ctype}) via {how} "
+            f"with a body that is not JSON: {raw[:160]!r}")
+    if status >= 300:
+        raise SummariesStopped(f"HTTP {status}: {raw[:200]}")
     try:
         return data["choices"][0]["message"]["content"] or ""
     except (KeyError, IndexError, TypeError):
