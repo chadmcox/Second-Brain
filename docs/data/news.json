@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T18:26:24Z",
+ "generated": "2026-10-07T18:29:49Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -106,7 +106,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-07T18:26:24Z",
+  "checked": "2026-10-07T18:29:49Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -614,7 +614,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-07T18:26:24Z",
+  "checked": "2026-10-07T18:29:49Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -622,7 +622,7 @@
     "full_name": "wshobson/agents",
     "url": "https://github.com/wshobson/agents",
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-    "stars": 40270,
+    "stars": 40271,
     "language": "Python",
     "pushed": "2026-10-05T01:07:11Z",
     "created": "2025-07-24T23:28:14Z",
@@ -633,7 +633,7 @@
     "log": [
      [
       "2026-10-07",
-      40270
+      40271
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -685,7 +685,7 @@
     "full_name": "jlcodes99/cockpit-tools",
     "url": "https://github.com/jlcodes99/cockpit-tools",
     "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot /…",
-    "stars": 18693,
+    "stars": 18694,
     "language": "Rust",
     "pushed": "2026-10-07T17:05:24Z",
     "created": "2026-01-16T07:09:32Z",
@@ -696,7 +696,7 @@
     "log": [
      [
       "2026-10-07",
-      18693
+      18694
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1580,7 +1580,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 20
   },
@@ -1594,7 +1594,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 3
   },
@@ -1608,7 +1608,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 19
   },
@@ -1622,7 +1622,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 7
   },
@@ -1636,7 +1636,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 4
   },
@@ -1649,8 +1649,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 13
   },
@@ -1663,8 +1663,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 11
   },
@@ -1678,7 +1678,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 0
   },
@@ -1692,7 +1692,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 5
   },
@@ -1706,7 +1706,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 0
   },
@@ -1719,8 +1719,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 115
   },
@@ -1733,10 +1733,10 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 80,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "new": 14,
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
-   "count": 80
+   "count": 94
   },
   {
    "id": "learn-cowork-whats-new",
@@ -1747,8 +1747,8 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 8,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 8
   },
@@ -1761,10 +1761,94 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 6,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 6
+  },
+  {
+   "id": "learn-mdo",
+   "name": "What's new in Defender for Office 365",
+   "home": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new",
+   "group": "microsoft",
+   "company": "",
+   "type": "learn",
+   "ok": true,
+   "error": "",
+   "new": 3,
+   "last_ok": "2026-10-07T18:29:49Z",
+   "channel_id": "",
+   "count": 3
+  },
+  {
+   "id": "learn-mde",
+   "name": "What's new in Defender for Endpoint",
+   "home": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+   "group": "microsoft",
+   "company": "",
+   "type": "learn",
+   "ok": true,
+   "error": "",
+   "new": 10,
+   "last_ok": "2026-10-07T18:29:49Z",
+   "channel_id": "",
+   "count": 10
+  },
+  {
+   "id": "learn-mdi",
+   "name": "What's new in Defender for Identity",
+   "home": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new",
+   "group": "microsoft",
+   "company": "",
+   "type": "learn",
+   "ok": true,
+   "error": "",
+   "new": 7,
+   "last_ok": "2026-10-07T18:29:49Z",
+   "channel_id": "",
+   "count": 7
+  },
+  {
+   "id": "learn-mdca",
+   "name": "What's new in Defender for Cloud Apps",
+   "home": "https://learn.microsoft.com/en-us/cloud-app-security/release-notes",
+   "group": "microsoft",
+   "company": "",
+   "type": "learn",
+   "ok": true,
+   "error": "",
+   "new": 2,
+   "last_ok": "2026-10-07T18:29:49Z",
+   "channel_id": "",
+   "count": 2
+  },
+  {
+   "id": "learn-mdc",
+   "name": "What's new in Defender for Cloud",
+   "home": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+   "group": "microsoft",
+   "company": "",
+   "type": "learn",
+   "ok": true,
+   "error": "",
+   "new": 21,
+   "last_ok": "2026-10-07T18:29:49Z",
+   "channel_id": "",
+   "count": 21
+  },
+  {
+   "id": "learn-entra",
+   "name": "Microsoft Entra releases and announcements",
+   "home": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+   "group": "microsoft",
+   "company": "",
+   "type": "learn",
+   "ok": true,
+   "error": "",
+   "new": 0,
+   "last_ok": "2026-10-07T18:29:49Z",
+   "channel_id": "",
+   "count": 0
   },
   {
    "id": "openai",
@@ -1775,10 +1859,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "new": 1,
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
-   "count": 109
+   "count": 110
   },
   {
    "id": "anthropic",
@@ -1790,7 +1874,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 10
   },
@@ -1804,7 +1888,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 12
   },
@@ -1818,7 +1902,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 27
   },
@@ -1832,7 +1916,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 7
   },
@@ -1846,7 +1930,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 31
   },
@@ -1860,7 +1944,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 3
   },
@@ -1874,7 +1958,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 2
   },
@@ -1888,7 +1972,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 12
   },
@@ -1902,7 +1986,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 11
   },
@@ -1916,7 +2000,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 5
   },
@@ -1930,7 +2014,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 13
   },
@@ -1944,7 +2028,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 7
   },
@@ -1957,8 +2041,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "new": 0,
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 43
   },
@@ -1972,7 +2056,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 10
   },
@@ -1986,7 +2070,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 4
   },
@@ -2000,7 +2084,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 13
   },
@@ -2014,7 +2098,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "",
    "count": 30
   },
@@ -2028,7 +2112,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "UCc3pNIRzIZ8ynI38GO6H01Q",
    "count": 14
   },
@@ -2042,7 +2126,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "UCJ9905MRHxwLZ2jeNQGIWxA",
    "count": 14
   },
@@ -2056,7 +2140,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "UCn8PsBlVsGUt8J3tZCKsMPA",
    "count": 3
   },
@@ -2070,7 +2154,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "UC4s3tv0Qq_OSUBfR735Jc6A",
    "count": 3
   },
@@ -2084,7 +2168,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "UCsMica-v34Irf9KVTh6xx-g",
    "count": 10
   },
@@ -2097,10 +2181,10 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "new": 1,
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
-   "count": 9
+   "count": 10
   },
   {
    "id": "yt-microsoft",
@@ -2112,12 +2196,31 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T18:26:24Z",
+   "last_ok": "2026-10-07T18:29:49Z",
    "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "count": 9
   }
  ],
  "items": [
+  {
+   "id": "3ab018f5b14f",
+   "url": "https://www.youtube.com/watch?v=QIHnmqYU614",
+   "title": "Intelligent local model routing is coming to GitHub Copilot",
+   "published": "2026-10-07T18:10:17Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "yt-github",
+   "group": "video",
+   "company": "GitHub",
+   "kind": "video",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "GitHub Copilot is extending intelligent model orchestration from the cloud down to your local machine. Copilot can automatically discover installed local models from providers like Ollama and Microsoft Foundry Local without manual setup. And soon intelligent routing will offload workflows like simple tasks, codebase explanations, and background automations to an on-device model for zero AI credits. Watch to learn…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
   {
    "id": "c13c9140efc7",
    "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
@@ -2470,6 +2573,23 @@
    ],
    "status": "",
    "excerpt": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026. The company said it also found an additional",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0ca1450969b5",
+   "url": "https://openai.com/index/gpt-6-for-everyone",
+   "title": "GPT-6 and Intelligent UI for everyone",
+   "published": "2026-10-07T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3065,6 +3185,25 @@
    "competes_with": []
   },
   {
+   "id": "eedd1c185ca7",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Detect unintended access",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 SharePoint. Detect unintended access",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "e6ca4fee8c2d",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
    "title": "Create custom skills in Copilot in PowerPoint",
@@ -3141,6 +3280,25 @@
    "competes_with": []
   },
   {
+   "id": "9f6382d77e29",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#october-2026",
+   "title": "New Defender server security experience",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "The new Defender server security experience brings together cloud and endpoint data from Microsoft Defender for Endpoint and Defender for Servers. In the Microsoft Defender portal, you can: Review unified server inventory and combined cloud and endpoint details. Investigate servers across alerts, incidents, and the attack graph. Use Go hunt to investigate related events. Manage access with role-based access control…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "9a622da4f192",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
    "title": "Copilot Analytics - Cowork adoption and impact",
@@ -3156,6 +3314,25 @@
    ],
    "status": "",
    "excerpt": "Viva Insights. Deeper insights into Cowork adoption and impact, accessible from Copilot dashboard and Consumption dashboard in the Microsoft 365 services tab. Includes export capability. All metrics can be queried by analysts with the new Consumption query (credit usage data) and through the Person query (Cowork usage data) in advanced insights.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "91b0b3313768",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Audit permissions at a granular level",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 SharePoint. Audit permissions at a granular level",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3180,6 +3357,25 @@
    "competes_with": []
   },
   {
+   "id": "7ac6c840b504",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Enhance security compliance",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 SharePoint. Enhance security compliance",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "4c941f41e89c",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
    "title": "Seamless Search and Chat Integration",
@@ -3194,6 +3390,63 @@
    ],
    "status": "",
    "excerpt": "Microsoft 365 Copilot. Microsoft 365 Chat brings the power of conversational AI directly into Microsoft 365 Copilot Search, enabling users to move effortlessly from finding information to acting on it. Search results become the foundation for contextual chat, allowing you to ask follow-up questions, synthesize insights, and generate content—all in one unified experience. This integration reduces workflow…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3aed7cf6cb9a",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Automate repetitive or specialized tasks.",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "PowerPoint. Automate repetitive or specialized tasks.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0bab79adfcea",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Define specific commands suited to their content style.",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "PowerPoint. Define specific commands suited to their content style.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0044cd7c020a",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026",
+   "title": "Enhance productivity by tailoring Copilot to their needs.",
+   "published": "2026-10-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "PowerPoint. Enhance productivity by tailoring Copilot to their needs.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3609,6 +3862,44 @@
    "topics": [],
    "status": "",
    "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "07e110c813dc",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#october-2026",
+   "title": "On-demand malware scanning now supports scanning specific blobs, files, containers, and file shares (GA)",
+   "published": "2026-10-05T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "ga",
+   "excerpt": "On-demand malware scanning in Microsoft Defender for Storage now supports targeted scanning of specific items. Instead of scanning an entire storage account, you can scope scans to a single blob or file, a specific container or file share, or all objects matching a path prefix. You can use filters in the REST API request body to specify which items to scan. When no filters are provided, the scan covers the entire…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "010082d21586",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#october-2026",
+   "title": "KSPM misconfiguration recommendations moving to controller-level scope (GA)",
+   "published": "2026-10-05T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "ga",
+   "excerpt": "Kubernetes security posture management (KSPM) misconfiguration recommendations are being updated to align their resource scope with Kubernetes workload controllers. Previously, recommendations appeared at the individual running container instance level. They will now appear at the container deployment or top-level controller scope, such as Deployment or StatefulSet. As a result, you might see changes to affected…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -4477,6 +4768,44 @@
    "competes_with": []
   },
   {
+   "id": "fd8798449808",
+   "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new#october-2026",
+   "title": "Expanding user reporting in Teams to include meetings",
+   "published": "2026-10-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdo",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Expanding user reporting in Teams to include meetings: Users can report scheduled or Meet now Microsoft Teams meetings or individual meeting participants as a security concern during or after the meeting. Users can also report a meeting participant that was incorrectly identified as suspicious as not a security concern. Depending on Teams user reported settings, reported meeting and participant metadata is sent to…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8e1397884b96",
+   "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new#october-2026",
+   "title": "General availability of sensor v3.x activation without Defender for Endpoint",
+   "published": "2026-10-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdi",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "ga",
+   "excerpt": "Defender for Identity sensor v3.x activation without Defender for Endpoint is now generally available for eligible domain controllers running Windows Server 2019 or later. This activation method supports only new sensor v3.x deployments on eligible domain controllers without an existing Defender for Identity sensor. Sensor v2.x migration isn't supported. For more information, see Activate the Defender for Identity…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "3bba52758573",
    "url": "https://openai.com/index/the-den-family-social",
    "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
@@ -4489,6 +4818,25 @@
    "topics": [],
    "status": "",
    "excerpt": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "1ae3b017b3f4",
+   "url": "https://learn.microsoft.com/en-us/cloud-app-security/release-notes#october-2026",
+   "title": "Automatic enablement of SaaS accounts integration with Identity inventory",
+   "published": "2026-10-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdca",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Starting October 15, 2026, the SaaS accounts integration between Microsoft Defender for Cloud Apps and Identity inventory will transition from opt-in to automatic enablement. The integration will be enabled automatically for eligible tenants that don't use the User group admin or App/instance admin roles. Eligible tenants don't need to take any action. For more information, see Identity inventory integration.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -5227,6 +5575,25 @@
    "competes_with": []
   },
   {
+   "id": "1e51961ee57e",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "Upcoming billing updates for Defender for Servers",
+   "published": "2026-09-30T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Effective November 1, 2026, Microsoft Defender for Servers introduces two related updates: Billing policy update:Productivity and desktop client devices, such as Windows 10 and Windows 11 PCs, are no longer billed as servers. For more information, see the Billing Policy Update Details section. - Affected plan: Defender for Servers Plan 1. Billable Server identification mechanism update:Defender for Servers is…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "297821855237",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571880",
    "title": "Microsoft Copilot Studio: Discover & Add Skills from the skill catalog",
@@ -5489,6 +5856,25 @@
    "topics": [],
    "status": "",
    "excerpt": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "10d462d58ff4",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "Enhanced agent for Defender for SQL Servers on Machines is fully available in Azure Government cloud",
+   "published": "2026-09-29T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "In Azure Government cloud, the Defender for SQL Servers on Machines plan in Microsoft Defender for Cloud protects SQL Server instances running on Azure virtual machines and on Azure Arc-enabled machines connected to that cloud. The enhanced agent is now fully available for both resource-level and subscription-level enablement, providing the same onboarding and configuration experience as in Azure commercial cloud.…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -6933,6 +7319,25 @@
    ],
    "status": "",
    "excerpt": "Microsoft 365 Copilot. A centralized dashboard in Insights shows GitHub Copilot AI consumption, cost, and adoption metrics across your organization.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "ab82efd1bb36",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "Upcoming deprecation of the Machines should have a vulnerability assessment solution recommendation",
+   "published": "2026-09-23T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "retiring",
+   "excerpt": "As part of the transition to individual recommendations, the Machines should have a vulnerability assessment solution recommendation will be deprecated on December 14, 2026. Customers should use individual recommendations in Microsoft Defender for Cloud to review and manage vulnerability assessment coverage. For more information, see Transition from grouped to individual recommendations in Defender for Cloud.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -9149,6 +9554,25 @@
    "competes_with": []
   },
   {
+   "id": "c3b4f2596c95",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "General availability of Defender for Cosmos DB in Azure Government cloud",
+   "published": "2026-09-03T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "ga",
+   "excerpt": "With this general availability announcement, the Defender for Cosmos DB plan in Azure Government cloud now aligns with the commercial cloud offering in feature coverage and runtime protection capabilities. For more information about Microsoft Defender for Cosmos DB, see Overview of Microsoft Defender for Cosmos DB. For more information about feature and cloud availability, see Support matrix for Defender for Cloud.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "b844bdeeb825",
    "url": "https://huggingface.co/blog/train-to-paint-with-code",
    "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
@@ -9229,6 +9653,25 @@
    "topics": [],
    "status": "",
    "excerpt": "How we designed Grok Bot for agents that persist beyond a single session — from a chat history to a Bot roster, presence, a computer of the Bot’s own, and work that starts without a prompt.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2219feb6d046",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "AWS GuardDuty coverage status is now shown on the S3 asset page",
+   "published": "2026-09-03T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Microsoft Defender for Cloud now shows Amazon GuardDuty coverage status for AWS S3 buckets, in the Cloud security details section of the S3 asset page. Two statuses are shown for each bucket, each as Enabled or Disabled: GuardDuty Extended Threat Detection GuardDuty Malware Protection The two are enabled independently in AWS, so a bucket can have one on and the other off. If you protect AWS storage with GuardDuty…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -9756,6 +10199,44 @@
    "competes_with": []
   },
   {
+   "id": "d83171e05a2e",
+   "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#september-2026",
+   "title": "New Microsoft Secure Score recommendations for AI-Readiness",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mde",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "ga",
+   "excerpt": "GA. Microsoft Defender now brings together six security recommendations for AI-Readiness to help organizations strengthen endpoint trust against AI-accelerated cyberattacks. Together, these recommendations provide a layered security baseline that helps reduce externally visible entry points, establish hardware-backed trust in device startup, isolate critical Windows security functions, protect kernel code integrity…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d7f53135b9fc",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "Servers",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Licensing routes. Servers: Covered through Defender for Servers, billed per server-hour, or standalone Defender for Endpoint for Servers, licensed per device.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "d7893d263093",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#september-2026",
    "title": "Claude Fable 5.1 model",
@@ -9770,6 +10251,25 @@
    ],
    "status": "ga",
    "excerpt": "New features. Fable 5.1 is now available in the model selector as the most advanced model for ambitious work, replacing Fable 5.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d566ddacb3d3",
+   "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#september-2026",
+   "title": "Memory scan for Linux",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mde",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "preview",
+   "excerpt": "Preview. Memory Scan extends Microsoft Defender for Endpoint protection capabilities on Linux by enabling inspection of process memory for known malicious behaviours and memory-resident threats, providing an additional layer of protection against advanced attacks. Memory-resident threats are increasingly challenging for security teams because they can execute directly in memory with little or no footprint on disk…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -9794,6 +10294,63 @@
    "competes_with": []
   },
   {
+   "id": "a92748769780",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "Defender for Servers Plan 1 billing rules",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "When Plan 1 is enabled, billing depends on the server's operating system:",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "a403f4c5bef0",
+   "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new#september-2026",
+   "title": "Identity Security dashboard and Coverage & Maturity",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdi",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "The Identity Security dashboard provides a centralized view of identity-related security risks and posture across your organization. Coverage & Maturity helps security teams understand identity protection across on-premises, cloud, SaaS, identity providers, and partner technologies, identify coverage and deployment gaps, and prioritize actions to improve identity security posture. For more information, see Coverage…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "9db7d9b9d4c2",
+   "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new#september-2026",
+   "title": "Combined Sensor management tab on the On-premises settings page",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdi",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "The Onboarding and Sensors tabs on the identity On-premises settings page are now combined into a single Sensor management tab that lists both installed sensors and servers eligible for activation. Automatic sensor v3.x activation is now configured on the Advanced features page. For more information, see Manage and update Microsoft Defender for Identity sensors.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "85562dc16345",
    "url": "https://huggingface.co/blog/webgpu-kernels",
    "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
@@ -9806,6 +10363,63 @@
    "topics": [],
    "status": "",
    "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "843a4abb271a",
+   "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#september-2026",
+   "title": "Microsoft Defender support for Linux Desktops",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mde",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "preview",
+   "excerpt": "Preview. Microsoft Defender for Endpoint now extends support to Linux desktops (Public Preview). All Linux distributions currently supported on servers are also supported on Linux desktops. Deployment methods and security capabilities remain consistent across both Linux servers and desktops. For details on licensing and supported distributions, see prerequisites for Microsoft Defender on Linux.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "805eede56b01",
+   "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new#september-2026",
+   "title": "Separating Teams user reporting settings from email settings",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdo",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Separating Teams user reporting settings from email settings: Customers in Worldwide (WW) environments with Defender for Office 365 Plan 1, Defender for Office 365 Plan 2, Microsoft 365 E5, or Office 365 E5 can now manage Teams user reporting settings on a separate page at https://security.microsoft.com/securitysettings/teamsUserSubmission. This separation lets you configure different reporting destinations for…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "7d872f1a327a",
+   "url": "https://learn.microsoft.com/en-us/defender-office-365/defender-for-office-365-whats-new#september-2026",
+   "title": "Expanding user reporting in Teams to include group calls",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdo",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Expanding user reporting in Teams to include group calls: Users can report completed or missed group Microsoft Teams calls from the call history as malicious (scam) or nonmalicious (non-scam). Depending on user reported settings, reported calls are sent to the specified reporting mailbox, to Microsoft, or both.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -9828,6 +10442,178 @@
    "competes_with": []
   },
   {
+   "id": "67694160df38",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "Billing Policy Update Details",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "This update applies to Defender for Servers Plan 1 only.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "66e41e7315e0",
+   "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#september-2026",
+   "title": "Build 101.26072.0017",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mde",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "ga",
+   "excerpt": "GA. Release version 20.126072.17.0 released: See enhancements and features for this release.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5e6b60b8fc51",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "Understand how devices are classified and billed",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Microsoft Defender uses operating-system and device information to classify devices for licensing and billing. Classification doesn't depend on where a device is hosted, whether it's physical or virtual, or how you use it. The following examples aren't exhaustive and don't confirm product support or licensing eligibility. Classification depends on device information, not the OS or distribution name alone. If the…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5b50910f6b1a",
+   "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new#september-2026",
+   "title": "Automatic sensor v3.x activation and Windows auditing by default",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdi",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Automatic sensor v3.x activation and automatic Windows auditing apply only to organizations with an active license that includes Microsoft Defender for Identity. The rollout differs for new Microsoft Defender for Endpoint customers and existing Defender for Identity customers: New Microsoft Defender for Endpoint customers: If your organization is licensed for Defender for Identity, its first device was onboarded to…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "592f8f9f5da4",
+   "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#september-2026",
+   "title": "Microsoft Defender for Endpoint plug-in support for WSL containers (WSLc)",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mde",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "preview",
+   "excerpt": "Preview. Extend Microsoft Defender for Endpoint protection to workloads running in WSL containers (WSLc). Gain visibility into WSL container activity through device inventory, alerts, incidents, device timeline, and Advanced Hunting, helping security teams investigate and respond to threats across both Windows and Linux workloads.Available in Public Preview. To enroll, complete the registration form.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "57e3a0e61b9d",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "Billable Server Identification Mechanism Update",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "This update applies to both Defender for Servers Plan 1 and Plan 2. Defender for Server service will check for online machines multiple times per hour up from once per hour, and count each deployed machine separately, including machines created from a golden image that share an Azure Arc ID.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "54d619d16401",
+   "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new#september-2026",
+   "title": "Sensor v3.x support for additional identity server roles: AD CS, AD FS, and Entra Connect (Preview)",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdi",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "entra",
+    "defender"
+   ],
+   "status": "preview",
+   "excerpt": "Defender for Identity sensor v3.x now supports eligible AD FS, AD CS, and Microsoft Entra Connect servers that aren't domain controllers and don't have an existing Defender for Identity sensor. For more information, see Defender for Identity sensor v3.x prerequisites.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5160b1d4ce3e",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "Defender for Servers Plan 1 or Plan 2 enabled.",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Prerequisites. Defender for Servers Plan 1 or Plan 2 enabled.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3d63d86b6f69",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#september-2026",
+   "title": "Desktop, workstation, and mobile devices",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Licensing routes. Desktop, workstation, and mobile devices: Licensed through Defender for Endpoint, where supported.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "2ead54ae8f8d",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#september-2026",
    "title": "App skill (Frontier)",
@@ -9842,6 +10628,25 @@
    ],
    "status": "frontier",
    "excerpt": "New features. Create lightweight, interactive apps from a description without writing code. Refine your app in chat, open it, publish it, and share it with people in your organization.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "244e3e23e023",
+   "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new#september-2026",
+   "title": "Sensor v3.x onboarding without Microsoft Defender for Endpoint deployment (Preview)",
+   "published": "2026-09-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdi",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "preview",
+   "excerpt": "You can now activate the Defender for Identity sensor v3.x on eligible domain controllers without first onboarding them to Defender for Endpoint. This preview supports only new sensor v3.x deployments on eligible domain controllers running Windows Server 2019 or later. For more information, see Activate the Defender for Identity sensor.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -10382,6 +11187,25 @@
    "competes_with": []
   },
   {
+   "id": "bdfdaa79ccce",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Receive improved suggestions for complex edits",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Word. Receive improved suggestions for complex edits",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "baab9c9de71d",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
    "title": "Teams Meetings in Copilot Notebooks",
@@ -10496,6 +11320,25 @@
    "competes_with": []
   },
   {
+   "id": "71505ee3114a",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Experience better handling of nuanced language",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Word. Experience better handling of nuanced language",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "6ad6dc7de1d4",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
    "title": "Page steering and auto-triggering of pages on mobile",
@@ -10529,6 +11372,25 @@
    ],
    "status": "",
    "excerpt": "Microsoft 365 Copilot. Copilot Chat will be available for Microsoft 365 Copilot users from the side pane on the right-hand side when using Copilot Search in the Microsoft 365 Copilot app. This allows users to engage with Copilot while browsing universal search without switching pages or losing context.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3a8bb046afe5",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-25-2026",
+   "title": "Generate more precise and contextually relevant text",
+   "published": "2026-08-25T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Word. Generate more precise and contextually relevant text",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -10801,6 +11663,25 @@
    "topics": [],
    "status": "",
    "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "25a97fb6f542",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#august-2026",
+   "title": "Update to CVE details data consumption in Azure Resource Graph",
+   "published": "2026-08-21T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Microsoft Defender for Cloud has updated how vulnerability assessment CVE details are consumed in Azure Resource Graph. CVE information remains available, but detailed CVE properties are now consumed through the microsoft.security/cvedetails resource type to improve query performance, scalability, and support for larger data sets. Customers who use existing API or Azure Resource Graph queries that read CVE details…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -11264,6 +12145,25 @@
    ],
    "status": "",
    "excerpt": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "92b59616ce1c",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#august-2026",
+   "title": "Classic Defender for SQL APIs retirement",
+   "published": "2026-08-17T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "retiring",
+   "excerpt": "The classic Defender for SQL APIs for Vulnerability Assessment and Advanced Threat Protection will be retired on August 16, 2027. If you use these APIs, migrate to the supported configuration model and update any dependent scripts or automation before the retirement date. For migration guidance, see Prepare for the retirement of classic Defender for SQL APIs.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -11758,6 +12658,63 @@
    "competes_with": []
   },
   {
+   "id": "fa89ea72e12b",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Better compliance with ServiceNow role assignments",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. Better compliance with ServiceNow role assignments",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "fa252a6f7bb6",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Faster ingestion of new and updated content",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. Faster ingestion of new and updated content",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d926e1c2b353",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "More precise permission management",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. More precise permission management",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "d5285a19ef57",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
    "title": "Reference web sources when creating a presentation with Copilot in PowerPoint",
@@ -11832,6 +12789,25 @@
    "competes_with": []
   },
   {
+   "id": "84ea7f72978e",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "\\\\SharePoint: Authoritative Sites \\\\ [Windows, Web]",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 SharePoint. \\\\SharePoint: Authoritative Sites \\\\ [Windows, Web] Authoritative Sites feature empowers administrators to designate specific SharePoint sites as official, trusted sources of information. By classifying these sites as authoritative, high quality and credible content such as company news, policies, and updates are prioritized across Copilot Search experiences.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "80ef98a72b65",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
    "title": "Copilot uses enterprise assets hosted on Adobe Experience Manager when creating presentations",
@@ -11865,6 +12841,25 @@
    ],
    "status": "",
    "excerpt": "Viva Insights. The Consumption Dashboard tracks Copilot credit usage across AI services and provides budget information to managers, analysts, and administrators.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "607074e4662b",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+   "title": "Quicker reflection of identity and permission changes",
+   "published": "2026-08-11T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-copilot-release-notes",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft 365 Copilot extensibility. Quicker reflection of identity and permission changes",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -12398,6 +13393,44 @@
    "competes_with": []
   },
   {
+   "id": "915f6c2baa13",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#august-2026",
+   "title": "Breaking change: Unused actions no longer included in AWS and GCP overprovisioned identity assessments",
+   "published": "2026-08-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "To improve the performance and scalability of overprovisioned identity recommendation generation, Microsoft Defender for Cloud will no longer use the unused actions when computing overprovisioned identity assessments for AWS and GCP environments. As a result of this change: The Unused actions list will no longer be displayed as part of overprovisioned identity recommendations for AWS and GCP identities. Any…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3f0529d75a91",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#august-2026",
+   "title": "On-demand malware scanning now supports scanning specific blobs, files, containers, and file shares",
+   "published": "2026-08-06T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "On-demand malware scanning in Microsoft Defender for Storage now supports targeted scanning of specific items. Instead of scanning an entire storage account, you can scope scans to a single blob or file, a specific container or file share, or all objects matching a path prefix. You can use filters in the REST API request body to specify which items to scan. When no filters are provided, the scan covers the entire…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "5ebb0e59cc41",
    "url": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-august-2026/ba-p/4544388",
    "title": "Monthly News-August 2026",
@@ -12635,6 +13668,64 @@
    "competes_with": []
   },
   {
+   "id": "f93f15129edb",
+   "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#august-2026",
+   "title": "Tamper protection in audit mode for Linux",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mde",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "preview",
+   "excerpt": "Preview. Detects and alerts on unauthorized modifications to Defender configurations, files, directories, processes, and services, including attempts by root users. Tampering activity is surfaced through alerts, the device timeline, and Advanced Hunting without blocking the activity.Available in Microsoft Defender for Endpoint on Linux version 101.26072.0004 or later in Insiders-slow channel.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e8f25175a9dd",
+   "url": "https://learn.microsoft.com/en-us/cloud-app-security/release-notes#august-2026",
+   "title": "Unified RBAC is enabled by default for new Defender for Cloud Apps customers",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdca",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Starting in August 2026, Microsoft Defender unified role-based access control (RBAC) is automatically enabled for new Defender for Cloud Apps customers. No manual workload activation is required. Unified RBAC provides a centralized experience for managing roles and permissions across Microsoft Defender products. For more information, see Microsoft Defender unified role-based access control and Configure admin access…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c9c40e3149a9",
+   "url": "https://learn.microsoft.com/en-us/defender-for-identity/whats-new#august-2026",
+   "title": "Expanded automatic auditing support for AD CS, AD FS, and Entra Connect servers",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdi",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "entra",
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "Automatic Windows event auditing now configures auditing for AD FS, AD CS, and Microsoft Entra Connect. Auditing is configured automatically on any eligible server that runs Defender for Identity sensor v3.x, including servers that aren't domain controllers. For more information, see Configure Defender for Identity to collect Windows events automatically.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "ae92f9421b99",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#august-2026",
    "title": "Local browser use",
@@ -12731,6 +13822,25 @@
    "competes_with": []
   },
   {
+   "id": "7778df4d7aa8",
+   "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#august-2026",
+   "title": "Antivirus audit mode for Linux",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mde",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "preview",
+   "excerpt": "Preview. Provides real-time malware detection and alerting without automatically quarantining files or terminating processes. This enables organizations to evaluate Defender detection efficacy and performance on sensitive workloads before enabling enforcement.Available in Microsoft Defender for Endpoint on Linux version 101.26062.0007 or later.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "690feb0eef76",
    "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
    "title": "File sharing and access",
@@ -12769,6 +13879,44 @@
    "competes_with": []
   },
   {
+   "id": "4299e815ef49",
+   "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#august-2026",
+   "title": "Build 101.26062.0012",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mde",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "ga",
+   "excerpt": "GA. Release version 20.126062.12.0 released: See enhancements and features for this release.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "41a147ae21c0",
+   "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#august-2026",
+   "title": "Offboarding API support for Linux",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mde",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "ga",
+   "excerpt": "GA. Enables organizations to automate the offboarding of Linux servers from Microsoft Defender for Endpoint through the Offboard machine API, simplifying device lifecycle management at scale.Available in Microsoft Defender for Endpoint on Linux version 101.26062.0007 or later.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "316e1213a2cc",
    "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
    "title": "Outlook inbox rules",
@@ -12783,6 +13931,25 @@
    ],
    "status": "",
    "excerpt": "New features. List, create, update, enable, disable, and delete Outlook inbox rules.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2de1bffa87c4",
+   "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#august-2026",
+   "title": "Build 101.26062.0011",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mde",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "ga",
+   "excerpt": "GA. Release version 20.126062.11.0 released: See enhancements and features for this release.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -12910,6 +14077,25 @@
    "topics": [],
    "status": "",
    "excerpt": "Our best video model, now with text, image, and voice references — generating up to 1080p.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0f2fe4495cc6",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#july-2026",
+   "title": "Deprecation completed: Legacy grouped recommendations removed from Azure portal",
+   "published": "2026-07-31T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "retiring",
+   "excerpt": "Retirement of legacy grouped recommendations (sub-assessments) has started. Customers can no longer access the deprecated data through the API. The Azure portal and Azure Resource Graph might take a few days to reflect the change. Individual recommendations replace the legacy grouped recommendations, as announced in May 2026. Customers who previously relied on grouped recommendations should validate existing…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -13517,6 +14703,25 @@
    "topics": [],
    "status": "",
    "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "013fe685ef4c",
+   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#july-2026",
+   "title": "Database-level recommendations for SQL Vulnerability Assessment (GA)",
+   "published": "2026-07-26T00:00:00Z",
+   "first_seen": "2026-10-07T18:29:49Z",
+   "source": "learn-mdc",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender"
+   ],
+   "status": "ga",
+   "excerpt": "The SQL vulnerability assessment recommendations created as part of the transition from grouped to individual recommendations are now generally available. Each SQL vulnerability assessment rule is surfaced as its own recommendation, reported directly on the affected SQL database resource. For a deeper explanation of this change, see Transition from grouped to individual recommendations. For the mapping between the…",
    "summary": "",
    "relevance": "",
    "competes_with": []

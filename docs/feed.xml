@@ -4,7 +4,15 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 07 Oct 2026 18:26:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 18:29:49 +0000</lastBuildDate>
+    <item>
+      <title>[GitHub] Intelligent local model routing is coming to GitHub Copilot</title>
+      <link>https://www.youtube.com/watch?v=QIHnmqYU614</link>
+      <guid isPermaLink="false">3ab018f5b14f</guid>
+      <pubDate>Wed, 07 Oct 2026 18:10:17 +0000</pubDate>
+      <description>GitHub Copilot is extending intelligent model orchestration from the cloud down to your local machine. Copilot can automatically discover installed local models from providers like Ollama and Microsoft Foundry Local without manual setup. And soon intelligent routing will offload workflows like simple tasks, codebase explanations, and background automations to an on-device model for zero AI credits. Watch to learn…</description>
+      <category>githubcopilot</category>
+    </item>
     <item>
       <title>[Microsoft] Secret protection must scale with software</title>
       <link>https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/</link>
@@ -154,6 +162,13 @@
       <pubDate>Wed, 07 Oct 2026 08:07:38 +0000</pubDate>
       <description>Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026. The company said it also found an additional</description>
       <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[OpenAI] GPT-6 and Intelligent UI for everyone</title>
+      <link>https://openai.com/index/gpt-6-for-everyone</link>
+      <guid isPermaLink="false">0ca1450969b5</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description>GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.</description>
     </item>
     <item>
       <title>[Microsoft] Update your IDE to restore agent activity in Copilot usage metrics</title>
@@ -406,6 +421,14 @@
       <category>copilotstudio</category>
     </item>
     <item>
+      <title>[Microsoft] New Defender server security experience</title>
+      <link>https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#october-2026</link>
+      <guid isPermaLink="false">9f6382d77e29</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description>The new Defender server security experience brings together cloud and endpoint data from Microsoft Defender for Endpoint and Defender for Servers. In the Microsoft Defender portal, you can: Review unified server inventory and combined cloud and endpoint details. Investigate servers across alerts, incidents, and the attack graph. Use Go hunt to investigate related events. Manage access with role-based access control…</description>
+      <category>defender</category>
+    </item>
+    <item>
       <title>[BleepingComputer] OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU</title>
       <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/</link>
       <guid isPermaLink="false">158b0c0dc14e</guid>
@@ -581,52 +604,28 @@
       <description />
     </item>
     <item>
+      <title>[Microsoft] On-demand malware scanning now supports scanning specific blobs, files, containers, and file shares (GA)</title>
+      <link>https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#october-2026</link>
+      <guid isPermaLink="false">07e110c813dc</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description>On-demand malware scanning in Microsoft Defender for Storage now supports targeted scanning of specific items. Instead of scanning an entire storage account, you can scope scans to a single blob or file, a specific container or file share, or all objects matching a path prefix. You can use filters in the REST API request body to specify which items to scan. When no filters are provided, the scan covers the entire…</description>
+      <category>defender</category>
+    </item>
+    <item>
+      <title>[Microsoft] KSPM misconfiguration recommendations moving to controller-level scope (GA)</title>
+      <link>https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#october-2026</link>
+      <guid isPermaLink="false">010082d21586</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Kubernetes security posture management (KSPM) misconfiguration recommendations are being updated to align their resource scope with Kubernetes workload controllers. Previously, recommendations appeared at the individual running container instance level. They will now appear at the container deployment or top-level controller scope, such as Deployment or StatefulSet. As a result, you might see changes to affected…</description>
+      <category>defender</category>
+    </item>
+    <item>
       <title>[GitHub] How to protect your repo in 2 minutes with gh-secure</title>
       <link>https://www.youtube.com/shorts/J3Z6bO3LvUw</link>
       <guid isPermaLink="false">228c379292d3</guid>
       <pubDate>Sun, 04 Oct 2026 15:00:37 +0000</pubDate>
       <description>Just one command can help you stop leaking secrets into your public code. Give your repositories essential security hygiene with gh-secure from the GitHub Security Lab. Install and use it in the Copilot app, Copilot CLI, or GitHub CLI. https://gh.io/gh-secure #GitHubSecurity #GitHubCopilot #GitHub Stay up-to-date on all things GitHub by connecting with us: YouTube: https://gh.io/subgithub Blog: https://github.blog…</description>
       <category>copilot</category>
-    </item>
-    <item>
-      <title>[Microsoft Developer] Oct 8 Webinar on Copilot Studio!</title>
-      <link>https://www.youtube.com/shorts/sAZI_iD-cVU</link>
-      <guid isPermaLink="false">2e01e640a6f2</guid>
-      <pubDate>Sun, 04 Oct 2026 13:15:33 +0000</pubDate>
-      <description>🚀 Save your spot: https://aka.ms/CopilotStudio/Skilling 📅 October 8, 2026 🕒 8:00 AM - 9:00 AM (UTC-07:00) Pacific Time (US &amp; Canada) Discover what to learn first, how to get started building with Copilot Studio, and how Agent Academy can help you develop practical AI builder skills. #CopilotStudio #AI #Agents #AgentAcademy</description>
-      <category>copilot</category>
-      <category>copilotstudio</category>
-    </item>
-    <item>
-      <title>[The Hacker News] ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members</title>
-      <link>https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html</link>
-      <guid isPermaLink="false">9e761cdf7429</guid>
-      <pubDate>Sun, 04 Oct 2026 07:22:05 +0000</pubDate>
-      <description>A suspected member of the ShinyHunters digital extortion group, who goes by the online alias "Rey," has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif al-Din Khader, is said to have been brought into custody on September 29, 2026, and cooperating with the U.S. Federal Bureau of Investigation (FBI)</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing</title>
-      <link>https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html</link>
-      <guid isPermaLink="false">453d2c5398a1</guid>
-      <pubDate>Sun, 04 Oct 2026 07:20:32 +0000</pubDate>
-      <description>A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Hugging Face] The Agent Said It Was Done. The Database Disagreed.</title>
-      <link>https://huggingface.co/blog/microsoft/thinkingbox</link>
-      <guid isPermaLink="false">89764eae0099</guid>
-      <pubDate>Sat, 03 Oct 2026 22:56:48 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[The Hacker News] Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware</title>
-      <link>https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html</link>
-      <guid isPermaLink="false">289771d56894</guid>
-      <pubDate>Sat, 03 Oct 2026 14:36:33 +0000</pubDate>
-      <description>The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and Carbon Black Threat Hunter Team, has hit critical infrastructure, government, and education organizations. "In the</description>
-      <category>incidents</category>
     </item>
   </channel>
 </rss>
