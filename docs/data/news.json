@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T04:04:23Z",
+ "generated": "2026-10-07T04:14:13Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -75,6 +75,12 @@
    "scope": ""
   },
   {
+   "id": "agent-registries",
+   "name": "Agent registries",
+   "theme": true,
+   "scope": ""
+  },
+  {
    "id": "ai-threats",
    "name": "AI threats",
    "theme": true,
@@ -88,7 +94,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-07T04:04:23Z",
+  "checked": "2026-10-07T04:14:13Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -563,8 +569,8 @@
     "id": "deepseek/deepseek-v4-pro-0813",
     "lab": "DeepSeek",
     "name": "DeepSeek V4 Pro 0813",
-    "input": 1.32,
-    "output": 3.96,
+    "input": 0.66,
+    "output": 1.98,
     "context": 1048576,
     "about": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek.",
     "released": "2026-08-12T15:42:44Z",
@@ -573,7 +579,7 @@
      "name": "DeepSeek V4 Pro 0423",
      "input": 0.2088,
      "output": 0.4176,
-     "change_pct": 743
+     "change_pct": 321
     }
    },
    {
@@ -596,7 +602,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-07T04:04:23Z",
+  "checked": "2026-10-07T04:14:13Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -1562,7 +1568,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 20
   },
   {
@@ -1575,7 +1581,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 3
   },
   {
@@ -1588,7 +1594,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 19
   },
   {
@@ -1601,7 +1607,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 7
   },
   {
@@ -1614,7 +1620,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 4
   },
   {
@@ -1627,7 +1633,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 10
   },
   {
@@ -1640,7 +1646,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 10
   },
   {
@@ -1653,7 +1659,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 0
   },
   {
@@ -1666,7 +1672,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 5
   },
   {
@@ -1679,7 +1685,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 0
   },
   {
@@ -1692,7 +1698,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 114
   },
   {
@@ -1705,7 +1711,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 106
   },
   {
@@ -1718,7 +1724,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 10
   },
   {
@@ -1731,7 +1737,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 12
   },
   {
@@ -1744,7 +1750,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 27
   },
   {
@@ -1757,7 +1763,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 7
   },
   {
@@ -1770,7 +1776,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 31
   },
   {
@@ -1783,7 +1789,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 3
   },
   {
@@ -1796,7 +1802,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 2
   },
   {
@@ -1809,7 +1815,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 12
   },
   {
@@ -1822,7 +1828,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 10
   },
   {
@@ -1835,7 +1841,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 5
   },
   {
@@ -1848,7 +1854,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 10
   },
   {
@@ -1861,7 +1867,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 2
   },
   {
@@ -1874,7 +1880,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 9
   },
   {
@@ -1887,7 +1893,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:04:23Z",
+   "last_ok": "2026-10-07T04:14:13Z",
    "count": 25
   }
  ],
@@ -3574,7 +3580,8 @@
    "company": "Microsoft",
    "kind": "post",
    "topics": [
-    "copilot"
+    "copilot",
+    "agent-registries"
    ],
    "status": "",
    "excerpt": "On September 25, we introduced the new Microsoft Copilot to connect the tools people rely on with the next generation of capabilities they’ll need to build, customize and scale AI across work. Agents in Copilot already help you work with your organization’s knowledge and automate business processes. Now, we’re giving you more ways to customize Copilot with plugins that contain skills, connectors, and agents, adding…",
