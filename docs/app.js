@@ -8,10 +8,11 @@
   var PAGE = 120;
   var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "opal", "autopilot", "agent365", "entra", "defender"];
   var VIEWS = ["overview", "microsoft", "competitors", "sources"];
-  var DEFAULTS = { scope: "", status: "", range: "30", q: "", key: "", roadmap: "" };
+  var DEFAULTS = { scope: "", theme: "", status: "", range: "30", q: "", key: "", roadmap: "" };
 
   var data = null;
   var topicName = {};
+  var isTheme = {};
   var sourceById = {};
   var lastVisit = 0;
   var state = { view: "overview", limit: PAGE };
@@ -86,7 +87,10 @@
 
   function plural(n, word) { return n + " " + word + (n === 1 ? "" : "s"); }
 
-  function laneOf(item) { return item.group === "microsoft" ? (item.topics[0] || "") : ""; }
+  function laneOf(item) {
+    if (item.group !== "microsoft") return "";
+    return item.topics.filter(function (t) { return !isTheme[t]; })[0] || "";
+  }
   function isFresh(item) { return lastVisit && Date.parse(item.first_seen) > lastVisit; }
 
   // -------------------------------------------------------------- routing
@@ -139,11 +143,11 @@
     }
     if (item.kind === "roadmap") meta.appendChild(el("span", { class: "state", text: "Roadmap entry" }));
     if (item.relevance === "high") meta.appendChild(el("span", { class: "key", text: "Key item" }));
-    if (item.group === "microsoft") {
-      item.topics.forEach(function (t) {
-        meta.appendChild(setLane(el("span", { class: "tag", text: topicName[t] || t }), t));
-      });
-    }
+    item.topics.forEach(function (t) {
+      // Product tags belong to Microsoft posts; theme tags show for every company.
+      if (item.group !== "microsoft" && !isTheme[t]) return;
+      meta.appendChild(setLane(el("span", { class: "tag", text: topicName[t] || t }), t));
+    });
 
     var node = setLane(el("article", { class: "post" }, [el("h3", null, [title]), meta]), laneOf(item));
     var body = item.summary || item.excerpt;
@@ -200,11 +204,19 @@
     }
 
     var box = clear($("lanes"));
-    data.topics.forEach(function (t) {
+    data.products.forEach(function (t) {
       box.appendChild(lane(t.name, row(function (i) {
         return i.group === "microsoft" && i.topics.indexOf(t.id) >= 0;
       }), t.id, function () { go("microsoft", { scope: t.id }); }));
     });
+    if (data.themes.length) {
+      box.appendChild(el("p", { class: "lane-group", text: "Themes across competitors" }));
+      data.themes.forEach(function (t) {
+        box.appendChild(lane(t.name, row(function (i) {
+          return i.group === "competitor" && i.topics.indexOf(t.id) >= 0;
+        }), t.id, function () { go("competitors", { theme: t.id }); }));
+      });
+    }
     var companies = companyList();
     if (companies.length) {
       box.appendChild(el("p", { class: "lane-group", text: "Competitors" }));
@@ -232,7 +244,7 @@
     if (!picks.length) list.appendChild(el("p", { class: "empty", text: "Nothing has been collected yet." }));
 
     var latest = clear($("latest"));
-    data.topics.forEach(function (t) {
+    data.products.forEach(function (t) {
       var item = posts.find(function (i) { return i.group === "microsoft" && i.topics.indexOf(t.id) >= 0; });
       var li = setLane(el("li"), t.id);
       li.appendChild(el("span", {
@@ -269,6 +281,7 @@
     if (skip !== "scope" && state.scope) {
       if (ms ? item.topics.indexOf(state.scope) < 0 : item.company !== state.scope) return false;
     }
+    if (skip !== "theme" && state.theme && item.topics.indexOf(state.theme) < 0) return false;
     if (skip !== "status" && state.status && item.status !== state.status) return false;
     if (state.key && item.relevance !== "high") return false;
     if (state.q) {
@@ -302,7 +315,7 @@
     // Chip counts respect every other filter, so a count is what you get on click.
     var forScope = data.items.filter(function (i) { return matches(i, "scope"); });
     var scopes = ms
-      ? data.topics.map(function (t) { return { id: t.id, name: t.name, lane: t.id }; })
+      ? data.products.map(function (t) { return { id: t.id, name: t.name, lane: t.id }; })
       : companyList().map(function (c) { return { id: c, name: c, lane: "" }; });
     var scopeBox = clear($("chips-scope"));
     scopeBox.appendChild(chip("All", forScope.length, !state.scope, "", function () { set("scope", ""); }));
@@ -310,6 +323,17 @@
       var n = forScope.filter(function (i) { return ms ? i.topics.indexOf(s.id) >= 0 : i.company === s.id; }).length;
       scopeBox.appendChild(chip(s.name, n, state.scope === s.id, s.lane, function () {
         set("scope", state.scope === s.id ? "" : s.id);
+      }));
+    });
+
+    var forTheme = data.items.filter(function (i) { return matches(i, "theme"); });
+    var themeBox = clear($("chips-theme"));
+    $("row-theme").hidden = !data.themes.length;
+    themeBox.appendChild(chip("Any", null, !state.theme, "", function () { set("theme", ""); }));
+    data.themes.forEach(function (t) {
+      var n = forTheme.filter(function (i) { return i.topics.indexOf(t.id) >= 0; }).length;
+      themeBox.appendChild(chip(t.name, n, state.theme === t.id, t.id, function () {
+        set("theme", state.theme === t.id ? "" : t.id);
       }));
     });
 
@@ -477,6 +501,9 @@
         data.site = data.site || { title: "Copilot & Agent Watch" };
         data.items.forEach(function (i) { i.topics = i.topics || []; });
         data.topics.forEach(function (t) { topicName[t.id] = t.name; });
+        data.products = data.topics.filter(function (t) { return !t.theme; });
+        data.themes = data.topics.filter(function (t) { return t.theme; });
+        data.themes.forEach(function (t) { isTheme[t.id] = true; });
         data.sources.forEach(function (s) { sourceById[s.id] = s; });
         $("site-title").textContent = data.site.title;
 

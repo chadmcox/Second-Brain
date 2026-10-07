@@ -42,6 +42,8 @@ Everything is in [`config.toml`](config.toml). Edit it on github.com; saving sta
 - **Add a product**: copy a `[[topics]]` block and set the words that identify it. `none`
   lists phrases that rule a post out (this is how Windows Autopilot and Optimizely Opal are
   kept away from Copilot Autopilot and Microsoft's Opal).
+- **Add a theme**: a `[[topics]]` block with `theme = true` tags posts from every company
+  (personal agents and decision models are set up this way).
 - **Add a site with an RSS feed**: copy a `[[sources]]` block with `type = "rss"`.
 - **Add a site without a feed**: use `type = "page"`, point `url` at its news listing and set
   `link_pattern` to a regular expression that matches the path of its posts. The collector

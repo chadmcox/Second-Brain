@@ -82,6 +82,27 @@ name = "Defender"
 any = ["defender", "security copilot", "sentinel"]
 none = []
 
+# ------------------------------------------------------------------ themes
+# A theme is a tag that applies to every company, not one Microsoft product.
+# It gets its own row on the Overview and a Theme filter on both tabs. A post
+# that matches a theme is kept even when its source filters by keywords.
+
+[[topics]]
+id = "personal-agents"
+name = "Personal agents"
+theme = true
+any = ["personal agent", "personal agents", "personal assistant", "personal assistants",
+       "personal ai", "personal superintelligence", "muse", "muse spark"]
+none = []
+
+[[topics]]
+id = "decision-models"
+name = "Decision models"
+theme = true
+any = ["decision model", "decision models", "large decision model", "large decision models",
+       "decision intelligence", "decision-making model", "decision-making models"]
+none = []
+
 # ----------------------------------------------------------------- sources
 # type    "rss"  = RSS or Atom feed
 #         "page" = a site with no feed: the collector reads the listing page,
@@ -274,6 +295,17 @@ url = "https://ai.meta.com/blog/"
 home = "https://ai.meta.com/blog/"
 link_pattern = "^/blog/[a-z0-9][a-z0-9-]+/?$"
 filter = "all"
+
+[[sources]]
+id = "meta-news"
+name = "Meta Newsroom"
+group = "competitor"
+company = "Meta"
+type = "rss"
+url = "https://about.fb.com/news/feed/"
+home = "https://about.fb.com/news/"
+filter = "keywords"
+keywords = ["muse", "meta ai", "agent", "agents", "superintelligence", "llama"]
 
 [[sources]]
 id = "mistral"

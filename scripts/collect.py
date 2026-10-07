@@ -448,9 +448,15 @@ class Classifier:
             self.topics.append({
                 "id": t["id"],
                 "scope": t.get("scope", ""),
+                "theme": bool(t.get("theme", False)),
                 "any": word_pattern(t.get("any", [])),
                 "none": word_pattern(t.get("none", [])),
             })
+
+    def has_theme(self, ids: list[str]) -> bool:
+        """True when any of the tags is a cross-company theme."""
+        themes = {t["id"] for t in self.topics if t["theme"]}
+        return any(i in themes for i in ids)
 
     def topics_for(self, title: str, text: str, group: str, defaults: list[str]) -> list[str]:
         """Product tags for a post: source defaults plus matches in title and excerpt."""
@@ -524,7 +530,8 @@ def collect_source(src: dict, known: dict, now: datetime, ingest_days: int,
         rule = src.get("filter", "all")
         if rule == "topics" and not topics:
             continue
-        if rule == "keywords" and keywords and not keywords.search(f"{e['title']}\n{excerpt}"):
+        if (rule == "keywords" and keywords and not classifier.has_theme(topics)
+                and not keywords.search(f"{e['title']}\n{excerpt}")):
             continue
         items.append({
             "id": iid,
@@ -840,7 +847,8 @@ def run(config_path: Path, out_dir: Path, use_ai: bool = True, dry_run: bool = F
         "site": {"title": site.get("title", "Copilot & Agent Watch")},
         "summaries": ai_note,
         "statuses": STATUS_LABELS,
-        "topics": [{"id": t["id"], "name": t.get("name", t["id"])} for t in topics],
+        "topics": [{"id": t["id"], "name": t.get("name", t["id"]), "theme": bool(t.get("theme", False))}
+                   for t in topics],
         "sources": report,
         "items": items,
         "seen": sorted(seen - {i["id"] for i in items})[-4000:],
