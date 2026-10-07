@@ -249,6 +249,11 @@ def parse_feed(xml_text: str, base_url: str) -> list[dict]:
                         link = c.text.strip()
         body = _child_text(node, "encoded", "content")
         summary = _child_text(node, "description", "summary")
+        if not summary and not body:      # YouTube nests it: media:group/media:description
+            for sub in node.iter():
+                if _local(sub.tag) == "description" and (sub.text or "").strip():
+                    summary = sub.text.strip()
+                    break
         date = _child_text(node, "pubdate", "published", "date", "updated")
         cats = []
         for c in node:
@@ -481,6 +486,26 @@ class Classifier:
 
 # ------------------------------------------------------------------- collect
 
+_CHANNEL_ID = re.compile(r"UC[\w-]{22}")
+
+
+def youtube_feed_url(src: dict) -> str:
+    """Feed address for a YouTube channel, looking the channel id up from its handle once."""
+    cid = src.get("channel_id") or src.get("_cached_channel_id") or ""
+    if not _CHANNEL_ID.fullmatch(cid):
+        handle = str(src.get("handle", "")).lstrip("@")
+        if not re.fullmatch(r"[\w.-]{2,60}", handle):
+            raise RuntimeError("set handle or channel_id for this YouTube source")
+        page = fetch(f"https://www.youtube.com/@{handle}", headers={"Cookie": "CONSENT=YES+1"})
+        match = (re.search(r'"(?:externalId|channelId)":"(UC[\w-]{22})"', page)
+                 or re.search(r'youtube\.com/channel/(UC[\w-]{22})', page))
+        if not match:
+            raise RuntimeError(f"could not find the channel id for @{handle}")
+        cid = match.group(1)
+    src["_channel_id"] = cid
+    return f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}"
+
+
 def collect_source(src: dict, known: dict, now: datetime, ingest_days: int,
                    classifier: Classifier, seen: set[str]) -> tuple[list[dict], dict[str, str]]:
     """Fetch one source. Returns (items, long text per item id for the summariser)."""
@@ -511,6 +536,8 @@ def collect_source(src: dict, known: dict, now: datetime, ingest_days: int,
             })
             time.sleep(0.4)
     else:
+        if src.get("type") == "youtube":
+            src["url"] = youtube_feed_url(src)
         raw_entries = parse_feed(fetch(src["url"]), src["url"])
         if not raw_entries:
             raise RuntimeError("feed returned no posts")
@@ -1009,12 +1036,14 @@ def run(config_path: Path, out_dir: Path, use_ai: bool = True, dry_run: bool = F
     report, ok_count = [], 0
     for sid, src in sources.items():
         entry = {
-            "id": sid, "name": src["name"], "home": src.get("home", src["url"]),
+            "id": sid, "name": src["name"], "home": src.get("home") or src.get("url", ""),
             "group": src.get("group", "microsoft"), "company": src.get("company", ""),
             "type": src.get("type", "rss"), "ok": False, "error": "", "new": 0,
             "last_ok": prev_sources.get(sid, {}).get("last_ok", ""),
+            "channel_id": prev_sources.get(sid, {}).get("channel_id", ""),
         }
         try:
+            src["_cached_channel_id"] = prev_sources.get(sid, {}).get("channel_id", "")
             found, texts = collect_source(src, known, now, int(site.get("ingest_days", 45)), classifier, seen)
             long_text.update(texts)
             for item in found:
@@ -1029,6 +1058,8 @@ def run(config_path: Path, out_dir: Path, use_ai: bool = True, dry_run: bool = F
                     entry["new"] += 1
                 known[item["id"]] = item
             entry["ok"], entry["last_ok"] = True, iso(now)
+            if src.get("_channel_id"):
+                entry["channel_id"] = src["_channel_id"]
             ok_count += 1
             log(f"  ok    {src['name']}: {len(found)} kept, {entry['new']} new")
         except Exception as exc:  # one bad source must not stop the run

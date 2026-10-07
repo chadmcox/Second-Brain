@@ -522,3 +522,102 @@ type = "rss"
 url = "https://feeds.feedburner.com/TheHackersNews"
 home = "https://thehackernews.com/"
 filter = "topics"
+
+# ------------------------------------------------------------------ videos
+# type = "youtube" reads a channel's public video feed (its 15 newest videos).
+# Give the channel's @handle; the collector looks up the channel id once.
+# group = "video" puts a source on the Videos tab.
+
+[[sources]]
+id = "yt-copilot"
+name = "Microsoft Copilot (YouTube)"
+group = "video"
+kind = "video"
+company = "Microsoft Copilot"
+type = "youtube"
+handle = "MicrosoftCopilot"
+home = "https://www.youtube.com/@MicrosoftCopilot"
+filter = "all"
+
+[[sources]]
+id = "yt-m365"
+name = "Microsoft 365 (YouTube)"
+group = "video"
+kind = "video"
+company = "Microsoft 365"
+type = "youtube"
+handle = "Microsoft365"
+home = "https://www.youtube.com/@Microsoft365"
+filter = "keywords"
+keywords = ["copilot", "agent 365"]
+
+[[sources]]
+id = "yt-mechanics"
+name = "Microsoft Mechanics (YouTube)"
+group = "video"
+kind = "video"
+company = "Microsoft Mechanics"
+type = "youtube"
+channel_id = "UCJ9905MRHxwLZ2jeNQGIWxA"
+home = "https://www.youtube.com/channel/UCJ9905MRHxwLZ2jeNQGIWxA"
+filter = "keywords"
+keywords = ["copilot", "agent 365"]
+
+[[sources]]
+id = "yt-copilot-studio"
+name = "Microsoft Copilot Studio (YouTube)"
+group = "video"
+kind = "video"
+company = "Microsoft Copilot Studio"
+type = "youtube"
+handle = "MicrosoftCopilotStudio"
+home = "https://www.youtube.com/@MicrosoftCopilotStudio"
+filter = "all"
+
+[[sources]]
+id = "yt-security"
+name = "Microsoft Security (YouTube)"
+group = "video"
+kind = "video"
+company = "Microsoft Security"
+type = "youtube"
+handle = "MicrosoftSecurity"
+home = "https://www.youtube.com/@MicrosoftSecurity"
+filter = "keywords"
+keywords = ["copilot", "agent 365"]
+
+[[sources]]
+id = "yt-developer"
+name = "Microsoft Developer (YouTube)"
+group = "video"
+kind = "video"
+company = "Microsoft Developer"
+type = "youtube"
+handle = "MicrosoftDeveloper"
+home = "https://www.youtube.com/@MicrosoftDeveloper"
+filter = "keywords"
+keywords = ["copilot", "agent 365"]
+
+[[sources]]
+id = "yt-github"
+name = "GitHub (YouTube)"
+group = "video"
+kind = "video"
+company = "GitHub"
+type = "youtube"
+handle = "GitHub"
+home = "https://www.youtube.com/@GitHub"
+filter = "keywords"
+keywords = ["copilot", "agent 365"]
+
+[[sources]]
+id = "yt-microsoft"
+name = "Microsoft (YouTube)"
+group = "video"
+kind = "video"
+company = "Microsoft"
+type = "youtube"
+handle = "Microsoft"
+home = "https://www.youtube.com/@Microsoft"
+filter = "keywords"
+keywords = ["copilot", "agent 365"]

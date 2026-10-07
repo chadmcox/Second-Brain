@@ -214,6 +214,14 @@ h2 { font: 700 1.5rem/1.15 var(--display); letter-spacing: -0.015em; margin: 0 0
 .post { border-left: 3px solid var(--lane, var(--lane-other)); padding: 0.05rem 0 0.1rem 0.9rem; max-width: 52rem; }
 .post h3 { font: 500 1.1875rem/1.25 var(--display); letter-spacing: -0.005em; margin: 0; }
 .post h3, .post-text { overflow-wrap: anywhere; }
+.post.has-thumb { display: grid; grid-template-columns: 11rem minmax(0, 1fr); column-gap: 1rem; align-items: start; }
+.post.has-thumb > .thumb { grid-row: 1 / span 4; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px; background: var(--line); }
+.post.has-thumb > :not(.thumb) { grid-column: 2; }
+@media (max-width: 44rem) {
+  .post.has-thumb { grid-template-columns: 1fr; }
+  .post.has-thumb > .thumb { grid-row: auto; max-width: 20rem; margin-bottom: 0.5rem; }
+  .post.has-thumb > :not(.thumb) { grid-column: 1; }
+}
 .post h3 a { color: var(--ink); text-decoration: none; }
 .post h3 a:hover { text-decoration: underline; text-decoration-color: var(--lane, var(--accent)); text-decoration-thickness: 2px; }
 .post-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.2rem 0.9rem; margin: 0.3rem 0 0; font-size: 0.875rem; color: var(--muted); }

@@ -34,6 +34,7 @@ General → Workflow permissions** and choose **Read and write permissions**.
   Posts that arrived since your last visit are marked New.
 - **Threat intel**: AI-related threats and security incidents from Microsoft Threat
   Intelligence, The Record, BleepingComputer and The Hacker News.
+- **Videos**: Copilot videos from official Microsoft and GitHub YouTube channels.
 - **Community**: public GitHub projects for Copilot Studio, Microsoft 365 Copilot and GitHub
   Copilot, ranked by recent stars. Pin or hide projects under `[community]` in `config.toml`.
 - **Models**: the newest release of each frontier model family with list prices, the change

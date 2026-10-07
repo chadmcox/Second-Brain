@@ -7,8 +7,8 @@
   var DAY = 86400000;
   var PAGE = 120;
   var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "autopilot", "agent365", "entra", "defender", "ai-threats", "incidents", "agent-registries", "security-agents"];
-  var VIEWS = ["overview", "microsoft", "competitors", "security", "community", "models", "sources"];
-  var FEEDS = { microsoft: "microsoft", competitors: "competitor", security: "security" };
+  var VIEWS = ["overview", "microsoft", "competitors", "security", "videos", "community", "models", "sources"];
+  var FEEDS = { microsoft: "microsoft", competitors: "competitor", security: "security", videos: "video" };
   var DEFAULTS = { scope: "", theme: "", status: "", range: "30", q: "", key: "", roadmap: "" };
 
   var data = null;
@@ -151,6 +151,12 @@
     });
 
     var node = setLane(el("article", { class: "post" }, [el("h3", null, [title]), meta]), laneOf(item));
+    var videoId = item.kind === "video" && /[?&]v=([\w-]{6,20})/.exec(item.url || "");
+    if (videoId) {
+      node.classList.add("has-thumb");
+      node.insertBefore(el("img", { class: "thumb", alt: "", loading: "lazy", width: "320", height: "180",
+        src: "https://i.ytimg.com/vi/" + videoId[1] + "/mqdefault.jpg" }), node.firstChild);
+    }
     var body = item.summary || item.excerpt;
     if (body) {
       var p = el("p", { class: "post-text", text: body + " " });
@@ -238,7 +244,7 @@
     // Picks: this week's key items, or simply the newest posts without AI ratings.
     var weekAgo = Date.now() - 7 * DAY;
     // Threat intel has its own tab; it would otherwise crowd out everything here.
-    var briefing = posts.filter(function (i) { return i.group !== "security"; });
+    var briefing = posts.filter(function (i) { return i.group !== "security" && i.group !== "video"; });
     var week = briefing.filter(function (i) { return Date.parse(i.published) >= weekAgo; });
     var rated = week.some(function (i) { return i.relevance; });
     var picks = rated
@@ -276,6 +282,7 @@
 
   // Themes scoped to threat intel show on that tab only; the rest show elsewhere.
   function themesFor(view) {
+    if (view === "videos") return [];
     return data.themes.filter(function (t) {
       return t.scope === "all" || (t.scope === "security") === (view === "security");
     });
@@ -315,7 +322,7 @@
 
   function renderFeed() {
     var ms = state.view === "microsoft";
-    $("lbl-scope").textContent = ms ? "Product" : state.view === "security" ? "Source" : "Company";
+    $("lbl-scope").textContent = ms ? "Product" : state.view === "security" ? "Source" : state.view === "videos" ? "Channel" : "Company";
     $("roadmap-wrap").hidden = !ms || !data.items.some(function (i) { return i.kind === "roadmap"; });
     $("f-range").value = state.range;
     if (document.activeElement !== $("f-q")) $("f-q").value = state.q;
@@ -521,7 +528,7 @@
       }
       body.appendChild(el("tr", null, [
         name,
-        el("td", { text: s.type === "page" ? "News page (no feed)" : "RSS feed" }),
+        el("td", { text: s.type === "page" ? "News page (no feed)" : s.type === "youtube" ? "YouTube channel feed" : "RSS feed" }),
         el("td", { text: String(s.count || 0) }),
         last
       ]));
@@ -553,7 +560,7 @@
     else if (state.view === "community") renderCommunity();
     else renderSources();
     var label = { overview: "Overview", microsoft: "Microsoft", competitors: "Competitors",
-      security: "Threat intel", community: "Community", models: "Models", sources: "Sources" }[state.view];
+      security: "Threat intel", videos: "Videos", community: "Community", models: "Models", sources: "Sources" }[state.view];
     document.title = label + " | " + data.site.title;
   }
 
