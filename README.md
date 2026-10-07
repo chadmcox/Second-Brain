@@ -6,7 +6,8 @@ you track, optionally writes a short AI summary of each, and publishes the resul
 Pages.
 
 It tracks Microsoft 365 Copilot, Copilot Studio, GitHub Copilot, Copilot Cowork, Copilot Autopilot, Agent 365, Entra and
-Defender, plus OpenAI, Anthropic, Google, xAI, Meta, Mistral, Salesforce and CrowdStrike.
+Defender, plus OpenAI, Anthropic, Google, xAI, Meta, Mistral, NVIDIA, AMD, Hugging Face, Salesforce and
+CrowdStrike.
 
 No servers and no packages to install: the collector uses only the Python standard library.
 

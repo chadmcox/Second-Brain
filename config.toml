@@ -444,6 +444,41 @@ home = "https://www.crowdstrike.com/en-us/blog/"
 filter = "keywords"
 keywords = ["agent", "agents", "agentic", "ai", "llm", "identity", "charlotte", "microsoft"]
 
+[[sources]]
+id = "nvidia"
+name = "NVIDIA Blog"
+group = "competitor"
+company = "NVIDIA"
+type = "rss"
+url = "https://blogs.nvidia.com/feed/"
+home = "https://blogs.nvidia.com/"
+filter = "keywords"
+keywords = ["ai", "agent", "agents", "agentic", "model", "models", "inference", "llm", "gpu",
+            "gpus", "nim", "dgx", "blueprint", "robotics", "data center"]
+
+[[sources]]
+id = "amd"
+name = "AMD Press Releases"
+group = "competitor"
+company = "AMD"
+type = "rss"
+url = "https://ir.amd.com/news-events/press-releases/rss"
+home = "https://ir.amd.com/news-events/press-releases"
+filter = "keywords"
+keywords = ["ai", "agent", "agents", "model", "models", "inference", "gpu", "gpus", "instinct",
+            "epyc", "accelerator", "accelerators", "data center", "compute"]
+
+[[sources]]
+id = "huggingface"
+name = "Hugging Face Blog"
+group = "competitor"
+company = "Hugging Face"
+type = "rss"
+url = "https://huggingface.co/blog/feed.xml"
+home = "https://huggingface.co/blog"
+filter = "all"
+max_items = 40          # the feed carries hundreds of posts; read the newest
+
 # ------------------------------------------------------------- threat intel
 # group = "security" puts a source on the Threat intel tab. filter = "topics"
 # keeps posts about AI threats, security incidents or a tracked product.

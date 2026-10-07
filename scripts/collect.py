@@ -514,6 +514,9 @@ def collect_source(src: dict, known: dict, now: datetime, ingest_days: int,
         raw_entries = parse_feed(fetch(src["url"]), src["url"])
         if not raw_entries:
             raise RuntimeError("feed returned no posts")
+        if src.get("max_items"):      # very busy feeds: read only the newest posts
+            raw_entries.sort(key=lambda e: e["published"] or now, reverse=True)
+            raw_entries = raw_entries[: int(src["max_items"])]
 
     keywords = word_pattern(src.get("keywords", []))
     items, long_text = [], {}
