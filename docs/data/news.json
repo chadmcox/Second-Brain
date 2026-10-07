@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T03:38:01Z",
+ "generated": "2026-10-07T03:52:08Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -88,7 +88,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-07T03:38:01Z",
+  "checked": "2026-10-07T03:52:08Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -463,6 +463,45 @@
     "previous": null
    },
    {
+    "id": "azure/Code 1.1 Flash",
+    "lab": "Microsoft",
+    "name": "Code 1.1 Flash",
+    "input": 0.2,
+    "output": 1.2,
+    "context": null,
+    "about": "",
+    "released": "2026-09-01T00:00:00Z",
+    "url": "",
+    "previous": null,
+    "date_is": "price"
+   },
+   {
+    "id": "azure/MAI-Cyber-1-Flash",
+    "lab": "Microsoft",
+    "name": "MAI-Cyber-1-Flash",
+    "input": 0.6,
+    "output": 3.5,
+    "context": null,
+    "about": "",
+    "released": "2026-08-01T00:00:00Z",
+    "url": "",
+    "previous": null,
+    "date_is": "price"
+   },
+   {
+    "id": "azure/MAI-Thinking-1",
+    "lab": "Microsoft",
+    "name": "MAI-Thinking-1",
+    "input": 2.0,
+    "output": 8.0,
+    "context": null,
+    "about": "",
+    "released": "2026-08-01T00:00:00Z",
+    "url": "",
+    "previous": null,
+    "date_is": "price"
+   },
+   {
     "id": "amazon/nova-2-lite-v1",
     "lab": "Amazon",
     "name": "Nova 2 Lite",
@@ -567,7 +606,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 20
   },
   {
@@ -580,7 +619,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 3
   },
   {
@@ -593,7 +632,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 19
   },
   {
@@ -606,7 +645,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 7
   },
   {
@@ -619,7 +658,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 4
   },
   {
@@ -632,7 +671,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 10
   },
   {
@@ -645,7 +684,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 10
   },
   {
@@ -658,7 +697,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 0
   },
   {
@@ -671,7 +710,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 5
   },
   {
@@ -684,7 +723,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 0
   },
   {
@@ -697,7 +736,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 114
   },
   {
@@ -710,7 +749,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 106
   },
   {
@@ -723,7 +762,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 10
   },
   {
@@ -736,7 +775,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 12
   },
   {
@@ -749,7 +788,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 27
   },
   {
@@ -762,7 +801,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 7
   },
   {
@@ -775,7 +814,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 31
   },
   {
@@ -788,7 +827,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 3
   },
   {
@@ -801,7 +840,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 2
   },
   {
@@ -814,7 +853,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 12
   },
   {
@@ -827,7 +866,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 10
   },
   {
@@ -840,7 +879,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 5
   },
   {
@@ -853,7 +892,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 10
   },
   {
@@ -866,7 +905,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 2
   },
   {
@@ -879,7 +918,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 9
   },
   {
@@ -892,7 +931,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:38:01Z",
+   "last_ok": "2026-10-07T03:52:08Z",
    "count": 25
   }
  ],
