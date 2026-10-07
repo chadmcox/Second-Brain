@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T02:40:47Z",
+ "generated": "2026-10-07T02:44:12Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -16,39 +16,58 @@
  "topics": [
   {
    "id": "copilot",
-   "name": "Microsoft 365 Copilot"
+   "name": "Microsoft 365 Copilot",
+   "theme": false
   },
   {
    "id": "copilotstudio",
-   "name": "Copilot Studio"
+   "name": "Copilot Studio",
+   "theme": false
   },
   {
    "id": "githubcopilot",
-   "name": "GitHub Copilot"
+   "name": "GitHub Copilot",
+   "theme": false
   },
   {
    "id": "cowork",
-   "name": "Copilot Cowork"
+   "name": "Copilot Cowork",
+   "theme": false
   },
   {
    "id": "opal",
-   "name": "Opal"
+   "name": "Opal",
+   "theme": false
   },
   {
    "id": "autopilot",
-   "name": "Copilot Autopilot"
+   "name": "Copilot Autopilot",
+   "theme": false
   },
   {
    "id": "agent365",
-   "name": "Agent 365"
+   "name": "Agent 365",
+   "theme": false
   },
   {
    "id": "entra",
-   "name": "Entra"
+   "name": "Entra",
+   "theme": false
   },
   {
    "id": "defender",
-   "name": "Defender"
+   "name": "Defender",
+   "theme": false
+  },
+  {
+   "id": "personal-agents",
+   "name": "Personal agents",
+   "theme": true
+  },
+  {
+   "id": "decision-models",
+   "name": "Decision models",
+   "theme": true
   }
  ],
  "sources": [
@@ -62,7 +81,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 12
   },
   {
@@ -75,7 +94,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 1
   },
   {
@@ -88,7 +107,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 7
   },
   {
@@ -101,7 +120,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 3
   },
   {
@@ -114,7 +133,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 3
   },
   {
@@ -126,8 +145,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 10,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "new": 0,
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 10
   },
   {
@@ -139,8 +158,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 10,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "new": 0,
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 10
   },
   {
@@ -153,7 +172,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 0
   },
   {
@@ -166,7 +185,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 4
   },
   {
@@ -179,7 +198,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 0
   },
   {
@@ -189,8 +208,8 @@
    "group": "microsoft",
    "company": "",
    "type": "rss",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "HTTP 403 Forbidden",
    "new": 0,
    "last_ok": "2026-10-07T02:40:47Z",
    "count": 62
@@ -205,7 +224,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 58
   },
   {
@@ -218,7 +237,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 10
   },
   {
@@ -231,7 +250,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 12
   },
   {
@@ -244,7 +263,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 15
   },
   {
@@ -257,7 +276,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 7
   },
   {
@@ -270,7 +289,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 12
   },
   {
@@ -283,8 +302,21 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 0
+  },
+  {
+   "id": "meta-news",
+   "name": "Meta Newsroom",
+   "home": "https://about.fb.com/news/",
+   "group": "competitor",
+   "company": "Meta",
+   "type": "rss",
+   "ok": true,
+   "error": "",
+   "new": 2,
+   "last_ok": "2026-10-07T02:44:12Z",
+   "count": 2
   },
   {
    "id": "mistral",
@@ -296,7 +328,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 7
   },
   {
@@ -309,7 +341,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 10
   },
   {
@@ -322,7 +354,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T02:40:47Z",
+   "last_ok": "2026-10-07T02:44:12Z",
    "count": 5
   }
  ],
@@ -1657,6 +1689,25 @@
    "competes_with": []
   },
   {
+   "id": "73bae8f1ae35",
+   "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
+   "title": "The Future Is for Everyone: Muse for Small Business",
+   "published": "2026-09-29T09:30:04Z",
+   "first_seen": "2026-10-07T02:44:12Z",
+   "source": "meta-news",
+   "group": "competitor",
+   "company": "Meta",
+   "kind": "post",
+   "topics": [
+    "personal-agents"
+   ],
+   "status": "",
+   "excerpt": "We’re launching Muse for Small Business, a personal AI agent that works in the background to help your small business reach its goals.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "884977ecb800",
    "url": "https://openai.com/index/introducing-dots",
    "title": "Introducing dots",
@@ -2084,6 +2135,25 @@
    "competes_with": []
   },
   {
+   "id": "b671bd60aeb3",
+   "url": "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
+   "title": "The Biggest News From Connect 2026",
+   "published": "2026-09-24T21:15:55Z",
+   "first_seen": "2026-10-07T02:44:12Z",
+   "source": "meta-news",
+   "group": "competitor",
+   "company": "Meta",
+   "kind": "post",
+   "topics": [
+    "personal-agents"
+   ],
+   "status": "",
+   "excerpt": "Yesterday at Connect, we announced that we're bringing Muse to our AI glasses, launched Meta VR Glasses, and more.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "234391b377f9",
    "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
    "title": "When chat is the wrong UI",
@@ -2252,7 +2322,9 @@
    "group": "competitor",
    "company": "Google",
    "kind": "post",
-   "topics": [],
+   "topics": [
+    "personal-agents"
+   ],
    "status": "",
    "excerpt": "Introducing private, server-side memory to Private AI Compute for personal AI.",
    "summary": "",
