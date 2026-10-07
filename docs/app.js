@@ -142,6 +142,7 @@
     if (item.status && data.statuses[item.status]) {
       meta.appendChild(el("span", { class: "state", "data-s": item.status, text: data.statuses[item.status] }));
     }
+    if (item.kind === "video" && /\/shorts\//.test(item.url || "")) meta.appendChild(el("span", { class: "state", text: "Short" }));
     if (item.kind === "roadmap") meta.appendChild(el("span", { class: "state", text: "Roadmap entry" }));
     if (item.relevance === "high") meta.appendChild(el("span", { class: "key", text: "Key item" }));
     item.topics.forEach(function (t) {
@@ -151,7 +152,7 @@
     });
 
     var node = setLane(el("article", { class: "post" }, [el("h3", null, [title]), meta]), laneOf(item));
-    var videoId = item.kind === "video" && /[?&]v=([\w-]{6,20})/.exec(item.url || "");
+    var videoId = item.kind === "video" && /(?:[?&]v=|\/shorts\/)([\w-]{6,20})/.exec(item.url || "");
     if (videoId) {
       node.classList.add("has-thumb");
       node.insertBefore(el("img", { class: "thumb", alt: "", loading: "lazy", width: "320", height: "180",

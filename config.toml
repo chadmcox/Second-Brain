@@ -529,17 +529,6 @@ filter = "topics"
 # group = "video" puts a source on the Videos tab.
 
 [[sources]]
-id = "yt-copilot"
-name = "Microsoft Copilot (YouTube)"
-group = "video"
-kind = "video"
-company = "Microsoft Copilot"
-type = "youtube"
-handle = "MicrosoftCopilot"
-home = "https://www.youtube.com/@MicrosoftCopilot"
-filter = "all"
-
-[[sources]]
 id = "yt-m365"
 name = "Microsoft 365 (YouTube)"
 group = "video"

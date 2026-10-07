@@ -497,8 +497,11 @@ def youtube_feed_url(src: dict) -> str:
         if not re.fullmatch(r"[\w.-]{2,60}", handle):
             raise RuntimeError("set handle or channel_id for this YouTube source")
         page = fetch(f"https://www.youtube.com/@{handle}", headers={"Cookie": "CONSENT=YES+1"})
-        match = (re.search(r'"(?:externalId|channelId)":"(UC[\w-]{22})"', page)
-                 or re.search(r'youtube\.com/channel/(UC[\w-]{22})', page))
+        # The canonical link names the page's own channel; other ids on the page
+        # can belong to featured channels.
+        match = (re.search(r'<link rel="canonical" href="https://www\.youtube\.com/channel/(UC[\w-]{22})"', page)
+                 or re.search(r'<meta itemprop="(?:channelId|identifier)" content="(UC[\w-]{22})"', page)
+                 or re.search(r'"externalId":"(UC[\w-]{22})"', page))
         if not match:
             raise RuntimeError(f"could not find the channel id for @{handle}")
         cid = match.group(1)
@@ -538,7 +541,13 @@ def collect_source(src: dict, known: dict, now: datetime, ingest_days: int,
     else:
         if src.get("type") == "youtube":
             src["url"] = youtube_feed_url(src)
-        raw_entries = parse_feed(fetch(src["url"]), src["url"])
+        xml_text = fetch(src["url"])
+        raw_entries = parse_feed(xml_text, src["url"])
+        if src.get("type") == "youtube":
+            # Show the channel's own name, so a wrong handle is obvious on the page.
+            found_title = re.search(r"<title>([^<]{1,100})</title>", xml_text)
+            if found_title:
+                src["company"] = html.unescape(found_title.group(1)).strip()
         if not raw_entries:
             raise RuntimeError("feed returned no posts")
         if src.get("max_items"):      # very busy feeds: read only the newest posts
@@ -1060,6 +1069,7 @@ def run(config_path: Path, out_dir: Path, use_ai: bool = True, dry_run: bool = F
             entry["ok"], entry["last_ok"] = True, iso(now)
             if src.get("_channel_id"):
                 entry["channel_id"] = src["_channel_id"]
+                entry["company"] = src.get("company", entry["company"])
             ok_count += 1
             log(f"  ok    {src['name']}: {len(found)} kept, {entry['new']} new")
         except Exception as exc:  # one bad source must not stop the run
