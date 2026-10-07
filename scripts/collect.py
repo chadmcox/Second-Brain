@@ -486,6 +486,78 @@ class Classifier:
 
 # ------------------------------------------------------------------- collect
 
+_MD_DATE = re.compile(
+    r"^##\s+((?:January|February|March|April|May|June|July|August|September|October|"
+    r"November|December)\s+(?:\d{1,2},\s+)?\d{4})\b(.*)$")
+_MD_ITEM = re.compile(r"^\s*[-*]\s+\*\*(.+?)\*\*\s*(?:\[([^\]]*)\])?\s*$")
+
+
+def _md_text(value: str) -> str:
+    """Plain text from a line of Markdown."""
+    value = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", value)
+    value = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", value)
+    value = re.sub(r"[*`]+", "", value)
+    return re.sub(r"\s+", " ", html.unescape(value)).strip()
+
+
+def parse_learn(markdown: str, page_url: str) -> list[dict]:
+    """Entries from a Microsoft Learn "what's new" page fetched as Markdown.
+
+    Handles the two layouts those pages use: bullets that start with a bold
+    title, and Feature | Description | Learn more tables, both under dated
+    "## Month [DD,] YYYY" headings.
+    """
+    base = page_url.split("?", 1)[0].split("#", 1)[0]
+    entries: list[dict] = []
+    date: datetime | None = None
+    anchor = group = ""
+    current: dict | None = None
+
+    def add(title: str, text: str) -> dict:
+        entry = {
+            "url": f"{base}#{anchor}" if anchor else base,
+            "key": f"{base}|{anchor}|{group}|{title}".lower(),
+            "title": title, "published": date,
+            "summary_text": " ".join(x for x in (f"{group}." if group else "", text) if x),
+            "body_text": "", "categories": [group] if group else [],
+        }
+        entries.append(entry)
+        return entry
+
+    for line in markdown.splitlines():
+        heading = _MD_DATE.match(line)
+        if heading:
+            raw = heading.group(1)
+            date = parse_date(raw) or parse_date(re.sub(r"^(\w+)\s+(\d{4})$", r"\1 1, \2", raw))
+            anchor = re.sub(r"[^a-z0-9]+", "-", (raw + heading.group(2)).lower()).strip("-")
+            group, current = "", None
+            continue
+        if date is None:
+            continue
+        if re.match(r"^#{2,4}\s", line):
+            group, current = _md_text(line.lstrip("#")), None
+            continue
+        item = _MD_ITEM.match(line)
+        if item:
+            current = add(_md_text(item.group(1)), "")
+            continue
+        if line.lstrip().startswith("|"):
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            if len(cells) >= 2 and not set(cells[0]) <= set("-: ") and cells[0].lower() != "feature":
+                add(_md_text(cells[0]), _md_text(cells[1]))
+            current = None
+            continue
+        if current is not None and line.strip():
+            text = _md_text(line)
+            # the first plain paragraph is the description; labelled fields follow it
+            if re.match(r"^(roadmap id|details|what changed|why|try this|learn|additional resources|"
+                        r"business impact|personal impact)\b", text, re.I):
+                current = None
+            elif text and len(current["summary_text"]) < 600:
+                current["summary_text"] = (current["summary_text"] + " " + text).strip()
+    return [e for e in entries if e["title"] and e["published"]]
+
+
 _CHANNEL_ID = re.compile(r"UC[\w-]{22}")
 
 
@@ -538,6 +610,14 @@ def collect_source(src: dict, known: dict, now: datetime, ingest_days: int,
                 "summary_text": meta["summary_text"], "body_text": "", "categories": [],
             })
             time.sleep(0.4)
+    elif src.get("type") == "learn":
+        joiner = "&" if "?" in src["url"] else "?"
+        text = fetch(src["url"] + joiner + "accept=text/markdown", headers={"Accept": "text/markdown"})
+        if text.lstrip()[:1] == "<":
+            raise RuntimeError("the page came back as HTML, not Markdown")
+        raw_entries = parse_learn(text, src["url"])
+        if not raw_entries:
+            raise RuntimeError("no dated entries found (the page layout may have changed)")
     else:
         if src.get("type") == "youtube":
             src["url"] = youtube_feed_url(src)
@@ -557,7 +637,7 @@ def collect_source(src: dict, known: dict, now: datetime, ingest_days: int,
     keywords = word_pattern(src.get("keywords", []))
     items, long_text = [], {}
     for e in raw_entries:
-        iid = item_id(e["url"])
+        iid = item_id(e.get("key") or e["url"])
         published = e["published"] or now
         if published > now + timedelta(days=2):
             published = now
@@ -730,7 +810,7 @@ def summarise(items: list[dict], long_text: dict[str, str], cfg: dict, topic_ids
         return "off until the SUMMARY_ENDPOINT and SUMMARY_API_KEY repository secrets are set"
     cutoff = iso(now - timedelta(days=int(scfg.get("max_age_days", 30))))
     pending = [i for i in items
-               if not i.get("summary") and i["published"] >= cutoff and i.get("kind") != "roadmap"]
+               if not i.get("summary") and i["published"] >= cutoff and i.get("kind") not in ("roadmap", "release")]
     pending.sort(key=lambda i: i["published"], reverse=True)
     pending = pending[: int(scfg.get("max_per_run", 40))]
     if not pending:
@@ -1006,7 +1086,7 @@ def build_rss(cfg: dict, items: list[dict], sources: dict[str, dict], now: datet
     ET.SubElement(ch, "description").text = (
         "Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.")
     ET.SubElement(ch, "lastBuildDate").text = format_datetime(now)
-    for i in [x for x in items if x.get("kind") != "roadmap"][:80]:
+    for i in [x for x in items if x.get("kind") not in ("roadmap", "release")][:80]:
         node = ET.SubElement(ch, "item")
         name = sources.get(i["source"], {}).get("name", i["source"])
         ET.SubElement(node, "title").text = f"[{i['company'] or name}] {i['title']}"

@@ -59,6 +59,13 @@ none = ["windows autopilot", "autopilot device preparation", "autopilot profile"
 scope = "microsoft"
 
 [[topics]]
+id = "scout"
+name = "Microsoft Scout"
+any = ["microsoft scout", "scout"]
+none = []
+scope = "microsoft"
+
+[[topics]]
 id = "agent365"
 name = "Agent 365"
 any = ["agent 365", "agent365"]
@@ -321,6 +328,41 @@ kind = "roadmap"
 url = "https://www.microsoft.com/releasecommunications/api/v2/m365/rss"
 home = "https://www.microsoft.com/microsoft-365/roadmap"
 filter = "topics"
+
+# type = "learn" reads a Microsoft Learn "what's new" or release notes page and
+# turns each dated entry into a post. kind = "release" keeps a high-volume page
+# out of the default view (tick "Include roadmap and release notes" to see it).
+
+[[sources]]
+id = "learn-copilot-release-notes"
+name = "Microsoft 365 Copilot release notes"
+group = "microsoft"
+type = "learn"
+kind = "release"
+url = "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all"
+home = "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all"
+filter = "all"
+topics = ["copilot"]
+
+[[sources]]
+id = "learn-cowork-whats-new"
+name = "What's new in Copilot Cowork"
+group = "microsoft"
+type = "learn"
+url = "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new"
+home = "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new"
+filter = "all"
+topics = ["cowork"]
+
+[[sources]]
+id = "learn-scout-whats-new"
+name = "What's new in Microsoft Scout"
+group = "microsoft"
+type = "learn"
+url = "https://learn.microsoft.com/en-us/microsoft-scout/whats-new"
+home = "https://learn.microsoft.com/en-us/microsoft-scout/whats-new"
+filter = "all"
+topics = ["scout"]
 
 [[sources]]
 id = "openai"

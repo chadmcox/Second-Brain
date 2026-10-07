@@ -144,6 +144,7 @@
     }
     if (item.kind === "video" && /\/shorts\//.test(item.url || "")) meta.appendChild(el("span", { class: "state", text: "Short" }));
     if (item.kind === "roadmap") meta.appendChild(el("span", { class: "state", text: "Roadmap entry" }));
+    if (item.kind === "release") meta.appendChild(el("span", { class: "state", text: "Release note" }));
     if (item.relevance === "high") meta.appendChild(el("span", { class: "key", text: "Key item" }));
     item.topics.forEach(function (t) {
       // Product tags belong to Microsoft posts; theme tags show for every company.
@@ -180,7 +181,7 @@
     var index = {};
     days.forEach(function (d, i) { index[dayKey(d)] = i; });
 
-    var posts = data.items.filter(function (i) { return i.kind !== "roadmap"; });
+    var posts = data.items.filter(function (i) { return i.kind !== "roadmap" && i.kind !== "release"; });
     function row(match) {
       var counts = new Array(28).fill(0);
       posts.forEach(function (item) {
@@ -298,7 +299,7 @@
   function matches(item, skip) {
     var ms = state.view === "microsoft";
     if (item.group !== FEEDS[state.view]) return false;
-    if (item.kind === "roadmap" && !(ms && state.roadmap)) return false;
+    if ((item.kind === "roadmap" || item.kind === "release") && !(ms && state.roadmap)) return false;
     if (!inRange(item)) return false;
     if (skip !== "scope" && state.scope) {
       if (ms ? item.topics.indexOf(state.scope) < 0 : item.company !== state.scope) return false;
@@ -324,7 +325,7 @@
   function renderFeed() {
     var ms = state.view === "microsoft";
     $("lbl-scope").textContent = ms ? "Product" : state.view === "security" ? "Source" : state.view === "videos" ? "Channel" : "Company";
-    $("roadmap-wrap").hidden = !ms || !data.items.some(function (i) { return i.kind === "roadmap"; });
+    $("roadmap-wrap").hidden = !ms || !data.items.some(function (i) { return i.kind === "roadmap" || i.kind === "release"; });
     $("f-range").value = state.range;
     if (document.activeElement !== $("f-q")) $("f-q").value = state.q;
     $("f-key").checked = !!state.key;
@@ -529,7 +530,7 @@
       }
       body.appendChild(el("tr", null, [
         name,
-        el("td", { text: s.type === "page" ? "News page (no feed)" : s.type === "youtube" ? "YouTube channel feed" : "RSS feed" }),
+        el("td", { text: s.type === "page" ? "News page (no feed)" : s.type === "youtube" ? "YouTube channel feed" : s.type === "learn" ? "Microsoft Learn page" : "RSS feed" }),
         el("td", { text: String(s.count || 0) }),
         last
       ]));

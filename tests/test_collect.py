@@ -370,6 +370,22 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(out["started"], "2026-09-30T00:00:00Z")
         self.assertIn("pushed%3A%3E2026-08-23", calls[0])
 
+    def test_learn_page(self):
+        rows = collect.parse_learn((FIX / "learn.md").read_text(), "https://learn.test/notes?tabs=all")
+        self.assertEqual([r["title"] for r in rows],
+                         ["Navigate to changes", "Second item", "App skill (Frontier)", "Local browser use"])
+        first = rows[0]
+        self.assertEqual(first["url"], "https://learn.test/notes#october-06-2026")
+        self.assertEqual(collect.iso(first["published"]), "2026-10-06T00:00:00Z")
+        self.assertEqual(first["summary_text"],
+                         "Excel. In Copilot in Excel, the response contains links to highlight changes.")
+        self.assertEqual(rows[1]["summary_text"], "Excel. Short description.")
+        app = rows[2]
+        self.assertEqual(app["url"], "https://learn.test/notes#june-2026-general-availability")
+        self.assertEqual(collect.iso(app["published"]), "2026-06-01T00:00:00Z")
+        self.assertEqual(app["summary_text"], "New features. Create apps from a description.")
+        self.assertEqual(len({r["key"] for r in rows}), 4)
+
     def test_scoped_theme_only_tags_its_group(self):
         cl = collect.Classifier([{"id": "ai-threats", "theme": True, "scope": "security", "any": ["ai agents"]}])
         self.assertEqual(cl.topics_for("AI agents used to hack banks", "", "security", []), ["ai-threats"])
