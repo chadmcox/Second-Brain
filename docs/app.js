@@ -403,7 +403,7 @@
   }
 
   function changeText(prev) {
-    if (!prev) return "First release in this family";
+    if (!prev) return "No earlier release to compare";
     var c = prev.change_pct;
     if (typeof c !== "number") return "Follows " + prev.name;
     if (c === 0) return "Same price as " + prev.name;
@@ -440,11 +440,15 @@
           url ? el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text: r.name }) : r.name,
           r.context ? el("small", { text: Math.round(r.context / 1000).toLocaleString() + "K token context" }) : null
         ]),
-        el("td", { text: fmtShort.format(new Date(r.released)) + " " + new Date(r.released).getFullYear() }),
+        el("td", null, [
+          fmtShort.format(new Date(r.released)) + " " + new Date(r.released).getFullYear(),
+          r.date_is === "price" ? el("small", { text: "price effective" }) : null
+        ]),
         el("td", { class: "num", text: money(r.input) }),
         out,
         change,
-        el("td", { class: "about", text: r.about || "" })
+        el("td", { class: "about", text: r.about ||
+          (r.date_is === "price" ? "Azure's price list gives no description for this model." : "") })
       ]));
     });
   }

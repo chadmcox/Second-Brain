@@ -1,0 +1,11 @@
+{"Count": 7, "NextPageLink": null, "Items": [
+ {"meterName":"MAI-Thinking-1 Cd Inp glbl 1M Tokens","unitOfMeasure":"1M","retailPrice":0.2,"effectiveStartDate":"2026-08-01T00:00:00Z"},
+ {"meterName":"MAI-Thinking-1 Inp glbl 1M Tokens","unitOfMeasure":"1M","retailPrice":2.0,"effectiveStartDate":"2026-08-01T00:00:00Z"},
+ {"meterName":"MAI-Thinking-1 Opt glbl 1M Tokens","unitOfMeasure":"1M","retailPrice":8.0,"effectiveStartDate":"2026-08-01T00:00:00Z"},
+ {"meterName":"Code 1.1 Flash Input glbl 1M Tokens","unitOfMeasure":"1M","retailPrice":0.2,"effectiveStartDate":"2026-09-01T00:00:00Z"},
+ {"meterName":"Code 1.1 Flash Output Glbl 1M Tokens","unitOfMeasure":"1M","retailPrice":1.2,"effectiveStartDate":"2026-09-01T00:00:00Z"},
+ {"meterName":"Image 2.5 Text Input glbl Tokens","unitOfMeasure":"1K","retailPrice":0.005,"effectiveStartDate":"2026-06-01T00:00:00Z"},
+ {"meterName":"Provisioned Managed Global Unit","unitOfMeasure":"1/Hour","retailPrice":1.0,"effectiveStartDate":"2026-09-01T00:00:00Z"},
+ {"meterName":"Old 1 Input glbl Tokens","unitOfMeasure":"1K","retailPrice":0.001,"effectiveStartDate":"2026-05-01T00:00:00Z"},
+ {"meterName":"Old 1 Output glbl Tokens","unitOfMeasure":"1K","retailPrice":0.004,"effectiveStartDate":"2026-05-01T00:00:00Z"}
+]}

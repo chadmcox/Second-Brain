@@ -823,6 +823,47 @@ def build_models(cfg: dict, raw_json: str, now: datetime) -> list[dict]:
     return kept
 
 
+_AZURE_METER = re.compile(
+    r"^(?P<model>.+?)\s+(?P<cached>Cd\s+)?(?P<dir>Input|Inp|Output|Outp|Opt)\s+"
+    r"(?P<zone>glbl|global)\b", re.I)
+
+
+def build_azure_models(acfg: dict, raw_json: str) -> list[dict]:
+    """Text models from an Azure Retail Prices API response (global, uncached meters)."""
+    notes = acfg.get("about", {})
+    found: dict[str, dict] = {}
+    for row in json.loads(raw_json).get("Items", []):
+        if not isinstance(row, dict):
+            continue
+        meter = str(row.get("meterName", ""))
+        m = _AZURE_METER.match(meter)
+        if not m or m.group("cached") or re.search(r"\b(image|img|audio|voice|batch)\b", meter, re.I):
+            continue
+        price = row.get("retailPrice")
+        unit = str(row.get("unitOfMeasure", "")).strip().upper()
+        if not isinstance(price, (int, float)) or price <= 0 or unit not in ("1M", "1K"):
+            continue
+        per_million = round(price * (1000 if unit == "1K" else 1), 4)
+        name = m.group("model").strip()
+        entry = found.setdefault(name, {"input": None, "output": None, "dates": []})
+        entry["input" if m.group("dir").lower().startswith("in") else "output"] = per_million
+        when = parse_date(str(row.get("effectiveStartDate", "")))
+        if when:
+            entry["dates"].append(when)
+    out = []
+    for name, e in found.items():
+        if e["input"] is None or e["output"] is None or not e["dates"]:
+            continue
+        out.append({
+            "id": "azure/" + name, "lab": acfg.get("lab", "Microsoft"), "name": clip(name, 80),
+            "input": e["input"], "output": e["output"], "context": None,
+            "about": clip(str(notes.get(name, "")), 240), "released": iso(min(e["dates"])),
+            "url": acfg.get("home", ""), "previous": None, "date_is": "price",
+        })
+    out.sort(key=lambda r: r["released"], reverse=True)
+    return out
+
+
 # -------------------------------------------------------------------- output
 
 def build_rss(cfg: dict, items: list[dict], sources: dict[str, dict], now: datetime) -> str:
@@ -933,11 +974,27 @@ def run(config_path: Path, out_dir: Path, use_ai: bool = True, dry_run: bool = F
             rows = build_models(cfg, fetch(mcfg["url"]), now)
             if not rows:
                 raise RuntimeError("the listing had no priced models for the configured labs")
-            models = {"checked": iso(now), "source": mcfg["url"], "error": "", "rows": rows}
+            kept_azure = [r for r in models.get("rows", []) if r.get("date_is") == "price"]
+            models = {"checked": iso(now), "source": mcfg["url"], "error": "", "rows": rows + kept_azure}
             log(f"  ok    model listing: {len(rows)} models")
         except Exception as exc:  # keep yesterday's table if today's read fails
             models = dict(models, error=clip(str(exc), 200))
             log(f"  FAIL  model listing: {models['error']}")
+        acfg = mcfg.get("azure", {})
+        if acfg.get("enabled", False) and acfg.get("url"):
+            try:
+                azure_rows = build_azure_models(acfg, fetch(acfg["url"].replace(" ", "%20")))
+                if not azure_rows:
+                    raise RuntimeError("no priced text models in the Azure price list")
+                others = [r for r in models["rows"] if r.get("date_is") != "price"]
+                order = [lab["name"] for lab in mcfg.get("labs", [])]
+                rank = lambda r: order.index(r["lab"]) if r["lab"] in order else len(order)
+                models["rows"] = sorted(others + azure_rows, key=rank)   # stable: keeps date order
+                log(f"  ok    Azure price list: {len(azure_rows)} models")
+            except Exception as exc:
+                models["error"] = clip((models.get("error") + " " if models.get("error") else "")
+                                       + f"Azure price list: {exc}", 240)
+                log(f"  FAIL  Azure price list: {exc}")
     else:
         models = {"checked": "", "source": "", "error": "", "rows": []}
 

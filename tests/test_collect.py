@@ -321,6 +321,17 @@ class UnitTests(unittest.TestCase):
         self.assertNotEqual(collect.model_family("Ministral 3 14B 2512"), collect.model_family("Ministral 3 8B 2512"))
         self.assertEqual(collect.model_family("DeepSeek V4 Pro 0813"), collect.model_family("DeepSeek V4 Pro 0423"))
 
+    def test_azure_models(self):
+        rows = collect.build_azure_models({"lab": "Microsoft", "about": {"MAI-Thinking-1": "Reasoning."}},
+                                          (FIX / "azure.json").read_text())
+        got = {r["name"]: (r["input"], r["output"], r["released"][:10], r["about"]) for r in rows}
+        self.assertEqual(got, {
+            "Code 1.1 Flash": (0.2, 1.2, "2026-09-01", ""),
+            "MAI-Thinking-1": (2.0, 8.0, "2026-08-01", "Reasoning."),
+            "Old 1": (1.0, 4.0, "2026-05-01", ""),
+        })
+        self.assertEqual(rows[0]["name"], "Code 1.1 Flash")
+
     def test_scoped_theme_only_tags_its_group(self):
         cl = collect.Classifier([{"id": "ai-threats", "theme": True, "scope": "security", "any": ["ai agents"]}])
         self.assertEqual(cl.topics_for("AI agents used to hack banks", "", "security", []), ["ai-threats"])

@@ -140,6 +140,21 @@ labs = [
   { prefix = "deepseek", name = "DeepSeek" },
 ]
 
+# Microsoft's own models are not in that listing, so they come from Azure's
+# public retail price list (global deployment, East US 2 meters).
+[models.azure]
+enabled = true
+lab = "Microsoft"
+url = "https://prices.azure.com/api/retail/prices?$filter=productName eq 'MAI Models' and priceType eq 'Consumption' and armRegionName eq 'eastus2'"
+home = ""
+
+# The price list has no descriptions. Add one line per model here, keyed by
+# the name exactly as the Models tab shows it.
+[models.azure.about]
+"MAI-Thinking-1" = ""
+"MAI-Cyber-1-Flash" = ""
+"Code 1.1 Flash" = ""
+
 # ----------------------------------------------------------------- sources
 # type    "rss"  = RSS or Atom feed
 #         "page" = a site with no feed: the collector reads the listing page,
