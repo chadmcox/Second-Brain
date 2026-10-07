@@ -155,6 +155,29 @@ home = ""
 "MAI-Cyber-1-Flash" = ""
 "Code 1.1 Flash" = ""
 
+# --------------------------------------------------------------- community
+# The Community tab lists public GitHub repositories that carry one of these
+# topics and had a commit recently. They are ranked by stars gained over the
+# past week (once a week of history exists), then by total stars.
+
+[community]
+enabled = true
+per_topic = 15          # repositories read per topic
+max_rows = 40           # repositories shown
+active_days = 45        # must have a commit this recently
+pinned = []             # "owner/repo" entries that always show first
+exclude = []            # "owner/repo" entries to hide
+topics = [
+  { topic = "copilot-studio", label = "Copilot Studio" },
+  { topic = "microsoft-copilot-studio", label = "Copilot Studio" },
+  { topic = "microsoft-365-copilot", label = "Microsoft 365 Copilot" },
+  { topic = "m365-copilot", label = "Microsoft 365 Copilot" },
+  { topic = "declarative-agents", label = "Microsoft 365 Copilot" },
+  { topic = "copilot-agents", label = "Microsoft 365 Copilot" },
+  { topic = "github-copilot", label = "GitHub Copilot" },
+  { topic = "copilot-extension", label = "GitHub Copilot" },
+]
+
 # ----------------------------------------------------------------- sources
 # type    "rss"  = RSS or Atom feed
 #         "page" = a site with no feed: the collector reads the listing page,

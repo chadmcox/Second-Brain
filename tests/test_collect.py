@@ -332,6 +332,44 @@ class UnitTests(unittest.TestCase):
         })
         self.assertEqual(rows[0]["name"], "Code 1.1 Flash")
 
+    def test_community(self):
+        calls = []
+
+        def get(url):
+            calls.append(url)
+            if "/repos/" in url:
+                return {"full_name": "me/pinned", "html_url": "https://github.com/me/pinned",
+                        "stargazers_count": 3, "archived": True}
+            if "topic%3Abroken" in url:
+                raise RuntimeError("HTTP 422")
+            return {"items": [
+                {"full_name": "a/big", "html_url": "https://github.com/a/big", "stargazers_count": 900,
+                 "description": "<b>Big</b> one", "pushed_at": "2026-10-01T00:00:00Z"},
+                {"full_name": "b/rising", "html_url": "https://github.com/b/rising", "stargazers_count": 120},
+                {"full_name": "c/fork", "html_url": "https://github.com/c/fork", "stargazers_count": 5000, "fork": True},
+                {"full_name": "d/hidden", "html_url": "https://github.com/d/hidden", "stargazers_count": 10},
+                {"full_name": "e/evil", "html_url": "javascript:alert(1)", "stargazers_count": 10},
+            ]}
+
+        cfg = {"pinned": ["me/pinned", "not a repo"], "exclude": ["D/Hidden"], "topics": [
+            {"topic": "one", "label": "One"}, {"topic": "two", "label": "Two"}, {"topic": "broken", "label": "X"}]}
+        previous = {"started": "2026-09-30T00:00:00Z", "rows": [
+            {"full_name": "b/rising", "first_seen": "2026-10-01T00:00:00Z", "log": [["2026-10-02", 40]]},
+            {"full_name": "a/big", "first_seen": "2026-09-30T00:00:00Z", "log": [["2026-09-01", 100], ["2026-10-03", 895]]}]}
+        self._sleep, collect.time.sleep = collect.time.sleep, lambda s: None
+        try:
+            out = collect.build_community(cfg, previous, NOW, get)
+        finally:
+            collect.time.sleep = self._sleep
+        self.assertEqual([r["full_name"] for r in out["rows"]], ["me/pinned", "b/rising", "a/big"])
+        rising, big = out["rows"][1], out["rows"][2]
+        self.assertEqual((rising["gain"], rising["first_seen"]), (80, "2026-10-01T00:00:00Z"))
+        self.assertEqual((big["gain"], big["labels"], big["description"]), (5, ["One", "Two"], "Big one"))
+        self.assertIsNone(out["rows"][0]["gain"])
+        self.assertIn("broken", out["error"])
+        self.assertEqual(out["started"], "2026-09-30T00:00:00Z")
+        self.assertIn("pushed%3A%3E2026-08-23", calls[0])
+
     def test_scoped_theme_only_tags_its_group(self):
         cl = collect.Classifier([{"id": "ai-threats", "theme": True, "scope": "security", "any": ["ai agents"]}])
         self.assertEqual(cl.topics_for("AI agents used to hack banks", "", "security", []), ["ai-threats"])

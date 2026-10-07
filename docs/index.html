@@ -34,6 +34,7 @@
     <a href="#microsoft" data-view="microsoft">Microsoft</a>
     <a href="#competitors" data-view="competitors">Competitors</a>
     <a href="#security" data-view="security">Threat intel</a>
+    <a href="#community" data-view="community">Community</a>
     <a href="#models" data-view="models">Models</a>
     <a href="#sources" data-view="sources">Sources</a>
   </nav>
@@ -110,6 +111,18 @@
         <tbody id="models-body"></tbody>
       </table>
     </div>
+  </section>
+
+  <section id="view-community" class="view" hidden>
+    <h2>Community Copilot projects</h2>
+    <p class="lede">Public GitHub repositories tagged for Copilot Studio, Microsoft 365 Copilot or GitHub Copilot that had a recent commit. They are ordered by stars gained over the past week where a week of history exists, then by total stars. Popular does not mean vetted, so review a project before using it. <span id="community-note"></span></p>
+    <div class="filters community-filters">
+      <div class="filter-row">
+        <span class="filter-label" id="lbl-community">Built for</span>
+        <div class="chips" id="chips-community" role="group" aria-labelledby="lbl-community"></div>
+      </div>
+    </div>
+    <div id="community-list" class="posts community-list"></div>
   </section>
 
   <section id="view-sources" class="view" hidden>

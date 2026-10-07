@@ -7,7 +7,7 @@
   var DAY = 86400000;
   var PAGE = 120;
   var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "autopilot", "agent365", "entra", "defender", "ai-threats", "incidents"];
-  var VIEWS = ["overview", "microsoft", "competitors", "security", "models", "sources"];
+  var VIEWS = ["overview", "microsoft", "competitors", "security", "community", "models", "sources"];
   var FEEDS = { microsoft: "microsoft", competitors: "competitor", security: "security" };
   var DEFAULTS = { scope: "", theme: "", status: "", range: "30", q: "", key: "", roadmap: "" };
 
@@ -106,7 +106,7 @@
 
   function writeHash(replace) {
     var params = new URLSearchParams();
-    if (FEEDS[state.view]) {
+    if (FEEDS[state.view] || state.view === "community") {
       Object.keys(DEFAULTS).forEach(function (k) {
         if (state[k] && state[k] !== DEFAULTS[k]) params.set(k, state[k]);
       });
@@ -453,6 +453,53 @@
     });
   }
 
+  // ------------------------------------------------------------ community
+  function renderCommunity() {
+    var c = data.community || { rows: [] };
+    var labels = [];
+    c.rows.forEach(function (r) {
+      (r.labels || []).forEach(function (l) { if (labels.indexOf(l) < 0) labels.push(l); });
+    });
+    var chips = clear($("chips-community"));
+    function pick(value) { state.scope = value; writeHash(true); renderCommunity(); }
+    chips.appendChild(chip("All", c.rows.length, !state.scope, "", function () { pick(""); }));
+    labels.forEach(function (l) {
+      var n = c.rows.filter(function (r) { return (r.labels || []).indexOf(l) >= 0; }).length;
+      chips.appendChild(chip(l, n, state.scope === l, "", function () { pick(state.scope === l ? "" : l); }));
+    });
+    var note = c.checked ? "Checked " + fmtFull.format(new Date(c.checked)) + "." : "";
+    if (c.error) note += " Some searches failed: " + c.error + ".";
+    $("community-note").textContent = note;
+
+    var started = Date.parse(c.started || "") || 0;
+    var list = clear($("community-list"));
+    var rows = c.rows.filter(function (r) { return !state.scope || (r.labels || []).indexOf(state.scope) >= 0; });
+    if (!rows.length) {
+      list.appendChild(el("p", { class: "empty", text: c.rows.length
+        ? "No projects carry this label right now."
+        : "No projects have been collected yet. They appear after the next run." }));
+    }
+    rows.forEach(function (r) {
+      var url = safeUrl(r.url);
+      var meta = el("p", { class: "post-meta" });
+      var seen = Date.parse(r.first_seen || "") || 0;
+      // "New" means it joined the list after the first collection, within the last week.
+      if (seen > started + DAY / 2 && Date.now() - seen < 7 * DAY) meta.appendChild(el("span", { class: "fresh", text: "New" }));
+      if (r.pinned) meta.appendChild(el("span", { class: "key", text: "Pinned" }));
+      meta.appendChild(el("span", { text: plural(r.stars, "star").replace(/^\d+/, r.stars.toLocaleString()) }));
+      if (typeof r.gain === "number" && r.gain > 0) meta.appendChild(el("span", { class: "key", text: "+" + r.gain.toLocaleString() + " this week" }));
+      if (r.pushed) meta.appendChild(el("span", { text: "Updated " + fmtShort.format(new Date(r.pushed)) }));
+      if (r.language) meta.appendChild(el("span", { text: r.language }));
+      (r.labels || []).forEach(function (l) { meta.appendChild(el("span", { class: "tag", text: l })); });
+      var node = el("article", { class: "post" }, [
+        el("h3", null, [url ? el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text: r.full_name }) : r.full_name]),
+        meta
+      ]);
+      if (r.description) node.appendChild(el("p", { class: "post-text", text: r.description }));
+      list.appendChild(node);
+    });
+  }
+
   // -------------------------------------------------------------- sources
   function renderSources() {
     var body = clear($("sources-body"));
@@ -490,19 +537,21 @@
     $("view-overview").hidden = state.view !== "overview";
     $("view-feed").hidden = !feed;
     $("view-models").hidden = state.view !== "models";
+    $("view-community").hidden = state.view !== "community";
     $("view-sources").hidden = state.view !== "sources";
     if (!data) return;
     if (!data.generated) {
       // Nothing collected yet: the message below explains how to start.
-      ["view-overview", "view-feed", "view-models", "view-sources"].forEach(function (id) { $(id).hidden = true; });
+      ["view-overview", "view-feed", "view-models", "view-community", "view-sources"].forEach(function (id) { $(id).hidden = true; });
       return;
     }
     if (state.view === "overview") renderOverview();
     else if (feed) renderFeed();
     else if (state.view === "models") renderModels();
+    else if (state.view === "community") renderCommunity();
     else renderSources();
     var label = { overview: "Overview", microsoft: "Microsoft", competitors: "Competitors",
-      security: "Threat intel", models: "Models", sources: "Sources" }[state.view];
+      security: "Threat intel", community: "Community", models: "Models", sources: "Sources" }[state.view];
     document.title = label + " | " + data.site.title;
   }
 

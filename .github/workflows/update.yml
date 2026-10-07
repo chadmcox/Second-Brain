@@ -37,6 +37,7 @@ jobs:
           SUMMARY_ENDPOINT: ${{ secrets.SUMMARY_ENDPOINT }}
           SUMMARY_API_KEY: ${{ secrets.SUMMARY_API_KEY }}
           SUMMARY_MODEL: ${{ secrets.SUMMARY_MODEL }}
+          GITHUB_TOKEN: ${{ github.token }}   # higher GitHub search limits for the Community tab
         run: python scripts/collect.py
 
       - name: Publish the refreshed data

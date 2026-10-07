@@ -47,7 +47,7 @@ def log(msg: str) -> None:
 
 # --------------------------------------------------------------------- fetch
 
-def fetch(url: str, timeout: int = 25, tries: int = 2) -> str:
+def fetch(url: str, timeout: int = 25, tries: int = 2, headers: dict | None = None) -> str:
     """Return the body of a URL (or a local file path) as text."""
     parsed = urllib.parse.urlparse(url)
     if parsed.scheme in ("", "file"):
@@ -64,6 +64,7 @@ def fetch(url: str, timeout: int = 25, tries: int = 2) -> str:
                           "application/xml;q=0.9, text/html;q=0.8, */*;q=0.5",
                 "Accept-Encoding": "gzip",
                 "Accept-Language": "en-US,en;q=0.8",
+                **(headers or {}),
             })
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 raw = resp.read(8_000_000)
@@ -864,6 +865,86 @@ def build_azure_models(acfg: dict, raw_json: str) -> list[dict]:
     return out
 
 
+# ----------------------------------------------------------------- community
+
+def github_json(url: str) -> dict:
+    headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    if token and urllib.parse.urlparse(url).netloc == "api.github.com":
+        headers["Authorization"] = f"Bearer {token}"
+    return json.loads(fetch(url, headers=headers))
+
+
+def build_community(ccfg: dict, previous: dict, now: datetime, get=None) -> dict:
+    """Active public repositories for the configured GitHub topics, busiest first."""
+    get = get or github_json
+    since = (now - timedelta(days=int(ccfg.get("active_days", 45)))).strftime("%Y-%m-%d")
+    per_topic = max(1, min(50, int(ccfg.get("per_topic", 15))))
+    exclude = {x.lower() for x in ccfg.get("exclude", [])}
+    pinned = [x for x in ccfg.get("pinned", []) if re.fullmatch(r"[\w.-]+/[\w.-]+", x)]
+    old = {r["full_name"].lower(): r for r in previous.get("rows", []) if isinstance(r, dict)}
+    found: dict[str, dict] = {}
+    errors: list[str] = []
+
+    def take(repo: dict, label: str, pin: bool = False) -> None:
+        if not isinstance(repo, dict):
+            return
+        name = str(repo.get("full_name", ""))
+        url = str(repo.get("html_url", ""))
+        if not name or not url.startswith("https://github.com/") or name.lower() in exclude:
+            return
+        if not pin and (repo.get("fork") or repo.get("archived") or repo.get("private")):
+            return
+        row = found.setdefault(name.lower(), {
+            "full_name": name, "url": url,
+            "description": clip(strip_html(str(repo.get("description") or "")), 220),
+            "stars": int(repo.get("stargazers_count") or 0),
+            "language": str(repo.get("language") or ""),
+            "pushed": str(repo.get("pushed_at") or ""), "created": str(repo.get("created_at") or ""),
+            "labels": [], "pinned": False,
+        })
+        if label and label not in row["labels"]:
+            row["labels"].append(label)
+        row["pinned"] = row["pinned"] or pin
+
+    for entry in ccfg.get("topics", []):
+        query = urllib.parse.quote(f"topic:{entry['topic']} pushed:>{since}")
+        try:
+            data = get(f"https://api.github.com/search/repositories?q={query}"
+                       f"&sort=stars&order=desc&per_page={per_topic}")
+            for repo in data.get("items", []):
+                take(repo, entry.get("label", entry["topic"]))
+        except Exception as exc:
+            errors.append(f"{entry['topic']}: {clip(str(exc), 80)}")
+        time.sleep(1.2)
+    for name in pinned:
+        try:
+            take(get(f"https://api.github.com/repos/{name}"), "", pin=True)
+        except Exception as exc:
+            errors.append(f"{name}: {clip(str(exc), 80)}")
+
+    if not found:
+        return dict(previous, error="; ".join(errors) or "no repositories found") if previous.get("rows") \
+            else {"checked": "", "started": "", "error": "; ".join(errors) or "no repositories found", "rows": []}
+
+    today = now.strftime("%Y-%m-%d")
+    week_ago = (now - timedelta(days=8)).strftime("%Y-%m-%d")
+    for key, row in found.items():
+        before = old.get(key, {})
+        log_ = [e for e in before.get("log", []) if isinstance(e, list) and len(e) == 2 and e[0] != today]
+        log_ = (log_ + [[today, row["stars"]]])[-10:]
+        row["log"] = log_
+        row["first_seen"] = before.get("first_seen") or iso(now)
+        base = [e for e in log_[:-1] if e[0] >= week_ago]
+        row["gain"] = row["stars"] - base[0][1] if base else None
+    rows = sorted(found.values(),
+                  key=lambda r: (not r["pinned"], -(r["gain"] or 0), -r["stars"], r["full_name"].lower()))
+    return {
+        "checked": iso(now), "started": previous.get("started") or iso(now),
+        "error": "; ".join(errors), "rows": rows[: int(ccfg.get("max_rows", 40))],
+    }
+
+
 # -------------------------------------------------------------------- output
 
 def build_rss(cfg: dict, items: list[dict], sources: dict[str, dict], now: datetime) -> str:
@@ -967,6 +1048,15 @@ def run(config_path: Path, out_dir: Path, use_ai: bool = True, dry_run: bool = F
         ai_note = summarise(items, long_text, cfg, topic_ids, sources, now)
     log(f"  summaries: {ai_note}")
 
+    community = previous.get("community") or {"checked": "", "started": "", "error": "", "rows": []}
+    ccfg = cfg.get("community", {})
+    if ccfg.get("enabled", False):
+        community = build_community(ccfg, community, now)
+        log(f"  {'ok  ' if not community['error'] else 'FAIL'}  community projects: "
+            f"{len(community['rows'])} repositories {community['error']}")
+    else:
+        community = {"checked": "", "started": "", "error": "", "rows": []}
+
     models = previous.get("models") or {"checked": "", "source": "", "error": "", "rows": []}
     mcfg = cfg.get("models", {})
     if mcfg.get("enabled", False) and mcfg.get("url"):
@@ -1012,6 +1102,7 @@ def run(config_path: Path, out_dir: Path, use_ai: bool = True, dry_run: bool = F
         "topics": [{"id": t["id"], "name": t.get("name", t["id"]), "theme": bool(t.get("theme", False)),
                     "scope": t.get("scope", "")} for t in topics],
         "models": models,
+        "community": community,
         "sources": report,
         "items": items,
         "seen": sorted(seen - {i["id"] for i in items})[-4000:],

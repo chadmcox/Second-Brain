@@ -255,6 +255,7 @@ h2 { font: 700 1.5rem/1.15 var(--display); letter-spacing: -0.015em; margin: 0 0
 .models .about { color: var(--muted); font-size: 0.9375rem; min-width: 16rem; max-width: 26rem; }
 .models .lab-row th { font: 700 1.0625rem/1.2 var(--display); background: color-mix(in srgb, var(--ink) 6%, transparent); padding: 0.5rem 0.9rem; }
 .models tr:last-child td, .models tr:last-child th { border-bottom: 0; }
+.community-list { margin-top: 1.5rem; }
 .prose p { max-width: var(--measure); margin: 0 0 0.9rem; }
 
 .message { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 6px; padding: 1.1rem 1.25rem; max-width: 44rem; }
