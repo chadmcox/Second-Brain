@@ -600,9 +600,7 @@ def call_model(model: str, token: str, payload: list[dict], topic_ids: list[str]
     req = urllib.request.Request(MODELS_ENDPOINT, data=body, method="POST", headers={
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
-        "Accept": "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2022-11-28",
-        "User-Agent": USER_AGENT,
+        "User-Agent": "copilot-agent-watch",
     })
     try:
         # Never follow redirects here: urllib would turn the POST into a GET
