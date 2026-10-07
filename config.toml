@@ -30,6 +30,18 @@ max_age_days = 30       # older posts keep the source's own excerpt
 id = "copilot"
 name = "Microsoft 365 Copilot"
 any = ["copilot"]
+none = ["github copilot"]
+
+[[topics]]
+id = "copilotstudio"
+name = "Copilot Studio"
+any = ["copilot studio", "agent builder"]
+none = []
+
+[[topics]]
+id = "githubcopilot"
+name = "GitHub Copilot"
+any = ["github copilot"]
 none = []
 
 [[topics]]
@@ -128,7 +140,27 @@ type = "rss"
 url = "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/feed/"
 home = "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/"
 filter = "all"
-topics = ["copilot"]
+topics = ["copilotstudio"]
+
+[[sources]]
+id = "gh-changelog-copilot"
+name = "GitHub Changelog: Copilot"
+group = "microsoft"
+type = "rss"
+url = "https://github.blog/changelog/label/copilot/feed/"
+home = "https://github.blog/changelog/label/copilot/"
+filter = "all"
+topics = ["githubcopilot"]
+
+[[sources]]
+id = "gh-blog-copilot"
+name = "GitHub Blog: Copilot"
+group = "microsoft"
+type = "rss"
+url = "https://github.blog/ai-and-ml/github-copilot/feed/"
+home = "https://github.blog/ai-and-ml/github-copilot/"
+filter = "all"
+topics = ["githubcopilot"]
 
 [[sources]]
 id = "ms-security"
