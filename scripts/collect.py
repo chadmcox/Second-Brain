@@ -939,9 +939,18 @@ def build_community(ccfg: dict, previous: dict, now: datetime, get=None) -> dict
         row["gain"] = row["stars"] - base[0][1] if base else None
     rows = sorted(found.values(),
                   key=lambda r: (not r["pinned"], -(r["gain"] or 0), -r["stars"], r["full_name"].lower()))
+    # Cap each label so one busy ecosystem cannot crowd out the others.
+    per_label = int(ccfg.get("per_label", 15))
+    kept, used = [], {}
+    for row in rows:
+        label = row["labels"][0] if row["labels"] else ""
+        if not row["pinned"] and used.get(label, 0) >= per_label:
+            continue
+        used[label] = used.get(label, 0) + 1
+        kept.append(row)
     return {
         "checked": iso(now), "started": previous.get("started") or iso(now),
-        "error": "; ".join(errors), "rows": rows[: int(ccfg.get("max_rows", 40))],
+        "error": "; ".join(errors), "rows": kept[: int(ccfg.get("max_rows", 45))],
     }
 
 

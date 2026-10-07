@@ -162,8 +162,9 @@ home = ""
 
 [community]
 enabled = true
-per_topic = 15          # repositories read per topic
-max_rows = 40           # repositories shown
+per_topic = 20          # repositories read per topic
+per_label = 15          # repositories shown per "Built for" label
+max_rows = 45           # repositories shown in total
 active_days = 45        # must have a commit this recently
 pinned = []             # "owner/repo" entries that always show first
 exclude = []            # "owner/repo" entries to hide

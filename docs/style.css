@@ -211,6 +211,7 @@ h2 { font: 700 1.5rem/1.15 var(--display); letter-spacing: -0.015em; margin: 0 0
 .posts { display: grid; gap: 1.1rem; }
 .post { border-left: 3px solid var(--lane, var(--lane-other)); padding: 0.05rem 0 0.1rem 0.9rem; max-width: 52rem; }
 .post h3 { font: 500 1.1875rem/1.25 var(--display); letter-spacing: -0.005em; margin: 0; }
+.post h3, .post-text { overflow-wrap: anywhere; }
 .post h3 a { color: var(--ink); text-decoration: none; }
 .post h3 a:hover { text-decoration: underline; text-decoration-color: var(--lane, var(--accent)); text-decoration-thickness: 2px; }
 .post-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.2rem 0.9rem; margin: 0.3rem 0 0; font-size: 0.875rem; color: var(--muted); }
