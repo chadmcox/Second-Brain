@@ -4,77 +4,7 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 07 Oct 2026 02:24:00 +0000</lastBuildDate>
-    <item>
-      <title>[Meta] Introducing TRIBE v2: A Predictive Foundation Model Trained to Understand How the Human Brain Processes Complex Stimuli</title>
-      <link>https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/</link>
-      <guid isPermaLink="false">f993eb8e38c0</guid>
-      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Meta] Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
-      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
-      <guid isPermaLink="false">f46da8bae972</guid>
-      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Meta] Introducing Muse Image and Muse Video</title>
-      <link>https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/</link>
-      <guid isPermaLink="false">d3d113bb08b2</guid>
-      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
-      <description>Muse Image follows instructions faithfully, edits with precision, composes from multiple references, and draws on Instagram for social context. Muse Video delivers exceptional visual fidelity with native audio support.</description>
-    </item>
-    <item>
-      <title>[Meta] Scaling How We Build and Test Our Most Advanced AI</title>
-      <link>https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/</link>
-      <guid isPermaLink="false">c2c8a1270846</guid>
-      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
-      <description>As we build more capable, personalized AI, reliability, security, and user protections are more important than ever.</description>
-    </item>
-    <item>
-      <title>[Meta] Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics</title>
-      <link>https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/</link>
-      <guid isPermaLink="false">bde5e15a43c6</guid>
-      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Meta] Introducing Muse Spark 1.1</title>
-      <link>https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/</link>
-      <guid isPermaLink="false">9fc4a4963406</guid>
-      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Meta] How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects</title>
-      <link>https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/</link>
-      <guid isPermaLink="false">4a1497318d76</guid>
-      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Meta] From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery</title>
-      <link>https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/</link>
-      <guid isPermaLink="false">3c5753723cca</guid>
-      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Meta] Mapping the World's Forests with Greater Precision: Introducing Canopy Height Maps v2</title>
-      <link>https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/</link>
-      <guid isPermaLink="false">21f86e2d045a</guid>
-      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
-      <description>In partnership with the World Resources Institute, today we’re announcing Canopy Height Maps v2 (CHMv2), an open source model, along with world-scale maps generated with the model.</description>
-    </item>
-    <item>
-      <title>[Meta] How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet</title>
-      <link>https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/</link>
-      <guid isPermaLink="false">0368a1148022</guid>
-      <pubDate>Wed, 07 Oct 2026 02:24:00 +0000</pubDate>
-      <description />
-    </item>
+    <lastBuildDate>Wed, 07 Oct 2026 02:25:22 +0000</lastBuildDate>
     <item>
       <title>[Google] EmbeddingGemma 2: an open, lightweight multimodal embedding model</title>
       <link>https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/</link>
@@ -578,6 +508,78 @@
       <guid isPermaLink="false">be2314c62992</guid>
       <pubDate>Wed, 23 Sep 2026 15:25:14 +0000</pubDate>
       <description />
+    </item>
+    <item>
+      <title>[OpenAI] Harvey turns legal context into stronger drafts with GPT-6 Astra</title>
+      <link>https://openai.com/index/harvey-from-context-to-confidence-with-astra</link>
+      <guid isPermaLink="false">f7558dc5c9de</guid>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+      <description>GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Ringg’s AI agents resolve up to 65% of customer calls with OpenAI</title>
+      <link>https://openai.com/index/ringg</link>
+      <guid isPermaLink="false">7cff1964bf19</guid>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.</description>
+    </item>
+    <item>
+      <title>[OpenAI] How invideo improves color grading 3x with GPT‑6 Astra</title>
+      <link>https://openai.com/index/invideo-builds-with-gpt-6-astra</link>
+      <guid isPermaLink="false">7357353a1f1d</guid>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+      <description>With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Sam Altman’s remarks at the United Nations Security Council</title>
+      <link>https://openai.com/index/sam-altman-un-security-council-remarks</link>
+      <guid isPermaLink="false">01d4e543c941</guid>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+      <description>OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Introducing MentalHealthBench</title>
+      <link>https://openai.com/index/introducing-mentalhealthbench</link>
+      <guid isPermaLink="false">1d5a9cc2d950</guid>
+      <pubDate>Wed, 23 Sep 2026 10:00:00 +0000</pubDate>
+      <description>MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Airbnb widens access to GPT-6 Astra and OpenAI frontier models</title>
+      <link>https://openai.com/index/airbnb-gpt-6-astra</link>
+      <guid isPermaLink="false">73fafdf6f45f</guid>
+      <pubDate>Wed, 23 Sep 2026 01:00:00 +0000</pubDate>
+      <description>Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.</description>
+    </item>
+    <item>
+      <title>[Microsoft] More Models, One Copilot</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035</link>
+      <guid isPermaLink="false">06af239bfa5e</guid>
+      <pubDate>Tue, 22 Sep 2026 21:34:06 +0000</pubDate>
+      <description>Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Sol are rolling out to Microsoft Copilot today across Word, Excel, PowerPoint, Chat, Cowork, and Copilot Studio. Bringing Claude Opus 5.5 and GPT-6 Sol to Microsoft Copilot reflects Microsoft's commitment to giving customers access to the latest AI innovations as they emerge. As AI continues to evolve, Microsoft is expanding model choice in Copilot so customers can…</description>
+      <category>copilot</category>
+      <category>cowork</category>
+    </item>
+    <item>
+      <title>[OpenAI] Better prompt caching for GPT-6</title>
+      <link>https://openai.com/index/better-prompt-caching-for-gpt-6</link>
+      <guid isPermaLink="false">b6b1e4118cdb</guid>
+      <pubDate>Tue, 22 Sep 2026 21:00:00 +0000</pubDate>
+      <description>Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Introducing GPT-6 Sol and Luna</title>
+      <link>https://openai.com/index/introducing-gpt-6-sol-and-luna</link>
+      <guid isPermaLink="false">3d48e529ad7a</guid>
+      <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
+      <description>Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Parallel cut research time and cost in half with GPT‑6 Astra</title>
+      <link>https://openai.com/index/parallel-cuts-time-and-cost-with-astra</link>
+      <guid isPermaLink="false">ce45d8dc0f6c</guid>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
+      <description>GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.</description>
     </item>
   </channel>
 </rss>
