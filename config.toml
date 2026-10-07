@@ -97,6 +97,16 @@ any = ["decision model", "decision models", "jev", "laya", "typesafe", "typesafe
 none = []
 
 [[topics]]
+id = "agent-registries"
+name = "Agent registries"
+theme = true
+any = ["agent registry", "agent registries", "agent catalog", "agent catalogs", "agent gallery",
+       "agent store", "agent marketplace", "agent directory", "agent inventory",
+       "plugin registry", "tool registry", "mcp registry", "registry of agents",
+       "agent card", "agent cards"]
+none = []
+
+[[topics]]
 id = "ai-threats"
 name = "AI threats"
 theme = true

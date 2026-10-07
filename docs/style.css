@@ -42,6 +42,7 @@
   --lane-agent365: #f07db8; --lane-entra: #7ccb7f; --lane-defender: #f08a7c; --lane-other: #9aa9b1;
 }
 
+[data-lane="agent-registries"] { --lane: var(--lane-agent365); }
 [data-lane="ai-threats"] { --lane: var(--lane-defender); }
 [data-lane="incidents"] { --lane: var(--lane-autopilot); }
 [data-lane="copilot"] { --lane: var(--lane-copilot); }
