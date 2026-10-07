@@ -318,6 +318,8 @@ class UnitTests(unittest.TestCase):
         self.assertTrue(rows[1]["about"].startswith("Balanced model"))
         self.assertEqual(collect.model_family("OpenAI: GPT-6.1 Sol"), collect.model_family("GPT-5.6 Sol"))
         self.assertNotEqual(collect.model_family("Claude Sonnet 5.5"), collect.model_family("Claude Opus 5.5"))
+        self.assertNotEqual(collect.model_family("Ministral 3 14B 2512"), collect.model_family("Ministral 3 8B 2512"))
+        self.assertEqual(collect.model_family("DeepSeek V4 Pro 0813"), collect.model_family("DeepSeek V4 Pro 0423"))
 
     def test_scoped_theme_only_tags_its_group(self):
         cl = collect.Classifier([{"id": "ai-threats", "theme": True, "scope": "security", "any": ["ai agents"]}])

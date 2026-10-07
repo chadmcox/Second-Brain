@@ -467,6 +467,8 @@ class Classifier:
                 continue
             if t["scope"] and t["scope"] != group:
                 continue
+            if t["theme"] and not t["scope"] and group == "security":
+                continue      # market themes do not apply to threat intel posts
             if not t["any"].search(haystack):
                 continue
             if t["none"] and t["none"].search(haystack):
@@ -735,7 +737,7 @@ def summarise(items: list[dict], long_text: dict[str, str], cfg: dict, topic_ids
 
 # -------------------------------------------------------------------- models
 
-_VERSION = re.compile(r"\b\d+(?:[.\-]\d+)*[a-z]?\b")
+_VERSION = re.compile(r"\b\d+(?:[.\-]\d+)*(?![a-z0-9])")   # leaves sizes such as "14b" alone
 _NOISE = re.compile(r"\b(preview|latest|beta|exp|experimental|new)\b")
 
 
@@ -744,7 +746,7 @@ def model_family(name: str) -> str:
     name = name.split(":", 1)[-1].lower()
     name = re.sub(r"\(.*?\)", " ", name)
     name = _NOISE.sub(" ", _VERSION.sub(" ", name))
-    return re.sub(r"[^a-z]+", " ", name).strip()
+    return re.sub(r"[^a-z0-9]+", " ", name).strip()
 
 
 def _price(value) -> float | None:
@@ -770,6 +772,9 @@ def build_models(cfg: dict, raw_json: str, now: datetime) -> list[dict]:
         prefix = mid.split("/", 1)[0]
         if prefix not in labs or ":" in mid:      # ":free", ":batch" and similar are variants
             continue
+        outputs = (m.get("architecture") or {}).get("output_modalities")
+        if isinstance(outputs, list) and outputs != ["text"]:
+            continue                                  # image, audio and video generators
         pricing = m.get("pricing") or {}
         cost_in, cost_out = _price(pricing.get("prompt")), _price(pricing.get("completion"))
         created = m.get("created")
@@ -780,6 +785,7 @@ def build_models(cfg: dict, raw_json: str, now: datetime) -> list[dict]:
         if not family:
             continue
         about = strip_html(str(m.get("description", "")))
+        about = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", about)   # markdown links -> their text
         first = re.split(r"(?<=[.!?])\s+", about, maxsplit=1)[0]
         families.setdefault((prefix, family), []).append({
             "id": mid, "lab": labs[prefix], "name": clip(name, 80), "created": float(created),
