@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copilot &amp; Agent Watch</title>
+<meta name="description" content="Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, collected from official sources several times a day.">
+<meta name="color-scheme" content="light dark">
+<link rel="alternate" type="application/rss+xml" title="Copilot &amp; Agent Watch" href="feed.xml">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230A5C63'/%3E%3Cg fill='%23fff'%3E%3Crect x='6' y='8' width='20' height='3' rx='1.5'/%3E%3Crect x='6' y='14.5' width='13' height='3' rx='1.5' opacity='.75'/%3E%3Crect x='6' y='21' width='17' height='3' rx='1.5' opacity='.5'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+  // Apply a saved theme before first paint.
+  try { var t = localStorage.getItem("watch-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="masthead-title">
+    <h1 id="site-title">Copilot &amp; Agent Watch</h1>
+    <p id="site-status" class="status-line" aria-live="polite">Loading the latest posts…</p>
+  </div>
+  <div class="masthead-tools">
+    <a class="tool" href="feed.xml">RSS feed</a>
+    <button class="tool" id="theme-toggle" type="button">Dark theme</button>
+  </div>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#overview" data-view="overview">Overview</a>
+    <a href="#microsoft" data-view="microsoft">Microsoft</a>
+    <a href="#competitors" data-view="competitors">Competitors</a>
+    <a href="#sources" data-view="sources">Sources</a>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+  <section id="view-overview" class="view" hidden>
+    <div class="lanes-head">
+      <h2>Posts per day, last four weeks</h2>
+      <p class="hint">Darker squares mean more posts that day. Select a row to read them.</p>
+    </div>
+    <div id="lanes" class="lanes"></div>
+
+    <div class="split">
+      <div>
+        <h2 id="picks-title">Worth reading this week</h2>
+        <div id="picks" class="posts"></div>
+      </div>
+      <aside class="aside" aria-labelledby="latest-title">
+        <h2 id="latest-title">Latest by product</h2>
+        <ul id="latest" class="latest"></ul>
+      </aside>
+    </div>
+  </section>
+
+  <section id="view-feed" class="view" hidden>
+    <form class="filters" id="filters" role="search" aria-label="Filter posts">
+      <div class="filter-row">
+        <span class="filter-label" id="lbl-scope">Product</span>
+        <div class="chips" id="chips-scope" role="group" aria-labelledby="lbl-scope"></div>
+      </div>
+      <div class="filter-row">
+        <span class="filter-label" id="lbl-status">Status</span>
+        <div class="chips" id="chips-status" role="group" aria-labelledby="lbl-status"></div>
+      </div>
+      <div class="filter-row filter-row-controls">
+        <label class="field">
+          <span class="filter-label">Period</span>
+          <select id="f-range">
+            <option value="7">Last 7 days</option>
+            <option value="30" selected>Last 30 days</option>
+            <option value="90">Last 90 days</option>
+            <option value="0">Everything</option>
+          </select>
+        </label>
+        <label class="field field-grow">
+          <span class="filter-label">Search</span>
+          <input id="f-q" type="search" placeholder="Title, summary or source" autocomplete="off">
+        </label>
+        <label class="check"><input type="checkbox" id="f-key"> Key items only</label>
+        <label class="check" id="roadmap-wrap"><input type="checkbox" id="f-roadmap"> Include roadmap entries</label>
+      </div>
+    </form>
+    <p id="result-count" class="result-count" aria-live="polite"></p>
+    <div id="timeline" class="timeline"></div>
+    <button id="more" class="more" type="button" hidden>Show older posts</button>
+  </section>
+
+  <section id="view-sources" class="view" hidden>
+    <h2>Where the posts come from</h2>
+    <p class="lede">The collector reads each source several times a day. Sites without an RSS feed are read from their news page instead.</p>
+    <div class="table-wrap">
+      <table class="sources">
+        <thead><tr><th scope="col">Source</th><th scope="col">Read as</th><th scope="col">Posts kept</th><th scope="col">Last read</th></tr></thead>
+        <tbody id="sources-body"></tbody>
+      </table>
+    </div>
+    <h2>About this page</h2>
+    <div class="prose">
+      <p>This is a personal project. It is not affiliated with, endorsed by or supported by Microsoft or any company listed here.</p>
+      <p>Titles and links come straight from each publisher. Where a post carries an “AI summary” note, the summary, its “key item” rating and any “competes with” tags were written by an AI model from the publisher’s text and can be wrong, so check the linked source before relying on them. Status labels such as Preview or Generally available are detected from wording in the title and opening lines.</p>
+      <p id="summary-state"></p>
+      <p>To add or remove a source or product, edit <code>config.toml</code> in the repository. The next run applies it.</p>
+    </div>
+  </section>
+
+  <div id="message" class="message" hidden></div>
+</main>
+
+<footer class="footer">
+  <p>Not affiliated with Microsoft. Summaries marked “AI summary” are machine-written and may contain errors.</p>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>

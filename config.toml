@@ -1,0 +1,271 @@
+# Copilot & Agent Watch: everything the collector tracks lives in this file.
+# Edit it on github.com and the next scheduled run picks the change up.
+
+[site]
+title = "Copilot & Agent Watch"
+url = "https://chadmcox.github.io/Second-Brain/"
+ingest_days = 45        # ignore posts older than this when they are first seen
+retention_days = 180    # drop stored posts older than this
+max_items = 1500
+
+[summaries]
+enabled = true
+# Tried in order until one answers. See https://github.com/marketplace/models
+models = ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "openai/gpt-4.1"]
+max_per_run = 40        # posts summarised per run (keeps you inside the free rate limit)
+batch_size = 8          # posts per model request
+max_age_days = 30       # older posts keep the source's own excerpt
+
+# ---------------------------------------------------------------- products
+# A post gets a product tag when one of `any` appears in its title or opening
+# lines (whole words, case-insensitive) and none of `none` do.
+# scope = "microsoft" limits the tag to Microsoft sources.
+
+[[topics]]
+id = "copilot"
+name = "Microsoft 365 Copilot"
+any = ["copilot"]
+none = []
+
+[[topics]]
+id = "cowork"
+name = "Copilot Cowork"
+any = ["cowork"]
+none = ["coworking"]
+
+[[topics]]
+id = "opal"
+name = "Opal"
+any = ["opal", "computer use agent", "windows 365 for agents"]
+none = ["optimizely"]
+scope = "microsoft"
+
+[[topics]]
+id = "autopilot"
+name = "Copilot Autopilot"
+any = ["autopilot"]
+none = ["windows autopilot", "autopilot device preparation", "autopilot profile", "intune"]
+scope = "microsoft"
+
+[[topics]]
+id = "agent365"
+name = "Agent 365"
+any = ["agent 365", "agent365"]
+none = []
+
+[[topics]]
+id = "entra"
+name = "Entra"
+any = ["entra", "agent id", "conditional access"]
+none = []
+
+[[topics]]
+id = "defender"
+name = "Defender"
+any = ["defender", "security copilot", "sentinel"]
+none = []
+
+# ----------------------------------------------------------------- sources
+# type    "rss"  = RSS or Atom feed
+#         "page" = a site with no feed: the collector reads the listing page,
+#                  keeps links whose path matches link_pattern, then opens each
+#                  new post to read its title, description and date.
+# filter  "all"      keep every post
+#         "topics"   keep posts that match at least one product above
+#         "keywords" keep posts that contain one of `keywords` (whole words)
+# topics  product tags every post from this source gets
+
+[[sources]]
+id = "tc-copilot"
+name = "Microsoft Copilot Blog"
+group = "microsoft"
+type = "rss"
+url = "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog"
+home = "https://techcommunity.microsoft.com/category/microsoft365copilot/blog/microsoft-copilot-blog"
+filter = "all"
+topics = ["copilot"]
+
+[[sources]]
+id = "tc-agent365"
+name = "Agent 365 Blog"
+group = "microsoft"
+type = "rss"
+url = "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog"
+home = "https://techcommunity.microsoft.com/category/microsoft365/blog/agent-365-blog"
+filter = "all"
+topics = ["agent365"]
+
+[[sources]]
+id = "tc-entra"
+name = "Microsoft Entra Blog"
+group = "microsoft"
+type = "rss"
+url = "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-entra-blog"
+home = "https://techcommunity.microsoft.com/category/microsoft-entra/blog/microsoft-entra-blog"
+filter = "all"
+topics = ["entra"]
+
+[[sources]]
+id = "tc-defender"
+name = "Microsoft Defender XDR Blog"
+group = "microsoft"
+type = "rss"
+url = "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftthreatprotectionblog"
+home = "https://techcommunity.microsoft.com/category/microsoft-defender-xdr/blog/microsoftthreatprotectionblog"
+filter = "all"
+topics = ["defender"]
+
+[[sources]]
+id = "copilot-studio"
+name = "Copilot Studio Blog"
+group = "microsoft"
+type = "rss"
+url = "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/feed/"
+home = "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/"
+filter = "all"
+topics = ["copilot"]
+
+[[sources]]
+id = "ms-security"
+name = "Microsoft Security Blog"
+group = "microsoft"
+type = "rss"
+url = "https://www.microsoft.com/en-us/security/blog/feed/"
+home = "https://www.microsoft.com/en-us/security/blog/"
+filter = "topics"
+
+[[sources]]
+id = "m365-blog"
+name = "Microsoft 365 Blog"
+group = "microsoft"
+type = "rss"
+url = "https://www.microsoft.com/en-us/microsoft-365/blog/feed/"
+home = "https://www.microsoft.com/en-us/microsoft-365/blog/"
+filter = "topics"
+
+[[sources]]
+id = "ms-official"
+name = "Official Microsoft Blog"
+group = "microsoft"
+type = "rss"
+url = "https://blogs.microsoft.com/feed/"
+home = "https://blogs.microsoft.com/"
+filter = "topics"
+
+[[sources]]
+id = "m365-roadmap"
+name = "Microsoft 365 Roadmap"
+group = "microsoft"
+type = "rss"
+kind = "roadmap"
+url = "https://www.microsoft.com/releasecommunications/api/v2/m365/rss"
+home = "https://www.microsoft.com/microsoft-365/roadmap"
+filter = "topics"
+
+[[sources]]
+id = "openai"
+name = "OpenAI News"
+group = "competitor"
+company = "OpenAI"
+type = "rss"
+url = "https://openai.com/news/rss.xml"
+home = "https://openai.com/news/"
+filter = "keywords"
+keywords = ["introducing", "gpt", "agent", "agents", "codex", "enterprise", "chatgpt work", "pricing", "microsoft", "copilot", "security", "model"]
+
+[[sources]]
+id = "anthropic"
+name = "Anthropic News"
+group = "competitor"
+company = "Anthropic"
+type = "page"
+url = "https://www.anthropic.com/news"
+home = "https://www.anthropic.com/news"
+link_pattern = "^/news/[a-z0-9][a-z0-9-]+/?$"
+filter = "all"
+
+[[sources]]
+id = "google"
+name = "Google: The Keyword"
+group = "competitor"
+company = "Google"
+type = "rss"
+url = "https://blog.google/rss/"
+home = "https://blog.google/"
+filter = "keywords"
+keywords = ["gemini", "agent", "agents", "agentic", "workspace", "notebooklm", "enterprise", "model"]
+
+[[sources]]
+id = "deepmind"
+name = "Google DeepMind"
+group = "competitor"
+company = "Google"
+type = "rss"
+url = "https://deepmind.google/blog/rss.xml"
+home = "https://deepmind.google/blog/"
+filter = "all"
+
+[[sources]]
+id = "google-workspace"
+name = "Google Workspace Updates"
+group = "competitor"
+company = "Google"
+type = "rss"
+url = "https://feeds.feedburner.com/GoogleAppsUpdates"
+home = "https://workspaceupdates.googleblog.com/"
+filter = "keywords"
+keywords = ["gemini", "agent", "agents", "ai", "notebooklm"]
+
+[[sources]]
+id = "xai"
+name = "xAI News"
+group = "competitor"
+company = "xAI"
+type = "page"
+url = "https://x.ai/news"
+home = "https://x.ai/news"
+link_pattern = "^/news/[a-z0-9][a-z0-9-]+/?$"
+filter = "all"
+
+[[sources]]
+id = "meta-ai"
+name = "Meta AI Blog"
+group = "competitor"
+company = "Meta"
+type = "page"
+url = "https://ai.meta.com/blog/"
+home = "https://ai.meta.com/blog/"
+link_pattern = "^/blog/[a-z0-9][a-z0-9-]+/?$"
+filter = "all"
+
+[[sources]]
+id = "mistral"
+name = "Mistral AI News"
+group = "competitor"
+company = "Mistral"
+type = "rss"
+url = "https://mistral.ai/news/rss"
+home = "https://mistral.ai/news"
+filter = "all"
+
+[[sources]]
+id = "salesforce"
+name = "Salesforce News"
+group = "competitor"
+company = "Salesforce"
+type = "rss"
+url = "https://www.salesforce.com/news/feed/"
+home = "https://www.salesforce.com/news/"
+filter = "keywords"
+keywords = ["agentforce", "agent", "agents", "agentic", "ai"]
+
+[[sources]]
+id = "crowdstrike"
+name = "CrowdStrike Blog"
+group = "competitor"
+company = "CrowdStrike"
+type = "rss"
+url = "https://www.crowdstrike.com/en-us/blog/feed"
+home = "https://www.crowdstrike.com/en-us/blog/"
+filter = "keywords"
+keywords = ["agent", "agents", "agentic", "ai", "llm", "identity", "charlotte", "microsoft"]

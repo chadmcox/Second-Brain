@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Workspace Updates</title>
+<entry><title type="html">Gemini agents arrive in Docs</title>
+ <link rel="replies" href="https://example.org/comments/1"/>
+ <link rel="alternate" type="text/html" href="https://example.org/2026/10/gemini-agents.html"/>
+ <published>2026-10-03T09:30:00.000-07:00</published><updated>2026-10-04T09:30:00Z</updated>
+ <category term="Rapid Release"/>
+ <content type="html">&lt;p&gt;Admins can turn on &lt;b&gt;Gemini agents&lt;/b&gt; in preview.&lt;/p&gt;</content></entry>
+<entry><title>Calendar colour tweaks</title>
+ <link rel="alternate" href="https://example.org/2026/10/calendar.html"/>
+ <published>2026-10-02T09:30:00Z</published>
+ <summary>New colours for calendars.</summary></entry>
+</feed>

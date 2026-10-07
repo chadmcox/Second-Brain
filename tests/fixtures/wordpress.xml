@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel><title>Microsoft Security Blog</title><link>https://example.com/blog/</link>
+<item>
+ <title>Securing Copilot Cowork with Microsoft Defender &#8211; now generally available</title>
+ <link>https://example.com/blog/2026/10/05/securing-cowork/?utm_source=rss&amp;id=7#top</link>
+ <dc:creator><![CDATA[A Writer]]></dc:creator>
+ <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
+ <category><![CDATA[News]]></category>
+ <description><![CDATA[<p>Runtime protection for agents is now generally available.</p>
+<p>The post <a href="https://example.com/x">Securing Copilot Cowork</a> appeared first on <a href="https://example.com">Microsoft Security Blog</a>.</p>]]></description>
+ <content:encoded><![CDATA[<p>Runtime protection for agents is now generally available.</p><script>alert(1)</script><p>Pricing stays at $15 per user.</p>]]></content:encoded>
+</item>
+<item>
+ <title>CISO perspectives on patching</title>
+ <link>https://example.com/blog/2026/10/06/ciso/</link>
+ <pubDate>Tue, 06 Oct 2026 16:00:00 +0000</pubDate>
+ <description><![CDATA[<p>A leadership essay about vulnerability management. Padding sentence that says nothing about any product. Padding sentence that says nothing about any product. Padding sentence that says nothing about any product. Padding sentence that says nothing about any product. Padding sentence that says nothing about any product. Padding sentence that says nothing about any product. Padding sentence that says nothing about any product. Padding sentence that says nothing about any product. Padding sentence that says nothing about any product. Padding sentence that says nothing about any product. Much later the article mentions Microsoft Defender.</p>]]></description>
+</item>
+<item>
+ <title>Windows Autopilot device preparation update</title>
+ <link>https://example.com/blog/2026/10/04/autopilot-intune/</link>
+ <pubDate>Sun, 04 Oct 2026 10:00:00 +0000</pubDate>
+ <description>Intune admins get a new enrollment report.</description>
+</item>
+<item>
+ <title>Old Entra post from last year</title>
+ <link>https://example.com/blog/2025/01/01/old/</link>
+ <pubDate>Wed, 01 Jan 2025 10:00:00 +0000</pubDate>
+ <description>Entra news that is too old to ingest.</description>
+</item>
+</channel></rss>
