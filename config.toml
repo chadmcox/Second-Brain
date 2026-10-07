@@ -530,10 +530,10 @@ filter = "topics"
 
 [[sources]]
 id = "yt-m365"
-name = "Microsoft 365 (YouTube)"
+name = "Microsoft Copilot (YouTube)"
 group = "video"
 kind = "video"
-company = "Microsoft 365"
+company = "Microsoft Copilot"
 type = "youtube"
 handle = "Microsoft365"
 home = "https://www.youtube.com/@Microsoft365"
