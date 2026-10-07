@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T04:02:09Z",
+ "generated": "2026-10-07T04:04:23Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -88,7 +88,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-07T04:02:09Z",
+  "checked": "2026-10-07T04:04:23Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -596,7 +596,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-07T04:02:09Z",
+  "checked": "2026-10-07T04:04:23Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -1001,27 +1001,6 @@
     "gain": null
    },
    {
-    "full_name": "microsoft/Build-CLI",
-    "url": "https://github.com/microsoft/Build-CLI",
-    "description": "Experience Microsoft Build, directly from your terminal, with GitHub Copilot CLI and the Microsoft Build CLI.",
-    "stars": 294,
-    "language": "TypeScript",
-    "pushed": "2026-09-10T00:26:19Z",
-    "created": "2026-04-28T22:20:04Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      294
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": null
-   },
-   {
     "full_name": "cramt/m365-copilot-proxy",
     "url": "https://github.com/cramt/m365-copilot-proxy",
     "description": "OpenAI-compatible proxy for Microsoft 365 Copilot — use the Copilot licence you already have as a backend for pi, openclaw and other coding agents. Prompt-emulated tool calling, no extra licence, no MCP.",
@@ -1192,27 +1171,6 @@
     "gain": null
    },
    {
-    "full_name": "brunoborges/jvm-pulse",
-    "url": "https://github.com/brunoborges/jvm-pulse",
-    "description": "Profile any Java project's GC + JFR telemetry inside GitHub Copilot — a canvas extension powered by Microsoft GCToolkit and the JDK jfr CLI.",
-    "stars": 29,
-    "language": "JavaScript",
-    "pushed": "2026-08-26T20:33:11Z",
-    "created": "2026-07-06T19:03:40Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      29
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": null
-   },
-   {
     "full_name": "microsoft/ConsumptionCentral-for-Microsoft-Copilot",
     "url": "https://github.com/microsoft/ConsumptionCentral-for-Microsoft-Copilot",
     "description": "One Power BI template for Microsoft Copilot credit consumption and cost - Cowork/Work IQ, Copilot Studio, GitHub Copilot and Azure AI Foundry.",
@@ -1291,27 +1249,6 @@
      [
       "2026-10-07",
       17
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": null
-   },
-   {
-    "full_name": "microsoft/copilot-brag-sheet",
-    "url": "https://github.com/microsoft/copilot-brag-sheet",
-    "description": "Auto-track every Copilot CLI coding session into a structured work impact log. Zero deps, local-first, cross-platform.",
-    "stars": 11,
-    "language": "JavaScript",
-    "pushed": "2026-09-30T21:46:31Z",
-    "created": "2026-04-16T21:48:09Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      11
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1442,6 +1379,175 @@
     ],
     "first_seen": "2026-10-07T04:02:09Z",
     "gain": null
+   },
+   {
+    "full_name": "MasayukiTa/m365-copilot-companion-mcp",
+    "url": "https://github.com/MasayukiTa/m365-copilot-companion-mcp",
+    "description": "Personal-use MCP server that gives Microsoft 365 Copilot real hands on your own laptop: files, Python, Office, SQL, Web. 100+ tools, autonomous relay, easily extensible, no extra licences.",
+    "stars": 8,
+    "language": "Python",
+    "pushed": "2026-10-07T01:19:21Z",
+    "created": "2026-05-27T10:53:31Z",
+    "labels": [
+     "Copilot Studio",
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      8
+     ]
+    ],
+    "first_seen": "2026-10-07T04:04:23Z",
+    "gain": null
+   },
+   {
+    "full_name": "site-speed/M365-Copilot-Chat-Export-userscript",
+    "url": "https://github.com/site-speed/M365-Copilot-Chat-Export-userscript",
+    "description": "A Tampermonkey userscript for exporting M365 Copilot Chat conversations from the Microsoft 365 work/school chat experience as both raw JSON and readable Markdown",
+    "stars": 8,
+    "language": "JavaScript",
+    "pushed": "2026-10-06T15:13:47Z",
+    "created": "2026-05-12T14:48:30Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      8
+     ]
+    ],
+    "first_seen": "2026-10-07T04:04:23Z",
+    "gain": null
+   },
+   {
+    "full_name": "kesslernity/awesome-copilot-agent-skills",
+    "url": "https://github.com/kesslernity/awesome-copilot-agent-skills",
+    "description": "137 custom skills for Microsoft 365 Copilot declarative agents (preview): one SKILL.md folder per skill, upload zips, 25 packs of eight with agent instructions, a limits checker. CC BY-SA 4.0.",
+    "stars": 7,
+    "language": "Python",
+    "pushed": "2026-09-19T11:14:46Z",
+    "created": "2026-09-16T20:57:15Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      7
+     ]
+    ],
+    "first_seen": "2026-10-07T04:04:23Z",
+    "gain": null
+   },
+   {
+    "full_name": "rmssantos/examsim",
+    "url": "https://github.com/rmssantos/examsim",
+    "description": "Frozen local edition of Examplar: certification practice, editor and free packs with no telemetry. Download and run locally; maintained online service at examplar.app.",
+    "stars": 6,
+    "language": "Python",
+    "pushed": "2026-09-07T23:36:55Z",
+    "created": "2025-10-13T15:50:51Z",
+    "labels": [
+     "Copilot Studio"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      6
+     ]
+    ],
+    "first_seen": "2026-10-07T04:04:23Z",
+    "gain": null
+   },
+   {
+    "full_name": "pax8labs/pax8-cta",
+    "url": "https://github.com/pax8labs/pax8-cta",
+    "description": "Ship your copilot agents to all your tenants! Multi-tenant Copilot Studio deployment automation for MSPs",
+    "stars": 5,
+    "language": "TypeScript",
+    "pushed": "2026-10-02T15:31:03Z",
+    "created": "2026-01-26T18:55:25Z",
+    "labels": [
+     "Copilot Studio"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      5
+     ]
+    ],
+    "first_seen": "2026-10-07T04:04:23Z",
+    "gain": null
+   },
+   {
+    "full_name": "site-speed/M365-Copilot-Chat-Export-extension",
+    "url": "https://github.com/site-speed/M365-Copilot-Chat-Export-extension",
+    "description": "A Chromium extension for exporting M365 Copilot Chat conversations from the Microsoft 365 work/school chat experience as both raw JSON and readable Markdown.",
+    "stars": 5,
+    "language": "JavaScript",
+    "pushed": "2026-10-06T15:02:29Z",
+    "created": "2026-05-12T14:50:42Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      5
+     ]
+    ],
+    "first_seen": "2026-10-07T04:04:23Z",
+    "gain": null
+   },
+   {
+    "full_name": "timothywarner-org/oreilly-copilot-studio-agents",
+    "url": "https://github.com/timothywarner-org/oreilly-copilot-studio-agents",
+    "description": "Build one AI-901 study assistant in Microsoft Copilot Studio. Inception, Build, Extend, Operate.",
+    "stars": 5,
+    "language": "",
+    "pushed": "2026-09-19T16:09:02Z",
+    "created": "2026-09-06T00:53:25Z",
+    "labels": [
+     "Copilot Studio"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      5
+     ]
+    ],
+    "first_seen": "2026-10-07T04:04:23Z",
+    "gain": null
+   },
+   {
+    "full_name": "Yugpat1835/awesome-copilot-cowork-skills",
+    "url": "https://github.com/Yugpat1835/awesome-copilot-cowork-skills",
+    "description": "Automate workflows in Microsoft 365 Copilot Cowork with a library of 15 portable skills and an executive review suite designed for cross-platform compatibility.",
+    "stars": 5,
+    "language": "",
+    "pushed": "2026-10-06T06:16:12Z",
+    "created": "2026-06-16T00:58:45Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      5
+     ]
+    ],
+    "first_seen": "2026-10-07T04:04:23Z",
+    "gain": null
    }
   ]
  },
@@ -1456,7 +1562,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 20
   },
   {
@@ -1469,7 +1575,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 3
   },
   {
@@ -1482,7 +1588,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 19
   },
   {
@@ -1495,7 +1601,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 7
   },
   {
@@ -1508,7 +1614,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 4
   },
   {
@@ -1521,7 +1627,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 10
   },
   {
@@ -1534,7 +1640,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 10
   },
   {
@@ -1547,7 +1653,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 0
   },
   {
@@ -1560,7 +1666,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 5
   },
   {
@@ -1573,7 +1679,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 0
   },
   {
@@ -1586,7 +1692,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 114
   },
   {
@@ -1599,7 +1705,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 106
   },
   {
@@ -1612,7 +1718,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 10
   },
   {
@@ -1625,7 +1731,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 12
   },
   {
@@ -1638,7 +1744,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 27
   },
   {
@@ -1651,7 +1757,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 7
   },
   {
@@ -1664,7 +1770,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 31
   },
   {
@@ -1677,7 +1783,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 3
   },
   {
@@ -1690,7 +1796,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 2
   },
   {
@@ -1703,7 +1809,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 12
   },
   {
@@ -1716,7 +1822,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 10
   },
   {
@@ -1729,7 +1835,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 5
   },
   {
@@ -1742,7 +1848,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 10
   },
   {
@@ -1755,7 +1861,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 2
   },
   {
@@ -1768,7 +1874,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 9
   },
   {
@@ -1781,7 +1887,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:02:09Z",
+   "last_ok": "2026-10-07T04:04:23Z",
    "count": 25
   }
  ],
