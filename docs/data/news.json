@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T04:14:13Z",
+ "generated": "2026-10-07T04:22:03Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -81,6 +81,12 @@
    "scope": ""
   },
   {
+   "id": "security-agents",
+   "name": "Security agents",
+   "theme": true,
+   "scope": "all"
+  },
+  {
    "id": "ai-threats",
    "name": "AI threats",
    "theme": true,
@@ -94,7 +100,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-07T04:14:13Z",
+  "checked": "2026-10-07T04:22:03Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -602,7 +608,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-07T04:14:13Z",
+  "checked": "2026-10-07T04:22:03Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -633,7 +639,7 @@
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
     "stars": 39748,
     "language": "JavaScript",
-    "pushed": "2026-10-07T03:46:28Z",
+    "pushed": "2026-10-07T04:18:17Z",
     "created": "2025-06-11T16:57:39Z",
     "labels": [
      "GitHub Copilot"
@@ -652,7 +658,7 @@
     "full_name": "OthmanAdi/planning-with-files",
     "url": "https://github.com/OthmanAdi/planning-with-files",
     "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion…",
-    "stars": 27313,
+    "stars": 27312,
     "language": "Shell",
     "pushed": "2026-10-06T16:31:38Z",
     "created": "2026-01-03T07:37:28Z",
@@ -663,7 +669,7 @@
     "log": [
      [
       "2026-10-07",
-      27313
+      27312
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -799,7 +805,7 @@
     "full_name": "gotalab/cc-sdd",
     "url": "https://github.com/gotalab/cc-sdd",
     "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
-    "stars": 3703,
+    "stars": 3704,
     "language": "TypeScript",
     "pushed": "2026-09-23T07:26:39Z",
     "created": "2025-07-17T04:41:37Z",
@@ -810,7 +816,7 @@
     "log": [
      [
       "2026-10-07",
-      3703
+      3704
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1224,7 +1230,7 @@
     "description": "Workspace Architect is a zero-friction CLI tool that provides curated collections of specialized agents, instructions, and prompts to supercharge your GitHub Copilot experience.",
     "stars": 18,
     "language": "Python",
-    "pushed": "2026-10-05T14:21:26Z",
+    "pushed": "2026-10-07T04:20:19Z",
     "created": "2025-11-21T21:59:18Z",
     "labels": [
      "Microsoft 365 Copilot"
@@ -1568,7 +1574,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 20
   },
   {
@@ -1581,7 +1587,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 3
   },
   {
@@ -1594,7 +1600,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 19
   },
   {
@@ -1607,7 +1613,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 7
   },
   {
@@ -1620,7 +1626,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 4
   },
   {
@@ -1633,7 +1639,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 10
   },
   {
@@ -1646,7 +1652,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 10
   },
   {
@@ -1659,7 +1665,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 0
   },
   {
@@ -1672,7 +1678,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 5
   },
   {
@@ -1685,7 +1691,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 0
   },
   {
@@ -1698,7 +1704,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 114
   },
   {
@@ -1710,9 +1716,9 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
-   "count": 106
+   "new": 3,
+   "last_ok": "2026-10-07T04:22:03Z",
+   "count": 109
   },
   {
    "id": "anthropic",
@@ -1724,7 +1730,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 10
   },
   {
@@ -1737,7 +1743,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 12
   },
   {
@@ -1750,7 +1756,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 27
   },
   {
@@ -1763,7 +1769,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 7
   },
   {
@@ -1776,7 +1782,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 31
   },
   {
@@ -1789,7 +1795,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 3
   },
   {
@@ -1802,7 +1808,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 2
   },
   {
@@ -1815,7 +1821,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 12
   },
   {
@@ -1828,7 +1834,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 10
   },
   {
@@ -1841,7 +1847,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 5
   },
   {
@@ -1854,7 +1860,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 10
   },
   {
@@ -1867,7 +1873,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 2
   },
   {
@@ -1880,7 +1886,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 9
   },
   {
@@ -1893,7 +1899,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T04:14:13Z",
+   "last_ok": "2026-10-07T04:22:03Z",
    "count": 25
   }
  ],
@@ -1964,7 +1970,9 @@
    "group": "competitor",
    "company": "Anthropic",
    "kind": "post",
-   "topics": [],
+   "topics": [
+    "security-agents"
+   ],
    "status": "",
    "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
    "summary": "",
@@ -4722,6 +4730,25 @@
    "competes_with": []
   },
   {
+   "id": "1d77064cbebb",
+   "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+   "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+   "published": "2026-09-23T13:00:00Z",
+   "first_seen": "2026-10-07T04:22:03Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [
+    "security-agents"
+   ],
+   "status": "",
+   "excerpt": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "f7558dc5c9de",
    "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
    "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
@@ -6344,6 +6371,25 @@
    "topics": [],
    "status": "",
    "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5190d2a1dccd",
+   "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+   "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+   "published": "2026-09-03T13:15:00Z",
+   "first_seen": "2026-10-07T04:22:03Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [
+    "security-agents"
+   ],
+   "status": "",
+   "excerpt": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -8073,7 +8119,9 @@
    "group": "competitor",
    "company": "OpenAI",
    "kind": "post",
-   "topics": [],
+   "topics": [
+    "security-agents"
+   ],
    "status": "ga",
    "excerpt": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
    "summary": "",
@@ -8192,6 +8240,25 @@
    "competes_with": []
   },
   {
+   "id": "7f776d7829d0",
+   "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+   "title": "Putting frontier cyber models in more trusted hands",
+   "published": "2026-08-10T10:00:00Z",
+   "first_seen": "2026-10-07T04:22:03Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [
+    "security-agents"
+   ],
+   "status": "",
+   "excerpt": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "3a8585570cab",
    "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
    "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
@@ -8201,7 +8268,9 @@
    "group": "competitor",
    "company": "OpenAI",
    "kind": "post",
-   "topics": [],
+   "topics": [
+    "security-agents"
+   ],
    "status": "",
    "excerpt": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
    "summary": "",
@@ -9752,7 +9821,9 @@
    "group": "competitor",
    "company": "OpenAI",
    "kind": "post",
-   "topics": [],
+   "topics": [
+    "security-agents"
+   ],
    "status": "",
    "excerpt": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
    "summary": "",
@@ -9973,7 +10044,8 @@
    "company": "Microsoft",
    "kind": "roadmap",
    "topics": [
-    "defender"
+    "defender",
+    "security-agents"
    ],
    "status": "dev",
    "excerpt": "We’re introducing support for Insider Risk Management (IRM) alert agent summaries within Microsoft Defender, enabling investigators to access key triage insights directly in the Defender alert queue. When the IRM Triage Agent is active, IRM alerts surfaced in Microsoft Defender will now include the agent summary—such as agent categorization, investigation summary, identified risk patterns, and relevant user…",
