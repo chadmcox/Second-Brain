@@ -53,16 +53,9 @@ none = ["coworking"]
 
 [[topics]]
 id = "autopilot"
-name = "Copilot Autopilot"
-any = ["autopilot"]
+name = "Copilot Autopilot (formerly Scout)"
+any = ["autopilot", "autopilots", "microsoft scout", "scout"]   # Scout was renamed Autopilot in September 2026
 none = ["windows autopilot", "autopilot device preparation", "autopilot profile", "intune"]
-scope = "microsoft"
-
-[[topics]]
-id = "scout"
-name = "Microsoft Scout"
-any = ["microsoft scout", "scout"]
-none = []
 scope = "microsoft"
 
 [[topics]]
@@ -356,13 +349,13 @@ topics = ["cowork"]
 
 [[sources]]
 id = "learn-scout-whats-new"
-name = "What's new in Microsoft Scout"
+name = "What's new in Microsoft Scout (now Autopilot)"
 group = "microsoft"
 type = "learn"
 url = "https://learn.microsoft.com/en-us/microsoft-scout/whats-new"
 home = "https://learn.microsoft.com/en-us/microsoft-scout/whats-new"
 filter = "all"
-topics = ["scout"]
+topics = ["autopilot"]
 
 [[sources]]
 id = "learn-mdo"
