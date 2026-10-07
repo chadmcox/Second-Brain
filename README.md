@@ -2,13 +2,13 @@
 
 A small news site that lives in a GitHub repository. Several times a day a GitHub Action
 reads official Microsoft blogs and competitor news pages, keeps the posts about the products
-you track, writes a short AI summary of each, and publishes the result with GitHub Pages.
+you track, optionally writes a short AI summary of each, and publishes the result with GitHub
+Pages.
 
 It tracks Microsoft 365 Copilot, Copilot Cowork, Opal, Copilot Autopilot, Agent 365, Entra and
 Defender, plus OpenAI, Anthropic, Google, xAI, Meta, Mistral, Salesforce and CrowdStrike.
 
-No servers, no API keys, no packages to install: the collector uses only the Python standard
-library and the summaries use GitHub Models with the token every workflow already has.
+No servers and no packages to install: the collector uses only the Python standard library.
 
 ## Set it up
 
@@ -49,14 +49,20 @@ Everything is in [`config.toml`](config.toml). Edit it on github.com; saving sta
 - **Turn a source off**: add `enabled = false` to its block.
 - **Change how often it runs**: edit the `cron` line in `.github/workflows/update.yml`.
 
-## AI summaries
+## AI summaries (optional)
 
-Summaries, the "key item" rating and the "competes with" tags come from
-[GitHub Models](https://docs.github.com/en/github-models). The free tier has daily request
-limits, so each run summarises at most `max_per_run` posts in batches and catches up over the
-following runs. If the model is unavailable or the limit is reached, the site still updates
-and shows each publisher's own excerpt instead. Set `enabled = false` under `[summaries]` to
-turn them off, or change the `models` list to use different models.
+Without any setup the site shows each publisher's own excerpt. To add AI-written summaries,
+a "key item" rating and "competes with" tags, give the workflow an OpenAI-compatible chat
+completions endpoint. In **Settings → Secrets and variables → Actions**, add:
+
+| Secret | Value |
+| --- | --- |
+| `SUMMARY_ENDPOINT` | e.g. `https://<resource>.openai.azure.com/openai/v1/chat/completions` (Azure OpenAI / Microsoft Foundry), or any OpenAI-compatible URL |
+| `SUMMARY_API_KEY` | the key for that endpoint |
+| `SUMMARY_MODEL` | the model or deployment name, e.g. `gpt-4.1-mini` |
+
+Each run summarises at most `max_per_run` posts in batches and catches up over the following
+runs. If the endpoint fails, the site still updates. The Sources page reports what happened.
 
 Model output is checked before it is stored and is only ever shown as plain text. It can
 still be wrong: treat summaries as a pointer to the source, not a replacement for it.

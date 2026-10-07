@@ -200,16 +200,18 @@ class CollectTests(Base):
 class SummaryTests(Base):
     def setUp(self):
         super().setUp()
-        self._env = collect.os.environ.get("GITHUB_TOKEN")
-        collect.os.environ["GITHUB_TOKEN"] = "test-token"
+        self._env = collect.os.environ.get("SUMMARY_API_KEY")
+        collect.os.environ["SUMMARY_API_KEY"] = "test-key"
+        self._endpoint, collect.SUMMARY_ENDPOINT = collect.SUMMARY_ENDPOINT, "https://llm.test/v1/chat/completions"
         self._call = collect.call_model
 
     def tearDown(self):
         collect.call_model = self._call
+        collect.SUMMARY_ENDPOINT = self._endpoint
         if self._env is None:
-            collect.os.environ.pop("GITHUB_TOKEN", None)
+            collect.os.environ.pop("SUMMARY_API_KEY", None)
         else:
-            collect.os.environ["GITHUB_TOKEN"] = self._env
+            collect.os.environ["SUMMARY_API_KEY"] = self._env
         super().tearDown()
 
     def patch_model(self, fn):
@@ -264,6 +266,13 @@ class SummaryTests(Base):
         self.assertTrue(data["items"])
         self.assertTrue(all(i["summary"] == "" for i in data["items"]))
         self.assertIn("rate limit", data["summaries"])
+
+    def test_no_endpoint_means_summaries_are_off(self):
+        collect.SUMMARY_ENDPOINT = ""
+        self.patch_model(lambda *a: self.fail("model must not be called"))
+        code, data = self.run_once()
+        self.assertEqual(code, 0)
+        self.assertIn("off until", data["summaries"])
 
     def test_garbage_reply_is_ignored(self):
         self.patch_model(lambda *a: "I cannot help with that. <script>alert(1)</script>")

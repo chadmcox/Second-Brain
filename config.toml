@@ -9,10 +9,15 @@ retention_days = 180    # drop stored posts older than this
 max_items = 1500
 
 [summaries]
+# AI summaries are optional. They switch on when the repository has two secrets:
+#   SUMMARY_ENDPOINT  an OpenAI-compatible chat completions URL, for example
+#                     https://<resource>.openai.azure.com/openai/v1/chat/completions
+#   SUMMARY_API_KEY   the key for it
+# The model (or Azure deployment) name comes from the SUMMARY_MODEL secret, or
+# from this list, tried in order.
 enabled = true
-# Tried in order until one answers. See https://github.com/marketplace/models
-models = ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "openai/gpt-4.1"]
-max_per_run = 40        # posts summarised per run (keeps you inside the free rate limit)
+models = []
+max_per_run = 40        # posts summarised per run
 batch_size = 8          # posts per model request
 max_age_days = 30       # older posts keep the source's own excerpt
 

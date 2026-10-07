@@ -13,7 +13,6 @@ on:
 
 permissions:
   contents: write    # commit the refreshed data
-  models: read       # AI summaries through GitHub Models, using the built-in token
 
 concurrency:
   group: update-news
@@ -34,8 +33,10 @@ jobs:
         run: python -m unittest discover -s tests
 
       - name: Collect posts
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:   # optional: AI summaries switch on when these secrets exist
+          SUMMARY_ENDPOINT: ${{ secrets.SUMMARY_ENDPOINT }}
+          SUMMARY_API_KEY: ${{ secrets.SUMMARY_API_KEY }}
+          SUMMARY_MODEL: ${{ secrets.SUMMARY_MODEL }}
         run: python scripts/collect.py
 
       - name: Publish the refreshed data

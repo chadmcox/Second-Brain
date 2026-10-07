@@ -16,10 +16,7 @@ import html
 import json
 import os
 import re
-import shutil
-import subprocess
 import sys
-import tempfile
 import time
 import tomllib
 import urllib.error
@@ -36,9 +33,9 @@ USER_AGENT = (
     "Mozilla/5.0 (compatible; copilot-agent-watch/1.0; "
     "+https://github.com/) Python-urllib"
 )
-MODELS_ENDPOINT = os.environ.get(
-    "MODELS_ENDPOINT", "https://models.github.ai/inference/chat/completions"
-)
+# Any OpenAI-compatible chat completions URL, e.g. Azure OpenAI / Microsoft Foundry:
+#   https://<resource>.openai.azure.com/openai/v1/chat/completions
+SUMMARY_ENDPOINT = os.environ.get("SUMMARY_ENDPOINT", "").strip()
 TRACKING_PARAMS = re.compile(r"^(utm_|wt\.|ocid$|msockid$|fbclid$|gclid$|mc_)", re.I)
 EXCERPT_CHARS = 420
 AI_TEXT_CHARS = 2500
@@ -590,8 +587,9 @@ _NO_REDIRECT = urllib.request.build_opener(_NoRedirect)
 
 
 def _post_urllib(body: bytes, token: str) -> tuple[int, str, str]:
-    req = urllib.request.Request(MODELS_ENDPOINT, data=body, method="POST", headers={
+    req = urllib.request.Request(SUMMARY_ENDPOINT, data=body, method="POST", headers={
         "Authorization": f"Bearer {token}",
+        "api-key": token,  # Azure OpenAI and Foundry accept the key in this header
         "Content-Type": "application/json",
         "User-Agent": "copilot-agent-watch",
     })
@@ -606,28 +604,6 @@ def _post_urllib(body: bytes, token: str) -> tuple[int, str, str]:
         raise SummariesStopped(describe_error(exc))
 
 
-def _post_curl(body: bytes, token: str) -> tuple[int, str, str]:
-    """Same request through curl. The token goes in a private temp file, not argv."""
-    with tempfile.TemporaryDirectory() as tmp:
-        hdr, dat = Path(tmp) / "h", Path(tmp) / "d"
-        hdr.write_text(f"Authorization: Bearer {token}\n", encoding="utf-8")
-        hdr.chmod(0o600)
-        dat.write_bytes(body)
-        try:
-            out = subprocess.run(
-                ["curl", "-sS", "--max-time", "90", "-X", "POST", MODELS_ENDPOINT,
-                 "-H", "Content-Type: application/json", "-H", f"@{hdr}",
-                 "--data-binary", f"@{dat}", "-w", "\n%{http_code} %{content_type}"],
-                capture_output=True, text=True, timeout=120)
-        except (subprocess.SubprocessError, OSError) as exc:
-            raise SummariesStopped(f"curl failed: {exc}")
-    if out.returncode != 0:
-        raise SummariesStopped(f"curl failed: {out.stderr.strip()[:160]}")
-    text, _, tail = out.stdout.rpartition("\n")
-    code, _, ctype = tail.partition(" ")
-    return (int(code) if code.isdigit() else 0), ctype, text
-
-
 def call_model(model: str, token: str, payload: list[dict], topic_ids: list[str]) -> str:
     body = json.dumps({
         "model": model,
@@ -640,25 +616,19 @@ def call_model(model: str, token: str, payload: list[dict], topic_ids: list[str]
         ],
     }).encode("utf-8")
     status, ctype, raw = _post_urllib(body, token)
-    how = "urllib"
-    if not raw.lstrip().startswith("{") and shutil.which("curl"):
-        first = f"urllib got HTTP {status} ({ctype}) {raw[:60]!r}"
-        status, ctype, raw = _post_curl(body, token)
-        how = f"curl, after {first}"
     if status == 429:
         raise SummariesStopped("rate limit reached; the rest will be summarised next run")
     if status in (401, 403):
         raise SummariesStopped(
-            f"HTTP {status} from GitHub Models. Check that the workflow has "
-            "'permissions: models: read' and that GitHub Models is enabled for the account")
+            f"HTTP {status} from the summary endpoint. Check the SUMMARY_API_KEY secret")
     if status in (400, 404, 422):
         raise ModelUnavailable(f"HTTP {status}: {raw[:200]}")
     try:
         data = json.loads(raw)
     except json.JSONDecodeError:
         raise SummariesStopped(
-            f"GitHub Models answered HTTP {status} ({ctype}) via {how} "
-            f"with a body that is not JSON: {raw[:160]!r}")
+            f"the summary endpoint answered HTTP {status} ({ctype}) "
+            f"with a body that is not JSON: {raw[:120]!r}")
     if status >= 300:
         raise SummariesStopped(f"HTTP {status}: {raw[:200]}")
     try:
@@ -706,9 +676,9 @@ def summarise(items: list[dict], long_text: dict[str, str], cfg: dict, topic_ids
     scfg = cfg.get("summaries", {})
     if not scfg.get("enabled", True):
         return "off (summaries.enabled = false)"
-    token = os.environ.get("MODELS_TOKEN") or os.environ.get("GITHUB_TOKEN")
-    if not token:
-        return "skipped: no GITHUB_TOKEN in the environment"
+    token = os.environ.get("SUMMARY_API_KEY", "").strip()
+    if not SUMMARY_ENDPOINT or not token:
+        return "off until the SUMMARY_ENDPOINT and SUMMARY_API_KEY repository secrets are set"
     cutoff = iso(now - timedelta(days=int(scfg.get("max_age_days", 30))))
     pending = [i for i in items
                if not i.get("summary") and i["published"] >= cutoff and i.get("kind") != "roadmap"]
@@ -716,7 +686,10 @@ def summarise(items: list[dict], long_text: dict[str, str], cfg: dict, topic_ids
     pending = pending[: int(scfg.get("max_per_run", 40))]
     if not pending:
         return "up to date"
-    models = list(scfg.get("models") or ["openai/gpt-4.1-mini"])
+    env_model = os.environ.get("SUMMARY_MODEL", "").strip()
+    models = [env_model] if env_model else list(scfg.get("models") or [])
+    if not models:
+        return "off: set the SUMMARY_MODEL secret or list models in config.toml"
     size = max(1, int(scfg.get("batch_size", 8)))
     done, model, note = 0, None, ""
     for start in range(0, len(pending), size):
