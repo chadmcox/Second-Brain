@@ -538,7 +538,7 @@ type = "youtube"
 handle = "Microsoft365"
 home = "https://www.youtube.com/@Microsoft365"
 filter = "keywords"
-keywords = ["copilot", "agent 365"]
+keywords = ["copilot", "agent 365", "agent", "agents", "agentic"]
 
 [[sources]]
 id = "yt-mechanics"
@@ -550,7 +550,7 @@ type = "youtube"
 channel_id = "UCJ9905MRHxwLZ2jeNQGIWxA"
 home = "https://www.youtube.com/channel/UCJ9905MRHxwLZ2jeNQGIWxA"
 filter = "keywords"
-keywords = ["copilot", "agent 365"]
+keywords = ["copilot", "agent 365", "agent", "agents", "agentic"]
 
 [[sources]]
 id = "yt-copilot-studio"
@@ -573,7 +573,7 @@ type = "youtube"
 handle = "MicrosoftSecurity"
 home = "https://www.youtube.com/@MicrosoftSecurity"
 filter = "keywords"
-keywords = ["copilot", "agent 365"]
+keywords = ["copilot", "agent 365", "agent", "agents", "agentic"]
 
 [[sources]]
 id = "yt-developer"
@@ -585,7 +585,7 @@ type = "youtube"
 handle = "MicrosoftDeveloper"
 home = "https://www.youtube.com/@MicrosoftDeveloper"
 filter = "keywords"
-keywords = ["copilot", "agent 365"]
+keywords = ["copilot", "agent 365", "agent", "agents", "agentic"]
 
 [[sources]]
 id = "yt-github"
@@ -597,7 +597,7 @@ type = "youtube"
 handle = "GitHub"
 home = "https://www.youtube.com/@GitHub"
 filter = "keywords"
-keywords = ["copilot", "agent 365"]
+keywords = ["copilot", "agent 365", "agent", "agents", "agentic"]
 
 [[sources]]
 id = "yt-microsoft"
@@ -609,4 +609,4 @@ type = "youtube"
 handle = "Microsoft"
 home = "https://www.youtube.com/@Microsoft"
 filter = "keywords"
-keywords = ["copilot", "agent 365"]
+keywords = ["copilot", "agent 365", "agent", "agents", "agentic"]
