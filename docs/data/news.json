@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T03:04:12Z",
+ "generated": "2026-10-07T03:19:11Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -17,59 +17,525 @@
   {
    "id": "copilot",
    "name": "Microsoft 365 Copilot",
-   "theme": false
+   "theme": false,
+   "scope": ""
   },
   {
    "id": "copilotstudio",
    "name": "Copilot Studio",
-   "theme": false
+   "theme": false,
+   "scope": ""
   },
   {
    "id": "githubcopilot",
    "name": "GitHub Copilot",
-   "theme": false
+   "theme": false,
+   "scope": ""
   },
   {
    "id": "cowork",
    "name": "Copilot Cowork",
-   "theme": false
+   "theme": false,
+   "scope": ""
   },
   {
    "id": "opal",
    "name": "Opal",
-   "theme": false
+   "theme": false,
+   "scope": "microsoft"
   },
   {
    "id": "autopilot",
    "name": "Copilot Autopilot",
-   "theme": false
+   "theme": false,
+   "scope": "microsoft"
   },
   {
    "id": "agent365",
    "name": "Agent 365",
-   "theme": false
+   "theme": false,
+   "scope": ""
   },
   {
    "id": "entra",
    "name": "Entra",
-   "theme": false
+   "theme": false,
+   "scope": ""
   },
   {
    "id": "defender",
    "name": "Defender",
-   "theme": false
+   "theme": false,
+   "scope": ""
   },
   {
    "id": "personal-agents",
    "name": "Personal agents",
-   "theme": true
+   "theme": true,
+   "scope": ""
   },
   {
    "id": "decision-models",
    "name": "Decision models",
-   "theme": true
+   "theme": true,
+   "scope": ""
+  },
+  {
+   "id": "ai-threats",
+   "name": "AI threats",
+   "theme": true,
+   "scope": "security"
+  },
+  {
+   "id": "incidents",
+   "name": "Security incidents",
+   "theme": true,
+   "scope": "security"
   }
  ],
+ "models": {
+  "checked": "2026-10-07T03:19:11Z",
+  "source": "https://openrouter.ai/api/v1/models",
+  "error": "",
+  "rows": [
+   {
+    "id": "openai/gpt-6.1-sol-pro",
+    "lab": "OpenAI",
+    "name": "GPT-6.1 Sol Pro",
+    "input": 2.0,
+    "output": 10.0,
+    "context": 1050000,
+    "about": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.",
+    "released": "2026-09-29T17:28:06Z",
+    "url": "https://openrouter.ai/openai/gpt-6.1-sol-pro",
+    "previous": {
+     "name": "GPT-6 Sol Pro",
+     "input": 2.0,
+     "output": 10.0,
+     "change_pct": 0
+    }
+   },
+   {
+    "id": "openai/gpt-6.1-sol",
+    "lab": "OpenAI",
+    "name": "GPT-6.1 Sol",
+    "input": 2.0,
+    "output": 10.0,
+    "context": 1050000,
+    "about": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series.",
+    "released": "2026-09-29T17:28:02Z",
+    "url": "https://openrouter.ai/openai/gpt-6.1-sol",
+    "previous": {
+     "name": "GPT-6 Sol",
+     "input": 2.0,
+     "output": 10.0,
+     "change_pct": 0
+    }
+   },
+   {
+    "id": "openai/gpt-6-luna-pro",
+    "lab": "OpenAI",
+    "name": "GPT-6 Luna Pro",
+    "input": 0.1,
+    "output": 0.5,
+    "context": 1050000,
+    "about": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.",
+    "released": "2026-09-22T18:13:11Z",
+    "url": "https://openrouter.ai/openai/gpt-6-luna-pro",
+    "previous": {
+     "name": "GPT-5.6 Luna Pro",
+     "input": 0.2,
+     "output": 1.2,
+     "change_pct": -57
+    }
+   },
+   {
+    "id": "openai/gpt-6-luna",
+    "lab": "OpenAI",
+    "name": "GPT-6 Luna",
+    "input": 0.1,
+    "output": 0.5,
+    "context": 1050000,
+    "about": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol.",
+    "released": "2026-09-22T18:13:06Z",
+    "url": "https://openrouter.ai/openai/gpt-6-luna",
+    "previous": {
+     "name": "GPT-5.6 Luna",
+     "input": 0.2,
+     "output": 1.2,
+     "change_pct": -57
+    }
+   },
+   {
+    "id": "openai/gpt-6-astra",
+    "lab": "OpenAI",
+    "name": "GPT-6 Astra",
+    "input": 10.0,
+    "output": 50.0,
+    "context": 1050000,
+    "about": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work.",
+    "released": "2026-09-04T20:13:58Z",
+    "url": "https://openrouter.ai/openai/gpt-6-astra",
+    "previous": null
+   },
+   {
+    "id": "anthropic/claude-sonnet-5.5",
+    "lab": "Anthropic",
+    "name": "Claude Sonnet 5.5",
+    "input": 2.0,
+    "output": 10.0,
+    "context": 1000000,
+    "about": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade.",
+    "released": "2026-09-28T18:04:46Z",
+    "url": "https://openrouter.ai/anthropic/claude-sonnet-5.5",
+    "previous": {
+     "name": "Claude Sonnet 5",
+     "input": 2.0,
+     "output": 10.0,
+     "change_pct": 0
+    }
+   },
+   {
+    "id": "anthropic/claude-opus-5.5",
+    "lab": "Anthropic",
+    "name": "Claude Opus 5.5",
+    "input": 4.0,
+    "output": 20.0,
+    "context": 1000000,
+    "about": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5.",
+    "released": "2026-09-22T16:32:12Z",
+    "url": "https://openrouter.ai/anthropic/claude-opus-5.5",
+    "previous": {
+     "name": "Claude Opus 5",
+     "input": 5.0,
+     "output": 25.0,
+     "change_pct": -20
+    }
+   },
+   {
+    "id": "anthropic/claude-fable-5.1",
+    "lab": "Anthropic",
+    "name": "Claude Fable 5.1",
+    "input": 10.0,
+    "output": 50.0,
+    "context": 1000000,
+    "about": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual...",
+    "released": "2026-09-01T18:03:58Z",
+    "url": "https://openrouter.ai/anthropic/claude-fable-5.1",
+    "previous": {
+     "name": "Claude Fable 5",
+     "input": 10.0,
+     "output": 50.0,
+     "change_pct": 0
+    }
+   },
+   {
+    "id": "anthropic/claude-haiku-4.5",
+    "lab": "Anthropic",
+    "name": "Claude Haiku 4.5",
+    "input": 1.0,
+    "output": 5.0,
+    "context": 200000,
+    "about": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models.",
+    "released": "2025-10-15T17:00:38Z",
+    "url": "https://openrouter.ai/anthropic/claude-haiku-4.5",
+    "previous": null
+   },
+   {
+    "id": "google/gemini-nano-banana-2.1",
+    "lab": "Google",
+    "name": "Nano Banana 2.1",
+    "input": 1.5,
+    "output": 7.5,
+    "context": 65536,
+    "about": "Nano Banana 2.1 (Gemini Nano Banana 2.1) is Google's image generation and editing model on the Flash tier, succeeding Nano Banana 2 and Nano Banana Pro.",
+    "released": "2026-10-06T15:33:45Z",
+    "url": "https://openrouter.ai/google/gemini-nano-banana-2.1",
+    "previous": {
+     "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+     "input": 0.5,
+     "output": 3.0,
+     "change_pct": 157
+    }
+   },
+   {
+    "id": "google/gemini-3.8-flash",
+    "lab": "Google",
+    "name": "Gemini 3.8 Flash",
+    "input": 0.75,
+    "output": 3.75,
+    "context": 1048576,
+    "about": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.",
+    "released": "2026-09-02T15:14:16Z",
+    "url": "https://openrouter.ai/google/gemini-3.8-flash",
+    "previous": {
+     "name": "Gemini 3.7 Flash",
+     "input": 0.75,
+     "output": 3.75,
+     "change_pct": 0
+    }
+   },
+   {
+    "id": "google/gemini-3.5-flash-lite",
+    "lab": "Google",
+    "name": "Gemini 3.5 Flash Lite",
+    "input": 0.3,
+    "output": 2.5,
+    "context": 1048576,
+    "about": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities.",
+    "released": "2026-07-21T15:12:06Z",
+    "url": "https://openrouter.ai/google/gemini-3.5-flash-lite",
+    "previous": {
+     "name": "Gemini 3.1 Flash Lite",
+     "input": 0.25,
+     "output": 1.5,
+     "change_pct": 60
+    }
+   },
+   {
+    "id": "google/gemini-3.1-flash-lite-image",
+    "lab": "Google",
+    "name": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+    "input": 0.25,
+    "output": 1.5,
+    "context": 65536,
+    "about": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) is Google's fastest, most cost-efficient Gemini image model, built for high-velocity developer pipelines and rapid-fire visual exploration.",
+    "released": "2026-06-30T16:33:45Z",
+    "url": "https://openrouter.ai/google/gemini-3.1-flash-lite-image",
+    "previous": null
+   },
+   {
+    "id": "google/gemini-3-pro-image",
+    "lab": "Google",
+    "name": "Nano Banana Pro (Gemini 3 Pro Image)",
+    "input": 2.0,
+    "output": 12.0,
+    "context": 131072,
+    "about": "Nano Banana Pro is Google’s most advanced image-generation and editing model, built on Gemini 3 Pro.",
+    "released": "2026-06-18T03:40:54Z",
+    "url": "https://openrouter.ai/google/gemini-3-pro-image",
+    "previous": {
+     "name": "Nano Banana Pro (Gemini 3 Pro Image Preview)",
+     "input": 2.0,
+     "output": 12.0,
+     "change_pct": 0
+    }
+   },
+   {
+    "id": "x-ai/grok-4.7",
+    "lab": "xAI",
+    "name": "Grok 4.7",
+    "input": 2.0,
+    "output": 6.0,
+    "context": 500000,
+    "about": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6.",
+    "released": "2026-09-21T16:19:01Z",
+    "url": "https://openrouter.ai/x-ai/grok-4.7",
+    "previous": {
+     "name": "Grok 4.6",
+     "input": 2.0,
+     "output": 6.0,
+     "change_pct": 0
+    }
+   },
+   {
+    "id": "x-ai/grok-build-0.1",
+    "lab": "xAI",
+    "name": "Grok Build 0.1",
+    "input": 1.0,
+    "output": 2.0,
+    "context": 256000,
+    "about": "Grok Build 0.1 is SpaceXAI’s fast coding model trained specifically for agentic software engineering workflows.",
+    "released": "2026-05-20T17:28:43Z",
+    "url": "https://openrouter.ai/x-ai/grok-build-0.1",
+    "previous": null
+   },
+   {
+    "id": "x-ai/grok-4.20-multi-agent",
+    "lab": "xAI",
+    "name": "Grok 4.20 Multi-Agent",
+    "input": 1.25,
+    "output": 2.5,
+    "context": 2000000,
+    "about": "Grok 4.20 Multi-Agent is a variant of SpaceXAI’s Grok 4.20 designed for collaborative, agent-based workflows.",
+    "released": "2026-03-31T17:45:58Z",
+    "url": "https://openrouter.ai/x-ai/grok-4.20-multi-agent",
+    "previous": null
+   },
+   {
+    "id": "mistralai/mistral-large-4-0",
+    "lab": "Mistral",
+    "name": "Mistral Large 4",
+    "input": 0.68,
+    "output": 2.09,
+    "context": 524288,
+    "about": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads.",
+    "released": "2026-10-06T13:42:02Z",
+    "url": "https://openrouter.ai/mistralai/mistral-large-4-0",
+    "previous": {
+     "name": "Mistral Large 3 2512",
+     "input": 0.5,
+     "output": 1.5,
+     "change_pct": 38
+    }
+   },
+   {
+    "id": "mistralai/mistral-medium-3-5",
+    "lab": "Mistral",
+    "name": "Mistral Medium 3.5",
+    "input": 1.5,
+    "output": 7.5,
+    "context": 262144,
+    "about": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI.",
+    "released": "2026-04-30T17:33:59Z",
+    "url": "https://openrouter.ai/mistralai/mistral-medium-3-5",
+    "previous": {
+     "name": "Mistral Medium 3.1",
+     "input": 0.4,
+     "output": 2.0,
+     "change_pct": 275
+    }
+   },
+   {
+    "id": "mistralai/mistral-small-2603",
+    "lab": "Mistral",
+    "name": "Mistral Small 4",
+    "input": 0.15,
+    "output": 0.6,
+    "context": 262144,
+    "about": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system.",
+    "released": "2026-03-16T21:14:45Z",
+    "url": "https://openrouter.ai/mistralai/mistral-small-2603",
+    "previous": {
+     "name": "Mistral Small 3.2 24B",
+     "input": 0.0938,
+     "output": 0.25,
+     "change_pct": 118
+    }
+   },
+   {
+    "id": "mistralai/devstral-2512",
+    "lab": "Mistral",
+    "name": "Devstral 2 2512",
+    "input": 0.4,
+    "output": 2.0,
+    "context": 262144,
+    "about": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding.",
+    "released": "2025-12-09T13:03:39Z",
+    "url": "https://openrouter.ai/mistralai/devstral-2512",
+    "previous": null
+   },
+   {
+    "id": "mistralai/ministral-14b-2512",
+    "lab": "Mistral",
+    "name": "Ministral 3 14B 2512",
+    "input": 0.2,
+    "output": 0.2,
+    "context": 262144,
+    "about": "The largest model in the Ministral 3 family, Ministral 3 14B offers frontier capabilities and performance comparable to its larger Mistral Small 3.2 24B counterpart.",
+    "released": "2025-12-02T13:22:15Z",
+    "url": "https://openrouter.ai/mistralai/ministral-14b-2512",
+    "previous": {
+     "name": "Ministral 3 8B 2512",
+     "input": 0.15,
+     "output": 0.15,
+     "change_pct": 33
+    }
+   },
+   {
+    "id": "amazon/nova-2-lite-v1",
+    "lab": "Amazon",
+    "name": "Nova 2 Lite",
+    "input": 0.3,
+    "output": 2.5,
+    "context": 1000000,
+    "about": "Nova 2 Lite is a fast, cost-effective reasoning model for everyday workloads that can process text, images, and videos to generate text.",
+    "released": "2025-12-02T17:31:12Z",
+    "url": "https://openrouter.ai/amazon/nova-2-lite-v1",
+    "previous": {
+     "name": "Nova Lite 1.0",
+     "input": 0.06,
+     "output": 0.24,
+     "change_pct": 833
+    }
+   },
+   {
+    "id": "amazon/nova-premier-v1",
+    "lab": "Amazon",
+    "name": "Nova Premier 1.0",
+    "input": 2.5,
+    "output": 12.5,
+    "context": 1000000,
+    "about": "Amazon Nova Premier is the most capable of Amazon’s multimodal models for complex reasoning tasks and for use as the best teacher for distilling custom models.",
+    "released": "2025-10-31T22:38:52Z",
+    "url": "https://openrouter.ai/amazon/nova-premier-v1",
+    "previous": null
+   },
+   {
+    "id": "deepseek/deepseek-v4.1-flash",
+    "lab": "DeepSeek",
+    "name": "DeepSeek V4.1 Flash",
+    "input": 0.3,
+    "output": 1.2,
+    "context": 1048576,
+    "about": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
+    "released": "2026-09-10T06:21:25Z",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
+    "previous": {
+     "name": "DeepSeek V4 Flash 0731",
+     "input": 0.018,
+     "output": 1.28,
+     "change_pct": 16
+    }
+   },
+   {
+    "id": "deepseek/deepseek-v4-flash-vision-exp",
+    "lab": "DeepSeek",
+    "name": "DeepSeek V4 Flash Vision Exp",
+    "input": 0.2156,
+    "output": 0.6468,
+    "context": 1048576,
+    "about": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base model on text…",
+    "released": "2026-08-21T11:26:03Z",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4-flash-vision-exp",
+    "previous": null
+   },
+   {
+    "id": "deepseek/deepseek-v4-pro-0813",
+    "lab": "DeepSeek",
+    "name": "DeepSeek V4 Pro 0813",
+    "input": 1.32,
+    "output": 3.96,
+    "context": 1048576,
+    "about": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek.",
+    "released": "2026-08-12T15:42:44Z",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+    "previous": {
+     "name": "DeepSeek V4 Pro 0423",
+     "input": 0.2088,
+     "output": 0.4176,
+     "change_pct": 743
+    }
+   },
+   {
+    "id": "deepseek/deepseek-v3.2",
+    "lab": "DeepSeek",
+    "name": "DeepSeek V3.2",
+    "input": 0.28,
+    "output": 0.42,
+    "context": 163840,
+    "about": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
+    "released": "2025-12-01T13:10:42Z",
+    "url": "https://openrouter.ai/deepseek/deepseek-v3.2",
+    "previous": {
+     "name": "DeepSeek V3.2 Exp",
+     "input": 0.27,
+     "output": 0.41,
+     "change_pct": 3
+    }
+   }
+  ]
+ },
  "sources": [
   {
    "id": "tc-copilot",
@@ -80,8 +546,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 8,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 20
   },
   {
@@ -93,8 +559,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 3
   },
   {
@@ -106,8 +572,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 12,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 19
   },
   {
@@ -119,8 +585,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 4,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 7
   },
   {
@@ -132,8 +598,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 4
   },
   {
@@ -146,7 +612,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 10
   },
   {
@@ -159,7 +625,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 10
   },
   {
@@ -172,7 +638,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 0
   },
   {
@@ -184,8 +650,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 5
   },
   {
@@ -198,7 +664,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 0
   },
   {
@@ -210,8 +676,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 52,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 114
   },
   {
@@ -223,8 +689,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 48,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 106
   },
   {
@@ -237,7 +703,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 10
   },
   {
@@ -250,7 +716,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 12
   },
   {
@@ -262,8 +728,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 12,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 27
   },
   {
@@ -276,7 +742,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 7
   },
   {
@@ -288,8 +754,8 @@
    "type": "page",
    "ok": true,
    "error": "",
-   "new": 19,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 31
   },
   {
@@ -301,8 +767,8 @@
    "type": "page",
    "ok": true,
    "error": "",
-   "new": 3,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 3
   },
   {
@@ -315,7 +781,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 2
   },
   {
@@ -327,8 +793,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 5,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "new": 0,
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 12
   },
   {
@@ -341,7 +807,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 10
   },
   {
@@ -354,8 +820,60 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T03:04:12Z",
+   "last_ok": "2026-10-07T03:19:11Z",
    "count": 5
+  },
+  {
+   "id": "ms-threat-intel",
+   "name": "Microsoft Threat Intelligence",
+   "home": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/",
+   "group": "security",
+   "company": "Microsoft",
+   "type": "rss",
+   "ok": true,
+   "error": "",
+   "new": 10,
+   "last_ok": "2026-10-07T03:19:11Z",
+   "count": 10
+  },
+  {
+   "id": "therecord",
+   "name": "The Record",
+   "home": "https://therecord.media/",
+   "group": "security",
+   "company": "The Record",
+   "type": "rss",
+   "ok": true,
+   "error": "",
+   "new": 2,
+   "last_ok": "2026-10-07T03:19:11Z",
+   "count": 2
+  },
+  {
+   "id": "bleepingcomputer",
+   "name": "BleepingComputer",
+   "home": "https://www.bleepingcomputer.com/",
+   "group": "security",
+   "company": "BleepingComputer",
+   "type": "rss",
+   "ok": true,
+   "error": "",
+   "new": 9,
+   "last_ok": "2026-10-07T03:19:11Z",
+   "count": 9
+  },
+  {
+   "id": "thehackernews",
+   "name": "The Hacker News",
+   "home": "https://thehackernews.com/",
+   "group": "security",
+   "company": "The Hacker News",
+   "type": "rss",
+   "ok": true,
+   "error": "",
+   "new": 25,
+   "last_ok": "2026-10-07T03:19:11Z",
+   "count": 25
   }
  ],
  "items": [
@@ -397,6 +915,25 @@
    "competes_with": []
   },
   {
+   "id": "20fd10672621",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
+   "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+   "published": "2026-10-06T19:21:53Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "a22a6ca92e5c",
    "url": "https://www.anthropic.com/news/cyber-verification-program",
    "title": "Expanding the Cyber Verification Program",
@@ -409,6 +946,45 @@
    "topics": [],
    "status": "",
    "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "ec14eeb066a7",
+   "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+   "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+   "published": "2026-10-06T18:38:55Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "personal-agents",
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus. The products, which claim to offer campaign optimization, spend audits, and business-account connections, are designed with one goal in",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "462de0e933ca",
+   "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+   "title": "ASOS confirms data breach after “HACKED” in-app notifications",
+   "published": "2026-10-06T16:33:54Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [...]",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -448,6 +1024,45 @@
    "competes_with": []
   },
   {
+   "id": "ed66aeeb68d2",
+   "url": "https://therecord.media/south-korean-bank-hacks-ai-agents",
+   "title": "South Korean officials believe AI agents were used to hack several banks",
+   "published": "2026-10-06T15:29:22Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "therecord",
+   "group": "security",
+   "company": "The Record",
+   "kind": "post",
+   "topics": [
+    "ai-threats",
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "The personal data of at least 68,000 people was reportedly exposed in breaches of at least seven financial institutions, with officials saying they believe a Chinese cybersecurity tool was used to hack the banks’ systems.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "26e65fb17737",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+   "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+   "published": "2026-10-06T15:16:44Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "d11cf4a75b89",
    "url": "https://www.salesforce.com/news/stories/giving-ai-autonomy-without-running-wild/",
    "title": "Trustworthy, Explainable, and Accountable: How to Give AI Autonomy Without Letting It Run Wild",
@@ -460,6 +1075,25 @@
    "topics": [],
    "status": "",
    "excerpt": "Salesforce Principal Architect of Ethical AI Practice Kathy Baxter explains how pairing a probabilistic model with deterministic logic gives agents the ability to take action — without giving up the guardrails.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c75afb4795fa",
+   "url": "https://therecord.media/osaka-university-cancels-classes-ransomware",
+   "title": "Osaka Metropolitan University cancels classes after suspected ransomware attack",
+   "published": "2026-10-06T14:52:00Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "therecord",
+   "group": "security",
+   "company": "The Record",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Osaka Metropolitan University said on Tuesday that the outage left its internal network, email and a range of administrative and academic systems unavailable.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -516,6 +1150,64 @@
    "competes_with": []
   },
   {
+   "id": "c9c765ca7e8f",
+   "url": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
+   "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
+   "published": "2026-10-06T11:31:48Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "ai-threats",
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "41accce2b318",
+   "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+   "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+   "published": "2026-10-06T11:26:25Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages. \"The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic,",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "a47789abd954",
+   "url": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+   "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
+   "published": "2026-10-06T11:02:30Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows. The ecosystem around it fell short. Earlier this year, our team at OX Security, traced critical vulnerabilities in Anthropic's MCP",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "9964af802e9c",
    "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
    "title": "Advancing computer use with Ironclad",
@@ -533,6 +1225,63 @@
    "competes_with": []
   },
   {
+   "id": "d25156e307a3",
+   "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
+   "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
+   "published": "2026-10-06T09:25:50Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5480e932d265",
+   "url": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
+   "title": "Engineer sentenced for locking over 3,000 devices on employer network",
+   "published": "2026-10-06T08:19:24Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's network in a ransomware-style attack. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "6053c8b55d0d",
+   "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+   "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+   "published": "2026-10-06T06:56:57Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. \"To date, our review has determined that the incident occurred as the result of a security failure",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "3176965c7711",
    "url": "https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/",
    "title": "Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers",
@@ -545,6 +1294,25 @@
    "topics": [],
    "status": "",
    "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "158b0c0dc14e",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
+   "title": "OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU",
+   "published": "2026-10-05T22:46:33Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union. [...]",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -722,6 +1490,103 @@
    "competes_with": []
   },
   {
+   "id": "7ebb9ff569ae",
+   "url": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+   "title": "Denmark population registry data breach affects 8.8 million people",
+   "published": "2026-10-05T15:21:10Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Denmark's Central Population Register (CPR) is warning of a data breach that exposed the personal information of approximately 8.8 million registered individuals. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "68acfff98094",
+   "url": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
+   "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
+   "published": "2026-10-05T14:22:12Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "ai-threats",
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "South Korea's Financial Services Commission (FSC) held an emergency meeting following a series of cyberattacks targeting financial institutions in the country. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "acb91d74c1ac",
+   "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+   "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+   "published": "2026-10-05T14:20:43Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats",
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook. There are actively exploited bugs in the mix, cleaner intrusion paths, smarter automation, and a long patch list waiting behind them. Some attacks are getting more capable. Others",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "20616b5d110d",
+   "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+   "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+   "published": "2026-10-05T11:55:00Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, because organizations first need to understand what credentials exist, where they live, and what they",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "4a8712355bea",
+   "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+   "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+   "published": "2026-10-05T10:38:50Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents. \"Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users' full knowledge",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "8b93b5bfd227",
    "url": "https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/",
    "title": "Making AI training available to UK and Ireland educators",
@@ -734,6 +1599,25 @@
    "topics": [],
    "status": "",
    "excerpt": "A collage of floating Google Workspace for Education interface elements on a soft, light background.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0c8dfb68badd",
+   "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+   "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+   "published": "2026-10-05T06:40:19Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. \"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -768,6 +1652,82 @@
    "topics": [],
    "status": "",
    "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "9e761cdf7429",
+   "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+   "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+   "published": "2026-10-04T07:22:05Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif al-Din Khader, is said to have been brought into custody on September 29, 2026, and cooperating with the U.S. Federal Bureau of Investigation (FBI)",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "453d2c5398a1",
+   "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+   "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+   "published": "2026-10-04T07:20:32Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "289771d56894",
+   "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+   "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+   "published": "2026-10-03T14:36:33Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and Carbon Black Threat Hunter Team, has hit critical infrastructure, government, and education organizations. \"In the",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3dc5273a31df",
+   "url": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+   "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+   "published": "2026-10-03T11:00:00Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility, control, and the ability to respond to risk at scale. This report examines how core areas of",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -921,6 +1881,25 @@
    "competes_with": []
   },
   {
+   "id": "46f9ae7612dc",
+   "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+   "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+   "published": "2026-10-02T17:33:31Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1. The flaw",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "dc05ff46a23a",
    "url": "https://www.salesforce.com/news/linked-content/salesforces-agentic-cx-vision-8-dreamforce-announcements-cx-leaders-need-to-act-on/",
    "title": "Salesforce’s Agentic CX Vision: 8 Dreamforce Announcements CX Leaders Need to Act On",
@@ -950,6 +1929,44 @@
    "topics": [],
    "status": "",
    "excerpt": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "7732b6c00457",
+   "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+   "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
+   "published": "2026-10-02T12:23:15Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported. \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,\" a spokesperson for the company was quoted as saying. \"Our investigation confirmed that these",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "10ee893b5c5f",
+   "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+   "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+   "published": "2026-10-02T05:49:50Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-104286 (CVSS score: 9.8), allows unauthenticated attackers to write arbitrary files on the underlying system. \"An improper",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -1065,6 +2082,45 @@
    "competes_with": []
   },
   {
+   "id": "c1f2fe32465a",
+   "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+   "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+   "published": "2026-10-01T16:55:57Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid. The 16-year-old was one of 3 people arrested on September 30, when police also took control of that site. Investigators identified him as KillSec's suspected",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "f1d14dce844e",
+   "url": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+   "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+   "published": "2026-10-01T16:45:38Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats",
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "90b9985c3923",
    "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
    "title": "Dynamic workflows in Copilot CLI and the Copilot app",
@@ -1147,6 +2203,63 @@
    "topics": [],
    "status": "",
    "excerpt": "Key Takeaways Salesforce customers across industries recently described their agentic rollouts, sharing what worked, what surprised them, and what they’d tell others just getting started on their own AI journeys. A clear pattern emerged. Customers seeing real results don’t just deploy. They listen to their users, define success, and build the guardrails to sustain it. […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c698c79d197c",
+   "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+   "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
+   "published": "2026-10-01T10:42:36Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A \"core cluster of the activity,\" going back to the first week of July, has been attributed to individuals associated with Moonshot AI, a Chinese AI company based in Beijing. It did not cite any",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "1787a1140b4f",
+   "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
+   "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
+   "published": "2026-10-01T07:49:36Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. \"It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" Koray Kavukcuoglu,",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "ecc9e006b841",
+   "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+   "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+   "published": "2026-10-01T05:21:10Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. \"Their investigation identified malicious activity involving third-party security products, including a zero-day vulnerability, and recovered a customized tool used by the attacker",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -1509,6 +2622,25 @@
    "competes_with": []
   },
   {
+   "id": "31db54260bd2",
+   "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+   "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+   "published": "2026-09-30T15:24:54Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround. It carries a",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "0a622a33b8e3",
    "url": "https://deepmind.google/blog/introducing-synthid-bio/",
    "title": "Introducing SynthID Bio",
@@ -1521,6 +2653,25 @@
    "topics": [],
    "status": "",
    "excerpt": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "29c4859e9f3e",
+   "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+   "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+   "published": "2026-09-30T15:00:15Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -1545,6 +2696,61 @@
    "competes_with": []
   },
   {
+   "id": "a8c7a9dcbf05",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+   "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
+   "published": "2026-09-30T14:00:00Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "ms-threat-intel",
+   "group": "security",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "4279a2642600",
+   "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+   "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+   "published": "2026-09-30T11:58:00Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack chain from initial access to exfiltration playing out in the browser. Here are the six most dangerous techniques that should be on every security team's radar in 2026. 1.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5cc42976f063",
+   "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+   "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+   "published": "2026-09-30T11:30:00Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said. Its researchers found more than 13,000 internal images from developers at over 300 organizations, including customer billing records and screens of features not yet released. In most cases, they sat under developers' personal accounts",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "6a91381a4292",
    "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
    "title": "Disrupting a coordinated model-distillation campaign",
@@ -1557,6 +2763,25 @@
    "topics": [],
    "status": "",
    "excerpt": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "308509a3caca",
+   "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+   "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+   "published": "2026-09-30T05:30:30Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -1578,6 +2803,23 @@
    ],
    "status": "dev",
    "excerpt": "With the Skills catalog in Copilot Studio, makers can discover, reuse and selectively share approved organizational skills instead of recreating the same instructions and workflows for every agent. The shared catalog powered by Microsoft 365 App Store enables shared skills to extend across experiences such as Copilot Studio M365 copilot, and Cowork, helping organizations standardize proven ways of working while…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "28594b2bec10",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
+   "title": "Phishing Abuses RMM Tools for Persistent Access",
+   "published": "2026-09-29T21:39:27Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "ms-threat-intel",
+   "group": "security",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -1650,6 +2892,23 @@
    ],
    "status": "",
    "excerpt": "Organizations that use an external identity provider to authenticate Microsoft 365 users can now extend browser-based passkeys, security keys, and eligible single sign-on sessions to supported Microsoft app sign-ins—including Outlook, Teams, OneDrive, Word, Excel, PowerPoint, and Microsoft To Do—on Android, iOS, and managed macOS. Previously, some Microsoft app sign-ins used an embedded web view that couldn’t…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2be2e79555e5",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+   "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+   "published": "2026-09-29T15:00:00Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "ms-threat-intel",
+   "group": "security",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -1877,6 +3136,23 @@
    "competes_with": []
   },
   {
+   "id": "024cb7e46717",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
+   "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
+   "published": "2026-09-28T15:00:00Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "ms-threat-intel",
+   "group": "security",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "330df04f27e6",
    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/",
    "title": "A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack",
@@ -2056,6 +3332,25 @@
    "competes_with": []
   },
   {
+   "id": "74ab0bc29886",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
+   "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
+   "published": "2026-09-25T15:35:08Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "ms-threat-intel",
+   "group": "security",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "a4c2c5f85ae0",
    "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/measuring-the-value-of-cowork-from-ai-interactions-to-completed/ba-p/4554464",
    "title": "Measuring the value of Cowork: From AI interactions to completed work",
@@ -2202,6 +3497,25 @@
    "topics": [],
    "status": "",
    "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b0071db721a9",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
+   "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
+   "published": "2026-09-24T16:00:00Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "ms-threat-intel",
+   "group": "security",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -2558,6 +3872,25 @@
    "topics": [],
    "status": "",
    "excerpt": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "1bbc2c4488af",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+   "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
+   "published": "2026-09-22T15:00:00Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "ms-threat-intel",
+   "group": "security",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and operations.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3433,6 +4766,25 @@
    "competes_with": []
   },
   {
+   "id": "ae96f3d52726",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
+   "title": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
+   "published": "2026-09-10T17:23:05Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "ms-threat-intel",
+   "group": "security",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Microsoft examines an AI-assisted business email compromise campaign that used executive impersonation and fake invoices to target finance teams with ACH payment fraud.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "db7d6ffe804c",
    "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
    "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
@@ -3629,6 +4981,23 @@
    ],
    "status": "dev",
    "excerpt": "The SharePoint FAQ web part will provide a standard, non-AI experience for manually creating, editing, and managing FAQs. The AI-assisted FAQ creation and import will move to the Copilot in SharePoint authoring experience, where authors can use natural-language prompts and selected grounding sources to generate FAQ content that is saved to the compatible FAQ web part. Existing FAQ web parts and their content will…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e7045162419c",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/",
+   "title": "Passkey-themed social engineering leads to identity and cloud compromise",
+   "published": "2026-09-09T17:41:18Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "ms-threat-intel",
+   "group": "security",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and email data, along with key detection and mitigation guidance.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3899,6 +5268,25 @@
    ],
    "status": "",
    "excerpt": "Welcome to the August 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and efficient in the apps they use every day. Let’s take a closer look at what’s new this month: User capabilities: More control for effort level and cost in Cowork Text selections…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "cbff196d0861",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+   "title": "ASCII smuggling crosses over from AI prompt injection to phishing evasion",
+   "published": "2026-09-03T16:00:00Z",
+   "first_seen": "2026-10-07T03:19:11Z",
+   "source": "ms-threat-intel",
+   "group": "security",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -7904,8 +9292,11 @@
   }
  ],
  "seen": [
+  "0173ac5f251d",
   "0368a1148022",
   "04411cc50484",
+  "08b309f8cc66",
+  "0ba4fe7ff0ce",
   "0bc8c8213ee1",
   "1410b1a514a7",
   "1cd7be4e884d",
@@ -7913,25 +9304,53 @@
   "1f57478941aa",
   "21c4d9567dc3",
   "21f86e2d045a",
+  "2a6cdd816b0e",
+  "2db767bb8e7d",
+  "35f668e71f34",
   "3a0b4572422c",
   "3c5753723cca",
+  "3f215c8c1541",
+  "493bf5935eda",
+  "4f0dc3b05402",
   "51b0395e5456",
+  "51cd17c95d4b",
+  "57d58bc6e4b5",
+  "5c14792446f5",
+  "6605bff5a015",
+  "666b2774ae49",
   "676577ce317b",
   "74e694667f61",
   "774843208f32",
   "79ae92d8dc3d",
+  "79b5674bbe85",
+  "854c9ebb9d9b",
+  "85baf3e38c6a",
+  "92bfe920b288",
   "930a1981a21f",
+  "954a71b68d4f",
+  "9de0dd4cab13",
+  "a7903de9b5cd",
+  "af5489b08890",
+  "b55bb23dbf0c",
+  "b7286a934474",
+  "b846f83a598d",
   "bcd1f238be35",
   "bf56d5c95a04",
   "bf7ecf7e78c0",
   "c2c8a1270846",
   "c86cb1ef6e1a",
+  "cfcddfa066b0",
   "d3d113bb08b2",
+  "dbd65cf0b1df",
+  "dc256bdc3d4b",
   "e2276f6ee0ea",
   "ec20be66493b",
   "ef09c51e6046",
   "f15e6dd96920",
+  "f3631456aedd",
   "f46da8bae972",
+  "f5f44eb67ae6",
+  "f862cdc60e6e",
   "f993eb8e38c0"
  ]
 }
