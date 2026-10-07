@@ -99,8 +99,8 @@ none = []
 id = "decision-models"
 name = "Decision models"
 theme = true
-any = ["decision model", "decision models", "large decision model", "large decision models",
-       "decision intelligence", "decision-making model", "decision-making models"]
+any = ["decision model", "decision models", "jev", "laya", "typesafe", "typesafe ai",
+       "system one model", "system one models", "system one decision"]
 none = []
 
 # ----------------------------------------------------------------- sources
