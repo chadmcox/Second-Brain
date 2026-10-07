@@ -578,6 +578,14 @@ class SummariesStopped(Exception):
     """Stop summarising for this run (rate limit, permissions, network)."""
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
+_NO_REDIRECT = urllib.request.build_opener(_NoRedirect)
+
+
 def call_model(model: str, token: str, payload: list[dict], topic_ids: list[str]) -> str:
     body = json.dumps({
         "model": model,
@@ -597,7 +605,9 @@ def call_model(model: str, token: str, payload: list[dict], topic_ids: list[str]
         "User-Agent": USER_AGENT,
     })
     try:
-        with urllib.request.urlopen(req, timeout=90) as resp:
+        # Never follow redirects here: urllib would turn the POST into a GET
+        # and could hand the token to another host.
+        with _NO_REDIRECT.open(req, timeout=90) as resp:
             raw = resp.read().decode("utf-8", "replace")
             try:
                 data = json.loads(raw)
@@ -608,6 +618,9 @@ def call_model(model: str, token: str, payload: list[dict], topic_ids: list[str]
                     f"with a body that is not JSON: {raw[:160]!r}")
     except urllib.error.HTTPError as exc:
         detail = exc.read(600).decode("utf-8", "replace")
+        if 300 <= exc.code < 400:
+            raise SummariesStopped(
+                f"GitHub Models redirected (HTTP {exc.code}) to {exc.headers.get('Location', '?')}")
         if exc.code == 429:
             raise SummariesStopped("rate limit reached; the rest will be summarised next run")
         if exc.code in (401, 403):
