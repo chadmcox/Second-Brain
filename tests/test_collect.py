@@ -374,6 +374,10 @@ class UnitTests(unittest.TestCase):
         cl = collect.Classifier([{"id": "ai-threats", "theme": True, "scope": "security", "any": ["ai agents"]}])
         self.assertEqual(cl.topics_for("AI agents used to hack banks", "", "security", []), ["ai-threats"])
         self.assertEqual(cl.topics_for("AI agents for everyone", "", "competitor", []), [])
+        every = collect.Classifier([{"id": "sec-agents", "theme": True, "scope": "all", "any": ["red team"]},
+                                    {"id": "market", "theme": True, "any": ["red team"]}])
+        self.assertEqual(every.topics_for("AI red team agent", "", "security", []), ["sec-agents"])
+        self.assertEqual(every.topics_for("AI red team agent", "", "competitor", []), ["sec-agents", "market"])
 
     def test_strip_html(self):
         self.assertEqual(collect.strip_html("<p>a&amp;b</p><script>x()</script><p>c</p>"), "a&b c")

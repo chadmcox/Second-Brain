@@ -6,7 +6,7 @@
 
   var DAY = 86400000;
   var PAGE = 120;
-  var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "autopilot", "agent365", "entra", "defender", "ai-threats", "incidents", "agent-registries"];
+  var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "autopilot", "agent365", "entra", "defender", "ai-threats", "incidents", "agent-registries", "security-agents"];
   var VIEWS = ["overview", "microsoft", "competitors", "security", "community", "models", "sources"];
   var FEEDS = { microsoft: "microsoft", competitors: "competitor", security: "security" };
   var DEFAULTS = { scope: "", theme: "", status: "", range: "30", q: "", key: "", roadmap: "" };
@@ -276,7 +276,9 @@
 
   // Themes scoped to threat intel show on that tab only; the rest show elsewhere.
   function themesFor(view) {
-    return data.themes.filter(function (t) { return (t.scope === "security") === (view === "security"); });
+    return data.themes.filter(function (t) {
+      return t.scope === "all" || (t.scope === "security") === (view === "security");
+    });
   }
 
   // ----------------------------------------------------------------- feed

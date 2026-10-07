@@ -25,6 +25,7 @@ max_age_days = 30       # older posts keep the source's own excerpt
 # A post gets a product tag when one of `any` appears in its title or opening
 # lines (whole words, case-insensitive) and none of `none` do.
 # scope = "microsoft" limits the tag to Microsoft sources.
+# For themes: scope = "security" means Threat intel only, scope = "all" means every tab.
 
 [[topics]]
 id = "copilot"
@@ -104,6 +105,21 @@ any = ["agent registry", "agent registries", "agent catalog", "agent catalogs", 
        "agent store", "agent marketplace", "agent directory", "agent inventory",
        "plugin registry", "tool registry", "mcp registry", "registry of agents",
        "agent card", "agent cards"]
+none = []
+
+[[topics]]
+id = "security-agents"
+name = "Security agents"
+theme = true
+scope = "all"           # every tab, including Threat intel
+any = ["red team", "red teams", "red teaming", "red-teaming", "blue team", "blue teams",
+       "purple team", "security agent", "security agents", "cyber agent", "cyber agents",
+       "cybersecurity agent", "cybersecurity agents", "soc agent", "soc agents", "agentic soc",
+       "autonomous soc", "ai soc", "triage agent", "threat hunting agent", "pentest agent",
+       "pentesting agent", "ai pentesting", "autonomous pentesting", "offensive ai",
+       "vulnerability discovery", "cyber model", "cyber models", "security copilot",
+       "gpt-red", "daybreak", "charlotte ai", "mdash", "mai-cyber", "big sleep", "xbow",
+       "codex security", "cyber verification program"]
 none = []
 
 [[topics]]

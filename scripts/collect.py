@@ -466,7 +466,7 @@ class Classifier:
         for t in self.topics:
             if t["id"] in found or not t["any"]:
                 continue
-            if t["scope"] and t["scope"] != group:
+            if t["scope"] not in ("", "all", group):
                 continue
             if t["theme"] and not t["scope"] and group == "security":
                 continue      # market themes do not apply to threat intel posts

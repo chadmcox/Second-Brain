@@ -43,6 +43,7 @@
 }
 
 [data-lane="agent-registries"] { --lane: var(--lane-agent365); }
+[data-lane="security-agents"] { --lane: var(--lane-copilotstudio); }
 [data-lane="ai-threats"] { --lane: var(--lane-defender); }
 [data-lane="incidents"] { --lane: var(--lane-autopilot); }
 [data-lane="copilot"] { --lane: var(--lane-copilot); }
