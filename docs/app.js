@@ -6,8 +6,9 @@
 
   var DAY = 86400000;
   var PAGE = 120;
-  var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "opal", "autopilot", "agent365", "entra", "defender"];
-  var VIEWS = ["overview", "microsoft", "competitors", "sources"];
+  var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "opal", "autopilot", "agent365", "entra", "defender", "ai-threats", "incidents"];
+  var VIEWS = ["overview", "microsoft", "competitors", "security", "models", "sources"];
+  var FEEDS = { microsoft: "microsoft", competitors: "competitor", security: "security" };
   var DEFAULTS = { scope: "", theme: "", status: "", range: "30", q: "", key: "", roadmap: "" };
 
   var data = null;
@@ -105,7 +106,7 @@
 
   function writeHash(replace) {
     var params = new URLSearchParams();
-    if (state.view === "microsoft" || state.view === "competitors") {
+    if (FEEDS[state.view]) {
       Object.keys(DEFAULTS).forEach(function (k) {
         if (state[k] && state[k] !== DEFAULTS[k]) params.set(k, state[k]);
       });
@@ -145,7 +146,7 @@
     if (item.relevance === "high") meta.appendChild(el("span", { class: "key", text: "Key item" }));
     item.topics.forEach(function (t) {
       // Product tags belong to Microsoft posts; theme tags show for every company.
-      if (item.group !== "microsoft" && !isTheme[t]) return;
+      if (item.group === "competitor" && !isTheme[t]) return;
       meta.appendChild(setLane(el("span", { class: "tag", text: topicName[t] || t }), t));
     });
 
@@ -209,15 +210,19 @@
         return i.group === "microsoft" && i.topics.indexOf(t.id) >= 0;
       }), t.id, function () { go("microsoft", { scope: t.id }); }));
     });
-    if (data.themes.length) {
-      box.appendChild(el("p", { class: "lane-group", text: "Themes across competitors" }));
-      data.themes.forEach(function (t) {
+    function themeLanes(title, group, view) {
+      var themes = themesFor(view);
+      if (!themes.length) return;
+      box.appendChild(el("p", { class: "lane-group", text: title }));
+      themes.forEach(function (t) {
         box.appendChild(lane(t.name, row(function (i) {
-          return i.group === "competitor" && i.topics.indexOf(t.id) >= 0;
-        }), t.id, function () { go("competitors", { theme: t.id }); }));
+          return i.group === group && i.topics.indexOf(t.id) >= 0;
+        }), t.id, function () { go(view, { theme: t.id }); }));
       });
     }
-    var companies = companyList();
+    themeLanes("Threat intel", "security", "security");
+    themeLanes("Themes across competitors", "competitor", "competitors");
+    var companies = companyList("competitor");
     if (companies.length) {
       box.appendChild(el("p", { class: "lane-group", text: "Competitors" }));
       companies.forEach(function (c) {
@@ -232,12 +237,14 @@
 
     // Picks: this week's key items, or simply the newest posts without AI ratings.
     var weekAgo = Date.now() - 7 * DAY;
-    var week = posts.filter(function (i) { return Date.parse(i.published) >= weekAgo; });
+    // Threat intel has its own tab; it would otherwise crowd out everything here.
+    var briefing = posts.filter(function (i) { return i.group !== "security"; });
+    var week = briefing.filter(function (i) { return Date.parse(i.published) >= weekAgo; });
     var rated = week.some(function (i) { return i.relevance; });
     var picks = rated
       ? week.filter(function (i) { return i.relevance === "high"; })
       : [];
-    if (picks.length < 3) { picks = (week.length ? week : posts); rated = false; }
+    if (picks.length < 3) { picks = (week.length ? week : briefing); rated = false; }
     $("picks-title").textContent = rated ? "Worth reading this week" : "Latest posts";
     var list = clear($("picks"));
     picks.slice(0, 8).forEach(function (i) { list.appendChild(postNode(i, { showDate: true })); });
@@ -259,12 +266,17 @@
     });
   }
 
-  function companyList() {
+  function companyList(group) {
     var seen = [];
     data.sources.forEach(function (s) {
-      if (s.group === "competitor" && s.company && seen.indexOf(s.company) < 0) seen.push(s.company);
+      if (s.group === group && s.company && seen.indexOf(s.company) < 0) seen.push(s.company);
     });
     return seen;
+  }
+
+  // Themes scoped to threat intel show on that tab only; the rest show elsewhere.
+  function themesFor(view) {
+    return data.themes.filter(function (t) { return (t.scope === "security") === (view === "security"); });
   }
 
   // ----------------------------------------------------------------- feed
@@ -275,7 +287,7 @@
 
   function matches(item, skip) {
     var ms = state.view === "microsoft";
-    if (item.group !== (ms ? "microsoft" : "competitor")) return false;
+    if (item.group !== FEEDS[state.view]) return false;
     if (item.kind === "roadmap" && !(ms && state.roadmap)) return false;
     if (!inRange(item)) return false;
     if (skip !== "scope" && state.scope) {
@@ -301,7 +313,7 @@
 
   function renderFeed() {
     var ms = state.view === "microsoft";
-    $("lbl-scope").textContent = ms ? "Product" : "Company";
+    $("lbl-scope").textContent = ms ? "Product" : state.view === "security" ? "Source" : "Company";
     $("roadmap-wrap").hidden = !ms || !data.items.some(function (i) { return i.kind === "roadmap"; });
     $("f-range").value = state.range;
     if (document.activeElement !== $("f-q")) $("f-q").value = state.q;
@@ -316,7 +328,7 @@
     var forScope = data.items.filter(function (i) { return matches(i, "scope"); });
     var scopes = ms
       ? data.products.map(function (t) { return { id: t.id, name: t.name, lane: t.id }; })
-      : companyList().map(function (c) { return { id: c, name: c, lane: "" }; });
+      : companyList(FEEDS[state.view]).map(function (c) { return { id: c, name: c, lane: "" }; });
     var scopeBox = clear($("chips-scope"));
     scopeBox.appendChild(chip("All", forScope.length, !state.scope, "", function () { set("scope", ""); }));
     scopes.forEach(function (s) {
@@ -328,9 +340,10 @@
 
     var forTheme = data.items.filter(function (i) { return matches(i, "theme"); });
     var themeBox = clear($("chips-theme"));
-    $("row-theme").hidden = !data.themes.length;
+    var themes = themesFor(state.view);
+    $("row-theme").hidden = !themes.length;
     themeBox.appendChild(chip("Any", null, !state.theme, "", function () { set("theme", ""); }));
-    data.themes.forEach(function (t) {
+    themes.forEach(function (t) {
       var n = forTheme.filter(function (i) { return i.topics.indexOf(t.id) >= 0; }).length;
       themeBox.appendChild(chip(t.name, n, state.theme === t.id, t.id, function () {
         set("theme", state.theme === t.id ? "" : t.id);
@@ -383,6 +396,59 @@
     $("more").hidden = shown.length >= found.length;
   }
 
+  // --------------------------------------------------------------- models
+  function money(n) {
+    if (typeof n !== "number") return "";
+    return "$" + (n >= 100 ? n.toFixed(0) : n >= 1 ? n.toFixed(2) : n.toFixed(n < 0.1 ? 3 : 2));
+  }
+
+  function changeText(prev) {
+    if (!prev) return "First release in this family";
+    var c = prev.change_pct;
+    if (typeof c !== "number") return "Follows " + prev.name;
+    if (c === 0) return "Same price as " + prev.name;
+    return Math.abs(c) + "% " + (c < 0 ? "cheaper" : "more expensive") + " than " + prev.name;
+  }
+
+  function renderModels() {
+    var m = data.models || { rows: [] };
+    var body = clear($("models-body"));
+    var note = "";
+    if (m.checked) note = "Prices checked " + fmtFull.format(new Date(m.checked)) + ".";
+    if (m.error) note += " The latest check failed (" + m.error + "), so this is the last good copy.";
+    $("models-note").textContent = note;
+    $("models-empty").hidden = m.rows.length > 0;
+    $("models-wrap").hidden = !m.rows.length;
+    var top = m.rows.reduce(function (a, r) { return Math.max(a, r.output || 0); }, 0);
+    var lab = null;
+    m.rows.forEach(function (r) {
+      if (r.lab !== lab) {
+        lab = r.lab;
+        body.appendChild(el("tr", { class: "lab-row" }, [el("th", { colspan: "6", scope: "colgroup", text: lab })]));
+      }
+      var url = safeUrl(r.url);
+      var out = el("td", { class: "num" }, [money(r.output)]);
+      var bar = el("span", { class: "bar", "aria-hidden": "true" });
+      bar.style.width = (top ? Math.max(2, Math.round(r.output / top * 100)) : 0) + "%";
+      out.appendChild(bar);
+      var change = el("td", { text: changeText(r.previous) });
+      if (r.previous && typeof r.previous.change_pct === "number" && r.previous.change_pct !== 0) {
+        change.appendChild(el("small", { text: "was " + money(r.previous.input) + " in, " + money(r.previous.output) + " out" }));
+      }
+      body.appendChild(el("tr", null, [
+        el("th", { scope: "row" }, [
+          url ? el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text: r.name }) : r.name,
+          r.context ? el("small", { text: Math.round(r.context / 1000).toLocaleString() + "K token context" }) : null
+        ]),
+        el("td", { text: fmtShort.format(new Date(r.released)) + " " + new Date(r.released).getFullYear() }),
+        el("td", { class: "num", text: money(r.input) }),
+        out,
+        change,
+        el("td", { class: "about", text: r.about || "" })
+      ]));
+    });
+  }
+
   // -------------------------------------------------------------- sources
   function renderSources() {
     var body = clear($("sources-body"));
@@ -416,20 +482,23 @@
       if (a.dataset.view === state.view) a.setAttribute("aria-current", "page");
       else a.removeAttribute("aria-current");
     });
-    var feed = state.view === "microsoft" || state.view === "competitors";
+    var feed = !!FEEDS[state.view];
     $("view-overview").hidden = state.view !== "overview";
     $("view-feed").hidden = !feed;
+    $("view-models").hidden = state.view !== "models";
     $("view-sources").hidden = state.view !== "sources";
     if (!data) return;
     if (!data.generated) {
       // Nothing collected yet: the message below explains how to start.
-      ["view-overview", "view-feed", "view-sources"].forEach(function (id) { $(id).hidden = true; });
+      ["view-overview", "view-feed", "view-models", "view-sources"].forEach(function (id) { $(id).hidden = true; });
       return;
     }
     if (state.view === "overview") renderOverview();
     else if (feed) renderFeed();
+    else if (state.view === "models") renderModels();
     else renderSources();
-    var label = { overview: "Overview", microsoft: "Microsoft", competitors: "Competitors", sources: "Sources" }[state.view];
+    var label = { overview: "Overview", microsoft: "Microsoft", competitors: "Competitors",
+      security: "Threat intel", models: "Models", sources: "Sources" }[state.view];
     document.title = label + " | " + data.site.title;
   }
 

@@ -302,6 +302,28 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(s("Cowork GA", "", [], "post"), "ga")
         self.assertEqual(s("Meet the gateway", "", [], "post"), "")
 
+    def test_models_table(self):
+        cfg = {"models": {"per_lab": 5, "max_age_days": 365, "labs": [
+            {"prefix": "openai", "name": "OpenAI"}, {"prefix": "anthropic", "name": "Anthropic"},
+            {"prefix": "mistralai", "name": "Mistral"}]}}
+        rows = collect.build_models(cfg, (FIX / "models.json").read_text(), NOW)
+        self.assertEqual([r["name"] for r in rows], ["GPT-6.1 Sol", "Claude Sonnet 5.5"])
+        sol = rows[0]
+        self.assertEqual((sol["lab"], sol["input"], sol["output"]), ("OpenAI", 2.0, 10.0))
+        self.assertEqual(sol["previous"]["name"], "GPT-5.6 Sol")
+        self.assertEqual(sol["previous"]["change_pct"], -50)
+        self.assertEqual(sol["about"], "Near-Astra intelligence for coding, computer use and professional work.")
+        self.assertEqual(sol["url"], "https://openrouter.ai/openai/gpt-6.1-sol")
+        self.assertIsNone(rows[1]["previous"])
+        self.assertTrue(rows[1]["about"].startswith("Balanced model"))
+        self.assertEqual(collect.model_family("OpenAI: GPT-6.1 Sol"), collect.model_family("GPT-5.6 Sol"))
+        self.assertNotEqual(collect.model_family("Claude Sonnet 5.5"), collect.model_family("Claude Opus 5.5"))
+
+    def test_scoped_theme_only_tags_its_group(self):
+        cl = collect.Classifier([{"id": "ai-threats", "theme": True, "scope": "security", "any": ["ai agents"]}])
+        self.assertEqual(cl.topics_for("AI agents used to hack banks", "", "security", []), ["ai-threats"])
+        self.assertEqual(cl.topics_for("AI agents for everyone", "", "competitor", []), [])
+
     def test_strip_html(self):
         self.assertEqual(collect.strip_html("<p>a&amp;b</p><script>x()</script><p>c</p>"), "a&b c")
 

@@ -31,6 +31,10 @@ General → Workflow permissions** and choose **Read and write permissions**.
 - **Microsoft** and **Competitors**: a day-by-day timeline you can filter by product or
   company, status (Preview, Generally available, Frontier, Retiring), period and search text.
   Posts that arrived since your last visit are marked New.
+- **Threat intel**: AI-related threats and security incidents from Microsoft Threat
+  Intelligence, The Record, BleepingComputer and The Hacker News.
+- **Models**: the newest release of each frontier model family with list prices, the change
+  against the previous release, and what it is for (from OpenRouter's public listing).
 - **Sources**: every source, how many posts it contributed, and whether the last read worked.
 - **`feed.xml`**: everything as one RSS feed, including the sites that have no feed of their
   own, so you can also follow it from a feed reader.

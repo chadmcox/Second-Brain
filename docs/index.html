@@ -33,6 +33,8 @@
     <a href="#overview" data-view="overview">Overview</a>
     <a href="#microsoft" data-view="microsoft">Microsoft</a>
     <a href="#competitors" data-view="competitors">Competitors</a>
+    <a href="#security" data-view="security">Threat intel</a>
+    <a href="#models" data-view="models">Models</a>
     <a href="#sources" data-view="sources">Sources</a>
   </nav>
 </header>
@@ -92,6 +94,22 @@
     <p id="result-count" class="result-count" aria-live="polite"></p>
     <div id="timeline" class="timeline"></div>
     <button id="more" class="more" type="button" hidden>Show older posts</button>
+  </section>
+
+  <section id="view-models" class="view" hidden>
+    <h2>Newest release of each frontier model</h2>
+    <p class="lede">One row per model family, showing its newest release. Prices are OpenRouter list prices in US dollars per million tokens, and the comparison is against the previous release in the same family. Prices through Azure, a Microsoft 365 licence or a negotiated contract can differ. <span id="models-note"></span></p>
+    <p id="models-empty" class="empty" hidden>The model listing has not been read yet. It fills in on the next run.</p>
+    <div class="table-wrap" id="models-wrap">
+      <table class="models">
+        <thead><tr>
+          <th scope="col">Model</th><th scope="col">Released</th>
+          <th scope="col" class="num">Input</th><th scope="col" class="num">Output</th>
+          <th scope="col">Against the previous release</th><th scope="col">What it is for</th>
+        </tr></thead>
+        <tbody id="models-body"></tbody>
+      </table>
+    </div>
   </section>
 
   <section id="view-sources" class="view" hidden>

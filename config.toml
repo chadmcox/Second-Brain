@@ -103,6 +103,50 @@ any = ["decision model", "decision models", "jev", "laya", "typesafe", "typesafe
        "system one model", "system one models", "system one decision"]
 none = []
 
+[[topics]]
+id = "ai-threats"
+name = "AI threats"
+theme = true
+scope = "security"      # only tags posts from the threat intel sources
+any = ["ai", "llm", "llms", "genai", "generative ai", "chatgpt", "claude", "gemini", "copilot",
+       "ai agent", "ai agents", "agentic", "prompt injection", "jailbreak", "jailbreaks",
+       "deepfake", "deepfakes", "mcp", "model theft", "distillation", "ai-powered",
+       "ai-generated", "ai-driven", "openai", "anthropic", "hugging face"]
+none = []
+
+[[topics]]
+id = "incidents"
+name = "Security incidents"
+theme = true
+scope = "security"
+any = ["breach", "breaches", "breached", "data breach", "ransomware", "zero-day", "zero-days",
+       "actively exploited", "exploited in the wild", "under active exploitation",
+       "supply chain attack", "cyberattack", "cyberattacks", "cyber attack", "outage",
+       "hacked", "data leak", "stolen data", "extortion"]
+none = []
+
+# ------------------------------------------------------------------ models
+# The Models tab is built from OpenRouter's public model listing: the newest
+# release of each model family per lab, its list price and the change against
+# the previous release of the same family.
+
+[models]
+enabled = true
+url = "https://openrouter.ai/api/v1/models"
+per_lab = 5             # newest families shown per lab
+max_age_days = 365      # hide families with no release in this long
+labs = [
+  { prefix = "openai", name = "OpenAI" },
+  { prefix = "anthropic", name = "Anthropic" },
+  { prefix = "google", name = "Google" },
+  { prefix = "x-ai", name = "xAI" },
+  { prefix = "meta-llama", name = "Meta" },
+  { prefix = "mistralai", name = "Mistral" },
+  { prefix = "microsoft", name = "Microsoft" },
+  { prefix = "amazon", name = "Amazon" },
+  { prefix = "deepseek", name = "DeepSeek" },
+]
+
 # ----------------------------------------------------------------- sources
 # type    "rss"  = RSS or Atom feed
 #         "page" = a site with no feed: the collector reads the listing page,
@@ -341,3 +385,47 @@ url = "https://www.crowdstrike.com/en-us/blog/feed"
 home = "https://www.crowdstrike.com/en-us/blog/"
 filter = "keywords"
 keywords = ["agent", "agents", "agentic", "ai", "llm", "identity", "charlotte", "microsoft"]
+
+# ------------------------------------------------------------- threat intel
+# group = "security" puts a source on the Threat intel tab. filter = "topics"
+# keeps posts about AI threats, security incidents or a tracked product.
+
+[[sources]]
+id = "ms-threat-intel"
+name = "Microsoft Threat Intelligence"
+group = "security"
+company = "Microsoft"
+type = "rss"
+url = "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/"
+home = "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/"
+filter = "all"
+
+[[sources]]
+id = "therecord"
+name = "The Record"
+group = "security"
+company = "The Record"
+type = "rss"
+url = "https://therecord.media/feed"
+home = "https://therecord.media/"
+filter = "topics"
+
+[[sources]]
+id = "bleepingcomputer"
+name = "BleepingComputer"
+group = "security"
+company = "BleepingComputer"
+type = "rss"
+url = "https://www.bleepingcomputer.com/feed/"
+home = "https://www.bleepingcomputer.com/"
+filter = "topics"
+
+[[sources]]
+id = "thehackernews"
+name = "The Hacker News"
+group = "security"
+company = "The Hacker News"
+type = "rss"
+url = "https://feeds.feedburner.com/TheHackersNews"
+home = "https://thehackernews.com/"
+filter = "topics"

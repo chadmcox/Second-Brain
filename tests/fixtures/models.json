@@ -1,0 +1,10 @@
+{"data": [
+ {"id":"openai/gpt-6.1-sol","name":"OpenAI: GPT-6.1 Sol","created":1790702882,"description":"Near-Astra intelligence for coding, computer use and professional work. Second sentence.","context_length":400000,"pricing":{"prompt":"0.000002","completion":"0.00001"}},
+ {"id":"openai/gpt-5.6-sol","name":"OpenAI: GPT-5.6 Sol","created":1783000000,"description":"Previous Sol release for everyday professional work and coding tasks.","context_length":400000,"pricing":{"prompt":"0.000004","completion":"0.00002"}},
+ {"id":"openai/gpt-6.1-sol:batch","name":"OpenAI: GPT-6.1 Sol (batch)","created":1790702882,"description":"Batch variant.","pricing":{"prompt":"0.000001","completion":"0.000005"}},
+ {"id":"openai/gpt-3.5-turbo","name":"OpenAI: GPT-3.5 Turbo","created":1685000000,"description":"An old model that should be hidden because it is far too old to show.","pricing":{"prompt":"0.0000005","completion":"0.0000015"}},
+ {"id":"anthropic/claude-sonnet-5.5","name":"Anthropic: Claude Sonnet 5.5","created":1790618686,"description":"<b>Balanced</b> model for agents and coding with strong tool use.","context_length":1000000,"pricing":{"prompt":"0.000002","completion":"0.00001"}},
+ {"id":"typesafe/jev-router","name":"Jev Router","created":1790363560,"description":"Not a configured lab.","pricing":{"prompt":"-1","completion":"-1"}},
+ {"id":"mistralai/free-thing","name":"Mistral: Free Thing","created":1790363560,"description":"Free models are skipped because they have no list price to compare.","pricing":{"prompt":"0","completion":"0"}},
+ "junk"
+]}

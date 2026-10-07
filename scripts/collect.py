@@ -733,6 +733,90 @@ def summarise(items: list[dict], long_text: dict[str, str], cfg: dict, topic_ids
     return f"{done} written with {model}"
 
 
+# -------------------------------------------------------------------- models
+
+_VERSION = re.compile(r"\b\d+(?:[.\-]\d+)*[a-z]?\b")
+_NOISE = re.compile(r"\b(preview|latest|beta|exp|experimental|new)\b")
+
+
+def model_family(name: str) -> str:
+    """'OpenAI: GPT-6.1 Sol' and 'OpenAI: GPT-5.6 Sol' share the family 'gpt sol'."""
+    name = name.split(":", 1)[-1].lower()
+    name = re.sub(r"\(.*?\)", " ", name)
+    name = _NOISE.sub(" ", _VERSION.sub(" ", name))
+    return re.sub(r"[^a-z]+", " ", name).strip()
+
+
+def _price(value) -> float | None:
+    """Dollars per million tokens from a per-token price string; None if unknown."""
+    try:
+        v = float(value)
+    except (TypeError, ValueError):
+        return None
+    return round(v * 1_000_000, 4) if v > 0 else None
+
+
+def build_models(cfg: dict, raw_json: str, now: datetime) -> list[dict]:
+    """Latest release of each model family for the configured labs."""
+    mcfg = cfg.get("models", {})
+    labs = {lab["prefix"]: lab["name"] for lab in mcfg.get("labs", [])}
+    cutoff = (now - timedelta(days=int(mcfg.get("max_age_days", 365)))).timestamp()
+    rows = json.loads(raw_json).get("data", [])
+    families: dict[tuple[str, str], list[dict]] = {}
+    for m in rows:
+        if not isinstance(m, dict):
+            continue
+        mid = str(m.get("id", ""))
+        prefix = mid.split("/", 1)[0]
+        if prefix not in labs or ":" in mid:      # ":free", ":batch" and similar are variants
+            continue
+        pricing = m.get("pricing") or {}
+        cost_in, cost_out = _price(pricing.get("prompt")), _price(pricing.get("completion"))
+        created = m.get("created")
+        if cost_in is None or cost_out is None or not isinstance(created, (int, float)):
+            continue
+        name = strip_html(str(m.get("name", mid))).split(":", 1)[-1].strip()
+        family = model_family(name)
+        if not family:
+            continue
+        about = strip_html(str(m.get("description", "")))
+        first = re.split(r"(?<=[.!?])\s+", about, maxsplit=1)[0]
+        families.setdefault((prefix, family), []).append({
+            "id": mid, "lab": labs[prefix], "name": clip(name, 80), "created": float(created),
+            "input": cost_in, "output": cost_out,
+            "context": m.get("context_length") if isinstance(m.get("context_length"), int) else None,
+            "about": clip(first if len(first) >= 40 else about, 240),
+        })
+    out = []
+    for versions in families.values():
+        versions.sort(key=lambda v: v["created"], reverse=True)
+        latest = versions[0]
+        if latest["created"] < cutoff:
+            continue
+        entry = {k: latest[k] for k in ("id", "lab", "name", "input", "output", "context", "about")}
+        entry["released"] = iso(datetime.fromtimestamp(latest["created"], timezone.utc))
+        entry["url"] = "https://openrouter.ai/" + urllib.parse.quote(latest["id"])
+        entry["previous"] = None
+        if len(versions) > 1:
+            prev = versions[1]
+            before, after = prev["input"] + prev["output"], latest["input"] + latest["output"]
+            entry["previous"] = {
+                "name": prev["name"], "input": prev["input"], "output": prev["output"],
+                "change_pct": round((after - before) / before * 100) if before else None,
+            }
+        out.append(entry)
+    lab_order = {name: i for i, name in enumerate(labs.values())}
+    per_lab = int(mcfg.get("per_lab", 5))
+    out.sort(key=lambda e: (lab_order[e["lab"]], e["released"]), reverse=False)
+    kept, counts = [], {}
+    for e in sorted(out, key=lambda e: e["released"], reverse=True):
+        counts[e["lab"]] = counts.get(e["lab"], 0) + 1
+        if counts[e["lab"]] <= per_lab:
+            kept.append(e)
+    kept.sort(key=lambda e: (lab_order[e["lab"]], -parse_date(e["released"]).timestamp()))
+    return kept
+
+
 # -------------------------------------------------------------------- output
 
 def build_rss(cfg: dict, items: list[dict], sources: dict[str, dict], now: datetime) -> str:
@@ -836,6 +920,21 @@ def run(config_path: Path, out_dir: Path, use_ai: bool = True, dry_run: bool = F
         ai_note = summarise(items, long_text, cfg, topic_ids, sources, now)
     log(f"  summaries: {ai_note}")
 
+    models = previous.get("models") or {"checked": "", "source": "", "error": "", "rows": []}
+    mcfg = cfg.get("models", {})
+    if mcfg.get("enabled", False) and mcfg.get("url"):
+        try:
+            rows = build_models(cfg, fetch(mcfg["url"]), now)
+            if not rows:
+                raise RuntimeError("the listing had no priced models for the configured labs")
+            models = {"checked": iso(now), "source": mcfg["url"], "error": "", "rows": rows}
+            log(f"  ok    model listing: {len(rows)} models")
+        except Exception as exc:  # keep yesterday's table if today's read fails
+            models = dict(models, error=clip(str(exc), 200))
+            log(f"  FAIL  model listing: {models['error']}")
+    else:
+        models = {"checked": "", "source": "", "error": "", "rows": []}
+
     counts: dict[str, int] = {}
     for item in items:
         counts[item["source"]] = counts.get(item["source"], 0) + 1
@@ -847,8 +946,9 @@ def run(config_path: Path, out_dir: Path, use_ai: bool = True, dry_run: bool = F
         "site": {"title": site.get("title", "Copilot & Agent Watch")},
         "summaries": ai_note,
         "statuses": STATUS_LABELS,
-        "topics": [{"id": t["id"], "name": t.get("name", t["id"]), "theme": bool(t.get("theme", False))}
-                   for t in topics],
+        "topics": [{"id": t["id"], "name": t.get("name", t["id"]), "theme": bool(t.get("theme", False)),
+                    "scope": t.get("scope", "")} for t in topics],
+        "models": models,
         "sources": report,
         "items": items,
         "seen": sorted(seen - {i["id"] for i in items})[-4000:],

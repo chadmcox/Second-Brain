@@ -43,6 +43,8 @@
   --lane-agent365: #f07db8; --lane-entra: #7ccb7f; --lane-defender: #f08a7c; --lane-other: #9aa9b1;
 }
 
+[data-lane="ai-threats"] { --lane: var(--lane-defender); }
+[data-lane="incidents"] { --lane: var(--lane-autopilot); }
 [data-lane="copilot"] { --lane: var(--lane-copilot); }
 [data-lane="cowork"] { --lane: var(--lane-cowork); }
 [data-lane="copilotstudio"] { --lane: var(--lane-copilotstudio); }
@@ -242,6 +244,19 @@ h2 { font: 700 1.5rem/1.15 var(--display); letter-spacing: -0.015em; margin: 0 0
 .sources .who { display: block; font-size: 0.875rem; color: var(--muted); }
 .sources .bad { color: var(--lane-defender); font-weight: 700; }
 .sources .bad + small { display: block; color: var(--muted); max-width: 28rem; }
+.models { border-collapse: collapse; width: 100%; min-width: 58rem; }
+.models th, .models td { text-align: left; padding: 0.6rem 0.9rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.models thead th { font-size: 0.875rem; font-weight: 400; color: var(--muted); white-space: nowrap; }
+.models tbody th { font-weight: 700; min-width: 11rem; }
+.models tbody th a { color: var(--ink); }
+.models small { display: block; font-size: 0.8125rem; font-weight: 400; color: var(--muted); }
+.models .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.models td:nth-child(2) { white-space: nowrap; }
+.models .bar { display: block; height: 4px; margin: 0.3rem 0 0 auto; border-radius: 2px; background: var(--accent); min-width: 2px; }
+.models td:nth-child(4) { min-width: 6.5rem; }
+.models .about { color: var(--muted); font-size: 0.9375rem; min-width: 16rem; max-width: 26rem; }
+.models .lab-row th { font: 700 1.0625rem/1.2 var(--display); background: color-mix(in srgb, var(--ink) 6%, transparent); padding: 0.5rem 0.9rem; }
+.models tr:last-child td, .models tr:last-child th { border-bottom: 0; }
 .prose p { max-width: var(--measure); margin: 0 0 0.9rem; }
 
 .message { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 6px; padding: 1.1rem 1.25rem; max-width: 44rem; }
