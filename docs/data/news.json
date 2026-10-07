@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T16:07:35Z",
+ "generated": "2026-10-07T16:33:19Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -100,7 +100,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-07T16:07:35Z",
+  "checked": "2026-10-07T16:33:19Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -547,7 +547,7 @@
     "lab": "DeepSeek",
     "name": "DeepSeek V4.1 Flash",
     "input": 0.05,
-    "output": 0.6,
+    "output": 1.2,
     "context": 1048576,
     "about": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
     "released": "2026-09-10T06:21:25Z",
@@ -556,7 +556,7 @@
      "name": "DeepSeek V4 Flash 0731",
      "input": 0.018,
      "output": 1.28,
-     "change_pct": -50
+     "change_pct": -4
     }
    },
    {
@@ -608,7 +608,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-07T16:07:35Z",
+  "checked": "2026-10-07T16:33:19Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -616,7 +616,7 @@
     "full_name": "wshobson/agents",
     "url": "https://github.com/wshobson/agents",
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-    "stars": 40271,
+    "stars": 40272,
     "language": "Python",
     "pushed": "2026-10-05T01:07:11Z",
     "created": "2025-07-24T23:28:14Z",
@@ -627,7 +627,7 @@
     "log": [
      [
       "2026-10-07",
-      40271
+      40272
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -681,7 +681,7 @@
     "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot /…",
     "stars": 18692,
     "language": "Rust",
-    "pushed": "2026-10-07T14:48:02Z",
+    "pushed": "2026-10-07T16:13:23Z",
     "created": "2026-01-16T07:09:32Z",
     "labels": [
      "GitHub Copilot"
@@ -1018,7 +1018,7 @@
     "description": "OpenAI-compatible proxy for Microsoft 365 Copilot — use the Copilot licence you already have as a backend for pi, openclaw and other coding agents. Prompt-emulated tool calling, no extra licence, no MCP.",
     "stars": 130,
     "language": "TypeScript",
-    "pushed": "2026-10-07T07:19:38Z",
+    "pushed": "2026-10-07T16:31:09Z",
     "created": "2026-03-26T21:28:59Z",
     "labels": [
      "Microsoft 365 Copilot"
@@ -1228,7 +1228,7 @@
     "full_name": "archubbuck/workspace-architect",
     "url": "https://github.com/archubbuck/workspace-architect",
     "description": "Workspace Architect is a zero-friction CLI tool that provides curated collections of specialized agents, instructions, and prompts to supercharge your GitHub Copilot experience.",
-    "stars": 18,
+    "stars": 19,
     "language": "Python",
     "pushed": "2026-10-07T04:20:19Z",
     "created": "2025-11-21T21:59:18Z",
@@ -1239,7 +1239,7 @@
     "log": [
      [
       "2026-10-07",
-      18
+      19
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1574,7 +1574,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 20
   },
@@ -1588,7 +1588,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 3
   },
@@ -1602,7 +1602,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 19
   },
@@ -1616,7 +1616,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 7
   },
@@ -1630,7 +1630,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 4
   },
@@ -1644,7 +1644,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 11
   },
@@ -1658,7 +1658,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 10
   },
@@ -1672,7 +1672,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 0
   },
@@ -1686,7 +1686,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 5
   },
@@ -1700,7 +1700,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 0
   },
@@ -1714,7 +1714,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 114
   },
@@ -1728,7 +1728,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 109
   },
@@ -1742,7 +1742,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 10
   },
@@ -1756,7 +1756,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 12
   },
@@ -1770,7 +1770,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 27
   },
@@ -1784,7 +1784,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 7
   },
@@ -1798,7 +1798,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 31
   },
@@ -1812,7 +1812,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 3
   },
@@ -1826,7 +1826,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 2
   },
@@ -1840,7 +1840,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 12
   },
@@ -1854,7 +1854,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 11
   },
@@ -1868,7 +1868,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 5
   },
@@ -1882,7 +1882,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 13
   },
@@ -1896,7 +1896,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 7
   },
@@ -1910,7 +1910,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 42
   },
@@ -1924,7 +1924,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 10
   },
@@ -1938,7 +1938,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 4
   },
@@ -1952,7 +1952,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
    "count": 13
   },
@@ -1965,10 +1965,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "new": 2,
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "",
-   "count": 28
+   "count": 30
   },
   {
    "id": "yt-m365",
@@ -1980,7 +1980,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "UCc3pNIRzIZ8ynI38GO6H01Q",
    "count": 14
   },
@@ -1993,10 +1993,10 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "new": 2,
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "UCJ9905MRHxwLZ2jeNQGIWxA",
-   "count": 12
+   "count": 14
   },
   {
    "id": "yt-copilot-studio",
@@ -2008,7 +2008,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "UCn8PsBlVsGUt8J3tZCKsMPA",
    "count": 3
   },
@@ -2021,10 +2021,10 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "new": 2,
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "UC4s3tv0Qq_OSUBfR735Jc6A",
-   "count": 1
+   "count": 3
   },
   {
    "id": "yt-developer",
@@ -2035,10 +2035,10 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "new": 3,
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "UCsMica-v34Irf9KVTh6xx-g",
-   "count": 7
+   "count": 10
   },
   {
    "id": "yt-github",
@@ -2049,10 +2049,10 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "new": 2,
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
-   "count": 7
+   "count": 9
   },
   {
    "id": "yt-microsoft",
@@ -2063,13 +2063,51 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-07T16:07:35Z",
+   "new": 4,
+   "last_ok": "2026-10-07T16:33:19Z",
    "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
-   "count": 5
+   "count": 9
   }
  ],
  "items": [
+  {
+   "id": "35545ae5e825",
+   "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+   "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+   "published": "2026-10-07T15:34:53Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "fb4b2411ccc7",
+   "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+   "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+   "published": "2026-10-07T15:33:51Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet. The financially motivated campaign, dubbed Canto Incognito, has been found to install cryptocurrency miners, including",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
   {
    "id": "85bfd7cabc50",
    "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
@@ -2179,6 +2217,23 @@
    ],
    "status": "",
    "excerpt": "A report by a Labour MP and an academic argues that if the British public cannot see what Russian activity costs, it cannot weigh that burden against the cost of defending against it.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "f7957d164e8a",
+   "url": "https://www.youtube.com/watch?v=B4yovi_znxE",
+   "title": "Cut AI Agent Costs with TokenOps",
+   "published": "2026-10-07T13:01:21Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-developer",
+   "group": "video",
+   "company": "Microsoft Developer",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "AI agent costs don't grow in step with the work. As an agent takes more turns, context piles up and uncached input costs rise on a quadratic curve: in Gareth Bland's example, an agent that takes four times as many turns costs sixteen times as much. Engineering your context to use cached input can bring that curve down to a tenth of the cost. Gareth Bland, Chief Data Scientist at Microsoft, explains TokenOps: the…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -2404,6 +2459,23 @@
    ],
    "status": "",
    "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "afe5ceee3262",
+   "url": "https://www.youtube.com/watch?v=c9Xh7BMkBQE",
+   "title": "Your Agent Is Only as Smart as Its Context",
+   "published": "2026-10-06T18:48:43Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-developer",
+   "group": "video",
+   "company": "Microsoft Developer",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "https://aka.ms/foundry-portal https://aka.ms/InsideMicrosoftFoundryPlaylist A smart model without the right context still gives the wrong answer. See how Microsoft IQ connects your agent to business data, retrieves relevant context at runtime, and grounds each response in the information that matters. 0:00 - Connect Agents to Enterprise Context 1:09 - Explore Web IQ 1:45 - Ground Responses with Foundry IQ 2:51…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -3411,6 +3483,23 @@
    ],
    "status": "",
    "excerpt": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility, control, and the ability to respond to risk at scale. This report examines how core areas of",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "a99213e5cf26",
+   "url": "https://www.youtube.com/watch?v=I541TmZiV2Q",
+   "title": "Replay: Open Source Friday with Mastra",
+   "published": "2026-10-03T06:20:04Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-github",
+   "group": "video",
+   "company": "GitHub",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "Abhi Aiyer, CTO at Mastra, joins Open Source Friday to talk about building AI applications with TypeScript. Mastra is a TypeScript-first framework for agents, workflows, memory, tools, and MCP. Abhi covers how the project grew out of the Gatsby team's work, demos Mastra Studio with a weather agent, and walks through observability, evals, observational memory, and coding-agent primitives. 0:00 Welcome to Open Source…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -4514,6 +4603,23 @@
    "competes_with": []
   },
   {
+   "id": "a0f94f298b4c",
+   "url": "https://www.youtube.com/watch?v=VpSCu7s4wD4",
+   "title": "🧭 Flight Intelligence: The Power of Work IQ | Discover how Work IQ is your business's secret sauce",
+   "published": "2026-09-30T18:00:23Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-developer",
+   "group": "video",
+   "company": "Microsoft Developer",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "What if your agents could understand not just your data, but how work actually happens across your organisation? Explore Work IQ, see how tools and examples such as Margo bring workplace context into agent experiences, and discover how these building blocks fit into the broader Microsoft IQ vision for creating intelligent, enterprise-grounded solutions. Also have a quick overview of the new Microsoft IQ OS project.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "4701ff477d85",
    "url": "https://www.youtube.com/watch?v=h0YmWeMxfPw",
    "title": "🛫Wheels Up: Closing keynote and HOMEWORK!",
@@ -4898,6 +5004,25 @@
    "competes_with": []
   },
   {
+   "id": "170e0de0ac28",
+   "url": "https://www.youtube.com/shorts/_9boiyCkNv0",
+   "title": "Every AI Agent Gets a Microsoft Entra ID",
+   "published": "2026-09-29T18:30:25Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-mechanics",
+   "group": "video",
+   "company": "Microsoft Mechanics",
+   "kind": "video",
+   "topics": [
+    "entra"
+   ],
+   "status": "",
+   "excerpt": "Every agent deployed to Microsoft Foundry is assigned a unique ID from Microsoft Entra, so any action it takes is traceable back to that agent. It can reach resources autonomously with its own scoped permissions, or act on behalf of a signed-in user with that person's permissions instead — and each user session runs in its own secure microVM. ▶ Full video: https://youtu.be/iR7_57lJOz8 ▶ Build your first project…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "9be84db4b5c5",
    "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
    "title": "GPT-6.1 Sol in GitHub Copilot",
@@ -4929,6 +5054,23 @@
    "topics": [],
    "status": "",
    "excerpt": "We are upgrading the underlying text-to-speech (TTS) engine powering AI voiceovers and avatar narration in Google Vids to the latest Gemini 3.8 Flash Lite TTS model. High-quality voiceover is essential for compelling video communication. With this model upgrade, Google Vids creators will experience: Superior Naturalness & Inflection: Improved sentence flow, lifelike pacing, and context-aware emphasis that reduces…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "9bde8eb03c88",
+   "url": "https://www.youtube.com/shorts/UQsdb_wg7EE",
+   "title": "Why Your Azure AI Foundry Eval Failed",
+   "published": "2026-09-29T16:00:07Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-mechanics",
+   "group": "video",
+   "company": "Microsoft Mechanics",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "Your Azure AI Foundry agent scored 59% on TaskCompletion — now find out why in seconds. Microsoft Foundry (formerly Azure AI Foundry) uses AI to analyze evaluation results and build a cluster analysis of the main issues. Drilling into a below-bar TaskCompletion score surfaces \"incomplete resolution,\" \"action plan issues,\" and a \"lack of actionable output\" — then suggests specific ways to fix it, instead of leaving…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -5415,6 +5557,23 @@
    ],
    "status": "",
    "excerpt": "Build software on Windows using the Linux environments and tools you already rely on. In this video, see how to connect the GitHub Copilot app to Windows Subsystem for Linux (WSL) and run coding agents directly inside Ubuntu. Watch how Copilot handles parallel feature requests using worktrees, previews changes in a built-in browser, and verifies code diffs, all without leaving the app. Download the GitHub Copilot…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8e8a4051eadc",
+   "url": "https://www.youtube.com/watch?v=-uMkZDEZCNw",
+   "title": "How to automate issue metadata with GitHub issue intents",
+   "published": "2026-09-26T15:00:21Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-github",
+   "group": "video",
+   "company": "GitHub",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "Managing incoming repository issues and keeping metadata up to date can be tedious for maintainers. GitHub issue intents allow you to automate issue triage while keeping full control over how suggestions are applied. Learn how to set confidence thresholds, review agent reasoning, and auto-apply routine changes using GitHub agentic workflows. Agent automation controls in GitHub Issues in public preview…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -6041,6 +6200,25 @@
    "competes_with": []
   },
   {
+   "id": "38b5e4e2e0a7",
+   "url": "https://www.youtube.com/shorts/8cDAJB4eYHk",
+   "title": "Introducing the Integrated Security Operations Center (ISOC) in Microsoft Defender",
+   "published": "2026-09-23T16:00:28Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-security",
+   "group": "video",
+   "company": "Microsoft Security",
+   "kind": "video",
+   "topics": [
+    "defender"
+   ],
+   "status": "",
+   "excerpt": "ISOC removes the boundary between threat protection and security operations in Microsoft Defender. Hayete Gallot, EVP of Microsoft Security, shares how ISOC gives security practitioners one system, one set of data, and one model, while strengthening the foundation AI agents need to act across the cyber stack. Learn more: https://msft.it/6053agOQF #MicrosoftSecurity #MicrosoftDefender #ISOC #SecOps #AgenticSecurity",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "ba42912c6de9",
    "url": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/integrated-security-operations-center-in-microsoft-defender/ba-p/4559097",
    "title": "Integrated Security Operations Center in Microsoft Defender",
@@ -6463,6 +6641,23 @@
    "topics": [],
    "status": "",
    "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "988536bcb504",
+   "url": "https://www.youtube.com/watch?v=t4koP959eAc",
+   "title": "What is Project Perception? | Meet the Builders",
+   "published": "2026-09-21T23:37:09Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-security",
+   "group": "video",
+   "company": "Microsoft Security",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "Meet a few of the builders behind Project Perception, Microsoft's new agentic security system designed to help organizations defend against AI-powered threats. By bringing together signals, security context, specialized agents, and AI models, the team is creating a continuously learning system that can perceive, reason, and act at machine speed while keeping humans in control. Learn more about Project Perception by…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -9015,6 +9210,23 @@
    "competes_with": []
   },
   {
+   "id": "402e9358d4a3",
+   "url": "https://www.youtube.com/shorts/J-3FSw6Upqs",
+   "title": "Tech, labor, and token costs: the new AI math",
+   "published": "2026-08-26T20:00:32Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-microsoft",
+   "group": "video",
+   "company": "Microsoft",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "In this WorkLab podcast clip, Andy Doyle, Kantar's Chief People and Agent Officer, lays out the new math facing enterprises: tech cost, labor cost, and token cost—and how to triangulate all three in a way that makes sense. The real question isn't the individual budgets, it's what this costs you overall—and where you deploy technology and super agents versus where you put people. Until now, that choice was forced on…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "83abfc082897",
    "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
@@ -9611,6 +9823,23 @@
    ],
    "status": "dev",
    "excerpt": "Federated Copilot connectors enable users to securely connect Microsoft Copilot to their favorite third party sources, retrieving data in real-time using the Model Context Protocol (MCP). Federated Copilot connectors do not store or index customer data in Microsoft - access happens in real time using the user’s own identity, while administrators retain full governance and control through the Microsoft 365 Admin…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "ee00b956808c",
+   "url": "https://www.youtube.com/shorts/vPnkarnJnVs",
+   "title": "What CEOs are quietly admitting about AI",
+   "published": "2026-08-18T20:00:37Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-microsoft",
+   "group": "video",
+   "company": "Microsoft",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "In this WorkLab podcast clip, Allie K. Miller, AI leader, investor, and former Global Head of Machine Learning at AWS, calls out a growing leadership gap: many executives are setting AI strategy and driving AI transformation without hands-on experience using AI tools and agents themselves. The result? Missed opportunities and strategies that don't translate into real change. The strongest organizations combine…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -10354,6 +10583,23 @@
    "competes_with": []
   },
   {
+   "id": "8df01412cc36",
+   "url": "https://www.youtube.com/shorts/qH1qnCBPw8g",
+   "title": "3 skills you need in the age of AI",
+   "published": "2026-08-10T19:03:24Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-microsoft",
+   "group": "video",
+   "company": "Microsoft",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "In this WorkLab podcast clip, Allie K. Miller, CEO of Open Machine and former Global Head of Machine Learning at AWS, shares the three skillsets she looks for in an AI-first world: high agency, a strong sense of curiosity, and systems thinking. It’s not just about using AI tools. It’s about how you experiment, adapt, and navigate increasingly complex, multi-agent systems. As AI adoption accelerates, these skills are…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "84deafb0130e",
    "url": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-tenant-governance-is-now-generally-available/ba-p/4543638",
    "title": "Microsoft Entra Tenant Governance is now generally available",
@@ -10387,6 +10633,23 @@
    ],
    "status": "",
    "excerpt": "Hello everyone, I'm Yina Arenas. I'm honored to have joined Microsoft Security as the CVP and Chief Product Officer of Identity and Network Access and to introduce myself to the legendary Microsoft Entra community. Having spent much of my career focused on platform innovation, I've seen how transformative technology can be when it's built on trust. Today, as organizations embrace AI at unprecedented scale, identity…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3203f6901fb5",
+   "url": "https://www.youtube.com/watch?v=cazd1z4Eseo",
+   "title": "The AI shift most companies didn't see coming",
+   "published": "2026-08-10T17:02:00Z",
+   "first_seen": "2026-10-07T16:33:19Z",
+   "source": "yt-microsoft",
+   "group": "video",
+   "company": "Microsoft",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "What does it take to move the needle with AI? Top AI voice Allie K. Miller joins WorkLab to share why some of the biggest advances aren’t coming from the usual places—or people. She explains how organizations can unlock new value by giving unconventional thinkers room to experiment, why speed and iteration matter more than perfection, and how leaders can turn edge ideas into real business impact. Plus: how agentic…",
    "summary": "",
    "relevance": "",
    "competes_with": []

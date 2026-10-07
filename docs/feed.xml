@@ -4,7 +4,23 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 07 Oct 2026 16:07:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:33:19 +0000</lastBuildDate>
+    <item>
+      <title>[The Hacker News] Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely</title>
+      <link>https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html</link>
+      <guid isPermaLink="false">35545ae5e825</guid>
+      <pubDate>Wed, 07 Oct 2026 15:34:53 +0000</pubDate>
+      <description>A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet</title>
+      <link>https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html</link>
+      <guid isPermaLink="false">fb4b2411ccc7</guid>
+      <pubDate>Wed, 07 Oct 2026 15:33:51 +0000</pubDate>
+      <description>Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet. The financially motivated campaign, dubbed Canto Incognito, has been found to install cryptocurrency miners, including</description>
+      <category>ai-threats</category>
+    </item>
     <item>
       <title>[BleepingComputer] PoeLLM malware infects exposed AI servers in cryptomining attacks</title>
       <link>https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/</link>
@@ -52,6 +68,13 @@
       <pubDate>Wed, 07 Oct 2026 13:30:00 +0000</pubDate>
       <description>A report by a Labour MP and an academic argues that if the British public cannot see what Russian activity costs, it cannot weigh that burden against the cost of defending against it.</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Developer] Cut AI Agent Costs with TokenOps</title>
+      <link>https://www.youtube.com/watch?v=B4yovi_znxE</link>
+      <guid isPermaLink="false">f7957d164e8a</guid>
+      <pubDate>Wed, 07 Oct 2026 13:01:21 +0000</pubDate>
+      <description>AI agent costs don't grow in step with the work. As an agent takes more turns, context piles up and uncached input costs rise on a quadratic curve: in Gareth Bland's example, an agent that takes four times as many turns costs sixteen times as much. Engineering your context to use cached input can bring that curve down to a tenth of the cost. Gareth Bland, Chief Data Scientist at Microsoft, explains TokenOps: the…</description>
     </item>
     <item>
       <title>[Hugging Face] One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO</title>
@@ -147,6 +170,13 @@
       <pubDate>Tue, 06 Oct 2026 19:00:00 +0000</pubDate>
       <description>We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.</description>
       <category>security-agents</category>
+    </item>
+    <item>
+      <title>[Microsoft Developer] Your Agent Is Only as Smart as Its Context</title>
+      <link>https://www.youtube.com/watch?v=c9Xh7BMkBQE</link>
+      <guid isPermaLink="false">afe5ceee3262</guid>
+      <pubDate>Tue, 06 Oct 2026 18:48:43 +0000</pubDate>
+      <description>https://aka.ms/foundry-portal https://aka.ms/InsideMicrosoftFoundryPlaylist A smart model without the right context still gives the wrong answer. See how Microsoft IQ connects your agent to business data, retrieves relevant context at runtime, and grounds each response in the information that matters. 0:00 - Connect Agents to Enterprise Context 1:09 - Explore Web IQ 1:45 - Ground Responses with Foundry IQ 2:51…</description>
     </item>
     <item>
       <title>[The Hacker News] Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes</title>
@@ -575,6 +605,13 @@
       <category>ai-threats</category>
     </item>
     <item>
+      <title>[GitHub] Replay: Open Source Friday with Mastra</title>
+      <link>https://www.youtube.com/watch?v=I541TmZiV2Q</link>
+      <guid isPermaLink="false">a99213e5cf26</guid>
+      <pubDate>Sat, 03 Oct 2026 06:20:04 +0000</pubDate>
+      <description>Abhi Aiyer, CTO at Mastra, joins Open Source Friday to talk about building AI applications with TypeScript. Mastra is a TypeScript-first framework for agents, workflows, memory, tools, and MCP. Abhi covers how the project grew out of the Gatsby team's work, demos Mastra Studio with a weather agent, and walks through observability, evals, observational memory, and coding-agent primitives. 0:00 Welcome to Open Source…</description>
+    </item>
+    <item>
       <title>[Anthropic] Claude Frontier Academy: $100M to train 10,000 engineers</title>
       <link>https://www.anthropic.com/news/claude-frontier-academy</link>
       <guid isPermaLink="false">9f2dde650fe4</guid>
@@ -588,43 +625,6 @@
       <pubDate>Fri, 02 Oct 2026 19:13:50 +0000</pubDate>
       <description>You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default…</description>
       <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Google] Google Workspace Weekly Recap - October 2, 2026</title>
-      <link>https://workspaceupdates.googleblog.com/2026/10/weekly-recap-10-02-2026.html</link>
-      <guid isPermaLink="false">da784f1db055</guid>
-      <pubDate>Fri, 02 Oct 2026 18:43:57 +0000</pubDate>
-      <description>Create more natural, expressive AI voiceovers in Google Vids with upgraded Gemini 3.8 Flash Lite TTS We are upgrading the underlying text-to-speech (TTS) engine powering AI voiceovers and avatar narration in Google Vids to the latest Gemini 3.8 Flash Lite TTS model. | Learn more. Introducing skills in the Gemini app and Workspace, plus what’s next for Gems We recently introduced skills—reusable prompts that guide…</description>
-    </item>
-    <item>
-      <title>[Microsoft] Selected models in GitHub Copilot deprecated</title>
-      <link>https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated</link>
-      <guid isPermaLink="false">d3c3f6996fb2</guid>
-      <pubDate>Fri, 02 Oct 2026 18:24:19 +0000</pubDate>
-      <description>As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[The Hacker News] GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers</title>
-      <link>https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html</link>
-      <guid isPermaLink="false">46f9ae7612dc</guid>
-      <pubDate>Fri, 02 Oct 2026 17:33:31 +0000</pubDate>
-      <description>A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1. The flaw</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Salesforce] Salesforce’s Agentic CX Vision: 8 Dreamforce Announcements CX Leaders Need to Act On</title>
-      <link>https://www.salesforce.com/news/linked-content/salesforces-agentic-cx-vision-8-dreamforce-announcements-cx-leaders-need-to-act-on/</link>
-      <guid isPermaLink="false">dc05ff46a23a</guid>
-      <pubDate>Fri, 02 Oct 2026 17:00:58 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[OpenAI] A model guide for the GPT-6 family</title>
-      <link>https://openai.com/index/practical-guide-building-gpt-6</link>
-      <guid isPermaLink="false">8e206c4d9ed6</guid>
-      <pubDate>Fri, 02 Oct 2026 16:15:00 +0000</pubDate>
-      <description>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</description>
     </item>
   </channel>
 </rss>
