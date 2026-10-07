@@ -4,7 +4,111 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 07 Oct 2026 04:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:03:07 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] PoeLLM malware infects exposed AI servers in cryptomining attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/</link>
+      <guid isPermaLink="false">85bfd7cabc50</guid>
+      <pubDate>Wed, 07 Oct 2026 15:04:08 +0000</pubDate>
+      <description>A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Salesforce] From Autonomy to Accountability: How to Think About Trust in the Multi-Agent Future</title>
+      <link>https://www.salesforce.com/news/stories/trust-in-multi-agent-future/</link>
+      <guid isPermaLink="false">23b87cb68256</guid>
+      <pubDate>Wed, 07 Oct 2026 15:00:00 +0000</pubDate>
+      <description>The transition from isolated large language models (LLMs) to interoperable multi-agent systems promises a revolutionary leap in productivity. It will allow autonomous AI to negotiate, trade, and collaborate across company lines. Agents from third-party vendors and partners can access data and execute tasks across your platform, a fluidity that’s a fundamental engine of strategic growth. […]</description>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Describe an App, Get a Working App</title>
+      <link>https://www.youtube.com/shorts/FIFgYCbM1Jg</link>
+      <guid isPermaLink="false">339d425b9962</guid>
+      <pubDate>Wed, 07 Oct 2026 14:15:21 +0000</pubDate>
+      <description>Can you build a business app just by describing it? In Copilot Studio Apps, describe a Bid Management App connected to your Dataverse table, or to sources like SharePoint through connectors. It generates summary tiles and per-bid details, then applies your company branding from a follow-up prompt. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started: https://copilotstudio.microsoft.com #Shorts #CopilotStudio…</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Ransomware has a new target. Is your backup ready?</title>
+      <link>https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/</link>
+      <guid isPermaLink="false">aee878c8b09e</guid>
+      <pubDate>Wed, 07 Oct 2026 14:01:11 +0000</pubDate>
+      <description>Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, and regularly tested backups that attackers cannot easily reach. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] Senate passes healthcare cybersecurity bill after 190 million impacted by Change Healthcare breach</title>
+      <link>https://therecord.media/senate-passes-healthcare-cyber-bill-after-change-breach</link>
+      <guid isPermaLink="false">964793230f36</guid>
+      <pubDate>Wed, 07 Oct 2026 13:49:00 +0000</pubDate>
+      <description>The Health Care Cybersecurity and Resiliency Act of 2026 was passed by unanimous consent last week, potentially expanding federal cyber requirements for healthcare organizations.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] Russian cyberattacks against UK are 'Putin Tax' costing $3.3 billion, says lawmaker</title>
+      <link>https://therecord.media/russia-cyberattacks-on-britain-putin-tax-graeme-downie</link>
+      <guid isPermaLink="false">405f0928b682</guid>
+      <pubDate>Wed, 07 Oct 2026 13:30:00 +0000</pubDate>
+      <description>A report by a Labour MP and an academic argues that if the British public cannot see what Russian activity costs, it cannot weigh that burden against the cost of defending against it.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Hugging Face] One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO</title>
+      <link>https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026</link>
+      <guid isPermaLink="false">5bdd694c6290</guid>
+      <pubDate>Wed, 07 Oct 2026 12:45:31 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[The Hacker News] The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow</title>
+      <link>https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html</link>
+      <guid isPermaLink="false">12e41dfb9e1f</guid>
+      <pubDate>Wed, 07 Oct 2026 11:57:05 +0000</pubDate>
+      <description>The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens. For years, the enterprise cybersecurity story has been told as a straight line of escalation: more attacks, more data loss, more pressure, and more urgency. That</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] What Is Agentic Pentesting? What It Proves, and Where It Stops.</title>
+      <link>https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html</link>
+      <guid isPermaLink="false">ecf0f242fd12</guid>
+      <pubDate>Wed, 07 Oct 2026 11:42:24 +0000</pubDate>
+      <description>If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would. That promise is worth taking seriously. It’s also worth pressure testing, and three questions do the heavy lifting. What can the assessment actually</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Musician sent to prison for $10 million streaming fraud using AI bots</title>
+      <link>https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/</link>
+      <guid isPermaLink="false">ccdbc3d08bf4</guid>
+      <pubDate>Wed, 07 Oct 2026 10:35:15 +0000</pubDate>
+      <description>A North Carolina musician was sentenced to 18 months in prison for collecting more than $10 million in royalties from Spotify, Apple Music, Amazon Music, and YouTube Music in a massive streaming royalty fraud scheme. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Advantest confirms personal information stolen in ransomware attack</title>
+      <link>https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/</link>
+      <guid isPermaLink="false">e8af94180ff3</guid>
+      <pubDate>Wed, 07 Oct 2026 10:27:52 +0000</pubDate>
+      <description>Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Developer] Day 03 | AI BUILDER SERIES | Copilot Cowork Build your first skill? #m365 #microsoftoffice #copilot</title>
+      <link>https://www.youtube.com/shorts/cHBOFtX_zy0</link>
+      <guid isPermaLink="false">b8b1c4d21aa6</guid>
+      <pubDate>Wed, 07 Oct 2026 08:17:57 +0000</pubDate>
+      <description>In this video, In this video, we explore Agent Skills in Microsoft Copilot Cowork and build a custom skill from scratch. You’ll learn how Skills extend Cowork with reusable instructions, workflows, and domain-specific behavior. 🔹 Understand what Agent Skills are 🔹 Learn how Skills fit into Cowork orchestration 🔹 Manage built-in and custom Skills 🔹 Create a Skill using the native Add Skill experience 🔹 Build a…</description>
+      <category>copilot</category>
+      <category>cowork</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws</title>
+      <link>https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html</link>
+      <guid isPermaLink="false">c6065c24705d</guid>
+      <pubDate>Wed, 07 Oct 2026 08:07:38 +0000</pubDate>
+      <description>Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026. The company said it also found an additional</description>
+      <category>ai-threats</category>
+    </item>
     <item>
       <title>[Microsoft] Update your IDE to restore agent activity in Copilot usage metrics</title>
       <link>https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics</link>
@@ -20,6 +124,14 @@
       <guid isPermaLink="false">4dd290070848</guid>
       <pubDate>Tue, 06 Oct 2026 19:57:04 +0000</pubDate>
       <description />
+    </item>
+    <item>
+      <title>[Microsoft 365] How AI gives her more time to focus on people</title>
+      <link>https://www.youtube.com/shorts/cAMjVquiEL0</link>
+      <guid isPermaLink="false">5547cf8beeb0</guid>
+      <pubDate>Tue, 06 Oct 2026 19:30:30 +0000</pubDate>
+      <description>The code needs attention. So does the person who’ll use it. @ATT data scientist Natalie Gilbert shares how @GitHub Copilot helps her review code and catch errors, giving her more time to understand what people need.</description>
+      <category>githubcopilot</category>
     </item>
     <item>
       <title>[BleepingComputer] Hackers exploit 32 zero-days on first day of Pwn2Own Ireland</title>
@@ -46,12 +158,29 @@
       <category>ai-threats</category>
     </item>
     <item>
+      <title>[Microsoft Mechanics] Build an AI Agent From One Prompt</title>
+      <link>https://www.youtube.com/shorts/BKXRNfvlw50</link>
+      <guid isPermaLink="false">1c28564b4251</guid>
+      <pubDate>Tue, 06 Oct 2026 18:15:21 +0000</pubDate>
+      <description>What if building an AI agent started with a description? In Copilot Studio, describe a Bid Evaluation Agent, including the requirements, the logic, and the live data source. It reasons over your prompt, maps its build steps, and creates reusable skills for requirement coverage and evidence verification that you can reuse across other agents. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started…</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
+    </item>
+    <item>
       <title>[BleepingComputer] ASOS confirms data breach after “HACKED” in-app notifications</title>
       <link>https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/</link>
       <guid isPermaLink="false">462de0e933ca</guid>
       <pubDate>Tue, 06 Oct 2026 16:33:54 +0000</pubDate>
       <description>UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [...]</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft 365] How this data scientist is using AI to help 130,000 AT&amp;T employees</title>
+      <link>https://www.youtube.com/watch?v=4mjXPWPkWo8</link>
+      <guid isPermaLink="false">a45ff66309cb</guid>
+      <pubDate>Tue, 06 Oct 2026 16:30:18 +0000</pubDate>
+      <description>@ATT data scientist Natalie Gilbert found a way to turn her drive to help people into work that can reach thousands. See how @GitHub Copilot helps her review code and catch errors, giving her more time to focus on understanding the people she’s building for. Learn more: https://msft.it/6000aWttq ***</description>
+      <category>githubcopilot</category>
     </item>
     <item>
       <title>[Google] EmbeddingGemma 2: an open, lightweight multimodal embedding model</title>
@@ -98,6 +227,15 @@
       <pubDate>Tue, 06 Oct 2026 14:52:00 +0000</pubDate>
       <description>Osaka Metropolitan University said on Tuesday that the outage left its internal network, email and a range of administrative and academic systems unavailable.</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Add Human Review to an AI Agent Workflow</title>
+      <link>https://www.youtube.com/shorts/hurkQPo8FYo</link>
+      <guid isPermaLink="false">69b7678453a0</guid>
+      <pubDate>Tue, 06 Oct 2026 14:15:25 +0000</pubDate>
+      <description>How do you keep a person in charge of the decisions that matter? In Copilot Studio workflows, an if/else Human Review step pauses the process when the agent flags a bid. Otherwise the bid goes straight to the Researcher agent and a recommendation agent, and the result is written as a new row in Dataverse. You can test each step on its own. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started…</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
     </item>
     <item>
       <title>[Google] More than 100 startups joining our Google for Startups Gemini Startup Forum</title>
@@ -198,12 +336,30 @@
       <description />
     </item>
     <item>
+      <title>[Microsoft Mechanics] How to Test an AI Agent at Scale</title>
+      <link>https://www.youtube.com/shorts/C3o2pYXQApo</link>
+      <guid isPermaLink="false">b56fc7b1d9b5</guid>
+      <pubDate>Tue, 06 Oct 2026 01:15:12 +0000</pubDate>
+      <description>How do you know an AI agent is ready for production? Evaluations in Copilot Studio run structured tests against your agent using your own conversations, 10 auto-generated tests, or a CSV of test cases. Here, 18 test cases met the evaluation criteria 89% of the time, with results for each test. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started: https://copilotstudio.microsoft.com #Shorts #CopilotStudio…</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
+    </item>
+    <item>
       <title>[BleepingComputer] OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU</title>
       <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/</link>
       <guid isPermaLink="false">158b0c0dc14e</guid>
       <pubDate>Mon, 05 Oct 2026 22:46:33 +0000</pubDate>
       <description>OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union. [...]</description>
       <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] AI Agent Catches 3 Gaps in a Vendor Bid</title>
+      <link>https://www.youtube.com/shorts/hseQAFcYw7o</link>
+      <guid isPermaLink="false">51ebc9f27b36</guid>
+      <pubDate>Mon, 05 Oct 2026 19:09:26 +0000</pubDate>
+      <description>Can an AI agent catch what a bid reviewer would miss? A Bid Evaluation Agent built in Copilot Studio checks a supplier bid against every tender requirement, flags missing medicine manufacturing certification, cold-chain handling, and insurance minimums, and recommends a human review before shortlisting. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started: https://copilotstudio.microsoft.com #Shorts…</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
     </item>
     <item>
       <title>[Google] Here’s how I use technology to bring science to life in my classroom.</title>
@@ -285,6 +441,15 @@
       <category>incidents</category>
     </item>
     <item>
+      <title>[Microsoft Mechanics] Build Automated Agents, Workflows, and Apps - New in Copilot Studio</title>
+      <link>https://www.youtube.com/watch?v=k4V44dn_TQo</link>
+      <guid isPermaLink="false">1f2a7385798a</guid>
+      <pubDate>Mon, 05 Oct 2026 14:45:27 +0000</pubDate>
+      <description>Take a business process from prompt to production by building agents, workflows, and apps in one place with Copilot Studio. Describe the agent you need and generate its instructions and reusable skills, choose the model, connect MCP tools and specialist agents, then test its quality at scale with Evaluations. Trigger workflows from incoming email, classify submissions, hand work to your agents, and pause for human…</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
+    </item>
+    <item>
       <title>[BleepingComputer] South Korea probes bank breaches amid suspected AI-powered attacks</title>
       <link>https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/</link>
       <guid isPermaLink="false">68acfff98094</guid>
@@ -353,6 +518,14 @@
       <guid isPermaLink="false">3ee2b512c089</guid>
       <pubDate>Mon, 05 Oct 2026 05:00:00 +0000</pubDate>
       <description />
+    </item>
+    <item>
+      <title>[GitHub] How to protect your repo in 2 minutes with gh-secure</title>
+      <link>https://www.youtube.com/shorts/J3Z6bO3LvUw</link>
+      <guid isPermaLink="false">228c379292d3</guid>
+      <pubDate>Sun, 04 Oct 2026 15:00:37 +0000</pubDate>
+      <description>Just one command can help you stop leaking secrets into your public code. Give your repositories essential security hygiene with gh-secure from the GitHub Security Lab. Install and use it in the Copilot app, Copilot CLI, or GitHub CLI. https://gh.io/gh-secure #GitHubSecurity #GitHubCopilot #GitHub Stay up-to-date on all things GitHub by connecting with us: YouTube: https://gh.io/subgithub Blog: https://github.blog…</description>
+      <category>copilot</category>
     </item>
     <item>
       <title>[The Hacker News] ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members</title>
@@ -446,170 +619,12 @@
       <description>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</description>
     </item>
     <item>
-      <title>[Hugging Face] Open-sourcing AstaBrief, the fast report-generation model in Asta</title>
-      <link>https://huggingface.co/blog/allenai/astabrief</link>
-      <guid isPermaLink="false">d599f0a282be</guid>
-      <pubDate>Fri, 02 Oct 2026 15:19:50 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[NVIDIA] NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI</title>
-      <link>https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/</link>
-      <guid isPermaLink="false">1f284fec3a90</guid>
-      <pubDate>Fri, 02 Oct 2026 13:00:39 +0000</pubDate>
-      <description>Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, […]</description>
-    </item>
-    <item>
-      <title>[The Hacker News] OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling</title>
-      <link>https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html</link>
-      <guid isPermaLink="false">7732b6c00457</guid>
-      <pubDate>Fri, 02 Oct 2026 12:23:15 +0000</pubDate>
-      <description>OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported. "We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information," a spokesperson for the company was quoted as saying. "Our investigation confirmed that these</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes</title>
-      <link>https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html</link>
-      <guid isPermaLink="false">10ee893b5c5f</guid>
-      <pubDate>Fri, 02 Oct 2026 05:49:50 +0000</pubDate>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-104286 (CVSS score: 9.8), allows unauthenticated attackers to write arbitrary files on the underlying system. "An improper</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Hugging Face] AutoSynthData: Generating Training Data for Enterprise Agents</title>
-      <link>https://huggingface.co/blog/ServiceNow-AI/autosynthdata</link>
-      <guid isPermaLink="false">a885ed61f54a</guid>
-      <pubDate>Fri, 02 Oct 2026 04:01:31 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[OpenAI] Chatham scales its capital markets expertise with OpenAI</title>
-      <link>https://openai.com/index/chatham-financial</link>
-      <guid isPermaLink="false">a97398f76ee5</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.</description>
-    </item>
-    <item>
-      <title>[NVIDIA] How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast</title>
-      <link>https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/</link>
-      <guid isPermaLink="false">c68e4b407e02</guid>
-      <pubDate>Thu, 01 Oct 2026 23:44:13 +0000</pubDate>
-      <description>GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, […]</description>
-    </item>
-    <item>
-      <title>[Microsoft] What’s New in Microsoft Copilot | September 2026</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-september-2026/ba-p/4559107</link>
-      <guid isPermaLink="false">2ff5525a9da9</guid>
-      <pubDate>Thu, 01 Oct 2026 20:25:35 +0000</pubDate>
-      <description>Welcome to the September 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and efficient in the apps they use every day. We had some big announcements last week about how we’re introducing the new Copilot to connect the tools people rely on with the next…</description>
+      <title>[Microsoft Copilot Studio] Meet Autopilot in Copilot</title>
+      <link>https://www.youtube.com/shorts/1q1ha9cuD6k</link>
+      <guid isPermaLink="false">08f838006baa</guid>
+      <pubDate>Fri, 02 Oct 2026 16:00:02 +0000</pubDate>
+      <description>Autopilot can take on routine tasks and longer-running processes, helping move work toward completion while people stay focused on the decisions and outcomes that need them most. Hear Microsoft Copilot EVP Jacob Andreou explain how Autopilot changes what teams can delegate to AI. #MicrosoftCopilot #AutopilotInCopilot</description>
       <category>copilot</category>
-    </item>
-    <item>
-      <title>[Microsoft] GitHub Copilot can now interact with desktop apps with computer use</title>
-      <link>https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps</link>
-      <guid isPermaLink="false">819b8b6c47de</guid>
-      <pubDate>Thu, 01 Oct 2026 19:11:26 +0000</pubDate>
-      <description>Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Microsoft] GitHub Copilot in VS Code, September 2026 releases</title>
-      <link>https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases</link>
-      <guid isPermaLink="false">b33dfcad9023</guid>
-      <pubDate>Thu, 01 Oct 2026 19:09:10 +0000</pubDate>
-      <description>This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Salesforce] Multiplayer AI: The Shift from Smarter Individuals to a Smarter Company</title>
-      <link>https://www.salesforce.com/news/stories/multiplayer-ai/</link>
-      <guid isPermaLink="false">7ec2efb426ee</guid>
-      <pubDate>Thu, 01 Oct 2026 17:00:00 +0000</pubDate>
-      <description>Work is a team sport. We can get good results working alone, but when a team gets in a room and focuses on the same problem at the same time, something changes. It can be a real power-up. Slack has fueled that kind of collaboration for a decade. Today, Slack is evolving into what we […]</description>
-    </item>
-    <item>
-      <title>[The Hacker News] Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers</title>
-      <link>https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html</link>
-      <guid isPermaLink="false">c1f2fe32465a</guid>
-      <pubDate>Thu, 01 Oct 2026 16:55:57 +0000</pubDate>
-      <description>Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid. The 16-year-old was one of 3 people arrested on September 30, when police also took control of that site. Investigators identified him as KillSec's suspected</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories</title>
-      <link>https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html</link>
-      <guid isPermaLink="false">f1d14dce844e</guid>
-      <pubDate>Thu, 01 Oct 2026 16:45:38 +0000</pubDate>
-      <description>This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Dynamic workflows in Copilot CLI and the Copilot app</title>
-      <link>https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app</link>
-      <guid isPermaLink="false">90b9985c3923</guid>
-      <pubDate>Thu, 01 Oct 2026 16:30:10 +0000</pubDate>
-      <description>Dynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub Copilot SDK. These let you define an orchestration in code to get the reliability and…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Google] Find your learning tools all in one place with the student hub in Gemini</title>
-      <link>https://workspaceupdates.googleblog.com/2026/10/find-your-learning-tools-all-in-one-place-with-the-student-hub-in-Gemini.html</link>
-      <guid isPermaLink="false">c33d1debbeed</guid>
-      <pubDate>Thu, 01 Oct 2026 16:22:17 +0000</pubDate>
-      <description>We recently announced a new, dedicated hub in the Gemini app to help get students started with all of Gemini's learning tools. Initially available in personal accounts, the Gemini student hub is now available to Google Workspace for Education users of all ages. The hub helps keep students organized; they can start a study notebook, create flashcards, take a practice quiz, and more. As Gemini creates more learning…</description>
-    </item>
-    <item>
-      <title>[OpenAI] How Albertsons Companies is reimagining retail from the inside out</title>
-      <link>https://openai.com/index/albertsons-reimagining-retail</link>
-      <guid isPermaLink="false">a80484c2d584</guid>
-      <pubDate>Thu, 01 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.</description>
-    </item>
-    <item>
-      <title>[Anthropic] Barclays scales Claude to upgrade operations and improve client experience</title>
-      <link>https://www.anthropic.com/news/barclays-scales-claude</link>
-      <guid isPermaLink="false">91b1f786ee50</guid>
-      <pubDate>Thu, 01 Oct 2026 15:19:00 +0000</pubDate>
-      <description>Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.</description>
-    </item>
-    <item>
-      <title>[Salesforce] Getting to ROI: How Brands Turn Cost Centers into Revenue Engines with AI</title>
-      <link>https://www.salesforce.com/news/stories/getting-to-roi-with-ai/</link>
-      <guid isPermaLink="false">0f6c3d07fa69</guid>
-      <pubDate>Thu, 01 Oct 2026 15:00:00 +0000</pubDate>
-      <description>Key Takeaways Salesforce customers across industries recently described their agentic rollouts, sharing what worked, what surprised them, and what they’d tell others just getting started on their own AI journeys. A clear pattern emerged. Customers seeing real results don’t just deploy. They listen to their users, define success, and build the guardrails to sustain it. […]</description>
-    </item>
-    <item>
-      <title>[NVIDIA] Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment</title>
-      <link>https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/</link>
-      <guid isPermaLink="false">2d4cb7a285af</guid>
-      <pubDate>Thu, 01 Oct 2026 13:00:49 +0000</pubDate>
-      <description>AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacity: What the factory could earn in a year […]</description>
-    </item>
-    <item>
-      <title>[The Hacker News] OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates</title>
-      <link>https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html</link>
-      <guid isPermaLink="false">c698c79d197c</guid>
-      <pubDate>Thu, 01 Oct 2026 10:42:36 +0000</pubDate>
-      <description>OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A "core cluster of the activity," going back to the first week of July, has been attributed to individuals associated with Moonshot AI, a Chinese AI company based in Beijing. It did not cite any</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version</title>
-      <link>https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html</link>
-      <guid isPermaLink="false">1787a1140b4f</guid>
-      <pubDate>Thu, 01 Oct 2026 07:49:36 +0000</pubDate>
-      <description>Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. "It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense," Koray Kavukcuoglu,</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft</title>
-      <link>https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html</link>
-      <guid isPermaLink="false">ecc9e006b841</guid>
-      <pubDate>Thu, 01 Oct 2026 05:21:10 +0000</pubDate>
-      <description>Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. "Their investigation identified malicious activity involving third-party security products, including a zero-day vulnerability, and recovered a customized tool used by the attacker</description>
-      <category>incidents</category>
     </item>
   </channel>
 </rss>
