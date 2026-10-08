@@ -4,13 +4,191 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 07 Oct 2026 18:56:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 18:50:53 +0000</lastBuildDate>
+    <item>
+      <title>[The Hacker News] ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories</title>
+      <link>https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html</link>
+      <guid isPermaLink="false">f8595042a198</guid>
+      <pubDate>Thu, 08 Oct 2026 17:58:02 +0000</pubDate>
+      <description>The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, keeping things secure is a problem on both sides of the fence. The rest of the week isn't much more reassuring. Malicious code turned up in developer packages and extensions that</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Salesforce] Marc Benioff on the AI boom, SaaSpocalypse, and future of Slack</title>
+      <link>https://www.salesforce.com/news/linked-content/marc-benioff-on-the-ai-boom-saaspocalypse-and-future-of-slack/</link>
+      <guid isPermaLink="false">631e8057ebbb</guid>
+      <pubDate>Thu, 08 Oct 2026 17:00:51 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Anthropic] 2026 Usage Policy update</title>
+      <link>https://www.anthropic.com/news/2026-usage-policy-update</link>
+      <guid isPermaLink="false">7a238471d709</guid>
+      <pubDate>Thu, 08 Oct 2026 17:00:00 +0000</pubDate>
+      <description>We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.</description>
+    </item>
+    <item>
+      <title>[The Record] DOJ charges ransomware recovery CEO for secretly paying hackers</title>
+      <link>https://therecord.media/ransomware-recovery-charges-doj</link>
+      <guid isPermaLink="false">6582921e843c</guid>
+      <pubDate>Thu, 08 Oct 2026 17:00:00 +0000</pubDate>
+      <description>The owner of a ransomware recovery firm was hit with wire fraud charges for allegedly making secret ransom payments while overcharging the victims of attacks.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Copilot] Copilot on Windows with Hybrid Intelligence</title>
+      <link>https://www.youtube.com/watch?v=hTu70JlnkQY</link>
+      <guid isPermaLink="false">0d19b14fa11d</guid>
+      <pubDate>Thu, 08 Oct 2026 16:30:02 +0000</pubDate>
+      <description>We’re supercharging Copilot on Windows with Hybrid Intelligence. With your permission, Copilot can tap into the context on your PC, take action for you, and use local models when it makes sense, giving you more capability while helping your tokens go further. Learn more: https://msft.it/6055aoLm7 #MicrosoftCopilot #MicrosoftWindows</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Microsoft Developer] What's new in Microsoft SQL at SQLCon/FabCon Barcelona 2026 | Data Exposed</title>
+      <link>https://www.youtube.com/watch?v=dEsEGU0OiOM</link>
+      <guid isPermaLink="false">3df52e4d3fb5</guid>
+      <pubDate>Thu, 08 Oct 2026 16:00:19 +0000</pubDate>
+      <description>Learn all about what's new after the conference! ✅ Chapters: 0:00 Intro and background on SQLCon/FabCon in Barcelona 2026 1:04 Hybrid and migration updates 3:12 Database Hub updates 3:40 Hyperscale updates 4:30 SQL DB in Fabric updates 6:00 Tools, agents, developer updates 8:15 Across the versionless engine updates ✅ Resources: https://aka.ms/sqlconnews https://aka.ms/mssqldecks https://aka.ms/sqlconeudemos…</description>
+    </item>
+    <item>
+      <title>[OpenAI] How Oracle turns days of work into minutes with ChatGPT and Codex</title>
+      <link>https://openai.com/index/oracle</link>
+      <guid isPermaLink="false">112b5f00879d</guid>
+      <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.</description>
+    </item>
+    <item>
+      <title>[The Record] Leaked chats show Russian extortion gang sending ‘agents’ into US law firms</title>
+      <link>https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms</link>
+      <guid isPermaLink="false">8a9796b22d6e</guid>
+      <pubDate>Thu, 08 Oct 2026 14:46:00 +0000</pubDate>
+      <description>In leaked chats, members track dozens of victims, haggle over multimillion-dollar payments and direct operatives based in the United States whom they call “agents.”</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms</title>
+      <link>https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html</link>
+      <guid isPermaLink="false">f27324b6e8ec</guid>
+      <pubDate>Thu, 08 Oct 2026 14:12:34 +0000</pubDate>
+      <description>Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early October 2026, and resulted in data exfiltration. "In this activity, the threat actor leveraged</description>
+      <category>security-agents</category>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] OAuth grants pile up faster than you can review them. Here's how to keep up.</title>
+      <link>https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/</link>
+      <guid isPermaLink="false">3e91a99d5902</guid>
+      <pubDate>Thu, 08 Oct 2026 14:00:10 +0000</pubDate>
+      <description>OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and exploiting forgotten OAuth grants to gain access to corporate data. This article covers why OAuth risks are so hard [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] Hackers target two South Korean megachurches, potentially exposing congregant data</title>
+      <link>https://therecord.media/south-korea-hackers-megachurches</link>
+      <guid isPermaLink="false">195dd387c62d</guid>
+      <pubDate>Thu, 08 Oct 2026 13:55:56 +0000</pubDate>
+      <description>Two of South Korea's largest Protestant churches are investigating cyberattacks that may have exposed sensitive information about hundreds of thousands of members, including personal details, financial records and internal documents.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Anthropic] Building on our commitment to American scientific discovery</title>
+      <link>https://www.anthropic.com/news/genesis-mission-commitment</link>
+      <guid isPermaLink="false">26f5049650b4</guid>
+      <pubDate>Thu, 08 Oct 2026 13:00:00 +0000</pubDate>
+      <description>Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] Microsoft Teams to get support for third-party deepfake detection tools</title>
+      <link>https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/</link>
+      <guid isPermaLink="false">13cf6d2eca7d</guid>
+      <pubDate>Thu, 08 Oct 2026 12:08:16 +0000</pubDate>
+      <description>Microsoft will soon introduce support for third-party deepfake detection solutions and impersonation protection in Teams meetings. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Google] Google Cloud introduces the Gemini agent.</title>
+      <link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/</link>
+      <guid isPermaLink="false">8c47acb6570d</guid>
+      <pubDate>Thu, 08 Oct 2026 12:05:00 +0000</pubDate>
+      <description>Google Cloud’s new Gemini agent automates workflows by connecting to your business systems. See how it streamlines enterprise tasks in one prompt.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Pollo AI turns creative ideas into campaigns with OpenAI</title>
+      <link>https://openai.com/index/pollo-ai</link>
+      <guid isPermaLink="false">ca1ec6c6a1a1</guid>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+      <description>With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] ASOS links data breach to social engineering attack, credential theft</title>
+      <link>https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/</link>
+      <guid isPermaLink="false">0e1aec287d5b</guid>
+      <pubDate>Thu, 08 Oct 2026 11:42:46 +0000</pubDate>
+      <description>ASOS is sending updates to affected customers about the cybersecurity incident it suffered earlier this week, confirming that hackers accessed some personal data. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data</title>
+      <link>https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html</link>
+      <guid isPermaLink="false">90f9f91df025</guid>
+      <pubDate>Thu, 08 Oct 2026 07:41:44 +0000</pubDate>
+      <description>The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data. Zohar Pinhasi (aka Zack Silver and Zack Green) has been charged with two counts of wire fraud and one count of wire</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland</title>
+      <link>https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/</link>
+      <guid isPermaLink="false">3d5d5b5dafa3</guid>
+      <pubDate>Thu, 08 Oct 2026 06:32:16 +0000</pubDate>
+      <description>On the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabilities. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Meta] Meta Donates 1,000 AI Glasses to Singapore’s Disability Community</title>
+      <link>https://about.fb.com/news/2026/10/meta-donates-1000-ai-glasses-to-singapores-disability-community/</link>
+      <guid isPermaLink="false">c23588d3950a</guid>
+      <pubDate>Thu, 08 Oct 2026 05:49:36 +0000</pubDate>
+      <description>Meta donates 1,000 Ray-Ban Meta AI glasses to four Singapore community organisations to help persons with disabilities.</description>
+    </item>
+    <item>
+      <title>[The Hacker News] Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm</title>
+      <link>https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html</link>
+      <guid isPermaLink="false">6877a62a0bf9</guid>
+      <pubDate>Thu, 08 Oct 2026 05:46:20 +0000</pubDate>
+      <description>The npm package known as "tensorlake," a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack. The malicious version 0.5.144 "contains obfuscated malware that harvests credentials, exfiltrates secrets, establishes persistence, and executes remotely supplied code," Socket said</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Ransomware recovery CEO charged over secret ransom payments</title>
+      <link>https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/</link>
+      <guid isPermaLink="false">054bfa86a51f</guid>
+      <pubDate>Wed, 07 Oct 2026 23:04:37 +0000</pubDate>
+      <description>The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attackers for decryptors while claiming to use proprietary technology to recover encrypted data. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft] Claude Haiku 5.5 in GitHub Copilot</title>
+      <link>https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</link>
+      <guid isPermaLink="false">86f546df6fb1</guid>
+      <pubDate>Wed, 07 Oct 2026 20:12:18 +0000</pubDate>
+      <description>Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains</title>
+      <link>https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html</link>
+      <guid isPermaLink="false">b9f5e1afc2dd</guid>
+      <pubDate>Wed, 07 Oct 2026 18:48:17 +0000</pubDate>
+      <description>Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google said on October 6. Google's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (American Samoa) was put at risk. With such a certificate, an attacker could pose as the real site over an encrypted</description>
+      <category>incidents</category>
+    </item>
     <item>
       <title>[NVIDIA] NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents</title>
       <link>https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/</link>
       <guid isPermaLink="false">327e963986a0</guid>
       <pubDate>Wed, 07 Oct 2026 18:45:28 +0000</pubDate>
-      <description>At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of […]</description>
+      <description>At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you […]</description>
     </item>
     <item>
       <title>[The Record] Arizona courts say hackers stole info on more than 1.3 million people</title>
@@ -140,6 +318,13 @@
       <pubDate>Wed, 07 Oct 2026 13:30:00 +0000</pubDate>
       <description>A report by a Labour MP and an academic argues that if the British public cannot see what Russian activity costs, it cannot weigh that burden against the cost of defending against it.</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Introducing Falcon ASR</title>
+      <link>https://huggingface.co/blog/tiiuae/falcon-asr</link>
+      <guid isPermaLink="false">91ed3eb235f3</guid>
+      <pubDate>Wed, 07 Oct 2026 13:21:03 +0000</pubDate>
+      <description />
     </item>
     <item>
       <title>[Microsoft Developer] Cut AI Agent Costs with TokenOps</title>
@@ -442,191 +627,6 @@
       <guid isPermaLink="false">085f7195b66f</guid>
       <pubDate>Tue, 06 Oct 2026 06:44:39 +0000</pubDate>
       <description />
-    </item>
-    <item>
-      <title>[CrowdStrike] Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers</title>
-      <link>https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</link>
-      <guid isPermaLink="false">3176965c7711</guid>
-      <pubDate>Tue, 06 Oct 2026 05:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] How to Test an AI Agent at Scale</title>
-      <link>https://www.youtube.com/shorts/C3o2pYXQApo</link>
-      <guid isPermaLink="false">b56fc7b1d9b5</guid>
-      <pubDate>Tue, 06 Oct 2026 01:15:12 +0000</pubDate>
-      <description>How do you know an AI agent is ready for production? Evaluations in Copilot Studio run structured tests against your agent using your own conversations, 10 auto-generated tests, or a CSV of test cases. Here, 18 test cases met the evaluation criteria 89% of the time, with results for each test. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started: https://copilotstudio.microsoft.com #Shorts #CopilotStudio…</description>
-      <category>copilot</category>
-      <category>copilotstudio</category>
-    </item>
-    <item>
-      <title>[Microsoft] New Defender server security experience</title>
-      <link>https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#october-2026</link>
-      <guid isPermaLink="false">9f6382d77e29</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description>The new Defender server security experience brings together cloud and endpoint data from Microsoft Defender for Endpoint and Defender for Servers. In the Microsoft Defender portal, you can: Review unified server inventory and combined cloud and endpoint details. Investigate servers across alerts, incidents, and the attack graph. Use Go hunt to investigate related events. Manage access with role-based access control…</description>
-      <category>defender</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU</title>
-      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/</link>
-      <guid isPermaLink="false">158b0c0dc14e</guid>
-      <pubDate>Mon, 05 Oct 2026 22:46:33 +0000</pubDate>
-      <description>OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] AI Agent Catches 3 Gaps in a Vendor Bid</title>
-      <link>https://www.youtube.com/shorts/hseQAFcYw7o</link>
-      <guid isPermaLink="false">51ebc9f27b36</guid>
-      <pubDate>Mon, 05 Oct 2026 19:09:26 +0000</pubDate>
-      <description>Can an AI agent catch what a bid reviewer would miss? A Bid Evaluation Agent built in Copilot Studio checks a supplier bid against every tender requirement, flags missing medicine manufacturing certification, cold-chain handling, and insurance minimums, and recommends a human review before shortlisting. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started: https://copilotstudio.microsoft.com #Shorts…</description>
-      <category>copilot</category>
-      <category>copilotstudio</category>
-    </item>
-    <item>
-      <title>[Google] Here’s how I use technology to bring science to life in my classroom.</title>
-      <link>https://blog.google/products-and-platforms/products/education/science-teacher-gemini/</link>
-      <guid isPermaLink="false">c5505c8ec47d</guid>
-      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
-      <description>See how this teacher uses Gemini and Gemini Notebook to build digital literacy and refine lesson plans. Read the full story to improve your teaching.</description>
-    </item>
-    <item>
-      <title>[Google] Gemini helps me bring hands-on learning into the classroom.</title>
-      <link>https://blog.google/products-and-platforms/products/education/english-teacher-gemini/</link>
-      <guid isPermaLink="false">c00c6a75f519</guid>
-      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
-      <description>A teacher uses Google Gemini to design interactive role-playing simulations and nutrition lessons. See how AI boosts classroom engagement.</description>
-    </item>
-    <item>
-      <title>[Google] My eighth-grade students built our school newscast from scratch with Gemini.</title>
-      <link>https://blog.google/products-and-platforms/products/education/gemini-student-newscast/</link>
-      <guid isPermaLink="false">b235f2ec1126</guid>
-      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Eighth graders built The Cougar Rumble newscast using Gemini and Google Docs. See how these students streamlined their production workflow today.</description>
-    </item>
-    <item>
-      <title>[Google] Technology is helping my fellow math teachers trade weekend prep for personalized learning.</title>
-      <link>https://blog.google/products-and-platforms/products/education/education-officer-gemini/</link>
-      <guid isPermaLink="false">6d121789f599</guid>
-      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Teachers use Gemini to build custom K-6 math worksheets and save hours of prep time. See how Google AI transforms classroom instruction.</description>
-    </item>
-    <item>
-      <title>[Google] I replaced traditional coding tests with real conversations about how my students solve problems using AI.</title>
-      <link>https://blog.google/products-and-platforms/products/education/gemini-google-colab/</link>
-      <guid isPermaLink="false">67b0b753591b</guid>
-      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Replace coding tests with AI-driven interviews using Google Gemini in Colab. See how this professor evaluates student judgment. Read the full report.</description>
-    </item>
-    <item>
-      <title>[Google] I use technology to give students a voice and become critical digital citizens.</title>
-      <link>https://blog.google/products-and-platforms/products/education/teacher-voices-sweden/</link>
-      <guid isPermaLink="false">5d4b22a769b3</guid>
-      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Empower students using Google Sites, Gemini, and Vids to build critical thinking skills. See how these tools help kids find their voice today.</description>
-    </item>
-    <item>
-      <title>[Google] I teach my students that in the AI era, critical thinking comes first.</title>
-      <link>https://blog.google/products-and-platforms/products/education/teacher-stories-gemini-middle-school/</link>
-      <guid isPermaLink="false">43f0498be7eb</guid>
-      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
-      <description>A California teacher uses Gemini to streamline lesson planning in Google Drive. See how she prioritizes critical thinking in the AI era.</description>
-    </item>
-    <item>
-      <title>[Google] My students use Gemini to brainstorm creative ideas.</title>
-      <link>https://blog.google/products-and-platforms/products/education/teacher-voices-gemini-creativity/</link>
-      <guid isPermaLink="false">19d2cb09d93c</guid>
-      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Fifth graders use Google Gemini to write songs about history and create art. See how this teacher integrates AI into the classroom.</description>
-    </item>
-    <item>
-      <title>[Google] Gemini helps me give a voice to students who cannot write.</title>
-      <link>https://blog.google/products-and-platforms/products/education/special-education-gemini/</link>
-      <guid isPermaLink="false">04133777c4cc</guid>
-      <pubDate>Mon, 05 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Special education teachers use Google Gemini to generate visual guides and voice prompts, empowering non-writing students. Read the full story.</description>
-    </item>
-    <item>
-      <title>[Microsoft] ReviewBench: An open benchmark for AI code review</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/</link>
-      <guid isPermaLink="false">4b0c57f28723</guid>
-      <pubDate>Mon, 05 Oct 2026 15:59:40 +0000</pubDate>
-      <description>We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics.</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Denmark population registry data breach affects 8.8 million people</title>
-      <link>https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/</link>
-      <guid isPermaLink="false">7ebb9ff569ae</guid>
-      <pubDate>Mon, 05 Oct 2026 15:21:10 +0000</pubDate>
-      <description>Denmark's Central Population Register (CPR) is warning of a data breach that exposed the personal information of approximately 8.8 million registered individuals. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] Build Automated Agents, Workflows, and Apps - New in Copilot Studio</title>
-      <link>https://www.youtube.com/watch?v=k4V44dn_TQo</link>
-      <guid isPermaLink="false">1f2a7385798a</guid>
-      <pubDate>Mon, 05 Oct 2026 14:45:27 +0000</pubDate>
-      <description>Take a business process from prompt to production by building agents, workflows, and apps in one place with Copilot Studio. Describe the agent you need and generate its instructions and reusable skills, choose the model, connect MCP tools and specialist agents, then test its quality at scale with Evaluations. Trigger workflows from incoming email, classify submissions, hand work to your agents, and pause for human…</description>
-      <category>copilot</category>
-      <category>copilotstudio</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] South Korea probes bank breaches amid suspected AI-powered attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/</link>
-      <guid isPermaLink="false">68acfff98094</guid>
-      <pubDate>Mon, 05 Oct 2026 14:22:12 +0000</pubDate>
-      <description>South Korea's Financial Services Commission (FSC) held an emergency meeting following a series of cyberattacks targeting financial institutions in the country. [...]</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] ⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests</title>
-      <link>https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html</link>
-      <guid isPermaLink="false">acb91d74c1ac</guid>
-      <pubDate>Mon, 05 Oct 2026 14:20:43 +0000</pubDate>
-      <description>A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook. There are actively exploited bugs in the mix, cleaner intrusion paths, smarter automation, and a long patch list waiting behind them. Some attacks are getting more capable. Others</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[NVIDIA] From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps</title>
-      <link>https://blogs.nvidia.com/blog/ai-breast-cancer-startups/</link>
-      <guid isPermaLink="false">c2f51f56b801</guid>
-      <pubDate>Mon, 05 Oct 2026 13:00:57 +0000</pubDate>
-      <description>Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms with fewer colleagues. And when a diagnosis arrives, the tests that inform treatment can take weeks to return results. […]</description>
-    </item>
-    <item>
-      <title>[The Hacker News] The Credential Layer Is Expanding Faster Than Security Teams Can See It</title>
-      <link>https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html</link>
-      <guid isPermaLink="false">20616b5d110d</guid>
-      <pubDate>Mon, 05 Oct 2026 11:55:00 +0000</pubDate>
-      <description>Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, because organizations first need to understand what credentials exist, where they live, and what they</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access</title>
-      <link>https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html</link>
-      <guid isPermaLink="false">4a8712355bea</guid>
-      <pubDate>Mon, 05 Oct 2026 10:38:50 +0000</pubDate>
-      <description>Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents. "Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users' full knowledge</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Google] Making AI training available to UK and Ireland educators</title>
-      <link>https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/</link>
-      <guid isPermaLink="false">8b93b5bfd227</guid>
-      <pubDate>Mon, 05 Oct 2026 07:00:00 +0000</pubDate>
-      <description>A collage of floating Google Workspace for Education interface elements on a soft, light background.</description>
-    </item>
-    <item>
-      <title>[The Hacker News] New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline</title>
-      <link>https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html</link>
-      <guid isPermaLink="false">0c8dfb68badd</guid>
-      <pubDate>Mon, 05 Oct 2026 06:40:19 +0000</pubDate>
-      <description>Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. "CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to</description>
-      <category>incidents</category>
     </item>
   </channel>
 </rss>
