@@ -4,7 +4,163 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Thu, 08 Oct 2026 18:50:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 18:21:05 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] FBI arrests another suspected ShinyHunters hacker after agency breach</title>
+      <link>https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/</link>
+      <guid isPermaLink="false">3e81c73975d2</guid>
+      <pubDate>Fri, 09 Oct 2026 17:02:29 +0000</pubDate>
+      <description>The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] Hundreds of thousands impacted by data breach at biosensor firm iRhythm</title>
+      <link>https://therecord.media/irhythm-data-breach-reports</link>
+      <guid isPermaLink="false">10b8bb252112</guid>
+      <pubDate>Fri, 09 Oct 2026 16:06:00 +0000</pubDate>
+      <description>A company known for wearable cardiac sensors, iRhythm, has begun notifying states of the impact of a data breach from the summer.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] What really happens at a 48-hour hackathon</title>
+      <link>https://www.youtube.com/watch?v=ICi1LPxx0ck</link>
+      <guid isPermaLink="false">07f759f239e6</guid>
+      <pubDate>Fri, 09 Oct 2026 15:59:49 +0000</pubDate>
+      <description>Hackathons are much more than continuous coding and zero sleep; they are invention marathons where developers, students, and beginners build real projects. In this short documentary, participants and organizers share how hackathons foster lifelong friendships, teach failure-driven learning, and lower the bar to building software. Watch to see how trial, error, free pizza, and tools like GitHub Copilot help turn raw…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[The Record] FBI touts another ShinyHunters arrest in response to data breach</title>
+      <link>https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation</link>
+      <guid isPermaLink="false">0419de820a0c</guid>
+      <pubDate>Fri, 09 Oct 2026 15:41:00 +0000</pubDate>
+      <description>“We will continue to work closely with our partners to disrupt what’s left of the ShinyHunters group and their associates, no matter where they operate," FBI Director Kash Patel said.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Germany arrests alleged core Qilin ransomware member after extradition</title>
+      <link>https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/</link>
+      <guid isPermaLink="false">a107c9394b7b</guid>
+      <pubDate>Fri, 09 Oct 2026 15:38:56 +0000</pubDate>
+      <description>Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Impactful scheduling for GPU clusters</title>
+      <link>https://huggingface.co/blog/allenai/impactful-scheduling</link>
+      <guid isPermaLink="false">43ef54e74d27</guid>
+      <pubDate>Fri, 09 Oct 2026 15:20:29 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[The Record] Belarusian hacktivists admit to 2023 breach of Russian state healthcare network</title>
+      <link>https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack</link>
+      <guid isPermaLink="false">b6413b14b402</guid>
+      <pubDate>Fri, 09 Oct 2026 14:40:00 +0000</pubDate>
+      <description>The Belarusian Cyber Partisans concurred with Russian research that they indeed spent months inside the network for the Moscow Department of Health.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] How to keep AI agents within their permissions</title>
+      <link>https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/</link>
+      <guid isPermaLink="false">1fa3e25e6263</guid>
+      <pubDate>Fri, 09 Oct 2026 14:01:11 +0000</pubDate>
+      <description>AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without sacrificing autonomy. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Record] OpenAI says it disrupted Russian and Iranian influence ops that used ChatGPT</title>
+      <link>https://therecord.media/openai-disrupts-russian-iranian-operations-chatgpt</link>
+      <guid isPermaLink="false">e96ba9baabd0</guid>
+      <pubDate>Fri, 09 Oct 2026 13:50:00 +0000</pubDate>
+      <description>A Latin American propaganda operation run by Russians and a cluster of Iranian fake journalist identities each had help from now-closed ChatGPT accounts, OpenAI's safety team said.</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects</title>
+      <link>https://thehackernews.com/2026/10/anthropic-launches-free-ai.html</link>
+      <guid isPermaLink="false">04cd63484434</guid>
+      <pubDate>Fri, 09 Oct 2026 12:47:28 +0000</pubDate>
+      <description>Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). "It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing," Anthropic said. "Projects that join will receive thorough, periodic security scans by our strongest models at no cost."</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition</title>
+      <link>https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html</link>
+      <guid isPermaLink="false">b7ae45cc2528</guid>
+      <pubDate>Fri, 09 Oct 2026 11:30:00 +0000</pubDate>
+      <description>As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The "Horizons of Identity Security" report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in AI-speed business operations while continuing to rely on human-speed security controls, creating a</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[OpenAI] Sophos cuts threat investigation time by 96% with OpenAI Daybreak</title>
+      <link>https://openai.com/index/sophos</link>
+      <guid isPermaLink="false">edd58468d564</guid>
+      <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
+      <description>Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.</description>
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/</link>
+      <guid isPermaLink="false">ca5ab3cf48f5</guid>
+      <pubDate>Fri, 09 Oct 2026 05:41:04 +0000</pubDate>
+      <description>The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] FBI disrupts Chinese hacking tools used to breach critical infrastructure</title>
+      <link>https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/</link>
+      <guid isPermaLink="false">290af517c244</guid>
+      <pubDate>Thu, 08 Oct 2026 21:42:51 +0000</pubDate>
+      <description>The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] How to run GitHub Copilot agent sessions across any device | GitHub Copilot Day</title>
+      <link>https://www.youtube.com/watch?v=KT6p0MNXoCE</link>
+      <guid isPermaLink="false">736f1f005399</guid>
+      <pubDate>Thu, 08 Oct 2026 21:19:39 +0000</pubDate>
+      <description>Agent sessions shouldn't be locked into a single code editor or terminal window. Patrick Nikoletich explains how GitHub's shared agent runtime, Copilot SDK, and Agent Host Protocol let developers move active sessions seamlessly across multiple devices. Watch a live demonstration of hosting an agent on a home Linux machine, connecting via Copilot CLI, and syncing real-time updates across multiple clients. ▬▬▬▬▬▬ WANT…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[NVIDIA] Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents</title>
+      <link>https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/</link>
+      <guid isPermaLink="false">baf7193e75c1</guid>
+      <pubDate>Thu, 08 Oct 2026 21:06:35 +0000</pubDate>
+      <description>Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through […]</description>
+    </item>
+    <item>
+      <title>[Microsoft Copilot] Meet Office in Copilot</title>
+      <link>https://www.youtube.com/shorts/z_l-MQwqqxA</link>
+      <guid isPermaLink="false">b2f9b0f2e900</guid>
+      <pubDate>Thu, 08 Oct 2026 21:00:36 +0000</pubDate>
+      <description>With Office in Copilot, documents, presentations, spreadsheets, meetings, and conversations come together in one experience, helping people stay in the flow instead of constantly moving between apps. Watch Microsoft Copilot EVP Jacob Andreou explain how Copilot brings the power of Office into one place. #MicrosoftCopilot #OfficeInCopilot</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Ransomware attack disrupts Japan's IDCF Cloud used by govt clients</title>
+      <link>https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/</link>
+      <guid isPermaLink="false">b5d504810047</guid>
+      <pubDate>Thu, 08 Oct 2026 20:09:45 +0000</pubDate>
+      <description>IDC Frontier, a major Japanese cloud and digital infrastructure company, disclosed that its IDCF Cloud service was targeted in a ransomware attack that caused an outage at a data center cluster serving the eastern part of the country. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Developer] 4X the Turns, 16X the Cost</title>
+      <link>https://www.youtube.com/shorts/PV3aAxRYI2M</link>
+      <guid isPermaLink="false">c6203d3cd6cd</guid>
+      <pubDate>Thu, 08 Oct 2026 20:00:32 +0000</pubDate>
+      <description>AI agent costs grow faster than the work itself, and caching is how you bring them back down. Gareth Bland, Chief Data Scientist at Microsoft, explains. From our full conversation on TokenOps (https://youtu.be/B4yovi_znxE). #AIAgents #TokenOps</description>
+    </item>
+    <item>
+      <title>[Microsoft Developer] When my agent is slow or wrong, where do I even look?</title>
+      <link>https://www.youtube.com/watch?v=c-TtEKSMoBM</link>
+      <guid isPermaLink="false">fa719fc3834d</guid>
+      <pubDate>Thu, 08 Oct 2026 19:03:48 +0000</pubDate>
+      <description>https://aka.ms/foundry-portal https://aka.ms/InsideMicrosoftFoundryPlaylist Your agent took too long to answer, or it answered with confidence and got it wrong. Was it the model, a tool, or the instructions? Without traces, you're guessing. With traces, you connect Application Insights to your Microsoft Foundry project, which turns on server-side tracing with no code changes. Then you read an agent run span by span…</description>
+    </item>
     <item>
       <title>[The Hacker News] ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories</title>
       <link>https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html</link>
@@ -70,7 +226,7 @@
       <link>https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html</link>
       <guid isPermaLink="false">f27324b6e8ec</guid>
       <pubDate>Thu, 08 Oct 2026 14:12:34 +0000</pubDate>
-      <description>Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early October 2026, and resulted in data exfiltration. "In this activity, the threat actor leveraged</description>
+      <description>Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early October 2026, and resulted in data exfiltration from various South Korea-based financial firms,</description>
       <category>security-agents</category>
       <category>ai-threats</category>
     </item>
@@ -114,6 +270,13 @@
       <description>Google Cloud’s new Gemini agent automates workflows by connecting to your business systems. See how it streamlines enterprise tasks in one prompt.</description>
     </item>
     <item>
+      <title>[OpenAI] LegalOn halves Codex costs while maintaining development speed</title>
+      <link>https://openai.com/index/legalon-halves-codex-costs</link>
+      <guid isPermaLink="false">f6d3626eb7c8</guid>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+      <description>LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.</description>
+    </item>
+    <item>
       <title>[OpenAI] Pollo AI turns creative ideas into campaigns with OpenAI</title>
       <link>https://openai.com/index/pollo-ai</link>
       <guid isPermaLink="false">ca1ec6c6a1a1</guid>
@@ -127,6 +290,13 @@
       <pubDate>Thu, 08 Oct 2026 11:42:46 +0000</pubDate>
       <description>ASOS is sending updates to affected customers about the cybersecurity incident it suffered earlier this week, confirming that hackers accessed some personal data. [...]</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[Anthropic] Introducing the Anthropic Cyber Mission</title>
+      <link>https://www.anthropic.com/news/anthropic-cyber-mission</link>
+      <guid isPermaLink="false">db9c355075ab</guid>
+      <pubDate>Thu, 08 Oct 2026 09:04:16 +0000</pubDate>
+      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</description>
     </item>
     <item>
       <title>[The Hacker News] MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data</title>
@@ -158,6 +328,20 @@
       <pubDate>Thu, 08 Oct 2026 05:46:20 +0000</pubDate>
       <description>The npm package known as "tensorlake," a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack. The malicious version 0.5.144 "contains obfuscated malware that harvests credentials, exfiltrates secrets, establishes persistence, and executes remotely supplied code," Socket said</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[CrowdStrike] CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage</title>
+      <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</link>
+      <guid isPermaLink="false">77f7a9558cbd</guid>
+      <pubDate>Thu, 08 Oct 2026 05:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Hugging Face] The model that didn't exist, so you made it yourself</title>
+      <link>https://huggingface.co/blog/building-with-ml-intern</link>
+      <guid isPermaLink="false">0f05fd4155a4</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description />
     </item>
     <item>
       <title>[BleepingComputer] Ransomware recovery CEO charged over secret ransom payments</title>
@@ -441,192 +625,6 @@
       <pubDate>Tue, 06 Oct 2026 19:00:00 +0000</pubDate>
       <description>We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.</description>
       <category>security-agents</category>
-    </item>
-    <item>
-      <title>[Microsoft Developer] Your Agent Is Only as Smart as Its Context</title>
-      <link>https://www.youtube.com/watch?v=c9Xh7BMkBQE</link>
-      <guid isPermaLink="false">afe5ceee3262</guid>
-      <pubDate>Tue, 06 Oct 2026 18:48:43 +0000</pubDate>
-      <description>https://aka.ms/foundry-portal https://aka.ms/InsideMicrosoftFoundryPlaylist A smart model without the right context still gives the wrong answer. See how Microsoft IQ connects your agent to business data, retrieves relevant context at runtime, and grounds each response in the information that matters. 0:00 - Connect Agents to Enterprise Context 1:09 - Explore Web IQ 1:45 - Ground Responses with Foundry IQ 2:51…</description>
-    </item>
-    <item>
-      <title>[The Hacker News] Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes</title>
-      <link>https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html</link>
-      <guid isPermaLink="false">ec14eeb066a7</guid>
-      <pubDate>Tue, 06 Oct 2026 18:38:55 +0000</pubDate>
-      <description>Cybersecurity researchers have disclosed details of a "human-operated phishing platform" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus. The products, which claim to offer campaign optimization, spend audits, and business-account connections, are designed with one goal in</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] Build an AI Agent From One Prompt</title>
-      <link>https://www.youtube.com/shorts/BKXRNfvlw50</link>
-      <guid isPermaLink="false">1c28564b4251</guid>
-      <pubDate>Tue, 06 Oct 2026 18:15:21 +0000</pubDate>
-      <description>What if building an AI agent started with a description? In Copilot Studio, describe a Bid Evaluation Agent, including the requirements, the logic, and the live data source. It reasons over your prompt, maps its build steps, and creates reusable skills for requirement coverage and evidence verification that you can reuse across other agents. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started…</description>
-      <category>copilot</category>
-      <category>copilotstudio</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] ASOS confirms data breach after “HACKED” in-app notifications</title>
-      <link>https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/</link>
-      <guid isPermaLink="false">462de0e933ca</guid>
-      <pubDate>Tue, 06 Oct 2026 16:33:54 +0000</pubDate>
-      <description>UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] How this data scientist is using AI to help 130,000 AT&amp;T employees</title>
-      <link>https://www.youtube.com/watch?v=4mjXPWPkWo8</link>
-      <guid isPermaLink="false">a45ff66309cb</guid>
-      <pubDate>Tue, 06 Oct 2026 16:30:18 +0000</pubDate>
-      <description>@ATT data scientist Natalie Gilbert found a way to turn her drive to help people into work that can reach thousands. See how @GitHub Copilot helps her review code and catch errors, giving her more time to focus on understanding the people she’s building for. Learn more: https://msft.it/6000aWttq ***</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Google] EmbeddingGemma 2: an open, lightweight multimodal embedding model</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/</link>
-      <guid isPermaLink="false">ab5e6ca801d9</guid>
-      <pubDate>Tue, 06 Oct 2026 16:00:00 +0000</pubDate>
-      <description>EmbeddingGemma 2</description>
-    </item>
-    <item>
-      <title>[OpenAI] Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
-      <link>https://openai.com/index/atlassian-partnership</link>
-      <guid isPermaLink="false">60ef2af305e7</guid>
-      <pubDate>Tue, 06 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.</description>
-    </item>
-    <item>
-      <title>[The Record] South Korean officials believe AI agents were used to hack several banks</title>
-      <link>https://therecord.media/south-korean-bank-hacks-ai-agents</link>
-      <guid isPermaLink="false">ed66aeeb68d2</guid>
-      <pubDate>Tue, 06 Oct 2026 15:29:22 +0000</pubDate>
-      <description>The personal data of at least 68,000 people was reportedly exposed in breaches of at least seven financial institutions, with officials saying they believe a Chinese cybersecurity tool was used to hack the banks’ systems.</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes</title>
-      <link>https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/</link>
-      <guid isPermaLink="false">26e65fb17737</guid>
-      <pubDate>Tue, 06 Oct 2026 15:16:44 +0000</pubDate>
-      <description>A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Salesforce] Trustworthy, Explainable, and Accountable: How to Give AI Autonomy Without Letting It Run Wild</title>
-      <link>https://www.salesforce.com/news/stories/giving-ai-autonomy-without-running-wild/</link>
-      <guid isPermaLink="false">d11cf4a75b89</guid>
-      <pubDate>Tue, 06 Oct 2026 15:00:00 +0000</pubDate>
-      <description>Salesforce Principal Architect of Ethical AI Practice Kathy Baxter explains how pairing a probabilistic model with deterministic logic gives agents the ability to take action — without giving up the guardrails.</description>
-    </item>
-    <item>
-      <title>[The Record] Osaka Metropolitan University cancels classes after suspected ransomware attack</title>
-      <link>https://therecord.media/osaka-university-cancels-classes-ransomware</link>
-      <guid isPermaLink="false">c75afb4795fa</guid>
-      <pubDate>Tue, 06 Oct 2026 14:52:00 +0000</pubDate>
-      <description>Osaka Metropolitan University said on Tuesday that the outage left its internal network, email and a range of administrative and academic systems unavailable.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] Add Human Review to an AI Agent Workflow</title>
-      <link>https://www.youtube.com/shorts/hurkQPo8FYo</link>
-      <guid isPermaLink="false">69b7678453a0</guid>
-      <pubDate>Tue, 06 Oct 2026 14:15:25 +0000</pubDate>
-      <description>How do you keep a person in charge of the decisions that matter? In Copilot Studio workflows, an if/else Human Review step pauses the process when the agent flags a bid. Otherwise the bid goes straight to the Researcher agent and a recommendation agent, and the result is written as a new row in Dataverse. You can test each step on its own. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started…</description>
-      <category>copilot</category>
-      <category>copilotstudio</category>
-    </item>
-    <item>
-      <title>[Google] More than 100 startups joining our Google for Startups Gemini Startup Forum</title>
-      <link>https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/gemini-startup-forum-2026/</link>
-      <guid isPermaLink="false">24c40af55551</guid>
-      <pubDate>Tue, 06 Oct 2026 14:00:00 +0000</pubDate>
-      <description>Four people are seated on chairs during a panel discussion on stage in front of a screen.</description>
-    </item>
-    <item>
-      <title>[NVIDIA] Why Telecom Operators Are Building Their AI Strategy on Open Models</title>
-      <link>https://blogs.nvidia.com/blog/telecom-operators-open-models/</link>
-      <guid isPermaLink="false">c84805ae92ec</guid>
-      <pubDate>Tue, 06 Oct 2026 13:00:19 +0000</pubDate>
-      <description>Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with […]</description>
-    </item>
-    <item>
-      <title>[Mistral] Introducing Mistral Large 4</title>
-      <link>https://mistral.ai/news/mistral-large-4/</link>
-      <guid isPermaLink="false">8eda8214ccb1</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:27 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[OpenAI] Sharing AI progress in mathematics</title>
-      <link>https://openai.com/index/sharing-ai-progress-in-mathematics</link>
-      <guid isPermaLink="false">47b9255d8fa0</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-      <description>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits</title>
-      <link>https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/</link>
-      <guid isPermaLink="false">c9c765ca7e8f</guid>
-      <pubDate>Tue, 06 Oct 2026 11:31:48 +0000</pubDate>
-      <description>The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies</title>
-      <link>https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html</link>
-      <guid isPermaLink="false">41accce2b318</guid>
-      <pubDate>Tue, 06 Oct 2026 11:26:25 +0000</pubDate>
-      <description>The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages. "The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic,</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers</title>
-      <link>https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html</link>
-      <guid isPermaLink="false">a47789abd954</guid>
-      <pubDate>Tue, 06 Oct 2026 11:02:30 +0000</pubDate>
-      <description>In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows. The ecosystem around it fell short. Earlier this year, our team at OX Security, traced critical vulnerabilities in Anthropic's MCP</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[OpenAI] Advancing computer use with Ironclad</title>
-      <link>https://openai.com/index/advancing-computer-use-with-ironclad</link>
-      <guid isPermaLink="false">9964af802e9c</guid>
-      <pubDate>Tue, 06 Oct 2026 10:00:00 +0000</pubDate>
-      <description>Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] Nikkei discloses breaches of employees’ Microsoft, Google email accounts</title>
-      <link>https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/</link>
-      <guid isPermaLink="false">d25156e307a3</guid>
-      <pubDate>Tue, 06 Oct 2026 09:25:50 +0000</pubDate>
-      <description>Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Engineer sentenced for locking over 3,000 devices on employer network</title>
-      <link>https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/</link>
-      <guid isPermaLink="false">5480e932d265</guid>
-      <pubDate>Tue, 06 Oct 2026 08:19:24 +0000</pubDate>
-      <description>A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's network in a ransomware-style attack. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach</title>
-      <link>https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html</link>
-      <guid isPermaLink="false">6053c8b55d0d</guid>
-      <pubDate>Tue, 06 Oct 2026 06:56:57 +0000</pubDate>
-      <description>The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. "To date, our review has determined that the incident occurred as the result of a security failure</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Hugging Face] Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance</title>
-      <link>https://huggingface.co/blog/tiiuae/falcon-emirati</link>
-      <guid isPermaLink="false">085f7195b66f</guid>
-      <pubDate>Tue, 06 Oct 2026 06:44:39 +0000</pubDate>
-      <description />
     </item>
   </channel>
 </rss>
