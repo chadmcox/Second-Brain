@@ -4,7 +4,120 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Fri, 09 Oct 2026 18:21:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 17:20:45 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] Cyber exec arrested in case allegedly tied to ShinyHunters hackers</title>
+      <link>https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/</link>
+      <guid isPermaLink="false">5d6a58b64149</guid>
+      <pubDate>Sat, 10 Oct 2026 15:07:54 +0000</pubDate>
+      <description>Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] Live Coding with Wes Bos, Burke Holland, Pierce Boggan &amp; Friends | GitHub Copilot Day</title>
+      <link>https://www.youtube.com/watch?v=ql_-cPc_ZYQ</link>
+      <guid isPermaLink="false">1b21beb49f39</guid>
+      <pubDate>Sat, 10 Oct 2026 15:00:22 +0000</pubDate>
+      <description>Join Wes Bos, Burke Holland, and Pierce Boggan for two hours of live coding with GitHub Copilot. Watch as the team takes a 3D foldable phone simulator from scratch to running functional web apps in real time. Learn how to manage parallel AI agents test features using built-in browser tools, and navigate multi-model options in the GitHub Copilot app. ▬▬▬▬▬▬ WANT TO LEARN MORE? 🚀 ▬▬▬▬▬▬ Learn more about HydraFusion…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] ARTEX AI, Claude agents used in cyberattacks on South Korean banks</title>
+      <link>https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/</link>
+      <guid isPermaLink="false">bef374d68721</guid>
+      <pubDate>Sat, 10 Oct 2026 14:16:17 +0000</pubDate>
+      <description>The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management</title>
+      <link>https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/</link>
+      <guid isPermaLink="false">bc479026f826</guid>
+      <pubDate>Sat, 10 Oct 2026 12:30:39 +0000</pubDate>
+      <description>Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't</title>
+      <link>https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html</link>
+      <guid isPermaLink="false">4f95732c4969</guid>
+      <pubDate>Sat, 10 Oct 2026 11:00:00 +0000</pubDate>
+      <description>In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what authenticates through it, and most agents never do. That gap is the clearest</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws</title>
+      <link>https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html</link>
+      <guid isPermaLink="false">ebcd6167a236</guid>
+      <pubDate>Sat, 10 Oct 2026 09:18:45 +0000</pubDate>
+      <description>Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft] GitHub Copilot weekly releases — October 5</title>
+      <link>https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5</link>
+      <guid isPermaLink="false">8e5ec2908b04</guid>
+      <pubDate>Fri, 09 Oct 2026 22:58:23 +0000</pubDate>
+      <description>This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft Copilot] Meet Code in Copilot</title>
+      <link>https://www.youtube.com/shorts/ax0lIBORCPs</link>
+      <guid isPermaLink="false">a2f683a33db0</guid>
+      <pubDate>Fri, 09 Oct 2026 21:00:25 +0000</pubDate>
+      <description>Copilot Code helps more people turn ideas into apps, workflows, and solutions, making it easier to build what they need to get work done. Watch Microsoft Copilot EVP Jacob Andreou share how Copilot Code expands who gets to build. #MicrosoftCopilot #CopilotCode</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/</link>
+      <guid isPermaLink="false">c85e183aba75</guid>
+      <pubDate>Fri, 09 Oct 2026 20:31:37 +0000</pubDate>
+      <description>Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft] What's New in Notebooks | October 2026</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-notebooks-october-2026/ba-p/4559105</link>
+      <guid isPermaLink="false">35eeed9d8ff2</guid>
+      <pubDate>Fri, 09 Oct 2026 20:09:25 +0000</pubDate>
+      <description>Copilot Notebooks is an AI-powered workspace for a project or topic to help individuals and teams move work forward. It brings your Microsoft 365 work context into one workspace where you can collect references, ask questions grounded in your project context, uncover key insights across your work, and turn those insights into shareable outputs. Coming to Frontier in the coming weeks, this update helps you create…</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Microsoft] Introducing Office in the new Microsoft Copilot app</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/introducing-office-in-the-new-microsoft-copilot-app/ba-p/4561230</link>
+      <guid isPermaLink="false">3a5f4fb46d9b</guid>
+      <pubDate>Fri, 09 Oct 2026 19:25:48 +0000</pubDate>
+      <description>Microsoft Office has defined productivity for the PC era, driving the shift from desktop software to cloud computing and collaboration-based work. Now, we’re defining productivity in the AI era with Microsoft Copilot. The Copilot app is where you can move from intent to outcome. Start with an idea, and work with AI to bring it to the finish line. Today, we’re bringing the full power of Office into the Copilot app…</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[The Record] Japan confirms arrest of Russian Qilin operative, extradition to Germany</title>
+      <link>https://therecord.media/japan-germany-ransomware-arrest</link>
+      <guid isPermaLink="false">29cdd129a5d6</guid>
+      <pubDate>Fri, 09 Oct 2026 18:45:00 +0000</pubDate>
+      <description>Japan’s National Police Agency confirmed the arrest and extradition to Germany of a Russian national accused of being involved in the Qilin ransomware gang.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Salesforce] Your Customer’s Personal Agent Is Knocking. Is Your Business Ready to Answer?</title>
+      <link>https://www.salesforce.com/news/stories/personal-ai-agents-evolution/</link>
+      <guid isPermaLink="false">2e70e944a5c6</guid>
+      <pubDate>Fri, 09 Oct 2026 18:30:00 +0000</pubDate>
+      <description>With the advent of personal AI agents, every business is grappling with the same question: Let them in or block them at the front door?</description>
+      <category>personal-agents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack</title>
+      <link>https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html</link>
+      <guid isPermaLink="false">43d8a91bc2a7</guid>
+      <pubDate>Fri, 09 Oct 2026 17:45:26 +0000</pubDate>
+      <description>The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had breached the FBI's jobs portal and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not named the suspect, and no charges have been made public. The</description>
+      <category>incidents</category>
+    </item>
     <item>
       <title>[BleepingComputer] FBI arrests another suspected ShinyHunters hacker after agency breach</title>
       <link>https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/</link>
@@ -101,6 +214,13 @@
       <category>security-agents</category>
     </item>
     <item>
+      <title>[OpenAI] Asana cuts model costs 76x in browser tests with GPT-6.1 Sol</title>
+      <link>https://openai.com/index/asana-browser-agent</link>
+      <guid isPermaLink="false">90995f7dbc9c</guid>
+      <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
+      <description>Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.</description>
+    </item>
+    <item>
       <title>[BleepingComputer] Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland</title>
       <link>https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/</link>
       <guid isPermaLink="false">ca5ab3cf48f5</guid>
@@ -153,6 +273,15 @@
       <guid isPermaLink="false">c6203d3cd6cd</guid>
       <pubDate>Thu, 08 Oct 2026 20:00:32 +0000</pubDate>
       <description>AI agent costs grow faster than the work itself, and caching is how you bring them back down. Gareth Bland, Chief Data Scientist at Microsoft, explains. From our full conversation on TokenOps (https://youtu.be/B4yovi_znxE). #AIAgents #TokenOps</description>
+    </item>
+    <item>
+      <title>[Microsoft] Copilot code review: New organization billing options and controls</title>
+      <link>https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls</link>
+      <guid isPermaLink="false">8eab0c9a25ba</guid>
+      <pubDate>Thu, 08 Oct 2026 19:43:05 +0000</pubDate>
+      <description>This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s…</description>
+      <category>copilot</category>
+      <category>githubcopilot</category>
     </item>
     <item>
       <title>[Microsoft Developer] When my agent is slow or wrong, where do I even look?</title>
@@ -502,129 +631,6 @@
       <pubDate>Wed, 07 Oct 2026 13:30:00 +0000</pubDate>
       <description>A report by a Labour MP and an academic argues that if the British public cannot see what Russian activity costs, it cannot weigh that burden against the cost of defending against it.</description>
       <category>incidents</category>
-    </item>
-    <item>
-      <title>[Hugging Face] Introducing Falcon ASR</title>
-      <link>https://huggingface.co/blog/tiiuae/falcon-asr</link>
-      <guid isPermaLink="false">91ed3eb235f3</guid>
-      <pubDate>Wed, 07 Oct 2026 13:21:03 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Microsoft Developer] Cut AI Agent Costs with TokenOps</title>
-      <link>https://www.youtube.com/watch?v=B4yovi_znxE</link>
-      <guid isPermaLink="false">f7957d164e8a</guid>
-      <pubDate>Wed, 07 Oct 2026 13:01:21 +0000</pubDate>
-      <description>AI agent costs don't grow in step with the work. As an agent takes more turns, context piles up and uncached input costs rise on a quadratic curve: in Gareth Bland's example, an agent that takes four times as many turns costs sixteen times as much. Engineering your context to use cached input can bring that curve down to a tenth of the cost. Gareth Bland, Chief Data Scientist at Microsoft, explains TokenOps: the…</description>
-    </item>
-    <item>
-      <title>[Hugging Face] One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO</title>
-      <link>https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026</link>
-      <guid isPermaLink="false">5bdd694c6290</guid>
-      <pubDate>Wed, 07 Oct 2026 12:45:31 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[The Hacker News] The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow</title>
-      <link>https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html</link>
-      <guid isPermaLink="false">12e41dfb9e1f</guid>
-      <pubDate>Wed, 07 Oct 2026 11:57:05 +0000</pubDate>
-      <description>The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens. For years, the enterprise cybersecurity story has been told as a straight line of escalation: more attacks, more data loss, more pressure, and more urgency. That</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] What Is Agentic Pentesting? What It Proves, and Where It Stops.</title>
-      <link>https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html</link>
-      <guid isPermaLink="false">ecf0f242fd12</guid>
-      <pubDate>Wed, 07 Oct 2026 11:42:24 +0000</pubDate>
-      <description>If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would. That promise is worth taking seriously. It’s also worth pressure testing, and three questions do the heavy lifting. What can the assessment actually</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Musician sent to prison for $10 million streaming fraud using AI bots</title>
-      <link>https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/</link>
-      <guid isPermaLink="false">ccdbc3d08bf4</guid>
-      <pubDate>Wed, 07 Oct 2026 10:35:15 +0000</pubDate>
-      <description>A North Carolina musician was sentenced to 18 months in prison for collecting more than $10 million in royalties from Spotify, Apple Music, Amazon Music, and YouTube Music in a massive streaming royalty fraud scheme. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Advantest confirms personal information stolen in ransomware attack</title>
-      <link>https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/</link>
-      <guid isPermaLink="false">e8af94180ff3</guid>
-      <pubDate>Wed, 07 Oct 2026 10:27:52 +0000</pubDate>
-      <description>Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws</title>
-      <link>https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html</link>
-      <guid isPermaLink="false">c6065c24705d</guid>
-      <pubDate>Wed, 07 Oct 2026 08:07:38 +0000</pubDate>
-      <description>Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026. The company said it also found an additional</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[CrowdStrike] Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
-      <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
-      <guid isPermaLink="false">ef3a25c289a4</guid>
-      <pubDate>Wed, 07 Oct 2026 05:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[OpenAI] GPT-6 and Intelligent UI for everyone</title>
-      <link>https://openai.com/index/gpt-6-for-everyone</link>
-      <guid isPermaLink="false">0ca1450969b5</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <description>GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.</description>
-    </item>
-    <item>
-      <title>[Microsoft] Update your IDE to restore agent activity in Copilot usage metrics</title>
-      <link>https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics</link>
-      <guid isPermaLink="false">bb30d565ebf0</guid>
-      <pubDate>Tue, 06 Oct 2026 23:43:00 +0000</pubDate>
-      <description>If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out…</description>
-      <category>copilot</category>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Google] EmbeddingGemma 2: an open, lightweight multimodal embedding model</title>
-      <link>https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/</link>
-      <guid isPermaLink="false">4dd290070848</guid>
-      <pubDate>Tue, 06 Oct 2026 19:57:04 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Microsoft] How AI gives her more time to focus on people</title>
-      <link>https://www.youtube.com/shorts/cAMjVquiEL0</link>
-      <guid isPermaLink="false">5547cf8beeb0</guid>
-      <pubDate>Tue, 06 Oct 2026 19:30:30 +0000</pubDate>
-      <description>The code needs attention. So does the person who’ll use it. @ATT data scientist Natalie Gilbert shares how @GitHub Copilot helps her review code and catch errors, giving her more time to understand what people need.</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Hackers exploit 32 zero-days on first day of Pwn2Own Ireland</title>
-      <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/</link>
-      <guid isPermaLink="false">20fd10672621</guid>
-      <pubDate>Tue, 06 Oct 2026 19:21:53 +0000</pubDate>
-      <description>On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft Developer] Turn Meeting Transcripts into Project Plans with GitHub Copilot Agents | MVP Unplugged</title>
-      <link>https://www.youtube.com/watch?v=sRXhjodSZTc</link>
-      <guid isPermaLink="false">55aabcb407ba</guid>
-      <pubDate>Tue, 06 Oct 2026 19:00:07 +0000</pubDate>
-      <description>Welcome to the next MVP Unplugged, where Microsoft MVPs share real-world projects and insights from the field! In this episode, host Justin Garrett sits down with Microsoft MVP Mahmoud A. Atallah to explore an Azure Delivery Factory custom agent that turns meeting transcripts, proposals, PDFs, and briefs into structured requirements and execution-ready project artifacts. Mahmoud walks through his process in GitHub…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Anthropic] Expanding the Cyber Verification Program</title>
-      <link>https://www.anthropic.com/news/cyber-verification-program</link>
-      <guid isPermaLink="false">a22a6ca92e5c</guid>
-      <pubDate>Tue, 06 Oct 2026 19:00:00 +0000</pubDate>
-      <description>We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.</description>
-      <category>security-agents</category>
     </item>
   </channel>
 </rss>
