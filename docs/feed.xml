@@ -4,7 +4,15 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Sat, 10 Oct 2026 17:20:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 17:41:21 +0000</lastBuildDate>
+    <item>
+      <title>[Microsoft] New controls and chat improvements in Copilot for JetBrains</title>
+      <link>https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains</link>
+      <guid isPermaLink="false">1e0e6608c184</guid>
+      <pubDate>Sat, 10 Oct 2026 18:53:39 +0000</pubDate>
+      <description>This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and…</description>
+      <category>githubcopilot</category>
+    </item>
     <item>
       <title>[BleepingComputer] Cyber exec arrested in case allegedly tied to ShinyHunters hackers</title>
       <link>https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/</link>
@@ -622,14 +630,6 @@
       <guid isPermaLink="false">964793230f36</guid>
       <pubDate>Wed, 07 Oct 2026 13:49:00 +0000</pubDate>
       <description>The Health Care Cybersecurity and Resiliency Act of 2026 was passed by unanimous consent last week, potentially expanding federal cyber requirements for healthcare organizations.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Record] Russian cyberattacks against UK are 'Putin Tax' costing $3.3 billion, says lawmaker</title>
-      <link>https://therecord.media/russia-cyberattacks-on-britain-putin-tax-graeme-downie</link>
-      <guid isPermaLink="false">405f0928b682</guid>
-      <pubDate>Wed, 07 Oct 2026 13:30:00 +0000</pubDate>
-      <description>A report by a Labour MP and an academic argues that if the British public cannot see what Russian activity costs, it cannot weigh that burden against the cost of defending against it.</description>
       <category>incidents</category>
     </item>
   </channel>

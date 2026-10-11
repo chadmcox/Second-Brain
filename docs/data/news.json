@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T17:20:45Z",
+ "generated": "2026-10-11T17:41:21Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -100,7 +100,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-10T17:20:45Z",
+  "checked": "2026-10-11T17:41:21Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -560,8 +560,8 @@
     "previous": {
      "name": "DeepSeek V4 Flash 0731",
      "input": 0.018,
-     "output": 1.28,
-     "change_pct": 16
+     "output": 0.64,
+     "change_pct": 128
     }
    },
    {
@@ -613,7 +613,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-10T17:20:45Z",
+  "checked": "2026-10-11T17:41:21Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -621,7 +621,7 @@
     "full_name": "github/awesome-copilot",
     "url": "https://github.com/github/awesome-copilot",
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-    "stars": 39887,
+    "stars": 39919,
     "language": "JavaScript",
     "pushed": "2026-10-09T06:02:15Z",
     "created": "2025-06-11T16:57:39Z",
@@ -645,18 +645,22 @@
      [
       "2026-10-10",
       39887
+     ],
+     [
+      "2026-10-11",
+      39919
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 113
+    "gain": 145
    },
    {
     "full_name": "jlcodes99/cockpit-tools",
     "url": "https://github.com/jlcodes99/cockpit-tools",
     "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot /…",
-    "stars": 18796,
+    "stars": 18825,
     "language": "Rust",
-    "pushed": "2026-10-10T05:44:10Z",
+    "pushed": "2026-10-11T09:19:15Z",
     "created": "2026-01-16T07:09:32Z",
     "labels": [
      "GitHub Copilot"
@@ -678,49 +682,20 @@
      [
       "2026-10-10",
       18796
+     ],
+     [
+      "2026-10-11",
+      18825
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 102
-   },
-   {
-    "full_name": "OthmanAdi/planning-with-files",
-    "url": "https://github.com/OthmanAdi/planning-with-files",
-    "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion…",
-    "stars": 27375,
-    "language": "Python",
-    "pushed": "2026-10-10T10:03:49Z",
-    "created": "2026-01-03T07:37:28Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      27320
-     ],
-     [
-      "2026-10-08",
-      27341
-     ],
-     [
-      "2026-10-09",
-      27359
-     ],
-     [
-      "2026-10-10",
-      27375
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 55
+    "gain": 131
    },
    {
     "full_name": "wshobson/agents",
     "url": "https://github.com/wshobson/agents",
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-    "stars": 40326,
+    "stars": 40388,
     "language": "Python",
     "pushed": "2026-10-05T01:07:11Z",
     "created": "2025-07-24T23:28:14Z",
@@ -744,16 +719,57 @@
      [
       "2026-10-10",
       40326
+     ],
+     [
+      "2026-10-11",
+      40388
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 54
+    "gain": 116
+   },
+   {
+    "full_name": "OthmanAdi/planning-with-files",
+    "url": "https://github.com/OthmanAdi/planning-with-files",
+    "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion…",
+    "stars": 27394,
+    "language": "Python",
+    "pushed": "2026-10-10T10:03:49Z",
+    "created": "2026-01-03T07:37:28Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      27320
+     ],
+     [
+      "2026-10-08",
+      27341
+     ],
+     [
+      "2026-10-09",
+      27359
+     ],
+     [
+      "2026-10-10",
+      27375
+     ],
+     [
+      "2026-10-11",
+      27394
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 74
    },
    {
     "full_name": "microsoft/apm",
     "url": "https://github.com/microsoft/apm",
     "description": "Agent Package Manager",
-    "stars": 3992,
+    "stars": 3997,
     "language": "Python",
     "pushed": "2026-10-09T22:17:08Z",
     "created": "2025-09-18T13:45:22Z",
@@ -777,16 +793,20 @@
      [
       "2026-10-10",
       3992
+     ],
+     [
+      "2026-10-11",
+      3997
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 19
+    "gain": 24
    },
    {
     "full_name": "microsoft/skill-recorder",
     "url": "https://github.com/microsoft/skill-recorder",
     "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot SDK to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Autopilots like Scout…",
-    "stars": 4211,
+    "stars": 4216,
     "language": "TypeScript",
     "pushed": "2026-10-06T19:06:56Z",
     "created": "2026-07-29T18:16:14Z",
@@ -810,82 +830,20 @@
      [
       "2026-10-10",
       4211
+     ],
+     [
+      "2026-10-11",
+      4216
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 14
-   },
-   {
-    "full_name": "kaitranntt/ccs",
-    "url": "https://github.com/kaitranntt/ccs",
-    "description": "Switch between Claude accounts, Gemini, Copilot, OpenRouter (300+ models) via CLIProxyAPI OAuth proxy. Visual dashboard, remote proxy support, WebSearch fallback. Zero-config to production-ready.",
-    "stars": 2884,
-    "language": "TypeScript",
-    "pushed": "2026-10-01T02:43:13Z",
-    "created": "2025-11-01T21:01:53Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      2874
-     ],
-     [
-      "2026-10-08",
-      2881
-     ],
-     [
-      "2026-10-09",
-      2881
-     ],
-     [
-      "2026-10-10",
-      2884
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 10
-   },
-   {
-    "full_name": "SeemSeam/claude_codex_bridge",
-    "url": "https://github.com/SeemSeam/claude_codex_bridge",
-    "description": "Visible multi-agent CLI workspace for mixing Codex, Claude, Gemini, Kimi, Qwen, Cursor, Copilot, Pi, OpenCode, and other AI coding agents",
-    "stars": 3560,
-    "language": "Python",
-    "pushed": "2026-10-10T10:53:53Z",
-    "created": "2025-10-25T13:23:08Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      3551
-     ],
-     [
-      "2026-10-08",
-      3554
-     ],
-     [
-      "2026-10-09",
-      3559
-     ],
-     [
-      "2026-10-10",
-      3560
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 9
+    "gain": 19
    },
    {
     "full_name": "github/CopilotForXcode",
     "url": "https://github.com/github/CopilotForXcode",
     "description": "AI coding assistant for Xcode",
-    "stars": 6327,
+    "stars": 6331,
     "language": "Swift",
     "pushed": "2026-10-05T08:14:28Z",
     "created": "2024-09-19T17:48:15Z",
@@ -909,18 +867,133 @@
      [
       "2026-10-10",
       6327
+     ],
+     [
+      "2026-10-11",
+      6331
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 8
+    "gain": 12
+   },
+   {
+    "full_name": "kaitranntt/ccs",
+    "url": "https://github.com/kaitranntt/ccs",
+    "description": "Switch between Claude accounts, Gemini, Copilot, OpenRouter (300+ models) via CLIProxyAPI OAuth proxy. Visual dashboard, remote proxy support, WebSearch fallback. Zero-config to production-ready.",
+    "stars": 2886,
+    "language": "TypeScript",
+    "pushed": "2026-10-01T02:43:13Z",
+    "created": "2025-11-01T21:01:53Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      2874
+     ],
+     [
+      "2026-10-08",
+      2881
+     ],
+     [
+      "2026-10-09",
+      2881
+     ],
+     [
+      "2026-10-10",
+      2884
+     ],
+     [
+      "2026-10-11",
+      2886
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 12
+   },
+   {
+    "full_name": "SeemSeam/claude_codex_bridge",
+    "url": "https://github.com/SeemSeam/claude_codex_bridge",
+    "description": "Visible multi-agent CLI workspace for mixing Codex, Claude, Gemini, Kimi, Qwen, Cursor, Copilot, Pi, OpenCode, and other AI coding agents",
+    "stars": 3561,
+    "language": "Python",
+    "pushed": "2026-10-10T10:53:53Z",
+    "created": "2025-10-25T13:23:08Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      3551
+     ],
+     [
+      "2026-10-08",
+      3554
+     ],
+     [
+      "2026-10-09",
+      3559
+     ],
+     [
+      "2026-10-10",
+      3560
+     ],
+     [
+      "2026-10-11",
+      3561
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 10
+   },
+   {
+    "full_name": "cramt/m365-copilot-proxy",
+    "url": "https://github.com/cramt/m365-copilot-proxy",
+    "description": "OpenAI-compatible proxy for Microsoft 365 Copilot — use the Copilot licence you already have as a backend for pi, openclaw and other coding agents. Prompt-emulated tool calling, no extra licence, no MCP.",
+    "stars": 137,
+    "language": "TypeScript",
+    "pushed": "2026-10-11T14:30:58Z",
+    "created": "2026-03-26T21:28:59Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      130
+     ],
+     [
+      "2026-10-08",
+      131
+     ],
+     [
+      "2026-10-09",
+      131
+     ],
+     [
+      "2026-10-10",
+      132
+     ],
+     [
+      "2026-10-11",
+      137
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 7
    },
    {
     "full_name": "bradygaster/squad",
     "url": "https://github.com/bradygaster/squad",
     "description": "Squad: AI agent teams for any project",
-    "stars": 3261,
+    "stars": 3263,
     "language": "TypeScript",
-    "pushed": "2026-10-10T01:18:48Z",
+    "pushed": "2026-10-11T17:35:14Z",
     "created": "2026-02-06T07:11:36Z",
     "labels": [
      "GitHub Copilot"
@@ -942,6 +1015,85 @@
      [
       "2026-10-10",
       3261
+     ],
+     [
+      "2026-10-11",
+      3263
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 6
+   },
+   {
+    "full_name": "kesslernity/awesome-microsoft-copilot-prompts",
+    "url": "https://github.com/kesslernity/awesome-microsoft-copilot-prompts",
+    "description": "The definitive Microsoft 365 Copilot prompt library for business teams. 573 prompts for Office apps, Copilot Studio, security operations, and enterprise deployment.",
+    "stars": 548,
+    "language": "",
+    "pushed": "2026-10-08T06:27:01Z",
+    "created": "2026-02-03T18:25:30Z",
+    "labels": [
+     "Copilot Studio"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      544
+     ],
+     [
+      "2026-10-08",
+      545
+     ],
+     [
+      "2026-10-09",
+      546
+     ],
+     [
+      "2026-10-10",
+      546
+     ],
+     [
+      "2026-10-11",
+      548
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 4
+   },
+   {
+    "full_name": "kesslernity/awesome-copilot-studio-agents",
+    "url": "https://github.com/kesslernity/awesome-copilot-studio-agents",
+    "description": "103 paste-ready declarative agents for Microsoft 365 Copilot. No coding. No Azure. Deploy in minutes.",
+    "stars": 521,
+    "language": "",
+    "pushed": "2026-10-08T06:27:04Z",
+    "created": "2026-03-24T11:05:53Z",
+    "labels": [
+     "Copilot Studio",
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      517
+     ],
+     [
+      "2026-10-08",
+      519
+     ],
+     [
+      "2026-10-09",
+      520
+     ],
+     [
+      "2026-10-10",
+      520
+     ],
+     [
+      "2026-10-11",
+      521
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -975,43 +1127,38 @@
      [
       "2026-10-10",
       387
+     ],
+     [
+      "2026-10-11",
+      387
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
     "gain": 4
    },
    {
-    "full_name": "kesslernity/awesome-copilot-studio-agents",
-    "url": "https://github.com/kesslernity/awesome-copilot-studio-agents",
-    "description": "103 paste-ready declarative agents for Microsoft 365 Copilot. No coding. No Azure. Deploy in minutes.",
-    "stars": 520,
-    "language": "",
-    "pushed": "2026-10-08T06:27:04Z",
-    "created": "2026-03-24T11:05:53Z",
+    "full_name": "intellectronica/ruler",
+    "url": "https://github.com/intellectronica/ruler",
+    "description": "Ruler — apply the same rules to all coding agents",
+    "stars": 2944,
+    "language": "TypeScript",
+    "pushed": "2026-09-30T17:05:26Z",
+    "created": "2025-05-20T08:22:59Z",
     "labels": [
-     "Copilot Studio",
-     "Microsoft 365 Copilot"
+     "GitHub Copilot"
     ],
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      517
-     ],
-     [
-      "2026-10-08",
-      519
-     ],
-     [
-      "2026-10-09",
-      520
-     ],
-     [
       "2026-10-10",
-      520
+      2941
+     ],
+     [
+      "2026-10-11",
+      2944
      ]
     ],
-    "first_seen": "2026-10-07T04:02:09Z",
+    "first_seen": "2026-10-10T17:20:45Z",
     "gain": 3
    },
    {
@@ -1042,6 +1189,84 @@
      [
       "2026-10-10",
       8140
+     ],
+     [
+      "2026-10-11",
+      8140
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 2
+   },
+   {
+    "full_name": "zbirenbaum/copilot.lua",
+    "url": "https://github.com/zbirenbaum/copilot.lua",
+    "description": "Fully featured & enhanced replacement for copilot.vim complete with API for interacting with Github Copilot",
+    "stars": 4101,
+    "language": "Lua",
+    "pushed": "2026-10-10T02:48:51Z",
+    "created": "2022-04-02T21:07:51Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      4099
+     ],
+     [
+      "2026-10-08",
+      4099
+     ],
+     [
+      "2026-10-09",
+      4100
+     ],
+     [
+      "2026-10-10",
+      4100
+     ],
+     [
+      "2026-10-11",
+      4101
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 2
+   },
+   {
+    "full_name": "gotalab/cc-sdd",
+    "url": "https://github.com/gotalab/cc-sdd",
+    "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
+    "stars": 3710,
+    "language": "TypeScript",
+    "pushed": "2026-09-23T07:26:39Z",
+    "created": "2025-07-17T04:41:37Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      3708
+     ],
+     [
+      "2026-10-08",
+      3708
+     ],
+     [
+      "2026-10-09",
+      3708
+     ],
+     [
+      "2026-10-10",
+      3709
+     ],
+     [
+      "2026-10-11",
+      3710
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1075,52 +1300,60 @@
      [
       "2026-10-10",
       3652
+     ],
+     [
+      "2026-10-11",
+      3652
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
     "gain": 2
    },
    {
-    "full_name": "kesslernity/awesome-microsoft-copilot-prompts",
-    "url": "https://github.com/kesslernity/awesome-microsoft-copilot-prompts",
-    "description": "The definitive Microsoft 365 Copilot prompt library for business teams. 573 prompts for Office apps, Copilot Studio, security operations, and enterprise deployment.",
-    "stars": 546,
-    "language": "",
-    "pushed": "2026-10-08T06:27:01Z",
-    "created": "2026-02-03T18:25:30Z",
+    "full_name": "FrancyJGLisboa/agent-skills-platform",
+    "url": "https://github.com/FrancyJGLisboa/agent-skills-platform",
+    "description": "Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.",
+    "stars": 2404,
+    "language": "Python",
+    "pushed": "2026-09-15T17:31:46Z",
+    "created": "2025-10-18T15:01:46Z",
     "labels": [
-     "Copilot Studio"
+     "GitHub Copilot"
     ],
     "pinned": false,
     "log": [
      [
       "2026-10-07",
-      544
+      2402
      ],
      [
       "2026-10-08",
-      545
+      2403
      ],
      [
       "2026-10-09",
-      546
+      2403
      ],
      [
       "2026-10-10",
-      546
+      2403
+     ],
+     [
+      "2026-10-11",
+      2404
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
     "gain": 2
    },
    {
-    "full_name": "cramt/m365-copilot-proxy",
-    "url": "https://github.com/cramt/m365-copilot-proxy",
-    "description": "OpenAI-compatible proxy for Microsoft 365 Copilot — use the Copilot licence you already have as a backend for pi, openclaw and other coding agents. Prompt-emulated tool calling, no extra licence, no MCP.",
-    "stars": 132,
-    "language": "TypeScript",
-    "pushed": "2026-10-08T03:27:44Z",
-    "created": "2026-03-26T21:28:59Z",
+    "full_name": "kesslernity/awesome-copilot-cowork-skills",
+    "url": "https://github.com/kesslernity/awesome-copilot-cowork-skills",
+    "description": "37 folder-drop skills for Microsoft 365 Copilot Cowork. 21 workflow skills plus a 16-persona executive review board. Drop a folder into OneDrive, no admin, no app package. The same SKILL.md files run verbatim in Claude…",
+    "stars": 34,
+    "language": "",
+    "pushed": "2026-10-08T06:27:06Z",
+    "created": "2026-06-11T08:53:36Z",
     "labels": [
      "Microsoft 365 Copilot"
     ],
@@ -1128,19 +1361,23 @@
     "log": [
      [
       "2026-10-07",
-      130
+      32
      ],
      [
       "2026-10-08",
-      131
+      32
      ],
      [
       "2026-10-09",
-      131
+      33
      ],
      [
       "2026-10-10",
-      132
+      33
+     ],
+     [
+      "2026-10-11",
+      34
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1174,138 +1411,85 @@
      [
       "2026-10-10",
       10
+     ],
+     [
+      "2026-10-11",
+      10
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
     "gain": 2
    },
    {
-    "full_name": "zbirenbaum/copilot.lua",
-    "url": "https://github.com/zbirenbaum/copilot.lua",
-    "description": "Fully featured & enhanced replacement for copilot.vim complete with API for interacting with Github Copilot",
-    "stars": 4100,
-    "language": "Lua",
-    "pushed": "2026-10-10T02:48:51Z",
-    "created": "2022-04-02T21:07:51Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      4099
-     ],
-     [
-      "2026-10-08",
-      4099
-     ],
-     [
-      "2026-10-09",
-      4100
-     ],
-     [
-      "2026-10-10",
-      4100
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 1
-   },
-   {
-    "full_name": "gotalab/cc-sdd",
-    "url": "https://github.com/gotalab/cc-sdd",
-    "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
-    "stars": 3709,
-    "language": "TypeScript",
-    "pushed": "2026-09-23T07:26:39Z",
-    "created": "2025-07-17T04:41:37Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      3708
-     ],
-     [
-      "2026-10-08",
-      3708
-     ],
-     [
-      "2026-10-09",
-      3708
-     ],
-     [
-      "2026-10-10",
-      3709
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 1
-   },
-   {
-    "full_name": "FrancyJGLisboa/agent-skills-platform",
-    "url": "https://github.com/FrancyJGLisboa/agent-skills-platform",
-    "description": "Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.",
-    "stars": 2403,
-    "language": "Python",
-    "pushed": "2026-09-15T17:31:46Z",
-    "created": "2025-10-18T15:01:46Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      2402
-     ],
-     [
-      "2026-10-08",
-      2403
-     ],
-     [
-      "2026-10-09",
-      2403
-     ],
-     [
-      "2026-10-10",
-      2403
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 1
-   },
-   {
-    "full_name": "kesslernity/awesome-copilot-cowork-skills",
-    "url": "https://github.com/kesslernity/awesome-copilot-cowork-skills",
-    "description": "37 folder-drop skills for Microsoft 365 Copilot Cowork. 21 workflow skills plus a 16-persona executive review board. Drop a folder into OneDrive, no admin, no app package. The same SKILL.md files run verbatim in Claude…",
-    "stars": 33,
+    "full_name": "kesslernity/awesome-copilot-chat-agents",
+    "url": "https://github.com/kesslernity/awesome-copilot-chat-agents",
+    "description": "82 ready-to-deploy agents for Microsoft Copilot Chat, no Copilot Premium required. Paste the instruction block into the Copilot Studio builder. Writing, HR, PM, IT ops, Sales, Finance, Engineering and more. RAI…",
+    "stars": 108,
     "language": "",
-    "pushed": "2026-10-08T06:27:06Z",
-    "created": "2026-06-11T08:53:36Z",
+    "pushed": "2026-10-08T06:27:03Z",
+    "created": "2026-05-27T12:46:48Z",
     "labels": [
+     "Copilot Studio",
      "Microsoft 365 Copilot"
     ],
     "pinned": false,
     "log": [
      [
       "2026-10-07",
-      32
+      107
      ],
      [
       "2026-10-08",
-      32
+      107
      ],
      [
       "2026-10-09",
-      33
+      107
      ],
      [
       "2026-10-10",
-      33
+      107
+     ],
+     [
+      "2026-10-11",
+      108
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 1
+   },
+   {
+    "full_name": "microsoft/ConsumptionCentral-for-Microsoft-Copilot",
+    "url": "https://github.com/microsoft/ConsumptionCentral-for-Microsoft-Copilot",
+    "description": "One Power BI template for Microsoft Copilot credit consumption and cost - Cowork/Work IQ, Copilot Studio, GitHub Copilot and Azure AI Foundry.",
+    "stars": 25,
+    "language": "Python",
+    "pushed": "2026-10-05T20:03:23Z",
+    "created": "2026-08-09T19:54:55Z",
+    "labels": [
+     "Copilot Studio"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      24
+     ],
+     [
+      "2026-10-08",
+      24
+     ],
+     [
+      "2026-10-09",
+      24
+     ],
+     [
+      "2026-10-10",
+      24
+     ],
+     [
+      "2026-10-11",
+      25
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1338,6 +1522,10 @@
      ],
      [
       "2026-10-10",
+      21
+     ],
+     [
+      "2026-10-11",
       21
      ]
     ],
@@ -1373,65 +1561,14 @@
      [
       "2026-10-10",
       9
+     ],
+     [
+      "2026-10-11",
+      9
      ]
     ],
     "first_seen": "2026-10-07T04:04:23Z",
     "gain": 1
-   },
-   {
-    "full_name": "intellectronica/ruler",
-    "url": "https://github.com/intellectronica/ruler",
-    "description": "Ruler — apply the same rules to all coding agents",
-    "stars": 2941,
-    "language": "TypeScript",
-    "pushed": "2026-09-30T17:05:26Z",
-    "created": "2025-05-20T08:22:59Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-10",
-      2941
-     ]
-    ],
-    "first_seen": "2026-10-10T17:20:45Z",
-    "gain": null
-   },
-   {
-    "full_name": "kesslernity/awesome-copilot-chat-agents",
-    "url": "https://github.com/kesslernity/awesome-copilot-chat-agents",
-    "description": "82 ready-to-deploy agents for Microsoft Copilot Chat, no Copilot Premium required. Paste the instruction block into the Copilot Studio builder. Writing, HR, PM, IT ops, Sales, Finance, Engineering and more. RAI…",
-    "stars": 107,
-    "language": "",
-    "pushed": "2026-10-08T06:27:03Z",
-    "created": "2026-05-27T12:46:48Z",
-    "labels": [
-     "Copilot Studio",
-     "Microsoft 365 Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      107
-     ],
-     [
-      "2026-10-08",
-      107
-     ],
-     [
-      "2026-10-09",
-      107
-     ],
-     [
-      "2026-10-10",
-      107
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 0
    },
    {
     "full_name": "andreaswasita/copilot-agents-dojo",
@@ -1460,6 +1597,10 @@
      ],
      [
       "2026-10-10",
+      54
+     ],
+     [
+      "2026-10-11",
       54
      ]
     ],
@@ -1495,6 +1636,10 @@
      [
       "2026-10-10",
       39
+     ],
+     [
+      "2026-10-11",
+      39
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1506,7 +1651,7 @@
     "description": "Este es mi acordeón para ayudarte a pasar la certificación AB-730 de Microsoft, Profesional en Negocios de IA. A pesar de que este acordeón te pueda ayudar te recomiendo que tu principal fuente sea Microsoft Learn.",
     "stars": 37,
     "language": "",
-    "pushed": "2026-10-09T21:20:14Z",
+    "pushed": "2026-10-11T00:47:56Z",
     "created": "2026-08-24T15:32:13Z",
     "labels": [
      "Microsoft 365 Copilot"
@@ -1527,6 +1672,10 @@
      ],
      [
       "2026-10-10",
+      37
+     ],
+     [
+      "2026-10-11",
       37
      ]
     ],
@@ -1561,6 +1710,10 @@
      [
       "2026-10-10",
       35
+     ],
+     [
+      "2026-10-11",
+      35
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1594,39 +1747,10 @@
      [
       "2026-10-10",
       31
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 0
-   },
-   {
-    "full_name": "microsoft/ConsumptionCentral-for-Microsoft-Copilot",
-    "url": "https://github.com/microsoft/ConsumptionCentral-for-Microsoft-Copilot",
-    "description": "One Power BI template for Microsoft Copilot credit consumption and cost - Cowork/Work IQ, Copilot Studio, GitHub Copilot and Azure AI Foundry.",
-    "stars": 24,
-    "language": "Python",
-    "pushed": "2026-10-05T20:03:23Z",
-    "created": "2026-08-09T19:54:55Z",
-    "labels": [
-     "Copilot Studio"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      24
      ],
      [
-      "2026-10-08",
-      24
-     ],
-     [
-      "2026-10-09",
-      24
-     ],
-     [
-      "2026-10-10",
-      24
+      "2026-10-11",
+      31
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1659,6 +1783,10 @@
      ],
      [
       "2026-10-10",
+      19
+     ],
+     [
+      "2026-10-11",
       19
      ]
     ],
@@ -1693,6 +1821,10 @@
      [
       "2026-10-10",
       17
+     ],
+     [
+      "2026-10-11",
+      17
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1725,6 +1857,10 @@
      ],
      [
       "2026-10-10",
+      10
+     ],
+     [
+      "2026-10-11",
       10
      ]
     ],
@@ -1759,6 +1895,10 @@
      [
       "2026-10-10",
       8
+     ],
+     [
+      "2026-10-11",
+      8
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1792,6 +1932,10 @@
      [
       "2026-10-10",
       8
+     ],
+     [
+      "2026-10-11",
+      8
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1803,7 +1947,7 @@
     "description": "Governance framework for Microsoft 365 AI agents (Copilot Studio) in regulated financial services",
     "stars": 8,
     "language": "Python",
-    "pushed": "2026-10-09T23:50:50Z",
+    "pushed": "2026-10-11T12:28:54Z",
     "created": "2025-12-15T23:15:15Z",
     "labels": [
      "Copilot Studio"
@@ -1824,6 +1968,10 @@
      ],
      [
       "2026-10-10",
+      8
+     ],
+     [
+      "2026-10-11",
       8
      ]
     ],
@@ -1854,6 +2002,10 @@
      [
       "2026-10-10",
       8
+     ],
+     [
+      "2026-10-11",
+      8
      ]
     ],
     "first_seen": "2026-10-08T18:50:53Z",
@@ -1865,7 +2017,7 @@
     "description": "A Tampermonkey userscript for exporting M365 Copilot Chat conversations from the Microsoft 365 work/school chat experience as both raw JSON and readable Markdown",
     "stars": 8,
     "language": "JavaScript",
-    "pushed": "2026-10-10T14:29:01Z",
+    "pushed": "2026-10-11T14:55:45Z",
     "created": "2026-05-12T14:48:30Z",
     "labels": [
      "Microsoft 365 Copilot"
@@ -1886,6 +2038,10 @@
      ],
      [
       "2026-10-10",
+      8
+     ],
+     [
+      "2026-10-11",
       8
      ]
     ],
@@ -1920,6 +2076,10 @@
      [
       "2026-10-10",
       7
+     ],
+     [
+      "2026-10-11",
+      7
      ]
     ],
     "first_seen": "2026-10-07T04:04:23Z",
@@ -1952,6 +2112,10 @@
      ],
      [
       "2026-10-10",
+      6
+     ],
+     [
+      "2026-10-11",
       6
      ]
     ],
@@ -1986,6 +2150,10 @@
      [
       "2026-10-10",
       5
+     ],
+     [
+      "2026-10-11",
+      5
      ]
     ],
     "first_seen": "2026-10-07T04:04:23Z",
@@ -1997,7 +2165,7 @@
     "description": "A Chromium extension for exporting M365 Copilot Chat conversations from the Microsoft 365 work/school chat experience as both raw JSON and readable Markdown.",
     "stars": 5,
     "language": "JavaScript",
-    "pushed": "2026-10-10T14:25:43Z",
+    "pushed": "2026-10-11T14:52:22Z",
     "created": "2026-05-12T14:50:42Z",
     "labels": [
      "Microsoft 365 Copilot"
@@ -2018,6 +2186,10 @@
      ],
      [
       "2026-10-10",
+      5
+     ],
+     [
+      "2026-10-11",
       5
      ]
     ],
@@ -2052,6 +2224,10 @@
      [
       "2026-10-10",
       5
+     ],
+     [
+      "2026-10-11",
+      5
      ]
     ],
     "first_seen": "2026-10-07T04:04:23Z",
@@ -2081,6 +2257,10 @@
      [
       "2026-10-10",
       4
+     ],
+     [
+      "2026-10-11",
+      4
      ]
     ],
     "first_seen": "2026-10-08T18:50:53Z",
@@ -2098,8 +2278,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "new": 0,
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 22
   },
@@ -2113,7 +2293,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 3
   },
@@ -2127,7 +2307,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 19
   },
@@ -2141,7 +2321,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 7
   },
@@ -2155,7 +2335,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 4
   },
@@ -2168,10 +2348,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "new": 1,
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
-   "count": 17
+   "count": 18
   },
   {
    "id": "gh-blog-copilot",
@@ -2183,7 +2363,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 11
   },
@@ -2197,7 +2377,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 0
   },
@@ -2211,7 +2391,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 5
   },
@@ -2225,7 +2405,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 0
   },
@@ -2238,8 +2418,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "new": 0,
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 121
   },
@@ -2253,7 +2433,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 94
   },
@@ -2267,7 +2447,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 8
   },
@@ -2281,7 +2461,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 6
   },
@@ -2295,7 +2475,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 3
   },
@@ -2309,7 +2489,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 10
   },
@@ -2323,7 +2503,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 7
   },
@@ -2337,7 +2517,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 2
   },
@@ -2351,7 +2531,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 21
   },
@@ -2365,7 +2545,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 0
   },
@@ -2378,8 +2558,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "new": 0,
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 115
   },
@@ -2393,7 +2573,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 13
   },
@@ -2407,7 +2587,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 13
   },
@@ -2421,7 +2601,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 27
   },
@@ -2435,7 +2615,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 7
   },
@@ -2449,7 +2629,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 31
   },
@@ -2463,7 +2643,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 3
   },
@@ -2477,7 +2657,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 3
   },
@@ -2491,7 +2671,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 12
   },
@@ -2504,8 +2684,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "new": 0,
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 13
   },
@@ -2519,7 +2699,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 7
   },
@@ -2533,7 +2713,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 15
   },
@@ -2547,7 +2727,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 7
   },
@@ -2561,7 +2741,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 46
   },
@@ -2575,7 +2755,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 10
   },
@@ -2588,8 +2768,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "new": 0,
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 13
   },
@@ -2602,8 +2782,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 4,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "new": 0,
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 28
   },
@@ -2616,8 +2796,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 3,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "new": 0,
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "",
    "count": 40
   },
@@ -2630,8 +2810,8 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "new": 0,
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "UCc3pNIRzIZ8ynI38GO6H01Q",
    "count": 17
   },
@@ -2645,7 +2825,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "UCJ9905MRHxwLZ2jeNQGIWxA",
    "count": 15
   },
@@ -2659,7 +2839,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "UCn8PsBlVsGUt8J3tZCKsMPA",
    "count": 3
   },
@@ -2673,7 +2853,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "UC4s3tv0Qq_OSUBfR735Jc6A",
    "count": 3
   },
@@ -2687,7 +2867,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "UCsMica-v34Irf9KVTh6xx-g",
    "count": 13
   },
@@ -2700,8 +2880,8 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "new": 0,
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
    "count": 13
   },
@@ -2715,12 +2895,31 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-10T17:20:45Z",
+   "last_ok": "2026-10-11T17:41:21Z",
    "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "count": 9
   }
  ],
  "items": [
+  {
+   "id": "1e0e6608c184",
+   "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+   "title": "New controls and chat improvements in Copilot for JetBrains",
+   "published": "2026-10-10T18:53:39Z",
+   "first_seen": "2026-10-11T17:41:21Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
   {
    "id": "5d6a58b64149",
    "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
@@ -7038,7 +7237,7 @@
     "copilot"
    ],
    "status": "",
-   "excerpt": "What happens when you bring together visionary leaders, innovative customers, and the latest AI experiences in one room? Customers joined Microsoft in Seattle for an exclusive first look at the new Copilot, hearing directly from Microsoft Chairman and CEO Satya Nadella and Copilot EVP Jacob Andreou, exploring new capabilities firsthand, and sharing how AI is transforming work across their organizations. Watch the…",
+   "excerpt": "What happens when you bring together visionary leaders, innovative customers, and the latest experiences in one room? Customers joined Microsoft in Seattle for an exclusive first look at the new Copilot, hearing directly from Microsoft Chairman and CEO Satya Nadella and Copilot EVP Jacob Andreou, exploring new capabilities firsthand, and sharing how AI is transforming work across their organizations. Watch the…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -8424,7 +8623,7 @@
   {
    "id": "32880c2db6ac",
    "url": "https://www.youtube.com/watch?v=OgInADh5Tcs",
-   "title": "The new Copilot: where AI-powered work comes together",
+   "title": "The new Copilot: where work comes together",
    "published": "2026-09-25T11:53:18Z",
    "first_seen": "2026-10-07T16:05:29Z",
    "source": "yt-m365",
@@ -8437,7 +8636,7 @@
     "personal-agents"
    ],
    "status": "",
-   "excerpt": "Meet the new Microsoft Copilot: one experience where AI-powered work comes together. Home is your new starting point, where Chat and Cowork come together with the full power of Office. Code empowers anyone to build solutions using natural language. And Autopilot, a persistent, proactive, and personal agent that takes work off your plate and moves it forward. Read the blog: https://msft.it/6055a9XLB Watch the audio…",
+   "excerpt": "Meet the new Microsoft Copilot: one experience where work comes together. Home is your new starting point, where Chat and Cowork come together with the full power of Office. Code empowers anyone to build solutions using natural language. And Autopilot, a persistent, proactive, and personal agent that takes work off your plate and moves it forward. Read the blog: https://msft.it/6055a9XLB Watch the audio description…",
    "summary": "",
    "relevance": "",
    "competes_with": []
