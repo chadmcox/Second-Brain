@@ -4,7 +4,32 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Mon, 12 Oct 2026 17:15:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 21:16:13 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] Yandex confirms service outage as users lose access to cloud files</title>
+      <link>https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/</link>
+      <guid isPermaLink="false">8d0ac34c06d5</guid>
+      <pubDate>Mon, 12 Oct 2026 19:23:01 +0000</pubDate>
+      <description>Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Anthropic takes risky AI tests offline after models breach govt sites</title>
+      <link>https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/</link>
+      <guid isPermaLink="false">8ba9b8e7a12a</guid>
+      <pubDate>Mon, 12 Oct 2026 18:51:59 +0000</pubDate>
+      <description>Anthropic announced that its internal AI models undergoing "high-risk and cybersecurity evaluations" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft] GitHub Copilot app for Beginners: How to teach Copilot about your codebase</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/</link>
+      <guid isPermaLink="false">d8d241723974</guid>
+      <pubDate>Mon, 12 Oct 2026 17:43:59 +0000</pubDate>
+      <description>Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.</description>
+      <category>githubcopilot</category>
+    </item>
     <item>
       <title>[Meta] Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents</title>
       <link>https://about.fb.com/news/2026/10/introducing-muse-wonder-models/</link>
@@ -604,31 +629,6 @@
       <guid isPermaLink="false">327e963986a0</guid>
       <pubDate>Wed, 07 Oct 2026 18:45:28 +0000</pubDate>
       <description>At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you […]</description>
-    </item>
-    <item>
-      <title>[Microsoft] Azure Document Intelligence and Azure Content Understanding: a practical guide</title>
-      <link>https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding/</link>
-      <guid isPermaLink="false">fa0a47266cba</guid>
-      <pubDate>Wed, 07 Oct 2026 18:45:01 +0000</pubDate>
-      <description>Compare Azure Document Intelligence and Azure Content Understanding across extraction architectures, workload fit, Layout capabilities, deployment options, and practical evaluation criteria.</description>
-      <category>foundry</category>
-    </item>
-    <item>
-      <title>[The Record] Arizona courts say hackers stole info on more than 1.3 million people</title>
-      <link>https://therecord.media/arizona-courts-say-hackers-stole-info-on-over-1-million</link>
-      <guid isPermaLink="false">b729d4f8cf8a</guid>
-      <pubDate>Wed, 07 Oct 2026 18:31:00 +0000</pubDate>
-      <description>The investigation into the incident revealed cybercriminals were able to breach the Fines/Fees and Restitution Enforcement (FARE) Program, a statewide program that helps the court collect outstanding debts tied to traffic and criminal violations.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] Copilot Studio Now Builds Agents, Workflows, Apps</title>
-      <link>https://www.youtube.com/shorts/AsXVsH08EGw</link>
-      <guid isPermaLink="false">26c0cf4a17c6</guid>
-      <pubDate>Wed, 07 Oct 2026 18:30:01 +0000</pubDate>
-      <description>What can you build in Copilot Studio now? Agents with your chosen model, skills, connectors, APIs, MCPs, knowledge, and memory, all running on the GitHub Copilot harness. Add multi-step workflows that bring in other agents or people, and full-stack apps you generate with natural language, without writing a single line of code. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started…</description>
-      <category>copilotstudio</category>
-      <category>githubcopilot</category>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T17:15:30Z",
+ "generated": "2026-10-12T21:16:13Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -106,7 +106,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-12T17:15:30Z",
+  "checked": "2026-10-12T21:16:13Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -308,8 +308,8 @@
     "id": "google/gemma-4-26b-a4b-it",
     "lab": "Google",
     "name": "Gemma 4 26B A4B",
-    "input": 0.09,
-    "output": 0.3,
+    "input": 0.0765,
+    "output": 0.255,
     "context": 262144,
     "about": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
     "released": "2026-04-03T14:53:09Z",
@@ -619,7 +619,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-12T17:15:30Z",
+  "checked": "2026-10-12T21:16:13Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -627,7 +627,7 @@
     "full_name": "wshobson/agents",
     "url": "https://github.com/wshobson/agents",
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-    "stars": 40471,
+    "stars": 40495,
     "language": "Python",
     "pushed": "2026-10-12T03:07:19Z",
     "created": "2025-07-24T23:28:14Z",
@@ -658,17 +658,17 @@
      ],
      [
       "2026-10-12",
-      40471
+      40495
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 199
+    "gain": 223
    },
    {
     "full_name": "github/awesome-copilot",
     "url": "https://github.com/github/awesome-copilot",
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-    "stars": 39953,
+    "stars": 39954,
     "language": "JavaScript",
     "pushed": "2026-10-12T07:39:57Z",
     "created": "2025-06-11T16:57:39Z",
@@ -699,19 +699,19 @@
      ],
      [
       "2026-10-12",
-      39953
+      39954
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 179
+    "gain": 180
    },
    {
     "full_name": "jlcodes99/cockpit-tools",
     "url": "https://github.com/jlcodes99/cockpit-tools",
     "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot /…",
-    "stars": 18870,
+    "stars": 18873,
     "language": "Rust",
-    "pushed": "2026-10-11T09:19:15Z",
+    "pushed": "2026-10-12T18:39:45Z",
     "created": "2026-01-16T07:09:32Z",
     "labels": [
      "GitHub Copilot"
@@ -740,17 +740,17 @@
      ],
      [
       "2026-10-12",
-      18870
+      18873
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 176
+    "gain": 179
    },
    {
     "full_name": "OthmanAdi/planning-with-files",
     "url": "https://github.com/OthmanAdi/planning-with-files",
     "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion…",
-    "stars": 27410,
+    "stars": 27411,
     "language": "Python",
     "pushed": "2026-10-12T08:07:36Z",
     "created": "2026-01-03T07:37:28Z",
@@ -781,17 +781,17 @@
      ],
      [
       "2026-10-12",
-      27410
+      27411
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 90
+    "gain": 91
    },
    {
     "full_name": "microsoft/apm",
     "url": "https://github.com/microsoft/apm",
     "description": "Agent Package Manager",
-    "stars": 4000,
+    "stars": 4001,
     "language": "Python",
     "pushed": "2026-10-12T07:59:35Z",
     "created": "2025-09-18T13:45:22Z",
@@ -822,17 +822,17 @@
      ],
      [
       "2026-10-12",
-      4000
+      4001
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 27
+    "gain": 28
    },
    {
     "full_name": "microsoft/skill-recorder",
     "url": "https://github.com/microsoft/skill-recorder",
     "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot SDK to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Autopilots like Scout…",
-    "stars": 4220,
+    "stars": 4221,
     "language": "TypeScript",
     "pushed": "2026-10-06T19:06:56Z",
     "created": "2026-07-29T18:16:14Z",
@@ -863,17 +863,17 @@
      ],
      [
       "2026-10-12",
-      4220
+      4221
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 23
+    "gain": 24
    },
    {
     "full_name": "github/CopilotForXcode",
     "url": "https://github.com/github/CopilotForXcode",
     "description": "AI coding assistant for Xcode",
-    "stars": 6333,
+    "stars": 6334,
     "language": "Swift",
     "pushed": "2026-10-05T08:14:28Z",
     "created": "2024-09-19T17:48:15Z",
@@ -904,11 +904,11 @@
      ],
      [
       "2026-10-12",
-      6333
+      6334
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 14
+    "gain": 15
    },
    {
     "full_name": "SeemSeam/claude_codex_bridge",
@@ -1037,9 +1037,9 @@
     "full_name": "bradygaster/squad",
     "url": "https://github.com/bradygaster/squad",
     "description": "Squad: AI agent teams for any project",
-    "stars": 3264,
+    "stars": 3265,
     "language": "TypeScript",
-    "pushed": "2026-10-12T16:58:50Z",
+    "pushed": "2026-10-12T18:20:25Z",
     "created": "2026-02-06T07:11:36Z",
     "labels": [
      "GitHub Copilot"
@@ -1068,17 +1068,17 @@
      ],
      [
       "2026-10-12",
-      3264
+      3265
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 7
+    "gain": 8
    },
    {
     "full_name": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
     "url": "https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
     "description": "A multi-module course teaching everything you need to know about using GitHub Copilot as an AI Peer Programming resource.",
-    "stars": 8143,
+    "stars": 8144,
     "language": "Python",
     "pushed": "2026-09-16T00:36:58Z",
     "created": "2023-11-29T19:35:47Z",
@@ -1109,11 +1109,11 @@
      ],
      [
       "2026-10-12",
-      8143
+      8144
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 5
+    "gain": 6
    },
    {
     "full_name": "kesslernity/awesome-microsoft-copilot-prompts",
@@ -1363,47 +1363,6 @@
     "gain": 2
    },
    {
-    "full_name": "CopilotC-Nvim/CopilotChat.nvim",
-    "url": "https://github.com/CopilotC-Nvim/CopilotChat.nvim",
-    "description": "Chat with GitHub Copilot in Neovim",
-    "stars": 3652,
-    "language": "Lua",
-    "pushed": "2026-08-30T06:26:18Z",
-    "created": "2023-12-12T00:59:30Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      3650
-     ],
-     [
-      "2026-10-08",
-      3651
-     ],
-     [
-      "2026-10-09",
-      3653
-     ],
-     [
-      "2026-10-10",
-      3652
-     ],
-     [
-      "2026-10-11",
-      3652
-     ],
-     [
-      "2026-10-12",
-      3652
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 2
-   },
-   {
     "full_name": "intellectronica/ruler",
     "url": "https://github.com/intellectronica/ruler",
     "description": "Ruler — apply the same rules to all coding agents",
@@ -1430,47 +1389,6 @@
      ]
     ],
     "first_seen": "2026-10-10T17:20:45Z",
-    "gain": 2
-   },
-   {
-    "full_name": "FrancyJGLisboa/agent-skills-platform",
-    "url": "https://github.com/FrancyJGLisboa/agent-skills-platform",
-    "description": "Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.",
-    "stars": 2404,
-    "language": "Python",
-    "pushed": "2026-09-15T17:31:46Z",
-    "created": "2025-10-18T15:01:46Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      2402
-     ],
-     [
-      "2026-10-08",
-      2403
-     ],
-     [
-      "2026-10-09",
-      2403
-     ],
-     [
-      "2026-10-10",
-      2403
-     ],
-     [
-      "2026-10-11",
-      2404
-     ],
-     [
-      "2026-10-12",
-      2404
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
     "gain": 2
    },
    {
@@ -1555,6 +1473,88 @@
     ],
     "first_seen": "2026-10-07T04:02:09Z",
     "gain": 2
+   },
+   {
+    "full_name": "CopilotC-Nvim/CopilotChat.nvim",
+    "url": "https://github.com/CopilotC-Nvim/CopilotChat.nvim",
+    "description": "Chat with GitHub Copilot in Neovim",
+    "stars": 3651,
+    "language": "Lua",
+    "pushed": "2026-10-12T20:55:57Z",
+    "created": "2023-12-12T00:59:30Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      3650
+     ],
+     [
+      "2026-10-08",
+      3651
+     ],
+     [
+      "2026-10-09",
+      3653
+     ],
+     [
+      "2026-10-10",
+      3652
+     ],
+     [
+      "2026-10-11",
+      3652
+     ],
+     [
+      "2026-10-12",
+      3651
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 1
+   },
+   {
+    "full_name": "FrancyJGLisboa/agent-skills-platform",
+    "url": "https://github.com/FrancyJGLisboa/agent-skills-platform",
+    "description": "Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.",
+    "stars": 2403,
+    "language": "Python",
+    "pushed": "2026-09-15T17:31:46Z",
+    "created": "2025-10-18T15:01:46Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-07",
+      2402
+     ],
+     [
+      "2026-10-08",
+      2403
+     ],
+     [
+      "2026-10-09",
+      2403
+     ],
+     [
+      "2026-10-10",
+      2403
+     ],
+     [
+      "2026-10-11",
+      2404
+     ],
+     [
+      "2026-10-12",
+      2403
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 1
    },
    {
     "full_name": "alexclowe/awesome-copilot-cowork-plugins",
@@ -1684,7 +1684,7 @@
     "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent…",
-    "stars": 143960,
+    "stars": 143958,
     "language": "",
     "pushed": "2026-10-12T15:19:01Z",
     "created": "2025-03-05T16:38:29Z",
@@ -1695,7 +1695,7 @@
     "log": [
      [
       "2026-10-12",
-      143960
+      143958
      ]
     ],
     "first_seen": "2026-10-12T17:13:19Z",
@@ -1831,7 +1831,7 @@
     "description": "Copilot UX Components (SPFx) samples",
     "stars": 35,
     "language": "Astro",
-    "pushed": "2026-10-09T16:08:22Z",
+    "pushed": "2026-10-12T19:25:49Z",
     "created": "2026-06-25T15:35:01Z",
     "labels": [
      "Microsoft 365 Copilot"
@@ -2118,7 +2118,7 @@
     "description": "Governance framework for Microsoft 365 AI agents (Copilot Studio) in regulated financial services",
     "stars": 8,
     "language": "Python",
-    "pushed": "2026-10-12T16:16:01Z",
+    "pushed": "2026-10-12T19:21:38Z",
     "created": "2025-12-15T23:15:15Z",
     "labels": [
      "Copilot Studio"
@@ -2196,7 +2196,7 @@
     "description": "A Tampermonkey userscript for exporting M365 Copilot Chat conversations from the Microsoft 365 work/school chat experience as both raw JSON and readable Markdown",
     "stars": 8,
     "language": "JavaScript",
-    "pushed": "2026-10-11T14:55:45Z",
+    "pushed": "2026-10-12T17:57:41Z",
     "created": "2026-05-12T14:48:30Z",
     "labels": [
      "Microsoft 365 Copilot"
@@ -2340,7 +2340,7 @@
     "description": "A Chromium extension for exporting M365 Copilot Chat conversations from the Microsoft 365 work/school chat experience as both raw JSON and readable Markdown.",
     "stars": 5,
     "language": "JavaScript",
-    "pushed": "2026-10-11T14:52:22Z",
+    "pushed": "2026-10-12T17:46:57Z",
     "created": "2026-05-12T14:50:42Z",
     "labels": [
      "Microsoft 365 Copilot"
@@ -2429,7 +2429,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 22
   },
@@ -2443,7 +2443,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 3
   },
@@ -2457,7 +2457,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 19
   },
@@ -2471,7 +2471,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 7
   },
@@ -2485,7 +2485,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 4
   },
@@ -2499,7 +2499,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 18
   },
@@ -2512,10 +2512,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "new": 1,
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
-   "count": 11
+   "count": 12
   },
   {
    "id": "ms-security",
@@ -2527,7 +2527,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 0
   },
@@ -2541,7 +2541,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 5
   },
@@ -2555,7 +2555,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 0
   },
@@ -2569,7 +2569,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 121
   },
@@ -2583,7 +2583,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 94
   },
@@ -2597,7 +2597,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 8
   },
@@ -2611,7 +2611,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 6
   },
@@ -2625,7 +2625,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 3
   },
@@ -2639,7 +2639,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 10
   },
@@ -2653,7 +2653,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 7
   },
@@ -2667,7 +2667,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 2
   },
@@ -2681,7 +2681,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 21
   },
@@ -2695,7 +2695,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 0
   },
@@ -2709,7 +2709,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 10
   },
@@ -2722,8 +2722,8 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 60,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "new": 0,
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 60
   },
@@ -2737,7 +2737,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 7
   },
@@ -2751,7 +2751,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 115
   },
@@ -2765,7 +2765,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 13
   },
@@ -2779,7 +2779,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 13
   },
@@ -2793,7 +2793,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 27
   },
@@ -2807,7 +2807,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 7
   },
@@ -2821,7 +2821,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 31
   },
@@ -2835,7 +2835,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 3
   },
@@ -2848,8 +2848,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "new": 0,
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 4
   },
@@ -2863,7 +2863,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 12
   },
@@ -2877,7 +2877,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 14
   },
@@ -2891,7 +2891,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 7
   },
@@ -2905,7 +2905,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 16
   },
@@ -2919,7 +2919,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 8
   },
@@ -2933,7 +2933,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 46
   },
@@ -2947,7 +2947,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 10
   },
@@ -2961,7 +2961,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 14
   },
@@ -2974,10 +2974,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "new": 2,
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
-   "count": 30
+   "count": 32
   },
   {
    "id": "thehackernews",
@@ -2989,7 +2989,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "",
    "count": 44
   },
@@ -3003,7 +3003,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "UCc3pNIRzIZ8ynI38GO6H01Q",
    "count": 17
   },
@@ -3017,7 +3017,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "UCJ9905MRHxwLZ2jeNQGIWxA",
    "count": 16
   },
@@ -3031,7 +3031,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "UCn8PsBlVsGUt8J3tZCKsMPA",
    "count": 3
   },
@@ -3045,7 +3045,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "UC4s3tv0Qq_OSUBfR735Jc6A",
    "count": 3
   },
@@ -3059,7 +3059,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "UCsMica-v34Irf9KVTh6xx-g",
    "count": 13
   },
@@ -3073,7 +3073,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
    "count": 13
   },
@@ -3087,12 +3087,70 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:15:30Z",
+   "last_ok": "2026-10-12T21:16:13Z",
    "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "count": 9
   }
  ],
  "items": [
+  {
+   "id": "8d0ac34c06d5",
+   "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+   "title": "Yandex confirms service outage as users lose access to cloud files",
+   "published": "2026-10-12T19:23:01Z",
+   "first_seen": "2026-10-12T21:16:13Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8ba9b8e7a12a",
+   "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+   "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+   "published": "2026-10-12T18:51:59Z",
+   "first_seen": "2026-10-12T21:16:13Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "ai-threats",
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d8d241723974",
+   "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+   "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+   "published": "2026-10-12T17:43:59Z",
+   "first_seen": "2026-10-12T21:16:13Z",
+   "source": "gh-blog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
   {
    "id": "96ebc43c0cf5",
    "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
