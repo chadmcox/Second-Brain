@@ -59,6 +59,13 @@ none = ["windows autopilot", "autopilot device preparation", "autopilot profile"
 scope = "microsoft"
 
 [[topics]]
+id = "foundry"
+name = "Microsoft Foundry"
+any = ["foundry", "azure ai foundry", "microsoft foundry", "foundry agent service", "foundry models"]
+none = []
+scope = "microsoft"     # "foundry" also means chip foundries in NVIDIA and AMD news
+
+[[topics]]
 id = "agent365"
 name = "Agent 365"
 any = ["agent 365", "agent365"]
@@ -416,6 +423,38 @@ url = "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
 home = "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
 filter = "all"
 topics = ["entra"]
+
+[[sources]]
+id = "foundry-blog"
+name = "Microsoft Foundry Blog"
+group = "microsoft"
+type = "rss"
+url = "https://devblogs.microsoft.com/foundry/feed/"
+home = "https://devblogs.microsoft.com/foundry/"
+filter = "all"
+topics = ["foundry"]
+
+[[sources]]
+id = "learn-foundry-whats-new"
+name = "What's new in Microsoft Foundry"
+group = "microsoft"
+type = "learn"
+layout = "articles"     # one month per page, listing new and updated articles
+kind = "release"
+url = "https://learn.microsoft.com/en-us/azure/foundry/whats-new-foundry"
+home = "https://learn.microsoft.com/en-us/azure/foundry/whats-new-foundry"
+filter = "all"
+topics = ["foundry"]
+
+[[sources]]
+id = "learn-foundry-model-router"
+name = "What's new in Foundry model router"
+group = "microsoft"
+type = "learn"
+url = "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/whats-new-model-router"
+home = "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/whats-new-model-router"
+filter = "all"
+topics = ["foundry"]
 
 [[sources]]
 id = "openai"

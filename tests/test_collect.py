@@ -399,6 +399,18 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(len({r["key"] for r in rows}), len(rows))
         self.assertNotIn("Improvements", [r["title"] for r in rows])
 
+    def test_learn_article_list(self):
+        md = (FIX / "learn-articles.md").read_text()
+        self.assertEqual(collect.parse_learn(md, "https://learn.test/whats-new"), [])
+        rows = collect.parse_learn_articles(md, "https://learn.test/whats-new")
+        self.assertEqual([r["title"] for r in rows], [
+            "What is an autopilot in Microsoft Foundry?", "Deploy a steerable agent (preview)",
+            "Deploy and use MAI-Thinking-1 in Microsoft Foundry", "Run a hosted agent locally"])
+        self.assertEqual(collect.iso(rows[0]["published"]), "2026-08-01T00:00:00Z")
+        self.assertEqual(rows[0]["summary_text"], "New articles - Foundry Agent Service.")
+        self.assertEqual(rows[3]["summary_text"], "Updated articles - Foundry Agent Service.")
+        self.assertTrue(rows[2]["url"].endswith("use-foundry-models-mai-thinking"))
+
     def test_scoped_theme_only_tags_its_group(self):
         cl = collect.Classifier([{"id": "ai-threats", "theme": True, "scope": "security", "any": ["ai agents"]}])
         self.assertEqual(cl.topics_for("AI agents used to hack banks", "", "security", []), ["ai-threats"])

@@ -508,6 +508,48 @@ _MD_LABEL = re.compile(r"^(type|service category|product capability|roadmap id|d
 _MD_PLAIN_DATE = re.compile(r"^[A-Z][a-z]{2,8}\.? \d{1,2}, \d{4}$")
 
 
+_MD_MONTH = r"(?:January|February|March|April|May|June|July|August|September|October|November|December)"
+
+
+def parse_learn_articles(markdown: str, page_url: str) -> list[dict]:
+    """A "what's new" page that covers one month and lists new and updated articles.
+
+    The month comes from the intro ("key updates ... in August 2026"); each linked
+    article becomes an entry, grouped under its section and product area.
+    """
+    found = re.search(rf"\b({_MD_MONTH}\s+\d{{4}})\b", markdown[:3000])
+    date = parse_date(re.sub(r"^(\w+)\s+(\d{4})$", r"\1 1, \2", found.group(1))) if found else None
+    if not date:
+        return []
+    base = page_url.split("?", 1)[0].split("#", 1)[0]
+    section = area = ""
+    entries = []
+    for line in markdown.splitlines():
+        heading = re.match(r"^#{2,4}\s+(.*)$", line)
+        if heading:
+            section, area = _md_text(heading.group(1)), ""
+            if section.lower().startswith(("next steps", "related", "see also")):
+                break
+            continue
+        item = re.match(r"^\s*(?:[-*]|\d+(?:\.\d+)*\.)\s+(.*)$", line)
+        if not item or not section:
+            continue
+        link = re.search(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", item.group(1))
+        if not link:
+            area = _md_text(item.group(1))
+            continue
+        title = _md_text(link.group(1))
+        label = " - ".join(x for x in (section, area) if x)
+        entries.append({
+            "url": canonical_url(link.group(2)) or base,
+            "key": f"{base}|{date.date()}|{section}|{title}".lower(),
+            "title": title, "published": date,
+            "summary_text": f"{label}." if label else "",
+            "body_text": "", "categories": [x for x in (section, area) if x],
+        })
+    return entries
+
+
 def parse_learn(markdown: str, page_url: str) -> list[dict]:
     """Entries from a Microsoft Learn "what's new" page fetched as Markdown.
 
@@ -682,6 +724,8 @@ def collect_source(src: dict, known: dict, now: datetime, ingest_days: int,
         if text.lstrip()[:1] == "<":
             raise RuntimeError("the page came back as HTML, not Markdown")
         raw_entries = parse_learn(text, src["url"])
+        if not raw_entries and src.get("layout") == "articles":
+            raw_entries = parse_learn_articles(text, src["url"])
         if not raw_entries:
             raise RuntimeError("no dated entries found (the page layout may have changed)")
     else:

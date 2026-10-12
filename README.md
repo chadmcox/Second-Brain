@@ -5,7 +5,7 @@ reads official Microsoft blogs and competitor news pages, keeps the posts about 
 you track, optionally writes a short AI summary of each, and publishes the result with GitHub
 Pages.
 
-It tracks Microsoft 365 Copilot, Copilot Studio, GitHub Copilot, Copilot Cowork, Copilot Autopilot, Agent 365, Entra and
+It tracks Microsoft 365 Copilot, Copilot Studio, GitHub Copilot, Copilot Cowork, Copilot Autopilot, Microsoft Foundry, Agent 365, Entra and
 Defender, plus OpenAI, Anthropic, Google, xAI, Meta, Mistral, NVIDIA, AMD, Hugging Face, Salesforce and
 CrowdStrike.
 
