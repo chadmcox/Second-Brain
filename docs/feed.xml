@@ -4,7 +4,15 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Mon, 12 Oct 2026 17:13:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 17:15:30 +0000</lastBuildDate>
+    <item>
+      <title>[Meta] Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents</title>
+      <link>https://about.fb.com/news/2026/10/introducing-muse-wonder-models/</link>
+      <guid isPermaLink="false">96ebc43c0cf5</guid>
+      <pubDate>Mon, 12 Oct 2026 17:08:05 +0000</pubDate>
+      <description>Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks.</description>
+      <category>personal-agents</category>
+    </item>
     <item>
       <title>[BleepingComputer] Cyberattack shuts down refrigerators at French supermarkets</title>
       <link>https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/</link>
@@ -620,14 +628,6 @@
       <pubDate>Wed, 07 Oct 2026 18:30:01 +0000</pubDate>
       <description>What can you build in Copilot Studio now? Agents with your chosen model, skills, connectors, APIs, MCPs, knowledge, and memory, all running on the GitHub Copilot harness. Add multi-step workflows that bring in other agents or people, and full-stack apps you generate with natural language, without writing a single line of code. ▶ Full video: https://youtu.be/k4V44dn_TQo ▶ Get started…</description>
       <category>copilotstudio</category>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[GitHub] Intelligent local model routing is coming to GitHub Copilot</title>
-      <link>https://www.youtube.com/watch?v=QIHnmqYU614</link>
-      <guid isPermaLink="false">3ab018f5b14f</guid>
-      <pubDate>Wed, 07 Oct 2026 18:10:17 +0000</pubDate>
-      <description>GitHub Copilot is extending intelligent model orchestration from the cloud down to your local machine. Copilot can automatically discover installed local models from providers like Ollama and Microsoft Foundry Local without manual setup. And soon intelligent routing will offload workflows like simple tasks, codebase explanations, and background automations to an on-device model for zero AI credits. Watch to learn…</description>
       <category>githubcopilot</category>
     </item>
   </channel>

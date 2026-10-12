@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T17:13:19Z",
+ "generated": "2026-10-12T17:15:30Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -106,7 +106,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-12T17:13:19Z",
+  "checked": "2026-10-12T17:15:30Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -619,7 +619,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-12T17:13:19Z",
+  "checked": "2026-10-12T17:15:30Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -2429,7 +2429,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 22
   },
@@ -2443,7 +2443,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 3
   },
@@ -2457,7 +2457,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 19
   },
@@ -2471,7 +2471,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 7
   },
@@ -2485,7 +2485,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 4
   },
@@ -2499,7 +2499,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 18
   },
@@ -2513,7 +2513,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 11
   },
@@ -2527,7 +2527,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 0
   },
@@ -2541,7 +2541,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 5
   },
@@ -2555,7 +2555,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 0
   },
@@ -2569,7 +2569,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 121
   },
@@ -2583,7 +2583,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 94
   },
@@ -2597,7 +2597,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 8
   },
@@ -2611,7 +2611,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 6
   },
@@ -2625,7 +2625,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 3
   },
@@ -2639,7 +2639,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 10
   },
@@ -2653,7 +2653,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 7
   },
@@ -2667,7 +2667,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 2
   },
@@ -2681,7 +2681,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 21
   },
@@ -2695,7 +2695,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 0
   },
@@ -2708,8 +2708,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 10,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "new": 0,
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 10
   },
@@ -2720,12 +2720,12 @@
    "group": "microsoft",
    "company": "",
    "type": "learn",
-   "ok": false,
-   "error": "no dated entries found (the page layout may have changed)",
-   "new": 0,
-   "last_ok": "",
+   "ok": true,
+   "error": "",
+   "new": 60,
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
-   "count": 0
+   "count": 60
   },
   {
    "id": "learn-foundry-model-router",
@@ -2736,8 +2736,8 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 7,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "new": 0,
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 7
   },
@@ -2751,7 +2751,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 115
   },
@@ -2765,7 +2765,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 13
   },
@@ -2779,7 +2779,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 13
   },
@@ -2793,7 +2793,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 27
   },
@@ -2807,7 +2807,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 7
   },
@@ -2821,7 +2821,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 31
   },
@@ -2835,7 +2835,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 3
   },
@@ -2848,10 +2848,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "new": 1,
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
-   "count": 3
+   "count": 4
   },
   {
    "id": "mistral",
@@ -2863,7 +2863,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 12
   },
@@ -2876,8 +2876,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "new": 0,
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 14
   },
@@ -2891,7 +2891,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 7
   },
@@ -2904,8 +2904,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "new": 0,
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 16
   },
@@ -2918,8 +2918,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "new": 0,
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 8
   },
@@ -2933,7 +2933,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 46
   },
@@ -2947,7 +2947,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 10
   },
@@ -2960,8 +2960,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "new": 0,
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 14
   },
@@ -2974,8 +2974,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "new": 0,
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 30
   },
@@ -2988,8 +2988,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 4,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "new": 0,
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "",
    "count": 44
   },
@@ -3003,7 +3003,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "UCc3pNIRzIZ8ynI38GO6H01Q",
    "count": 17
   },
@@ -3016,8 +3016,8 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "new": 0,
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "UCJ9905MRHxwLZ2jeNQGIWxA",
    "count": 16
   },
@@ -3031,7 +3031,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "UCn8PsBlVsGUt8J3tZCKsMPA",
    "count": 3
   },
@@ -3045,7 +3045,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "UC4s3tv0Qq_OSUBfR735Jc6A",
    "count": 3
   },
@@ -3059,7 +3059,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "UCsMica-v34Irf9KVTh6xx-g",
    "count": 13
   },
@@ -3073,7 +3073,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
    "count": 13
   },
@@ -3087,12 +3087,31 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-12T17:13:19Z",
+   "last_ok": "2026-10-12T17:15:30Z",
    "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "count": 9
   }
  ],
  "items": [
+  {
+   "id": "96ebc43c0cf5",
+   "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+   "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+   "published": "2026-10-12T17:08:05Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "meta-news",
+   "group": "competitor",
+   "company": "Meta",
+   "kind": "post",
+   "topics": [
+    "personal-agents"
+   ],
+   "status": "",
+   "excerpt": "Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
   {
    "id": "5ae29bf7b51a",
    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
@@ -16441,6 +16460,25 @@
    "competes_with": []
   },
   {
+   "id": "ff0d8bd44893",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/get-started-projects-visual-studio-code",
+   "title": "Microsoft Foundry Toolkit for Visual Studio Code overview",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry platform.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "f93f15129edb",
    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#august-2026",
    "title": "Tamper protection in audit mode for Linux",
@@ -16460,6 +16498,63 @@
    "competes_with": []
   },
   {
+   "id": "ef57f0812472",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/content-safety/provenance-disclosure",
+   "title": "Content provenance",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Responsible AI.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "ed5a3e918f94",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/mcp/available-tools",
+   "title": "Explore available tools and example prompts for Foundry MCP Server (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "Updated articles - Foundry MCP Server.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e966f4d8782b",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/private-skill-catalog",
+   "title": "Create a private skill catalog in Foundry Agent Service",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "e8f25175a9dd",
    "url": "https://learn.microsoft.com/en-us/cloud-app-security/release-notes#august-2026",
    "title": "Unified RBAC is enabled by default for new Defender for Cloud Apps customers",
@@ -16474,6 +16569,44 @@
    ],
    "status": "",
    "excerpt": "Starting in August 2026, Microsoft Defender unified role-based access control (RBAC) is automatically enabled for new Defender for Cloud Apps customers. No manual workload activation is required. Unified RBAC provides a centralized experience for managing roles and permissions across Microsoft Defender products. For more information, see Microsoft Defender unified role-based access control and Configure admin access…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "da93226100c1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/recover-long-running-work",
+   "title": "Recover long-running work after a crash (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d06ed5db6502",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/sdk-overview",
+   "title": "Get started with Microsoft Foundry SDKs and endpoints",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Models and APIs.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -16518,6 +16651,82 @@
    "competes_with": []
   },
   {
+   "id": "bb7001c11a29",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/long-running-agent-resilience",
+   "title": "Resilience for long-running Microsoft Foundry hosted agents (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "baae9ee234c0",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/deploy-resilient-agent",
+   "title": "Deploy a crash-resilient long-running agent (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b92fd25c0bf6",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/stream-with-reconnect",
+   "title": "Stream long-running agent output with reconnect (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b832bd454c17",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/responses-multi-agent",
+   "title": "Use multi-agent orchestration with the Azure OpenAI Responses API",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Models and APIs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "ae92f9421b99",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#august-2026",
    "title": "Local browser use",
@@ -16533,6 +16742,26 @@
    ],
    "status": "ga",
    "excerpt": "Enhancements. This feature moved from Frontier to general availability to all Microsoft 365 Copilot tenants. Cowork can complete web tasks for you in Microsoft Edge on your device, using your existing sign-ins and your organization's policies. Requires that Edge is installed.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "abd44c164a95",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/agent-365",
+   "title": "Quickstart: Build your first autopilot",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "autopilot",
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Agent Service.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -16557,6 +16786,121 @@
    "competes_with": []
   },
   {
+   "id": "aa315c960840",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-thinking",
+   "title": "Deploy and use MAI-Thinking-1 in Microsoft Foundry",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Models and APIs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "a7a9e6918c59",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/customer-managed-keys",
+   "title": "Customer-managed key encryption in Microsoft Foundry",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry platform.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "a02d6123c0dd",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/evaluate-admin-connected-models",
+   "title": "Use admin-connected models in cloud evaluations",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "9def6643d674",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/autopilot-overview",
+   "title": "What is an autopilot in Microsoft Foundry?",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "autopilot",
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "9a80fba17610",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/model-migration",
+   "title": "Model migration: Upgrade or switch models in Microsoft Foundry",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Models and APIs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "980b85da5bab",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/steer-hosted-agent",
+   "title": "Steer an in-flight agent turn (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "979ffa35edea",
    "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#august-2026",
    "title": "Workspace file input for plugin tools",
@@ -16576,6 +16920,25 @@
    "competes_with": []
   },
   {
+   "id": "94f2494e7b38",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/cloud-evaluation-deployed-interactions",
+   "title": "Evaluate deployed interactions with the Microsoft Foundry SDK",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "9366bcccdaf3",
    "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
    "title": "SharePoint Lists",
@@ -16590,6 +16953,139 @@
    ],
    "status": "",
    "excerpt": "New features. Review SharePoint list columns and items, and create or update list items.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8ed680c2ef65",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/web-search",
+   "title": "Use web search tool in Foundry Agent Service",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8cd4b6e946f5",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/toolbox",
+   "title": "Create and manage a toolbox in Microsoft Foundry",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8b9d765a43c1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/quickstarts/quickstart-hosted-agent",
+   "title": "Quickstart: Deploy your first hosted agent",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8b157c9dce00",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-chat-reasoning",
+   "title": "Microsoft Foundry reasoning models",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Models and APIs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8a645d60232e",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/code-interpreter",
+   "title": "Use Code Interpreter with Microsoft Foundry agents",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8502f084f7ba",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/cloud-evaluation-datasets",
+   "title": "Evaluate datasets with the Microsoft Foundry SDK",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "845d2ca0569d",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/deploy-steerable-agent",
+   "title": "Deploy a steerable agent (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "New articles - Foundry Agent Service.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -16633,6 +17129,121 @@
    "competes_with": []
   },
   {
+   "id": "76902da3a9ef",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/add-human-in-the-loop",
+   "title": "Add a human-in-the-loop approval step (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "766a10b7671a",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/autopilot-lifecycle",
+   "title": "Autopilot lifecycle in Microsoft Foundry",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "autopilot",
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "75698b0a97c4",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/quickstarts/quickstart-optimize-prompt-agent",
+   "title": "Quickstart: Optimize a prompt agent (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "731ba73e1378",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/evaluation-datasets",
+   "title": "Evaluation datasets in Microsoft Foundry",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "6ff630ae5481",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/fabric-iq",
+   "title": "Connect agents to Microsoft Fabric with Fabric IQ (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "Updated articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "6b039260d0dc",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/how-to/upgrade-azure-openai-auto",
+   "title": "Manage automatic upgrades from Azure OpenAI to Microsoft Foundry",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Models and APIs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "690feb0eef76",
    "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
    "title": "File sharing and access",
@@ -16666,6 +17277,140 @@
    ],
    "status": "",
    "excerpt": "New features. Turn on Use a GitHub Enterprise host on the sign-in screen to sign in to GitHub Enterprise Cloud (for example, your-org.ghe.com).",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5e6f6067020e",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/set-up-foundry-project-visual-studio-code",
+   "title": "Set up a Microsoft Foundry project in Visual Studio Code",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry platform.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5916d2103c74",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/cloud-evaluation-results",
+   "title": "Get cloud evaluation results with the Microsoft Foundry SDK",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "56c901cae078",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/trace-ingestion-entra-authentication",
+   "title": "Configure Microsoft Entra authentication for Foundry Agent trace ingestion (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry",
+    "entra"
+   ],
+   "status": "preview",
+   "excerpt": "New articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5217a6d3d430",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/cloud-evaluation-targets",
+   "title": "Evaluate models and agents with the Microsoft Foundry SDK",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "50844418d304",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/capability-reference",
+   "title": "Microsoft Foundry capability reference",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry platform.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "504967a73048",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/evaluation-dataset-schema",
+   "title": "Evaluation dataset schema in Microsoft Foundry",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "444c4e8e8f29",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/azure-yaml-reference",
+   "title": "azure.yaml reference for hosted agents",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Agent Service.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -16709,6 +17454,139 @@
    "competes_with": []
   },
   {
+   "id": "3e78e72179fb",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/reasoning",
+   "title": "Azure OpenAI reasoning models",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Models and APIs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3e17aca0d8be",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/private-registry-connections",
+   "title": "Bring your own registry for hosted agents",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3979819afdc8",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/cloud-evaluation-synthetic-data",
+   "title": "Generate synthetic data with the Microsoft Foundry SDK",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "385f8b45444d",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/tutorials/quickstart-create-foundry-resources",
+   "title": "Quickstart: Set up Microsoft Foundry resources",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry platform.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3820b9bf4a96",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-grok",
+   "title": "Deploy and use Grok models in Microsoft Foundry",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Models and APIs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "36ac51034318",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/agent-optimizer-costs",
+   "title": "Agent optimizer cost and token usage overview",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3694617bb1d4",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/foundry-skills-scenarios-example-prompts",
+   "title": "Microsoft Foundry Skill example prompts and scenarios",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry platform.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "316e1213a2cc",
    "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
    "title": "Outlook inbox rules",
@@ -16747,6 +17625,101 @@
    "competes_with": []
   },
   {
+   "id": "2bf470f27370",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/toolbox-network-isolation",
+   "title": "Network isolation for a toolbox in Microsoft Foundry",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2ba729b9fa98",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/manage-task-state",
+   "title": "Manage state for long-running agents (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2b6c3919e74e",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/evaluate-model-router",
+   "title": "Evaluate model router for your workload",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry Models and APIs.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2b5b1cc48590",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/how-to-monitor-agents-dashboard",
+   "title": "Monitor agents with the Agent Monitoring Dashboard",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "21cb4310d59f",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/azure-developer-cli-evaluation",
+   "title": "Run agent evaluations with the azd CLI (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "Updated articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "1fcdff41fc3d",
    "url": "https://learn.microsoft.com/en-us/microsoft-scout/whats-new#august-2026",
    "title": "Cloud-stored Co-Create workspaces",
@@ -16766,6 +17739,120 @@
    "competes_with": []
   },
   {
+   "id": "1ebd6fb95841",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/openapi",
+   "title": "Connect OpenAPI tools to Microsoft Foundry agents",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "1e455163e55b",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/capabilities",
+   "title": "Microsoft Foundry product and capability map",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry platform.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "1bafc3e1cfbf",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/run-hosted-agent-locally",
+   "title": "Run a hosted agent locally",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "154f662d3301",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/use-routines",
+   "title": "Automate agents with routines",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "151fbb4ed732",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/cloud-evaluation-conversations",
+   "title": "Evaluate conversations with the Microsoft Foundry SDK",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "147676f87109",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/cloud-evaluation",
+   "title": "Run cloud evaluations with the Microsoft Foundry SDK",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "11774e8d32e6",
    "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/whats-new-model-router#august-2026",
    "title": "Model router expands to 28 regions",
@@ -16780,6 +17867,82 @@
    ],
    "status": "ga",
    "excerpt": "Model router is now available in 28 Azure regions. Global Standard was available in all 28 regions, while Data Zone Standard was available in 21. For the full list, see Supported regions.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0dc8bbc3a6fd",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/runtime-components",
+   "title": "Build with runtime components in Foundry Agent Service",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "Updated articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0ca7460a3a5d",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/long-running-agent-reference",
+   "title": "Long-running agent API reference (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "New articles - Foundry Agent Service.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "09648391e78c",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/evaluation-dataset-synthetic",
+   "title": "Generate a synthetic evaluation dataset (preview)",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "preview",
+   "excerpt": "Updated articles - Observability and evaluation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "06e99b35fba5",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/install-foundry-toolkit-visual-studio-code",
+   "title": "Install Microsoft Foundry Toolkit for Visual Studio Code",
+   "published": "2026-08-01T00:00:00Z",
+   "first_seen": "2026-10-12T17:15:30Z",
+   "source": "learn-foundry-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "release",
+   "topics": [
+    "foundry"
+   ],
+   "status": "",
+   "excerpt": "New articles - Foundry platform.",
    "summary": "",
    "relevance": "",
    "competes_with": []
