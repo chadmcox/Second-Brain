@@ -410,6 +410,7 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(rows[0]["summary_text"], "New articles - Foundry Agent Service.")
         self.assertEqual(rows[3]["summary_text"], "Updated articles - Foundry Agent Service.")
         self.assertTrue(rows[2]["url"].endswith("use-foundry-models-mai-thinking"))
+        self.assertEqual(rows[3]["url"], "https://learn.test/en-us/azure/foundry/agents/how-to/run-hosted-agent-locally")
 
     def test_scoped_theme_only_tags_its_group(self):
         cl = collect.Classifier([{"id": "ai-threats", "theme": True, "scope": "security", "any": ["ai agents"]}])

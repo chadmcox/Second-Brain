@@ -534,14 +534,14 @@ def parse_learn_articles(markdown: str, page_url: str) -> list[dict]:
         item = re.match(r"^\s*(?:[-*]|\d+(?:\.\d+)*\.)\s+(.*)$", line)
         if not item or not section:
             continue
-        link = re.search(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", item.group(1))
+        link = re.search(r"\[([^\]]+)\]\(([^)\s]+)\)", item.group(1))   # links may be relative
         if not link:
             area = _md_text(item.group(1))
             continue
         title = _md_text(link.group(1))
         label = " - ".join(x for x in (section, area) if x)
         entries.append({
-            "url": canonical_url(link.group(2)) or base,
+            "url": canonical_url(link.group(2), base) or base,
             "key": f"{base}|{date.date()}|{section}|{title}".lower(),
             "title": title, "published": date,
             "summary_text": f"{label}." if label else "",

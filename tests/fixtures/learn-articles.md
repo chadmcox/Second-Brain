@@ -13,7 +13,7 @@ Welcome! This article highlights key updates for Microsoft Foundry in August 202
 ## Updated articles
 
 1. Foundry Agent Service
-   1. [Run a hosted agent locally](https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/run-hosted-agent-locally)
+   1. [Run a hosted agent locally](/en-us/azure/foundry/agents/how-to/run-hosted-agent-locally)
 
 ## Next steps
 
