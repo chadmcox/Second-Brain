@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T20:30:24Z",
+ "generated": "2026-10-13T20:35:43Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -106,7 +106,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-13T20:30:24Z",
+  "checked": "2026-10-13T20:35:43Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -614,7 +614,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-13T20:30:24Z",
+  "checked": "2026-10-13T20:35:43Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -2570,7 +2570,7 @@
   ]
  },
  "upcoming": {
-  "checked": "2026-10-13T20:30:24Z",
+  "checked": "2026-10-13T20:35:43Z",
   "error": "",
   "rows": [
    {
@@ -2855,469 +2855,6 @@
     "clouds": [],
     "url": "https://azure.microsoft.com/updates?id=571821",
     "modified": "2026-09-18T17:23:21.3964293Z"
-   },
-   {
-    "key": "azure:570283",
-    "id": "570283",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure Arc enabled System Center Virtual Machine Manager will be retired September 30, 2029",
-    "description": "Microsoft is retiring Azure Arc-enabled System Center Virtual Machine Manager (SCVMM) in September 2029. Customers must plan and transition to alternative solutions.What does this mean for you?If you …",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=570283",
-    "modified": "2026-09-29T17:36:13.5325647Z"
-   },
-   {
-    "key": "azure:557117",
-    "id": "557117",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure Communication Services (ACS) standalone services will be retired on September 30, 2028",
-    "description": "Microsoft will retire several standalone Azure Communication Services (ACS) offerings on September 30, 2028. After this date, the affected services will no longer be available. Details Beginning Sept…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Communication Services"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=557117",
-    "modified": "2026-09-24T17:51:23.9357057Z"
-   },
-   {
-    "key": "azure:569914",
-    "id": "569914",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure IoT Central will be retired on September 20, 2029",
-    "description": "Azure IoT Central will be retired on September 20, 2029. You can continue using Azure IoT Central until the retirement date, but we recommend starting your transition planning early.Why is this happen…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure IoT Central"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=569914",
-    "modified": "2026-09-29T17:25:10.2803304Z"
-   },
-   {
-    "key": "azure:572346",
-    "id": "572346",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Dv3, Dsv3, Ev3, and Esv3 Azure VMs",
-    "description": "As part of the Microsoft Azure VM lifecycle policy, Microsoft is announcing the retirement of the Dv3, Dsv3, Ev3, and Esv3 Azure VM series in public cloud Azure regions. These VMs will enter the End-o…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Virtual Machines"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=572346",
-    "modified": "2026-09-30T17:07:30.9170547Z"
-   },
-   {
-    "key": "azure:570800",
-    "id": "570800",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Functions on Azure Container Apps V1",
-    "description": "The Functions on Azure Container Apps (ACA) V1 will be retired on September 29, 2027. After this date, existing Functions on ACA V1 Apps will stop running and no longer process requests or event-drive…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Container Apps"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=570800",
-    "modified": "2026-09-29T19:41:09.7685716Z"
-   },
-   {
-    "key": "azure:570046",
-    "id": "570046",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Microsoft HPC Pack",
-    "description": "Microsoft is retiring all versions of HPC Pack. End of Support is August 27, 2027. HPC Pack is now entering a one-year retirement period. Microsoft will provide limited, retirement-only support during…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=570046",
-    "modified": "2026-09-29T17:26:50.7288439Z"
-   },
-   {
-    "key": "azure:573414",
-    "id": "573414",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: NVv3-series Azure Virtual Machines",
-    "description": "On September 30, 2026, Microsoft Azure retired the Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, and Standard_NV48s_v3 virtual machines (VMs) in the…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Virtual Machines"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=573414",
-    "modified": "2026-09-30T18:26:47.0594641Z"
-   },
-   {
-    "key": "azure:573415",
-    "id": "573415",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: NVv4-series Azure Virtual Machines",
-    "description": "On September 30, 2026, Microsoft Azure retired the Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4, and Standa…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Virtual Machines"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=573415",
-    "modified": "2026-09-30T18:24:01.2462397Z"
-   },
-   {
-    "key": "azure:ai-services-anomaly-detector-will-be-retired-on-1-october-2026",
-    "id": "ai-services-anomaly-detector-will-be-retired-on-1-october-2026",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "AI Services Anomaly Detector will be retired on 1 October 2026",
-    "description": "You’re receiving this email because you’re currently using AI Services Anomaly Detector. On 1 October 2026 AI Services Anomaly Detector will be retired. From now through 1 October 2026, you c…",
-    "month": "2026-10",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=ai-services-anomaly-detector-will-be-retired-on-1-october-2026",
-    "modified": "2023-09-29T23:10:29Z"
-   },
-   {
-    "key": "azure:azure-ai-translator-s2s4-billing-instances-will-be-retired-on-1-october-2026-transition-to-commitment-tiers-for-discounted-pr",
-    "id": "azure-ai-translator-s2s4-billing-instances-will-be-retired-on-1-october-2026-transition-to-commitment-tiers-for-discounted-pr",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Azure AI Translator S2-S4 billing instances will be retired on 1 October 2026 – transition to Commitment Tiers for discounted pricing.",
-    "description": "Azure AI Translator has consolidated its paid pricing instances into Commitment Tiers. We’ve retired our Volume Discount S2-S4 pricing instances. You have until 1 October 2026 to migrate to Commitmen…",
-    "month": "2026-10",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=azure-ai-translator-s2s4-billing-instances-will-be-retired-on-1-october-2026-transition-to-commitment-tiers-for-discounted-pr",
-    "modified": "2023-09-29T23:10:57Z"
-   },
-   {
-    "key": "azure:571342",
-    "id": "571342",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement Update: SAP container images removed October 14, 2026",
-    "description": "The containerized SAP data connector retired on September 14, 2026 and is unsupported and unmaintained. Existing TLS-compliant agents may continue sending logs through the retired HTTP Data Collector …",
-    "month": "2026-10",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=571342",
-    "modified": "2026-09-16T17:19:02.1256185Z"
-   },
-   {
-    "key": "azure:502623",
-    "id": "502623",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure Databricks Standard tier will retire by October 2026",
-    "description": "We are announcing the retirement of Azure Databricks Standard Tier. Azure subscriptions will no longer support creation of Azure Databricks Standard Tier workspaces after April 1st, 2026. Starting O…",
-    "month": "2026-10",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Databricks"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=502623",
-    "modified": "2025-09-16T00:15:32.0633304Z"
-   },
-   {
-    "key": "azure:485030",
-    "id": "485030",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure SQL Database FSV2-Series Offer",
-    "description": "You’re receiving this notification because you're associated with one or more Azure subscriptions that use Azure SQL Database using FSV2 offer. In 2020, we launched FSV2-series as a hardware choice Az…",
-    "month": "2026-10",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure SQL Database"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=485030",
-    "modified": "2025-03-28T16:30:54.2276822Z"
-   },
-   {
-    "key": "azure:513892",
-    "id": "513892",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Deprecation of Custom Resource Providers",
-    "description": "In 2026, Azure Resource Manager will be deprecating the Custom Resource Provider (CuRP) service.We will retire the feature by October 31, 2026. We will be performing a scream test on October 27, 2025,…",
-    "month": "2026-10",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Resource Manager"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=513892",
-    "modified": "2025-12-29T17:30:40.7931753Z"
-   },
-   {
-    "key": "azure:496964",
-    "id": "496964",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: General Purpose v1 (GPv1) and legacy blob storage accounts",
-    "description": "As part of our ongoing efforts to streamline the Azure Storage portfolio and deliver enhanced performance, scalability, and cost efficiency, we are announcing the retirement of all General purpose v1 …",
-    "month": "2026-10",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Storage Accounts"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=496964",
-    "modified": "2025-10-03T14:15:21.4288344Z"
-   },
-   {
-    "key": "azure:564441",
-    "id": "564441",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: GPv1 and Legacy Blob storage account creation",
-    "description": "As part of our ongoing efforts to streamline the Azure Storage portfolio and deliver enhanced performance, scalability, and cost efficiency, we are announcing the retirement of all General purpose v1 …",
-    "month": "2026-10",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Storage Accounts"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=564441",
-    "modified": "2026-06-11T19:00:41.8954189Z"
-   },
-   {
-    "key": "azure:545771",
-    "id": "545771",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for Python 3.10 ends on October 1, 2026 – upgrade your Azure Functions apps to Python 3.13",
-    "description": "In alignment with the end of community support, on October 1, 2026, support for Python 3.10 in Azure Functions will end. Your apps that are hosted on Functions will continue to run, but security updat…",
-    "month": "2026-10",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Functions"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=545771",
-    "modified": "2026-01-28T23:15:47.9149911Z"
-   },
-   {
-    "key": "azure:509686",
-    "id": "509686",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for Python 3.10 ends on October 1st, 2026",
-    "description": "On October 1, 2026 extended support for Python 3.10 will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer provi…",
-    "month": "2026-10",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "App Service"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=509686",
-    "modified": "2025-11-14T21:15:14.5052991Z"
-   },
-   {
-    "key": "azure:499906",
-    "id": "499906",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Windows Server 2022 on Azure Kubernetes Service enabled by Azure Arc",
-    "description": "Announcing the retirement of Windows Server 2022 on Azure Kubernetes Service enabled by Azure Arc in October 2026.",
-    "month": "2026-10",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=499906",
-    "modified": "2025-11-14T18:00:13.7355821Z"
    },
    {
     "key": "azure:574343",
@@ -5792,182 +5329,6 @@
     "modified": "2026-10-05T17:41:41.9221035Z"
    },
    {
-    "key": "azure:569236",
-    "id": "569236",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Always Encrypted with Intel SGX Enclaves",
-    "description": "Always Encrypted with Intel SGX enclaves in Azure SQL Database will retire on October 31, 2027 as support for SGX-enabled DC-series hardware is phased out. Customers should transition to Virtualizatio…",
-    "month": "2026-10",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure SQL Database"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=569236",
-    "modified": "2026-10-06T16:42:33.6279734Z"
-   },
-   {
-    "key": "azure:568178",
-    "id": "568178",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure App Service on Azure Stack Hub",
-    "description": "Azure App Service on Azure Stack Hub will be retired on September 30, 2029. Starting September 30, 2026, new installations will no longer be supported, and no new product releases, features, or enhanc…",
-    "month": "2026-10",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "App Service",
-     "Azure Stack Hub"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=568178",
-    "modified": "2026-10-06T18:24:43.7287643Z"
-   },
-   {
-    "key": "azure:570313",
-    "id": "570313",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
-    "description": "The Azure Key Vault Secrets Provider Extension for Azure Arc-enabled Kubernetes will be retired on October 9, 2027.Customers currently using the extension should plan to migrate to the Azure Key Vault…",
-    "month": "2026-10",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=570313",
-    "modified": "2026-10-09T20:27:17.3413744Z"
-   },
-   {
-    "key": "azure:569592",
-    "id": "569592",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired on October 31, 2029",
-    "description": "On October 31, 2029, DCsv3 and DCdsv3-series Azure Linux, Windows and Dedicated Host virtual machines will be retired. After that date, they will no longer be available for use or purchase. Before Oc…",
-    "month": "2026-10",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Linux Virtual Machines",
-     "Virtual Machines",
-     "Windows Virtual Machines"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=569592",
-    "modified": "2026-10-01T17:02:55.8403654Z"
-   },
-   {
-    "key": "azure:567933",
-    "id": "567933",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Microsoft Dev Box will be retired on September 18, 2028",
-    "description": "Microsoft Dev Box will retire on September 18, 2028. Beginning on September 14, 2026, Microsoft Dev Box will begin the closing-down process. After retirement, Microsoft Dev Box will no longer be avail…",
-    "month": "2026-10",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Microsoft Dev Box"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=567933",
-    "modified": "2026-10-08T18:23:25.2897312Z"
-   },
-   {
-    "key": "azure:570232",
-    "id": "570232",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Pod name dimension in AKS pod platform metrics",
-    "description": "Beginning September 30, 2027, support for the pod name dimension on the following Azure Monitor platform metrics is retiring, and these metrics are transitioning to aggregate pod counters:Number of po…",
-    "month": "2026-10",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Kubernetes Service (AKS)"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=570232",
-    "modified": "2026-10-06T22:37:54.798617Z"
-   },
-   {
-    "key": "azure:568585",
-    "id": "568585",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
-    "description": "On September 1, 2027 support for Java 8, 11 and 17 will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer provid…",
-    "month": "2026-10",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Announced"
-     }
-    ],
-    "status": "",
-    "products": [
-     "App Service"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=568585",
-    "modified": "2026-10-06T18:21:59.3548773Z"
-   },
-   {
     "key": "m365:569208",
     "id": "569208",
     "kind": "m365",
@@ -6149,156 +5510,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=570850",
     "modified": "2026-10-12T23:01:05.1232604Z"
-   },
-   {
-    "key": "azure:555839",
-    "id": "555839",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Managed NGINX Ingress with Application Routing Add-on Retiring November 2026",
-    "description": "The upstream Ingress-NGINX project is being deprecated and will stop receiving updates after March 2026. Microsoft will continue providing critical security patches through 30 November 2026, after whi…",
-    "month": "2026-11",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Kubernetes Service (AKS)"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=555839",
-    "modified": "2026-02-27T21:45:03.1344369Z"
-   },
-   {
-    "key": "azure:558033",
-    "id": "558033",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for .NET 8 (LTS) ends on November 10, 2026—upgrade your apps to .NET 10 (LTS)",
-    "description": "On November 10, 2026, support for .NET 8 (LTS) will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available and we'll no longer provide cus…",
-    "month": "2026-11",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "App Service"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=558033",
-    "modified": "2026-04-24T17:45:05.9024351Z"
-   },
-   {
-    "key": "azure:572838",
-    "id": "572838",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for .NET 8 and .NET 9 ends on November 10, 2026—upgrade your apps to .NET 10",
-    "description": "Support for .NET 8 and .NET 9 will end on November 10, 2026. Please transition to .NET 10 by that date. Your Azure Function Apps will continue to operate, but security updates will no longer be provid…",
-    "month": "2026-11",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Functions"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=572838",
-    "modified": "2026-09-23T16:46:49.1401459Z"
-   },
-   {
-    "key": "azure:485077",
-    "id": "485077",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for .NET 9 (STS) ends on November 10, 2026",
-    "description": "On 10 November, 2026, support for .NET 9 (STS) will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available and we’ll no longer provide cus…",
-    "month": "2026-11",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "App Service"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=485077",
-    "modified": "2025-06-17T20:00:18.2409287Z"
-   },
-   {
-    "key": "azure:572770",
-    "id": "572770",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for PowerShell 7.4 ends on November 10, 2026",
-    "description": "Support for PowerShell 7.4 will end on November 10, 2026, please transition to PowerShell 7.6. Your Azure Function apps will continue to run, but security patches and updates will no longer be provide…",
-    "month": "2026-11",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Functions"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=572770",
-    "modified": "2026-09-23T16:50:05.5913061Z"
-   },
-   {
-    "key": "azure:retirement-support-for-the-inprocess-model-for-net-apps-in-azure-functions-ends-10-november-2026",
-    "id": "retirement-support-for-the-inprocess-model-for-net-apps-in-azure-functions-ends-10-november-2026",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for the in-process model for .NET apps in Azure Functions ends 10 November 2026.",
-    "description": "Beginning 10 November 2026, the in-process model for .NET apps in Azure Functions will no longer be supported. To ensure that your apps that use this model continue being supported, you'll need to tra…",
-    "month": "2026-11",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Functions"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=retirement-support-for-the-inprocess-model-for-net-apps-in-azure-functions-ends-10-november-2026",
-    "modified": "2024-03-29T23:00:32Z"
    },
    {
     "key": "m365:573446",
@@ -7540,54 +6751,6 @@
     "modified": "2026-10-12T23:01:05.1232604Z"
    },
    {
-    "key": "azure:571257",
-    "id": "571257",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure Linux with OS Guard in Azure Kubernetes Service",
-    "description": "Support for Azure Linux with OS Guard in Azure Kubernetes Service will end on December 10, 2026. Azure Container Linux is the replacement for Azure Linux with OS Guard (preview). Starting on December …",
-    "month": "2026-12",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=571257",
-    "modified": "2026-09-11T18:08:28.7193012Z"
-   },
-   {
-    "key": "azure:php-82-app-svc",
-    "id": "php-82-app-svc",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Extended support for PHP 8.2 ends December 31st, 2026 – upgrade apps to PHP 8.3",
-    "description": "On December 31st, 2026, extended support for PHP 8.2 will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer prov…",
-    "month": "2026-12",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "App Service"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=php-82-app-svc",
-    "modified": "2024-09-26T07:00:00Z"
-   },
-   {
     "key": "m365:562993",
     "id": "562993",
     "kind": "m365",
@@ -8415,104 +7578,6 @@
     "modified": "2026-08-17T22:52:47.6278829Z"
    },
    {
-    "key": "azure:fxtretirement",
-    "id": "fxtretirement",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Announcing Azure FXT Edge Filer Retirement",
-    "description": "Azure FXT Edge Filer will be retired on December 31, 2026. You can still place orders for FXT Edge Filers through December 2023. Customers who maintain support licenses will receive hardware and softw…",
-    "month": "2027-01",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure FXT Edge Filer"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=fxtretirement",
-    "modified": "2023-09-15T23:11:17Z"
-   },
-   {
-    "key": "azure:hpc-pack-2016-will-be-retired-on-12-january-2027",
-    "id": "hpc-pack-2016-will-be-retired-on-12-january-2027",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "HPC Pack 2016 will be retired on 12 January 2027",
-    "description": "HPC Pack 2016 follows the Fixed Lifecycle Policy and will reach the end of support. Therefore, we’ll retire HPC Pack 2016 on 12 January 2027. The existing experience that HPC Pack 2016 offers will no …",
-    "month": "2027-01",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=hpc-pack-2016-will-be-retired-on-12-january-2027",
-    "modified": "2024-03-22T23:00:10Z"
-   },
-   {
-    "key": "azure:564806",
-    "id": "564806",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Migrate from Azure Blueprints by January 31, 2027",
-    "description": "In September 2023, we announced Azure Blueprints would retire on July 11, 2026. We're extending that timeline to January 31, 2027, with phased retirement beginning July 31, 2026.What's changing?July 3…",
-    "month": "2027-01",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Blueprints"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=564806",
-    "modified": "2026-06-25T16:00:03.1057825Z"
-   },
-   {
-    "key": "azure:549077",
-    "id": "549077",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for Windows Server 2016 Marketplace images on Azure Batch pools will end on January 12, 2027",
-    "description": "Azure Batch periodically retires support for operating systems that reach end-of-life status. Support for Windows Server 2016 concluded on January 11, 2022, with extended support scheduled to end on J…",
-    "month": "2027-01",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Batch"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=549077",
-    "modified": "2026-03-16T18:45:11.5147114Z"
-   },
-   {
     "key": "m365:567894",
     "id": "567894",
     "kind": "m365",
@@ -8915,31 +7980,6 @@
     "modified": "2026-10-12T23:01:05.1232604Z"
    },
    {
-    "key": "azure:567934",
-    "id": "567934",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
-    "description": "Azure Deployment Environments will retire on February 22, 2027. Beginning on September 14, 2026, Azure Deployment Environments will begin the closing-down process. After retirement, the service will n…",
-    "month": "2027-02",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-02",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Deployment Environments"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=567934",
-    "modified": "2026-10-08T18:20:34.0097044Z"
-   },
-   {
     "key": "m365:523223",
     "id": "523223",
     "kind": "m365",
@@ -9112,540 +8152,6 @@
     "modified": "2026-10-05T23:03:05.0409869Z"
    },
    {
-    "key": "azure:azure-content-moderator-retirement",
-    "id": "azure-content-moderator-retirement",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Azure Content Moderator will be retired on 15 March 2027",
-    "description": "On 15 March 2027 Azure Content Moderator will be retired. From now through 15 March 2027, you can continue to use your existing Azure Content Moderator resources. After 15 March 2027, Azure Content Mo…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=azure-content-moderator-retirement",
-    "modified": "2024-03-22T23:00:14Z"
-   },
-   {
-    "key": "azure:azure-front-door-classic-will-be-retired-on-31-march-2027",
-    "id": "azure-front-door-classic-will-be-retired-on-31-march-2027",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Azure Front Door (classic) will be retired on 31 March 2027",
-    "description": "On 31 March 2027, Azure Front Door (classic) will be retired for the public cloud, and you’ll need to migrate to Front Door Standard or Premium by that date. Beginning 1 April 2025, you’ll no longe…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Front Door"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=azure-front-door-classic-will-be-retired-on-31-march-2027",
-    "modified": "2024-03-27T16:28:56Z"
-   },
-   {
-    "key": "azure:begin-using-azure-monitor-based-dashboards-in-azure-api-management-before-the-builtin-analytics-dashboards-are-retired-on-15",
-    "id": "begin-using-azure-monitor-based-dashboards-in-azure-api-management-before-the-builtin-analytics-dashboards-are-retired-on-15",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Begin using Azure Monitor–based dashboards in Azure API Management before the built-in analytics dashboards are retired on 15 March 2027",
-    "description": "On 15 March 2027, the analytics dashboards that are built in to Azure API Management will be retired. Before that date, you’ll need to transition to using the new Azure Monitor–based dashboards that u…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=begin-using-azure-monitor-based-dashboards-in-azure-api-management-before-the-builtin-analytics-dashboards-are-retired-on-15",
-    "modified": "2024-03-29T23:19:35Z"
-   },
-   {
-    "key": "azure:community-support-for-standardm192idsv2-is-ending-on-31-march-2027",
-    "id": "community-support-for-standardm192idsv2-is-ending-on-31-march-2027",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Community support for Standard_M192ids_v2 is ending on 31 March 2027",
-    "description": "Standard_M192ids_v2 will be retired on 31 March 2027, please transition to the Mdsv3 Medium Memory Series by that date. Isolated size VMs live and operate on a specific hardware generation for whic…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=community-support-for-standardm192idsv2-is-ending-on-31-march-2027",
-    "modified": "2024-03-22T23:00:09Z"
-   },
-   {
-    "key": "azure:community-support-for-standardm192imsv2-is-ending-on-31-march-2027",
-    "id": "community-support-for-standardm192imsv2-is-ending-on-31-march-2027",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Community support for Standard_M192ims_v2 is ending on 31 March 2027",
-    "description": "Standard_M192ims_v2 will be retired on 31 March 2027, please transition to Standard_M176s_4_v3 by that date. Isolated size VMs live and operate on a specific hardware generation for which t…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=community-support-for-standardm192imsv2-is-ending-on-31-march-2027",
-    "modified": "2024-03-22T23:00:08Z"
-   },
-   {
-    "key": "azure:community-support-for-standardm192isv2-is-ending-on-31-march-2027",
-    "id": "community-support-for-standardm192isv2-is-ending-on-31-march-2027",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Community support for Standard_M192is_v2 is ending on 31 March 2027",
-    "description": "Standard_M192is_v2 will be retired on 31 March 2027, please transition to the Msv3 Medium Memory Series by that date. Isolated size VMs live and operate on a specific hardware generation for which…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=community-support-for-standardm192isv2-is-ending-on-31-march-2027",
-    "modified": "2024-03-22T23:00:08Z"
-   },
-   {
-    "key": "azure:499606",
-    "id": "499606",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure Cache for Redis Enterprise is retiring on March 30, 2027 and new creation requests will be blocked starting April 1, 2026",
-    "description": "Azure Cache for Redis Enterprise and Enterprise Flash tiers is retiring on March 31, 2027 and new creation requests will be blocked starting April 1, 2026. We recommend you migrate your workloads to u…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Cache for Redis"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=499606",
-    "modified": "2025-10-08T23:15:04.2856269Z"
-   },
-   {
-    "key": "azure:559395",
-    "id": "559395",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure Managed Grafana Essential SKU will retire on March 30, 2027",
-    "description": "Azure Managed Grafana Essential SKU will be retired on March 30, 2027.Customers using the Essential SKU are encouraged to transition to Azure Managed Grafana Standard SKU or Azure Monitor Dashboards w…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Managed Grafana"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=559395",
-    "modified": "2026-04-13T17:15:23.1377681Z"
-   },
-   {
-    "key": "azure:558086",
-    "id": "558086",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure SQL Elastic query - Shard_Map_Manager mode",
-    "description": "Starting March 31, 2027 Elastic query using Shard_Map_Manager external data source type reaches end of support.Existing workloads can continue to run using Azure SQL Elastic query - Shard_Map_Manager …",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure SQL Database"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=558086",
-    "modified": "2026-03-20T19:00:50.812324Z"
-   },
-   {
-    "key": "azure:499923",
-    "id": "499923",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Azure VPN Gateway support for SSTP Protocol will be retired on March 31, 2027",
-    "description": "Due to its limited scalability and suboptimal performance, support for SSTP will be phased out. We strongly recommend transitioning to IKEv2 or OpenVPN, which offer significantly enhanced capabilities…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "VPN Gateway"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=499923",
-    "modified": "2025-10-03T16:01:01.1123012Z"
-   },
-   {
-    "key": "azure:558276",
-    "id": "558276",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: AzureDnsEndpoints for Azure storage accounts will be retired March 2027",
-    "description": "AzureDnsZone endpoints (preview) for Azure Blob storage accounts will enter retirement in March 2027. Customers leveraging AzureDnsZone endpoints (preview) should transition to Standard endpoints for …",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Blob Storage"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=558276",
-    "modified": "2026-04-02T16:30:09.2101811Z"
-   },
-   {
-    "key": "azure:486344",
-    "id": "486344",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Cloud Services (Extended Support) to Be Retired on March 31, 2027",
-    "description": "On March 31, 2027, we’ll retire the Cloud Services (extended support) deployment model. Before that date, you’ll need to migrate services that were deployed using this model to Service Fabric managed …",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Cloud Services"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=486344",
-    "modified": "2025-03-31T20:30:26.2620002Z"
-   },
-   {
-    "key": "azure:550519",
-    "id": "550519",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Deprecation of sidecar for remote-write for Azure Monitor managed service for Prometheus",
-    "description": "On March 31, 2027 Azure Monitor will be deprecating the sidecar for remote-write of Prometheus metrics to Azure Monitor Workspace. This is as part of our ongoing efforts to improve reliability and red…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Kubernetes Service (AKS)",
-     "Azure Monitor"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=550519",
-    "modified": "2026-03-30T21:30:50.093344Z"
-   },
-   {
-    "key": "azure:485167",
-    "id": "485167",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Docker Compose Feature for Azure App Service to Be Retired on March 31, 2027 – Replaced by Sidecars in Azure App Service",
-    "description": "The docker compose feature will be retired on March 31, 2027, please transition to the sidecar container by that date. The sidecar containers allow you to create multi-container applications with a mo…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=485167",
-    "modified": "2025-03-26T17:15:39.5570806Z"
-   },
-   {
-    "key": "azure:558278",
-    "id": "558278",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Emissions Impact Dashboard for Azure",
-    "description": "Effective March 31, 2027, the Emissions Impact Dashboard for Azure hosted by Power BI will be retired. After this date, the dashboard will no longer be accessible and technical support will be discont…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=558278",
-    "modified": "2026-03-18T18:45:54.5925446Z"
-   },
-   {
-    "key": "azure:558027",
-    "id": "558027",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Python support for Azure App Service and Azure Functions on Windows will be retired on March 31, 2027",
-    "description": "Starting March 31, 2027, Python applications hosted on Azure App Service on Windows and Azure Functions on Windows will no longer run. After this date: Your application configuration and content wi…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "App Service"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=558027",
-    "modified": "2026-04-02T16:45:52.7122053Z"
-   },
-   {
-    "key": "azure:558246",
-    "id": "558246",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Service Fabric support for Windows Server 2019 ends on March 31, 2027 - upgrade to Windows Server 2025",
-    "description": "Service Fabric will end support for all clusters running on Windows Server 2019 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This chang…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Service Fabric"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=558246",
-    "modified": "2026-04-01T20:30:41.7066612Z"
-   },
-   {
-    "key": "azure:558247",
-    "id": "558247",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Service Fabric support for Windows Server 2022 ends on March 31, 2027 - upgrade to Windows Server 2025",
-    "description": "Service Fabric will end support for all clusters running on Windows Server 2022 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This chang…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Service Fabric"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=558247",
-    "modified": "2026-04-01T21:00:19.8626472Z"
-   },
-   {
-    "key": "azure:retirement-support-for-application-gateway-web-application-firewall-v2-configuration-is-ending",
-    "id": "retirement-support-for-application-gateway-web-application-firewall-v2-configuration-is-ending",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for Application Gateway Web Application Firewall v2 Configuration is ending",
-    "description": "On 15 March 2027, the Application Gateway WAF v2 Configuration will be retired. To continue using this service, switch to the Application Gateway WAF v2 Policy before the retirement date. The WAF Poli…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Application Gateway",
-     "Web Application Firewall"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=retirement-support-for-application-gateway-web-application-firewall-v2-configuration-is-ending",
-    "modified": "2024-03-15T23:00:03Z"
-   },
-   {
-    "key": "azure:485795",
-    "id": "485795",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Ubuntu 20.04 Node Pools in AKS",
-    "description": "Ubuntu 20.04 on Azure Kubernetes Service will be retired on March 17, 2027. Please transition to a supported Ubuntu version by that date. Ubuntu 20.04 has been replaced by newer supported versions…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Kubernetes Service (AKS)"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=485795",
-    "modified": "2025-03-28T16:30:54.2276822Z"
-   },
-   {
-    "key": "azure:support-for-standardm192idmsv2-will-be-retired-on-31-march-2027",
-    "id": "support-for-standardm192idmsv2-will-be-retired-on-31-march-2027",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Support for Standard_M192idms_v2 will be retired on 31 March 2027",
-    "description": "Standard_M192idms_v2 will be retired on 31 March 2027, please transition to Standard_M176ds_4_v3 by that date. Isolated size VMs live and operate on a specific hardware generation for which they…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "Launched",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=support-for-standardm192idmsv2-will-be-retired-on-31-march-2027",
-    "modified": "2024-03-22T23:00:09Z"
-   },
-   {
-    "key": "azure:support-of-azure-notification-hubs-firebase-cloud-messaging-fcm-legacy-api-will-be-deprecated-by-july-2024",
-    "id": "support-of-azure-notification-hubs-firebase-cloud-messaging-fcm-legacy-api-will-be-deprecated-by-july-2024",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Support of Azure Notification Hubs’ Firebase Cloud Messaging (FCM) legacy API will be deprecated by July 2024.",
-    "description": "Firebase Cloud Messaging (FCM) is a service that, among other things, facilitates developers sending push notifications to Google Play supported Android devices. ANH previously communicated with FCM u…",
-    "month": "2027-03",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=support-of-azure-notification-hubs-firebase-cloud-messaging-fcm-legacy-api-will-be-deprecated-by-july-2024",
-    "modified": "2024-04-19T23:00:53Z"
-   },
-   {
     "key": "m365:493752",
     "id": "493752",
     "kind": "m365",
@@ -9790,79 +8296,6 @@
     "modified": "2026-10-12T23:01:05.1232604Z"
    },
    {
-    "key": "azure:502936",
-    "id": "502936",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Prompt Flow in Azure ML and Foundry",
-    "description": "Prompt Flow will be retired from Microsoft Foundry and Azure Machine Learning on April 20, 2027 and replaced by a single, modern orchestration platform: Microsoft Agent Framework. This change unlocks …",
-    "month": "2027-04",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-04",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=502936",
-    "modified": "2026-04-27T16:15:55.7068873Z"
-   },
-   {
-    "key": "azure:567334",
-    "id": "567334",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for Node 22 LTS ends on April 30, 2027",
-    "description": "On April 30 2027, support for Node 22 LTS will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer provide custome…",
-    "month": "2027-04",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-04",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "App Service"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=567334",
-    "modified": "2026-08-24T17:30:43.3459834Z"
-   },
-   {
-    "key": "azure:572771",
-    "id": "572771",
-    "kind": "azure",
-    "labels": [
-     "Azure retirements"
-    ],
-    "title": "Retirement: Support for Node.js 22 ends on April 30, 2027",
-    "description": "Support for Node.js 22 will end on April 30, 2027, please transition to Node.js 24 by that date. Your Azure Function apps will continue to run, but security patches and updates will no longer be provi…",
-    "month": "2027-04",
-    "milestone": "Retirement",
-    "milestones": [
-     {
-      "month": "2027-04",
-      "ring": "Retirement"
-     }
-    ],
-    "status": "",
-    "products": [
-     "Azure Functions"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=572771",
-    "modified": "2026-09-22T19:22:34.3836913Z"
-   },
-   {
     "key": "m365:160010",
     "id": "160010",
     "kind": "m365",
@@ -9904,7 +8337,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 23
   },
@@ -9918,7 +8351,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 3
   },
@@ -9932,7 +8365,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 20
   },
@@ -9946,7 +8379,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 7
   },
@@ -9960,7 +8393,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 4
   },
@@ -9974,7 +8407,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 21
   },
@@ -9988,7 +8421,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 12
   },
@@ -10002,7 +8435,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 0
   },
@@ -10016,7 +8449,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 5
   },
@@ -10030,7 +8463,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 0
   },
@@ -10044,7 +8477,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 124
   },
@@ -10058,7 +8491,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 94
   },
@@ -10072,7 +8505,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 8
   },
@@ -10086,7 +8519,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 6
   },
@@ -10100,7 +8533,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 3
   },
@@ -10114,7 +8547,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 10
   },
@@ -10128,7 +8561,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 7
   },
@@ -10142,7 +8575,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 2
   },
@@ -10156,7 +8589,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 21
   },
@@ -10170,7 +8603,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 0
   },
@@ -10184,7 +8617,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 11
   },
@@ -10198,7 +8631,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 60
   },
@@ -10212,7 +8645,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 7
   },
@@ -10226,7 +8659,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 116
   },
@@ -10240,7 +8673,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 13
   },
@@ -10254,7 +8687,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 17
   },
@@ -10267,8 +8700,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 3,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "new": 0,
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 30
   },
@@ -10282,7 +8715,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 8
   },
@@ -10296,7 +8729,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 32
   },
@@ -10310,7 +8743,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 3
   },
@@ -10324,7 +8757,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 4
   },
@@ -10338,7 +8771,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 12
   },
@@ -10352,7 +8785,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 16
   },
@@ -10366,7 +8799,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 7
   },
@@ -10380,7 +8813,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 18
   },
@@ -10394,7 +8827,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 8
   },
@@ -10408,7 +8841,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 47
   },
@@ -10422,7 +8855,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 10
   },
@@ -10436,7 +8869,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 16
   },
@@ -10449,8 +8882,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "new": 0,
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 35
   },
@@ -10464,7 +8897,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "",
    "count": 49
   },
@@ -10478,7 +8911,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "UCc3pNIRzIZ8ynI38GO6H01Q",
    "count": 17
   },
@@ -10492,7 +8925,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "UCJ9905MRHxwLZ2jeNQGIWxA",
    "count": 17
   },
@@ -10506,7 +8939,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "UCn8PsBlVsGUt8J3tZCKsMPA",
    "count": 3
   },
@@ -10520,7 +8953,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "UC4s3tv0Qq_OSUBfR735Jc6A",
    "count": 3
   },
@@ -10533,8 +8966,8 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "new": 0,
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "UCsMica-v34Irf9KVTh6xx-g",
    "count": 15
   },
@@ -10548,7 +8981,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
    "count": 13
   },
@@ -10562,7 +8995,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:30:24Z",
+   "last_ok": "2026-10-13T20:35:43Z",
    "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "count": 9
   }
