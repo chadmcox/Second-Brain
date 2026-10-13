@@ -4,7 +4,29 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Tue, 13 Oct 2026 19:17:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 20:30:24 +0000</lastBuildDate>
+    <item>
+      <title>[Microsoft Developer] Fewer Experiments, Faster Discovery</title>
+      <link>https://www.youtube.com/shorts/y0uuFwjIFR4</link>
+      <guid isPermaLink="false">7b1ec7aae03d</guid>
+      <pubDate>Tue, 13 Oct 2026 20:00:20 +0000</pubDate>
+      <description>Microsoft Discovery coordinates AI agents that help scientists narrow a huge research space down to the most promising candidates. Ali Zaman, Product Manager at Microsoft, explains. From our full conversation on building a better battery. Watch that episode here: https://youtu.be/w-csec1OUgM</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/</link>
+      <guid isPermaLink="false">21edffe12082</guid>
+      <pubDate>Tue, 13 Oct 2026 19:56:09 +0000</pubDate>
+      <description>Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Google] Developing Gemini 4 Argon responsibly and safely</title>
+      <link>https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/</link>
+      <guid isPermaLink="false">471508c04c30</guid>
+      <pubDate>Tue, 13 Oct 2026 19:43:07 +0000</pubDate>
+      <description />
+    </item>
     <item>
       <title>[Microsoft Mechanics] Ask AI Agents If You’re Protected From a Threat Actor</title>
       <link>https://www.youtube.com/shorts/quj0s7oVs-g</link>
@@ -74,6 +96,20 @@
       <pubDate>Tue, 13 Oct 2026 16:18:00 +0000</pubDate>
       <description>The new research, published by AI security startup AIR, found that a network filtering flaw in Vercel Sandbox — a tool used to run code in isolated environments — could allow agents to exploit certificate validation processes to transmit data outside approved networks.</description>
       <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Google] Gemini 4 Argon for Robotics</title>
+      <link>https://deepmind.google/blog/gemini-4-argon-for-robotics/</link>
+      <guid isPermaLink="false">884ebf3c3978</guid>
+      <pubDate>Tue, 13 Oct 2026 16:01:58 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Google] Gemini 4 Argon: Built to solve your hardest problems</title>
+      <link>https://deepmind.google/blog/introducing-gemini-4-argon/</link>
+      <guid isPermaLink="false">f174716114a9</guid>
+      <pubDate>Tue, 13 Oct 2026 16:01:52 +0000</pubDate>
+      <description />
     </item>
     <item>
       <title>[Google] Gemini 4 Argon: Built to solve your hardest problems</title>
@@ -590,45 +626,6 @@
       <guid isPermaLink="false">736f1f005399</guid>
       <pubDate>Thu, 08 Oct 2026 21:19:39 +0000</pubDate>
       <description>Agent sessions shouldn't be locked into a single code editor or terminal window. Patrick Nikoletich explains how GitHub's shared agent runtime, Copilot SDK, and Agent Host Protocol let developers move active sessions seamlessly across multiple devices. Watch a live demonstration of hosting an agent on a home Linux machine, connecting via Copilot CLI, and syncing real-time updates across multiple clients. ▬▬▬▬▬▬ WANT…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[NVIDIA] Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents</title>
-      <link>https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/</link>
-      <guid isPermaLink="false">baf7193e75c1</guid>
-      <pubDate>Thu, 08 Oct 2026 21:06:35 +0000</pubDate>
-      <description>Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through […]</description>
-    </item>
-    <item>
-      <title>[Microsoft Copilot] Meet Office in Copilot</title>
-      <link>https://www.youtube.com/shorts/z_l-MQwqqxA</link>
-      <guid isPermaLink="false">b2f9b0f2e900</guid>
-      <pubDate>Thu, 08 Oct 2026 21:00:36 +0000</pubDate>
-      <description>With Office in Copilot, documents, presentations, spreadsheets, meetings, and conversations come together in one experience, helping people stay in the flow instead of constantly moving between apps. Watch Microsoft Copilot EVP Jacob Andreou explain how Copilot brings the power of Office into one place. #MicrosoftCopilot #OfficeInCopilot</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Ransomware attack disrupts Japan's IDCF Cloud used by govt clients</title>
-      <link>https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/</link>
-      <guid isPermaLink="false">b5d504810047</guid>
-      <pubDate>Thu, 08 Oct 2026 20:09:45 +0000</pubDate>
-      <description>IDC Frontier, a major Japanese cloud and digital infrastructure company, disclosed that its IDCF Cloud service was targeted in a ransomware attack that caused an outage at a data center cluster serving the eastern part of the country. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft Developer] 4X the Turns, 16X the Cost</title>
-      <link>https://www.youtube.com/shorts/PV3aAxRYI2M</link>
-      <guid isPermaLink="false">c6203d3cd6cd</guid>
-      <pubDate>Thu, 08 Oct 2026 20:00:32 +0000</pubDate>
-      <description>AI agent costs grow faster than the work itself, and caching is how you bring them back down. Gareth Bland, Chief Data Scientist at Microsoft, explains. From our full conversation on TokenOps (https://youtu.be/B4yovi_znxE). #AIAgents #TokenOps</description>
-    </item>
-    <item>
-      <title>[Microsoft] Copilot code review: New organization billing options and controls</title>
-      <link>https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls</link>
-      <guid isPermaLink="false">8eab0c9a25ba</guid>
-      <pubDate>Thu, 08 Oct 2026 19:43:05 +0000</pubDate>
-      <description>This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s…</description>
-      <category>copilot</category>
       <category>githubcopilot</category>
     </item>
   </channel>
