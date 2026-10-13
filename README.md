@@ -31,7 +31,7 @@ General → Workflow permissions** and choose **Read and write permissions**.
   the week's key items, and the latest post for each product.
 - **Upcoming**: a release calendar from Microsoft's Release Communications MCP server:
   Microsoft 365 roadmap dates for Copilot, Copilot Studio, Work IQ, Entra and Purview, recent
-  Foundry, Azure Copilot and security updates, and Azure retirements. Edit `[upcoming]` in
+  Foundry, Azure Copilot and security updates. Edit `[upcoming]` in
   `config.toml` to change what it asks for.
 - **Microsoft** and **Competitors**: a day-by-day timeline you can filter by product or
   company, status (Preview, Generally available, Frontier, Retiring), period and search text.

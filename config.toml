@@ -191,8 +191,7 @@ home = ""
 # ---------------------------------------------------------------- upcoming
 # The Upcoming tab is a release calendar built from Microsoft's Release
 # Communications MCP server: Microsoft 365 roadmap items with a preview or
-# general availability date in the coming months, recent Azure updates, and
-# Azure retirements. Filters use the server's OData syntax.
+# general availability date in the coming months and recent Azure updates. Filters use the server's OData syntax.
 
 [upcoming]
 enabled = true
@@ -240,12 +239,6 @@ filter = "products/any(p: p eq 'Azure Copilot')"
 label = "Security"
 tool = "get_recent_azure_updates"
 filter = "productCategories/any(pc: pc eq 'Security')"
-
-[[upcoming.queries]]
-label = "Azure retirements"
-tool = "get_recent_azure_updates"
-filter = "tags/any(t: t eq 'Retirements')"
-when = "retirement"
 
 # --------------------------------------------------------------- community
 # The Community tab lists public GitHub repositories that carry one of these
