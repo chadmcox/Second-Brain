@@ -412,6 +412,52 @@ class UnitTests(unittest.TestCase):
         self.assertTrue(rows[2]["url"].endswith("use-foundry-models-mai-thinking"))
         self.assertEqual(rows[3]["url"], "https://learn.test/en-us/azure/foundry/agents/how-to/run-hosted-agent-locally")
 
+    def test_mcp_reply_parsing(self):
+        sse = 'event: message\ndata: {"jsonrpc":"2.0","id":3,"result":{"ok":1}}\n\n'
+        self.assertEqual(collect.parse_mcp_reply(sse, "text/event-stream", 3)["result"], {"ok": 1})
+        self.assertEqual(collect.parse_mcp_reply('{"jsonrpc":"2.0","id":2,"result":{}}', "application/json", 2)["id"], 2)
+        with self.assertRaises(RuntimeError):
+            collect.parse_mcp_reply('{"jsonrpc":"2.0","id":2,"error":{"message":"bad"}}', "application/json", 2)
+
+    def test_upcoming(self):
+        class Fake:
+            def __init__(self):
+                self.calls = []
+
+            def call(self, tool, args):
+                self.calls.append((tool, args))
+                if "azure" in tool:
+                    return {"hasMore": False, "items": [
+                        {"id": 9, "title": "Old thing retires", "status": "Launched", "created": "2025-01-01T00:00:00Z",
+                         "availabilities": [{"ring": "Retirement", "year": 2027, "month": "March"}]},
+                        {"id": 10, "title": "Foundry news", "created": "2026-10-01T00:00:00Z", "status": "Launched"}]}
+                return {"hasMore": False, "items": [
+                    {"id": 1, "title": "Feature A", "status": "In development", "generalAvailabilityDate": "2026-11",
+                     "previewAvailabilityDate": "2026-10", "products": ["Microsoft Copilot (Microsoft 365)"],
+                     "cloudInstances": ["GCC"], "description": "<b>Does</b> things..."},
+                    {"id": 2, "title": "Cancelled B", "status": "Cancelled", "generalAvailabilityDate": "2026-11"},
+                    {"id": 3, "title": "Too far C", "status": "In development", "generalAvailabilityDate": "2028-01"},
+                    {"id": 4, "title": "Past D", "status": "Launched", "generalAvailabilityDate": "2026-05"}]}
+        fake = Fake()
+        cfg = {"months_ahead": 6, "queries": [
+            {"label": "Copilot", "tool": "get_recent_m365_roadmaps", "filter": "products/any(p: p eq 'X')"},
+            {"label": "Studio", "tool": "get_recent_m365_roadmaps", "filter": "products/any(p: p eq 'Y')"},
+            {"label": "Retirements", "tool": "get_recent_azure_updates", "filter": "tags/any(t: t eq 'Retirements')",
+             "when": "retirement"}]}
+        out = collect.build_upcoming(cfg, {}, NOW, fake)
+        got = {r["title"]: r for r in out["rows"]}
+        self.assertEqual(set(got), {"Feature A", "Old thing retires", "Foundry news"})
+        a = got["Feature A"]
+        self.assertEqual((a["month"], a["milestone"], a["labels"]), ("2026-10", "Preview", ["Copilot", "Studio"]))
+        self.assertEqual([m["ring"] for m in a["milestones"]], ["Preview", "General availability"])
+        self.assertEqual(a["description"], "Does things…")
+        self.assertEqual(a["url"], "https://www.microsoft.com/microsoft-365/roadmap?id=1")
+        self.assertEqual((got["Old thing retires"]["month"], got["Old thing retires"]["milestone"]), ("2027-03", "Retirement"))
+        self.assertEqual(got["Foundry news"]["milestone"], "Announced")
+        self.assertEqual([r["month"] for r in out["rows"]], sorted(r["month"] for r in out["rows"]))
+        self.assertIn("generalAvailabilityDate ge '2026-10'", fake.calls[0][1]["filter"])
+        self.assertIn("a/ring eq 'Retirement' and a/year ge 2026", fake.calls[2][1]["filter"])
+
     def test_scoped_theme_only_tags_its_group(self):
         cl = collect.Classifier([{"id": "ai-threats", "theme": True, "scope": "security", "any": ["ai agents"]}])
         self.assertEqual(cl.topics_for("AI agents used to hack banks", "", "security", []), ["ai-threats"])

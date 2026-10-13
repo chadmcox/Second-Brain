@@ -7,7 +7,7 @@
   var DAY = 86400000;
   var PAGE = 120;
   var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "autopilot", "agent365", "entra", "defender", "ai-threats", "incidents", "agent-registries", "security-agents", "foundry"];
-  var VIEWS = ["overview", "microsoft", "competitors", "security", "videos", "community", "models", "sources"];
+  var VIEWS = ["overview", "microsoft", "upcoming", "competitors", "security", "videos", "community", "models", "sources"];
   var FEEDS = { microsoft: "microsoft", competitors: "competitor", security: "security", videos: "video" };
   var DEFAULTS = { scope: "", theme: "", status: "", range: "30", q: "", key: "", roadmap: "" };
 
@@ -106,7 +106,7 @@
 
   function writeHash(replace) {
     var params = new URLSearchParams();
-    if (FEEDS[state.view] || state.view === "community") {
+    if (FEEDS[state.view] || state.view === "community" || state.view === "upcoming") {
       Object.keys(DEFAULTS).forEach(function (k) {
         if (state[k] && state[k] !== DEFAULTS[k]) params.set(k, state[k]);
       });
@@ -464,6 +464,91 @@
     });
   }
 
+  // ------------------------------------------------------------- upcoming
+  var fmtMonth = new Intl.DateTimeFormat(undefined, { month: "long", year: "numeric" });
+  var fmtMonthShort = new Intl.DateTimeFormat(undefined, { month: "short", year: "numeric" });
+  function monthDate(ym) { var p = ym.split("-"); return new Date(+p[0], +p[1] - 1, 1); }
+
+  function renderUpcoming() {
+    var u = data.upcoming || { rows: [] };
+    var note = u.checked ? "Checked " + fmtFull.format(new Date(u.checked)) + "." : "";
+    if (u.error) note += " Some queries failed: " + u.error + ".";
+    $("upcoming-note").textContent = note;
+
+    function set(key, value) { state[key] = value; writeHash(true); renderUpcoming(); }
+    var labels = [], rings = [];
+    u.rows.forEach(function (r) {
+      r.labels.forEach(function (l) { if (labels.indexOf(l) < 0) labels.push(l); });
+      if (rings.indexOf(r.milestone) < 0) rings.push(r.milestone);
+    });
+    function pass(r, skip) {
+      if (skip !== "scope" && state.scope && r.labels.indexOf(state.scope) < 0) return false;
+      if (skip !== "status" && state.status && r.milestone !== state.status) return false;
+      if (state.q) {
+        var hay = (r.title + " " + r.description + " " + r.products.join(" ")).toLowerCase();
+        var words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+        for (var i = 0; i < words.length; i++) if (hay.indexOf(words[i]) < 0) return false;
+      }
+      return true;
+    }
+    var forScope = u.rows.filter(function (r) { return pass(r, "scope"); });
+    var box = clear($("chips-upcoming"));
+    box.appendChild(chip("All", forScope.length, !state.scope, "", function () { set("scope", ""); }));
+    labels.forEach(function (l) {
+      var n = forScope.filter(function (r) { return r.labels.indexOf(l) >= 0; }).length;
+      box.appendChild(chip(l, n, state.scope === l, "", function () { set("scope", state.scope === l ? "" : l); }));
+    });
+    var forRing = u.rows.filter(function (r) { return pass(r, "status"); });
+    var rbox = clear($("chips-upcoming-ring"));
+    rbox.appendChild(chip("Any", null, !state.status, "", function () { set("status", ""); }));
+    rings.forEach(function (g) {
+      var n = forRing.filter(function (r) { return r.milestone === g; }).length;
+      rbox.appendChild(chip(g, n, state.status === g, "", function () { set("status", state.status === g ? "" : g); }));
+    });
+    if (document.activeElement !== $("u-q")) $("u-q").value = state.q;
+
+    var rows = u.rows.filter(function (r) { return pass(r); });
+    $("upcoming-count").textContent = u.rows.length ? plural(rows.length, "entry").replace("entrys", "entries") : "";
+    var list = clear($("upcoming-list"));
+    if (!rows.length) {
+      list.appendChild(el("p", { class: "empty", text: u.rows.length
+        ? "Nothing matches these filters. Clear a filter to see more."
+        : "The release calendar has not been read yet. It fills in on the next run." }));
+      return;
+    }
+    var nowYm = new Date().getFullYear() + "-" + String(new Date().getMonth() + 1).padStart(2, "0");
+    var current = null, group = null;
+    rows.forEach(function (r) {
+      if (r.month !== current) {
+        current = r.month;
+        group = el("div", { class: "posts" });
+        list.appendChild(el("section", { class: "day" }, [
+          el("h2", { class: "day-date" }, [fmtMonth.format(monthDate(r.month)),
+            el("small", { text: r.month === nowYm ? "This month" : r.month < nowYm ? "Announced" : "" })]),
+          group
+        ]));
+      }
+      var url = safeUrl(r.url);
+      var meta = el("p", { class: "post-meta" });
+      meta.appendChild(el("span", { class: "state", "data-s": r.milestone === "General availability" ? "ga" :
+        r.milestone === "Retirement" ? "retiring" : "", text: r.milestone }));
+      r.milestones.forEach(function (m) {
+        if (m.month === r.month && m.ring === r.milestone) return;
+        meta.appendChild(el("span", { text: m.ring + " " + fmtMonthShort.format(monthDate(m.month)) }));
+      });
+      if (r.status) meta.appendChild(el("span", { text: r.status }));
+      r.labels.forEach(function (l) { meta.appendChild(el("span", { class: "tag", text: l })); });
+      var gov = r.clouds.filter(function (c) { return c.indexOf("Worldwide") < 0; });
+      if (gov.length) meta.appendChild(el("span", { text: (r.clouds.length > gov.length ? "Also " : "Only ") + gov.join(", ") }));
+      var node = el("article", { class: "post" }, [
+        el("h3", null, [url ? el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text: r.title }) : r.title]),
+        meta
+      ]);
+      if (r.description) node.appendChild(el("p", { class: "post-text", text: r.description }));
+      group.appendChild(node);
+    });
+  }
+
   // ------------------------------------------------------------ community
   function renderCommunity() {
     var c = data.community || { rows: [] };
@@ -549,20 +634,22 @@
     $("view-feed").hidden = !feed;
     $("view-models").hidden = state.view !== "models";
     $("view-community").hidden = state.view !== "community";
+    $("view-upcoming").hidden = state.view !== "upcoming";
     $("view-sources").hidden = state.view !== "sources";
     if (!data) return;
     if (!data.generated) {
       // Nothing collected yet: the message below explains how to start.
-      ["view-overview", "view-feed", "view-models", "view-community", "view-sources"].forEach(function (id) { $(id).hidden = true; });
+      ["view-overview", "view-feed", "view-models", "view-community", "view-upcoming", "view-sources"].forEach(function (id) { $(id).hidden = true; });
       return;
     }
     if (state.view === "overview") renderOverview();
     else if (feed) renderFeed();
     else if (state.view === "models") renderModels();
     else if (state.view === "community") renderCommunity();
+    else if (state.view === "upcoming") renderUpcoming();
     else renderSources();
     var label = { overview: "Overview", microsoft: "Microsoft", competitors: "Competitors",
-      security: "Threat intel", videos: "Videos", community: "Community", models: "Models", sources: "Sources" }[state.view];
+      security: "Threat intel", videos: "Videos", community: "Community", upcoming: "Upcoming", models: "Models", sources: "Sources" }[state.view];
     document.title = label + " | " + data.site.title;
   }
 
@@ -615,6 +702,7 @@
     bind("f-q", "q", function (t) { return t.value.trim(); });
     bind("f-key", "key", function (t) { return t.checked ? "1" : ""; });
     bind("f-roadmap", "roadmap", function (t) { return t.checked ? "1" : ""; });
+    $("u-q").addEventListener("input", function (e) { state.q = e.target.value.trim(); writeHash(true); renderUpcoming(); });
     $("more").addEventListener("click", function () { state.limit += PAGE; renderFeed(); });
     window.addEventListener("hashchange", function () { readHash(); render(); });
 

@@ -188,6 +188,65 @@ home = ""
 "MAI-Cyber-1-Flash" = ""
 "Code 1.1 Flash" = ""
 
+# ---------------------------------------------------------------- upcoming
+# The Upcoming tab is a release calendar built from Microsoft's Release
+# Communications MCP server: Microsoft 365 roadmap items with a preview or
+# general availability date in the coming months, recent Azure updates, and
+# Azure retirements. Filters use the server's OData syntax.
+
+[upcoming]
+enabled = true
+mcp = "https://www.microsoft.com/releasecommunications/mcp"
+months_ahead = 6        # how far ahead to show
+recent_days = 45        # Azure updates announced this recently also show
+max_pages = 4           # 50 results per page
+
+[[upcoming.queries]]
+label = "Microsoft 365 Copilot"
+tool = "get_recent_m365_roadmaps"
+filter = "products/any(p: p eq 'Microsoft Copilot (Microsoft 365)')"
+
+[[upcoming.queries]]
+label = "Copilot Studio"
+tool = "get_recent_m365_roadmaps"
+filter = "products/any(p: p eq 'Microsoft Copilot Studio')"
+
+[[upcoming.queries]]
+label = "Work IQ"
+tool = "get_recent_m365_roadmaps"
+filter = "products/any(p: p eq 'Work IQ')"
+
+[[upcoming.queries]]
+label = "Entra"
+tool = "get_recent_m365_roadmaps"
+filter = "products/any(p: p eq 'Microsoft Entra')"
+
+[[upcoming.queries]]
+label = "Purview"
+tool = "get_recent_m365_roadmaps"
+filter = "products/any(p: p eq 'Microsoft Purview')"
+
+[[upcoming.queries]]
+label = "Microsoft Foundry"
+tool = "get_recent_azure_updates"
+filter = "products/any(p: p eq 'Microsoft Foundry')"
+
+[[upcoming.queries]]
+label = "Azure Copilot"
+tool = "get_recent_azure_updates"
+filter = "products/any(p: p eq 'Azure Copilot')"
+
+[[upcoming.queries]]
+label = "Security"
+tool = "get_recent_azure_updates"
+filter = "productCategories/any(pc: pc eq 'Security')"
+
+[[upcoming.queries]]
+label = "Azure retirements"
+tool = "get_recent_azure_updates"
+filter = "tags/any(t: t eq 'Retirements')"
+when = "retirement"
+
 # --------------------------------------------------------------- community
 # The Community tab lists public GitHub repositories that carry one of these
 # topics and had a commit recently. They are ranked by stars gained over the

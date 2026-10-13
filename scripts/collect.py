@@ -1183,6 +1183,182 @@ def build_community(ccfg: dict, previous: dict, now: datetime, get=None) -> dict
     }
 
 
+# ------------------------------------------------------------------ upcoming
+
+class MCPClient:
+    """Minimal client for a remote MCP server over streamable HTTP (JSON-RPC)."""
+
+    def __init__(self, url: str, timeout: int = 60) -> None:
+        self.url, self.timeout = url, timeout
+        self.session = ""
+        self.next_id = 1
+        self.ready = False
+
+    def _post(self, message: dict) -> dict | None:
+        headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, text/event-stream",
+            "User-Agent": "copilot-agent-watch",
+            "MCP-Protocol-Version": "2025-06-18",
+        }
+        if self.session:
+            headers["Mcp-Session-Id"] = self.session
+        req = urllib.request.Request(self.url, data=json.dumps(message).encode("utf-8"),
+                                     method="POST", headers=headers)
+        try:
+            with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+                self.session = resp.headers.get("Mcp-Session-Id", self.session)
+                body = resp.read(20_000_000).decode("utf-8", "replace")
+                ctype = resp.headers.get("Content-Type", "")
+        except urllib.error.HTTPError as exc:
+            raise RuntimeError(f"MCP server answered HTTP {exc.code}: "
+                               f"{exc.read(300).decode('utf-8', 'replace')[:200]}")
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            raise RuntimeError(describe_error(exc))
+        if "id" not in message:
+            return None
+        return parse_mcp_reply(body, ctype, message["id"])
+
+    def call(self, tool: str, arguments: dict) -> dict:
+        if not self.ready:
+            self._post({"jsonrpc": "2.0", "id": self._id(), "method": "initialize", "params": {
+                "protocolVersion": "2025-06-18", "capabilities": {},
+                "clientInfo": {"name": "copilot-agent-watch", "version": "1.0"}}})
+            self._post({"jsonrpc": "2.0", "method": "notifications/initialized"})
+            self.ready = True
+        reply = self._post({"jsonrpc": "2.0", "id": self._id(), "method": "tools/call",
+                            "params": {"name": tool, "arguments": arguments}})
+        result = (reply or {}).get("result") or {}
+        if result.get("isError"):
+            text = " ".join(c.get("text", "") for c in result.get("content", []) if isinstance(c, dict))
+            raise RuntimeError(f"{tool} failed: {clip(text, 200)}")
+        if isinstance(result.get("structuredContent"), dict):
+            return result["structuredContent"]
+        for part in result.get("content", []):
+            if isinstance(part, dict) and part.get("type") == "text":
+                return json.loads(part["text"])
+        raise RuntimeError(f"{tool} returned no data")
+
+    def _id(self) -> int:
+        self.next_id += 1
+        return self.next_id
+
+
+def parse_mcp_reply(body: str, ctype: str, want_id) -> dict:
+    """The JSON-RPC response with the wanted id, from a JSON or event-stream body."""
+    candidates = []
+    if "text/event-stream" in ctype or body.lstrip().startswith(("event:", "data:")):
+        for block in re.split(r"\r?\n\r?\n", body):
+            data = "\n".join(l[5:].lstrip() for l in block.splitlines() if l.startswith("data:"))
+            if data:
+                candidates.append(data)
+    else:
+        candidates.append(body)
+    for raw in candidates:
+        try:
+            msg = json.loads(raw)
+        except json.JSONDecodeError:
+            continue
+        for m in (msg if isinstance(msg, list) else [msg]):
+            if isinstance(m, dict) and m.get("id") == want_id:
+                if "error" in m:
+                    raise RuntimeError(f"MCP error: {clip(str(m['error']), 200)}")
+                return m
+    raise RuntimeError("no reply from the MCP server")
+
+
+_MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August",
+           "September", "October", "November", "December"]
+
+
+def _ym(value) -> str:
+    return value if isinstance(value, str) and re.fullmatch(r"\d{4}-\d{2}", value) else ""
+
+
+def upcoming_rows(kind: str, label: str, items: list, now: datetime, months_ahead: int,
+                  recent_days: int) -> list[dict]:
+    """Release-calendar rows from Release Communications results."""
+    this_month = now.strftime("%Y-%m")
+    horizon = (now + timedelta(days=31 * months_ahead)).strftime("%Y-%m")
+    recent = iso(now - timedelta(days=recent_days))
+    rows = []
+    for it in items:
+        if not isinstance(it, dict) or not it.get("id") or not it.get("title"):
+            continue
+        if str(it.get("status", "")).lower() == "cancelled":
+            continue
+        milestones = []
+        for ring, field in (("Preview", "previewAvailabilityDate"),
+                            ("Private preview", "privatePreviewAvailabilityDate"),
+                            ("General availability", "generalAvailabilityDate")):
+            month = _ym(it.get(field))
+            if month and this_month <= month <= horizon:
+                milestones.append((month, ring))
+        for a in it.get("availabilities") or []:
+            if isinstance(a, dict) and a.get("ring") == "Retirement" and a.get("month") in _MONTHS:
+                month = f"{int(a.get('year', 0)):04d}-{_MONTHS.index(a['month']) + 1:02d}"
+                if this_month <= month <= horizon:
+                    milestones.append((month, "Retirement"))
+        created = str(it.get("created", ""))
+        if not milestones and created >= recent and kind == "azure":
+            milestones.append((created[:7], "Announced"))
+        if not milestones:
+            continue
+        month, ring = sorted(milestones)[0]
+        rid = str(it["id"])
+        rows.append({
+            "key": f"{kind}:{rid}", "id": rid, "kind": kind, "labels": [label],
+            "title": clip(strip_html(str(it["title"])), 220),
+            "description": clip(re.sub(r"\.\.\.$", "…", strip_html(str(it.get("description") or ""))), 300),
+            "month": month, "milestone": ring,
+            "milestones": [{"month": m, "ring": r} for m, r in sorted(set(milestones))],
+            "status": str(it.get("status") or ""),
+            "products": [str(p) for p in (it.get("products") or [])][:6],
+            "clouds": [str(c) for c in (it.get("cloudInstances") or [])],
+            "url": (f"https://www.microsoft.com/microsoft-365/roadmap?id={rid}" if kind == "m365"
+                    else f"https://azure.microsoft.com/updates?id={rid}"),
+            "modified": str(it.get("modified") or ""),
+        })
+    return rows
+
+
+def build_upcoming(ucfg: dict, previous: dict, now: datetime, client=None) -> dict:
+    client = client or MCPClient(ucfg["mcp"])
+    months_ahead = int(ucfg.get("months_ahead", 6))
+    recent_days = int(ucfg.get("recent_days", 45))
+    this_month = now.strftime("%Y-%m")
+    rows: dict[str, dict] = {}
+    errors = []
+    for q in ucfg.get("queries", []):
+        kind = "azure" if "azure" in q["tool"] else "m365"
+        if q.get("when") == "retirement":
+            when = f"availabilities/any(a: a/ring eq 'Retirement' and a/year ge {now.year})"
+        elif kind == "azure":
+            when = (f"(generalAvailabilityDate ge '{this_month}' or previewAvailabilityDate ge '{this_month}'"
+                    f" or created ge {iso(now - timedelta(days=recent_days))})")
+        else:
+            when = f"(generalAvailabilityDate ge '{this_month}' or previewAvailabilityDate ge '{this_month}')"
+        flt = f"({q['filter']}) and {when}" if q.get("filter") else when
+        try:
+            for page in range(int(ucfg.get("max_pages", 4))):
+                data = client.call(q["tool"], {"filter": flt, "skip": page * 50})
+                for row in upcoming_rows(kind, q["label"], data.get("items", []), now,
+                                         months_ahead, recent_days):
+                    if row["key"] in rows:
+                        if q["label"] not in rows[row["key"]]["labels"]:
+                            rows[row["key"]]["labels"].append(q["label"])
+                    else:
+                        rows[row["key"]] = row
+                if not data.get("hasMore"):
+                    break
+        except Exception as exc:
+            errors.append(f"{q['label']}: {clip(str(exc), 120)}")
+    if not rows and previous.get("rows"):
+        return dict(previous, error="; ".join(errors) or "no results")
+    ordered = sorted(rows.values(), key=lambda r: (r["month"], r["milestone"] != "Retirement", r["title"].lower()))
+    return {"checked": iso(now), "error": "; ".join(errors), "rows": ordered[: int(ucfg.get("max_rows", 600))]}
+
+
 # -------------------------------------------------------------------- output
 
 def build_rss(cfg: dict, items: list[dict], sources: dict[str, dict], now: datetime) -> str:
@@ -1291,6 +1467,18 @@ def run(config_path: Path, out_dir: Path, use_ai: bool = True, dry_run: bool = F
         ai_note = summarise(items, long_text, cfg, topic_ids, sources, now)
     log(f"  summaries: {ai_note}")
 
+    upcoming = previous.get("upcoming") or {"checked": "", "error": "", "rows": []}
+    ucfg = cfg.get("upcoming", {})
+    if ucfg.get("enabled", False) and ucfg.get("mcp"):
+        try:
+            upcoming = build_upcoming(ucfg, upcoming, now)
+        except Exception as exc:
+            upcoming = dict(upcoming, error=clip(str(exc), 200))
+        log(f"  {'ok  ' if not upcoming['error'] else 'FAIL'}  upcoming releases: "
+            f"{len(upcoming['rows'])} entries {upcoming['error']}")
+    else:
+        upcoming = {"checked": "", "error": "", "rows": []}
+
     community = previous.get("community") or {"checked": "", "started": "", "error": "", "rows": []}
     ccfg = cfg.get("community", {})
     if ccfg.get("enabled", False):
@@ -1346,6 +1534,7 @@ def run(config_path: Path, out_dir: Path, use_ai: bool = True, dry_run: bool = F
                     "scope": t.get("scope", "")} for t in topics],
         "models": models,
         "community": community,
+        "upcoming": upcoming,
         "sources": report,
         "items": items,
         "seen": sorted(seen - {i["id"] for i in items})[-4000:],

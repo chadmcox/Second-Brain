@@ -32,6 +32,7 @@
   <nav class="tabs" aria-label="Sections">
     <a href="#overview" data-view="overview">Overview</a>
     <a href="#microsoft" data-view="microsoft">Microsoft</a>
+    <a href="#upcoming" data-view="upcoming">Upcoming</a>
     <a href="#competitors" data-view="competitors">Competitors</a>
     <a href="#security" data-view="security">Threat intel</a>
     <a href="#videos" data-view="videos">Videos</a>
@@ -112,6 +113,27 @@
         <tbody id="models-body"></tbody>
       </table>
     </div>
+  </section>
+
+  <section id="view-upcoming" class="view" hidden>
+    <h2>Coming from Microsoft</h2>
+    <p class="lede">A release calendar from Microsoft's Release Communications service: Microsoft 365 roadmap items with a preview or general availability date in the next six months, recent Azure updates, and Azure retirements. Dates are Microsoft's targets and often move. <span id="upcoming-note"></span></p>
+    <div class="filters">
+      <div class="filter-row">
+        <span class="filter-label" id="lbl-upcoming">Area</span>
+        <div class="chips" id="chips-upcoming" role="group" aria-labelledby="lbl-upcoming"></div>
+      </div>
+      <div class="filter-row">
+        <span class="filter-label" id="lbl-upcoming-ring">Milestone</span>
+        <div class="chips" id="chips-upcoming-ring" role="group" aria-labelledby="lbl-upcoming-ring"></div>
+      </div>
+      <div class="filter-row">
+        <label class="filter-label" for="u-q">Search</label>
+        <input id="u-q" class="field-input" type="search" placeholder="Title, description or product" autocomplete="off">
+      </div>
+    </div>
+    <p id="upcoming-count" class="result-count"></p>
+    <div id="upcoming-list" class="timeline"></div>
   </section>
 
   <section id="view-community" class="view" hidden>
