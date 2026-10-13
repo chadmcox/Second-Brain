@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T20:35:43Z",
+ "generated": "2026-10-13T20:38:58Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -106,7 +106,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-13T20:35:43Z",
+  "checked": "2026-10-13T20:38:58Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -614,7 +614,7 @@
   ]
  },
  "community": {
-  "checked": "2026-10-13T20:35:43Z",
+  "checked": "2026-10-13T20:38:58Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -2570,7 +2570,7 @@
   ]
  },
  "upcoming": {
-  "checked": "2026-10-13T20:35:43Z",
+  "checked": "2026-10-13T20:38:58Z",
   "error": "",
   "rows": [
    {
@@ -3854,60 +3854,6 @@
     "modified": "2026-08-11T22:53:53.8434828Z"
    },
    {
-    "key": "m365:181825",
-    "id": "181825",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Communication Compliance - Alert improvements",
-    "description": "This feature is about improving the alerting capabilities and customization in Communication Compliance.",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=181825",
-    "modified": "2026-03-09T23:15:17.1661381Z"
-   },
-   {
-    "key": "m365:392838",
-    "id": "392838",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Introduction of secure workflow to bypass legal holds and retention policies",
-    "description": "The first release of Priority cleanup enables admins to create a recurring exception to delete items under a broader retention policy and/or legal hold on Exchange workload. Creating a Priority cleanu…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=392838",
-    "modified": "2026-09-08T22:57:21.0269239Z"
-   },
-   {
     "key": "m365:422501",
     "id": "422501",
     "kind": "m365",
@@ -3933,89 +3879,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=422501",
     "modified": "2026-03-26T23:15:28.5542283Z"
-   },
-   {
-    "key": "m365:475859",
-    "id": "475859",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Insider Risk Management - Microsoft Fabric risk indicators in Insider Risk Management",
-    "description": "With this update, Insider Risk Management extends its risk detection capabilities to Microsoft Fabric products by offering ready-to-use risk indicators based on activities that may lead to a data secu…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=475859",
-    "modified": "2026-06-16T23:00:10.9739394Z"
-   },
-   {
-    "key": "m365:568785",
-    "id": "568785",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Adaptive Scope evaluation control with recipient and site owner lifecycle status",
-    "description": "Microsoft Purview Adaptive Scopes will provide administrators with explicit control over lifecycle-state evaluation for recipients and site owners, helping ensure policy targeting and scope membership…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=568785",
-    "modified": "2026-08-04T22:45:42.5590566Z"
-   },
-   {
-    "key": "m365:570445",
-    "id": "570445",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Auto-labeling scalability, policy management, and reporting enhancements",
-    "description": "Microsoft Purview is improving auto-labeling capabilities to help organizations manage and validate labeling policies at enterprise scale. These enhancements expand support for larger SharePoint scope…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=570445",
-    "modified": "2026-09-03T22:50:06.6790063Z"
    },
    {
     "key": "m365:523209",
@@ -4072,91 +3935,6 @@
     "modified": "2026-08-26T22:50:58.4562393Z"
    },
    {
-    "key": "m365:567313",
-    "id": "567313",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management - Graph API Support for Archive Mailboxes",
-    "description": "Access to Archive mailboxes (Main + Auxiliary) through Microsoft Graph. The goal is to give users a single, seamless Archive view, even though Archive data may physically reside across multiple auxili…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=567313",
-    "modified": "2026-07-28T22:43:45.1902826Z"
-   },
-   {
-    "key": "m365:560820",
-    "id": "560820",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management – Increase in expansion limit for auto expanding archive beyond 1.5TB",
-    "description": "Previously, auto expanding archive mailbox expansion was supported only up to 1.5 TB, after which mailboxes would become inoperative. Archive mailboxes can now automatically expand beyond the 1.5 TB l…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=560820",
-    "modified": "2026-09-02T22:56:59.2759925Z"
-   },
-   {
-    "key": "m365:557559",
-    "id": "557559",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management- Azure PST Import",
-    "description": "Azure PST Import is a migration method that enables PST files stored in Azure Blob Storage to be imported directly into Exchange Online mailboxes. It follows the standard two‑step Exchange Migration S…",
-    "month": "2026-10",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Preview"
-     },
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=557559",
-    "modified": "2026-09-02T22:56:59.2759925Z"
-   },
-   {
     "key": "m365:571306",
     "id": "571306",
     "kind": "m365",
@@ -4184,37 +3962,6 @@
     "modified": "2026-09-18T22:00:04.2303666Z"
    },
    {
-    "key": "m365:568075",
-    "id": "568075",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention - Data Security for non-Microsoft connected apps",
-    "description": "Microsoft Purview Data Loss Prevention and Information Protection Auto-labeling capabilities now extend to non-Microsoft connected apps (e.g., Google Workspace, Box, Dropbox, Salesforce, ServiceNow, A…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     },
-     {
-      "month": "2026-10",
-      "ring": "Preview"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=568075",
-    "modified": "2026-09-29T23:05:21.5881807Z"
-   },
-   {
     "key": "m365:559106",
     "id": "559106",
     "kind": "m365",
@@ -4240,60 +3987,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=559106",
     "modified": "2026-07-28T22:43:45.1902826Z"
-   },
-   {
-    "key": "m365:568372",
-    "id": "568372",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention - SLA Based Alert Reporting Dashboard",
-    "description": "Out-of-box MTTA/MTTD/MTTR SLA Alert Reporting dashboard showing past trends, Top SITs getting exposed via DLP alerts generated. Customers can define their custom SLAs for high, med and low severity al…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=568372",
-    "modified": "2026-09-02T22:56:59.2759925Z"
-   },
-   {
-    "key": "m365:558939",
-    "id": "558939",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention - Unmanaged cloud app discovery and protection with Microsoft Purview and Palo Alto Prisma Access",
-    "description": "Microsoft Purview network data security now integrates with Palo Alto Prisma Access, extending discovery and protection to network traffic. With this integration, new and existing Palo Alto Prisma Acc…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=558939",
-    "modified": "2026-03-19T23:30:43.6190365Z"
    },
    {
     "key": "m365:570845",
@@ -4350,64 +4043,6 @@
     "modified": "2026-06-17T23:15:06.0586894Z"
    },
    {
-    "key": "m365:561032",
-    "id": "561032",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention – New Guided Experience to Diagnose and Resolve DLP Issues",
-    "description": "We’re introducing a new guided diagnostics experience to help users understand why their DLP policies may not be behaving as expected. This experience provides a clear summary of why a DLP action was …",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=561032",
-    "modified": "2026-08-04T22:45:42.5590566Z"
-   },
-   {
-    "key": "m365:558682",
-    "id": "558682",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention – Reduce policy sync status SLA on the Purview UI from 2 hours to 30 mins",
-    "description": "Admin should be able to see the Endpoint DLP policy sync status on the Purview portal within 30 mins.",
-    "month": "2026-10",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Preview"
-     },
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=558682",
-    "modified": "2026-08-12T22:47:48.9387028Z"
-   },
-   {
     "key": "m365:560597",
     "id": "560597",
     "kind": "m365",
@@ -4433,40 +4068,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=560597",
     "modified": "2026-08-19T22:58:06.3397738Z"
-   },
-   {
-    "key": "m365:565222",
-    "id": "565222",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: eDiscovery - In-product diagnostics to troubleshoot common challenges",
-    "description": "Self-service diagnostics help identify common issues with case permissions, security filters, and policy status. The experience highlights potential misconfigurations and provides simple guidance to h…",
-    "month": "2026-10",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Preview"
-     },
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)",
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=565222",
-    "modified": "2026-09-21T23:04:49.2517543Z"
    },
    {
     "key": "m365:569364",
@@ -4523,117 +4124,6 @@
     "modified": "2026-08-12T22:47:48.9387028Z"
    },
    {
-    "key": "m365:565868",
-    "id": "565868",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Endpoint Data Loss Prevention - Protect sensitive data over FTP and SFTP with Endpoint DLP",
-    "description": "Endpoint DLP support for FTP and SFTP enables organizations to monitor and protect sensitive data transferred from managed endpoints using FTP and SFTP, helping prevent unauthorized data exfiltration …",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "Rolling out",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)",
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=565868",
-    "modified": "2026-10-05T23:03:05.0409869Z"
-   },
-   {
-    "key": "m365:570965",
-    "id": "570965",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Endpoint Data Loss Prevention-Archive File Classification Behavior Change for Windows Endpoints",
-    "description": "We are updating archive file classification behavior on Windows endpoints to align with cloud workloads. This change improves consistency, reduces noise in event reporting, and enhances performance wh…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=570965",
-    "modified": "2026-09-10T23:01:27.0305106Z"
-   },
-   {
-    "key": "m365:559105",
-    "id": "559105",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Information Protection - Apply default SharePoint library labels to data at rest",
-    "description": "Enables auto‑labeling of existing SharePoint files to match the default sensitivity label configured on their document library. This helps organizations close labeling gaps for data at rest and ensure…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "Launched",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=559105",
-    "modified": "2026-10-05T23:03:05.0409869Z"
-   },
-   {
-    "key": "m365:567890",
-    "id": "567890",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Information Protection - Auto-labeling scale increase for SharePoint and OneDrive",
-    "description": "We are increasing the maximum auto-labeling capacity for SharePoint and OneDrive from 100,000 up to 500,000 files per tenant per day. This helps organizations label and protect more of their data at r…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "Launched",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=567890",
-    "modified": "2026-10-06T22:56:31.0532139Z"
-   },
-   {
     "key": "m365:560708",
     "id": "560708",
     "kind": "m365",
@@ -4665,33 +4155,6 @@
     "modified": "2026-07-28T22:43:45.1902826Z"
    },
    {
-    "key": "m365:568935",
-    "id": "568935",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Information Protection-Auto-labeling per-policy coverage report",
-    "description": "For each enforced auto-labeling policy, admins can view how files processed during enforcement correlate to the latest simulation run. The per-policy coverage report shows volumes of files that have b…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=568935",
-    "modified": "2026-09-29T23:05:21.5881807Z"
-   },
-   {
     "key": "m365:534610",
     "id": "534610",
     "kind": "m365",
@@ -4717,66 +4180,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=534610",
     "modified": "2026-06-25T23:15:45.5477468Z"
-   },
-   {
-    "key": "m365:564619",
-    "id": "564619",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Insider Risk Management - Enhanced user profile in IRM alerts",
-    "description": "We’re enhancing the User section within Insider Risk Management alerts to provide investigators with more contextual user profile and risk attributes directly within their workflow. With this update, …",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "Launched",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)",
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=564619",
-    "modified": "2026-10-06T22:56:31.0532139Z"
-   },
-   {
-    "key": "m365:564620",
-    "id": "564620",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Insider Risk Management - Expanding note capabilities across alerts & cases",
-    "description": "We’re introducing a new collaboration capability in Insider Risk Management that enables analysts and investigators to add notes directly within alerts. With this feature, users can document investiga…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "Launched",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)",
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=564620",
-    "modified": "2026-10-06T22:56:31.0532139Z"
    },
    {
     "key": "m365:564621",
@@ -4836,97 +4239,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=545063",
     "modified": "2026-07-13T23:07:14.8221961Z"
-   },
-   {
-    "key": "m365:573447",
-    "id": "573447",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Permissions audit log improvements",
-    "description": "Improving permission checks when users access the Microsoft Purview portal. Enhanced audit logs will provide clearer visibility into role and scoped-role access decisions, helping administrators troub…",
-    "month": "2026-10",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573447",
-    "modified": "2026-10-06T22:56:31.0532139Z"
-   },
-   {
-    "key": "m365:523201",
-    "id": "523201",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Purview Information Protection | Classifier Simulation Mode (Health Monitoring)",
-    "description": "Microsoft Purview introduces the Classifier Simulation Mode, the first phase of the broader Classifier Health Monitoring Platform. This capability enables you to test, analyze, and optimize custom …",
-    "month": "2026-10",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Preview"
-     },
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=523201",
-    "modified": "2026-07-14T22:41:38.6349466Z"
-   },
-   {
-    "key": "m365:570844",
-    "id": "570844",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Unified Classification Management Experience",
-    "description": "The Unified Classification Management Experience unifies every classifier in Microsoft Purview—Sensitive Information Types (SITs), Exact Data Match (EDM), fingerprint SITs, and trainable classifiers—i…",
-    "month": "2026-10",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-10",
-      "ring": "Preview"
-     },
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=570844",
-    "modified": "2026-09-18T22:00:04.2303666Z"
    },
    {
     "key": "m365:560318",
@@ -5874,62 +5186,6 @@
     "modified": "2026-09-01T22:59:38.0107578Z"
    },
    {
-    "key": "m365:392839",
-    "id": "392839",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Automatic data preservation for high-risk users",
-    "description": "Adaptive Protection in Microsoft Purview helps you protect your organization’s data by integrating dynamic insider risk levels, determined by data related activities, with various policy engines to au…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=392839",
-    "modified": "2026-09-24T22:58:55.6218549Z"
-   },
-   {
-    "key": "m365:473493",
-    "id": "473493",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Introduction of secure workflow to bypass legal holds and retention policies in Exchange",
-    "description": "The first release of Priority cleanup enables admins to create a recurring exception to delete items under a broader retention policy and/or legal hold on Exchange workload. Creating a Priority cleanu…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=473493",
-    "modified": "2026-06-18T23:00:06.8696832Z"
-   },
-   {
     "key": "m365:472030",
     "id": "472030",
     "kind": "m365",
@@ -5961,333 +5217,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=472030",
     "modified": "2026-09-10T23:01:27.0305106Z"
-   },
-   {
-    "key": "m365:401127",
-    "id": "401127",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Data Loss Prevention - Microsoft 365 Groups scoping in Teams DLP policy extend protection to 1:1/n chats",
-    "description": "When scoping policies to Microsoft 365 Groups in Teams DLP policies, members of Teams standard and shared channel chats associated with the groups are currently protected by the policies. This change …",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=401127",
-    "modified": "2025-10-27T23:15:26.5090759Z"
-   },
-   {
-    "key": "m365:386901",
-    "id": "386901",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Information Protection - Sensitivity label grouping modernization",
-    "description": "To help improve label usability and configuration, the sensitivity labeling scheme will be simplified to only consist of labels and label groupings. These new label groupings allow admins to better or…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=386901",
-    "modified": "2026-09-28T22:58:08.5520989Z"
-   },
-   {
-    "key": "m365:494839",
-    "id": "494839",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Scanner data export for custom reporting",
-    "description": "Learn about the state of your scanned repositories and create custom reports with the information protection scanner. Labeling, classification and protection actions on scanned files are stored in SQL…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)",
-     "GCC",
-     "GCC High"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=494839",
-    "modified": "2026-09-02T22:56:59.2759925Z"
-   },
-   {
-    "key": "m365:566527",
-    "id": "566527",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management - Ensure regulatory compliance by deleting inactive OneDrives and mailboxes for departing employees",
-    "description": "Enables admins to delete both content and containers for departed users at scale thereby keeping your tenant compliant without any manual effort.",
-    "month": "2026-11",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "Preview"
-     },
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=566527",
-    "modified": "2026-09-21T23:04:49.2517543Z"
-   },
-   {
-    "key": "m365:561208",
-    "id": "561208",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management – Archive SharePoint files under retention",
-    "description": "We are introducing file archiving support in SharePoint Online, utilizing this feature administrators can seamlessly include archiving actions within their existing data retention policies. This means…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=561208",
-    "modified": "2026-10-12T23:01:05.1232604Z"
-   },
-   {
-    "key": "m365:569721",
-    "id": "569721",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management – Ensure regulatory compliance by deleting inactive OneDrives and mailboxes for departing employees",
-    "description": "Enables admins to delete both content and containers for departed users at scale thereby keeping your tenant compliant without any manual effort.",
-    "month": "2026-11",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "Preview"
-     },
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=569721",
-    "modified": "2026-10-01T23:00:07.0386131Z"
-   },
-   {
-    "key": "m365:561034",
-    "id": "561034",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management – Hard delete capability for OneDrive and SharePoint through secure priority cleanup workflows",
-    "description": "Data Lifecycle Management allows compliance admins to retain, review and delete content in M365 workloads. Deletion of content to adhere to compliance requirements, admins can set up Retention policie…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=561034",
-    "modified": "2026-08-19T22:58:06.3397738Z"
-   },
-   {
-    "key": "m365:573701",
-    "id": "573701",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management-Graph API Support for Archive Mailboxes",
-    "description": "Access to Archive mailboxes (Main + Auxiliary) through Microsoft Graph. The goal is to give users a single, seamless Archive view, even though Archive data may physically reside across multiple auxili…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573701",
-    "modified": "2026-10-06T22:56:31.0532139Z"
-   },
-   {
-    "key": "m365:573702",
-    "id": "573702",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management-Increase in expansion limit for auto-expanding archive beyond 1.5 TB",
-    "description": "Previously, auto-expanding archive mailbox expansion was supported only up to 1.5 TB, after which mailboxes would become inoperative. Archive mailboxes can now automatically expand beyond the 1.5 TB l…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573702",
-    "modified": "2026-10-06T22:56:31.0532139Z"
-   },
-   {
-    "key": "m365:562342",
-    "id": "562342",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention - Count of Labelled Documents Condition",
-    "description": "This release introduces a new condition for Exchange Online policies: “Count of labeled documents is greater than.” This condition evaluates the number of attachments in an email message that carry a…",
-    "month": "2026-11",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "Preview"
-     },
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=562342",
-    "modified": "2026-08-11T22:53:53.8434828Z"
-   },
-   {
-    "key": "m365:575285",
-    "id": "575285",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention-Apply Purview network data security DLP policies to all websites, or all websites except specific cloud apps, through Entra GSA Internet Access integration",
-    "description": "With this feature, admins can scope their network data security data loss prevention policies, integrated with Entra GSA Internet Access, to apply to all websites (.) or all websites except specific c…",
-    "month": "2026-11",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "Preview"
-     },
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575285",
-    "modified": "2026-10-12T23:01:05.1232604Z"
    },
    {
     "key": "m365:571396",
@@ -6379,174 +5308,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=565374",
     "modified": "2026-08-12T22:47:48.9387028Z"
-   },
-   {
-    "key": "m365:575283",
-    "id": "575283",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Information Protection - Apply default SharePoint library labels to data at rest",
-    "description": "Enables auto‑labeling of existing SharePoint files to match the default sensitivity label configured on their document library. This helps organizations close labeling gaps for data at rest and ensure…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575283",
-    "modified": "2026-10-12T23:01:05.1232604Z"
-   },
-   {
-    "key": "m365:568217",
-    "id": "568217",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Information Protection - Sensitivity Labels for Microsoft Entra Security Groups",
-    "description": "Apply sensitivity labels to Microsoft Entra cloud security groups to extend the classification and governance you already use for Microsoft 365 groups. The same labels you publish in the Microsoft Pur…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=568217",
-    "modified": "2026-10-07T23:01:35.3196217Z"
-   },
-   {
-    "key": "m365:561327",
-    "id": "561327",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Information Protection- File Labeler and File Viewer for MacOS",
-    "description": "This feature is bringing the Information Protection Filer Labeler and Viewer applications to the MacOS platform. Enabling customers to have the same capabilities available on Mac. Core functionality w…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=561327",
-    "modified": "2026-09-03T22:50:06.6790063Z"
-   },
-   {
-    "key": "m365:526796",
-    "id": "526796",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Information Protection- New Summary Metrics in Content Explorer for Unscanned Files and Classification History Details",
-    "description": "Enhance Content Explorer by introducing new summary metrics that provide better visibility into scanning and classification activities. This update will include: 1. Unscanned Files Summary Displays th…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=526796",
-    "modified": "2026-07-13T23:07:14.8221961Z"
-   },
-   {
-    "key": "m365:572677",
-    "id": "572677",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Information Protection-Auto-labeling per-policy coverage report",
-    "description": "For each enforced auto-labeling policy, admins can view how files processed during enforcement correlate to the latest simulation run. The per-policy coverage report shows volumes of files that have b…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=572677",
-    "modified": "2026-09-23T22:59:12.1882776Z"
-   },
-   {
-    "key": "m365:571309",
-    "id": "571309",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Information Protection-Auto-labeling scale increase for SharePoint and OneDrive",
-    "description": "We are increasing the maximum auto-labeling capacity for SharePoint and OneDrive from 100,000 up to 500,000 files per tenant per day. This helps organizations label and protect more of their data at r…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571309",
-    "modified": "2026-09-28T22:58:08.5520989Z"
    },
    {
     "key": "m365:558933",
@@ -6751,33 +5512,6 @@
     "modified": "2026-10-12T23:01:05.1232604Z"
    },
    {
-    "key": "m365:562993",
-    "id": "562993",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Endpoint Data Loss Prevention — Endpoint DLP now supports a pre curated list of file extensions for the file extension condition",
-    "description": "Endpoint DLP now includes a pre curated list of file extensions for the file extension condition. Previously, file extensions were entered as free form text, which could result in unsupported or non-s…",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=562993",
-    "modified": "2026-09-18T22:00:04.2303666Z"
-   },
-   {
     "key": "m365:567885",
     "id": "567885",
     "kind": "m365",
@@ -6974,238 +5708,6 @@
     "modified": "2026-08-04T22:45:42.5590566Z"
    },
    {
-    "key": "m365:68688",
-    "id": "68688",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Communication Compliance - Ability to set a retention period for a policy",
-    "description": "Introducing the ability to define how long content captured by a Communication Compliance policy is retained. Microsoft Purview Communication Compliance provides the tools to help organizations detect…",
-    "month": "2026-12",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "Preview"
-     },
-     {
-      "month": "2027-01",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=68688",
-    "modified": "2026-06-25T23:15:45.5477468Z"
-   },
-   {
-    "key": "m365:392456",
-    "id": "392456",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Bulk replacement or removal of a retention label",
-    "description": "Admins can perform a bulk replacement or removal of a retention label using the Purview compliance portal. They can perform the action across the entire tenant or targeted to specific content using KQ…",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=392456",
-    "modified": "2026-04-03T22:15:57.824625Z"
-   },
-   {
-    "key": "m365:392457",
-    "id": "392457",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Bulk replacement or removal of a retention label",
-    "description": "Admins can perform a bulk replacement or removal of a retention label using the Purview compliance portal. They can perform the action across the entire tenant or targeted to specific content using KQ…",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=392457",
-    "modified": "2026-03-04T00:15:19.4172463Z"
-   },
-   {
-    "key": "m365:117569",
-    "id": "117569",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: eDiscovery (Premium) - CMK (Customer Managed Keys) encryption support for data at-rest in Review sets",
-    "description": "This release of eDiscovery features the implementation of customer-managed key (CMK) options, allowing users to manage their own encryption keys for the data stored in eDiscovery review sets in additi…",
-    "month": "2026-12",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "Preview"
-     },
-     {
-      "month": "2027-02",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=117569",
-    "modified": "2026-04-09T23:15:51.311961Z"
-   },
-   {
-    "key": "m365:484086",
-    "id": "484086",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: eDiscovery - Advanced Review Set Explorer",
-    "description": "The Advanced Review Set Explorer empowers reviewers to harness the power of real-time big data analytics on their review set data leveraging. This tool enhances data analysis by offering insights such…",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=484086",
-    "modified": "2026-08-14T21:56:10.4305311Z"
-   },
-   {
-    "key": "m365:562345",
-    "id": "562345",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Archive SharePoint files under retention policies",
-    "description": "With the introduction of file archiving support in SharePoint Online, administrators are looking to seamlessly include archiving actions within their existing data retention policies. This means that,…",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=562345",
-    "modified": "2026-10-12T23:01:05.1232604Z"
-   },
-   {
-    "key": "m365:566324",
-    "id": "566324",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management - Adaptive Protection integration with Data Lifecycle Management",
-    "description": "Adaptive Protection in Microsoft Purview helps you protect your organization’s data by integrating dynamic insider risk levels, determined by data related activities, with various policy engines to au…",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=566324",
-    "modified": "2026-09-24T22:58:55.6218549Z"
-   },
-   {
-    "key": "m365:565865",
-    "id": "565865",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management - Azure PST Import",
-    "description": "Azure PST Import is a migration method that enables PST files stored in Azure Blob Storage to be imported directly into Exchange Online mailboxes. It follows the standard two‑step Exchange Migration S…",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=565865",
-    "modified": "2026-09-02T22:56:59.2759925Z"
-   },
-   {
     "key": "m365:560324",
     "id": "560324",
     "kind": "m365",
@@ -7264,128 +5766,6 @@
     "modified": "2026-07-15T22:55:27.663911Z"
    },
    {
-    "key": "m365:566617",
-    "id": "566617",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention - Endpoint DLP now detects sensitivity labels on files inside archives",
-    "description": "Endpoint Data Loss Prevention (DLP) is changing the way archive files, such as .zip and similar container formats, are classified and enforced. This update improves detection accuracy and gives adm…",
-    "month": "2026-12",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "Preview"
-     },
-     {
-      "month": "2027-01",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=566617",
-    "modified": "2026-07-06T23:00:50.6928566Z"
-   },
-   {
-    "key": "m365:562994",
-    "id": "562994",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention - Reduce policy sync status SLA on the Purview UI from 2 hours to 30 mins",
-    "description": "Policy updates in Microsoft Purview now sync faster, reducing wait times from up to 2 hours to just 30 minutes, so your protections stay up to date and take effect more quickly across your organizatio…",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=562994",
-    "modified": "2026-08-25T23:13:41.9149089Z"
-   },
-   {
-    "key": "m365:561919",
-    "id": "561919",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention - Reusable Global List for Exchange Online",
-    "description": "Reusable Lists centralize management of keywords, domains, and email addresses, eliminating duplication across rules and reducing the effort required to maintain large policies.",
-    "month": "2026-12",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "Preview"
-     },
-     {
-      "month": "2027-01",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=561919",
-    "modified": "2026-08-11T22:53:53.8434828Z"
-   },
-   {
-    "key": "m365:568371",
-    "id": "568371",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention - Rule-based tagging and auto-resolution of alerts based on business needs of the customer.",
-    "description": "Alert auto-resolution & tagging rules let you tell DLP, in advance, how to handle predictable alerts. You define a rule once, and from then on DLP applies it automatically to every new alert: ● Resolv…",
-    "month": "2026-12",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "Preview"
-     },
-     {
-      "month": "2027-02",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=568371",
-    "modified": "2026-10-12T23:01:05.1232604Z"
-   },
-   {
     "key": "m365:564615",
     "id": "564615",
     "kind": "m365",
@@ -7411,116 +5791,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=564615",
     "modified": "2026-06-10T23:15:22.9589306Z"
-   },
-   {
-    "key": "m365:565372",
-    "id": "565372",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: eDiscovery - Advanced Review Set Explorer",
-    "description": "The Advanced Review Set Explorer empowers reviewers to harness the power of real-time big data analytics on their review set data. This tool enhances data analysis by offering insights such as identif…",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=565372",
-    "modified": "2026-08-14T21:56:10.4305311Z"
-   },
-   {
-    "key": "m365:557684",
-    "id": "557684",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: eDiscovery- CMK (Customer managed key) for eDiscovery direct export",
-    "description": "This release of eDiscovery features the implementation of customer-managed key (CMK) options, allowing users to manage their own encryption keys for the data included in the direct export workflow in …",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=557684",
-    "modified": "2026-08-17T22:52:47.6278829Z"
-   },
-   {
-    "key": "m365:562991",
-    "id": "562991",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Endpoint Data Loss Prevention - Allow customer to scope JIT Audit to specific user or user group",
-    "description": "Enable customers to include or exclude users/user groups from Just‑In‑Time (JIT) Audit, ensuring audits are generated only for the selected users or groups.",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=562991",
-    "modified": "2026-09-14T23:03:47.0467108Z"
-   },
-   {
-    "key": "m365:562992",
-    "id": "562992",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Endpoint Data Loss Prevention – Ability to protect files stored in the excluded folders in Windows",
-    "description": "Endpoint DLP now extends protection to files stored in commonly excluded Windows folders, including Temp and AppData. This helps improve coverage by detecting and protecting sensitive data in these lo…",
-    "month": "2026-12",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-12",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=562992",
-    "modified": "2026-09-14T23:03:47.0467108Z"
    },
    {
     "key": "m365:567472",
@@ -7605,182 +5875,6 @@
     "modified": "2026-07-20T22:37:15.9046041Z"
    },
    {
-    "key": "m365:93268",
-    "id": "93268",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: eDiscovery (Premium) – Hold reports",
-    "description": "Out-of-the-box reports that contain information about all legal holds associated with eDiscovery cases in the Microsoft Purview compliance portal. Sort and filter your view based on various criteria a…",
-    "month": "2027-01",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=93268",
-    "modified": "2026-08-17T22:52:47.6278829Z"
-   },
-   {
-    "key": "m365:410247",
-    "id": "410247",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Endpoint Data Loss Prevention - Optical Character Recognition (OCR) on Mac Endpoints",
-    "description": "Purview policies like Data loss prevention (DLP) auto labelling can scan for sensitive content in most of the textual files, but images are not supported for content scanning today on Mac endpoint dev…",
-    "month": "2027-01",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=410247",
-    "modified": "2026-04-06T23:15:32.9377861Z"
-   },
-   {
-    "key": "m365:562343",
-    "id": "562343",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management - Insights and policy recommendations on sensitive M365 data for better Data Security and Compliance posture",
-    "description": "Insights on sensitive M365 data (OneDrive and SharePoint) and recommendations on retention policies for customers to better govern their sensitive data.",
-    "month": "2027-01",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "Preview"
-     },
-     {
-      "month": "2027-02",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=562343",
-    "modified": "2026-09-21T23:04:49.2517543Z"
-   },
-   {
-    "key": "m365:558859",
-    "id": "558859",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management - Power Automate integration with records management",
-    "description": "Initiate a Power Automate workflow when the item reaches the end of its retention period. For example, execute a complex disposition approval process or move the file to an archive.",
-    "month": "2027-01",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=558859",
-    "modified": "2026-07-14T22:41:38.6349466Z"
-   },
-   {
-    "key": "m365:567311",
-    "id": "567311",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention - Collection and DLP Policies for Intune-Policy Managed Apps",
-    "description": "We are introducing a new integrated Microsoft Purview Data Loss Prevention (DLP) capability for Intune Mobile Application Management (MAM)-protected mobile apps, enabling organizations to apply conten…",
-    "month": "2027-01",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "Preview"
-     },
-     {
-      "month": "2027-02",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=567311",
-    "modified": "2026-10-06T22:56:31.0532139Z"
-   },
-   {
-    "key": "m365:567010",
-    "id": "567010",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention - User Based Aggregation of DLP Alerts",
-    "description": "Enable aggregation of DLP alerts based on common entities user even when multiple rules are matched. This feature should consolidate related alert events into a single alert object to: Reduce alert no…",
-    "month": "2027-01",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=567010",
-    "modified": "2026-09-16T22:57:03.3982718Z"
-   },
-   {
     "key": "m365:561552",
     "id": "561552",
     "kind": "m365",
@@ -7806,33 +5900,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=561552",
     "modified": "2026-07-20T22:37:15.9046041Z"
-   },
-   {
-    "key": "m365:549288",
-    "id": "549288",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention- Adaptive Scopes for DLP for SharePoint",
-    "description": "Adaptive Scope for SharePoint is a dynamic scoping capability in Microsoft Purview DLP that allows administrators to automatically target DLP policies to the right sites based on attributes such as si…",
-    "month": "2027-01",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=549288",
-    "modified": "2026-08-27T22:38:48.6831302Z"
    },
    {
     "key": "m365:561036",
@@ -7862,62 +5929,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=561036",
     "modified": "2026-10-08T23:04:12.0385154Z"
-   },
-   {
-    "key": "m365:565373",
-    "id": "565373",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: eDiscovery - CMK (Customer managed key) for eDiscovery direct export",
-    "description": "This release of eDiscovery features the implementation of customer-managed key (CMK) options, allowing users to manage their own encryption keys for the data included in the direct export workflow in …",
-    "month": "2027-01",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=565373",
-    "modified": "2026-08-17T22:52:47.6278829Z"
-   },
-   {
-    "key": "m365:564617",
-    "id": "564617",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Information Protection - Rights Management connector – Certificate-based authentication",
-    "description": "The Microsoft Rights Management (RMS) connector is moving from shared-secret authentication to certificate-based authentication, improving its security posture. With this update, administrators config…",
-    "month": "2027-01",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-01",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=564617",
-    "modified": "2026-09-02T22:56:59.2759925Z"
    },
    {
     "key": "m365:560600",
@@ -8007,95 +6018,6 @@
     "modified": "2026-09-30T23:31:03.3895855Z"
    },
    {
-    "key": "m365:93269",
-    "id": "93269",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: eDiscovery (Premium) – Hold reports (U.S. Government clouds)",
-    "description": "Out-of-the-box reports that contain information about all legal holds associated with eDiscovery cases in the Microsoft Purview compliance portal. Sort and filter your view based on various criteria a…",
-    "month": "2027-02",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-02",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=93269",
-    "modified": "2026-08-17T22:52:47.6278829Z"
-   },
-   {
-    "key": "m365:565866",
-    "id": "565866",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Lifecycle Management - Retention capabilities based on files Last Accessed in OneDrive and SharePoint",
-    "description": "Ability to apply Retention labels and policies to items on OneDrive and SharePoint based on when the items were last accessed by an user.",
-    "month": "2027-02",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-02",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=565866",
-    "modified": "2026-09-10T23:01:27.0305106Z"
-   },
-   {
-    "key": "m365:571397",
-    "id": "571397",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Data Loss Prevention-Upgraded inline protection for Microsoft Entra-managed apps in Edge for Business",
-    "description": "Microsoft Purview is upgrading inline data protection for Microsoft Entra-managed apps in Edge for Business. The experience integrates with a Microsoft Entra Conditional Access grant control and simpl…",
-    "month": "2027-02",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2027-02",
-      "ring": "Preview"
-     },
-     {
-      "month": "2027-03",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571397",
-    "modified": "2026-10-06T22:56:31.0532139Z"
-   },
-   {
     "key": "m365:501201",
     "id": "501201",
     "kind": "m365",
@@ -8152,91 +6074,6 @@
     "modified": "2026-10-05T23:03:05.0409869Z"
    },
    {
-    "key": "m365:493752",
-    "id": "493752",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Cloud Attachments preservation for users on hold",
-    "description": "Enables cloud attachment preservation for users put on infinite hold so that file versions shared are preserved across any OneDrive or SharePoint site. This is a new capability which is different from…",
-    "month": "2027-03",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Preview"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=493752",
-    "modified": "2026-10-05T23:03:05.0409869Z"
-   },
-   {
-    "key": "m365:160008",
-    "id": "160008",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Data Loss Prevention - Optical character recognition (OCR) support for endpoint",
-    "description": "Optical character recognition (OCR) support will detect sensitive content in images and subsequently apply data loss prevention (DLP) policies to prevent exfiltration of that sensitive data on your Wi…",
-    "month": "2027-03",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=160008",
-    "modified": "2026-10-09T22:04:35.4607568Z"
-   },
-   {
-    "key": "m365:499076",
-    "id": "499076",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview Compliance Portal: Information Protection- Scan existing files in SharePoint and OneDrive for business for sensitive information",
-    "description": "This new capability will enable admins to scan existing files at rest in SharePoint or OneDrive for business for sensitive data.",
-    "month": "2027-03",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=499076",
-    "modified": "2026-09-28T22:58:08.5520989Z"
-   },
-   {
     "key": "m365:558288",
     "id": "558288",
     "kind": "m365",
@@ -8264,65 +6101,6 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=558288",
     "modified": "2026-05-11T23:15:11.1049439Z"
-   },
-   {
-    "key": "m365:560601",
-    "id": "560601",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview: Insider Risk Management – Reduce temporary file noise for Endpoint activities in IRM",
-    "description": "When files are opened in Windows, the operating system, and applications (for example, Microsoft Office and browsers) can create, rename, and delete temporary files as part of normal behavior. The End…",
-    "month": "2027-03",
-    "milestone": "Preview",
-    "milestones": [
-     {
-      "month": "2027-03",
-      "ring": "Preview"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)",
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=560601",
-    "modified": "2026-10-12T23:01:05.1232604Z"
-   },
-   {
-    "key": "m365:160010",
-    "id": "160010",
-    "kind": "m365",
-    "labels": [
-     "Purview"
-    ],
-    "title": "Microsoft Purview compliance portal: Optical character recognition (OCR) support for SharePoint Online and OneDrive for Business",
-    "description": "Optical character recognition (OCR) support will detect sensitive content in images and subsequently apply data loss prevention (DLP) policies to prevent exfiltration of that sensitive data in SharePo…",
-    "month": "2027-04",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2027-04",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Purview"
-    ],
-    "clouds": [
-     "GCC",
-     "GCC High",
-     "DoD"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=160010",
-    "modified": "2026-10-06T22:56:31.0532139Z"
    }
   ]
  },
@@ -8337,7 +6115,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 23
   },
@@ -8351,7 +6129,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 3
   },
@@ -8365,7 +6143,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 20
   },
@@ -8379,7 +6157,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 7
   },
@@ -8393,7 +6171,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 4
   },
@@ -8407,7 +6185,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 21
   },
@@ -8421,7 +6199,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 12
   },
@@ -8435,7 +6213,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 0
   },
@@ -8449,7 +6227,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 5
   },
@@ -8463,7 +6241,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 0
   },
@@ -8477,7 +6255,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 124
   },
@@ -8491,7 +6269,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 94
   },
@@ -8505,7 +6283,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 8
   },
@@ -8519,7 +6297,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 6
   },
@@ -8533,7 +6311,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 3
   },
@@ -8547,7 +6325,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 10
   },
@@ -8561,7 +6339,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 7
   },
@@ -8575,7 +6353,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 2
   },
@@ -8589,7 +6367,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 21
   },
@@ -8603,7 +6381,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 0
   },
@@ -8617,7 +6395,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 11
   },
@@ -8631,7 +6409,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 60
   },
@@ -8645,7 +6423,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 7
   },
@@ -8659,7 +6437,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 116
   },
@@ -8673,7 +6451,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 13
   },
@@ -8687,7 +6465,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 17
   },
@@ -8701,7 +6479,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 30
   },
@@ -8715,7 +6493,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 8
   },
@@ -8729,7 +6507,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 32
   },
@@ -8743,7 +6521,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 3
   },
@@ -8757,7 +6535,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 4
   },
@@ -8771,7 +6549,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 12
   },
@@ -8785,7 +6563,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 16
   },
@@ -8799,7 +6577,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 7
   },
@@ -8813,7 +6591,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 18
   },
@@ -8827,7 +6605,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 8
   },
@@ -8841,7 +6619,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 47
   },
@@ -8855,7 +6633,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 10
   },
@@ -8869,7 +6647,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 16
   },
@@ -8883,7 +6661,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 35
   },
@@ -8897,7 +6675,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "",
    "count": 49
   },
@@ -8911,7 +6689,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "UCc3pNIRzIZ8ynI38GO6H01Q",
    "count": 17
   },
@@ -8925,7 +6703,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "UCJ9905MRHxwLZ2jeNQGIWxA",
    "count": 17
   },
@@ -8939,7 +6717,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "UCn8PsBlVsGUt8J3tZCKsMPA",
    "count": 3
   },
@@ -8953,7 +6731,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "UC4s3tv0Qq_OSUBfR735Jc6A",
    "count": 3
   },
@@ -8967,7 +6745,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "UCsMica-v34Irf9KVTh6xx-g",
    "count": 15
   },
@@ -8981,7 +6759,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
    "count": 13
   },
@@ -8995,7 +6773,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-13T20:35:43Z",
+   "last_ok": "2026-10-13T20:38:58Z",
    "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "count": 9
   }
