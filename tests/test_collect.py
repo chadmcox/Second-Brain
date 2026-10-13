@@ -442,6 +442,8 @@ class UnitTests(unittest.TestCase):
         cfg = {"months_ahead": 6, "queries": [
             {"label": "Copilot", "tool": "get_recent_m365_roadmaps", "filter": "products/any(p: p eq 'X')"},
             {"label": "Studio", "tool": "get_recent_m365_roadmaps", "filter": "products/any(p: p eq 'Y')"},
+            {"label": "Purview", "tool": "get_recent_m365_roadmaps", "filter": "products/any(p: p eq 'Z')",
+             "keywords": ["copilot"]},
             {"label": "Retirements", "tool": "get_recent_azure_updates", "filter": "tags/any(t: t eq 'Retirements')",
              "when": "retirement"}]}
         out = collect.build_upcoming(cfg, {}, NOW, fake)
@@ -456,7 +458,7 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(got["Foundry news"]["milestone"], "Announced")
         self.assertEqual([r["month"] for r in out["rows"]], sorted(r["month"] for r in out["rows"]))
         self.assertIn("generalAvailabilityDate ge '2026-10'", fake.calls[0][1]["filter"])
-        self.assertIn("a/ring eq 'Retirement' and a/year ge 2026", fake.calls[2][1]["filter"])
+        self.assertIn("a/ring eq 'Retirement' and a/year ge 2026", fake.calls[3][1]["filter"])
 
     def test_scoped_theme_only_tags_its_group(self):
         cl = collect.Classifier([{"id": "ai-threats", "theme": True, "scope": "security", "any": ["ai agents"]}])

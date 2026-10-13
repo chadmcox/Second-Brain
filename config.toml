@@ -224,6 +224,8 @@ filter = "products/any(p: p eq 'Microsoft Entra')"
 label = "Purview"
 tool = "get_recent_m365_roadmaps"
 filter = "products/any(p: p eq 'Microsoft Purview')"
+keywords = ["ai", "copilot", "copilotcontrolsystem", "agent", "agents", "agentic", "generative",
+            "genai", "llm", "llms", "prompt", "prompts", "model", "models", "dspm for ai"]   # AI-related only
 
 [[upcoming.queries]]
 label = "Microsoft Foundry"

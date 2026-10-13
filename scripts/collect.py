@@ -1339,11 +1339,14 @@ def build_upcoming(ucfg: dict, previous: dict, now: datetime, client=None) -> di
         else:
             when = f"(generalAvailabilityDate ge '{this_month}' or previewAvailabilityDate ge '{this_month}')"
         flt = f"({q['filter']}) and {when}" if q.get("filter") else when
+        keep = word_pattern(q.get("keywords", []))   # optional: only entries mentioning these
         try:
             for page in range(int(ucfg.get("max_pages", 4))):
                 data = client.call(q["tool"], {"filter": flt, "skip": page * 50})
                 for row in upcoming_rows(kind, q["label"], data.get("items", []), now,
                                          months_ahead, recent_days):
+                    if keep and not keep.search(f"{row['title']}\n{row['description']}"):
+                        continue
                     if row["key"] in rows:
                         if q["label"] not in rows[row["key"]]["labels"]:
                             rows[row["key"]]["labels"].append(q["label"])
