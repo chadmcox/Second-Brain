@@ -4,7 +4,209 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Tue, 13 Oct 2026 20:38:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 17:09:46 +0000</lastBuildDate>
+    <item>
+      <title>[Hugging Face] HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost</title>
+      <link>https://huggingface.co/blog/allenai/hiro-acev2</link>
+      <guid isPermaLink="false">672ebf75c430</guid>
+      <pubDate>Wed, 14 Oct 2026 16:12:42 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Microsoft Developer] Ship an AI agent without leaving your terminal</title>
+      <link>https://www.youtube.com/watch?v=l37ZnSjKRxo</link>
+      <guid isPermaLink="false">c9595a00ec94</guid>
+      <pubDate>Wed, 14 Oct 2026 15:50:58 +0000</pubDate>
+      <description>https://aka.ms/foundry-portal https://aka.ms/InsideMicrosoftFoundryPlaylist What if you could go from idea to a live AI agent from within your terminal? You use GitHub Copilot CLI with the Microsoft Foundry and Azure skills to plan, build, test, and deploy a Backer Concierge for Tailspin Toys. It's a hosted agent that recommends games, remembers the conversation, and answers only from the catalog. Copilot proposes…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft] From extraction to action: Using grounding and confidence to build reliable document workflows</title>
+      <link>https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/</link>
+      <guid isPermaLink="false">6abe458e60c4</guid>
+      <pubDate>Wed, 14 Oct 2026 15:38:56 +0000</pubDate>
+      <description>Learn how Azure Content Understanding grounding, field-level confidence, and calibration help teams prioritize human review and build reliable document workflows.</description>
+      <category>foundry</category>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Human in the Loop for AI Pen Testing Agents</title>
+      <link>https://www.youtube.com/shorts/Veot9JRCONg</link>
+      <guid isPermaLink="false">22990ec831ec</guid>
+      <pubDate>Wed, 14 Oct 2026 15:15:12 +0000</pubDate>
+      <description>How much should AI security agents do without asking? In Project Perception, any operation of consequence pauses for approval. You steer the process, confirm the agent's reasoning and assumptions, and approve the action before the pen test agent proceeds. ▶ Full video: https://youtu.be/afXHGzGNAtM ▶ Get started: https://microsoft.com/perception #Shorts #AIAgents #SecOps #Cybersecurity</description>
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] The Blind Spots of Agentic Pentesting and How to Close Them</title>
+      <link>https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/</link>
+      <guid isPermaLink="false">937c7f4fab21</guid>
+      <pubDate>Wed, 14 Oct 2026 14:00:10 +0000</pubDate>
+      <description>AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting with exposure validation and breach simulation can help close these gaps. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] Russian travel booking platform suspends reservations after cyberattack</title>
+      <link>https://therecord.media/russia-anywayanyday-travel-website-cyberattack</link>
+      <guid isPermaLink="false">a7d7c0f109d9</guid>
+      <pubDate>Wed, 14 Oct 2026 13:05:00 +0000</pubDate>
+      <description>Customers of Russian travel website Anywayanyday were unable to book tickets or hotel rooms as the company responded to a cyberattack.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft] The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime</title>
+      <link>https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/</link>
+      <guid isPermaLink="false">b2dbdf4e9e45</guid>
+      <pubDate>Wed, 14 Oct 2026 13:00:00 +0000</pubDate>
+      <description>Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem.</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] CISA warns admins to immediately fix Ivanti flaw exploited as zero-day</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/</link>
+      <guid isPermaLink="false">835a57efab96</guid>
+      <pubDate>Wed, 14 Oct 2026 12:58:07 +0000</pubDate>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts</title>
+      <link>https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html</link>
+      <guid isPermaLink="false">c8c2a8e77f0c</guid>
+      <pubDate>Wed, 14 Oct 2026 12:30:42 +0000</pubDate>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[OpenAI] Amp puts AI agents to work beyond code with OpenAI models</title>
+      <link>https://openai.com/index/amp-beyond-coding</link>
+      <guid isPermaLink="false">a0e0fec2c2b5</guid>
+      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
+      <description>See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.</description>
+    </item>
+    <item>
+      <title>[The Hacker News] How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team</title>
+      <link>https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html</link>
+      <guid isPermaLink="false">de7e4a82bb7f</guid>
+      <pubDate>Wed, 14 Oct 2026 11:50:00 +0000</pubDate>
+      <description>Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days</title>
+      <link>https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html</link>
+      <guid isPermaLink="false">ecd984dc6bd3</guid>
+      <pubDate>Wed, 14 Oct 2026 11:19:02 +0000</pubDate>
+      <description>A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs, fixed them, and paid XBOW its top $</description>
+      <category>security-agents</category>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.</title>
+      <link>https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html</link>
+      <guid isPermaLink="false">181d174bbac4</guid>
+      <pubDate>Wed, 14 Oct 2026 11:00:00 +0000</pubDate>
+      <description>The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let the user choose where the one-time passcode went. The attack was the easy part. Proving it</description>
+      <category>security-agents</category>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Anthropic] Singapore office and government MOU | Anthropic</title>
+      <link>https://www.anthropic.com/news/singapore-office-opening</link>
+      <guid isPermaLink="false">87253efedaff</guid>
+      <pubDate>Wed, 14 Oct 2026 08:30:00 +0000</pubDate>
+      <description>Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.</description>
+    </item>
+    <item>
+      <title>[The Hacker News] AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host</title>
+      <link>https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html</link>
+      <guid isPermaLink="false">0a34dc42eff4</guid>
+      <pubDate>Wed, 14 Oct 2026 07:46:57 +0000</pubDate>
+      <description>A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine. The bug is tracked as CVE-2026-74580 and named Vghost. Tencent Zhuque Lab, which found the</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[OpenAI] How Third Moment Research runs 10,000 agents for 36+ hours</title>
+      <link>https://openai.com/index/third-moment-research</link>
+      <guid isPermaLink="false">e181547094b0</guid>
+      <pubDate>Wed, 14 Oct 2026 07:00:00 +0000</pubDate>
+      <description>With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.</description>
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[NVIDIA] From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA</title>
+      <link>https://blogs.nvidia.com/blog/uk-ecosystem-deployment/</link>
+      <guid isPermaLink="false">641fd03bcae8</guid>
+      <pubDate>Wed, 14 Oct 2026 06:04:15 +0000</pubDate>
+      <description>Across industries, the U.K. is putting the full stack to work — and the scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety […]</description>
+    </item>
+    <item>
+      <title>[NVIDIA] European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations</title>
+      <link>https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/</link>
+      <guid isPermaLink="false">5f7238246fc0</guid>
+      <pubDate>Wed, 14 Oct 2026 06:00:28 +0000</pubDate>
+      <description>Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make […]</description>
+    </item>
+    <item>
+      <title>[The Hacker News] Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug</title>
+      <link>https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html</link>
+      <guid isPermaLink="false">b7b1929554c4</guid>
+      <pubDate>Wed, 14 Oct 2026 04:34:43 +0000</pubDate>
+      <description>Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these, more than 670 relate to privilege escalation, followed by over 300 remote code</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] What Each AI Agent Team Does in Project Perception</title>
+      <link>https://www.youtube.com/shorts/aHatrPLNqEM</link>
+      <guid isPermaLink="false">89ffdb9bdbd3</guid>
+      <pubDate>Wed, 14 Oct 2026 02:15:32 +0000</pubDate>
+      <description>What do red, blue, and green team AI agents do? In Project Perception, red team agents simulate attacks, find attack paths, and prove where you're vulnerable. Blue team agents investigate, correlate events, and build detections. Green team agents harden your posture and remediate before an attack lands. ▶ Full video: https://youtu.be/afXHGzGNAtM ▶ Get started: https://microsoft.com/perception #Shorts…</description>
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[Google] Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection</title>
+      <link>https://deepmind.google/blog/on-device-ai-scam-detection-mddi/</link>
+      <guid isPermaLink="false">58e4191fcfe4</guid>
+      <pubDate>Wed, 14 Oct 2026 02:00:14 +0000</pubDate>
+      <description>Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.</description>
+    </item>
+    <item>
+      <title>[The Hacker News] OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room</title>
+      <link>https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html</link>
+      <guid isPermaLink="false">cb3154f35431</guid>
+      <pubDate>Wed, 14 Oct 2026 01:59:25 +0000</pubDate>
+      <description>A Saudi national and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[xAI] Introducing Grok Voice 3.0</title>
+      <link>https://x.ai/news/grok-voice-3</link>
+      <guid isPermaLink="false">793cd0506ac4</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <description>The world’s most intelligent voice model.</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] OpenAI engineer arrested for allegedly planting spy device in office</title>
+      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/</link>
+      <guid isPermaLink="false">ff21bb8aab01</guid>
+      <pubDate>Tue, 13 Oct 2026 22:33:02 +0000</pubDate>
+      <description>A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Anthropic warns self-replicating AI could spread to your smart devices</title>
+      <link>https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/</link>
+      <guid isPermaLink="false">1a0763123a1d</guid>
+      <pubDate>Tue, 13 Oct 2026 21:16:34 +0000</pubDate>
+      <description>Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Google] An update on the launch of skills in the Gemini app and Workspace</title>
+      <link>https://workspaceupdates.googleblog.com/2026/10/an-update-on-launch-of-skills-in-gemini-app-and-workspace.html</link>
+      <guid isPermaLink="false">4957c39b52f0</guid>
+      <pubDate>Tue, 13 Oct 2026 20:33:42 +0000</pubDate>
+      <description>As previously announced, skills in the Gemini app are starting to roll out today, with an expected completion by mid-November. In the coming weeks, we’ll also introduce critical features like the ability to share Gemini app skills and an integration with Google Drive. We’ll post on the Workspace Updates blog as soon as those capabilities start rolling out. We also want to share an update on the rollout of skills in…</description>
+    </item>
     <item>
       <title>[Microsoft Developer] Fewer Experiments, Faster Discovery</title>
       <link>https://www.youtube.com/shorts/y0uuFwjIFR4</link>
@@ -421,212 +623,6 @@
       <pubDate>Sat, 10 Oct 2026 12:30:39 +0000</pubDate>
       <description>Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]</description>
       <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't</title>
-      <link>https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html</link>
-      <guid isPermaLink="false">4f95732c4969</guid>
-      <pubDate>Sat, 10 Oct 2026 11:00:00 +0000</pubDate>
-      <description>In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what authenticates through it, and most agents never do. That gap is the clearest</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws</title>
-      <link>https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html</link>
-      <guid isPermaLink="false">ebcd6167a236</guid>
-      <pubDate>Sat, 10 Oct 2026 09:18:45 +0000</pubDate>
-      <description>Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Microsoft] GitHub Copilot weekly releases — October 5</title>
-      <link>https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5</link>
-      <guid isPermaLink="false">8e5ec2908b04</guid>
-      <pubDate>Fri, 09 Oct 2026 22:58:23 +0000</pubDate>
-      <description>This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Microsoft Copilot] Meet Code in Copilot</title>
-      <link>https://www.youtube.com/shorts/ax0lIBORCPs</link>
-      <guid isPermaLink="false">a2f683a33db0</guid>
-      <pubDate>Fri, 09 Oct 2026 21:00:25 +0000</pubDate>
-      <description>Copilot Code helps more people turn ideas into apps, workflows, and solutions, making it easier to build what they need to get work done. Watch Microsoft Copilot EVP Jacob Andreou share how Copilot Code expands who gets to build. #MicrosoftCopilot #CopilotCode</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/</link>
-      <guid isPermaLink="false">c85e183aba75</guid>
-      <pubDate>Fri, 09 Oct 2026 20:31:37 +0000</pubDate>
-      <description>Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Microsoft] What's New in Notebooks | October 2026</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-notebooks-october-2026/ba-p/4559105</link>
-      <guid isPermaLink="false">35eeed9d8ff2</guid>
-      <pubDate>Fri, 09 Oct 2026 20:09:25 +0000</pubDate>
-      <description>Copilot Notebooks is an AI-powered workspace for a project or topic to help individuals and teams move work forward. It brings your Microsoft 365 work context into one workspace where you can collect references, ask questions grounded in your project context, uncover key insights across your work, and turn those insights into shareable outputs. Coming to Frontier in the coming weeks, this update helps you create…</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[Microsoft] Introducing Office in the new Microsoft Copilot app</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/introducing-office-in-the-new-microsoft-copilot-app/ba-p/4561230</link>
-      <guid isPermaLink="false">3a5f4fb46d9b</guid>
-      <pubDate>Fri, 09 Oct 2026 19:25:48 +0000</pubDate>
-      <description>Microsoft Office has defined productivity for the PC era, driving the shift from desktop software to cloud computing and collaboration-based work. Now, we’re defining productivity in the AI era with Microsoft Copilot. The Copilot app is where you can move from intent to outcome. Start with an idea, and work with AI to bring it to the finish line. Today, we’re bringing the full power of Office into the Copilot app…</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[The Record] Japan confirms arrest of Russian Qilin operative, extradition to Germany</title>
-      <link>https://therecord.media/japan-germany-ransomware-arrest</link>
-      <guid isPermaLink="false">29cdd129a5d6</guid>
-      <pubDate>Fri, 09 Oct 2026 18:45:00 +0000</pubDate>
-      <description>Japan’s National Police Agency confirmed the arrest and extradition to Germany of a Russian national accused of being involved in the Qilin ransomware gang.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Salesforce] Your Customer’s Personal Agent Is Knocking. Is Your Business Ready to Answer?</title>
-      <link>https://www.salesforce.com/news/stories/personal-ai-agents-evolution/</link>
-      <guid isPermaLink="false">2e70e944a5c6</guid>
-      <pubDate>Fri, 09 Oct 2026 18:30:00 +0000</pubDate>
-      <description>With the advent of personal AI agents, every business is grappling with the same question: Let them in or block them at the front door?</description>
-      <category>personal-agents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack</title>
-      <link>https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html</link>
-      <guid isPermaLink="false">43d8a91bc2a7</guid>
-      <pubDate>Fri, 09 Oct 2026 17:45:26 +0000</pubDate>
-      <description>The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had breached the FBI's jobs portal and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not named the suspect, and no charges have been made public. The</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] FBI arrests another suspected ShinyHunters hacker after agency breach</title>
-      <link>https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/</link>
-      <guid isPermaLink="false">3e81c73975d2</guid>
-      <pubDate>Fri, 09 Oct 2026 17:02:29 +0000</pubDate>
-      <description>The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Record] Hundreds of thousands impacted by data breach at biosensor firm iRhythm</title>
-      <link>https://therecord.media/irhythm-data-breach-reports</link>
-      <guid isPermaLink="false">10b8bb252112</guid>
-      <pubDate>Fri, 09 Oct 2026 16:06:00 +0000</pubDate>
-      <description>A company known for wearable cardiac sensors, iRhythm, has begun notifying states of the impact of a data breach from the summer.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[GitHub] What really happens at a 48-hour hackathon</title>
-      <link>https://www.youtube.com/watch?v=ICi1LPxx0ck</link>
-      <guid isPermaLink="false">07f759f239e6</guid>
-      <pubDate>Fri, 09 Oct 2026 15:59:49 +0000</pubDate>
-      <description>Hackathons are much more than continuous coding and zero sleep; they are invention marathons where developers, students, and beginners build real projects. In this short documentary, participants and organizers share how hackathons foster lifelong friendships, teach failure-driven learning, and lower the bar to building software. Watch to see how trial, error, free pizza, and tools like GitHub Copilot help turn raw…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[The Record] FBI touts another ShinyHunters arrest in response to data breach</title>
-      <link>https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation</link>
-      <guid isPermaLink="false">0419de820a0c</guid>
-      <pubDate>Fri, 09 Oct 2026 15:41:00 +0000</pubDate>
-      <description>“We will continue to work closely with our partners to disrupt what’s left of the ShinyHunters group and their associates, no matter where they operate," FBI Director Kash Patel said.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Germany arrests alleged core Qilin ransomware member after extradition</title>
-      <link>https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/</link>
-      <guid isPermaLink="false">a107c9394b7b</guid>
-      <pubDate>Fri, 09 Oct 2026 15:38:56 +0000</pubDate>
-      <description>Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Hugging Face] Impactful scheduling for GPU clusters</title>
-      <link>https://huggingface.co/blog/allenai/impactful-scheduling</link>
-      <guid isPermaLink="false">43ef54e74d27</guid>
-      <pubDate>Fri, 09 Oct 2026 15:20:29 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[The Record] Belarusian hacktivists admit to 2023 breach of Russian state healthcare network</title>
-      <link>https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack</link>
-      <guid isPermaLink="false">b6413b14b402</guid>
-      <pubDate>Fri, 09 Oct 2026 14:40:00 +0000</pubDate>
-      <description>The Belarusian Cyber Partisans concurred with Russian research that they indeed spent months inside the network for the Moscow Department of Health.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] How to keep AI agents within their permissions</title>
-      <link>https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/</link>
-      <guid isPermaLink="false">1fa3e25e6263</guid>
-      <pubDate>Fri, 09 Oct 2026 14:01:11 +0000</pubDate>
-      <description>AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without sacrificing autonomy. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Record] OpenAI says it disrupted Russian and Iranian influence ops that used ChatGPT</title>
-      <link>https://therecord.media/openai-disrupts-russian-iranian-operations-chatgpt</link>
-      <guid isPermaLink="false">e96ba9baabd0</guid>
-      <pubDate>Fri, 09 Oct 2026 13:50:00 +0000</pubDate>
-      <description>A Latin American propaganda operation run by Russians and a cluster of Iranian fake journalist identities each had help from now-closed ChatGPT accounts, OpenAI's safety team said.</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects</title>
-      <link>https://thehackernews.com/2026/10/anthropic-launches-free-ai.html</link>
-      <guid isPermaLink="false">04cd63484434</guid>
-      <pubDate>Fri, 09 Oct 2026 12:47:28 +0000</pubDate>
-      <description>Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). "It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing," Anthropic said. "Projects that join will receive thorough, periodic security scans by our strongest models at no cost."</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition</title>
-      <link>https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html</link>
-      <guid isPermaLink="false">b7ae45cc2528</guid>
-      <pubDate>Fri, 09 Oct 2026 11:30:00 +0000</pubDate>
-      <description>As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The "Horizons of Identity Security" report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in AI-speed business operations while continuing to rely on human-speed security controls, creating a</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[OpenAI] Sophos cuts threat investigation time by 96% with OpenAI Daybreak</title>
-      <link>https://openai.com/index/sophos</link>
-      <guid isPermaLink="false">edd58468d564</guid>
-      <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
-      <description>Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.</description>
-      <category>security-agents</category>
-    </item>
-    <item>
-      <title>[OpenAI] Asana cuts model costs 76x in browser tests with GPT-6.1 Sol</title>
-      <link>https://openai.com/index/asana-browser-agent</link>
-      <guid isPermaLink="false">90995f7dbc9c</guid>
-      <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
-      <description>Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland</title>
-      <link>https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/</link>
-      <guid isPermaLink="false">ca5ab3cf48f5</guid>
-      <pubDate>Fri, 09 Oct 2026 05:41:04 +0000</pubDate>
-      <description>The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] FBI disrupts Chinese hacking tools used to breach critical infrastructure</title>
-      <link>https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/</link>
-      <guid isPermaLink="false">290af517c244</guid>
-      <pubDate>Thu, 08 Oct 2026 21:42:51 +0000</pubDate>
-      <description>The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[GitHub] How to run GitHub Copilot agent sessions across any device | GitHub Copilot Day</title>
-      <link>https://www.youtube.com/watch?v=KT6p0MNXoCE</link>
-      <guid isPermaLink="false">736f1f005399</guid>
-      <pubDate>Thu, 08 Oct 2026 21:19:39 +0000</pubDate>
-      <description>Agent sessions shouldn't be locked into a single code editor or terminal window. Patrick Nikoletich explains how GitHub's shared agent runtime, Copilot SDK, and Agent Host Protocol let developers move active sessions seamlessly across multiple devices. Watch a live demonstration of hosting an agent on a home Linux machine, connecting via Copilot CLI, and syncing real-time updates across multiple clients. ▬▬▬▬▬▬ WANT…</description>
-      <category>githubcopilot</category>
     </item>
   </channel>
 </rss>
