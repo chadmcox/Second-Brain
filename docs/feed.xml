@@ -4,7 +4,177 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 14 Oct 2026 17:09:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 17:00:16 +0000</lastBuildDate>
+    <item>
+      <title>[Google] Accelerating the search for antimicrobial peptides with Google Antigravity</title>
+      <link>https://deepmind.google/blog/accelerating-antimicrobial-discovery/</link>
+      <guid isPermaLink="false">996b33c09ad5</guid>
+      <pubDate>Thu, 15 Oct 2026 16:08:03 +0000</pubDate>
+      <description>Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.</description>
+    </item>
+    <item>
+      <title>[GitHub] LangChain Deep Agents</title>
+      <link>https://www.youtube.com/watch?v=PkB6_nSI0Hc</link>
+      <guid isPermaLink="false">bcd5f315836e</guid>
+      <pubDate>Thu, 15 Oct 2026 15:16:44 +0000</pubDate>
+      <description>Deep Agents is an open source agent harness — an opinionated agent that runs out of the box. Extend, override, or replace any piece.</description>
+    </item>
+    <item>
+      <title>[Microsoft Copilot] Introducing Copilot for legal</title>
+      <link>https://www.youtube.com/watch?v=UiqHNdRkfWI</link>
+      <guid isPermaLink="false">d7b6dc5fcc40</guid>
+      <pubDate>Thu, 15 Oct 2026 15:05:09 +0000</pubDate>
+      <description>Copilot for legal: Move legal work forward with purpose-built skills. New legal plugins bring more than 20 purpose-built skills to Microsoft Copilot. In Word, they support deeper document workflows for drafting, reviewing, and redlining. In Cowork, legal teams can take on broader, multi-step work across agreements, emails, meetings, and files. Grounded in organizational context and connected to trusted legal systems…</description>
+      <category>copilot</category>
+      <category>cowork</category>
+    </item>
+    <item>
+      <title>[NVIDIA] Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models</title>
+      <link>https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/</link>
+      <guid isPermaLink="false">902189e10f1e</guid>
+      <pubDate>Thu, 15 Oct 2026 15:00:24 +0000</pubDate>
+      <description>NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized […]</description>
+    </item>
+    <item>
+      <title>[The Record] UK Legal Aid Agency hack worse than thought, with stolen records dating back to 1978</title>
+      <link>https://therecord.media/uk-legal-aid-cyberattack-data</link>
+      <guid isPermaLink="false">7fb1c5cdc54f</guid>
+      <pubDate>Thu, 15 Oct 2026 14:30:00 +0000</pubDate>
+      <description>A cyberattack on Britain’s Legal Aid Agency (LAA) stole far older and broader records than the government previously disclosed.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Is AI pentesting as good as a human pentester?</title>
+      <link>https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/</link>
+      <guid isPermaLink="false">5d774caabf5a</guid>
+      <pubDate>Thu, 15 Oct 2026 14:01:11 +0000</pubDate>
+      <description>AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both approaches and explains where AI agents can improve security testing. [...]</description>
+      <category>security-agents</category>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft] Agentic autofix for code scanning alerts general availability</title>
+      <link>https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</link>
+      <guid isPermaLink="false">b7ac4657df6f</guid>
+      <pubDate>Thu, 15 Oct 2026 13:49:20 +0000</pubDate>
+      <description>Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix,…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Mistral] Introducing Timestral</title>
+      <link>https://mistral.ai/news/timestral/</link>
+      <guid isPermaLink="false">b8a89667dd94</guid>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+      <description>State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready.</description>
+    </item>
+    <item>
+      <title>[The Hacker News] Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early</title>
+      <link>https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html</link>
+      <guid isPermaLink="false">999e9923be39</guid>
+      <pubDate>Thu, 15 Oct 2026 11:46:59 +0000</pubDate>
+      <description>Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026. The campaigns also increase operational pressure on MSSPs serving US businesses, which accounted for 16% of country-attributed targets. Similar attacks</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation</title>
+      <link>https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html</link>
+      <guid isPermaLink="false">fc3053d7e094</guid>
+      <pubDate>Thu, 15 Oct 2026 11:46:49 +0000</pubDate>
+      <description>Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. "A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Why AI Confidence Is Not Validation</title>
+      <link>https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html</link>
+      <guid isPermaLink="false">9bedf93cf19d</guid>
+      <pubDate>Thu, 15 Oct 2026 11:04:35 +0000</pubDate>
+      <description>AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance models and validation standards in place, that gap compounds and rarely stays contained to a workstation: an</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Apertus 1.5 Release Notes</title>
+      <link>https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes</link>
+      <guid isPermaLink="false">e3c36d4422c6</guid>
+      <pubDate>Thu, 15 Oct 2026 09:08:45 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[BleepingComputer] UK Legal Aid Agency: Hackers stole records dating back to 1978</title>
+      <link>https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/</link>
+      <guid isPermaLink="false">9d7e0c21485d</guid>
+      <pubDate>Thu, 15 Oct 2026 08:06:47 +0000</pubDate>
+      <description>The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says attackers who breached its IT systems in April 2025 stole records dating back to 1978. [...]</description>
+      <category>defender</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts</title>
+      <link>https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html</link>
+      <guid isPermaLink="false">50367ee6ae87</guid>
+      <pubDate>Thu, 15 Oct 2026 07:07:05 +0000</pubDate>
+      <description>Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM. The vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Salesforce] Tottenham Hotspur Launches Ask Spurs on Agentforce</title>
+      <link>https://www.salesforce.com/news/press-releases/2026/10/15/tottenham-hotspur-becomes-agentic-enterprise-with-agentforce/</link>
+      <guid isPermaLink="false">518c1f1b2d37</guid>
+      <pubDate>Thu, 15 Oct 2026 07:00:00 +0000</pubDate>
+      <description>Club unifies over 4.6 million fan accounts across 10+ systems, with new AI agent Ask Spurs achieving an 86% engagement rate. Agentic transformation spans football, stadium events and commercial operations, while supporting community programmes to improve digital skills and career pathways for local young people. LONDON, UK — 15 OCTOBER 2026 — Salesforce (NYSE: CRM), […]</description>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] What Is MAI Cyber Flash?</title>
+      <link>https://www.youtube.com/shorts/0S0f8kekMsI</link>
+      <guid isPermaLink="false">67bd08745af3</guid>
+      <pubDate>Thu, 15 Oct 2026 02:30:07 +0000</pubDate>
+      <description>How do you run security AI without breaking the bank on tokens? MAI Cyber Flash, a dedicated cybersecurity model inside MDASH, handles roughly 90% of queries (finding the vulnerability, patching it, and proving the fix is valid) and defers only the hardest tasks to a larger, more expensive frontier model. ▶ Full video: https://youtu.be/afXHGzGNAtM ▶ Get started: https://microsoft.com/perception #Shorts…</description>
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Welcome FLUX.3 Image Klein in Diffusers</title>
+      <link>https://huggingface.co/blog/flux-3</link>
+      <guid isPermaLink="false">3733c75a28bf</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[BleepingComputer] Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/</link>
+      <guid isPermaLink="false">c9a3f02d710c</guid>
+      <pubDate>Wed, 14 Oct 2026 22:56:47 +0000</pubDate>
+      <description>Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft] HydraFusion updates and new Max option</title>
+      <link>https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option</link>
+      <guid isPermaLink="false">116eea760bcf</guid>
+      <pubDate>Wed, 14 Oct 2026 20:01:35 +0000</pubDate>
+      <description>HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Anthropic] Preparing for the 2026 US midterms</title>
+      <link>https://www.anthropic.com/news/2026-us-midterms</link>
+      <guid isPermaLink="false">c9ddbc2bb893</guid>
+      <pubDate>Wed, 14 Oct 2026 18:33:00 +0000</pubDate>
+      <description>Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.</description>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Automated SQL Injection Remediation With AI Agents</title>
+      <link>https://www.youtube.com/shorts/-RRw9UNOuBQ</link>
+      <guid isPermaLink="false">2895253bea12</guid>
+      <pubDate>Wed, 14 Oct 2026 18:30:15 +0000</pubDate>
+      <description>Can an AI agent fix a SQL injection, not just report it? Project Perception's posture remediation agent shields the app with a web application firewall, adds an authorization check, then writes a code fix to parameterize invoice queries, runs tests to validate it, and opens the pull request that merges it into production. ▶ Full video: https://youtu.be/afXHGzGNAtM ▶ Get started: https://microsoft.com/perception…</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] Cisco patches new Secure Email Gateway zero-day exploited in attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/</link>
+      <guid isPermaLink="false">a7632caf16a4</guid>
+      <pubDate>Wed, 14 Oct 2026 17:29:14 +0000</pubDate>
+      <description>Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]</description>
+      <category>incidents</category>
+    </item>
     <item>
       <title>[Hugging Face] HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost</title>
       <link>https://huggingface.co/blog/allenai/hiro-acev2</link>
@@ -84,6 +254,14 @@
       <description>See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.</description>
     </item>
     <item>
+      <title>[OpenAI] SentinelOne cuts malware analysis from weeks to hours</title>
+      <link>https://openai.com/index/sentinelone</link>
+      <guid isPermaLink="false">24cc989c02db</guid>
+      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
+      <description>With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.</description>
+      <category>security-agents</category>
+    </item>
+    <item>
       <title>[The Hacker News] How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team</title>
       <link>https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html</link>
       <guid isPermaLink="false">de7e4a82bb7f</guid>
@@ -133,11 +311,18 @@
       <category>security-agents</category>
     </item>
     <item>
-      <title>[NVIDIA] From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA</title>
+      <title>[OpenAI] How Block is building AI-powered security with OpenAI technology</title>
+      <link>https://openai.com/index/block-ai-powered-security</link>
+      <guid isPermaLink="false">7d10f0ddfecf</guid>
+      <pubDate>Wed, 14 Oct 2026 07:00:00 +0000</pubDate>
+      <description>Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.</description>
+    </item>
+    <item>
+      <title>[NVIDIA] NVIDIA Announces New Investments in the UK Startup Ecosystem</title>
       <link>https://blogs.nvidia.com/blog/uk-ecosystem-deployment/</link>
       <guid isPermaLink="false">641fd03bcae8</guid>
       <pubDate>Wed, 14 Oct 2026 06:04:15 +0000</pubDate>
-      <description>Across industries, the U.K. is putting the full stack to work — and the scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety […]</description>
+      <description>Across industries, the U.K. is putting the full stack to work. The scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety and security […]</description>
     </item>
     <item>
       <title>[NVIDIA] European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations</title>
@@ -433,196 +618,6 @@
       <guid isPermaLink="false">3fa2d8668eae</guid>
       <pubDate>Tue, 13 Oct 2026 05:00:31 +0000</pubDate>
       <description>Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments […]</description>
-    </item>
-    <item>
-      <title>[Microsoft] Client telemetry user attribution and configurable capture</title>
-      <link>https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture</link>
-      <guid isPermaLink="false">c1d34165b490</guid>
-      <pubDate>Mon, 12 Oct 2026 22:38:00 +0000</pubDate>
-      <description>Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Yandex confirms service outage as users lose access to cloud files</title>
-      <link>https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/</link>
-      <guid isPermaLink="false">8d0ac34c06d5</guid>
-      <pubDate>Mon, 12 Oct 2026 19:23:01 +0000</pubDate>
-      <description>Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Google] Find your routine next steps on the post-meeting screen in Google Meet</title>
-      <link>https://workspaceupdates.googleblog.com/2026/10/find-your-routine-next-steps-on-post-meeting-screen-in-Google-Meet.html</link>
-      <guid isPermaLink="false">4b7198460643</guid>
-      <pubDate>Mon, 12 Oct 2026 19:17:43 +0000</pubDate>
-      <description>We are introducing next steps in Google Meet. Powered by Gemini and Workspace Studio, our new capability allows users to automate repetitive post-meeting tasks directly within Google Workspace. Next steps help you transform meeting discussions into definitive actions, like drafting follow-up emails in Gmail or exporting action items to Google Tasks. During busy work days, meetings are frequently just one part of an…</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] Anthropic takes risky AI tests offline after models breach govt sites</title>
-      <link>https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/</link>
-      <guid isPermaLink="false">8ba9b8e7a12a</guid>
-      <pubDate>Mon, 12 Oct 2026 18:51:59 +0000</pubDate>
-      <description>Anthropic announced that its internal AI models undergoing "high-risk and cybersecurity evaluations" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] GitHub Copilot app for Beginners: How to teach Copilot about your codebase</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/</link>
-      <guid isPermaLink="false">d8d241723974</guid>
-      <pubDate>Mon, 12 Oct 2026 17:43:59 +0000</pubDate>
-      <description>Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Microsoft] What’s new in Microsoft Entra: October 2026</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-entra-blog/what-s-new-in-microsoft-entra-october-2026/ba-p/4556460</link>
-      <guid isPermaLink="false">347d79dd9c43</guid>
-      <pubDate>Mon, 12 Oct 2026 17:25:18 +0000</pubDate>
-      <description>Over the last few months, I've spent a lot of time with customers and our teams on one of the biggest security shifts ahead of us: securing an enterprise where people and AI agents are both acting on behalf of the business. It’s a challenge shaping Microsoft's approach to Secure AI. And while AI makes the challenge urgent, the underlying problem is broader. Organizations need to give more people, applications…</description>
-      <category>entra</category>
-    </item>
-    <item>
-      <title>[Meta] Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents</title>
-      <link>https://about.fb.com/news/2026/10/introducing-muse-wonder-models/</link>
-      <guid isPermaLink="false">96ebc43c0cf5</guid>
-      <pubDate>Mon, 12 Oct 2026 17:08:05 +0000</pubDate>
-      <description>Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks.</description>
-      <category>personal-agents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Cyberattack shuts down refrigerators at French supermarkets</title>
-      <link>https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/</link>
-      <guid isPermaLink="false">5ae29bf7b51a</guid>
-      <pubDate>Mon, 12 Oct 2026 15:23:34 +0000</pubDate>
-      <description>Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] ⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More</title>
-      <link>https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html</link>
-      <guid isPermaLink="false">6e33620606a0</guid>
-      <pubDate>Mon, 12 Oct 2026 15:16:26 +0000</pubDate>
-      <description>Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves.</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[NVIDIA] OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide</title>
-      <link>https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/</link>
-      <guid isPermaLink="false">9c679f3096ea</guid>
-      <pubDate>Mon, 12 Oct 2026 15:00:25 +0000</pubDate>
-      <description>As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at […]</description>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] Fight AI with AI | Multi-Agent Security Defense</title>
-      <link>https://www.youtube.com/watch?v=afXHGzGNAtM</link>
-      <guid isPermaLink="false">5d1f3027c111</guid>
-      <pubDate>Mon, 12 Oct 2026 15:00:02 +0000</pubDate>
-      <description>Match AI-powered attacks at machine speed with Project Perception. Point red, blue, and green AI agent teams at a known threat actor, confirm which vulnerabilities attackers can reach, then deploy KQL detections, harden your posture, and merge a tested code fix in minutes with Microsoft Defender. Stay in control and approve key actions before agents run them. Run Microsoft’s pre-built playbooks or build your own…</description>
-      <category>defender</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Retail giant Ahold Delhaize takes systems offline after cyberattack</title>
-      <link>https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/</link>
-      <guid isPermaLink="false">8bf2f9414a62</guid>
-      <pubDate>Mon, 12 Oct 2026 13:51:07 +0000</pubDate>
-      <description>Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a "cybersecurity incident" affecting its network. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[AMD] Introducing AMD Helion, Agentic AI Compute at Rack Scale</title>
-      <link>https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale</link>
-      <guid isPermaLink="false">d4860e94c68a</guid>
-      <pubDate>Mon, 12 Oct 2026 13:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Salesforce] Salesforce Signs Definitive Agreement to Acquire Loops</title>
-      <link>https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/</link>
-      <guid isPermaLink="false">5c1fd2bf5eb6</guid>
-      <pubDate>Mon, 12 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Salesforce, the #1 AI CRM, today announced it has signed a definitive agreement to acquire Loops, an AI-powered analytics platform that continuously monitors business performance, explains why key metrics change, and surfaces opportunities to improve by leveraging machine learning models. Tableau is helping customers move from the data driven enterprise to the agentic analytics enterprise. […]</description>
-    </item>
-    <item>
-      <title>[The Hacker News] Bring Your Own Agent: Your Employees' Assistants Are Already Logged In</title>
-      <link>https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html</link>
-      <guid isPermaLink="false">172b933e4740</guid>
-      <pubDate>Mon, 12 Oct 2026 11:55:00 +0000</pubDate>
-      <description>The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up. Regardless, the tech world is mesmerized by the capabilities and potential of these services. Less than a year</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE</title>
-      <link>https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html</link>
-      <guid isPermaLink="false">815b7a94646f</guid>
-      <pubDate>Mon, 12 Oct 2026 09:02:14 +0000</pubDate>
-      <description>A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records</title>
-      <link>https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html</link>
-      <guid isPermaLink="false">d261b6b9e669</guid>
-      <pubDate>Mon, 12 Oct 2026 07:26:12 +0000</pubDate>
-      <description>Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[xAI] Introducing The X Subscription</title>
-      <link>https://x.ai/news/x-subscription</link>
-      <guid isPermaLink="false">6d96079a65b1</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Grok, Grok Bot, Cursor, and X Premium, all on one plan.</description>
-    </item>
-    <item>
-      <title>[The Record] Cyberattack disrupts refrigeration at hundreds of French supermarkets</title>
-      <link>https://therecord.media/cyberattack-disrupts-refridgeration-in-france</link>
-      <guid isPermaLink="false">9aa90bd7475e</guid>
-      <pubDate>Sun, 11 Oct 2026 23:00:00 +0000</pubDate>
-      <description>A cyberattack overnight Sunday disrupted refrigerators at hundreds of French supermarkets, spoiling fresh food at stores run by some of the country’s largest grocery chains.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] New controls and chat improvements in Copilot for JetBrains</title>
-      <link>https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains</link>
-      <guid isPermaLink="false">1e0e6608c184</guid>
-      <pubDate>Sat, 10 Oct 2026 18:53:39 +0000</pubDate>
-      <description>This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Cyber exec arrested in case allegedly tied to ShinyHunters hackers</title>
-      <link>https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/</link>
-      <guid isPermaLink="false">5d6a58b64149</guid>
-      <pubDate>Sat, 10 Oct 2026 15:07:54 +0000</pubDate>
-      <description>Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[GitHub] Live Coding with Wes Bos, Burke Holland, Pierce Boggan &amp; Friends | GitHub Copilot Day</title>
-      <link>https://www.youtube.com/watch?v=ql_-cPc_ZYQ</link>
-      <guid isPermaLink="false">1b21beb49f39</guid>
-      <pubDate>Sat, 10 Oct 2026 15:00:22 +0000</pubDate>
-      <description>Join Wes Bos, Burke Holland, and Pierce Boggan for two hours of live coding with GitHub Copilot. Watch as the team takes a 3D foldable phone simulator from scratch to running functional web apps in real time. Learn how to manage parallel AI agents test features using built-in browser tools, and navigate multi-model options in the GitHub Copilot app. ▬▬▬▬▬▬ WANT TO LEARN MORE? 🚀 ▬▬▬▬▬▬ Learn more about HydraFusion…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] ARTEX AI, Claude agents used in cyberattacks on South Korean banks</title>
-      <link>https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/</link>
-      <guid isPermaLink="false">bef374d68721</guid>
-      <pubDate>Sat, 10 Oct 2026 14:16:17 +0000</pubDate>
-      <description>The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management</title>
-      <link>https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/</link>
-      <guid isPermaLink="false">bc479026f826</guid>
-      <pubDate>Sat, 10 Oct 2026 12:30:39 +0000</pubDate>
-      <description>Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]</description>
-      <category>ai-threats</category>
     </item>
   </channel>
 </rss>
