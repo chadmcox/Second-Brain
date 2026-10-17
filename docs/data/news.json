@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T16:39:00Z",
+ "generated": "2026-10-17T15:34:10Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -106,7 +106,7 @@
   }
  ],
  "models": {
-  "checked": "2026-10-16T16:39:00Z",
+  "checked": "2026-10-17T15:34:10Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -320,8 +320,8 @@
     "id": "google/gemma-4-26b-a4b-it",
     "lab": "Google",
     "name": "Gemma 4 26B A4B",
-    "input": 0.09,
-    "output": 0.3,
+    "input": 0.0675,
+    "output": 0.225,
     "context": 262144,
     "about": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
     "released": "2026-04-03T14:53:09Z",
@@ -549,20 +549,20 @@
     "previous": null
    },
    {
-    "id": "deepseek/deepseek-v4.1-flash",
+    "id": "deepseek/deepseek-v4.1-flash-1017",
     "lab": "DeepSeek",
-    "name": "DeepSeek V4.1 Flash",
-    "input": 0.036,
-    "output": 0.6633,
+    "name": "DeepSeek V4.1 Flash 1017",
+    "input": 0.15,
+    "output": 0.6,
     "context": 1048576,
-    "about": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
-    "released": "2026-09-10T06:21:25Z",
-    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
+    "about": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name.",
+    "released": "2026-10-17T08:27:04Z",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
     "previous": {
-     "name": "DeepSeek V4 Flash 0731",
-     "input": 0.0068,
-     "output": 1.28,
-     "change_pct": -46
+     "name": "DeepSeek V4.1 Flash",
+     "input": 0.15,
+     "output": 0.6,
+     "change_pct": 0
     }
    },
    {
@@ -589,17 +589,17 @@
     "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
     "previous": {
      "name": "DeepSeek V4 Pro 0423",
-     "input": 0.3377,
-     "output": 0.6755,
-     "change_pct": 161
+     "input": 0.2088,
+     "output": 0.4176,
+     "change_pct": 321
     }
    },
    {
     "id": "deepseek/deepseek-v3.2",
     "lab": "DeepSeek",
     "name": "DeepSeek V3.2",
-    "input": 0.259,
-    "output": 0.8,
+    "input": 0.28,
+    "output": 0.42,
     "context": 163840,
     "about": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
     "released": "2025-12-01T13:10:42Z",
@@ -608,13 +608,13 @@
      "name": "DeepSeek V3.2 Exp",
      "input": 0.27,
      "output": 0.41,
-     "change_pct": 56
+     "change_pct": 3
     }
    }
   ]
  },
  "community": {
-  "checked": "2026-10-16T16:39:00Z",
+  "checked": "2026-10-17T15:34:10Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -622,7 +622,7 @@
     "full_name": "wshobson/agents",
     "url": "https://github.com/wshobson/agents",
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-    "stars": 40906,
+    "stars": 40960,
     "language": "Python",
     "pushed": "2026-10-15T15:11:55Z",
     "created": "2025-07-24T23:28:14Z",
@@ -631,10 +631,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      40272
-     ],
      [
       "2026-10-08",
       40304
@@ -670,28 +666,28 @@
      [
       "2026-10-16",
       40906
+     ],
+     [
+      "2026-10-17",
+      40960
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 602
+    "gain": 659
    },
    {
     "full_name": "jlcodes99/cockpit-tools",
     "url": "https://github.com/jlcodes99/cockpit-tools",
     "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot /…",
-    "stars": 19037,
+    "stars": 19055,
     "language": "Rust",
-    "pushed": "2026-10-16T07:07:55Z",
+    "pushed": "2026-10-17T14:23:38Z",
     "created": "2026-01-16T07:09:32Z",
     "labels": [
      "GitHub Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      18694
-     ],
      [
       "2026-10-08",
       18731
@@ -727,28 +723,28 @@
      [
       "2026-10-16",
       19037
+     ],
+     [
+      "2026-10-17",
+      19055
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 306
+    "gain": 296
    },
    {
     "full_name": "github/awesome-copilot",
     "url": "https://github.com/github/awesome-copilot",
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-    "stars": 40086,
+    "stars": 40116,
     "language": "JavaScript",
-    "pushed": "2026-10-16T13:52:43Z",
+    "pushed": "2026-10-16T22:21:03Z",
     "created": "2025-06-11T16:57:39Z",
     "labels": [
      "GitHub Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      39774
-     ],
      [
       "2026-10-08",
       39816
@@ -784,16 +780,20 @@
      [
       "2026-10-16",
       40086
+     ],
+     [
+      "2026-10-17",
+      40116
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 270
+    "gain": 258
    },
    {
     "full_name": "OthmanAdi/planning-with-files",
     "url": "https://github.com/OthmanAdi/planning-with-files",
     "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion…",
-    "stars": 27477,
+    "stars": 27490,
     "language": "Python",
     "pushed": "2026-10-16T15:52:52Z",
     "created": "2026-01-03T07:37:28Z",
@@ -802,10 +802,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      27320
-     ],
      [
       "2026-10-08",
       27341
@@ -841,16 +837,20 @@
      [
       "2026-10-16",
       27477
+     ],
+     [
+      "2026-10-17",
+      27490
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 136
+    "gain": 131
    },
    {
     "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent…",
-    "stars": 144050,
+    "stars": 144064,
     "language": "",
     "pushed": "2026-10-12T15:19:01Z",
     "created": "2025-03-05T16:38:29Z",
@@ -878,28 +878,28 @@
      [
       "2026-10-16",
       144050
+     ],
+     [
+      "2026-10-17",
+      144064
      ]
     ],
     "first_seen": "2026-10-12T17:13:19Z",
-    "gain": 92
+    "gain": 106
    },
    {
     "full_name": "microsoft/apm",
     "url": "https://github.com/microsoft/apm",
     "description": "Agent Package Manager",
-    "stars": 4027,
+    "stars": 4029,
     "language": "Python",
-    "pushed": "2026-10-16T13:07:08Z",
+    "pushed": "2026-10-17T02:55:42Z",
     "created": "2025-09-18T13:45:22Z",
     "labels": [
      "GitHub Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      3973
-     ],
      [
       "2026-10-08",
       3980
@@ -935,10 +935,14 @@
      [
       "2026-10-16",
       4027
+     ],
+     [
+      "2026-10-17",
+      4029
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 47
+    "gain": 44
    },
    {
     "full_name": "microsoft/skill-recorder",
@@ -953,10 +957,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      4197
-     ],
      [
       "2026-10-08",
       4206
@@ -992,10 +992,14 @@
      [
       "2026-10-16",
       4237
+     ],
+     [
+      "2026-10-17",
+      4237
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 31
+    "gain": 27
    },
    {
     "full_name": "bradygaster/squad",
@@ -1010,10 +1014,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      3257
-     ],
      [
       "2026-10-08",
       3258
@@ -1049,130 +1049,20 @@
      [
       "2026-10-16",
       3286
+     ],
+     [
+      "2026-10-17",
+      3286
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 28
-   },
-   {
-    "full_name": "SeemSeam/claude_codex_bridge",
-    "url": "https://github.com/SeemSeam/claude_codex_bridge",
-    "description": "Visible multi-agent CLI workspace for mixing Codex, Claude, Gemini, Kimi, Qwen, Cursor, Copilot, Pi, OpenCode, and other AI coding agents",
-    "stars": 3575,
-    "language": "Python",
-    "pushed": "2026-10-13T16:26:06Z",
-    "created": "2025-10-25T13:23:08Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      3551
-     ],
-     [
-      "2026-10-08",
-      3554
-     ],
-     [
-      "2026-10-09",
-      3559
-     ],
-     [
-      "2026-10-10",
-      3560
-     ],
-     [
-      "2026-10-11",
-      3561
-     ],
-     [
-      "2026-10-12",
-      3563
-     ],
-     [
-      "2026-10-13",
-      3570
-     ],
-     [
-      "2026-10-14",
-      3573
-     ],
-     [
-      "2026-10-15",
-      3575
-     ],
-     [
-      "2026-10-16",
-      3575
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 21
-   },
-   {
-    "full_name": "cramt/m365-copilot-proxy",
-    "url": "https://github.com/cramt/m365-copilot-proxy",
-    "description": "OpenAI-compatible proxy for Microsoft 365 Copilot — use the Copilot licence you already have as a backend for pi, openclaw and other coding agents. Prompt-emulated tool calling, no extra licence, no MCP.",
-    "stars": 149,
-    "language": "TypeScript",
-    "pushed": "2026-10-15T05:25:04Z",
-    "created": "2026-03-26T21:28:59Z",
-    "labels": [
-     "Microsoft 365 Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      130
-     ],
-     [
-      "2026-10-08",
-      131
-     ],
-     [
-      "2026-10-09",
-      131
-     ],
-     [
-      "2026-10-10",
-      132
-     ],
-     [
-      "2026-10-11",
-      137
-     ],
-     [
-      "2026-10-12",
-      139
-     ],
-     [
-      "2026-10-13",
-      140
-     ],
-     [
-      "2026-10-14",
-      146
-     ],
-     [
-      "2026-10-15",
-      148
-     ],
-     [
-      "2026-10-16",
-      149
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 18
+    "gain": 26
    },
    {
     "full_name": "github/CopilotForXcode",
     "url": "https://github.com/github/CopilotForXcode",
     "description": "AI coding assistant for Xcode",
-    "stars": 6337,
+    "stars": 6341,
     "language": "Swift",
     "pushed": "2026-10-16T16:01:11Z",
     "created": "2024-09-19T17:48:15Z",
@@ -1181,10 +1071,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      6319
-     ],
      [
       "2026-10-08",
       6321
@@ -1220,16 +1106,77 @@
      [
       "2026-10-16",
       6337
+     ],
+     [
+      "2026-10-17",
+      6341
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 16
+    "gain": 18
+   },
+   {
+    "full_name": "cramt/m365-copilot-proxy",
+    "url": "https://github.com/cramt/m365-copilot-proxy",
+    "description": "OpenAI-compatible proxy for Microsoft 365 Copilot — use the Copilot licence you already have as a backend for pi, openclaw and other coding agents. Prompt-emulated tool calling, no extra licence, no MCP.",
+    "stars": 149,
+    "language": "TypeScript",
+    "pushed": "2026-10-17T02:16:00Z",
+    "created": "2026-03-26T21:28:59Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-08",
+      131
+     ],
+     [
+      "2026-10-09",
+      131
+     ],
+     [
+      "2026-10-10",
+      132
+     ],
+     [
+      "2026-10-11",
+      137
+     ],
+     [
+      "2026-10-12",
+      139
+     ],
+     [
+      "2026-10-13",
+      140
+     ],
+     [
+      "2026-10-14",
+      146
+     ],
+     [
+      "2026-10-15",
+      148
+     ],
+     [
+      "2026-10-16",
+      149
+     ],
+     [
+      "2026-10-17",
+      149
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 18
    },
    {
     "full_name": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
     "url": "https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
     "description": "A multi-module course teaching everything you need to know about using GitHub Copilot as an AI Peer Programming resource.",
-    "stars": 8155,
+    "stars": 8156,
     "language": "Python",
     "pushed": "2026-09-16T00:36:58Z",
     "created": "2023-11-29T19:35:47Z",
@@ -1238,10 +1185,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      8138
-     ],
      [
       "2026-10-08",
       8141
@@ -1277,16 +1220,77 @@
      [
       "2026-10-16",
       8155
+     ],
+     [
+      "2026-10-17",
+      8156
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 14
+    "gain": 16
+   },
+   {
+    "full_name": "SeemSeam/claude_codex_bridge",
+    "url": "https://github.com/SeemSeam/claude_codex_bridge",
+    "description": "Visible multi-agent CLI workspace for mixing Codex, Claude, Gemini, Kimi, Qwen, Cursor, Copilot, Pi, OpenCode, and other AI coding agents",
+    "stars": 3575,
+    "language": "Python",
+    "pushed": "2026-10-13T16:26:06Z",
+    "created": "2025-10-25T13:23:08Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-08",
+      3554
+     ],
+     [
+      "2026-10-09",
+      3559
+     ],
+     [
+      "2026-10-10",
+      3560
+     ],
+     [
+      "2026-10-11",
+      3561
+     ],
+     [
+      "2026-10-12",
+      3563
+     ],
+     [
+      "2026-10-13",
+      3570
+     ],
+     [
+      "2026-10-14",
+      3573
+     ],
+     [
+      "2026-10-15",
+      3575
+     ],
+     [
+      "2026-10-16",
+      3575
+     ],
+     [
+      "2026-10-17",
+      3575
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 16
    },
    {
     "full_name": "gotalab/cc-sdd",
     "url": "https://github.com/gotalab/cc-sdd",
     "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
-    "stars": 3718,
+    "stars": 3720,
     "language": "TypeScript",
     "pushed": "2026-10-13T03:59:25Z",
     "created": "2025-07-17T04:41:37Z",
@@ -1295,10 +1299,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      3708
-     ],
      [
       "2026-10-08",
       3708
@@ -1334,10 +1334,14 @@
      [
       "2026-10-16",
       3718
+     ],
+     [
+      "2026-10-17",
+      3720
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 10
+    "gain": 12
    },
    {
     "full_name": "kaitranntt/ccs",
@@ -1352,10 +1356,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      2874
-     ],
      [
       "2026-10-08",
       2881
@@ -1391,6 +1391,10 @@
      [
       "2026-10-16",
       2890
+     ],
+     [
+      "2026-10-17",
+      2890
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1400,7 +1404,7 @@
     "full_name": "cristiancastineiras/M365CopilotVSCode",
     "url": "https://github.com/cristiancastineiras/M365CopilotVSCode",
     "description": "Usa tu suscripción de Microsoft 365 Copilot como proveedor de modelos en el chat de VS Code. Pega el token y listo.",
-    "stars": 17,
+    "stars": 18,
     "language": "TypeScript",
     "pushed": "2026-10-15T13:55:47Z",
     "created": "2026-09-03T17:51:45Z",
@@ -1409,10 +1413,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      8
-     ],
      [
       "2026-10-08",
       8
@@ -1448,6 +1448,10 @@
      [
       "2026-10-16",
       17
+     ],
+     [
+      "2026-10-17",
+      18
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1457,7 +1461,7 @@
     "full_name": "kesslernity/awesome-microsoft-copilot-prompts",
     "url": "https://github.com/kesslernity/awesome-microsoft-copilot-prompts",
     "description": "The definitive Microsoft 365 Copilot prompt library for business teams. 573 prompts for Office apps, Copilot Studio, security operations, and enterprise deployment.",
-    "stars": 552,
+    "stars": 553,
     "language": "",
     "pushed": "2026-10-08T06:27:01Z",
     "created": "2026-02-03T18:25:30Z",
@@ -1466,10 +1470,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      544
-     ],
      [
       "2026-10-08",
       545
@@ -1505,6 +1505,10 @@
      [
       "2026-10-16",
       552
+     ],
+     [
+      "2026-10-17",
+      553
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1514,7 +1518,7 @@
     "full_name": "kesslernity/awesome-copilot-studio-agents",
     "url": "https://github.com/kesslernity/awesome-copilot-studio-agents",
     "description": "103 paste-ready declarative agents for Microsoft 365 Copilot. No coding. No Azure. Deploy in minutes.",
-    "stars": 525,
+    "stars": 527,
     "language": "",
     "pushed": "2026-10-08T06:27:04Z",
     "created": "2026-03-24T11:05:53Z",
@@ -1524,10 +1528,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      517
-     ],
      [
       "2026-10-08",
       519
@@ -1563,73 +1563,20 @@
      [
       "2026-10-16",
       525
+     ],
+     [
+      "2026-10-17",
+      527
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 6
-   },
-   {
-    "full_name": "microsoft/iq-series",
-    "url": "https://github.com/microsoft/iq-series",
-    "description": "The IQ Series is a hands-on learning experience for Microsoft IQ: Microsoft's unified intelligence layer for the enterprise, spanning Foundry IQ, Work IQ, and Fabric IQ. The series includes video episodes, Jupyter…",
-    "stars": 392,
-    "language": "Jupyter Notebook",
-    "pushed": "2026-10-08T17:46:38Z",
-    "created": "2026-01-26T06:50:19Z",
-    "labels": [
-     "Microsoft 365 Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      383
-     ],
-     [
-      "2026-10-08",
-      386
-     ],
-     [
-      "2026-10-09",
-      387
-     ],
-     [
-      "2026-10-10",
-      387
-     ],
-     [
-      "2026-10-11",
-      387
-     ],
-     [
-      "2026-10-12",
-      388
-     ],
-     [
-      "2026-10-13",
-      389
-     ],
-     [
-      "2026-10-14",
-      389
-     ],
-     [
-      "2026-10-15",
-      389
-     ],
-     [
-      "2026-10-16",
-      392
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 6
+    "gain": 7
    },
    {
     "full_name": "intellectronica/ruler",
     "url": "https://github.com/intellectronica/ruler",
     "description": "Ruler — apply the same rules to all coding agents",
-    "stars": 2946,
+    "stars": 2947,
     "language": "TypeScript",
     "pushed": "2026-10-14T19:05:42Z",
     "created": "2025-05-20T08:22:59Z",
@@ -1665,9 +1612,70 @@
      [
       "2026-10-16",
       2946
+     ],
+     [
+      "2026-10-17",
+      2947
      ]
     ],
     "first_seen": "2026-10-10T17:20:45Z",
+    "gain": 6
+   },
+   {
+    "full_name": "microsoft/iq-series",
+    "url": "https://github.com/microsoft/iq-series",
+    "description": "The IQ Series is a hands-on learning experience for Microsoft IQ: Microsoft's unified intelligence layer for the enterprise, spanning Foundry IQ, Work IQ, and Fabric IQ. The series includes video episodes, Jupyter…",
+    "stars": 392,
+    "language": "Jupyter Notebook",
+    "pushed": "2026-10-08T17:46:38Z",
+    "created": "2026-01-26T06:50:19Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-08",
+      386
+     ],
+     [
+      "2026-10-09",
+      387
+     ],
+     [
+      "2026-10-10",
+      387
+     ],
+     [
+      "2026-10-11",
+      387
+     ],
+     [
+      "2026-10-12",
+      388
+     ],
+     [
+      "2026-10-13",
+      389
+     ],
+     [
+      "2026-10-14",
+      389
+     ],
+     [
+      "2026-10-15",
+      389
+     ],
+     [
+      "2026-10-16",
+      392
+     ],
+     [
+      "2026-10-17",
+      392
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
     "gain": 5
    },
    {
@@ -1684,10 +1692,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      107
-     ],
      [
       "2026-10-08",
       107
@@ -1723,6 +1727,10 @@
      [
       "2026-10-16",
       111
+     ],
+     [
+      "2026-10-17",
+      111
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1741,10 +1749,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      24
-     ],
      [
       "2026-10-08",
       24
@@ -1780,6 +1784,10 @@
      [
       "2026-10-16",
       28
+     ],
+     [
+      "2026-10-17",
+      28
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1789,7 +1797,7 @@
     "full_name": "kesslernity/awesome-copilot-cowork-skills",
     "url": "https://github.com/kesslernity/awesome-copilot-cowork-skills",
     "description": "37 folder-drop skills for Microsoft 365 Copilot Cowork. 21 workflow skills plus a 16-persona executive review board. Drop a folder into OneDrive, no admin, no app package. The same SKILL.md files run verbatim in Claude…",
-    "stars": 35,
+    "stars": 36,
     "language": "",
     "pushed": "2026-10-08T06:27:06Z",
     "created": "2026-06-11T08:53:36Z",
@@ -1798,10 +1806,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      32
-     ],
      [
       "2026-10-08",
       32
@@ -1837,10 +1841,71 @@
      [
       "2026-10-16",
       35
+     ],
+     [
+      "2026-10-17",
+      36
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
     "gain": 3
+   },
+   {
+    "full_name": "FrancyJGLisboa/agent-skills-platform",
+    "url": "https://github.com/FrancyJGLisboa/agent-skills-platform",
+    "description": "Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.",
+    "stars": 2405,
+    "language": "Python",
+    "pushed": "2026-09-15T17:31:46Z",
+    "created": "2025-10-18T15:01:46Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-08",
+      2403
+     ],
+     [
+      "2026-10-09",
+      2403
+     ],
+     [
+      "2026-10-10",
+      2403
+     ],
+     [
+      "2026-10-11",
+      2404
+     ],
+     [
+      "2026-10-12",
+      2403
+     ],
+     [
+      "2026-10-13",
+      2403
+     ],
+     [
+      "2026-10-14",
+      2404
+     ],
+     [
+      "2026-10-15",
+      2404
+     ],
+     [
+      "2026-10-16",
+      2404
+     ],
+     [
+      "2026-10-17",
+      2405
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 2
    },
    {
     "full_name": "hobru/sap-mcp-gateway-copilot-studio",
@@ -1855,10 +1920,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      8
-     ],
      [
       "2026-10-08",
       8
@@ -1894,100 +1955,14 @@
      [
       "2026-10-16",
       10
+     ],
+     [
+      "2026-10-17",
+      10
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
     "gain": 2
-   },
-   {
-    "full_name": "zbirenbaum/copilot.lua",
-    "url": "https://github.com/zbirenbaum/copilot.lua",
-    "description": "Fully featured & enhanced replacement for copilot.vim complete with API for interacting with Github Copilot",
-    "stars": 4099,
-    "language": "Lua",
-    "pushed": "2026-10-16T12:47:19Z",
-    "created": "2022-04-02T21:07:51Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-13",
-      4098
-     ],
-     [
-      "2026-10-14",
-      4098
-     ],
-     [
-      "2026-10-15",
-      4099
-     ],
-     [
-      "2026-10-16",
-      4099
-     ]
-    ],
-    "first_seen": "2026-10-13T19:17:10Z",
-    "gain": 1
-   },
-   {
-    "full_name": "FrancyJGLisboa/agent-skills-platform",
-    "url": "https://github.com/FrancyJGLisboa/agent-skills-platform",
-    "description": "Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.",
-    "stars": 2404,
-    "language": "Python",
-    "pushed": "2026-09-15T17:31:46Z",
-    "created": "2025-10-18T15:01:46Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      2402
-     ],
-     [
-      "2026-10-08",
-      2403
-     ],
-     [
-      "2026-10-09",
-      2403
-     ],
-     [
-      "2026-10-10",
-      2403
-     ],
-     [
-      "2026-10-11",
-      2404
-     ],
-     [
-      "2026-10-12",
-      2403
-     ],
-     [
-      "2026-10-13",
-      2403
-     ],
-     [
-      "2026-10-14",
-      2404
-     ],
-     [
-      "2026-10-15",
-      2404
-     ],
-     [
-      "2026-10-16",
-      2404
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 1
    },
    {
     "full_name": "pnp/spfx-copilot-components",
@@ -2003,10 +1978,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      35
-     ],
-     [
       "2026-10-08",
       35
      ],
@@ -2040,6 +2011,10 @@
      ],
      [
       "2026-10-16",
+      36
+     ],
+     [
+      "2026-10-17",
       36
      ]
     ],
@@ -2060,10 +2035,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      31
-     ],
-     [
       "2026-10-08",
       31
      ],
@@ -2097,6 +2068,10 @@
      ],
      [
       "2026-10-16",
+      32
+     ],
+     [
+      "2026-10-17",
       32
      ]
     ],
@@ -2117,10 +2092,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      20
-     ],
-     [
       "2026-10-08",
       20
      ],
@@ -2154,68 +2125,14 @@
      ],
      [
       "2026-10-16",
+      21
+     ],
+     [
+      "2026-10-17",
       21
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 1
-   },
-   {
-    "full_name": "MasayukiTa/m365-copilot-companion-mcp",
-    "url": "https://github.com/MasayukiTa/m365-copilot-companion-mcp",
-    "description": "Personal-use MCP server that gives Microsoft 365 Copilot real hands on your own laptop: files, Python, Office, SQL, Web. 100+ tools, autonomous relay, easily extensible, no extra licences.",
-    "stars": 9,
-    "language": "Python",
-    "pushed": "2026-10-16T16:35:06Z",
-    "created": "2026-05-27T10:53:31Z",
-    "labels": [
-     "Copilot Studio",
-     "Microsoft 365 Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      8
-     ],
-     [
-      "2026-10-08",
-      8
-     ],
-     [
-      "2026-10-09",
-      9
-     ],
-     [
-      "2026-10-10",
-      9
-     ],
-     [
-      "2026-10-11",
-      9
-     ],
-     [
-      "2026-10-12",
-      9
-     ],
-     [
-      "2026-10-13",
-      9
-     ],
-     [
-      "2026-10-14",
-      9
-     ],
-     [
-      "2026-10-15",
-      9
-     ],
-     [
-      "2026-10-16",
-      9
-     ]
-    ],
-    "first_seen": "2026-10-07T04:04:23Z",
     "gain": 1
    },
    {
@@ -2266,6 +2183,10 @@
      [
       "2026-10-16",
       9
+     ],
+     [
+      "2026-10-17",
+      9
      ]
     ],
     "first_seen": "2026-10-08T18:50:53Z",
@@ -2285,10 +2206,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      7
-     ],
-     [
       "2026-10-08",
       7
      ],
@@ -2322,6 +2239,10 @@
      ],
      [
       "2026-10-16",
+      8
+     ],
+     [
+      "2026-10-17",
       8
      ]
     ],
@@ -2334,17 +2255,13 @@
     "description": "A Chromium extension for exporting M365 Copilot Chat conversations from the Microsoft 365 work/school chat experience as both raw JSON and readable Markdown.",
     "stars": 6,
     "language": "JavaScript",
-    "pushed": "2026-10-16T13:11:29Z",
+    "pushed": "2026-10-17T12:07:51Z",
     "created": "2026-05-12T14:50:42Z",
     "labels": [
      "Microsoft 365 Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      5
-     ],
      [
       "2026-10-08",
       5
@@ -2380,10 +2297,35 @@
      [
       "2026-10-16",
       6
+     ],
+     [
+      "2026-10-17",
+      6
      ]
     ],
     "first_seen": "2026-10-07T04:04:23Z",
     "gain": 1
+   },
+   {
+    "full_name": "heilcheng/awesome-agent-skills",
+    "url": "https://github.com/heilcheng/awesome-agent-skills",
+    "description": "Tutorials, Guides and Agent Skills Directories",
+    "stars": 6279,
+    "language": "TypeScript",
+    "pushed": "2026-10-15T16:09:02Z",
+    "created": "2025-12-29T21:13:40Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-17",
+      6279
+     ]
+    ],
+    "first_seen": "2026-10-17T15:34:10Z",
+    "gain": null
    },
    {
     "full_name": "andreaswasita/copilot-agents-dojo",
@@ -2399,10 +2341,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      54
-     ],
-     [
       "2026-10-08",
       54
      ],
@@ -2436,6 +2374,10 @@
      ],
      [
       "2026-10-16",
+      54
+     ],
+     [
+      "2026-10-17",
       54
      ]
     ],
@@ -2457,10 +2399,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      39
-     ],
-     [
       "2026-10-08",
       39
      ],
@@ -2494,6 +2432,10 @@
      ],
      [
       "2026-10-16",
+      39
+     ],
+     [
+      "2026-10-17",
       39
      ]
     ],
@@ -2514,10 +2456,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      37
-     ],
-     [
       "2026-10-08",
       37
      ],
@@ -2551,6 +2489,10 @@
      ],
      [
       "2026-10-16",
+      37
+     ],
+     [
+      "2026-10-17",
       37
      ]
     ],
@@ -2571,10 +2513,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      19
-     ],
-     [
       "2026-10-08",
       19
      ],
@@ -2608,6 +2546,10 @@
      ],
      [
       "2026-10-16",
+      19
+     ],
+     [
+      "2026-10-17",
       19
      ]
     ],
@@ -2628,10 +2570,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      17
-     ],
-     [
       "2026-10-08",
       17
      ],
@@ -2665,6 +2603,10 @@
      ],
      [
       "2026-10-16",
+      17
+     ],
+     [
+      "2026-10-17",
       17
      ]
     ],
@@ -2685,10 +2627,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      10
-     ],
-     [
       "2026-10-08",
       10
      ],
@@ -2723,9 +2661,71 @@
      [
       "2026-10-16",
       10
+     ],
+     [
+      "2026-10-17",
+      10
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 0
+   },
+   {
+    "full_name": "MasayukiTa/m365-copilot-companion-mcp",
+    "url": "https://github.com/MasayukiTa/m365-copilot-companion-mcp",
+    "description": "Personal-use MCP server that gives Microsoft 365 Copilot real hands on your own laptop: files, Python, Office, SQL, Web. 100+ tools, autonomous relay, easily extensible, no extra licences.",
+    "stars": 9,
+    "language": "Python",
+    "pushed": "2026-10-17T15:22:42Z",
+    "created": "2026-05-27T10:53:31Z",
+    "labels": [
+     "Copilot Studio",
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-08",
+      8
+     ],
+     [
+      "2026-10-09",
+      9
+     ],
+     [
+      "2026-10-10",
+      9
+     ],
+     [
+      "2026-10-11",
+      9
+     ],
+     [
+      "2026-10-12",
+      9
+     ],
+     [
+      "2026-10-13",
+      9
+     ],
+     [
+      "2026-10-14",
+      9
+     ],
+     [
+      "2026-10-15",
+      9
+     ],
+     [
+      "2026-10-16",
+      9
+     ],
+     [
+      "2026-10-17",
+      9
+     ]
+    ],
+    "first_seen": "2026-10-07T04:04:23Z",
     "gain": 0
    },
    {
@@ -2734,17 +2734,13 @@
     "description": "Governance framework for Microsoft 365 AI agents (Copilot Studio) in regulated financial services",
     "stars": 8,
     "language": "Python",
-    "pushed": "2026-10-16T16:29:58Z",
+    "pushed": "2026-10-17T11:54:54Z",
     "created": "2025-12-15T23:15:15Z",
     "labels": [
      "Copilot Studio"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      8
-     ],
      [
       "2026-10-08",
       8
@@ -2779,6 +2775,10 @@
      ],
      [
       "2026-10-16",
+      8
+     ],
+     [
+      "2026-10-17",
       8
      ]
     ],
@@ -2791,17 +2791,13 @@
     "description": "A Tampermonkey userscript for exporting M365 Copilot Chat conversations from the Microsoft 365 work/school chat experience as both raw JSON and readable Markdown",
     "stars": 8,
     "language": "JavaScript",
-    "pushed": "2026-10-16T13:16:37Z",
+    "pushed": "2026-10-17T12:12:46Z",
     "created": "2026-05-12T14:48:30Z",
     "labels": [
      "Microsoft 365 Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-07",
-      8
-     ],
      [
       "2026-10-08",
       8
@@ -2836,6 +2832,10 @@
      ],
      [
       "2026-10-16",
+      8
+     ],
+     [
+      "2026-10-17",
       8
      ]
     ],
@@ -2856,10 +2856,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      6
-     ],
-     [
       "2026-10-08",
       6
      ],
@@ -2893,6 +2889,10 @@
      ],
      [
       "2026-10-16",
+      6
+     ],
+     [
+      "2026-10-17",
       6
      ]
     ],
@@ -2919,10 +2919,36 @@
      [
       "2026-10-16",
       6
+     ],
+     [
+      "2026-10-17",
+      6
      ]
     ],
     "first_seen": "2026-10-15T17:00:16Z",
     "gain": 0
+   },
+   {
+    "full_name": "microsoft/AnalyticsHub-Dashboard",
+    "url": "https://github.com/microsoft/AnalyticsHub-Dashboard",
+    "description": "One installer sets up an app on Microsoft Fabric or Azure that shows Microsoft 365 Copilot and agent adoption, value, consumption and governance.",
+    "stars": 5,
+    "language": "TypeScript",
+    "pushed": "2026-10-17T15:17:50Z",
+    "created": "2026-10-12T11:58:04Z",
+    "labels": [
+     "Copilot Studio",
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-17",
+      5
+     ]
+    ],
+    "first_seen": "2026-10-17T15:34:10Z",
+    "gain": null
    },
    {
     "full_name": "microsoft/frontiertour27-BRK231-trusted-ai-at-scale-foundry-to-agent-365",
@@ -2940,10 +2966,14 @@
      [
       "2026-10-16",
       5
+     ],
+     [
+      "2026-10-17",
+      5
      ]
     ],
     "first_seen": "2026-10-16T16:39:00Z",
-    "gain": null
+    "gain": 0
    },
    {
     "full_name": "pax8labs/pax8-cta",
@@ -2959,10 +2989,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-07",
-      5
-     ],
-     [
       "2026-10-08",
       5
      ],
@@ -2997,62 +3023,9 @@
      [
       "2026-10-16",
       5
-     ]
-    ],
-    "first_seen": "2026-10-07T04:04:23Z",
-    "gain": 0
-   },
-   {
-    "full_name": "timothywarner-org/oreilly-copilot-studio-agents",
-    "url": "https://github.com/timothywarner-org/oreilly-copilot-studio-agents",
-    "description": "Build one AI-901 study assistant in Microsoft Copilot Studio. Inception, Build, Extend, Operate.",
-    "stars": 5,
-    "language": "",
-    "pushed": "2026-09-19T16:09:02Z",
-    "created": "2026-09-06T00:53:25Z",
-    "labels": [
-     "Copilot Studio"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-07",
-      5
      ],
      [
-      "2026-10-08",
-      5
-     ],
-     [
-      "2026-10-09",
-      5
-     ],
-     [
-      "2026-10-10",
-      5
-     ],
-     [
-      "2026-10-11",
-      5
-     ],
-     [
-      "2026-10-12",
-      5
-     ],
-     [
-      "2026-10-13",
-      5
-     ],
-     [
-      "2026-10-14",
-      5
-     ],
-     [
-      "2026-10-15",
-      5
-     ],
-     [
-      "2026-10-16",
+      "2026-10-17",
       5
      ]
     ],
@@ -3062,7 +3035,7 @@
   ]
  },
  "upcoming": {
-  "checked": "2026-10-16T16:39:00Z",
+  "checked": "2026-10-17T15:34:10Z",
   "error": "",
   "rows": [
    {
@@ -3145,31 +3118,6 @@
     "clouds": [],
     "url": "https://azure.microsoft.com/updates?id=570881",
     "modified": "2026-09-08T17:18:38.4446075Z"
-   },
-   {
-    "key": "azure:570474",
-    "id": "570474",
-    "kind": "azure",
-    "labels": [
-     "Security"
-    ],
-    "title": "Generally Available: Azure Firewall auto-learn SNAT routes",
-    "description": "Azure Firewall’s auto-learn SNAT routes is now generally available, automatically learning registered and private destination prefixes periodically and applying them as No-SNAT ranges to preserve orig…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "Launched",
-    "products": [
-     "Azure Firewall"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=570474",
-    "modified": "2026-09-01T17:10:38.3279302Z"
    },
    {
     "key": "azure:571826",
@@ -3323,6 +3271,122 @@
     "modified": "2026-09-18T17:23:21.3964293Z"
    },
    {
+    "key": "m365:576746",
+    "id": "576746",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Dynamics 365 Contact Center: Unified routing - Assign conversation to expert who engaged with the customer previously",
+    "description": "Assign to a previously engaged or preferred expert leverages historical interaction context, queue membership alignment, and expert availability, to ensure customers are reconnected with experts who a…",
+    "month": "2026-10",
+    "milestone": "General availability",
+    "milestones": [
+     {
+      "month": "2026-10",
+      "ring": "General availability"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Microsoft Copilot (Microsoft 365)",
+     "Dynamics 365 Contact Center"
+    ],
+    "clouds": [
+     "Worldwide (Standard Multi-Tenant)"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576746",
+    "modified": "2026-10-16T19:08:30.1621672Z"
+   },
+   {
+    "key": "m365:576759",
+    "id": "576759",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Dynamics 365 Contact Center: Unified routing - Handle waiting conversations when queues close or become unstaffed",
+    "description": "This capability enhances queue handling by intelligently detecting two key scenarios where conversations would otherwise remain unserved: Queue transitions to out-of-operating hours: The system conti…",
+    "month": "2026-10",
+    "milestone": "General availability",
+    "milestones": [
+     {
+      "month": "2026-10",
+      "ring": "General availability"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Microsoft Copilot (Microsoft 365)",
+     "Dynamics 365 Contact Center"
+    ],
+    "clouds": [
+     "Worldwide (Standard Multi-Tenant)"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576759",
+    "modified": "2026-10-16T19:08:43.8289934Z"
+   },
+   {
+    "key": "m365:576755",
+    "id": "576755",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Dynamics 365 Finance and Operations cross-app: Boost productivity with Copilot - Boost agent performance with optimal tool execution paths in Dynamics 365 ERP MCP",
+    "description": "With the dynamic tools of the Dynamics 365 ERP MCP server, large language models often have multiple options for tool-calling sequences to perform an operation or retrieve data. The orchestration can …",
+    "month": "2026-10",
+    "milestone": "Preview",
+    "milestones": [
+     {
+      "month": "2026-10",
+      "ring": "Preview"
+     },
+     {
+      "month": "2026-12",
+      "ring": "General availability"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Microsoft Copilot (Microsoft 365)",
+     "Dynamics 365 Finance and Operations cross-app"
+    ],
+    "clouds": [
+     "Worldwide (Standard Multi-Tenant)"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576755",
+    "modified": "2026-10-16T19:08:39.9211346Z"
+   },
+   {
+    "key": "m365:576754",
+    "id": "576754",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Dynamics 365 Supply Chain Management: Copilot and AI innovation - Understand forecast accuracy with AI explanations",
+    "description": "By combining forecast results with contextual insights, planners can gain a detailed understanding of the key factors influencing each forecast rather than simply viewing the numbers. This increased t…",
+    "month": "2026-10",
+    "milestone": "General availability",
+    "milestones": [
+     {
+      "month": "2026-10",
+      "ring": "General availability"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Microsoft Copilot (Microsoft 365)",
+     "Dynamics 365 Supply Chain Management"
+    ],
+    "clouds": [
+     "Worldwide (Standard Multi-Tenant)"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576754",
+    "modified": "2026-10-16T19:08:38.3046366Z"
+   },
+   {
     "key": "azure:574343",
     "id": "574343",
     "kind": "azure",
@@ -3348,6 +3412,31 @@
     "clouds": [],
     "url": "https://azure.microsoft.com/updates?id=574343",
     "modified": "2026-10-08T17:29:30.8258325Z"
+   },
+   {
+    "key": "azure:574296",
+    "id": "574296",
+    "kind": "azure",
+    "labels": [
+     "Security"
+    ],
+    "title": "Generally Available: External key management for Azure Key Vault Managed HSM",
+    "description": "External key management for Azure Key Vault Managed HSM is now generally available in all Azure public regions. For organizations with regulatory or sovereignty requirements to retain physical control…",
+    "month": "2026-10",
+    "milestone": "General availability",
+    "milestones": [
+     {
+      "month": "2026-10",
+      "ring": "General availability"
+     }
+    ],
+    "status": "Launched",
+    "products": [
+     "Key Vault"
+    ],
+    "clouds": [],
+    "url": "https://azure.microsoft.com/updates?id=574296",
+    "modified": "2026-10-16T16:50:27.1967037Z"
    },
    {
     "key": "m365:570966",
@@ -5425,6 +5514,34 @@
     "modified": "2026-10-12T23:01:05.1232604Z"
    },
    {
+    "key": "m365:519571",
+    "id": "519571",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
+    "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used …",
+    "month": "2026-11",
+    "milestone": "General availability",
+    "milestones": [
+     {
+      "month": "2026-11",
+      "ring": "General availability"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Microsoft Copilot (Microsoft 365)",
+     "Microsoft 365 admin center"
+    ],
+    "clouds": [
+     "Worldwide (Standard Multi-Tenant)"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=519571",
+    "modified": "2026-10-16T22:00:35.2812198Z"
+   },
+   {
     "key": "m365:573446",
     "id": "573446",
     "kind": "m365",
@@ -6140,6 +6257,34 @@
     "modified": "2026-10-12T23:01:05.1232604Z"
    },
    {
+    "key": "m365:576762",
+    "id": "576762",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Dynamics 365 Finance: Business performance - MCP for ERP Analytics",
+    "description": "MCP for Analytics provides AI agents with structured access to ERP analytics data and tools. It ensures agents use the same definitions and models as users. Key benefits: Data Access: Gives agents ac…",
+    "month": "2026-12",
+    "milestone": "General availability",
+    "milestones": [
+     {
+      "month": "2026-12",
+      "ring": "General availability"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Microsoft Copilot (Microsoft 365)",
+     "Dynamics 365 Finance"
+    ],
+    "clouds": [
+     "Worldwide (Standard Multi-Tenant)"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576762",
+    "modified": "2026-10-16T19:08:46.2448353Z"
+   },
+   {
     "key": "m365:567885",
     "id": "567885",
     "kind": "m365",
@@ -6763,6 +6908,62 @@
     "modified": "2026-10-05T23:03:05.0409869Z"
    },
    {
+    "key": "m365:576884",
+    "id": "576884",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Dynamics 365 Field Service: Optimize resource scheduling - Optimize multiple resources with Scheduling Operations Agent",
+    "description": "This release expands the optimization capabilities of the Scheduling Operations Agent to include multiple resources. The agent considers the availability of the resources, their current schedules, and…",
+    "month": "2027-03",
+    "milestone": "General availability",
+    "milestones": [
+     {
+      "month": "2027-03",
+      "ring": "General availability"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Microsoft Copilot (Microsoft 365)",
+     "Dynamics 365 Field Service"
+    ],
+    "clouds": [
+     "Worldwide (Standard Multi-Tenant)"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576884",
+    "modified": "2026-10-16T19:10:11.2033031Z"
+   },
+   {
+    "key": "m365:576741",
+    "id": "576741",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Dynamics 365 Finance: Core financials - Enable import of customer payment remittance advice for processing and settlement",
+    "description": "This feature includes the following functionalities: Automated customer payment and remittance advice import, scanning, and mapping using AI processing in the integrated Power Platform environment. M…",
+    "month": "2027-03",
+    "milestone": "Preview",
+    "milestones": [
+     {
+      "month": "2027-03",
+      "ring": "Preview"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Microsoft Copilot (Microsoft 365)",
+     "Dynamics 365 Finance"
+    ],
+    "clouds": [
+     "Worldwide (Standard Multi-Tenant)"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576741",
+    "modified": "2026-10-16T19:08:26.4705626Z"
+   },
+   {
     "key": "m365:558288",
     "id": "558288",
     "kind": "m365",
@@ -6790,6 +6991,34 @@
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=558288",
     "modified": "2026-05-11T23:15:11.1049439Z"
+   },
+   {
+    "key": "m365:576637",
+    "id": "576637",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Dynamics 365 Sales: Seller experiences - Clone and share Sales Development agent configuration across teams",
+    "description": "As a sales leader, you can configure a Sales Development agent once, then share or clone its configuration across your organization. Distribute the agent’s playbook, guidelines, guardrails, and settin…",
+    "month": "2027-04",
+    "milestone": "General availability",
+    "milestones": [
+     {
+      "month": "2027-04",
+      "ring": "General availability"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Microsoft Copilot (Microsoft 365)",
+     "Dynamics 365 Sales"
+    ],
+    "clouds": [
+     "Worldwide (Standard Multi-Tenant)"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576637",
+    "modified": "2026-10-16T17:39:50.7249877Z"
    }
   ]
  },
@@ -6803,8 +7032,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 0,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 24
   },
@@ -6818,7 +7047,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 3
   },
@@ -6832,7 +7061,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 20
   },
@@ -6846,7 +7075,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 7
   },
@@ -6860,7 +7089,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 4
   },
@@ -6873,8 +7102,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 0,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 25
   },
@@ -6888,7 +7117,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 12
   },
@@ -6902,7 +7131,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 0
   },
@@ -6916,7 +7145,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 5
   },
@@ -6930,7 +7159,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 0
   },
@@ -6943,10 +7172,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 25,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
-   "count": 132
+   "count": 157
   },
   {
    "id": "learn-copilot-release-notes",
@@ -6958,7 +7187,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 94
   },
@@ -6972,7 +7201,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 8
   },
@@ -6986,7 +7215,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 6
   },
@@ -6999,8 +7228,8 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 0,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 4
   },
@@ -7014,7 +7243,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 11
   },
@@ -7028,7 +7257,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 8
   },
@@ -7042,7 +7271,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 2
   },
@@ -7056,7 +7285,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 21
   },
@@ -7070,7 +7299,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 0
   },
@@ -7083,8 +7312,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 0,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 13
   },
@@ -7098,7 +7327,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 60
   },
@@ -7112,7 +7341,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 7
   },
@@ -7125,10 +7354,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 2,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
-   "count": 121
+   "count": 123
   },
   {
    "id": "anthropic",
@@ -7139,8 +7368,8 @@
    "type": "page",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 0,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 16
   },
@@ -7153,8 +7382,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 0,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 18
   },
@@ -7168,7 +7397,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 32
   },
@@ -7181,8 +7410,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 0,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 11
   },
@@ -7196,7 +7425,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 33
   },
@@ -7210,7 +7439,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 3
   },
@@ -7224,7 +7453,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 4
   },
@@ -7238,7 +7467,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 13
   },
@@ -7252,7 +7481,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 17
   },
@@ -7266,7 +7495,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 7
   },
@@ -7279,8 +7508,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 0,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 22
   },
@@ -7294,7 +7523,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 8
   },
@@ -7307,8 +7536,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 4,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 0,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 54
   },
@@ -7322,7 +7551,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 11
   },
@@ -7335,8 +7564,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 4,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 0,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
    "count": 22
   },
@@ -7349,10 +7578,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 5,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 1,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
-   "count": 48
+   "count": 49
   },
   {
    "id": "thehackernews",
@@ -7363,10 +7592,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 4,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "new": 1,
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "",
-   "count": 64
+   "count": 65
   },
   {
    "id": "yt-m365",
@@ -7378,7 +7607,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "UCc3pNIRzIZ8ynI38GO6H01Q",
    "count": 18
   },
@@ -7392,7 +7621,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "UCJ9905MRHxwLZ2jeNQGIWxA",
    "count": 21
   },
@@ -7406,7 +7635,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "UCn8PsBlVsGUt8J3tZCKsMPA",
    "count": 3
   },
@@ -7420,7 +7649,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "UC4s3tv0Qq_OSUBfR735Jc6A",
    "count": 3
   },
@@ -7434,7 +7663,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "UCsMica-v34Irf9KVTh6xx-g",
    "count": 16
   },
@@ -7448,9 +7677,9 @@
    "ok": true,
    "error": "",
    "new": 1,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
-   "count": 15
+   "count": 16
   },
   {
    "id": "yt-microsoft",
@@ -7462,12 +7691,552 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-10-16T16:39:00Z",
+   "last_ok": "2026-10-17T15:34:10Z",
    "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "count": 9
   }
  ],
  "items": [
+  {
+   "id": "74a44f824ba0",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+   "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+   "published": "2026-10-17T15:18:51Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "97e3f4475da1",
+   "url": "https://www.youtube.com/watch?v=2xiyBnQFM20",
+   "title": "Track tokens and models with the My AI Usage Canvas | GitHub Copilot",
+   "published": "2026-10-17T15:00:16Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "yt-github",
+   "group": "video",
+   "company": "GitHub",
+   "kind": "video",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "",
+   "excerpt": "Ever wonder how many tokens you use or which AI models you reach for the most? In this demo, explore the My AI Usage Canvas, a custom dashboard built around Copilot /chronicle commands. Learn how to visualize your token consumption, track model usage across repositories, and find practical ways to lower your AI costs. Start analyzing your AI habits today: https://awesome-copilot.github.com/extension/chronicle-stats/…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "1fae9cde44bf",
+   "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+   "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+   "published": "2026-10-17T11:11:56Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3b6edce551a5",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575292",
+   "title": "Microsoft Viva: Copilot Analytics - Agent 365 reporting availability for Microsoft platform agents",
+   "published": "2026-10-16T22:00:35Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot",
+    "agent365"
+   ],
+   "status": "dev",
+   "excerpt": "Customers can now view agent insights in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics) without an Agent 365 license. Customers will be able to view reporting on their Microsoft platform-built agents in one consolidated picture, along with context on who built each agent and why. GA date: October CY2026",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "59b519e23fa6",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576875",
+   "title": "Dynamics 365 Contact Center: Service representative experiences - Use pinned contacts and queues during consult and transfer",
+   "published": "2026-10-16T19:10:04Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "In the Copilot Service admin center, administrators configure and manage pinned contacts and queues for representatives as follows: Enable pins in the Customer settings > Manage pins > Admin pins page so that representatives pin their contacts and queues. Pin specific contacts and queues for representatives. Display pinned items to representatives based on business units. Business Value: This feature streamlines…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "46fe3f1c71de",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576864",
+   "title": "Dynamics 365 Business Central: Reporting and data analysis - Use new APIs for analyzing approval workflows for auditors and IT staff",
+   "published": "2026-10-16T19:09:56Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot",
+    "copilotstudio"
+   ],
+   "status": "ga",
+   "excerpt": "In this release wave, we're introducing read-only APIs on the (workflow) approval system. This allows for establishing security and auditing analytics and reporting outside Business Central—for example, creating reports with Power BI or agents with Microsoft Copilot Studio and MCP Server for Business Central. The APIs are read-only and allow querying for: Workflow Workflow and User mappings Workflow, User, and…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "89a5bd87ce75",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576850",
+   "title": "Dynamics 365 Sales: Copilot and AI innovation - Use Dynamics 365 Sales skills in Microsoft 365 Copilot Cowork",
+   "published": "2026-10-16T19:09:47Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot",
+    "cowork"
+   ],
+   "status": "ga",
+   "excerpt": "As an admin, you can control who can access Copilot Cowork in your organization. The Dynamics 365 Sales plugin is installed by default in Copilot Cowork and available to all users who have access to Cowork. As a seller, you can use the sales skills in Copilot Cowork to: Understand customer, opportunity, and pipeline context without manually gathering information from multiple systems. Identify changes, risks…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3abdbf69c609",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576851",
+   "title": "Dynamics 365 Customer Service: Copilot and AI innovation - Use Copilot Cowork to orchestrate insights and actions for representatives",
+   "published": "2026-10-16T19:09:47Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot",
+    "cowork"
+   ],
+   "status": "ga",
+   "excerpt": "The plugin in Copilot Cowork is available out of the box for service representatives. They can use the Customer Service skills after the administrator enables the plugin for them in Cowork settings. The key capabilities are as follows: Prioritizes and enriches cases: Surfaces highest-attention cases with suggested next actions. Reviews for criticality and severity: Flags cases where severity mismatches actual…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c20623dae9e4",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576843",
+   "title": "Microsoft Dataverse: Activate Enterprise Data in Copilot - Create Dataverse agent users with Microsoft Entra agent identity",
+   "published": "2026-10-16T19:09:45Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot",
+    "entra"
+   ],
+   "status": "ga",
+   "excerpt": "Organizations can securely deploy AI agents to access and interact with Dataverse data by using enterprise‑managed Microsoft Entra agent identities. This feature enables agents to be provisioned as Dataverse agent users with dedicated, least‑privileged security roles based on their intended capabilities. This feature ensures agents have only the access required to perform tasks autonomously or on behalf of users. By…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "ae0ea570803a",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576841",
+   "title": "Dynamics 365 Business Central: Reporting and data analysis - Use new APIs for analyzing permissions for auditors and IT staff",
+   "published": "2026-10-16T19:09:43Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot",
+    "copilotstudio"
+   ],
+   "status": "ga",
+   "excerpt": "In this release wave, we're introducing read-only APIs on the permission system. This allows for establishing security and auditing analytics and reporting outside Business Central—for example, creating reports with Power BI or agents with Microsoft Copilot Studio and MCP Server for Business Central. The APIs are read-only and allow querying for: Permission Set Object, Scope, Extension info, and Permission Set…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "f177487a29a6",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576838",
+   "title": "Dynamics 365 Finance and Operations cross-app: Boost productivity with Copilot - Use Copilot Cowork to orchestrate insights and actions across Dynamics 365 ERP",
+   "published": "2026-10-16T19:09:41Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot",
+    "cowork"
+   ],
+   "status": "ga",
+   "excerpt": "The Copilot Cowork plugin for finance and operations apps enables users to move from business intent to insight to execution in a single experience. Copilot orchestrates work across ERP data, emails, documents, spreadsheets, collaboration tools, and downstream business processes. Key capabilities Orchestrate workflows across ERP and Microsoft 365 data sources. Analyze business data and generate contextual insights.…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "aa24e60a0324",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576837",
+   "title": "Dynamics 365 Contact Center: Unified routing - Use pick-based assignment method for work items",
+   "published": "2026-10-16T19:09:41Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "Use the No auto assignment method for queues in Copilot Service admin center when you want routed conversations to remain unassigned after they enter a queue. Instead of being assigned automatically, conversations stay in the queue until a service representative picks them up from their Inbox or a supervisor assigns them manually. This assignment method supports a pick-based work distribution model, giving…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8c672b6802cb",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576826",
+   "title": "Dynamics 365 Finance and Operations cross-app: Boost productivity with Copilot - Enable agents to work with attachments through Dynamics 365 ERP MCP server",
+   "published": "2026-10-16T19:09:33Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "Document attachments provide valuable context and detail about ERP records. With this release, the Dynamics 365 ERP MCP server will provide access for agents to work with the attachments by creating, deleting, or reading and reasoning over the content of the attachments in agentic flows. Business Value: Document attachments provide valuable context and detail about ERP records. Enabling agents to access the…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c706a21a2956",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576825",
+   "title": "Dynamics 365 Finance and Operations cross-app: Boost productivity with Copilot - Open records in Dynamics 365 ERP applications with deep links from copilot responses",
+   "published": "2026-10-16T19:09:32Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "The Dynamics 365 ERP MCP server enables copilots to respond to prompts related to data across the Dynamics 365 ERP suite of applications. Users expect visibility into how copilot responses relate to the underlying business data and system records. With this release, copilot responses generated from the Dynamics 365 ERP MCP server will include deep links to the data used to generate the response, improving…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "060697341a2a",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576818",
+   "title": "Dynamics 365 Customer Service: Copilot and AI innovation - Improve customer outcomes with Service Agent in Microsoft 365 Copilot",
+   "published": "2026-10-16T19:09:27Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "Microsoft 365 Copilot Chat is becoming a consistent way that users interact with AI across Microsoft experiences. With this update, that same chat experience is available in Dynamics 365 Customer Service, with service-aware grounding and workflows. Service users can start in Microsoft 365 Copilot Chat and then: See and prioritize work (for example, top cases and what needs attention). Draft customer communications…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "9bcace58bc22",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576792",
+   "title": "Dynamics 365 Business Central: Reporting and data analysis - Use new APIs for getting the PDF of a document report",
+   "published": "2026-10-16T19:09:08Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot",
+    "copilotstudio"
+   ],
+   "status": "ga",
+   "excerpt": "We're introducing read-only APIs in the document report system. The APIs help establish automation on document reporting outside Business Central. For example, to create agents with Microsoft Copilot Studio and MCP Server for Business Central to automate business processes that involve document PDFs. The APIs are read-only and allow you to query the following types of documents: Sales documents Blanket sales orders…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b991184d27d3",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576788",
+   "title": "Microsoft Dataverse: Improved enterprise experiences in Power Platform - Enhance Dataverse record descriptions for Copilot /mention",
+   "published": "2026-10-16T19:09:06Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "End users of Microsoft 365 Copilot will see improved Microsoft Dataverse, Dynamics 365, and Power Apps record references in Context IQ with richer, more descriptive labels that include environment, app, and table information. This makes it easier to identify and select the correct records during Copilot interactions. Business Value: Enables Microsoft 365 Copilot to surface business data with meaningful context…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2331ed749d2a",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576789",
+   "title": "Dynamics 365 Business Central: Copilot and agents - Unlock more Business Central data with MCP server enhancements",
+   "published": "2026-10-16T19:09:06Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "With this update of the MCP server for Business Central, customers and developers can expose a broader set of Business Central APIs as tools, making it easier to build solutions that interact deeply and consistently with Business Central data and processes. Key improvements include: Access to all Microsoft APIs The MCP server can now surface the full set of standard Microsoft APIs in Business Central. This enables…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3c2cb4c86cf2",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576777",
+   "title": "Dynamics 365 Business Central: Copilot and agents - Speed up processing with Known Senders in Payables Agent",
+   "published": "2026-10-16T19:08:57Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "This feature introduces email review policy and a Known Senders list page to give accounts payable teams more control over which incoming emails require human approval before the Payables Agent processes them. A new Email review field in the Payables Agent setup lets administrators choose when incoming emails require human approval. The following options are available: Always: Every email requires approval…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "35423b173ab5",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576776",
+   "title": "Dynamics 365 Business Central: Copilot and agents - Try Payables Agent for free without setting up email",
+   "published": "2026-10-16T19:08:56Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "Payables Agent introduces a free trial mode that any user can start without help from an administrator or having paid credits. You can start the trial directly from the agent setup card or from the Purchase Invoices page. You don't need to have an administrator role or configure an email account. You upload invoice PDFs manually to start processing, bypassing the email-based sourcing flow entirely. The trial…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "5c3883279b7b",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576775",
+   "title": "Dynamics 365 Customer Service: Copilot and AI innovation - Classify emails by category and subcategory with Case Management Agent",
+   "published": "2026-10-16T19:08:55Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "With email classification, administrators can define a custom taxonomy of categories and subcategories to automatically classify inbound emails in Dynamics 365 Customer Service. AI analyzes the email subject and body, then stores the assigned category or subcategory on the email activity record. Case Management Agent, automatic record creation rules, Power Automate flows, reporting, and other downstream processes…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "46379485364d",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576772",
+   "title": "Dynamics 365 Contact Center: Omnichannel customer experiences - Handle duplicate callback requests in overflowing queues",
+   "published": "2026-10-16T19:08:53Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "ga",
+   "excerpt": "In the in-queue and pre-queue overflow settings within the Copilot Service admin center, administrators can define the following settings: Prevent duplicate callback requests from the same phone number. Define deduplication logic using combinations of caller phone number, channel phone number, and queue ID. Configure caller experiences when a duplicate is detected. An option to end the call or play a custom message…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "2fd3d915a608",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576761",
+   "title": "Dynamics 365 Customer Service: Workforce engagement management - Detect intraday volume spikes with workforce alerts",
+   "published": "2026-10-16T19:08:45Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "dev",
+   "excerpt": "Supervisors can create volume spike alerts that compare real-time conversation volume with the forecast linked to a shift plan. When volume remains above forecast for the configured number of intervals, selected recipients receive an in-app notification. The capability includes the following features: Administrators can enable workforce alerts in Copilot Service admin center by going to Workforce management >…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "231a4b379307",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576755",
+   "title": "Dynamics 365 Finance and Operations cross-app: Boost productivity with Copilot - Boost agent performance with optimal tool execution paths in Dynamics 365 ERP MCP",
+   "published": "2026-10-16T19:08:39Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "dev",
+   "excerpt": "With the dynamic tools of the Dynamics 365 ERP MCP server, large language models often have multiple options for tool-calling sequences to perform an operation or retrieve data. The orchestration can select the tool execution sequence and can include more tool calls than are required. This enhancement to the MCP server improves performance and accuracy of the server response by enabling the server to use optimal…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b65b6c0a6199",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576754",
+   "title": "Dynamics 365 Supply Chain Management: Copilot and AI innovation - Understand forecast accuracy with AI explanations",
+   "published": "2026-10-16T19:08:38Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "dev",
+   "excerpt": "By combining forecast results with contextual insights, planners can gain a detailed understanding of the key factors influencing each forecast rather than simply viewing the numbers. This increased transparency builds confidence and supports more informed planning decisions. Key benefits include: See symmetric mean absolute percentage error (SMAPE) values. View historical data and forecast results in one place.…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "230f1c951b0c",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576748",
+   "title": "Dynamics 365 Customer Service: Workforce engagement management - Monitor intraday performance against the forecast",
+   "published": "2026-10-16T19:08:32Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "dev",
+   "excerpt": "The intraday performance report provides supervisors with an interval-level view of performance against the forecast. In Copilot Service workspace, go to Workforce management to access the report. Compare forecast and actual contact volume and average handle time. Variances appear as values and percentages, making outliers easier to identify. Compare forecast, required, and scheduled staffing levels to identify…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "71604dfc65f9",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576636",
+   "title": "Dynamics 365 Contact Center: Copilot and AI innovation - Use agentic simulations to evaluate contact center setup",
+   "published": "2026-10-16T17:39:48Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "dev",
+   "excerpt": "Agentic simulations are an AI-driven capability of Service Operations Agent that enable organizations to evaluate how their contact center behaves under realistic customer conditions before those conditions occur in production. Administrators define simulation scenarios using natural-language prompts. Agentic simulations then generate realistic synthetic conversations, runs them end-to-end through the configured…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "1a6e5d4d5699",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576634",
+   "title": "Dynamics 365 Contact Center: Administrator experiences - Use industry templates to set up autonomous contact centers",
+   "published": "2026-10-16T17:39:44Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "dev",
+   "excerpt": "This release introduces industry-specific templates that simplify the creation and deployment of autonomous contact centers. Organizations can start with a preconfigured template in Copilot Service admin center > Service Operations Agent and deploy an autonomous customer service experience in just a few clicks, significantly reducing the setup effort required to design agents, workflows, and service journeys from…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
   {
    "id": "3702bd885e10",
    "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/",
@@ -7698,7 +8467,7 @@
   {
    "id": "5c6d7a0c4df6",
    "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-   "title": "Multi-repo support and other improvements for GitHub in Slack and Teams",
+   "title": "Multi-repository support and other improvements for GitHub in Slack and Teams",
    "published": "2026-10-16T02:16:35Z",
    "first_seen": "2026-10-16T16:39:00Z",
    "source": "gh-changelog-copilot",
@@ -7709,7 +8478,7 @@
     "githubcopilot"
    ],
    "status": "",
-   "excerpt": "Multi-repo support in Slack and Teams GitHub Copilot in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating issues, or…",
+   "excerpt": "@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re creating issues, opening pull requests, or investigating bugs, you can work across repositories…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -7751,6 +8520,23 @@
    "competes_with": []
   },
   {
+   "id": "9db4940a53f8",
+   "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+   "published": "2026-10-16T00:00:00Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "849b423196d1",
    "url": "https://huggingface.co/blog/reflection-beam",
    "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
@@ -7763,6 +8549,23 @@
    "topics": [],
    "status": "",
    "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "4a2f3ca18eb9",
+   "url": "https://openai.com/index/benefit-street-partners",
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "published": "2026-10-16T00:00:00Z",
+   "first_seen": "2026-10-17T15:34:10Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
    "summary": "",
    "relevance": "",
    "competes_with": []

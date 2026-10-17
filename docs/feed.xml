@@ -4,7 +4,31 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Fri, 16 Oct 2026 16:39:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 15:34:10 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/</link>
+      <guid isPermaLink="false">74a44f824ba0</guid>
+      <pubDate>Sat, 17 Oct 2026 15:18:51 +0000</pubDate>
+      <description>ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] Track tokens and models with the My AI Usage Canvas | GitHub Copilot</title>
+      <link>https://www.youtube.com/watch?v=2xiyBnQFM20</link>
+      <guid isPermaLink="false">97e3f4475da1</guid>
+      <pubDate>Sat, 17 Oct 2026 15:00:16 +0000</pubDate>
+      <description>Ever wonder how many tokens you use or which AI models you reach for the most? In this demo, explore the My AI Usage Canvas, a custom dashboard built around Copilot /chronicle commands. Learn how to visualize your token consumption, track model usage across repositories, and find practical ways to lower your AI costs. Start analyzing your AI habits today: https://awesome-copilot.github.com/extension/chronicle-stats/…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[The Hacker News] MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon</title>
+      <link>https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html</link>
+      <guid isPermaLink="false">1fae9cde44bf</guid>
+      <pubDate>Sat, 17 Oct 2026 11:11:56 +0000</pubDate>
+      <description>Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named "imgdecode," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of</description>
+      <category>incidents</category>
+    </item>
     <item>
       <title>[Google] We’re sharing 3 tips to study smarter with Gemini Notebook.</title>
       <link>https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/</link>
@@ -102,11 +126,11 @@
       <category>incidents</category>
     </item>
     <item>
-      <title>[Microsoft] Multi-repo support and other improvements for GitHub in Slack and Teams</title>
+      <title>[Microsoft] Multi-repository support and other improvements for GitHub in Slack and Teams</title>
       <link>https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</link>
       <guid isPermaLink="false">5c6d7a0c4df6</guid>
       <pubDate>Fri, 16 Oct 2026 02:16:35 +0000</pubDate>
-      <description>Multi-repo support in Slack and Teams GitHub Copilot in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating issues, or…</description>
+      <description>@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re creating issues, opening pull requests, or investigating bugs, you can work across repositories…</description>
       <category>githubcopilot</category>
     </item>
     <item>
@@ -125,11 +149,25 @@
       <description />
     </item>
     <item>
+      <title>[OpenAI] Stack Overflow for Agents triples signups with ChatGPT plugin</title>
+      <link>https://openai.com/index/stack-overflow-chatgpt-plugin</link>
+      <guid isPermaLink="false">9db4940a53f8</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.</description>
+    </item>
+    <item>
       <title>[Hugging Face] Welcome Beam: a 501B open model you can own, customize, and scale</title>
       <link>https://huggingface.co/blog/reflection-beam</link>
       <guid isPermaLink="false">849b423196d1</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <description />
+    </item>
+    <item>
+      <title>[OpenAI] Benefit Street Partners answers questions faster with Codex</title>
+      <link>https://openai.com/index/benefit-street-partners</link>
+      <guid isPermaLink="false">4a2f3ca18eb9</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.</description>
     </item>
     <item>
       <title>[Google] Gmail Live is rolling out to paid Workspace users</title>
@@ -584,44 +622,6 @@
       <guid isPermaLink="false">793cd0506ac4</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
       <description>The world’s most intelligent voice model.</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] OpenAI engineer arrested for allegedly planting spy device in office</title>
-      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/</link>
-      <guid isPermaLink="false">ff21bb8aab01</guid>
-      <pubDate>Tue, 13 Oct 2026 22:33:02 +0000</pubDate>
-      <description>A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Anthropic warns self-replicating AI could spread to your smart devices</title>
-      <link>https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/</link>
-      <guid isPermaLink="false">1a0763123a1d</guid>
-      <pubDate>Tue, 13 Oct 2026 21:16:34 +0000</pubDate>
-      <description>Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Google] An update on the launch of skills in the Gemini app and Workspace</title>
-      <link>https://workspaceupdates.googleblog.com/2026/10/an-update-on-launch-of-skills-in-gemini-app-and-workspace.html</link>
-      <guid isPermaLink="false">4957c39b52f0</guid>
-      <pubDate>Tue, 13 Oct 2026 20:33:42 +0000</pubDate>
-      <description>As previously announced, skills in the Gemini app are starting to roll out today, with an expected completion by mid-November. In the coming weeks, we’ll also introduce critical features like the ability to share Gemini app skills and an integration with Google Drive. We’ll post on the Workspace Updates blog as soon as those capabilities start rolling out. We also want to share an update on the rollout of skills in…</description>
-    </item>
-    <item>
-      <title>[Microsoft Developer] Fewer Experiments, Faster Discovery</title>
-      <link>https://www.youtube.com/shorts/y0uuFwjIFR4</link>
-      <guid isPermaLink="false">7b1ec7aae03d</guid>
-      <pubDate>Tue, 13 Oct 2026 20:00:20 +0000</pubDate>
-      <description>Microsoft Discovery coordinates AI agents that help scientists narrow a huge research space down to the most promising candidates. Ali Zaman, Product Manager at Microsoft, explains. From our full conversation on building a better battery. Watch that episode here: https://youtu.be/w-csec1OUgM</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/</link>
-      <guid isPermaLink="false">21edffe12082</guid>
-      <pubDate>Tue, 13 Oct 2026 19:56:09 +0000</pubDate>
-      <description>Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]</description>
-      <category>incidents</category>
     </item>
   </channel>
 </rss>
