@@ -4,7 +4,154 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Sun, 18 Oct 2026 15:52:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 18:42:52 +0000</lastBuildDate>
+    <item>
+      <title>[GitHub] From issue to pull request with GitHub Copilot in IntelliJ</title>
+      <link>https://www.youtube.com/watch?v=knXsDMuKKyw</link>
+      <guid isPermaLink="false">88c2dd02998f</guid>
+      <pubDate>Mon, 19 Oct 2026 18:30:33 +0000</pubDate>
+      <description>Learn how to go from an open GitHub issue to a pull request using GitHub Copilot inside JetBrains IntelliJ. In this walkthrough, we install the plugin and walk through an end-to-end workflow. Watch how you can use all your favorite GitHub Copilot features in IntelliJ. Visit https://gh.io/copilotinjetbrains to install the plugin and start building today. — CHAPTERS — 00:00 Introduction 00:29 Installing Copilot in…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] OpenCode hack exposes API keys amid AI distillation attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/</link>
+      <guid isPermaLink="false">c8f4e94200b3</guid>
+      <pubDate>Mon, 19 Oct 2026 17:27:15 +0000</pubDate>
+      <description>The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed in a security breach. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Google] How to shape your slides and videos with Gemini Notebook</title>
+      <link>https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/</link>
+      <guid isPermaLink="false">8d7cba5836f2</guid>
+      <pubDate>Mon, 19 Oct 2026 17:00:00 +0000</pubDate>
+      <description>Illustration showing new review slide deck capabilities</description>
+    </item>
+    <item>
+      <title>[The Record] Ahold Delhaize confirms 'malicious actions' behind cyber outages affecting grocery brands</title>
+      <link>https://therecord.media/ahold-delhaize-cyberattack-grocery</link>
+      <guid isPermaLink="false">425846ce9398</guid>
+      <pubDate>Mon, 19 Oct 2026 16:45:00 +0000</pubDate>
+      <description>Ahold Delhaize, the Dutch multinational grocery retailer, said Monday that a cyberattack forced it to take systems offline across most of its U.S. and European brands, impacting shoppers on both sides of the Atlantic.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Google] 4 tips for styling outfits with Gemini</title>
+      <link>https://blog.google/products-and-platforms/products/gemini/stylist-outfit-tips-gemini/</link>
+      <guid isPermaLink="false">7b7535a06a66</guid>
+      <pubDate>Mon, 19 Oct 2026 16:00:00 +0000</pubDate>
+      <description>UI showing a user asking Gemini to put a person into various outfit items</description>
+    </item>
+    <item>
+      <title>[Google] Follow through on your meeting tasks with meeting recaps in Google Chat</title>
+      <link>https://workspaceupdates.googleblog.com/2026/10/follow-through-on-your-meeting-tasks-with-meeting-recaps-in-Google-Chat.html</link>
+      <guid isPermaLink="false">2ad5bafb57c0</guid>
+      <pubDate>Mon, 19 Oct 2026 15:37:48 +0000</pubDate>
+      <description>To make it easier for teams to move from planning to action, we’re introducing meeting recaps in Google Chat. Meeting recaps provide a convenient summary directly in Google Chat, including: Meeting summary: A high-level overview highlighting key discussion topics and takeaways. Direct artifact links: One-click access to the full Gemini meeting notes document, the meeting recording, and the transcript. Key decisions…</description>
+    </item>
+    <item>
+      <title>[NVIDIA] NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production</title>
+      <link>https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/</link>
+      <guid isPermaLink="false">405e039bdc7e</guid>
+      <pubDate>Mon, 19 Oct 2026 15:00:31 +0000</pubDate>
+      <description>At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration […]</description>
+    </item>
+    <item>
+      <title>[The Hacker News] ⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More</title>
+      <link>https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html</link>
+      <guid isPermaLink="false">03d3ba9d36cc</guid>
+      <pubDate>Mon, 19 Oct 2026 14:14:07 +0000</pubDate>
+      <description>The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done. This week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Inside the Underground Market for Know Your Client Services</title>
+      <link>https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/</link>
+      <guid isPermaLink="false">10c7257940cc</guid>
+      <pubDate>Mon, 19 Oct 2026 14:00:10 +0000</pubDate>
+      <description>Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks. Flare examines how these underground services operate and the techniques used to create and maintain fraudulent verified accounts. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories</title>
+      <link>https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html</link>
+      <guid isPermaLink="false">47f4fcfb349a</guid>
+      <pubDate>Mon, 19 Oct 2026 13:05:45 +0000</pubDate>
+      <description>The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Security] Secure agents at speed &amp; scale with Microsoft Security</title>
+      <link>https://www.youtube.com/watch?v=ro-OKrB1dB0</link>
+      <guid isPermaLink="false">0e0f8871f999</guid>
+      <pubDate>Mon, 19 Oct 2026 13:01:14 +0000</pubDate>
+      <description>As AI agents become part of everyday work, they can take action across apps, devices, clouds, and data at machine speed. That creates a new kind of security challenge: organizations need visibility and control across every agent, resource, and layer of their environment. See how Microsoft Security helps organizations leverage their Microsoft 365 E7 investments with Project Perception to secure their growing agentic…</description>
+    </item>
+    <item>
+      <title>[Microsoft Security] How Security Leaders Can Prepare for Super Intelligence</title>
+      <link>https://www.youtube.com/watch?v=ozQwUsJXy6Y</link>
+      <guid isPermaLink="false">0df486cfb3f5</guid>
+      <pubDate>Mon, 19 Oct 2026 13:01:04 +0000</pubDate>
+      <description>What does security look like when agent systems can reason, act, and operate across the enterprise? In this fireside chat, Microsoft Chairman and CEO Satya Nadella joins Hayete Gallot to discuss how security leaders can prepare for the next frontier of cyber defense. The conversation explores why organizations need a new security architecture for autonomous agents, how Zero Trust principles evolve in an agentic era…</description>
+    </item>
+    <item>
+      <title>[Microsoft Security] Introducing new Microsoft 365 E7 and Project Perception capabilities.</title>
+      <link>https://www.youtube.com/watch?v=JxZduK3S39g</link>
+      <guid isPermaLink="false">8746b1007d1a</guid>
+      <pubDate>Mon, 19 Oct 2026 13:00:56 +0000</pubDate>
+      <description>Hayete Gallot, EVP of Microsoft Security, shares the latest updates on new Microsoft 365 and Project Perception capabilities that help security teams discover and manage agents, assess dynamic agent risk, adapt permissions, and keep pace as conditions change. Agents can change, connect, and act autonomously, accessing business data, cloud resources, and tools along the way. Traditional security wasn’t built for…</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] Microsoft fixes classic Outlook bug that hid Copilot buttons</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/</link>
+      <guid isPermaLink="false">1f63abf1d8df</guid>
+      <pubDate>Mon, 19 Oct 2026 12:44:44 +0000</pubDate>
+      <description>Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]</description>
+      <category>copilot</category>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Salesforce] Salesforce Accelerates European AI Leadership with $1 Billion Investment in Spain</title>
+      <link>https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/</link>
+      <guid isPermaLink="false">72b1ea2089a9</guid>
+      <pubDate>Mon, 19 Oct 2026 11:00:00 +0000</pubDate>
+      <description>Madrid named EMEA South hub as Salesforce expands office presence, customer innovation, and AI workforce development across the region. MADRID — October 19, 2026 — Salesforce, the #1 AI CRM, today unveiled plans to invest $1 billion in Spain over the next five years, cementing the country’s role as the growth engine for Salesforce’s EMEA […]</description>
+    </item>
+    <item>
+      <title>[Microsoft] Browser automation tool in Microsoft Foundry is now GA</title>
+      <link>https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/</link>
+      <guid isPermaLink="false">7172ddb1ace1</guid>
+      <pubDate>Mon, 19 Oct 2026 10:32:13 +0000</pubDate>
+      <description>Build agents that automate tasks across public and private websites with managed browsers, native toolbox integration, Live View, and human control.</description>
+      <category>foundry</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic</title>
+      <link>https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html</link>
+      <guid isPermaLink="false">0534f1906337</guid>
+      <pubDate>Mon, 19 Oct 2026 10:06:40 +0000</pubDate>
+      <description>A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. "The tools delivered information-stealing malware and backdoors for macOS and Windows machines," Elastic</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys</title>
+      <link>https://thehackernews.com/2026/10/opencode-console-breach-may-have.html</link>
+      <guid isPermaLink="false">1de1c48ce23b</guid>
+      <pubDate>Mon, 19 Oct 2026 06:07:08 +0000</pubDate>
+      <description>An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Anthropic] Investing in the public benefit</title>
+      <link>https://www.anthropic.com/news/public-benefit-fund</link>
+      <guid isPermaLink="false">4c6c987b6534</guid>
+      <pubDate>Sun, 18 Oct 2026 16:49:35 +0000</pubDate>
+      <description>We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.</description>
+    </item>
     <item>
       <title>[GitHub] How GitHub uses AI agents to stress test new features</title>
       <link>https://www.youtube.com/shorts/zqvJ9YjZXqM</link>
@@ -473,155 +620,6 @@
       <pubDate>Wed, 14 Oct 2026 15:38:56 +0000</pubDate>
       <description>Learn how Azure Content Understanding grounding, field-level confidence, and calibration help teams prioritize human review and build reliable document workflows.</description>
       <category>foundry</category>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] Human in the Loop for AI Pen Testing Agents</title>
-      <link>https://www.youtube.com/shorts/Veot9JRCONg</link>
-      <guid isPermaLink="false">22990ec831ec</guid>
-      <pubDate>Wed, 14 Oct 2026 15:15:12 +0000</pubDate>
-      <description>How much should AI security agents do without asking? In Project Perception, any operation of consequence pauses for approval. You steer the process, confirm the agent's reasoning and assumptions, and approve the action before the pen test agent proceeds. ▶ Full video: https://youtu.be/afXHGzGNAtM ▶ Get started: https://microsoft.com/perception #Shorts #AIAgents #SecOps #Cybersecurity</description>
-      <category>security-agents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] The Blind Spots of Agentic Pentesting and How to Close Them</title>
-      <link>https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/</link>
-      <guid isPermaLink="false">937c7f4fab21</guid>
-      <pubDate>Wed, 14 Oct 2026 14:00:10 +0000</pubDate>
-      <description>AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting with exposure validation and breach simulation can help close these gaps. [...]</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Record] Russian travel booking platform suspends reservations after cyberattack</title>
-      <link>https://therecord.media/russia-anywayanyday-travel-website-cyberattack</link>
-      <guid isPermaLink="false">a7d7c0f109d9</guid>
-      <pubDate>Wed, 14 Oct 2026 13:05:00 +0000</pubDate>
-      <description>Customers of Russian travel website Anywayanyday were unable to book tickets or hotel rooms as the company responded to a cyberattack.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime</title>
-      <link>https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/</link>
-      <guid isPermaLink="false">b2dbdf4e9e45</guid>
-      <pubDate>Wed, 14 Oct 2026 13:00:00 +0000</pubDate>
-      <description>Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem.</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] CISA warns admins to immediately fix Ivanti flaw exploited as zero-day</title>
-      <link>https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/</link>
-      <guid isPermaLink="false">835a57efab96</guid>
-      <pubDate>Wed, 14 Oct 2026 12:58:07 +0000</pubDate>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts</title>
-      <link>https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html</link>
-      <guid isPermaLink="false">c8c2a8e77f0c</guid>
-      <pubDate>Wed, 14 Oct 2026 12:30:42 +0000</pubDate>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[OpenAI] Amp puts AI agents to work beyond code with OpenAI models</title>
-      <link>https://openai.com/index/amp-beyond-coding</link>
-      <guid isPermaLink="false">a0e0fec2c2b5</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-      <description>See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.</description>
-    </item>
-    <item>
-      <title>[OpenAI] SentinelOne cuts malware analysis from weeks to hours</title>
-      <link>https://openai.com/index/sentinelone</link>
-      <guid isPermaLink="false">24cc989c02db</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-      <description>With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.</description>
-      <category>security-agents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team</title>
-      <link>https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html</link>
-      <guid isPermaLink="false">de7e4a82bb7f</guid>
-      <pubDate>Wed, 14 Oct 2026 11:50:00 +0000</pubDate>
-      <description>Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days</title>
-      <link>https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html</link>
-      <guid isPermaLink="false">ecd984dc6bd3</guid>
-      <pubDate>Wed, 14 Oct 2026 11:19:02 +0000</pubDate>
-      <description>A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs, fixed them, and paid XBOW its top $</description>
-      <category>security-agents</category>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.</title>
-      <link>https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html</link>
-      <guid isPermaLink="false">181d174bbac4</guid>
-      <pubDate>Wed, 14 Oct 2026 11:00:00 +0000</pubDate>
-      <description>The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let the user choose where the one-time passcode went. The attack was the easy part. Proving it</description>
-      <category>security-agents</category>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Anthropic] Singapore office and government MOU | Anthropic</title>
-      <link>https://www.anthropic.com/news/singapore-office-opening</link>
-      <guid isPermaLink="false">87253efedaff</guid>
-      <pubDate>Wed, 14 Oct 2026 08:30:00 +0000</pubDate>
-      <description>Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.</description>
-    </item>
-    <item>
-      <title>[The Hacker News] AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host</title>
-      <link>https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html</link>
-      <guid isPermaLink="false">0a34dc42eff4</guid>
-      <pubDate>Wed, 14 Oct 2026 07:46:57 +0000</pubDate>
-      <description>A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine. The bug is tracked as CVE-2026-74580 and named Vghost. Tencent Zhuque Lab, which found the</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[OpenAI] How Third Moment Research runs 10,000 agents for 36+ hours</title>
-      <link>https://openai.com/index/third-moment-research</link>
-      <guid isPermaLink="false">e181547094b0</guid>
-      <pubDate>Wed, 14 Oct 2026 07:00:00 +0000</pubDate>
-      <description>With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.</description>
-      <category>security-agents</category>
-    </item>
-    <item>
-      <title>[OpenAI] How Block is building AI-powered security with OpenAI technology</title>
-      <link>https://openai.com/index/block-ai-powered-security</link>
-      <guid isPermaLink="false">7d10f0ddfecf</guid>
-      <pubDate>Wed, 14 Oct 2026 07:00:00 +0000</pubDate>
-      <description>Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.</description>
-    </item>
-    <item>
-      <title>[NVIDIA] NVIDIA Announces New Investments in the UK Startup Ecosystem</title>
-      <link>https://blogs.nvidia.com/blog/uk-ecosystem-deployment/</link>
-      <guid isPermaLink="false">641fd03bcae8</guid>
-      <pubDate>Wed, 14 Oct 2026 06:04:15 +0000</pubDate>
-      <description>Across industries, the U.K. is putting the full stack to work. The scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety and security […]</description>
-    </item>
-    <item>
-      <title>[NVIDIA] European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations</title>
-      <link>https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/</link>
-      <guid isPermaLink="false">5f7238246fc0</guid>
-      <pubDate>Wed, 14 Oct 2026 06:00:28 +0000</pubDate>
-      <description>Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make […]</description>
-    </item>
-    <item>
-      <title>[The Hacker News] Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug</title>
-      <link>https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html</link>
-      <guid isPermaLink="false">b7b1929554c4</guid>
-      <pubDate>Wed, 14 Oct 2026 04:34:43 +0000</pubDate>
-      <description>Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these, more than 670 relate to privilege escalation, followed by over 300 remote code</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] What Each AI Agent Team Does in Project Perception</title>
-      <link>https://www.youtube.com/shorts/aHatrPLNqEM</link>
-      <guid isPermaLink="false">89ffdb9bdbd3</guid>
-      <pubDate>Wed, 14 Oct 2026 02:15:32 +0000</pubDate>
-      <description>What do red, blue, and green team AI agents do? In Project Perception, red team agents simulate attacks, find attack paths, and prove where you're vulnerable. Blue team agents investigate, correlate events, and build detections. Green team agents harden your posture and remediate before an attack lands. ▶ Full video: https://youtu.be/afXHGzGNAtM ▶ Get started: https://microsoft.com/perception #Shorts…</description>
-      <category>security-agents</category>
     </item>
   </channel>
 </rss>
