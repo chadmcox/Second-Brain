@@ -4,7 +4,285 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Tue, 20 Oct 2026 17:03:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 17:11:27 +0000</lastBuildDate>
+    <item>
+      <title>[GitHub] Inside GitHub's September updates: Project HydraFusion, sandboxing, and PR approvals</title>
+      <link>https://www.youtube.com/watch?v=ZQ0Qq6LlAmI</link>
+      <guid isPermaLink="false">fc97b52b6751</guid>
+      <pubDate>Wed, 21 Oct 2026 16:53:35 +0000</pubDate>
+      <description>In this episode of GitHub Checkout, Andrea Griffiths sits down with Julia Kasper and Brady Gaster to break down the major platform updates shipped in September. Discover how Project HydraFusion expands to VS Code and the GitHub Copilot app, bringing full model visibility and up to 10x token efficiency compared to frontier models. Explore general availability for local sandboxing, automated code review approvals that…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] OpenAI agents disabled safety monitoring, one lied about it</title>
+      <link>https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/</link>
+      <guid isPermaLink="false">288893f63679</guid>
+      <pubDate>Wed, 21 Oct 2026 16:26:53 +0000</pubDate>
+      <description>OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.</title>
+      <link>https://huggingface.co/blog/amazon/profiling-torchneuron-part-1</link>
+      <guid isPermaLink="false">f9b499debdda</guid>
+      <pubDate>Wed, 21 Oct 2026 16:04:43 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Hugging Face] Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster</title>
+      <link>https://huggingface.co/blog/ibm-granite/granite-speech-5</link>
+      <guid isPermaLink="false">9b35c0bfb2f0</guid>
+      <pubDate>Wed, 21 Oct 2026 14:58:18 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[BleepingComputer] ClickFix has never been bigger, and AI tools are its most convincing lure yet</title>
+      <link>https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/</link>
+      <guid isPermaLink="false">bc6b0429e7ca</guid>
+      <pubDate>Wed, 21 Oct 2026 14:00:10 +0000</pubDate>
+      <description>ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effective lures. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Hugging Face] NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability</title>
+      <link>https://huggingface.co/blog/nvidia/kumo-forecast</link>
+      <guid isPermaLink="false">38715d90bd30</guid>
+      <pubDate>Wed, 21 Oct 2026 12:51:24 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Mistral] Mistral Advances AI for Engineering with NVIDIA</title>
+      <link>https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/</link>
+      <guid isPermaLink="false">840d5b41acdd</guid>
+      <pubDate>Wed, 21 Oct 2026 12:00:20 +0000</pubDate>
+      <description>Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.</description>
+    </item>
+    <item>
+      <title>[OpenAI] OpenAI models are coming to Google Cloud</title>
+      <link>https://openai.com/index/openai-models-google-cloud</link>
+      <guid isPermaLink="false">61f4d0141ff3</guid>
+      <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+      <description>OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.</description>
+    </item>
+    <item>
+      <title>[The Hacker News] Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports</title>
+      <link>https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html</link>
+      <guid isPermaLink="false">b81260804ad3</guid>
+      <pubDate>Wed, 21 Oct 2026 11:53:34 +0000</pubDate>
+      <description>Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result. Proofpoint shared several examples of the shift at its Protect 2026 conference.</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[NVIDIA] Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents</title>
+      <link>https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/</link>
+      <guid isPermaLink="false">0b1d731f907e</guid>
+      <pubDate>Wed, 21 Oct 2026 10:50:37 +0000</pubDate>
+      <description>At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier workloads on Linux, with a Windows version arriving in December. Announcements include: […]</description>
+      <category>personal-agents</category>
+    </item>
+    <item>
+      <title>[NVIDIA] Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure</title>
+      <link>https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/</link>
+      <guid isPermaLink="false">7dbdc8f6d3c5</guid>
+      <pubDate>Wed, 21 Oct 2026 10:45:17 +0000</pubDate>
+      <description>General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling technology for…</description>
+    </item>
+    <item>
+      <title>[The Hacker News] The Harness Is the Hard Part of Agentic Pentesting</title>
+      <link>https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html</link>
+      <guid isPermaLink="false">f31f85df952c</guid>
+      <pubDate>Wed, 21 Oct 2026 10:32:40 +0000</pubDate>
+      <description>An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July</description>
+      <category>security-agents</category>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[NVIDIA] NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents</title>
+      <link>https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/</link>
+      <guid isPermaLink="false">f47072a36f45</guid>
+      <pubDate>Wed, 21 Oct 2026 10:30:41 +0000</pubDate>
+      <description>Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe, the Nordics, Africa, and Central Asia are expanding regional compute capacity for […]</description>
+    </item>
+    <item>
+      <title>[NVIDIA] Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA</title>
+      <link>https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/</link>
+      <guid isPermaLink="false">0c405e6fd045</guid>
+      <pubDate>Wed, 21 Oct 2026 10:30:40 +0000</pubDate>
+      <description>To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. Bringing those capabilities together on the factory floor, the NVIDIA Factory Operations Blueprint (FOX) is now available in […]</description>
+    </item>
+    <item>
+      <title>[NVIDIA] NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations</title>
+      <link>https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/</link>
+      <guid isPermaLink="false">64ae1d1ebee7</guid>
+      <pubDate>Wed, 21 Oct 2026 10:30:25 +0000</pubDate>
+      <description>NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict how designs will perform before they’re built. As designs become more complex, simulations […]</description>
+    </item>
+    <item>
+      <title>[NVIDIA] NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure</title>
+      <link>https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/</link>
+      <guid isPermaLink="false">9e8b8c2e1479</guid>
+      <pubDate>Wed, 21 Oct 2026 10:30:02 +0000</pubDate>
+      <description>NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infrastructure layer that protects the models and data those agents depend on while running. Today, NVIDIA […]</description>
+    </item>
+    <item>
+      <title>[NVIDIA] NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data</title>
+      <link>https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/</link>
+      <guid isPermaLink="false">7d59293497ac</guid>
+      <pubDate>Wed, 21 Oct 2026 10:10:01 +0000</pubDate>
+      <description>Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers and actions, monitor what they do and […]</description>
+    </item>
+    <item>
+      <title>[NVIDIA] NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries</title>
+      <link>https://blogs.nvidia.com/blog/open-models-europe-industry/</link>
+      <guid isPermaLink="false">be11c18d48ff</guid>
+      <pubDate>Wed, 21 Oct 2026 10:00:07 +0000</pubDate>
+      <description>NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3.5 Super VL and Nemotron 3.5 Bolt models; new NVIDIA Nemotron Retriever models for embedding, reranking […]</description>
+    </item>
+    <item>
+      <title>[NVIDIA] GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote</title>
+      <link>https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/</link>
+      <guid isPermaLink="false">d8fecd9b69c9</guid>
+      <pubDate>Wed, 21 Oct 2026 09:30:16 +0000</pubDate>
+      <description>Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days, with more than 100 sessions on agentic AI, robotics, […]</description>
+    </item>
+    <item>
+      <title>[The Hacker News] Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites</title>
+      <link>https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html</link>
+      <guid isPermaLink="false">7f88afbf76a3</guid>
+      <pubDate>Wed, 21 Oct 2026 09:01:12 +0000</pubDate>
+      <description>Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] CISA: SafePay ransomware hit over 600 critical infrastructure orgs</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/</link>
+      <guid isPermaLink="false">190252fca79a</guid>
+      <pubDate>Wed, 21 Oct 2026 08:36:24 +0000</pubDate>
+      <description>The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases</title>
+      <link>https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html</link>
+      <guid isPermaLink="false">0c6fe061465a</guid>
+      <pubDate>Wed, 21 Oct 2026 08:04:17 +0000</pubDate>
+      <description>U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services "developed using DeepSeek implementations," under a Department of Homeland Security order. They may also no longer buy information technology products or services from the Chinese AI developer or its affiliates Homeland Security Secretary</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web</title>
+      <link>https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html</link>
+      <guid isPermaLink="false">17efaa05bd14</guid>
+      <pubDate>Wed, 21 Oct 2026 07:44:22 +0000</pubDate>
+      <description>State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a stock-exchange filing dated October 21 that it "has experienced an incident involving the loss of certain data." The count is</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[OpenAI] Patch the Planet: global response coordination as agents uncover critical vulnerabilities</title>
+      <link>https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities</link>
+      <guid isPermaLink="false">d3f519557f32</guid>
+      <pubDate>Wed, 21 Oct 2026 07:00:00 +0000</pubDate>
+      <description>Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.</description>
+    </item>
+    <item>
+      <title>[CrowdStrike] CrowdStrike Uncovers New Agentic AI Campaigns</title>
+      <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/</link>
+      <guid isPermaLink="false">acaa113a0748</guid>
+      <pubDate>Wed, 21 Oct 2026 05:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[OpenAI] Using thousands of AI agents to uncover new leads in biological data</title>
+      <link>https://openai.com/index/scaling-ai-research-for-complex-biological-data</link>
+      <guid isPermaLink="false">1de8e62ff715</guid>
+      <pubDate>Wed, 21 Oct 2026 04:50:00 +0000</pubDate>
+      <description>See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] Stolen UpdraftCentral keys used to backdoor WordPress sites</title>
+      <link>https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/</link>
+      <guid isPermaLink="false">0f04a6f0fbac</guid>
+      <pubDate>Wed, 21 Oct 2026 01:01:50 +0000</pubDate>
+      <description>A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Anthropic] Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust</title>
+      <link>https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust</link>
+      <guid isPermaLink="false">b12d9d8f2012</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control. “I am honored to join Anthropic’s Long-Term Benefit Trust and to help the company…</description>
+    </item>
+    <item>
+      <title>[Microsoft Developer] Database Agents: A New Way to Manage Databases in Fabric</title>
+      <link>https://www.youtube.com/watch?v=eK-7atguOB8</link>
+      <guid isPermaLink="false">26675fc4ed4a</guid>
+      <pubDate>Tue, 20 Oct 2026 21:00:32 +0000</pubDate>
+      <description>Spend less time watching dashboards and more time investigating the database issues that matter. Patrick LeBlanc demonstrates how the database agent in Fabric Database Hub observes SQL Server databases, surfaces meaningful performance signals, and provides evidence to guide your next steps. Follow a blocking issue from detection into SQL Server Management Studio, then explore how GitHub Copilot can support deeper…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft Developer] Migrate to Azure SQL. Then Build Something New</title>
+      <link>https://www.youtube.com/watch?v=yOxoJwaFFsI</link>
+      <guid isPermaLink="false">21d941f460d7</guid>
+      <pubDate>Tue, 20 Oct 2026 21:00:02 +0000</pubDate>
+      <description>Follow a working application from SQL Server to Azure SQL Database Hyperscale in an end-to-end migration demonstration. Amit Khandelwal shows how migration assessments in SQL Server Management Studio and Microsoft SQL agent skills in VS Code help evaluate readiness, investigate blockers, recommend a target configuration, and plan the move. Watch GitHub Copilot help resolve an unused Service Broker configuration…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[The Record] FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024</title>
+      <link>https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims</link>
+      <guid isPermaLink="false">a92bc795de6c</guid>
+      <pubDate>Tue, 20 Oct 2026 20:27:00 +0000</pubDate>
+      <description>The FBI and cyber agencies in the UK and Germany said SafePay is targeting businesses and critical infrastructure by guessing passwords, exploiting vulnerabilities and using phishing attacks.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Google] Get hands-free personalized help on the road with Gemini</title>
+      <link>https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/</link>
+      <guid isPermaLink="false">bcce454f5977</guid>
+      <pubDate>Tue, 20 Oct 2026 20:00:00 +0000</pubDate>
+      <description>Center of image is a photo of a 1st-person point of view of driving a car. On the circumference of the circle are the Gemini logo and various prompts. The bottom of the image has the text "Personal Intelligence hits the road".</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] Zeabur shutting down after second security breach in two months</title>
+      <link>https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/</link>
+      <guid isPermaLink="false">aa2f36ffa3be</guid>
+      <pubDate>Tue, 20 Oct 2026 19:33:02 +0000</pubDate>
+      <description>Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] California warns all public school students of data stolen in contractor breach</title>
+      <link>https://therecord.media/california-warns-all-public-school-students-of-data-breach</link>
+      <guid isPermaLink="false">6203e915296a</guid>
+      <pubDate>Tue, 20 Oct 2026 19:20:00 +0000</pubDate>
+      <description>The CDE released multiple statements over the last week warning the state’s students that assessment contractor Educational Testing Service (ETS) suffered a months-long data breach.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] 23andMe successor settles with California for $6 million over cybersecurity failings</title>
+      <link>https://therecord.media/23andme-california-data-breach-settlement</link>
+      <guid isPermaLink="false">29ac1c4b3b83</guid>
+      <pubDate>Tue, 20 Oct 2026 18:32:00 +0000</pubDate>
+      <description>California Attorney General Rob Bonta announced a settlement under which 23andMe's successor will pay $6 million to resolve allegations that the company did not properly protect customers' data before a 2023 breach.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code</title>
+      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/</link>
+      <guid isPermaLink="false">2bcaf37a740b</guid>
+      <pubDate>Tue, 20 Oct 2026 18:11:03 +0000</pubDate>
+      <description>OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft Security] Security 101: What is Agentic AI Security?</title>
+      <link>https://www.youtube.com/shorts/fceLUVD0Ce8</link>
+      <guid isPermaLink="false">d33559d89a69</guid>
+      <pubDate>Tue, 20 Oct 2026 17:14:34 +0000</pubDate>
+      <description>Agentic AI is unlocking powerful new possibilities, but how do organizations keep autonomous AI agents secure? Alym Rayani, VP of Microsoft Security, explains what agentic AI security means, why it matters, and what organizations should consider as AI agents begin to reason, use tools, access data, and take action. Discover how Microsoft Security approaches securing and governing agentic AI as organizations adopt…</description>
+    </item>
     <item>
       <title>[Hugging Face] FairStress: A deeper evaluation of fairness in LLM decision-making</title>
       <link>https://huggingface.co/blog/allenai/fairstress</link>
@@ -106,6 +384,20 @@
       <category>incidents</category>
     </item>
     <item>
+      <title>[NVIDIA] European Leaders Turn to NVIDIA Vera CPUs to Build Local Infrastructure</title>
+      <link>https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/</link>
+      <guid isPermaLink="false">6aab4d7a6d6a</guid>
+      <pubDate>Tue, 20 Oct 2026 10:30:11 +0000</pubDate>
+      <description>Nebius and Nscale are among global technology partners looking to NVIDIA Vera CPUs to build the next wave of infrastructure. Their momentum reflects rapid advancements in agentic computing. Agents do more than generate answers: they retrieve information, run software tools, execute code and evaluate results. Each step depends on fast CPU processing. Vera accelerates that […]</description>
+    </item>
+    <item>
+      <title>[OpenAI] Franchisee reconciles cash in 94% less time with ChatGPT Work</title>
+      <link>https://openai.com/index/ted-taylor-restaurant</link>
+      <guid isPermaLink="false">b3fcb2e42d32</guid>
+      <pubDate>Tue, 20 Oct 2026 10:00:00 +0000</pubDate>
+      <description>An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.</description>
+    </item>
+    <item>
       <title>[The Record] Defense contractors in two NATO allies hacked in recent Russia-linked campaign</title>
       <link>https://therecord.media/european-defense-contractors-fancy-bear-espionage</link>
       <guid isPermaLink="false">87e932b60df1</guid>
@@ -134,6 +426,13 @@
       <guid isPermaLink="false">124a6f881793</guid>
       <pubDate>Tue, 20 Oct 2026 07:00:37 +0000</pubDate>
       <description>AI agents can quickly deliver business value, but as usage scales, many organizations are discovering that intelligent experiences come with real operational costs. In this episode of the Azure Essentials Show, host Takuto Higuchi sits down with Sindhura Bandhakavi, Director of Engineering, Microsoft CoreAI, to explore the emerging discipline of AI token economics, or "tokenomics," and what it takes to optimize…</description>
+    </item>
+    <item>
+      <title>[OpenAI] Terminal X matches senior investor judgment 88.6% with GPT-6.1</title>
+      <link>https://openai.com/index/terminal-x</link>
+      <guid isPermaLink="false">a84b6a7bee5c</guid>
+      <pubDate>Tue, 20 Oct 2026 07:00:00 +0000</pubDate>
+      <description>Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.</description>
     </item>
     <item>
       <title>[The Hacker News] Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge</title>
@@ -181,6 +480,13 @@
       <description />
     </item>
     <item>
+      <title>[xAI] Using Grok Bot to detect and respond to incidents</title>
+      <link>https://x.ai/news/incident-sweep</link>
+      <guid isPermaLink="false">27c2ca35edce</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>IncidentWatch spots ticket spikes before internal alerts fire. IncidentSweep clears the related backlog in an approved batch.</description>
+    </item>
+    <item>
       <title>[Hugging Face] AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms</title>
       <link>https://huggingface.co/blog/anylanguagemodel-1-0</link>
       <guid isPermaLink="false">2596ff929aee</guid>
@@ -218,7 +524,7 @@
       <link>https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams</link>
       <guid isPermaLink="false">9db7d13375ba</guid>
       <pubDate>Mon, 19 Oct 2026 21:32:18 +0000</pubDate>
-      <description>You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now…</description>
+      <description>You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now…</description>
       <category>copilot</category>
       <category>githubcopilot</category>
     </item>
@@ -306,323 +612,6 @@
       <guid isPermaLink="false">9822e22c0dc9</guid>
       <pubDate>Mon, 19 Oct 2026 17:25:14 +0000</pubDate>
       <description>You can now export interactive apps built in the Gemini app directly to Google Sites. With one click, your app is added to a new, private site draft — fully interactive and ready to customize. From there, you can add more content, publish the site, and share it just like any other Google Site. This makes it easy to take what you create in the Gemini app and share it with your team, customers, or students, with no…</description>
-    </item>
-    <item>
-      <title>[Google] Gemini in Google Sheets is now available on iOS devices</title>
-      <link>https://workspaceupdates.googleblog.com/2026/10/gemini-in-google-sheets-is-now-available-on-iOS-devices.html</link>
-      <guid isPermaLink="false">c7ac91b7eead</guid>
-      <pubDate>Mon, 19 Oct 2026 17:00:39 +0000</pubDate>
-      <description>Building upon the power of Gemini in Sheets on the web and our recent launch on Android devices, we’re excited to announce that you can now use Gemini in Google Sheets on your iOS device to quickly analyze and understand your data while on the go. Simply tap on the Gemini spark icon, and you can ask questions about your data, generate analytical insights, and create charts. To help you get started, we've included…</description>
-    </item>
-    <item>
-      <title>[Google] How to shape your slides and videos with Gemini Notebook</title>
-      <link>https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/</link>
-      <guid isPermaLink="false">8d7cba5836f2</guid>
-      <pubDate>Mon, 19 Oct 2026 17:00:00 +0000</pubDate>
-      <description>Illustration showing new review slide deck capabilities</description>
-    </item>
-    <item>
-      <title>[The Record] Ahold Delhaize confirms 'malicious actions' behind cyber outages affecting grocery brands</title>
-      <link>https://therecord.media/ahold-delhaize-cyberattack-grocery</link>
-      <guid isPermaLink="false">425846ce9398</guid>
-      <pubDate>Mon, 19 Oct 2026 16:45:00 +0000</pubDate>
-      <description>Ahold Delhaize, the Dutch multinational grocery retailer, said Monday that a cyberattack forced it to take systems offline across most of its U.S. and European brands, impacting shoppers on both sides of the Atlantic.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Transform your storytelling with interactive slides in PowerPoint</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/transform-your-storytelling-with-interactive-slides-in/ba-p/4564287</link>
-      <guid isPermaLink="false">a98c814831bc</guid>
-      <pubDate>Mon, 19 Oct 2026 16:14:07 +0000</pubDate>
-      <description>The most powerful moments in a presentation are when you and your audience can explore an idea together. We're continuing to expand how PowerPoint helps you turn ideas, data, and institutional knowledge into compelling narratives with interactive slides so you can communicate ideas more effectively, with slides you can explore. Bring your ideas to life with interactive storytelling With the create interactive slide…</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[Google] 4 tips for styling outfits with Gemini</title>
-      <link>https://blog.google/products-and-platforms/products/gemini/stylist-outfit-tips-gemini/</link>
-      <guid isPermaLink="false">7b7535a06a66</guid>
-      <pubDate>Mon, 19 Oct 2026 16:00:00 +0000</pubDate>
-      <description>UI showing a user asking Gemini to put a person into various outfit items</description>
-    </item>
-    <item>
-      <title>[Google] Follow through on your meeting tasks with meeting recaps in Google Chat</title>
-      <link>https://workspaceupdates.googleblog.com/2026/10/follow-through-on-your-meeting-tasks-with-meeting-recaps-in-Google-Chat.html</link>
-      <guid isPermaLink="false">2ad5bafb57c0</guid>
-      <pubDate>Mon, 19 Oct 2026 15:37:48 +0000</pubDate>
-      <description>To make it easier for teams to move from planning to action, we’re introducing meeting recaps in Google Chat. Meeting recaps provide a convenient summary directly in Google Chat, including: Meeting summary: A high-level overview highlighting key discussion topics and takeaways. Direct artifact links: One-click access to the full Gemini meeting notes document, the meeting recording, and the transcript. Key decisions…</description>
-    </item>
-    <item>
-      <title>[NVIDIA] NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production</title>
-      <link>https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/</link>
-      <guid isPermaLink="false">405e039bdc7e</guid>
-      <pubDate>Mon, 19 Oct 2026 15:00:31 +0000</pubDate>
-      <description>At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration […]</description>
-    </item>
-    <item>
-      <title>[The Hacker News] ⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More</title>
-      <link>https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html</link>
-      <guid isPermaLink="false">03d3ba9d36cc</guid>
-      <pubDate>Mon, 19 Oct 2026 14:14:07 +0000</pubDate>
-      <description>The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done. This week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Inside the Underground Market for Know Your Client Services</title>
-      <link>https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/</link>
-      <guid isPermaLink="false">10c7257940cc</guid>
-      <pubDate>Mon, 19 Oct 2026 14:00:10 +0000</pubDate>
-      <description>Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks. Flare examines how these underground services operate and the techniques used to create and maintain fraudulent verified accounts. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories</title>
-      <link>https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html</link>
-      <guid isPermaLink="false">47f4fcfb349a</guid>
-      <pubDate>Mon, 19 Oct 2026 13:05:45 +0000</pubDate>
-      <description>The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft Security] Secure agents at speed &amp; scale with Microsoft Security</title>
-      <link>https://www.youtube.com/watch?v=ro-OKrB1dB0</link>
-      <guid isPermaLink="false">0e0f8871f999</guid>
-      <pubDate>Mon, 19 Oct 2026 13:01:14 +0000</pubDate>
-      <description>As AI agents become part of everyday work, they can take action across apps, devices, clouds, and data at machine speed. That creates a new kind of security challenge: organizations need visibility and control across every agent, resource, and layer of their environment. See how Microsoft Security helps organizations leverage their Microsoft 365 E7 investments with Project Perception to secure their growing agentic…</description>
-    </item>
-    <item>
-      <title>[Microsoft Security] How Security Leaders Can Prepare for Super Intelligence</title>
-      <link>https://www.youtube.com/watch?v=ozQwUsJXy6Y</link>
-      <guid isPermaLink="false">0df486cfb3f5</guid>
-      <pubDate>Mon, 19 Oct 2026 13:01:04 +0000</pubDate>
-      <description>What does security look like when agent systems can reason, act, and operate across the enterprise? In this fireside chat, Microsoft Chairman and CEO Satya Nadella joins Hayete Gallot to discuss how security leaders can prepare for the next frontier of cyber defense. The conversation explores why organizations need a new security architecture for autonomous agents, how Zero Trust principles evolve in an agentic era…</description>
-    </item>
-    <item>
-      <title>[Microsoft Security] Introducing new Microsoft 365 E7 and Project Perception capabilities.</title>
-      <link>https://www.youtube.com/watch?v=JxZduK3S39g</link>
-      <guid isPermaLink="false">8746b1007d1a</guid>
-      <pubDate>Mon, 19 Oct 2026 13:00:56 +0000</pubDate>
-      <description>Hayete Gallot, EVP of Microsoft Security, shares the latest updates on new Microsoft 365 and Project Perception capabilities that help security teams discover and manage agents, assess dynamic agent risk, adapt permissions, and keep pace as conditions change. Agents can change, connect, and act autonomously, accessing business data, cloud resources, and tools along the way. Traditional security wasn’t built for…</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] Microsoft fixes classic Outlook bug that hid Copilot buttons</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/</link>
-      <guid isPermaLink="false">1f63abf1d8df</guid>
-      <pubDate>Mon, 19 Oct 2026 12:44:44 +0000</pubDate>
-      <description>Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]</description>
-      <category>copilot</category>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Salesforce] Salesforce Accelerates European AI Leadership with $1 Billion Investment in Spain</title>
-      <link>https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/</link>
-      <guid isPermaLink="false">72b1ea2089a9</guid>
-      <pubDate>Mon, 19 Oct 2026 11:00:00 +0000</pubDate>
-      <description>Madrid named EMEA South hub as Salesforce expands office presence, customer innovation, and AI workforce development across the region. MADRID — October 19, 2026 — Salesforce, the #1 AI CRM, today unveiled plans to invest $1 billion in Spain over the next five years, cementing the country’s role as the growth engine for Salesforce’s EMEA […]</description>
-    </item>
-    <item>
-      <title>[Microsoft] Browser automation tool in Microsoft Foundry is now GA</title>
-      <link>https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/</link>
-      <guid isPermaLink="false">7172ddb1ace1</guid>
-      <pubDate>Mon, 19 Oct 2026 10:32:13 +0000</pubDate>
-      <description>Build agents that automate tasks across public and private websites with managed browsers, native toolbox integration, Live View, and human control.</description>
-      <category>foundry</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic</title>
-      <link>https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html</link>
-      <guid isPermaLink="false">0534f1906337</guid>
-      <pubDate>Mon, 19 Oct 2026 10:06:40 +0000</pubDate>
-      <description>A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. "The tools delivered information-stealing malware and backdoors for macOS and Windows machines," Elastic</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys</title>
-      <link>https://thehackernews.com/2026/10/opencode-console-breach-may-have.html</link>
-      <guid isPermaLink="false">1de1c48ce23b</guid>
-      <pubDate>Mon, 19 Oct 2026 06:07:08 +0000</pubDate>
-      <description>An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Hugging Face] TorchNeuron: running HF models on AWS Trainium is easier than ever</title>
-      <link>https://huggingface.co/blog/hf-torchneuron</link>
-      <guid isPermaLink="false">9dbc0d55ff91</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Anthropic] Investing in the public benefit</title>
-      <link>https://www.anthropic.com/news/public-benefit-fund</link>
-      <guid isPermaLink="false">4c6c987b6534</guid>
-      <pubDate>Sun, 18 Oct 2026 16:49:35 +0000</pubDate>
-      <description>We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.</description>
-    </item>
-    <item>
-      <title>[GitHub] How GitHub uses AI agents to stress test new features</title>
-      <link>https://www.youtube.com/shorts/zqvJ9YjZXqM</link>
-      <guid isPermaLink="false">f49985379742</guid>
-      <pubDate>Sun, 18 Oct 2026 15:00:37 +0000</pubDate>
-      <description>Before shipping new features like stacked pull requests, how does GitHub make sure nobody can break the system? In this clip from The GitHub Podcast, Senior Product Manager Sameen Karim explains how GitHub used a swarm of AI agents running around the clock to try to circumvent rules, find edge cases, and stress test code. Welcome to the era of agent-driven testing. #AIAgents #GitHub #GitHubPodcast Stay up-to-date on…</description>
-    </item>
-    <item>
-      <title>[Anthropic] Announcements</title>
-      <link>https://www.anthropic.com/news/announcements</link>
-      <guid isPermaLink="false">10310c209328</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</description>
-    </item>
-    <item>
-      <title>[NVIDIA] RTX Spark Ignites Global Celebration as New Windows PCs Arrive</title>
-      <link>https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/</link>
-      <guid isPermaLink="false">c850cbc28643</guid>
-      <pubDate>Sat, 17 Oct 2026 21:00:13 +0000</pubDate>
-      <description>NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with […]</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack</title>
-      <link>https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/</link>
-      <guid isPermaLink="false">74a44f824ba0</guid>
-      <pubDate>Sat, 17 Oct 2026 15:18:51 +0000</pubDate>
-      <description>ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[GitHub] Track tokens and models with the My AI Usage Canvas | GitHub Copilot</title>
-      <link>https://www.youtube.com/watch?v=2xiyBnQFM20</link>
-      <guid isPermaLink="false">97e3f4475da1</guid>
-      <pubDate>Sat, 17 Oct 2026 15:00:16 +0000</pubDate>
-      <description>Ever wonder how many tokens you use or which AI models you reach for the most? In this demo, explore the My AI Usage Canvas, a custom dashboard built around Copilot /chronicle commands. Learn how to visualize your token consumption, track model usage across repositories, and find practical ways to lower your AI costs. Start analyzing your AI habits today: https://awesome-copilot.github.com/extension/chronicle-stats/…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[The Hacker News] MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon</title>
-      <link>https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html</link>
-      <guid isPermaLink="false">1fae9cde44bf</guid>
-      <pubDate>Sat, 17 Oct 2026 11:11:56 +0000</pubDate>
-      <description>Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named "imgdecode," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Master Microsoft Entra with live webinars, AMAs, and on-demand videos</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-entra-blog/master-microsoft-entra-with-live-webinars-amas-and-on-demand/ba-p/4502147</link>
-      <guid isPermaLink="false">b8729c779dbe</guid>
-      <pubDate>Fri, 16 Oct 2026 21:53:24 +0000</pubDate>
-      <description>The identity security landscape never stands still, and neither should your knowledge. With evolving scenarios such as Zero Trust adoption, AI-driven automation, and hybrid security strategies, staying informed is essential. That’s exactly what we want to do together with you – stay ahead and be prepared for whatever comes next! So we’re delivering a number of opportunities to learn more and get the most of…</description>
-      <category>entra</category>
-    </item>
-    <item>
-      <title>[Google] We’re sharing 3 tips to study smarter with Gemini Notebook.</title>
-      <link>https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/</link>
-      <guid isPermaLink="false">3702bd885e10</guid>
-      <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Master your exams with Google Gemini Notebook’s new 60-second video overviews and interactive quiz formats. Try these study tools at notebook.google.</description>
-    </item>
-    <item>
-      <title>[The Hacker News] OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract</title>
-      <link>https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html</link>
-      <guid isPermaLink="false">82bd71e8965d</guid>
-      <pubDate>Fri, 16 Oct 2026 14:03:04 +0000</pubDate>
-      <description>OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding task. The incident, the AI company said, involved an internal research model part</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Employees using personal ChatGPT at work? Here's what IT admins need to do</title>
-      <link>https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/</link>
-      <guid isPermaLink="false">d269ee990910</guid>
-      <pubDate>Fri, 16 Oct 2026 13:50:59 +0000</pubDate>
-      <description>Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches personal accounts. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Record] Moscow police detain suspected DataSuckers hackers linked to breaches in Ukraine and Russia</title>
-      <link>https://therecord.media/russia-datasuckers-hackers-arrested</link>
-      <guid isPermaLink="false">39925f2a643e</guid>
-      <pubDate>Fri, 16 Oct 2026 13:30:00 +0000</pubDate>
-      <description>Russian authorities have reportedly detained three suspected members of the DataSuckers hacking group following a cyberattack on a popular restaurant chain that exposed vast amounts of customer information.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Record] Baltimore suburb confirms August data breach after ransomware claims</title>
-      <link>https://therecord.media/anne-arundel-county-maryland-confirms-data-breach</link>
-      <guid isPermaLink="false">38208afe28ec</guid>
-      <pubDate>Fri, 16 Oct 2026 13:05:00 +0000</pubDate>
-      <description>Anne Arundel County, Maryland, said an intruder stole files from government systems, and investigators are working to assess how much data was exposed.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Record] Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day</title>
-      <link>https://therecord.media/beyond-trust-cyberattack-china</link>
-      <guid isPermaLink="false">0fb423df84c7</guid>
-      <pubDate>Fri, 16 Oct 2026 13:00:00 +0000</pubDate>
-      <description>An alleged Chinese state-backed group is using a new zero-day affecting BeyondTrust IT support software to conduct espionage attacks.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Burger King Japan data breach exposes 11 million customer records</title>
-      <link>https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/</link>
-      <guid isPermaLink="false">862e2db1b4e0</guid>
-      <pubDate>Fri, 16 Oct 2026 12:01:29 +0000</pubDate>
-      <description>Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] AI Decision Models and Their Impact on AI SOC Platforms</title>
-      <link>https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html</link>
-      <guid isPermaLink="false">61ac6bfaa7c9</guid>
-      <pubDate>Fri, 16 Oct 2026 11:30:00 +0000</pubDate>
-      <description>In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cribl published cribl-decision, an open LoRA adapter you can run locally. Others, like Laya, are</description>
-      <category>security-agents</category>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] BAE Systems cyberattack disrupts US federal court operations</title>
-      <link>https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/</link>
-      <guid isPermaLink="false">d342f7137dd6</guid>
-      <pubDate>Fri, 16 Oct 2026 07:37:35 +0000</pubDate>
-      <description>The Administrative Office of the US Courts says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers</title>
-      <link>https://thehackernews.com/2026/10/china-linked-hackers-exploited.html</link>
-      <guid isPermaLink="false">1fd194e19c3d</guid>
-      <pubDate>Fri, 16 Oct 2026 06:55:55 +0000</pubDate>
-      <description>The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing</title>
-      <link>https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html</link>
-      <guid isPermaLink="false">f909b9dee009</guid>
-      <pubDate>Fri, 16 Oct 2026 06:53:09 +0000</pubDate>
-      <description>AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October 15. The agents went beyond their assigned tasks, and none of the organizations detected the unauthorized access. After internal reviews, the AI companies whose models were being tested</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] BeyondTrust patches zero-day exploited in attacks since August</title>
-      <link>https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/</link>
-      <guid isPermaLink="false">494b44d4ddb2</guid>
-      <pubDate>Fri, 16 Oct 2026 06:18:08 +0000</pubDate>
-      <description>BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Multi-repository support and other improvements for GitHub in Slack and Teams</title>
-      <link>https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</link>
-      <guid isPermaLink="false">5c6d7a0c4df6</guid>
-      <pubDate>Fri, 16 Oct 2026 02:16:35 +0000</pubDate>
-      <description>@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re creating issues, opening pull requests, or investigating bugs, you can work across repositories…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Microsoft] What’s new in Microsoft Foundry | September 2026</title>
-      <link>https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/</link>
-      <guid isPermaLink="false">d17eb662424a</guid>
-      <pubDate>Fri, 16 Oct 2026 02:04:50 +0000</pubDate>
-      <description>Explore September's models, Routines, Tool Search, Model Router, and Insights through one two-agent workflow that turns public releases into a Foundry developer changelog.</description>
-      <category>foundry</category>
     </item>
   </channel>
 </rss>
