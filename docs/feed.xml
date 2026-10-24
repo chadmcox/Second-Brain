@@ -4,7 +4,96 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Fri, 23 Oct 2026 17:06:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 15:56:30 +0000</lastBuildDate>
+    <item>
+      <title>[The Hacker News] Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads</title>
+      <link>https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html</link>
+      <guid isPermaLink="false">afec56c7243a</guid>
+      <pubDate>Sat, 24 Oct 2026 10:36:33 +0000</pubDate>
+      <description>Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. "You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud</title>
+      <link>https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html</link>
+      <guid isPermaLink="false">838b4b1ce253</guid>
+      <pubDate>Sat, 24 Oct 2026 06:25:57 +0000</pubDate>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity vulnerabilities are listed below - CVE-2026-110447 (CVSS score: 9.2) - An operating</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft] Usage metrics API adds usage from tools like OpenCode</title>
+      <link>https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode</link>
+      <guid isPermaLink="false">ba4d3ab8dded</guid>
+      <pubDate>Fri, 23 Oct 2026 23:42:03 +0000</pubDate>
+      <description>The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports.…</description>
+      <category>copilot</category>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft] Turn notifications into code with GitHub Copilot in Teams</title>
+      <link>https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams</link>
+      <guid isPermaLink="false">62c869d7dbe2</guid>
+      <pubDate>Fri, 23 Oct 2026 21:29:58 +0000</pubDate>
+      <description>The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Google] Google Workspace Weekly Recap - October 23, 2026</title>
+      <link>https://workspaceupdates.googleblog.com/2026/10/weekly-recap-10-23-2026.html</link>
+      <guid isPermaLink="false">3f1c4558eed7</guid>
+      <pubDate>Fri, 23 Oct 2026 21:06:14 +0000</pubDate>
+      <description>Follow through on your meeting tasks with meeting recaps in Google Chat To make it easier for teams to move from planning to action, we’re introducing meeting recaps in Google Chat. Meeting recaps provide a convenient summary directly in Google Chat. | Learn more. Gemini in Google Sheets is now available on iOS devices Building upon the power of Gemini in Sheets on the web and our recent launch on Android devices…</description>
+    </item>
+    <item>
+      <title>[Microsoft Copilot] You don't need to know how to code with Copilot</title>
+      <link>https://www.youtube.com/shorts/0Sg0bI_rcIo</link>
+      <guid isPermaLink="false">0270c5c0c1b0</guid>
+      <pubDate>Fri, 23 Oct 2026 20:59:46 +0000</pubDate>
+      <description>#MicrosoftCopilot #CopilotCode</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Google] Take actions on your notebooks from Gemini Notebook directly in the Gemini app</title>
+      <link>https://workspaceupdates.googleblog.com/2026/10/take-actions-on-your-notebooks-from-Gemini-Notebook-directly-in-the-Gemini-app.html</link>
+      <guid isPermaLink="false">d8a2ae9fce7c</guid>
+      <pubDate>Fri, 23 Oct 2026 19:55:25 +0000</pubDate>
+      <description>Gemini Notebook is now also available as a Connected App in the Gemini app. This new integration allows you to manage and query notebooks directly within your chats using natural language. You can type @Gemini Notebook in a Gemini chat to quickly create new notebooks, add sources to a notebook, save key notes, or retrieve information from their existing notebooks. Gemini can also automatically detect when to use the…</description>
+    </item>
+    <item>
+      <title>[Microsoft] From Pilots to Programs: A Structured Approach to Scaling AI and Agents for Real Business Value</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/from-pilots-to-programs-a-structured-approach-to-scaling-ai-and/ba-p/4566921</link>
+      <guid isPermaLink="false">113e4d4329dc</guid>
+      <pubDate>Fri, 23 Oct 2026 19:25:10 +0000</pubDate>
+      <description>Many enterprises don’t have an AI problem. They have a science-project problem: pilots of Copilot, agents, and AI apps everywhere, too few in production, and more agents than they can easily see or govern. Even after a good pilot, one question stalls everything: “How do we run this across the company without breaking something?” My team works with customers at exactly this point. We’re a product engineering team…</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Microsoft Teams to get AI-powered, context-aware phishing detection</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/</link>
+      <guid isPermaLink="false">e62f85ca100b</guid>
+      <pubDate>Fri, 23 Oct 2026 18:54:41 +0000</pubDate>
+      <description>Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions</title>
+      <link>https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html</link>
+      <guid isPermaLink="false">015a882ee274</guid>
+      <pubDate>Fri, 23 Oct 2026 17:50:47 +0000</pubDate>
+      <description>Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an "Autonomous Red Team Kill Chain Framework" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an</description>
+      <category>security-agents</category>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] How to build and ship an AI agent in the GitHub Copilot app</title>
+      <link>https://www.youtube.com/watch?v=AT3EltQ4gTM</link>
+      <guid isPermaLink="false">b0ddd8bb2ed9</guid>
+      <pubDate>Fri, 23 Oct 2026 17:27:15 +0000</pubDate>
+      <description>Go from a GitHub issue prompt to a deployed, production-ready AI agent without switching between browser tabs or cloud portals. In this hands-on walkthrough, learn how to use the Microsoft Foundry Skill and Foundry Canvas inside the GitHub Copilot app to build a grounded backer concierge for Tailspin Toys. Watch as Copilot provisions Azure resources, selects and deploys a model, tests against hallucinations, and…</description>
+      <category>githubcopilot</category>
+    </item>
     <item>
       <title>[BleepingComputer] Quest Diagnostics confirms data breach exposed patient records</title>
       <link>https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/</link>
@@ -19,6 +108,13 @@
       <guid isPermaLink="false">d5dfb55b0129</guid>
       <pubDate>Fri, 23 Oct 2026 16:15:50 +0000</pubDate>
       <description />
+    </item>
+    <item>
+      <title>[Google] See what 5 builders are making with Gemini 4 Argon</title>
+      <link>https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/</link>
+      <guid isPermaLink="false">5bd9a2479d45</guid>
+      <pubDate>Fri, 23 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Collage showing five builds with Gemini 4 Argon</description>
     </item>
     <item>
       <title>[BleepingComputer] You gave your AI agent access, but who is giving it orders?</title>
@@ -45,12 +141,27 @@
       <category>incidents</category>
     </item>
     <item>
+      <title>[OpenAI] Securing our frontier model training environment</title>
+      <link>https://openai.com/index/securing-our-frontier-model-training-environment</link>
+      <guid isPermaLink="false">48e2274fdf2b</guid>
+      <pubDate>Fri, 23 Oct 2026 10:00:00 +0000</pubDate>
+      <description>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</description>
+      <category>security-agents</category>
+    </item>
+    <item>
       <title>[The Hacker News] Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances</title>
       <link>https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html</link>
       <guid isPermaLink="false">6f084559d703</guid>
       <pubDate>Fri, 23 Oct 2026 08:35:45 +0000</pubDate>
       <description>AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set</description>
       <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[CrowdStrike] Why Organizations Secure AI Agents with Falcon Guardian</title>
+      <link>https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</link>
+      <guid isPermaLink="false">5962d8444339</guid>
+      <pubDate>Fri, 23 Oct 2026 05:00:00 +0000</pubDate>
+      <description />
     </item>
     <item>
       <title>[NVIDIA] Kazakhstan Expands Compute for Its AI Future</title>
@@ -509,112 +620,6 @@
       <guid isPermaLink="false">7104bc51c295</guid>
       <pubDate>Wed, 21 Oct 2026 18:26:30 +0000</pubDate>
       <description />
-    </item>
-    <item>
-      <title>[Microsoft] AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise</title>
-      <link>https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/</link>
-      <guid isPermaLink="false">80aac9868cd3</guid>
-      <pubDate>Wed, 21 Oct 2026 18:23:55 +0000</pubDate>
-      <description>Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments.</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor</title>
-      <link>https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html</link>
-      <guid isPermaLink="false">f5335e20393b</guid>
-      <pubDate>Wed, 21 Oct 2026 18:01:57 +0000</pubDate>
-      <description>The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Hugging Face] How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications</title>
-      <link>https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization</link>
-      <guid isPermaLink="false">354f89a6c7db</guid>
-      <pubDate>Wed, 21 Oct 2026 17:35:36 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Google] Gain more creative control over Slide Decks and Video Overviews in Gemini Notebook</title>
-      <link>https://workspaceupdates.googleblog.com/2026/10/gain-more-creative-control-over-slide-Decks-and-Video-Overviews-in-Gemini-Notebook.html</link>
-      <guid isPermaLink="false">0c0f908cc976</guid>
-      <pubDate>Wed, 21 Oct 2026 17:09:27 +0000</pubDate>
-      <description>Gemini Notebook now gives you more creative control over Slide Decks and Video Overviews. Instead of jumping straight to a final output, Gemini Notebook can now walk you through a step-by-step creation flow so you can steer the content further and guide the visual style and format. Get started by asking for a presentation or video in chat or by tapping on "Slide Deck" or "Video" in the Studio panel. Guided…</description>
-    </item>
-    <item>
-      <title>[GitHub] Inside GitHub's September updates: Project HydraFusion, sandboxing, and PR approvals</title>
-      <link>https://www.youtube.com/watch?v=ZQ0Qq6LlAmI</link>
-      <guid isPermaLink="false">fc97b52b6751</guid>
-      <pubDate>Wed, 21 Oct 2026 16:53:35 +0000</pubDate>
-      <description>In this episode, Andrea Griffiths sits down with Julia Kasper and Brady Gaster to break down the major platform updates shipped in September. Discover how Project HydraFusion expands to VS Code and the GitHub Copilot app, bringing full model visibility and up to 10x token efficiency compared to frontier models. Explore general availability for local sandboxing, automated code review approvals that count toward merge…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[The Hacker News] OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So</title>
-      <link>https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html</link>
-      <guid isPermaLink="false">2cd8b2bd53ed</guid>
-      <pubDate>Wed, 21 Oct 2026 16:33:47 +0000</pubDate>
-      <description>OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as part of an internal deployment. "A GPT-6.1 Sol agent repairing an evaluation</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] OpenAI agents disabled safety monitoring, one lied about it</title>
-      <link>https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/</link>
-      <guid isPermaLink="false">288893f63679</guid>
-      <pubDate>Wed, 21 Oct 2026 16:26:53 +0000</pubDate>
-      <description>OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Hugging Face] Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.</title>
-      <link>https://huggingface.co/blog/amazon/profiling-torchneuron-part-1</link>
-      <guid isPermaLink="false">f9b499debdda</guid>
-      <pubDate>Wed, 21 Oct 2026 16:04:43 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Microsoft] What’s New in Cowork: Expanded plugins and role-based skills</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-cowork-expanded-plugins-and-role-based-skills/ba-p/4566221</link>
-      <guid isPermaLink="false">2240e201bc2a</guid>
-      <pubDate>Wed, 21 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Work today doesn’t happen in one app, and every role has repeatable tasks that take more than a quick prompt to complete. Cowork is built for that reality. With expanded connections to the systems you use every day, and role-based skills that capture recurring workflows, you can keep work moving without jumping between apps or repeating instructions each time. Expanding plugins for Cowork Last month, we introduced…</description>
-      <category>copilot</category>
-      <category>cowork</category>
-    </item>
-    <item>
-      <title>[Google] An easier way to customize how Gemini works for you</title>
-      <link>https://workspaceupdates.googleblog.com/2026/10/an-easier-way-to-customize-how-gemini-works-for-you.html</link>
-      <guid isPermaLink="false">a760dd1e00bd</guid>
-      <pubDate>Wed, 21 Oct 2026 15:31:29 +0000</pubDate>
-      <description>We’ve introduced a centralized ”customize” hub in the Gemini app, providing a single place to tailor how Gemini responds and connects with your tools. Users can discover apps and add skills to automate repetitive workflows such as adapting to your personal writing style or adhering to specific formatting guidelines. Bringing custom skills and connected apps together into a unified space makes it easy to discover and…</description>
-    </item>
-    <item>
-      <title>[Hugging Face] Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster</title>
-      <link>https://huggingface.co/blog/ibm-granite/granite-speech-5</link>
-      <guid isPermaLink="false">9b35c0bfb2f0</guid>
-      <pubDate>Wed, 21 Oct 2026 14:58:18 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[BleepingComputer] ClickFix has never been bigger, and AI tools are its most convincing lure yet</title>
-      <link>https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/</link>
-      <guid isPermaLink="false">bc6b0429e7ca</guid>
-      <pubDate>Wed, 21 Oct 2026 14:00:10 +0000</pubDate>
-      <description>ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effective lures. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Hugging Face] NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability</title>
-      <link>https://huggingface.co/blog/nvidia/kumo-forecast</link>
-      <guid isPermaLink="false">38715d90bd30</guid>
-      <pubDate>Wed, 21 Oct 2026 12:51:24 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Mistral] Mistral Advances AI for Engineering with NVIDIA</title>
-      <link>https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/</link>
-      <guid isPermaLink="false">840d5b41acdd</guid>
-      <pubDate>Wed, 21 Oct 2026 12:00:20 +0000</pubDate>
-      <description>Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.</description>
     </item>
   </channel>
 </rss>
