@@ -4,7 +4,23 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Sat, 24 Oct 2026 15:56:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 16:17:35 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] AI coding agents hijacked using AGENTS.md file in Downloads folder</title>
+      <link>https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/</link>
+      <guid isPermaLink="false">9e8f060397f4</guid>
+      <pubDate>Sun, 25 Oct 2026 15:49:38 +0000</pubDate>
+      <description>Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication</title>
+      <link>https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html</link>
+      <guid isPermaLink="false">5d0e99bc982d</guid>
+      <pubDate>Sun, 25 Oct 2026 06:54:29 +0000</pubDate>
+      <description>OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. "Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no</description>
+      <category>ai-threats</category>
+    </item>
     <item>
       <title>[The Hacker News] Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads</title>
       <link>https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html</link>
@@ -605,21 +621,6 @@
       <pubDate>Wed, 21 Oct 2026 20:00:00 +0000</pubDate>
       <description>Yorkshire Ambulance Service, part of England's National Health Service (NHS) is using Microsoft Copilot to bring together data from multiple systems, helping teams understand patterns and identify opportunities across patient pathways. In Rotherham, the proportion of ambulance journeys ending at an emergency department fell from the mid-60% range to 56%. Learn more - https://aka.ms/NHS27</description>
       <category>copilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers</title>
-      <link>https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/</link>
-      <guid isPermaLink="false">71f0485320c6</guid>
-      <pubDate>Wed, 21 Oct 2026 18:34:42 +0000</pubDate>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Hugging Face] NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required</title>
-      <link>https://huggingface.co/blog/nvidia/kumo-relational</link>
-      <guid isPermaLink="false">7104bc51c295</guid>
-      <pubDate>Wed, 21 Oct 2026 18:26:30 +0000</pubDate>
-      <description />
     </item>
   </channel>
 </rss>
