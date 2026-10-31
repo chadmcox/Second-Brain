@@ -4,13 +4,125 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Fri, 30 Oct 2026 17:59:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 17:14:49 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.</title>
+      <link>https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/</link>
+      <guid isPermaLink="false">4e3b797fd4a7</guid>
+      <pubDate>Sat, 31 Oct 2026 13:10:19 +0000</pubDate>
+      <description>AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to scrutiny. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Chainalysis discloses data breach from "offensive agentic techniques"</title>
+      <link>https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/</link>
+      <guid isPermaLink="false">a291b7051796</guid>
+      <pubDate>Sat, 31 Oct 2026 12:50:09 +0000</pubDate>
+      <description>Blockchain analytics firm Chainalysis disclosed a data breach after attackers used "offensive agentic techniques" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data</title>
+      <link>https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html</link>
+      <guid isPermaLink="false">1f2870fb86df</guid>
+      <pubDate>Sat, 31 Oct 2026 12:01:56 +0000</pubDate>
+      <description>American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens. "This month, Chainalysis detected an external actor using offensive agentic</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats</title>
+      <link>https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html</link>
+      <guid isPermaLink="false">e8eb82345a00</guid>
+      <pubDate>Sat, 31 Oct 2026 05:33:41 +0000</pubDate>
+      <description>A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft] Inside a malicious Claude Code-branded extension and its persistent SSH backdoor</title>
+      <link>https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/</link>
+      <guid isPermaLink="false">d6c636709375</guid>
+      <pubDate>Sat, 31 Oct 2026 01:02:57 +0000</pubDate>
+      <description>Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it.</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft Developer] Running a 120B model offline on Surface RTX Spark Dev Box with Intelligent Terminal</title>
+      <link>https://www.youtube.com/watch?v=L1b4AI_CPeA</link>
+      <guid isPermaLink="false">207b1c0e01b1</guid>
+      <pubDate>Fri, 30 Oct 2026 22:00:05 +0000</pubDate>
+      <description>See what's possible with Intelligent Terminal running a local model on Surface Laptop Ultra. A 120b parameter local models runs entirely locally on the laptop's NVIDIA RTX Spark N1X with 128 GB of unified memory. See how these powerful new devices can complete complex flows such as writing new agent skills with context all without going to the cloud. Learn more about Surface Laptop Ultra: Surface Laptop Ultra…</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] Critical Linux kernel flaw allows remote root attacks on MPTCP servers</title>
+      <link>https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/</link>
+      <guid isPermaLink="false">f167e37bde6d</guid>
+      <pubDate>Fri, 30 Oct 2026 21:09:46 +0000</pubDate>
+      <description>Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Record] DOJ raises privacy concerns over potential sale of Character.AI chats</title>
+      <link>https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale</link>
+      <guid isPermaLink="false">ce4d8aef3066</guid>
+      <pubDate>Fri, 30 Oct 2026 20:45:00 +0000</pubDate>
+      <description>The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Google] Google Workspace Weekly Recap - October 30, 2026</title>
+      <link>https://workspaceupdates.googleblog.com/2026/10/weekly-recap-10-30-2026.html</link>
+      <guid isPermaLink="false">093afd1b3347</guid>
+      <pubDate>Fri, 30 Oct 2026 20:27:44 +0000</pubDate>
+      <description>Fill with Gemini now provides cell-level citations for web sources and supports larger requests We are making it easier to verify your AI-generated data and scale your workflows in Google Sheets. When you use the AI function to generate cell values, Gemini will now provide the exact web sources referenced directly within each individual cell. | Learn more. Apply compact form layout for pivot tables in Google Sheets…</description>
+    </item>
+    <item>
+      <title>[Microsoft Copilot] Reconcile faster with Copilot in Excel</title>
+      <link>https://www.youtube.com/shorts/ocxD8nHR-ns</link>
+      <guid isPermaLink="false">0487a2840a9f</guid>
+      <pubDate>Fri, 30 Oct 2026 19:00:23 +0000</pubDate>
+      <description>Let your workbook do more of the groundwork. See how new accounting skills match transactions, flag exceptions, and summarize reconciliation results, helping you get to the findings that need your attention. Your experience guides how you interpret them and what you recommend next. #CopilotInExcel</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Google] Edit entire presentations with Gemini in Google Slides</title>
+      <link>https://workspaceupdates.googleblog.com/2026/10/edit-entire-presentations-with-gemini-in-Google-Slides.html</link>
+      <guid isPermaLink="false">d2f235be2fac</guid>
+      <pubDate>Fri, 30 Oct 2026 18:54:03 +0000</pubDate>
+      <description>You can now use Gemini in Google Slides to edit multiple slides or an entire presentation at once. With a single prompt in the Slides side panel, you can update content throughout a deck, refresh visual styles in bulk, or match the style of another presentation. Gemini determines which slides need to change and applies edits directly to your native, editable slides, so you stay in full control to make any further…</description>
+    </item>
+    <item>
+      <title>[Microsoft] What’s New in Microsoft Copilot | October 2026</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528</link>
+      <guid isPermaLink="false">669f0c4b5932</guid>
+      <pubDate>Fri, 30 Oct 2026 18:46:01 +0000</pubDate>
+      <description>Welcome to the October 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and efficient in the apps they use every day. Let’s take a closer look at what’s new this month: User capabilities: Updated Home navigation, projects, Workspaces and Autopilot in Copilot…</description>
+      <category>copilot</category>
+      <category>autopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Conditional Access for AI Agents in Microsoft Entra</title>
+      <link>https://www.youtube.com/shorts/sJOqt3wIyvg</link>
+      <guid isPermaLink="false">3dc113e4fa48</guid>
+      <pubDate>Fri, 30 Oct 2026 18:15:25 +0000</pubDate>
+      <description>How do you block risky AI agents with Conditional Access? A Microsoft Entra policy plan built for agent access uses one shared condition, high agent risk. Separate rules then block high-risk agent users and high-risk autonomous agents, so protections cover agents acting with their own agent-specific permissions. You don't need a standalone policy for each scenario. ▶ Full video: https://youtu.be/BUI5LZPoHAs ▶ Learn…</description>
+      <category>entra</category>
+    </item>
     <item>
       <title>[Hugging Face] nemotron-halloween</title>
       <link>https://huggingface.co/blog/nvidia/nemotron-halloween</link>
       <guid isPermaLink="false">b2263e9f8412</guid>
       <pubDate>Fri, 30 Oct 2026 17:57:24 +0000</pubDate>
       <description />
+    </item>
+    <item>
+      <title>[The Hacker News] Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide</title>
+      <link>https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html</link>
+      <guid isPermaLink="false">46d8d781bead</guid>
+      <pubDate>Fri, 30 Oct 2026 16:58:44 +0000</pubDate>
+      <description>Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based "targeted intrusion adversary" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in</description>
+      <category>ai-threats</category>
     </item>
     <item>
       <title>[Microsoft] From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths</title>
@@ -88,6 +200,20 @@
       <pubDate>Fri, 30 Oct 2026 07:27:05 +0000</pubDate>
       <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[CrowdStrike] CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud</title>
+      <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/</link>
+      <guid isPermaLink="false">b0ed476078f7</guid>
+      <pubDate>Fri, 30 Oct 2026 05:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[CrowdStrike] CrowdStrike Agent Graph Shows How Agents Act on the Endpoint</title>
+      <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agent-graph-shows-how-agents-act-on-endpoint/</link>
+      <guid isPermaLink="false">69ec2f5dc025</guid>
+      <pubDate>Fri, 30 Oct 2026 05:00:00 +0000</pubDate>
+      <description />
     </item>
     <item>
       <title>[The Hacker News] Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen</title>
@@ -494,131 +620,6 @@
       <pubDate>Wed, 28 Oct 2026 18:02:00 +0000</pubDate>
       <description>Noyb alleges the platform in some cases records freelancers’ mouse clicks and keystrokes every few seconds and claims the collected information can be used to generate video documenting freelancers’ entire workday.</description>
       <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Google] Dive into new topics with immersive explorations in the Gemini app.</title>
-      <link>https://blog.google/innovation-and-ai/products/gemini-app/immersive-explorations-student-hub/</link>
-      <guid isPermaLink="false">86bb7da2652f</guid>
-      <pubDate>Wed, 28 Oct 2026 18:00:00 +0000</pubDate>
-      <description>Today, we are rolling out immersive explorations in the new Gemini student hub.</description>
-    </item>
-    <item>
-      <title>[Google] Gemini 4 Carbon: Our next frontier model</title>
-      <link>https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/</link>
-      <guid isPermaLink="false">b0da25ea6c1a</guid>
-      <pubDate>Wed, 28 Oct 2026 17:00:58 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Meta] Meta Partners With Five US Universities to Accelerate Medical and Scientific Breakthroughs</title>
-      <link>https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/</link>
-      <guid isPermaLink="false">a04b7e8be316</guid>
-      <pubDate>Wed, 28 Oct 2026 17:00:49 +0000</pubDate>
-      <description>Meta is bringing Superintelligence models, research funding, and direct researcher collaboration to US universities that are using our models to solve critical issues in science and medicine.</description>
-    </item>
-    <item>
-      <title>[Google] Build and manage Connected Apps in one place</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/</link>
-      <guid isPermaLink="false">d532f885a7b9</guid>
-      <pubDate>Wed, 28 Oct 2026 17:00:00 +0000</pubDate>
-      <description>A split-screen graphic showing a Google search interface connecting to Gemini to confirm a dinner reservation.</description>
-    </item>
-    <item>
-      <title>[Microsoft] The GitHub Copilot harness in Copilot Studio is now the Microsoft Copilot harness</title>
-      <link>https://www.microsoft.com/en-us/copilot/blog/copilot-studio/the-github-copilot-harness-in-copilot-studio-is-now-the-microsoft-copilot-harness/</link>
-      <guid isPermaLink="false">6ae90cd8d982</guid>
-      <pubDate>Wed, 28 Oct 2026 17:00:00 +0000</pubDate>
-      <description>See how the Microsoft Copilot harness is helping Copilot Studio makers build more capable, reliable agents for complex business challenges.</description>
-      <category>copilotstudio</category>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Google] Gemini 4 Carbon: our next frontier model</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/</link>
-      <guid isPermaLink="false">185e559c77b9</guid>
-      <pubDate>Wed, 28 Oct 2026 17:00:00 +0000</pubDate>
-      <description>Faceted iridescent crystal surrounded by floating white number 4s.</description>
-    </item>
-    <item>
-      <title>[Microsoft] Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work</title>
-      <link>https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/</link>
-      <guid isPermaLink="false">2ce02f1028ea</guid>
-      <pubDate>Wed, 28 Oct 2026 16:51:35 +0000</pubDate>
-      <description>If you want to compete, you need to be multi-model. And if you want to take advantage of everything that different AI models have to offer, you need a great harness. But building one that works seamlessly across multiple models and surfaces is incredibly hard. You need to solve for performance, quality, and cost. And...</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Sony ISP subsidiary data breach exposes 2.5 million customer records</title>
-      <link>https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/</link>
-      <guid isPermaLink="false">516ab6192d20</guid>
-      <pubDate>Wed, 28 Oct 2026 16:45:47 +0000</pubDate>
-      <description>Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Introducing the Microsoft Copilot harness in Foundry Agent Service</title>
-      <link>https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/</link>
-      <guid isPermaLink="false">3238a6c24ea1</guid>
-      <pubDate>Wed, 28 Oct 2026 16:45:06 +0000</pubDate>
-      <description>A model can reason about a task. Completing that task takes more: the right context, tools, execution environment, and controls, and an agent loop that brings them together. Microsoft’s unified harness strategy brings a shared execution foundation across our agent experiences while preserving customer choice. In Microsoft Foundry, that means you can choose a supported […]</description>
-      <category>copilot</category>
-      <category>foundry</category>
-    </item>
-    <item>
-      <title>[The Record] Moldova investigates possible foreign involvement in major government cyberattack</title>
-      <link>https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks</link>
-      <guid isPermaLink="false">ddb9d5f06fc0</guid>
-      <pubDate>Wed, 28 Oct 2026 16:37:00 +0000</pubDate>
-      <description>Prime Minister Vasile Tofan said the incident may be part of a broader campaign targeting both citizens' personal data and government digital infrastructure, according to local media reports.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Google] Fill with Gemini now provides cell-level citations for web sources and supports larger requests</title>
-      <link>https://workspaceupdates.googleblog.com/2026/10/fill-with-gemini-now-provides-cell-level-citations-for-web-sources-and-supports-larger-requests.html</link>
-      <guid isPermaLink="false">796a266f6dad</guid>
-      <pubDate>Wed, 28 Oct 2026 16:35:13 +0000</pubDate>
-      <description>We are making it easier to verify your AI-generated data and scale your workflows in Google Sheets. When you use the AI function to generate cell values, Gemini will now provide the exact web sources referenced directly within each individual cell. This cell-level source attribution gives you full visibility to audit, verify, and cross-reference outputs for greater trust and accuracy. Sources are attributed to each…</description>
-    </item>
-    <item>
-      <title>[The Hacker News] PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network</title>
-      <link>https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html</link>
-      <guid isPermaLink="false">eb73651e36ee</guid>
-      <pubDate>Wed, 28 Oct 2026 16:02:45 +0000</pubDate>
-      <description>Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Volt Typhoon hides zero-day attacks using 'Silent Train' framework</title>
-      <link>https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/</link>
-      <guid isPermaLink="false">6e5b341998e9</guid>
-      <pubDate>Wed, 28 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Route and orchestrate models with GitHub Copilot Fusion</title>
-      <link>https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion</link>
-      <guid isPermaLink="false">194ab4b69c2c</guid>
-      <pubDate>Wed, 28 Oct 2026 16:00:00 +0000</pubDate>
-      <description>GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Microsoft] GitHub Copilot app, Universe releases</title>
-      <link>https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases</link>
-      <guid isPermaLink="false">f3aa6dba8d09</guid>
-      <pubDate>Wed, 28 Oct 2026 15:55:00 +0000</pubDate>
-      <description>Work doesn’t always fit in a single repository or session. A feature can span several repositories. A launch plan can pull in specs, designs, and assets without touching a repository…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Microsoft] GitHub Enterprise now includes access to GitHub Copilot</title>
-      <link>https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot</link>
-      <guid isPermaLink="false">393d97d2e447</guid>
-      <pubDate>Wed, 28 Oct 2026 15:50:00 +0000</pubDate>
-      <description>Enterprises working with a GitHub or Microsoft account team can now get Copilot included with GitHub Enterprise for every licensed user. Previously, you had to manage two things: how many…</description>
-      <category>githubcopilot</category>
     </item>
   </channel>
 </rss>
