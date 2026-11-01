@@ -4,7 +4,24 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Sat, 31 Oct 2026 17:14:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 17:46:29 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] OpenAI says it's doubling Pro usage limits and bringing Work features to Chat</title>
+      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/</link>
+      <guid isPermaLink="false">d15dc155427a</guid>
+      <pubDate>Sun, 01 Nov 2026 13:53:11 +0000</pubDate>
+      <description>OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Northflank security breach leads to abuse of customers' AI API keys</title>
+      <link>https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/</link>
+      <guid isPermaLink="false">ba55b05e53ea</guid>
+      <pubDate>Sat, 31 Oct 2026 18:01:12 +0000</pubDate>
+      <description>Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
     <item>
       <title>[BleepingComputer] From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.</title>
       <link>https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/</link>
@@ -604,22 +621,6 @@
       <guid isPermaLink="false">f3d8cfd7112a</guid>
       <pubDate>Wed, 28 Oct 2026 18:21:30 +0000</pubDate>
       <description>We’re introducing a library of immersive explorations in the Gemini app, giving users an interactive, visual way to explore topics layer-by-layer, from microscopic systems to deep space. Users can access this library in the Gemini student hub by clicking on “Try immersive explorations” and will soon be able to access these immersive explorations directly in a chat conversation with Gemini. Whether it’s tracing trade…</description>
-    </item>
-    <item>
-      <title>[The Hacker News] Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns</title>
-      <link>https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html</link>
-      <guid isPermaLink="false">10e92bd49867</guid>
-      <pubDate>Wed, 28 Oct 2026 18:08:33 +0000</pubDate>
-      <description>The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. "First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure," Lumen Technologies Black Lotus Labs said in a report shared</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Record] European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance</title>
-      <link>https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance</link>
-      <guid isPermaLink="false">d949b1e38983</guid>
-      <pubDate>Wed, 28 Oct 2026 18:02:00 +0000</pubDate>
-      <description>Noyb alleges the platform in some cases records freelancers’ mouse clicks and keystrokes every few seconds and claims the collected information can be used to generate video documenting freelancers’ entire workday.</description>
-      <category>ai-threats</category>
     </item>
   </channel>
 </rss>
