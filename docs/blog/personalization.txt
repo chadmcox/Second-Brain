@@ -1,0 +1,14 @@
+New in my Copilot repo: Microsoft Copilot Custom Personalization Instructions.
+
+How to set Copilot custom instructions, with examples for different roles (Copilot admin, identity admin, students, HOA board member).
+
+Instead of repeating those preferences in every prompt, Copilot can use them as context for future interactions.
+
+The result is usually much closer to what you would have written yourself.
+
+What you get: Better answers without repeating your role and preferences in every prompt
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/personalization.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Personalization
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents

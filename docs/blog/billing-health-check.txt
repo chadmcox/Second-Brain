@@ -1,0 +1,20 @@
+New in my Copilot repo: Copilot Billing Health Check.
+
+A read-only check of your Copilot spending policies, their groups and their members. Run it in PowerShell or Copilot Cowork.
+
+A plan for a health check that reviews Microsoft 365 Copilot billing policies and spending policies, the groups they use and the people in those groups. It reports problems and tells you how each policy should be set up.
+
+Status: proof of concept. Get-CopilotBillingHealth.ps1 runs the spending policy, group and member checks. Billing policies are still design only.
+
+You'll need:
+• Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)
+• PowerShell 7
+• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell
+• Microsoft Graph permissions: AuditLog.Read.All, CopilotCostManagement.Read.All, Group.Read.All, GroupMember.Read.All, Organization.Read.All, Reports.Read.All, User.Read.All
+
+What you get: A scored HTML report with a fix for every finding
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/billing-health-check.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Billing%20Health%20Check
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents

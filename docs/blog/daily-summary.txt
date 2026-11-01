@@ -1,0 +1,15 @@
+New in my Copilot repo: Daily Summary.
+
+Cowork prompts you schedule to run every day, a few minutes apart, each emailing you its result.
+
+Separate Cowork prompts, each scheduled to run daily and email the result to me. Run them a few minutes apart (e.g. 6:00, 6:05, 6:10 AM) so the emails arrive in a predictable order.
+
+You'll need:
+• Microsoft 365 Copilot with Copilot Cowork
+
+What you get: Daily summary emails that arrive in a predictable order
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/daily-summary.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Daily%20Summary
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents

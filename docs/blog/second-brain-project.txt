@@ -1,0 +1,17 @@
+New in my Copilot repo: Second Brain Prompts for Microsoft Copilot Cowork.
+
+Scheduled Cowork prompts that read your meetings, Teams, email and public sources.
+
+Prompts for scheduled AI agents that build a personal work "second brain" from Microsoft 365 data and public sources. Each prompt runs as a daily scheduled task and writes Markdown files to OneDrive.
+
+Six collection jobs gather information. Job 10 runs last: it's the only job that writes to the action tracker, and it builds a single Daily Briefing page and sends a Teams chat with the highlights.
+
+You'll need:
+• Microsoft 365 Copilot with Copilot Cowork
+
+What you get: A personal "second brain" of Markdown notes in OneDrive that Copilot can search
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/second-brain-project.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Second%20Brain%20Project
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents

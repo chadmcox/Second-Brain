@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Introducing Agent and Tools Cleanup | Copilot &amp; Agent Watch</title>
+<meta name="description" content="Finds agents, plugins, skills and MCP servers nobody uses, plus stale agent identities and blueprints. Can block or disable them.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Introducing Agent and Tools Cleanup">
+<meta property="og:description" content="Finds agents, plugins, skills and MCP servers nobody uses, plus stale agent identities and blueprints. Can block or disable them.">
+<meta property="og:site_name" content="Copilot &amp; Agent Watch">
+<meta property="og:url" content="https://chadmcox.github.io/Second-Brain/blog/agent-and-tools-cleanup.html">
+<meta property="article:published_time" content="2026-11-01T17:48:02+00:00">
+<meta name="author" content="Chad Cox">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../style.css">
+<style>
+  .article { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+  .article h1 { font: 700 clamp(1.9rem, 5vw, 2.8rem)/1.05 var(--display); letter-spacing: -0.02em; margin: 0.4rem 0 0.8rem; }
+  .article h2 { font-size: 1.25rem; margin-top: 2rem; }
+  .article .meta { color: var(--muted); margin: 0; }
+  .article .lead { font-size: 1.2rem; }
+  .article li { margin-bottom: 0.35rem; }
+  .article .cta { margin-top: 2rem; padding: 1rem 1.2rem; border-left: 3px solid var(--accent); background: var(--surface); }
+</style>
+</head>
+<body>
+<main class="article">
+  <p class="meta"><a href="../#blog">← Copilot &amp; Agent Watch blog</a></p>
+  <h1>Introducing Agent and Tools Cleanup</h1>
+  <p class="meta">Nov 01, 2026 · Chad Cox</p>
+  <p class="lead">Finds agents, plugins, skills and MCP servers nobody uses, plus stale agent identities and blueprints. Can block or disable them.</p>
+  <p>Both scripts use only Connect-MgGraph and Invoke-MgGraphRequest (module Microsoft.Graph.Authentication) against Graph beta, and work in Windows PowerShell 5.1 and PowerShell 7.</p>
+  <p>Microsoft doesn&#x27;t document every elementTypes value for plugins yet. Check the elementTypes column in Packages.csv the first time you run it, and tell me if a tool shows up as App.</p>
+  
+  <h2>What you need</h2>
+  <ul><li>Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)</li><li>PowerShell 7</li><li>Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell</li><li>Microsoft Graph permissions: AgentIdentity.Read.All, AgentIdentityBlueprint.Read.All, AgentIdentityBlueprintPrincipal.Read.All, Application.Read.All, AuditLog.Read.All, AuditLogsQuery.Read.All, CopilotPackages.Read.All, CopilotPackages.ReadWrite.All and 1 more</li></ul>
+  <h2>What you get</h2>
+  <ul><li>A list of what to remove, and an undo file for anything it changes</li></ul>
+  <p class="cta">Setup and run steps are in the project readme: <a href="https://github.com/chadmcox/Copilot/tree/main/Agent%20and%20Tools%20Cleanup">Agent and Tools Cleanup on GitHub</a>.</p>
+</main>
+</body>
+</html>

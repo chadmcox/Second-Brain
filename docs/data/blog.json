@@ -1,0 +1,192 @@
+{
+ "generated": "2026-11-01T17:48:02+00:00",
+ "repo": "chadmcox/Copilot",
+ "posts": [
+  {
+   "title": "Introducing Agent and Tools Cleanup",
+   "summary": "Finds agents, plugins, skills and MCP servers nobody uses, plus stale agent identities and blueprints. Can block or disable them.",
+   "purpose": "Both scripts use only Connect-MgGraph and Invoke-MgGraphRequest (module Microsoft.Graph.Authentication) against Graph beta, and work in Windows PowerShell 5.1 and PowerShell 7.\n\nMicrosoft doesn't document every elementTypes value for plugins yet. Check the elementTypes column in Packages.csv the first time you run it, and tell me if a tool shows up as App.",
+   "audience": "",
+   "needs": [
+    "Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)",
+    "PowerShell 7",
+    "Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell",
+    "Microsoft Graph permissions: AgentIdentity.Read.All, AgentIdentityBlueprint.Read.All, AgentIdentityBlueprintPrincipal.Read.All, Application.Read.All, AuditLog.Read.All, AuditLogsQuery.Read.All, CopilotPackages.Read.All, CopilotPackages.ReadWrite.All and 1 more"
+   ],
+   "gets": [
+    "A list of what to remove, and an undo file for anything it changes"
+   ],
+   "linkedin": "New in my Copilot repo: Agent and Tools Cleanup.\n\nFinds agents, plugins, skills and MCP servers nobody uses, plus stale agent identities and blueprints. Can block or disable them.\n\nBoth scripts use only Connect-MgGraph and Invoke-MgGraphRequest (module Microsoft.Graph.Authentication) against Graph beta, and work in Windows PowerShell 5.1 and PowerShell 7.\n\nMicrosoft doesn't document every elementTypes value for plugins yet. Check the elementTypes column in Packages.csv the first time you run it, and tell me if a tool shows up as App.\n\nYou'll need:\n• Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)\n• PowerShell 7\n• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell\n• Microsoft Graph permissions: AgentIdentity.Read.All, AgentIdentityBlueprint.Read.All, AgentIdentityBlueprintPrincipal.Read.All, Application.Read.All, AuditLog.Read.All, AuditLogsQuery.Read.All, CopilotPackages.Read.All, CopilotPackages.ReadWrite.All and 1 more\n\nWhat you get: A list of what to remove, and an undo file for anything it changes\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/agent-and-tools-cleanup.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Agent%20and%20Tools%20Cleanup\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "agent-and-tools-cleanup",
+   "folder": "Agent and Tools Cleanup",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Agent%20and%20Tools%20Cleanup",
+   "page": "blog/agent-and-tools-cleanup.html",
+   "date": "2026-11-01T17:48:02+00:00",
+   "updated": "2026-11-01T17:48:02+00:00",
+   "ai": false,
+   "readme_hash": "b63087f8559ff4ed",
+   "readme_changed": false
+  },
+  {
+   "title": "Introducing Agent and Tools Health Check",
+   "summary": "A read-only check of agents, tools, Entra agent identities and blueprints against best practices: groups, sponsors, least privilege, clear names, stale items.",
+   "purpose": "A read-only check of how well your Copilot agents and tools, Entra agent identities and agent identity blueprints are set up, with a score per area and a fix for every finding. It works like the Copilot Billing Health Check: run it in Copilot Cowork, or from PowerShell.\n\nBased on Microsoft's Entra Agent ID best practices: every agent has a sponsor and an owner, a clear name and description, least-privilege permissions, group-scoped access and Conditional Access, and gets reviewed when it stops being used. The full rule list is in rules.md.",
+   "audience": "",
+   "needs": [
+    "Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)",
+    "PowerShell 7",
+    "Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell",
+    "Microsoft Graph permissions: AgentIdentity.Read.All, AgentIdentityBlueprint.Read.All, AgentIdentityBlueprintPrincipal.Read.All, Application.Read.All, AuditLog.Read.All, CopilotPackages.Read.All, Group.Read.All, Policy.Read.All and 2 more"
+   ],
+   "gets": [
+    "A scored HTML report with a fix for every finding, mapped to CIS and CISA guidance"
+   ],
+   "linkedin": "New in my Copilot repo: Agent and Tools Health Check.\n\nA read-only check of agents, tools, Entra agent identities and blueprints against best practices: groups, sponsors, least privilege, clear names, stale items.\n\nA read-only check of how well your Copilot agents and tools, Entra agent identities and agent identity blueprints are set up, with a score per area and a fix for every finding. It works like the Copilot Billing Health Check: run it in Copilot Cowork, or from PowerShell.\n\nBased on Microsoft's Entra Agent ID best practices: every agent has a sponsor and an owner, a clear name and description, least-privilege permissions, group-scoped access and Conditional Access, and gets reviewed when it stops being used. The full rule list is in rules.md.\n\nYou'll need:\n• Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)\n• PowerShell 7\n• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell\n• Microsoft Graph permissions: AgentIdentity.Read.All, AgentIdentityBlueprint.Read.All, AgentIdentityBlueprintPrincipal.Read.All, Application.Read.All, AuditLog.Read.All, CopilotPackages.Read.All, Group.Read.All, Policy.Read.All and 2 more\n\nWhat you get: A scored HTML report with a fix for every finding, mapped to CIS and CISA guidance\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/agent-and-tools-health-check.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Agent%20and%20Tools%20Health%20Check\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "agent-and-tools-health-check",
+   "folder": "Agent and Tools Health Check",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Agent%20and%20Tools%20Health%20Check",
+   "page": "blog/agent-and-tools-health-check.html",
+   "date": "2026-11-01T17:48:02+00:00",
+   "updated": "2026-11-01T17:48:02+00:00",
+   "ai": false,
+   "readme_hash": "0e5a9a2ad39804a9",
+   "readme_changed": false
+  },
+  {
+   "title": "Introducing Copilot Agent Delegation Guide",
+   "summary": "The Agent Delegation Guide: who can build, share, publish and receive agents, using the groups from step 1.",
+   "purpose": "This guide explains who can build Copilot agents, who can share and publish them, and how to give agents to people in Microsoft 365.\n\nMicrosoft changes these settings often. Check each path in your own tenant before you rely on it.",
+   "audience": "",
+   "needs": [
+    "Microsoft 365 Copilot with Copilot Cowork"
+   ],
+   "gets": [
+    "Agent creation and sharing limited to the right people"
+   ],
+   "linkedin": "New in my Copilot repo: Copilot Agent Delegation Guide.\n\nThe Agent Delegation Guide: who can build, share, publish and receive agents, using the groups from step 1.\n\nThis guide explains who can build Copilot agents, who can share and publish them, and how to give agents to people in Microsoft 365.\n\nMicrosoft changes these settings often. Check each path in your own tenant before you rely on it.\n\nYou'll need:\n• Microsoft 365 Copilot with Copilot Cowork\n\nWhat you get: Agent creation and sharing limited to the right people\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/agents.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Agents\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "agents",
+   "folder": "Agents",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Agents",
+   "page": "blog/agents.html",
+   "date": "2026-11-01T17:48:02+00:00",
+   "updated": "2026-11-01T17:48:02+00:00",
+   "ai": false,
+   "readme_hash": "4551185a9508a026",
+   "readme_changed": false
+  },
+  {
+   "title": "Introducing Copilot Billing Health Check",
+   "summary": "A read-only check of your Copilot spending policies, their groups and their members. Run it in PowerShell or Copilot Cowork.",
+   "purpose": "A plan for a health check that reviews Microsoft 365 Copilot billing policies and spending policies, the groups they use and the people in those groups. It reports problems and tells you how each policy should be set up.\n\nStatus: proof of concept. Get-CopilotBillingHealth.ps1 runs the spending policy, group and member checks. Billing policies are still design only.",
+   "audience": "",
+   "needs": [
+    "Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)",
+    "PowerShell 7",
+    "Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell",
+    "Microsoft Graph permissions: AuditLog.Read.All, CopilotCostManagement.Read.All, Group.Read.All, GroupMember.Read.All, Organization.Read.All, Reports.Read.All, User.Read.All"
+   ],
+   "gets": [
+    "A scored HTML report with a fix for every finding"
+   ],
+   "linkedin": "New in my Copilot repo: Copilot Billing Health Check.\n\nA read-only check of your Copilot spending policies, their groups and their members. Run it in PowerShell or Copilot Cowork.\n\nA plan for a health check that reviews Microsoft 365 Copilot billing policies and spending policies, the groups they use and the people in those groups. It reports problems and tells you how each policy should be set up.\n\nStatus: proof of concept. Get-CopilotBillingHealth.ps1 runs the spending policy, group and member checks. Billing policies are still design only.\n\nYou'll need:\n• Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)\n• PowerShell 7\n• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell\n• Microsoft Graph permissions: AuditLog.Read.All, CopilotCostManagement.Read.All, Group.Read.All, GroupMember.Read.All, Organization.Read.All, Reports.Read.All, User.Read.All\n\nWhat you get: A scored HTML report with a fix for every finding\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/billing-health-check.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Billing%20Health%20Check\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "billing-health-check",
+   "folder": "Billing Health Check",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Billing%20Health%20Check",
+   "page": "blog/billing-health-check.html",
+   "date": "2026-11-01T17:48:02+00:00",
+   "updated": "2026-11-01T17:48:02+00:00",
+   "ai": false,
+   "readme_hash": "d490921a4ae737c2",
+   "readme_changed": false
+  },
+  {
+   "title": "Introducing Daily Summary",
+   "summary": "Cowork prompts you schedule to run every day, a few minutes apart, each emailing you its result.",
+   "purpose": "Separate Cowork prompts, each scheduled to run daily and email the result to me. Run them a few minutes apart (e.g. 6:00, 6:05, 6:10 AM) so the emails arrive in a predictable order.",
+   "audience": "",
+   "needs": [
+    "Microsoft 365 Copilot with Copilot Cowork"
+   ],
+   "gets": [
+    "Daily summary emails that arrive in a predictable order"
+   ],
+   "linkedin": "New in my Copilot repo: Daily Summary.\n\nCowork prompts you schedule to run every day, a few minutes apart, each emailing you its result.\n\nSeparate Cowork prompts, each scheduled to run daily and email the result to me. Run them a few minutes apart (e.g. 6:00, 6:05, 6:10 AM) so the emails arrive in a predictable order.\n\nYou'll need:\n• Microsoft 365 Copilot with Copilot Cowork\n\nWhat you get: Daily summary emails that arrive in a predictable order\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/daily-summary.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Daily%20Summary\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "daily-summary",
+   "folder": "Daily Summary",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Daily%20Summary",
+   "page": "blog/daily-summary.html",
+   "date": "2026-11-01T17:48:02+00:00",
+   "updated": "2026-11-01T17:48:02+00:00",
+   "ai": false,
+   "readme_hash": "62ac2c73c9f8fcea",
+   "readme_changed": false
+  },
+  {
+   "title": "Introducing Copilot Group Assignment Guide",
+   "summary": "Scripts and steps that create the Copilot groups, access packages and PIM admin groups, and say which admin center setting each group goes in.",
+   "purpose": "This guide shows where to use each Copilot group. The scripts in this folder create the groups. You add each group to its admin center setting one time. After that, you add or remove people with access packages, not in the admin centers.\n\nAdmin centers change often, and some options only appear in some tenants. If your screen doesn't match, trust your screen.",
+   "audience": "",
+   "needs": [
+    "Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)",
+    "PowerShell 7",
+    "Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell",
+    "Microsoft Graph permissions: AccessReview.ReadWrite.All, CopilotCostManagement.Read.All, EntitlementManagement.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, PrivilegedAssignmentSchedule.ReadWrite.AzureADGroup, PrivilegedEligibilitySchedule.ReadWrite.AzureADGroup, RoleManagement.ReadWrite.Directory and 2 more"
+   ],
+   "gets": [
+    "Copilot access managed through groups, so you add or remove people in one place"
+   ],
+   "linkedin": "New in my Copilot repo: Copilot Group Assignment Guide.\n\nScripts and steps that create the Copilot groups, access packages and PIM admin groups, and say which admin center setting each group goes in.\n\nThis guide shows where to use each Copilot group. The scripts in this folder create the groups. You add each group to its admin center setting one time. After that, you add or remove people with access packages, not in the admin centers.\n\nAdmin centers change often, and some options only appear in some tenants. If your screen doesn't match, trust your screen.\n\nYou'll need:\n• Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)\n• PowerShell 7\n• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell\n• Microsoft Graph permissions: AccessReview.ReadWrite.All, CopilotCostManagement.Read.All, EntitlementManagement.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, PrivilegedAssignmentSchedule.ReadWrite.AzureADGroup, PrivilegedEligibilitySchedule.ReadWrite.AzureADGroup, RoleManagement.ReadWrite.Directory and 2 more\n\nWhat you get: Copilot access managed through groups, so you add or remove people in one place\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/group-assignment-guide.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Group%20Assignment%20Guide\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "group-assignment-guide",
+   "folder": "Group Assignment Guide",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Group%20Assignment%20Guide",
+   "page": "blog/group-assignment-guide.html",
+   "date": "2026-11-01T17:48:02+00:00",
+   "updated": "2026-11-01T17:48:02+00:00",
+   "ai": false,
+   "readme_hash": "33bf732e34204d76",
+   "readme_changed": false
+  },
+  {
+   "title": "Introducing Microsoft Copilot Custom Personalization Instructions",
+   "summary": "How to set Copilot custom instructions, with examples for different roles (Copilot admin, identity admin, students, HOA board member).",
+   "purpose": "Instead of repeating those preferences in every prompt, Copilot can use them as context for future interactions.\n\nThe result is usually much closer to what you would have written yourself.",
+   "audience": "",
+   "needs": [],
+   "gets": [
+    "Better answers without repeating your role and preferences in every prompt"
+   ],
+   "linkedin": "New in my Copilot repo: Microsoft Copilot Custom Personalization Instructions.\n\nHow to set Copilot custom instructions, with examples for different roles (Copilot admin, identity admin, students, HOA board member).\n\nInstead of repeating those preferences in every prompt, Copilot can use them as context for future interactions.\n\nThe result is usually much closer to what you would have written yourself.\n\nWhat you get: Better answers without repeating your role and preferences in every prompt\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/personalization.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Personalization\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "personalization",
+   "folder": "Personalization",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Personalization",
+   "page": "blog/personalization.html",
+   "date": "2026-11-01T17:48:02+00:00",
+   "updated": "2026-11-01T17:48:02+00:00",
+   "ai": false,
+   "readme_hash": "f26d31f85039227f",
+   "readme_changed": false
+  },
+  {
+   "title": "Introducing Second Brain Prompts for Microsoft Copilot Cowork",
+   "summary": "Scheduled Cowork prompts that read your meetings, Teams, email and public sources.",
+   "purpose": "Prompts for scheduled AI agents that build a personal work \"second brain\" from Microsoft 365 data and public sources. Each prompt runs as a daily scheduled task and writes Markdown files to OneDrive.\n\nSix collection jobs gather information. Job 10 runs last: it's the only job that writes to the action tracker, and it builds a single Daily Briefing page and sends a Teams chat with the highlights.",
+   "audience": "",
+   "needs": [
+    "Microsoft 365 Copilot with Copilot Cowork"
+   ],
+   "gets": [
+    "A personal \"second brain\" of Markdown notes in OneDrive that Copilot can search"
+   ],
+   "linkedin": "New in my Copilot repo: Second Brain Prompts for Microsoft Copilot Cowork.\n\nScheduled Cowork prompts that read your meetings, Teams, email and public sources.\n\nPrompts for scheduled AI agents that build a personal work \"second brain\" from Microsoft 365 data and public sources. Each prompt runs as a daily scheduled task and writes Markdown files to OneDrive.\n\nSix collection jobs gather information. Job 10 runs last: it's the only job that writes to the action tracker, and it builds a single Daily Briefing page and sends a Teams chat with the highlights.\n\nYou'll need:\n• Microsoft 365 Copilot with Copilot Cowork\n\nWhat you get: A personal \"second brain\" of Markdown notes in OneDrive that Copilot can search\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/second-brain-project.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Second%20Brain%20Project\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "second-brain-project",
+   "folder": "Second Brain Project",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Second%20Brain%20Project",
+   "page": "blog/second-brain-project.html",
+   "date": "2026-11-01T17:48:02+00:00",
+   "updated": "2026-11-01T17:48:02+00:00",
+   "ai": false,
+   "readme_hash": "0f8b7bffffa214f1",
+   "readme_changed": false
+  }
+ ]
+}

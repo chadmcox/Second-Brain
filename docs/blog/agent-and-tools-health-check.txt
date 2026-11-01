@@ -1,0 +1,20 @@
+New in my Copilot repo: Agent and Tools Health Check.
+
+A read-only check of agents, tools, Entra agent identities and blueprints against best practices: groups, sponsors, least privilege, clear names, stale items.
+
+A read-only check of how well your Copilot agents and tools, Entra agent identities and agent identity blueprints are set up, with a score per area and a fix for every finding. It works like the Copilot Billing Health Check: run it in Copilot Cowork, or from PowerShell.
+
+Based on Microsoft's Entra Agent ID best practices: every agent has a sponsor and an owner, a clear name and description, least-privilege permissions, group-scoped access and Conditional Access, and gets reviewed when it stops being used. The full rule list is in rules.md.
+
+You'll need:
+• Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)
+• PowerShell 7
+• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell
+• Microsoft Graph permissions: AgentIdentity.Read.All, AgentIdentityBlueprint.Read.All, AgentIdentityBlueprintPrincipal.Read.All, Application.Read.All, AuditLog.Read.All, CopilotPackages.Read.All, Group.Read.All, Policy.Read.All and 2 more
+
+What you get: A scored HTML report with a fix for every finding, mapped to CIS and CISA guidance
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/agent-and-tools-health-check.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Agent%20and%20Tools%20Health%20Check
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents

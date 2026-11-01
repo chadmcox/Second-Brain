@@ -1,0 +1,20 @@
+New in my Copilot repo: Agent and Tools Cleanup.
+
+Finds agents, plugins, skills and MCP servers nobody uses, plus stale agent identities and blueprints. Can block or disable them.
+
+Both scripts use only Connect-MgGraph and Invoke-MgGraphRequest (module Microsoft.Graph.Authentication) against Graph beta, and work in Windows PowerShell 5.1 and PowerShell 7.
+
+Microsoft doesn't document every elementTypes value for plugins yet. Check the elementTypes column in Packages.csv the first time you run it, and tell me if a tool shows up as App.
+
+You'll need:
+• Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)
+• PowerShell 7
+• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell
+• Microsoft Graph permissions: AgentIdentity.Read.All, AgentIdentityBlueprint.Read.All, AgentIdentityBlueprintPrincipal.Read.All, Application.Read.All, AuditLog.Read.All, AuditLogsQuery.Read.All, CopilotPackages.Read.All, CopilotPackages.ReadWrite.All and 1 more
+
+What you get: A list of what to remove, and an undo file for anything it changes
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/agent-and-tools-cleanup.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Agent%20and%20Tools%20Cleanup
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents

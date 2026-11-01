@@ -1,0 +1,20 @@
+New in my Copilot repo: Copilot Group Assignment Guide.
+
+Scripts and steps that create the Copilot groups, access packages and PIM admin groups, and say which admin center setting each group goes in.
+
+This guide shows where to use each Copilot group. The scripts in this folder create the groups. You add each group to its admin center setting one time. After that, you add or remove people with access packages, not in the admin centers.
+
+Admin centers change often, and some options only appear in some tenants. If your screen doesn't match, trust your screen.
+
+You'll need:
+• Microsoft Graph PowerShell (Microsoft.Graph.Authentication module)
+• PowerShell 7
+• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell
+• Microsoft Graph permissions: AccessReview.ReadWrite.All, CopilotCostManagement.Read.All, EntitlementManagement.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, PrivilegedAssignmentSchedule.ReadWrite.AzureADGroup, PrivilegedEligibilitySchedule.ReadWrite.AzureADGroup, RoleManagement.ReadWrite.Directory and 2 more
+
+What you get: Copilot access managed through groups, so you add or remove people in one place
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/group-assignment-guide.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Group%20Assignment%20Guide
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents

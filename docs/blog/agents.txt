@@ -1,0 +1,17 @@
+New in my Copilot repo: Copilot Agent Delegation Guide.
+
+The Agent Delegation Guide: who can build, share, publish and receive agents, using the groups from step 1.
+
+This guide explains who can build Copilot agents, who can share and publish them, and how to give agents to people in Microsoft 365.
+
+Microsoft changes these settings often. Check each path in your own tenant before you rely on it.
+
+You'll need:
+• Microsoft 365 Copilot with Copilot Cowork
+
+What you get: Agent creation and sharing limited to the right people
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/agents.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Agents
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents
