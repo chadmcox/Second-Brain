@@ -312,3 +312,7 @@ h2 { font: 700 1.5rem/1.15 var(--display); letter-spacing: -0.015em; margin: 0 0
   .masthead-tools, .tabs, .filters, .more, .skip { display: none; }
   body { background: #fff; }
 }
+
+/* -------------------------------------------------------------------- blog */
+.blog-list { margin-top: 1.5rem; }
+.blog-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.6rem 0 0; }
