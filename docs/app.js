@@ -7,7 +7,7 @@
   var DAY = 86400000;
   var PAGE = 120;
   var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "autopilot", "agent365", "entra", "defender", "ai-threats", "incidents", "agent-registries", "security-agents", "foundry"];
-  var VIEWS = ["overview", "microsoft", "upcoming", "competitors", "security", "videos", "community", "models", "sources"];
+  var VIEWS = ["overview", "microsoft", "upcoming", "competitors", "security", "videos", "community", "models", "blog", "sources"];
   var FEEDS = { microsoft: "microsoft", competitors: "competitor", security: "security", videos: "video" };
   var DEFAULTS = { scope: "", theme: "", status: "", range: "30", q: "", key: "", roadmap: "" };
 
@@ -596,6 +596,61 @@
     });
   }
 
+  // ----------------------------------------------------------------- blog
+  // Posts live in their own file, written by scripts/blog.py, and load on first visit.
+  var blog = null;
+  function renderBlog() {
+    var list = $("blog-list");
+    if (!blog) {
+      clear(list).appendChild(el("p", { class: "empty", text: "Loading posts…" }));
+      blog = { loading: true };
+      fetch("data/blog.json", { cache: "no-cache" })
+        .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(function (json) { blog = json && Array.isArray(json.posts) ? json : { posts: [] }; renderBlog(); })
+        .catch(function () { blog = { posts: [], failed: true }; renderBlog(); });
+      return;
+    }
+    if (blog.loading) return;
+    clear(list);
+    if (blog.repo) {
+      $("blog-repo").href = "https://github.com/" + blog.repo;
+    }
+    $("blog-note").textContent = blog.generated ? "Last new post " + fmtFull.format(new Date(blog.generated)) + "." : "";
+    if (!blog.posts.length) {
+      list.appendChild(el("p", { class: "empty", text: blog.failed
+        ? "No posts yet. They appear after the “Update blog” workflow has run once."
+        : "No posts yet." }));
+      return;
+    }
+    blog.posts.forEach(function (p) {
+      var page = safeUrl(new URL(p.page, location.href).href);
+      var meta = el("p", { class: "post-meta" });
+      var when = Date.parse(p.date || "");
+      if (when) meta.appendChild(el("span", { text: fmtShort.format(new Date(when)) }));
+      if (when && Date.now() - when < 7 * DAY) meta.appendChild(el("span", { class: "fresh", text: "New" }));
+      meta.appendChild(el("span", { class: "tag", text: p.folder }));
+      if (p.ai) meta.appendChild(el("span", { text: "AI-written" }));
+      if (p.readme_changed) meta.appendChild(el("span", { class: "key", text: "Readme changed since this post" }));
+      var copy = el("button", { class: "tool", type: "button", text: "Copy LinkedIn post" });
+      copy.addEventListener("click", function () {
+        function done(ok) { copy.textContent = ok ? "Copied" : "Copy failed: open the .txt"; setTimeout(function () { copy.textContent = "Copy LinkedIn post"; }, 2500); }
+        if (navigator.clipboard) navigator.clipboard.writeText(p.linkedin || "").then(function () { done(true); }, function () { done(false); });
+        else done(false);
+      });
+      var share = el("a", { class: "tool", target: "_blank", rel: "noopener noreferrer",
+        href: "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(page || ""), text: "Share on LinkedIn" });
+      var src = safeUrl(p.source);
+      var actions = el("p", { class: "blog-actions" }, [copy, share,
+        src ? el("a", { class: "tool", href: src, target: "_blank", rel: "noopener noreferrer", text: "Project on GitHub" }) : ""]);
+      list.appendChild(el("article", { class: "post" }, [
+        el("h3", null, [page ? el("a", { href: page, text: p.title }) : p.title]),
+        meta,
+        el("p", { class: "post-text", text: p.summary || "" }),
+        actions
+      ]));
+    });
+  }
+
   // -------------------------------------------------------------- sources
   function renderSources() {
     var body = clear($("sources-body"));
@@ -636,10 +691,12 @@
     $("view-community").hidden = state.view !== "community";
     $("view-upcoming").hidden = state.view !== "upcoming";
     $("view-sources").hidden = state.view !== "sources";
+    $("view-blog").hidden = state.view !== "blog";
+    if (state.view === "blog") { renderBlog(); document.title = "Blog | " + ((data && data.site.title) || "Copilot & Agent Watch"); return; }
     if (!data) return;
     if (!data.generated) {
       // Nothing collected yet: the message below explains how to start.
-      ["view-overview", "view-feed", "view-models", "view-community", "view-upcoming", "view-sources"].forEach(function (id) { $(id).hidden = true; });
+      ["view-overview", "view-feed", "view-models", "view-community", "view-upcoming", "view-sources", "view-blog"].forEach(function (id) { $(id).hidden = true; });
       return;
     }
     if (state.view === "overview") renderOverview();
@@ -649,7 +706,7 @@
     else if (state.view === "upcoming") renderUpcoming();
     else renderSources();
     var label = { overview: "Overview", microsoft: "Microsoft", competitors: "Competitors",
-      security: "Threat intel", videos: "Videos", community: "Community", upcoming: "Upcoming", models: "Models", sources: "Sources" }[state.view];
+      security: "Threat intel", videos: "Videos", community: "Community", upcoming: "Upcoming", models: "Models", blog: "Blog", sources: "Sources" }[state.view];
     document.title = label + " | " + data.site.title;
   }
 

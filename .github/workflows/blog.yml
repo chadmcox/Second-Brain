@@ -1,0 +1,79 @@
+name: Update blog
+
+# Once a day: look at every project folder in the Copilot repository (set in
+# [blog] in config.toml) and write an introduction post for any new one.
+
+on:
+  schedule:
+    - cron: "41 12 * * *"       # daily at 12:41 UTC = 5:41 am in Phoenix, after the news run
+  workflow_dispatch:
+    inputs:
+      regenerate:
+        description: "Folders to rewrite (comma-separated names, optional)"
+        required: false
+        default: ""
+  repository_dispatch:
+    types: [copilot-repo-updated]   # optional: lets the Copilot repo start a run on push
+  push:
+    branches: [main]
+    paths:
+      - "scripts/blog.py"
+      - ".github/workflows/blog.yml"
+
+permissions:
+  contents: write    # commit the new posts
+
+concurrency:
+  group: update-news   # same group as the news run, so the two never push at once
+  cancel-in-progress: false
+
+jobs:
+  blog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read the source repository name
+        id: cfg
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import tomllib
+          b = tomllib.load(open("config.toml", "rb")).get("blog", {})
+          print("repo=" + b.get("repo", "chadmcox/Copilot"))
+          print("branch=" + b.get("branch", "main"))
+          PY
+
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ steps.cfg.outputs.repo }}
+          ref: ${{ steps.cfg.outputs.branch }}
+          path: _source
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check the blog writer
+        run: python -m unittest discover -s tests -p "test_blog.py"
+
+      - name: Write posts for new folders
+        env:   # optional: the same AI secrets the news run uses
+          SUMMARY_ENDPOINT: ${{ secrets.SUMMARY_ENDPOINT }}
+          SUMMARY_API_KEY: ${{ secrets.SUMMARY_API_KEY }}
+          SUMMARY_MODEL: ${{ secrets.SUMMARY_MODEL }}
+          REGENERATE: ${{ github.event.inputs.regenerate }}
+        run: python scripts/blog.py --source _source --regenerate "$REGENERATE"
+
+      - name: Publish the posts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/blog.json docs/blog
+          if git diff --cached --quiet; then
+            echo "No new posts."
+          else
+            git commit -m "Update blog posts"
+            git pull --rebase --autostash
+            git push
+          fi

@@ -43,6 +43,15 @@ General → Workflow permissions** and choose **Read and write permissions**.
   Copilot, ranked by recent stars. Pin or hide projects under `[community]` in `config.toml`.
 - **Models**: the newest release of each frontier model family with list prices, the change
   against the previous release, and what it is for (from OpenRouter's public listing).
+- **Blog**: one introduction post for every project folder in the
+  [Copilot repository](https://github.com/chadmcox/Copilot): what it is for, who it helps,
+  what you need and what you get, never the install steps. The *Update blog* workflow checks
+  the repository each morning and writes a post for any new folder that has a readme. Each
+  post has its own page (with link-preview tags, so it shows a card when shared) and a
+  ready-to-paste LinkedIn version: use **Copy LinkedIn post** on the Blog tab, or open
+  `docs/blog/<folder>.txt`. Posts are written once; to rewrite one, run *Update blog* by hand
+  and type the folder name. Settings are under `[blog]` in `config.toml`. With the AI
+  secrets below, a model writes the posts; without them, they are built from the readme.
 - **Sources**: every source, how many posts it contributed, and whether the last read worked.
 - **`feed.xml`**: everything as one RSS feed, including the sites that have no feed of their
   own, so you can also follow it from a feed reader.

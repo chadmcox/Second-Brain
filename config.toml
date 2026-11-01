@@ -21,6 +21,20 @@ max_per_run = 40        # posts summarised per run
 batch_size = 8          # posts per model request
 max_age_days = 30       # older posts keep the source's own excerpt
 
+[blog]
+# The Blog tab: one introduction post for every project folder in this
+# repository. The "Update blog" workflow checks it daily and writes a post for
+# each new folder that has a readme. Posts cover purpose, audience, what you
+# need and what you get; install steps stay in the folder's readme.
+# Posts are written once. To rewrite one, run the workflow by hand and type the
+# folder name in "Folders to rewrite".
+enabled = true
+repo = "chadmcox/Copilot"
+branch = "main"
+author = "Chad Cox"
+skip = []               # folder names that should never get a post
+hashtags = ["MicrosoftCopilot", "CopilotCowork", "Microsoft365", "AIagents"]
+
 # ---------------------------------------------------------------- products
 # A post gets a product tag when one of `any` appears in its title or opening
 # lines (whole words, case-insensitive) and none of `none` do.
