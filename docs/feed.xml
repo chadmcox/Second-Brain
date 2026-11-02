@@ -4,7 +4,210 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Sun, 01 Nov 2026 17:55:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 21:43:01 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] Chinese hackers use ARTEX AI in automated attacks against 200 orgs</title>
+      <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/</link>
+      <guid isPermaLink="false">f6edbcaffade</guid>
+      <pubDate>Mon, 02 Nov 2026 21:40:14 +0000</pubDate>
+      <description>Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Salesforce] Salesforce Signs Definitive Agreement to Acquire Cresta</title>
+      <link>https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/</link>
+      <guid isPermaLink="false">b9a1d9a1ebaf</guid>
+      <pubDate>Mon, 02 Nov 2026 21:00:00 +0000</pubDate>
+      <description>Combination unites advanced voice agents with the world’s #1 CRM, bringing together the customer, the conversation and the outcome</description>
+    </item>
+    <item>
+      <title>[Microsoft] What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks</title>
+      <link>https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/</link>
+      <guid isPermaLink="false">73b73a473518</guid>
+      <pubDate>Mon, 02 Nov 2026 20:20:59 +0000</pubDate>
+      <description>Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius.</description>
+    </item>
+    <item>
+      <title>[The Record] Michigan State cyber incident claimed by ransomware gang behind recent hospital attack</title>
+      <link>https://therecord.media/michigan-state-university-byod-gang-cyber-incident</link>
+      <guid isPermaLink="false">18836a2757c3</guid>
+      <pubDate>Mon, 02 Nov 2026 19:54:00 +0000</pubDate>
+      <description>A recent post by the BYOD gang appears to line up with a security incident that prompted campus-wide action at Michigan State University. BYOD drew attention in October for an attack on the University of New Mexico.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Fintech platform Sageworks taken offline after suspected cyberattack</title>
+      <link>https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/</link>
+      <guid isPermaLink="false">b9a8fe94cb9b</guid>
+      <pubDate>Mon, 02 Nov 2026 19:00:45 +0000</pubDate>
+      <description>Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by "irregular activity" in its environment. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Developer] WebTransport Headers, Zstd WAL Compression, and Copilot Studio Conversation Harness</title>
+      <link>https://www.youtube.com/shorts/y7r-UYR1Lz0</link>
+      <guid isPermaLink="false">694910ee6a57</guid>
+      <pubDate>Mon, 02 Nov 2026 18:49:11 +0000</pubDate>
+      <description>A browser change that can alter runtime behavior without touching your code, a storage-saving option for Azure Database for PostgreSQL, and a new way to build customer-facing agents in Copilot Studio. Missed GitHub Universe? Catch up on the keynotes and sessions by subscribing to the GitHub YouTube channel (https://www.youtube.com/@github) and the Microsoft Developer YouTube channel…</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
+    </item>
+    <item>
+      <title>[The Hacker News] ⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More</title>
+      <link>https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html</link>
+      <guid isPermaLink="false">65afadf0cbc2</guid>
+      <pubDate>Mon, 02 Nov 2026 16:57:56 +0000</pubDate>
+      <description>Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] Russia's statistics agency confirms cyberattack claimed by Belarusian and Ukrainian hackers</title>
+      <link>https://therecord.media/hackers-ukraine-belarus-russia</link>
+      <guid isPermaLink="false">acbef9b6b6f9</guid>
+      <pubDate>Mon, 02 Nov 2026 16:30:00 +0000</pubDate>
+      <description>An alliance of Belarusian and pro-Ukrainian hackers claimed to have taken out Russia's federal statistics agency, Rosstat, and stolen vast amounts of sensitive government data in a cyberattack.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Developer] Build an AI agent without leaving VS Code!</title>
+      <link>https://www.youtube.com/shorts/sipxLzh8Mw4</link>
+      <guid isPermaLink="false">6ed4bad56564</guid>
+      <pubDate>Mon, 02 Nov 2026 16:00:14 +0000</pubDate>
+      <description>Full episode: https://youtu.be/lLTqWYDhHZw Foundry portal: https://aka.ms/foundry-portal Build the Sparkles agent using the Microsoft Foundry Toolkit. Configure the deployed model and MCP connection, invoke the agent from the development environment, and verify that it can use the shop’s prompts and live ordering tools. Store traces, evaluation datasets, and results with the project for repeatable testing.</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] Your Mobile Carrier Stores Your Call Logs for Years</title>
+      <link>https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/</link>
+      <guid isPermaLink="false">5ea1d647d005</guid>
+      <pubDate>Mon, 02 Nov 2026 15:01:11 +0000</pubDate>
+      <description>Mobile carriers can retain years of call and text metadata, exposing sensitive details about customers' relationships, locations, and daily routines if breached. Cape examines the privacy risks of long-term telecom data retention and how its mobile service reduces exposure by automatically deleting call records. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[OpenAI] Introducing the Grid Protectors Program</title>
+      <link>https://openai.com/index/grid-protectors-program</link>
+      <guid isPermaLink="false">19244c7aa206</guid>
+      <pubDate>Mon, 02 Nov 2026 15:00:00 +0000</pubDate>
+      <description>OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.</description>
+    </item>
+    <item>
+      <title>[The Record] Russian and Ukrainian hackers hijack emergency apps to spread fake nuclear attack warnings</title>
+      <link>https://therecord.media/ukraine-hackers-russia-alert-system</link>
+      <guid isPermaLink="false">7bca49cdf4ec</guid>
+      <pubDate>Mon, 02 Nov 2026 14:30:00 +0000</pubDate>
+      <description>A popular Ukrainian air raid alert system was hacked over the weekend, prompting a cyber group to breach a similar Russian system in retaliation.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Hackers disrupt refrigeration systems at European supermarkets</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/</link>
+      <guid isPermaLink="false">cab04cab3c66</guid>
+      <pubDate>Mon, 02 Nov 2026 14:28:39 +0000</pubDate>
+      <description>A cyberattack on refrigeration systems has disrupted stores run by multiple supermarket chains across several European countries after hackers remotely changed temperature settings on freezers and cooling systems. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] Building an AI agent anyone's mom can use safely</title>
+      <link>https://www.youtube.com/shorts/1AxeHxKLzKM</link>
+      <guid isPermaLink="false">295f584ae4b0</guid>
+      <pubDate>Mon, 02 Nov 2026 14:00:15 +0000</pubDate>
+      <description>What will it take to build an autonomous AI agent that is safe and simple enough for anyone to use? In this OpenClaw roundtable discussion, creator Peter Steinberger shares his North Star: creating an agent simple enough for his mother to use without technical friction. While OpenClaw remains a platform tailored for power users today, upcoming onboarding improvements and cloud options are bridging the gap. #OpenClaw…</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] Over 1,000 GitLab servers vulnerable to ongoing RCE attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/</link>
+      <guid isPermaLink="false">7398c8fe0a0b</guid>
+      <pubDate>Mon, 02 Nov 2026 12:47:00 +0000</pubDate>
+      <description>Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers</title>
+      <link>https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html</link>
+      <guid isPermaLink="false">ad2df65419af</guid>
+      <pubDate>Mon, 02 Nov 2026 11:50:00 +0000</pubDate>
+      <description>Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the flaws, and the only fix is version 1.13.0. Neither flaw is in CISA's Known</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy</title>
+      <link>https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html</link>
+      <guid isPermaLink="false">c477f1812588</guid>
+      <pubDate>Mon, 02 Nov 2026 11:30:00 +0000</pubDate>
+      <description>Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready. AI SOC readiness has two parts: whether a SOC has the</description>
+      <category>security-agents</category>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Synology warns of C3RB3R ransomware attacks targeting NAS devices</title>
+      <link>https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/</link>
+      <guid isPermaLink="false">e52f7534557d</guid>
+      <pubDate>Mon, 02 Nov 2026 11:28:42 +0000</pubDate>
+      <description>Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts</title>
+      <link>https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html</link>
+      <guid isPermaLink="false">87a25e1b557b</guid>
+      <pubDate>Mon, 02 Nov 2026 10:49:59 +0000</pubDate>
+      <description>Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where "CL" refers to cluster and "UNK" stands for unknown</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Ivanti patches two more Connect Secure zero-days chained in attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/</link>
+      <guid isPermaLink="false">357136bfe66d</guid>
+      <pubDate>Mon, 02 Nov 2026 09:33:26 +0000</pubDate>
+      <description>Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[OpenAI] LifeVal</title>
+      <link>https://openai.com/index/lifeval</link>
+      <guid isPermaLink="false">ed4b58253682</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0000</pubDate>
+      <description>Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.</description>
+    </item>
+    <item>
+      <title>[CrowdStrike] What Makes a Good Security Agent? 5 Lessons from the AgentWorks Hackathon</title>
+      <link>https://www.crowdstrike.com/en-us/blog/five-lessons-from-agentworks-hackathon/</link>
+      <guid isPermaLink="false">7abdf6ac5df2</guid>
+      <pubDate>Mon, 02 Nov 2026 06:00:00 +0000</pubDate>
+      <description />
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[GitHub] What can the GitHub Universe 2026 badge actually do?</title>
+      <link>https://www.youtube.com/shorts/sPYYs-66-SA</link>
+      <guid isPermaLink="false">47da010d7bd3</guid>
+      <pubDate>Mon, 02 Nov 2026 05:52:12 +0000</pubDate>
+      <description>The GitHub Universe 2026 badge doubles as a handheld gaming console loaded with retro games. In this quick walkthrough, explore built-in apps like Flappy Mona, Mona Paint, and Mona Pet, plus custom digital badge profiles. Discover how easy it is to add community games from Ashley Wolf’s repository by asking GitHub Copilot for setup help. Watch as we install the classic Microsoft 3D Maze screen saver directly onto…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[The Hacker News] New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value</title>
+      <link>https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html</link>
+      <guid isPermaLink="false">9068a344a035</guid>
+      <pubDate>Mon, 02 Nov 2026 05:51:07 +0000</pubDate>
+      <description>Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[xAI] Giving every team a data scientist with Grok Bot</title>
+      <link>https://x.ai/news/data-bot</link>
+      <guid isPermaLink="false">95e7a57b9036</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Data Bot is a Team Bot in Grok Bot that the data science team teaches, so every team can query the warehouse, run analyses, and get answers the way a data scientist would.</description>
+    </item>
+    <item>
+      <title>[OpenAI] Qodo builds context into AI code review with Codex</title>
+      <link>https://openai.com/index/qodo-codex-plugin</link>
+      <guid isPermaLink="false">598c6194c0d3</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.</description>
+    </item>
     <item>
       <title>[BleepingComputer] OpenAI says it's doubling Pro usage limits and bringing Work features to Chat</title>
       <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/</link>
@@ -185,6 +388,13 @@
       <pubDate>Fri, 30 Oct 2026 14:36:54 +0000</pubDate>
       <description>A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]</description>
       <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Google] Speeding up planning decisions with AI</title>
+      <link>https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/</link>
+      <guid isPermaLink="false">094c331a98fa</guid>
+      <pubDate>Fri, 30 Oct 2026 14:18:30 +0000</pubDate>
+      <description>Google DeepMind and UK government work together to reduce planning assessment times</description>
     </item>
     <item>
       <title>[BleepingComputer] CISA says max severity GitLab flaw now exploited in the wild</title>
@@ -417,210 +627,6 @@
       <description>See how finance teams use Copilot Cowork to delegate complex, multi-step work, from running the quarterly close process to scheduling recurring workflows like updating forecasts. Learn practical tips and real-world workflows you can apply to your own work. Read the blog: https://msft.it/6054a0eXY #Microsoft #Copilot #CopilotCowork</description>
       <category>copilot</category>
       <category>cowork</category>
-    </item>
-    <item>
-      <title>[Microsoft] AI agents are coming—are your identity controls prepared?</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-entra-blog/ai-agents-are-coming-are-your-identity-controls-prepared/ba-p/4515964</link>
-      <guid isPermaLink="false">8b6321192c64</guid>
-      <pubDate>Thu, 29 Oct 2026 15:00:00 +0000</pubDate>
-      <description>AI is reshaping identity risk. Attackers now use AI to automate phishing, social engineering, and privilege escalation, making credential theft faster and more convincing than ever. SMS codes and push approvals can be intercepted, while standing privileges give attackers reach far beyond a single account. On the other hand, as organizations adopt AI agents, identity risk grows exponentially. Securing agent…</description>
-      <category>entra</category>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] What Are Conditional Access Policy Plans?</title>
-      <link>https://www.youtube.com/shorts/eJrjYA-GG3c</link>
-      <guid isPermaLink="false">f6dc65d369d9</guid>
-      <pubDate>Thu, 29 Oct 2026 14:30:26 +0000</pubDate>
-      <description>Is your Conditional Access policy list held together by naming prefixes? Conditional Access policy plans in Microsoft Entra organize access controls around an objective instead of managing them one policy at a time. That objective can be a persona, like employees, external guests or administrators, or a security goal, like securing agent activity or requiring compliant devices. ▶ Full video…</description>
-      <category>entra</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] 3 Ways AI Agents Already Operate in Your Browser</title>
-      <link>https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/</link>
-      <guid isPermaLink="false">d340597c608d</guid>
-      <pubDate>Thu, 29 Oct 2026 14:00:10 +0000</pubDate>
-      <description>AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distinguish their activity from human users. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[GitHub] Everything announced at GitHub Universe 2026: opening keynote recap</title>
-      <link>https://www.youtube.com/watch?v=xbCa0aa4tRM</link>
-      <guid isPermaLink="false">0f25bb835cde</guid>
-      <pubDate>Thu, 29 Oct 2026 13:57:25 +0000</pubDate>
-      <description>Missed the opening keynote at GitHub Universe 2026? Catch up on every major announcement and live demo in this cutdown of the morning session. Explore the dedicated GitHub Copilot app, third-party connectors, and Copilot Fusion for multi-model orchestration at lower costs. Discover how Copilot Projects manages fleets of agents across multiple repositories, plus the launch of Code Review Max and deep architectural…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities</title>
-      <link>https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html</link>
-      <guid isPermaLink="false">005f2528861a</guid>
-      <pubDate>Thu, 29 Oct 2026 13:42:40 +0000</pubDate>
-      <description>Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. "It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Hugging Face] Granite Switch 4.1.1 — Update models like you update software</title>
-      <link>https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1</link>
-      <guid isPermaLink="false">f3538b6fb36f</guid>
-      <pubDate>Thu, 29 Oct 2026 13:37:07 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[The Record] Cyberattack disrupts Belgian tax services before filing deadline</title>
-      <link>https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline</link>
-      <guid isPermaLink="false">342c74932bcc</guid>
-      <pubDate>Thu, 29 Oct 2026 13:31:00 +0000</pubDate>
-      <description>The Federal Public Service Finance (FPS Finance), which oversees taxation and other financial administration, said Wednesday that it was investigating the extent of the attack and had temporarily suspended access to MyMinfin, the country's main online platform for managing tax and financial affairs.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Record] University of New Mexico restores hospital systems, urges no contact with hackers</title>
-      <link>https://therecord.media/new-mexico-cyberattack-hospital</link>
-      <guid isPermaLink="false">56ef05760e8e</guid>
-      <pubDate>Thu, 29 Oct 2026 13:30:00 +0000</pubDate>
-      <description>The University of New Mexico was able to restore systems used by its healthcare facilities after a cyberattack forced it to divert ambulances and cancel classes at its medical school.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Mistral] Le Chonk: Built for Coders, Trusted by Defenders.</title>
-      <link>https://mistral.ai/news/mistral-large-4-oss/</link>
-      <guid isPermaLink="false">779b541ff77b</guid>
-      <pubDate>Thu, 29 Oct 2026 12:00:07 +0000</pubDate>
-      <description>The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.</description>
-    </item>
-    <item>
-      <title>[The Hacker News] Webinar: How to Build AI Threat Readiness Into Your Security Operations</title>
-      <link>https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html</link>
-      <guid isPermaLink="false">5a570ea1e7c2</guid>
-      <pubDate>Thu, 29 Oct 2026 11:39:41 +0000</pubDate>
-      <description>Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers</title>
-      <link>https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html</link>
-      <guid isPermaLink="false">e6aa25e9694d</guid>
-      <pubDate>Thu, 29 Oct 2026 11:33:41 +0000</pubDate>
-      <description>AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] 26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories</title>
-      <link>https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html</link>
-      <guid isPermaLink="false">c9e7c513e143</guid>
-      <pubDate>Thu, 29 Oct 2026 11:33:15 +0000</pubDate>
-      <description>26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and reported the results on October 28. Most were keys for cloud and AI services, led by</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Google] How to use Gemini to update your resume</title>
-      <link>https://blog.google/innovation-and-ai/products/gemini-app/update-resume-with-gemini/</link>
-      <guid isPermaLink="false">3b9dd560f229</guid>
-      <pubDate>Thu, 29 Oct 2026 11:33:00 +0000</pubDate>
-      <description>Turn raw notes into high-impact, ATS-friendly resume bullets using Gemini. Follow these four steps to polish your professional profile. Get the details.</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] New Cisco firewall zero-day exploited to crash SSL VPN devices</title>
-      <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/</link>
-      <guid isPermaLink="false">409f0b0486b7</guid>
-      <pubDate>Thu, 29 Oct 2026 11:10:13 +0000</pubDate>
-      <description>Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls</title>
-      <link>https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html</link>
-      <guid isPermaLink="false">083a1ea7d205</guid>
-      <pubDate>Thu, 29 Oct 2026 10:44:46 +0000</pubDate>
-      <description>Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[OpenAI] How we detect frontier model misalignment</title>
-      <link>https://openai.com/index/how-we-detect-frontier-model-misalignment</link>
-      <guid isPermaLink="false">d28967fce9c6</guid>
-      <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
-      <description>OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.</description>
-    </item>
-    <item>
-      <title>[Google] How Gemini is helping students and teachers in the classroom</title>
-      <link>https://blog.google/products-and-platforms/products/education/impact-studies-uk-italy/</link>
-      <guid isPermaLink="false">b61f46e0ec2d</guid>
-      <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
-      <description>A teacher crouching next to a student seated at a desk as they talk. In front of the student are papers and a laptop.</description>
-    </item>
-    <item>
-      <title>[The Hacker News] China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility</title>
-      <link>https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html</link>
-      <guid isPermaLink="false">e91f33b06ca8</guid>
-      <pubDate>Thu, 29 Oct 2026 06:22:33 +0000</pubDate>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[GitHub] GitHub Universe 2026 opening keynote recap in 90 seconds</title>
-      <link>https://www.youtube.com/shorts/A_N9HM237BA</link>
-      <guid isPermaLink="false">b3b8e535e30d</guid>
-      <pubDate>Thu, 29 Oct 2026 05:10:49 +0000</pubDate>
-      <description>Missed the GitHub Universe 2026 opening keynote? Here is everything announced in 60 seconds, from 225 million developers on the platform to major architectural upgrades. Discover the all-new GitHub Copilot app, multi-model orchestration with Copilot Fusion, and autonomous task management in Copilot Projects. Plus, see how Code Review Max catches critical bugs and how GitHub is rebuilding the core infrastructure…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[CrowdStrike] New Prompt Injection Techniques Cover Agent-Planning Attacks</title>
-      <link>https://www.crowdstrike.com/en-us/blog/new-prompt-injection-techniques-cover-agent-planning-attacks/</link>
-      <guid isPermaLink="false">e4cd27c3f55b</guid>
-      <pubDate>Thu, 29 Oct 2026 05:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[CrowdStrike] VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign</title>
-      <link>https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/</link>
-      <guid isPermaLink="false">8891476791df</guid>
-      <pubDate>Thu, 29 Oct 2026 05:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Hugging Face] Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready</title>
-      <link>https://huggingface.co/blog/announcing-project-protostar</link>
-      <guid isPermaLink="false">e1c742c1d925</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Hugging Face] Welcome Le Chonk: Mistral Large 4 on Hugging Face</title>
-      <link>https://huggingface.co/blog/mistral-large4</link>
-      <guid isPermaLink="false">a1765f446c5b</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Hugging Face] Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms</title>
-      <link>https://huggingface.co/blog/anydecisionmodel</link>
-      <guid isPermaLink="false">85d975255b4f</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[OpenAI] Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot</title>
-      <link>https://openai.com/index/credit-saison</link>
-      <guid isPermaLink="false">6750c2461412</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.</description>
-    </item>
-    <item>
-      <title>[GitHub] Opening keynote: building the next era of software at GitHub Universe 2026</title>
-      <link>https://www.youtube.com/watch?v=AArI948SDz8</link>
-      <guid isPermaLink="false">cea40fd19087</guid>
-      <pubDate>Wed, 28 Oct 2026 22:12:28 +0000</pubDate>
-      <description>Join us for the GitHub Universe 2026 opening keynote as we look at the next era of software, the developers building it, and the tools and workflows GitHub is creating to help them go further. Hear from engineering leaders April Leonard, Jay Parikh, Cassidy Williams, Burke Holland, and Damian Brady as they unveil major updates across GitHub Copilot, autonomous agent workflows, and core developer tools. Expect new…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Google] Immersive explorations now available in the Gemini app</title>
-      <link>https://workspaceupdates.googleblog.com/2026/10/immersive-explorations-now-available-in-the-Gemini-app.html</link>
-      <guid isPermaLink="false">f3d8cfd7112a</guid>
-      <pubDate>Wed, 28 Oct 2026 18:21:30 +0000</pubDate>
-      <description>We’re introducing a library of immersive explorations in the Gemini app, giving users an interactive, visual way to explore topics layer-by-layer, from microscopic systems to deep space. Users can access this library in the Gemini student hub by clicking on “Try immersive explorations” and will soon be able to access these immersive explorations directly in a chat conversation with Gemini. Whether it’s tracing trade…</description>
     </item>
   </channel>
 </rss>
