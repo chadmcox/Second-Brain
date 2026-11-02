@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Introducing Entra ID Operations Report | Copilot &amp; Agent Watch</title>
+<meta name="description" content="A read-only check of your Entra tenant against Microsoft&#x27;s Entra operations reference guide: sync, licensing, MFA, Conditional Access, consent, privileged roles and PIM, access reviews, recommendations. Run it in…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Introducing Entra ID Operations Report">
+<meta property="og:description" content="A read-only check of your Entra tenant against Microsoft&#x27;s Entra operations reference guide: sync, licensing, MFA, Conditional Access, consent, privileged roles and PIM, access reviews, recommendations. Run it in…">
+<meta property="og:site_name" content="Copilot &amp; Agent Watch">
+<meta property="og:url" content="https://chadmcox.github.io/Second-Brain/blog/entra-id-operations-report.html">
+<meta property="article:published_time" content="2026-11-02T21:54:33+00:00">
+<meta name="author" content="Chad Cox">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../style.css">
+<style>
+  .article { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+  .article h1 { font: 700 clamp(1.9rem, 5vw, 2.8rem)/1.05 var(--display); letter-spacing: -0.02em; margin: 0.4rem 0 0.8rem; }
+  .article h2 { font-size: 1.25rem; margin-top: 2rem; }
+  .article .meta { color: var(--muted); margin: 0; }
+  .article .lead { font-size: 1.2rem; }
+  .article li { margin-bottom: 0.35rem; }
+  .article .cta { margin-top: 2rem; padding: 1rem 1.2rem; border-left: 3px solid var(--accent); background: var(--surface); }
+</style>
+</head>
+<body>
+<main class="article">
+  <p class="meta"><a href="../#blog">← Copilot &amp; Agent Watch blog</a></p>
+  <h1>Introducing Entra ID Operations Report</h1>
+  <p class="meta">Nov 02, 2026 · Chad Cox</p>
+  <p class="lead">A read-only check of your Entra tenant against Microsoft&#x27;s Entra operations reference guide: sync, licensing, MFA, Conditional Access, consent, privileged roles and PIM, access reviews, recommendations. Run it in…</p>
+  <p>A read-only check of your Microsoft Entra tenant against Microsoft&#x27;s Microsoft Entra operations reference guide, with a score per area and a fix for every finding. A skill reads the tenant live through the Microsoft MCP Server for Enterprise, so there&#x27;s no script to run: ask Copilot Cowork or GitHub Copilot in VS Code.</p>
+  <p>Microsoft&#x27;s guide has four sections. The report has one area for each, and every finding names the guide section it comes from. The full rule list is in rules.md.</p>
+  
+  <h2>What you need</h2>
+  <ul><li>PowerShell 7</li><li>Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell</li></ul>
+  <h2>What you get</h2>
+  <ul><li>A scored HTML report with a fix for every finding, tied to the guide section it comes from</li></ul>
+  <p class="cta">Setup and run steps are in the project readme: <a href="https://github.com/chadmcox/Copilot/tree/main/Entra%20ID%20Operations%20Report">Entra ID Operations Report on GitHub</a>.</p>
+</main>
+</body>
+</html>

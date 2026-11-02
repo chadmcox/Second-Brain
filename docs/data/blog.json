@@ -1,7 +1,53 @@
 {
- "generated": "2026-11-01T17:48:02+00:00",
+ "generated": "2026-11-02T21:54:33+00:00",
  "repo": "chadmcox/Copilot",
  "posts": [
+  {
+   "title": "Introducing Entra ID Operations Report",
+   "summary": "A read-only check of your Entra tenant against Microsoft's Entra operations reference guide: sync, licensing, MFA, Conditional Access, consent, privileged roles and PIM, access reviews, recommendations. Run it in…",
+   "purpose": "A read-only check of your Microsoft Entra tenant against Microsoft's Microsoft Entra operations reference guide, with a score per area and a fix for every finding. A skill reads the tenant live through the Microsoft MCP Server for Enterprise, so there's no script to run: ask Copilot Cowork or GitHub Copilot in VS Code.\n\nMicrosoft's guide has four sections. The report has one area for each, and every finding names the guide section it comes from. The full rule list is in rules.md.",
+   "audience": "",
+   "needs": [
+    "PowerShell 7",
+    "Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell"
+   ],
+   "gets": [
+    "A scored HTML report with a fix for every finding, tied to the guide section it comes from"
+   ],
+   "linkedin": "New in my Copilot repo: Entra ID Operations Report.\n\nA read-only check of your Entra tenant against Microsoft's Entra operations reference guide: sync, licensing, MFA, Conditional Access, consent, privileged roles and PIM, access reviews, recommendations. Run it in…\n\nA read-only check of your Microsoft Entra tenant against Microsoft's Microsoft Entra operations reference guide, with a score per area and a fix for every finding. A skill reads the tenant live through the Microsoft MCP Server for Enterprise, so there's no script to run: ask Copilot Cowork or GitHub Copilot in VS Code.\n\nMicrosoft's guide has four sections. The report has one area for each, and every finding names the guide section it comes from. The full rule list is in rules.md.\n\nYou'll need:\n• PowerShell 7\n• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell\n\nWhat you get: A scored HTML report with a fix for every finding, tied to the guide section it comes from\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/entra-id-operations-report.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Entra%20ID%20Operations%20Report\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "entra-id-operations-report",
+   "folder": "Entra ID Operations Report",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Entra%20ID%20Operations%20Report",
+   "page": "blog/entra-id-operations-report.html",
+   "date": "2026-11-02T21:54:33+00:00",
+   "updated": "2026-11-02T21:54:33+00:00",
+   "ai": false,
+   "readme_hash": "9d5d40f228b64552",
+   "readme_changed": false
+  },
+  {
+   "title": "Introducing Entra ID Security Review",
+   "summary": "A read-only security review of your Entra tenant against the CISA SCuBA Entra ID baseline, the CIS Microsoft 365 benchmark, the Attack and Defense Playbook for Microsoft Entra, and Microsoft, NSA and Mandiant incident…",
+   "purpose": "A skill reads the tenant live through the Microsoft MCP Server for Enterprise, so there's no script to run: ask Copilot Cowork or GitHub Copilot in VS Code.\n\nIt complements the Entra ID Operations Report. That one checks day-to-day operations against Microsoft's operations guide; this one checks attack paths against CISA, CIS and incident guidance. Some checks appear in both (legacy authentication, consent, PIM); run both if you can.",
+   "audience": "",
+   "needs": [
+    "PowerShell 7",
+    "Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell"
+   ],
+   "gets": [
+    "A scored HTML report with the CISA BOD 25-01 count, the attack each finding helps stop, and a fix tied to its CISA, CIS or Playbook source"
+   ],
+   "linkedin": "New in my Copilot repo: Entra ID Security Review.\n\nA read-only security review of your Entra tenant against the CISA SCuBA Entra ID baseline, the CIS Microsoft 365 benchmark, the Attack and Defense Playbook for Microsoft Entra, and Microsoft, NSA and Mandiant incident…\n\nA skill reads the tenant live through the Microsoft MCP Server for Enterprise, so there's no script to run: ask Copilot Cowork or GitHub Copilot in VS Code.\n\nIt complements the Entra ID Operations Report. That one checks day-to-day operations against Microsoft's operations guide; this one checks attack paths against CISA, CIS and incident guidance. Some checks appear in both (legacy authentication, consent, PIM); run both if you can.\n\nYou'll need:\n• PowerShell 7\n• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell\n\nWhat you get: A scored HTML report with the CISA BOD 25-01 count, the attack each finding helps stop, and a fix tied to its CISA, CIS or Playbook source\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/entra-id-security-review.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Entra%20ID%20Security%20Review\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "entra-id-security-review",
+   "folder": "Entra ID Security Review",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Entra%20ID%20Security%20Review",
+   "page": "blog/entra-id-security-review.html",
+   "date": "2026-11-02T21:54:33+00:00",
+   "updated": "2026-11-02T21:54:33+00:00",
+   "ai": false,
+   "readme_hash": "9b6d10e319bb50f8",
+   "readme_changed": false
+  },
   {
    "title": "Introducing Agent and Tools Cleanup",
    "summary": "Finds agents, plugins, skills and MCP servers nobody uses, plus stale agent identities and blueprints. Can block or disable them.",
@@ -25,7 +71,7 @@
    "updated": "2026-11-01T17:48:02+00:00",
    "ai": false,
    "readme_hash": "b63087f8559ff4ed",
-   "readme_changed": false
+   "readme_changed": true
   },
   {
    "title": "Introducing Agent and Tools Health Check",
@@ -50,7 +96,7 @@
    "updated": "2026-11-01T17:48:02+00:00",
    "ai": false,
    "readme_hash": "0e5a9a2ad39804a9",
-   "readme_changed": false
+   "readme_changed": true
   },
   {
    "title": "Introducing Copilot Agent Delegation Guide",
@@ -97,7 +143,7 @@
    "updated": "2026-11-01T17:48:02+00:00",
    "ai": false,
    "readme_hash": "d490921a4ae737c2",
-   "readme_changed": false
+   "readme_changed": true
   },
   {
    "title": "Introducing Daily Summary",
@@ -144,7 +190,7 @@
    "updated": "2026-11-01T17:48:02+00:00",
    "ai": false,
    "readme_hash": "33bf732e34204d76",
-   "readme_changed": false
+   "readme_changed": true
   },
   {
    "title": "Introducing Microsoft Copilot Custom Personalization Instructions",

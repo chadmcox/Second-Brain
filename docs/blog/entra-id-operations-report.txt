@@ -1,0 +1,18 @@
+New in my Copilot repo: Entra ID Operations Report.
+
+A read-only check of your Entra tenant against Microsoft's Entra operations reference guide: sync, licensing, MFA, Conditional Access, consent, privileged roles and PIM, access reviews, recommendations. Run it in…
+
+A read-only check of your Microsoft Entra tenant against Microsoft's Microsoft Entra operations reference guide, with a score per area and a fix for every finding. A skill reads the tenant live through the Microsoft MCP Server for Enterprise, so there's no script to run: ask Copilot Cowork or GitHub Copilot in VS Code.
+
+Microsoft's guide has four sections. The report has one area for each, and every finding names the guide section it comes from. The full rule list is in rules.md.
+
+You'll need:
+• PowerShell 7
+• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell
+
+What you get: A scored HTML report with a fix for every finding, tied to the guide section it comes from
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/entra-id-operations-report.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Entra%20ID%20Operations%20Report
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents

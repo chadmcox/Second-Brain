@@ -1,0 +1,18 @@
+New in my Copilot repo: Entra ID Security Review.
+
+A read-only security review of your Entra tenant against the CISA SCuBA Entra ID baseline, the CIS Microsoft 365 benchmark, the Attack and Defense Playbook for Microsoft Entra, and Microsoft, NSA and Mandiant incident…
+
+A skill reads the tenant live through the Microsoft MCP Server for Enterprise, so there's no script to run: ask Copilot Cowork or GitHub Copilot in VS Code.
+
+It complements the Entra ID Operations Report. That one checks day-to-day operations against Microsoft's operations guide; this one checks attack paths against CISA, CIS and incident guidance. Some checks appear in both (legacy authentication, consent, PIM); run both if you can.
+
+You'll need:
+• PowerShell 7
+• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell
+
+What you get: A scored HTML report with the CISA BOD 25-01 count, the attack each finding helps stop, and a fix tied to its CISA, CIS or Playbook source
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/entra-id-security-review.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Entra%20ID%20Security%20Review
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents
