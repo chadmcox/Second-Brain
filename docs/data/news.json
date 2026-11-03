@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T21:43:01Z",
+ "generated": "2026-11-03T19:28:59Z",
  "site": {
   "title": "Copilot & Agent Watch"
  },
@@ -106,7 +106,7 @@
   }
  ],
  "models": {
-  "checked": "2026-11-02T21:43:01Z",
+  "checked": "2026-11-03T19:28:59Z",
   "source": "https://openrouter.ai/api/v1/models",
   "error": "",
   "rows": [
@@ -330,8 +330,8 @@
     "id": "google/gemma-4-26b-a4b-it",
     "lab": "Google",
     "name": "Gemma 4 26B A4B",
-    "input": 0.0765,
-    "output": 0.255,
+    "input": 0.068,
+    "output": 0.204,
     "context": 262144,
     "about": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
     "released": "2026-04-03T14:53:09Z",
@@ -625,7 +625,7 @@
   ]
  },
  "community": {
-  "checked": "2026-11-02T21:43:01Z",
+  "checked": "2026-11-03T19:28:59Z",
   "started": "2026-10-07T04:02:09Z",
   "error": "",
   "rows": [
@@ -633,7 +633,7 @@
     "full_name": "microsoft/skill-recorder",
     "url": "https://github.com/microsoft/skill-recorder",
     "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot SDK to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Autopilots like Scout…",
-    "stars": 5647,
+    "stars": 5666,
     "language": "TypeScript",
     "pushed": "2026-11-02T16:48:54Z",
     "created": "2026-07-29T18:16:14Z",
@@ -642,10 +642,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      4370
-     ],
      [
       "2026-10-25",
       4990
@@ -681,16 +677,53 @@
      [
       "2026-11-02",
       5647
+     ],
+     [
+      "2026-11-03",
+      5666
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 657
+    "gain": 471
+   },
+   {
+    "full_name": "gamedev-skills/awesome-gamedev-agent-skills",
+    "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+    "description": "77 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the format Anthropic launched as Claude Skills), with a router that…",
+    "stars": 6691,
+    "language": "Python",
+    "pushed": "2026-10-28T03:10:14Z",
+    "created": "2026-06-24T07:18:39Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-31",
+      6279
+     ],
+     [
+      "2026-11-01",
+      6418
+     ],
+     [
+      "2026-11-02",
+      6580
+     ],
+     [
+      "2026-11-03",
+      6691
+     ]
+    ],
+    "first_seen": "2026-10-31T17:14:49Z",
+    "gain": 412
    },
    {
     "full_name": "wshobson/agents",
     "url": "https://github.com/wshobson/agents",
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-    "stars": 42113,
+    "stars": 42152,
     "language": "Python",
     "pushed": "2026-11-02T01:08:47Z",
     "created": "2025-07-24T23:28:14Z",
@@ -699,10 +732,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      41627
-     ],
      [
       "2026-10-25",
       41686
@@ -738,28 +767,28 @@
      [
       "2026-11-02",
       42113
+     ],
+     [
+      "2026-11-03",
+      42152
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 427
+    "gain": 372
    },
    {
     "full_name": "github/awesome-copilot",
     "url": "https://github.com/github/awesome-copilot",
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-    "stars": 40727,
+    "stars": 40762,
     "language": "JavaScript",
-    "pushed": "2026-11-02T03:53:09Z",
+    "pushed": "2026-11-03T05:38:59Z",
     "created": "2025-06-11T16:57:39Z",
     "labels": [
      "GitHub Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      40369
-     ],
      [
       "2026-10-25",
       40393
@@ -795,28 +824,28 @@
      [
       "2026-11-02",
       40727
+     ],
+     [
+      "2026-11-03",
+      40762
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 334
+    "gain": 322
    },
    {
     "full_name": "jlcodes99/cockpit-tools",
     "url": "https://github.com/jlcodes99/cockpit-tools",
     "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot /…",
-    "stars": 19642,
+    "stars": 19682,
     "language": "Rust",
-    "pushed": "2026-11-01T07:57:28Z",
+    "pushed": "2026-11-03T15:53:48Z",
     "created": "2026-01-16T07:09:32Z",
     "labels": [
      "GitHub Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      19304
-     ],
      [
       "2026-10-25",
       19335
@@ -852,57 +881,28 @@
      [
       "2026-11-02",
       19642
+     ],
+     [
+      "2026-11-03",
+      19682
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 307
-   },
-   {
-    "full_name": "gamedev-skills/awesome-gamedev-agent-skills",
-    "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
-    "description": "77 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the format Anthropic launched as Claude Skills), with a router that…",
-    "stars": 6580,
-    "language": "Python",
-    "pushed": "2026-10-28T03:10:14Z",
-    "created": "2026-06-24T07:18:39Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-31",
-      6279
-     ],
-     [
-      "2026-11-01",
-      6418
-     ],
-     [
-      "2026-11-02",
-      6580
-     ]
-    ],
-    "first_seen": "2026-10-31T17:14:49Z",
-    "gain": 301
+    "gain": 305
    },
    {
     "full_name": "OthmanAdi/planning-with-files",
     "url": "https://github.com/OthmanAdi/planning-with-files",
     "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion…",
-    "stars": 27837,
+    "stars": 27860,
     "language": "Shell",
-    "pushed": "2026-10-30T20:57:42Z",
+    "pushed": "2026-11-03T02:30:41Z",
     "created": "2026-01-03T07:37:28Z",
     "labels": [
      "GitHub Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      27618
-     ],
      [
       "2026-10-25",
       27637
@@ -938,16 +938,20 @@
      [
       "2026-11-02",
       27837
+     ],
+     [
+      "2026-11-03",
+      27860
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 200
+    "gain": 190
    },
    {
     "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent…",
-    "stars": 144423,
+    "stars": 144438,
     "language": "",
     "pushed": "2026-10-12T15:19:01Z",
     "created": "2025-03-05T16:38:29Z",
@@ -956,10 +960,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      144221
-     ],
      [
       "2026-10-25",
       144242
@@ -995,16 +995,20 @@
      [
       "2026-11-02",
       144423
+     ],
+     [
+      "2026-11-03",
+      144438
      ]
     ],
     "first_seen": "2026-10-12T17:13:19Z",
-    "gain": 181
+    "gain": 168
    },
    {
     "full_name": "microsoft/apm",
     "url": "https://github.com/microsoft/apm",
     "description": "Agent Package Manager",
-    "stars": 4175,
+    "stars": 4180,
     "language": "Python",
     "pushed": "2026-11-02T14:08:47Z",
     "created": "2025-09-18T13:45:22Z",
@@ -1013,10 +1017,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      4116
-     ],
      [
       "2026-10-25",
       4121
@@ -1052,16 +1052,20 @@
      [
       "2026-11-02",
       4175
+     ],
+     [
+      "2026-11-03",
+      4180
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 54
+    "gain": 47
    },
    {
     "full_name": "heilcheng/awesome-agent-skills",
     "url": "https://github.com/heilcheng/awesome-agent-skills",
     "description": "Tutorials, Guides and Agent Skills Directories",
-    "stars": 6337,
+    "stars": 6340,
     "language": "TypeScript",
     "pushed": "2026-11-02T04:02:45Z",
     "created": "2025-12-29T21:13:40Z",
@@ -1070,10 +1074,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      6304
-     ],
      [
       "2026-10-25",
       6308
@@ -1109,16 +1109,20 @@
      [
       "2026-11-02",
       6337
+     ],
+     [
+      "2026-11-03",
+      6340
      ]
     ],
     "first_seen": "2026-10-17T15:34:10Z",
-    "gain": 29
+    "gain": 24
    },
    {
     "full_name": "bradygaster/squad",
     "url": "https://github.com/bradygaster/squad",
     "description": "Squad: AI agent teams for any project",
-    "stars": 3321,
+    "stars": 3322,
     "language": "TypeScript",
     "pushed": "2026-11-02T08:20:40Z",
     "created": "2026-02-06T07:11:36Z",
@@ -1127,10 +1131,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      3304
-     ],
      [
       "2026-10-25",
       3304
@@ -1166,10 +1166,14 @@
      [
       "2026-11-02",
       3321
+     ],
+     [
+      "2026-11-03",
+      3322
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 17
+    "gain": 16
    },
    {
     "full_name": "SeemSeam/claude_codex_bridge",
@@ -1184,10 +1188,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      3595
-     ],
      [
       "2026-10-25",
       3594
@@ -1223,73 +1223,20 @@
      [
       "2026-11-02",
       3609
+     ],
+     [
+      "2026-11-03",
+      3609
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 15
-   },
-   {
-    "full_name": "github/CopilotForXcode",
-    "url": "https://github.com/github/CopilotForXcode",
-    "description": "AI coding assistant for Xcode",
-    "stars": 6364,
-    "language": "Swift",
-    "pushed": "2026-11-02T08:18:40Z",
-    "created": "2024-09-19T17:48:15Z",
-    "labels": [
-     "GitHub Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-24",
-      6350
-     ],
-     [
-      "2026-10-25",
-      6354
-     ],
-     [
-      "2026-10-26",
-      6357
-     ],
-     [
-      "2026-10-27",
-      6356
-     ],
-     [
-      "2026-10-28",
-      6358
-     ],
-     [
-      "2026-10-29",
-      6359
-     ],
-     [
-      "2026-10-30",
-      6360
-     ],
-     [
-      "2026-10-31",
-      6362
-     ],
-     [
-      "2026-11-01",
-      6362
-     ],
-     [
-      "2026-11-02",
-      6364
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 10
+    "gain": 14
    },
    {
     "full_name": "gotalab/cc-sdd",
     "url": "https://github.com/gotalab/cc-sdd",
     "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
-    "stars": 3748,
+    "stars": 3750,
     "language": "TypeScript",
     "pushed": "2026-10-22T03:43:11Z",
     "created": "2025-07-17T04:41:37Z",
@@ -1298,10 +1245,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      3736
-     ],
      [
       "2026-10-25",
       3738
@@ -1337,10 +1280,14 @@
      [
       "2026-11-02",
       3748
+     ],
+     [
+      "2026-11-03",
+      3750
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 10
+    "gain": 9
    },
    {
     "full_name": "kesslernity/awesome-microsoft-copilot-prompts",
@@ -1348,17 +1295,13 @@
     "description": "The definitive Microsoft 365 Copilot prompt library for business teams. 573 prompts for Office apps, Copilot Studio, security operations, and enterprise deployment.",
     "stars": 571,
     "language": "",
-    "pushed": "2026-10-24T10:27:26Z",
+    "pushed": "2026-11-03T09:34:12Z",
     "created": "2026-02-03T18:25:30Z",
     "labels": [
      "Copilot Studio"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      561
-     ],
      [
       "2026-10-25",
       561
@@ -1394,85 +1337,28 @@
      [
       "2026-11-02",
       571
+     ],
+     [
+      "2026-11-03",
+      571
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 10
-   },
-   {
-    "full_name": "cramt/m365-copilot-proxy",
-    "url": "https://github.com/cramt/m365-copilot-proxy",
-    "description": "OpenAI-compatible proxy for Microsoft 365 Copilot — use the Copilot licence you already have as a backend for pi, openclaw and other coding agents. Prompt-emulated tool calling, no extra licence, no MCP.",
-    "stars": 164,
-    "language": "TypeScript",
-    "pushed": "2026-10-19T09:43:30Z",
-    "created": "2026-03-26T21:28:59Z",
-    "labels": [
-     "Microsoft 365 Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-24",
-      155
-     ],
-     [
-      "2026-10-25",
-      156
-     ],
-     [
-      "2026-10-26",
-      159
-     ],
-     [
-      "2026-10-27",
-      159
-     ],
-     [
-      "2026-10-28",
-      159
-     ],
-     [
-      "2026-10-29",
-      161
-     ],
-     [
-      "2026-10-30",
-      164
-     ],
-     [
-      "2026-10-31",
-      164
-     ],
-     [
-      "2026-11-01",
-      165
-     ],
-     [
-      "2026-11-02",
-      164
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 8
+    "gain": 9
    },
    {
     "full_name": "cristiancastineiras/M365CopilotVSCode",
     "url": "https://github.com/cristiancastineiras/M365CopilotVSCode",
     "description": "Bring your Microsoft 365 Copilot subscription into Visual Studio / Code as chat models",
-    "stars": 31,
+    "stars": 33,
     "language": "TypeScript",
-    "pushed": "2026-11-02T05:35:57Z",
+    "pushed": "2026-11-03T11:15:00Z",
     "created": "2026-09-03T17:51:45Z",
     "labels": [
      "Microsoft 365 Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      23
-     ],
      [
       "2026-10-25",
       23
@@ -1508,6 +1394,10 @@
      [
       "2026-11-02",
       31
+     ],
+     [
+      "2026-11-03",
+      33
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
@@ -1526,10 +1416,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      17
-     ],
      [
       "2026-10-25",
       17
@@ -1565,68 +1451,14 @@
      [
       "2026-11-02",
       25
+     ],
+     [
+      "2026-11-03",
+      25
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
     "gain": 8
-   },
-   {
-    "full_name": "kesslernity/awesome-copilot-studio-agents",
-    "url": "https://github.com/kesslernity/awesome-copilot-studio-agents",
-    "description": "103 paste-ready declarative agents for Microsoft 365 Copilot. No coding. No Azure. Deploy in minutes.",
-    "stars": 538,
-    "language": "",
-    "pushed": "2026-10-24T10:27:30Z",
-    "created": "2026-03-24T11:05:53Z",
-    "labels": [
-     "Copilot Studio",
-     "Microsoft 365 Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-24",
-      531
-     ],
-     [
-      "2026-10-25",
-      531
-     ],
-     [
-      "2026-10-26",
-      534
-     ],
-     [
-      "2026-10-27",
-      534
-     ],
-     [
-      "2026-10-28",
-      534
-     ],
-     [
-      "2026-10-29",
-      536
-     ],
-     [
-      "2026-10-30",
-      536
-     ],
-     [
-      "2026-10-31",
-      536
-     ],
-     [
-      "2026-11-01",
-      537
-     ],
-     [
-      "2026-11-02",
-      538
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 7
    },
    {
     "full_name": "microsoft/iq-series",
@@ -1641,10 +1473,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      396
-     ],
      [
       "2026-10-25",
       397
@@ -1680,16 +1508,20 @@
      [
       "2026-11-02",
       403
+     ],
+     [
+      "2026-11-03",
+      403
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 6
+    "gain": 7
    },
    {
     "full_name": "intellectronica/ruler",
     "url": "https://github.com/intellectronica/ruler",
     "description": "Ruler — apply the same rules to all coding agents",
-    "stars": 2956,
+    "stars": 2957,
     "language": "TypeScript",
     "pushed": "2026-10-28T17:08:04Z",
     "created": "2025-05-20T08:22:59Z",
@@ -1698,10 +1530,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      2951
-     ],
      [
       "2026-10-25",
       2952
@@ -1737,10 +1565,357 @@
      [
       "2026-11-02",
       2956
+     ],
+     [
+      "2026-11-03",
+      2957
      ]
     ],
     "first_seen": "2026-10-10T17:20:45Z",
+    "gain": 6
+   },
+   {
+    "full_name": "cramt/m365-copilot-proxy",
+    "url": "https://github.com/cramt/m365-copilot-proxy",
+    "description": "OpenAI-compatible proxy for Microsoft 365 Copilot — use the Copilot licence you already have as a backend for pi, openclaw and other coding agents. Prompt-emulated tool calling, no extra licence, no MCP.",
+    "stars": 165,
+    "language": "TypeScript",
+    "pushed": "2026-10-19T09:43:30Z",
+    "created": "2026-03-26T21:28:59Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-25",
+      156
+     ],
+     [
+      "2026-10-26",
+      159
+     ],
+     [
+      "2026-10-27",
+      159
+     ],
+     [
+      "2026-10-28",
+      159
+     ],
+     [
+      "2026-10-29",
+      161
+     ],
+     [
+      "2026-10-30",
+      164
+     ],
+     [
+      "2026-10-31",
+      164
+     ],
+     [
+      "2026-11-01",
+      165
+     ],
+     [
+      "2026-11-02",
+      164
+     ],
+     [
+      "2026-11-03",
+      165
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 6
+   },
+   {
+    "full_name": "github/CopilotForXcode",
+    "url": "https://github.com/github/CopilotForXcode",
+    "description": "AI coding assistant for Xcode",
+    "stars": 6361,
+    "language": "Swift",
+    "pushed": "2026-11-02T08:18:40Z",
+    "created": "2024-09-19T17:48:15Z",
+    "labels": [
+     "GitHub Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-25",
+      6354
+     ],
+     [
+      "2026-10-26",
+      6357
+     ],
+     [
+      "2026-10-27",
+      6356
+     ],
+     [
+      "2026-10-28",
+      6358
+     ],
+     [
+      "2026-10-29",
+      6359
+     ],
+     [
+      "2026-10-30",
+      6360
+     ],
+     [
+      "2026-10-31",
+      6362
+     ],
+     [
+      "2026-11-01",
+      6362
+     ],
+     [
+      "2026-11-02",
+      6364
+     ],
+     [
+      "2026-11-03",
+      6361
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
     "gain": 4
+   },
+   {
+    "full_name": "kesslernity/awesome-copilot-studio-agents",
+    "url": "https://github.com/kesslernity/awesome-copilot-studio-agents",
+    "description": "103 paste-ready declarative agents for Microsoft 365 Copilot. No coding. No Azure. Deploy in minutes.",
+    "stars": 538,
+    "language": "",
+    "pushed": "2026-11-03T09:34:16Z",
+    "created": "2026-03-24T11:05:53Z",
+    "labels": [
+     "Copilot Studio",
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-25",
+      531
+     ],
+     [
+      "2026-10-26",
+      534
+     ],
+     [
+      "2026-10-27",
+      534
+     ],
+     [
+      "2026-10-28",
+      534
+     ],
+     [
+      "2026-10-29",
+      536
+     ],
+     [
+      "2026-10-30",
+      536
+     ],
+     [
+      "2026-10-31",
+      536
+     ],
+     [
+      "2026-11-01",
+      537
+     ],
+     [
+      "2026-11-02",
+      538
+     ],
+     [
+      "2026-11-03",
+      538
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 4
+   },
+   {
+    "full_name": "pnp/spfx-copilot-components",
+    "url": "https://github.com/pnp/spfx-copilot-components",
+    "description": "Copilot UX Components (SPFx) samples",
+    "stars": 42,
+    "language": "Astro",
+    "pushed": "2026-11-03T08:49:08Z",
+    "created": "2026-06-25T15:35:01Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-25",
+      38
+     ],
+     [
+      "2026-10-26",
+      38
+     ],
+     [
+      "2026-10-27",
+      38
+     ],
+     [
+      "2026-10-28",
+      38
+     ],
+     [
+      "2026-10-29",
+      38
+     ],
+     [
+      "2026-10-30",
+      38
+     ],
+     [
+      "2026-10-31",
+      38
+     ],
+     [
+      "2026-11-01",
+      38
+     ],
+     [
+      "2026-11-02",
+      40
+     ],
+     [
+      "2026-11-03",
+      42
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 4
+   },
+   {
+    "full_name": "josejesusguzman/acordeon-ab-730",
+    "url": "https://github.com/josejesusguzman/acordeon-ab-730",
+    "description": "Este es mi acordeón para ayudarte a pasar la certificación AB-730 de Microsoft, Profesional en Negocios de IA. A pesar de que este acordeón te pueda ayudar te recomiendo que tu principal fuente sea Microsoft Learn.",
+    "stars": 39,
+    "language": "",
+    "pushed": "2026-10-11T00:47:56Z",
+    "created": "2026-08-24T15:32:13Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-25",
+      37
+     ],
+     [
+      "2026-10-26",
+      37
+     ],
+     [
+      "2026-10-27",
+      37
+     ],
+     [
+      "2026-10-28",
+      38
+     ],
+     [
+      "2026-10-29",
+      39
+     ],
+     [
+      "2026-10-30",
+      39
+     ],
+     [
+      "2026-10-31",
+      39
+     ],
+     [
+      "2026-11-01",
+      39
+     ],
+     [
+      "2026-11-02",
+      39
+     ],
+     [
+      "2026-11-03",
+      39
+     ]
+    ],
+    "first_seen": "2026-10-07T04:02:09Z",
+    "gain": 2
+   },
+   {
+    "full_name": "kesslernity/awesome-copilot-agent-skills",
+    "url": "https://github.com/kesslernity/awesome-copilot-agent-skills",
+    "description": "137 custom skills for Microsoft 365 Copilot declarative agents (preview): one SKILL.md folder per skill, upload zips, 25 packs of eight with agent instructions, a limits checker. CC BY-SA 4.0.",
+    "stars": 12,
+    "language": "Python",
+    "pushed": "2026-10-24T09:40:59Z",
+    "created": "2026-09-16T20:57:15Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-10-25",
+      10
+     ],
+     [
+      "2026-10-26",
+      10
+     ],
+     [
+      "2026-10-27",
+      10
+     ],
+     [
+      "2026-10-28",
+      10
+     ],
+     [
+      "2026-10-29",
+      11
+     ],
+     [
+      "2026-10-30",
+      11
+     ],
+     [
+      "2026-10-31",
+      11
+     ],
+     [
+      "2026-11-01",
+      11
+     ],
+     [
+      "2026-11-02",
+      11
+     ],
+     [
+      "2026-11-03",
+      12
+     ]
+    ],
+    "first_seen": "2026-10-07T04:04:23Z",
+    "gain": 2
    },
    {
     "full_name": "kaitranntt/ccs",
@@ -1748,17 +1923,13 @@
     "description": "Switch between Claude accounts, Gemini, Copilot, OpenRouter (300+ models) via CLIProxyAPI OAuth proxy. Visual dashboard, remote proxy support, WebSearch fallback. Zero-config to production-ready.",
     "stars": 2894,
     "language": "TypeScript",
-    "pushed": "2026-10-27T17:17:05Z",
+    "pushed": "2026-11-03T19:29:37Z",
     "created": "2025-11-01T21:01:53Z",
     "labels": [
      "GitHub Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      2892
-     ],
      [
       "2026-10-25",
       2892
@@ -1794,124 +1965,14 @@
      [
       "2026-11-02",
       2894
+     ],
+     [
+      "2026-11-03",
+      2894
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 2
-   },
-   {
-    "full_name": "pnp/spfx-copilot-components",
-    "url": "https://github.com/pnp/spfx-copilot-components",
-    "description": "Copilot UX Components (SPFx) samples",
-    "stars": 40,
-    "language": "Astro",
-    "pushed": "2026-11-02T20:27:30Z",
-    "created": "2026-06-25T15:35:01Z",
-    "labels": [
-     "Microsoft 365 Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-24",
-      38
-     ],
-     [
-      "2026-10-25",
-      38
-     ],
-     [
-      "2026-10-26",
-      38
-     ],
-     [
-      "2026-10-27",
-      38
-     ],
-     [
-      "2026-10-28",
-      38
-     ],
-     [
-      "2026-10-29",
-      38
-     ],
-     [
-      "2026-10-30",
-      38
-     ],
-     [
-      "2026-10-31",
-      38
-     ],
-     [
-      "2026-11-01",
-      38
-     ],
-     [
-      "2026-11-02",
-      40
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 2
-   },
-   {
-    "full_name": "josejesusguzman/acordeon-ab-730",
-    "url": "https://github.com/josejesusguzman/acordeon-ab-730",
-    "description": "Este es mi acordeón para ayudarte a pasar la certificación AB-730 de Microsoft, Profesional en Negocios de IA. A pesar de que este acordeón te pueda ayudar te recomiendo que tu principal fuente sea Microsoft Learn.",
-    "stars": 39,
-    "language": "",
-    "pushed": "2026-10-11T00:47:56Z",
-    "created": "2026-08-24T15:32:13Z",
-    "labels": [
-     "Microsoft 365 Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-24",
-      37
-     ],
-     [
-      "2026-10-25",
-      37
-     ],
-     [
-      "2026-10-26",
-      37
-     ],
-     [
-      "2026-10-27",
-      37
-     ],
-     [
-      "2026-10-28",
-      38
-     ],
-     [
-      "2026-10-29",
-      39
-     ],
-     [
-      "2026-10-30",
-      39
-     ],
-     [
-      "2026-10-31",
-      39
-     ],
-     [
-      "2026-11-01",
-      39
-     ],
-     [
-      "2026-11-02",
-      39
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 2
+    "gain": 1
    },
    {
     "full_name": "microsoft/ConsumptionCentral-for-Microsoft-Copilot",
@@ -1919,17 +1980,13 @@
     "description": "One Power BI template for Microsoft Copilot credit consumption and cost - Cowork/Work IQ, Copilot Studio, GitHub Copilot and Azure AI Foundry.",
     "stars": 31,
     "language": "TypeScript",
-    "pushed": "2026-11-02T21:32:43Z",
+    "pushed": "2026-11-03T10:05:40Z",
     "created": "2026-08-09T19:54:55Z",
     "labels": [
      "Copilot Studio"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      29
-     ],
      [
       "2026-10-25",
       29
@@ -1965,10 +2022,14 @@
      [
       "2026-11-02",
       31
+     ],
+     [
+      "2026-11-03",
+      31
      ]
     ],
     "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 2
+    "gain": 1
    },
    {
     "full_name": "timothywarner-org/ab900",
@@ -1985,10 +2046,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-24",
-      28
-     ],
-     [
       "2026-10-25",
       28
      ],
@@ -2022,67 +2079,14 @@
      ],
      [
       "2026-11-02",
+      29
+     ],
+     [
+      "2026-11-03",
       29
      ]
     ],
     "first_seen": "2026-10-20T17:03:16Z",
-    "gain": 1
-   },
-   {
-    "full_name": "kesslernity/awesome-copilot-agent-skills",
-    "url": "https://github.com/kesslernity/awesome-copilot-agent-skills",
-    "description": "137 custom skills for Microsoft 365 Copilot declarative agents (preview): one SKILL.md folder per skill, upload zips, 25 packs of eight with agent instructions, a limits checker. CC BY-SA 4.0.",
-    "stars": 11,
-    "language": "Python",
-    "pushed": "2026-10-24T09:40:59Z",
-    "created": "2026-09-16T20:57:15Z",
-    "labels": [
-     "Microsoft 365 Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-24",
-      10
-     ],
-     [
-      "2026-10-25",
-      10
-     ],
-     [
-      "2026-10-26",
-      10
-     ],
-     [
-      "2026-10-27",
-      10
-     ],
-     [
-      "2026-10-28",
-      10
-     ],
-     [
-      "2026-10-29",
-      11
-     ],
-     [
-      "2026-10-30",
-      11
-     ],
-     [
-      "2026-10-31",
-      11
-     ],
-     [
-      "2026-11-01",
-      11
-     ],
-     [
-      "2026-11-02",
-      11
-     ]
-    ],
-    "first_seen": "2026-10-07T04:04:23Z",
     "gain": 1
    },
    {
@@ -2091,7 +2095,7 @@
     "description": "Personal-use MCP server that gives Microsoft 365 Copilot real hands on your own laptop: files, Python, Office, SQL, Web. 100+ tools, autonomous relay, easily extensible, no extra licences.",
     "stars": 11,
     "language": "Python",
-    "pushed": "2026-11-02T20:34:35Z",
+    "pushed": "2026-11-03T19:25:47Z",
     "created": "2026-05-27T10:53:31Z",
     "labels": [
      "Copilot Studio",
@@ -2099,10 +2103,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      10
-     ],
      [
       "2026-10-25",
       10
@@ -2137,6 +2137,10 @@
      ],
      [
       "2026-11-02",
+      11
+     ],
+     [
+      "2026-11-03",
       11
      ]
     ],
@@ -2157,10 +2161,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-24",
-      10
-     ],
-     [
       "2026-10-25",
       10
      ],
@@ -2194,68 +2194,14 @@
      ],
      [
       "2026-11-02",
+      11
+     ],
+     [
+      "2026-11-03",
       11
      ]
     ],
     "first_seen": "2026-10-21T17:11:27Z",
-    "gain": 1
-   },
-   {
-    "full_name": "microsoft/AnalyticsHub-Dashboard",
-    "url": "https://github.com/microsoft/AnalyticsHub-Dashboard",
-    "description": "One installer sets up an app on Microsoft Fabric or Azure that shows Microsoft 365 Copilot and agent adoption, value, consumption and governance.",
-    "stars": 10,
-    "language": "JavaScript",
-    "pushed": "2026-11-02T21:29:25Z",
-    "created": "2026-10-12T11:58:04Z",
-    "labels": [
-     "Copilot Studio",
-     "Microsoft 365 Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-24",
-      9
-     ],
-     [
-      "2026-10-25",
-      9
-     ],
-     [
-      "2026-10-26",
-      9
-     ],
-     [
-      "2026-10-27",
-      9
-     ],
-     [
-      "2026-10-28",
-      9
-     ],
-     [
-      "2026-10-29",
-      9
-     ],
-     [
-      "2026-10-30",
-      10
-     ],
-     [
-      "2026-10-31",
-      10
-     ],
-     [
-      "2026-11-01",
-      10
-     ],
-     [
-      "2026-11-02",
-      10
-     ]
-    ],
-    "first_seen": "2026-10-17T15:34:10Z",
     "gain": 1
    },
    {
@@ -2272,10 +2218,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-24",
-      5
-     ],
-     [
       "2026-10-25",
       5
      ],
@@ -2310,43 +2252,35 @@
      [
       "2026-11-02",
       6
+     ],
+     [
+      "2026-11-03",
+      6
      ]
     ],
     "first_seen": "2026-10-22T17:09:48Z",
     "gain": 1
    },
    {
-    "full_name": "intitni/CopilotForXcode",
-    "url": "https://github.com/intitni/CopilotForXcode",
-    "description": "The first GitHub Copilot, Codeium and ChatGPT Xcode Source Editor Extension",
-    "stars": 8205,
-    "language": "Swift",
-    "pushed": "2026-10-24T17:00:44Z",
-    "created": "2022-12-05T16:08:32Z",
+    "full_name": "Oldcircle/geo-sleuth",
+    "url": "https://github.com/Oldcircle/geo-sleuth",
+    "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and…",
+    "stars": 5767,
+    "language": "Python",
+    "pushed": "2026-11-03T10:52:24Z",
+    "created": "2026-09-18T08:51:34Z",
     "labels": [
      "GitHub Copilot"
     ],
     "pinned": false,
     "log": [
      [
-      "2026-10-30",
-      8205
-     ],
-     [
-      "2026-10-31",
-      8205
-     ],
-     [
-      "2026-11-01",
-      8206
-     ],
-     [
-      "2026-11-02",
-      8205
+      "2026-11-03",
+      5767
      ]
     ],
-    "first_seen": "2026-10-30T17:59:49Z",
-    "gain": 0
+    "first_seen": "2026-11-03T19:28:59Z",
+    "gain": null
    },
    {
     "full_name": "microsoft/FastTrack",
@@ -2354,7 +2288,7 @@
     "description": "Field-tested guides, agents, scripts, and analytics from Microsoft FastTrack to plan, deploy, govern, and measure Microsoft 365 Copilot and Agent 365.",
     "stars": 230,
     "language": "HTML",
-    "pushed": "2026-11-02T20:01:35Z",
+    "pushed": "2026-11-03T06:03:46Z",
     "created": "2018-03-05T14:31:58Z",
     "labels": [
      "Copilot Studio",
@@ -2381,6 +2315,10 @@
      [
       "2026-11-02",
       230
+     ],
+     [
+      "2026-11-03",
+      230
      ]
     ],
     "first_seen": "2026-10-29T18:28:15Z",
@@ -2392,7 +2330,7 @@
     "description": "82 ready-to-deploy agents for Microsoft Copilot Chat, no Copilot Premium required. Paste the instruction block into the Copilot Studio builder. Writing, HR, PM, IT ops, Sales, Finance, Engineering and more. RAI…",
     "stars": 113,
     "language": "",
-    "pushed": "2026-10-24T10:27:35Z",
+    "pushed": "2026-11-03T09:34:20Z",
     "created": "2026-05-27T12:46:48Z",
     "labels": [
      "Copilot Studio",
@@ -2400,10 +2338,6 @@
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      113
-     ],
      [
       "2026-10-25",
       113
@@ -2438,6 +2372,10 @@
      ],
      [
       "2026-11-02",
+      113
+     ],
+     [
+      "2026-11-03",
       113
      ]
     ],
@@ -2449,8 +2387,8 @@
     "url": "https://github.com/kesslernity/awesome-copilot-cowork-skills",
     "description": "37 folder-drop skills for Microsoft 365 Copilot Cowork. 21 workflow skills plus a 16-persona executive review board. Drop a folder into OneDrive, no admin, no app package. The same SKILL.md files run verbatim in Claude…",
     "stars": 40,
-    "language": "",
-    "pushed": "2026-10-24T09:40:54Z",
+    "language": "Python",
+    "pushed": "2026-11-03T09:34:14Z",
     "created": "2026-06-11T08:53:36Z",
     "labels": [
      "Microsoft 365 Copilot"
@@ -2458,10 +2396,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-24",
-      40
-     ],
-     [
       "2026-10-25",
       40
      ],
@@ -2496,63 +2430,9 @@
      [
       "2026-11-02",
       40
-     ]
-    ],
-    "first_seen": "2026-10-07T04:02:09Z",
-    "gain": 0
-   },
-   {
-    "full_name": "timothywarner-org/ab100",
-    "url": "https://github.com/timothywarner-org/ab100",
-    "description": "Exam AB-100: Agentic AI Business Solutions Architect",
-    "stars": 40,
-    "language": "Bicep",
-    "pushed": "2026-09-19T16:08:12Z",
-    "created": "2025-11-20T20:56:22Z",
-    "labels": [
-     "Copilot Studio",
-     "Microsoft 365 Copilot"
-    ],
-    "pinned": false,
-    "log": [
-     [
-      "2026-10-24",
-      39
      ],
      [
-      "2026-10-25",
-      40
-     ],
-     [
-      "2026-10-26",
-      40
-     ],
-     [
-      "2026-10-27",
-      40
-     ],
-     [
-      "2026-10-28",
-      40
-     ],
-     [
-      "2026-10-29",
-      40
-     ],
-     [
-      "2026-10-30",
-      40
-     ],
-     [
-      "2026-10-31",
-      40
-     ],
-     [
-      "2026-11-01",
-      40
-     ],
-     [
-      "2026-11-02",
+      "2026-11-03",
       40
      ]
     ],
@@ -2573,10 +2453,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-24",
-      33
-     ],
-     [
       "2026-10-25",
       33
      ],
@@ -2610,6 +2486,10 @@
      ],
      [
       "2026-11-02",
+      33
+     ],
+     [
+      "2026-11-03",
       33
      ]
     ],
@@ -2630,10 +2510,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-24",
-      21
-     ],
-     [
       "2026-10-25",
       21
      ],
@@ -2667,6 +2543,10 @@
      ],
      [
       "2026-11-02",
+      21
+     ],
+     [
+      "2026-11-03",
       21
      ]
     ],
@@ -2679,17 +2559,13 @@
     "description": "Workspace Architect is a zero-friction CLI tool that provides curated collections of specialized agents, instructions, and prompts to supercharge your GitHub Copilot experience.",
     "stars": 19,
     "language": "Python",
-    "pushed": "2026-11-02T04:12:37Z",
+    "pushed": "2026-11-03T02:13:51Z",
     "created": "2025-11-21T21:59:18Z",
     "labels": [
      "Microsoft 365 Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      19
-     ],
      [
       "2026-10-25",
       19
@@ -2724,6 +2600,10 @@
      ],
      [
       "2026-11-02",
+      19
+     ],
+     [
+      "2026-11-03",
       19
      ]
     ],
@@ -2744,10 +2624,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-24",
-      10
-     ],
-     [
       "2026-10-25",
       10
      ],
@@ -2781,6 +2657,10 @@
      ],
      [
       "2026-11-02",
+      10
+     ],
+     [
+      "2026-11-03",
       10
      ]
     ],
@@ -2801,10 +2681,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-24",
-      10
-     ],
-     [
       "2026-10-25",
       10
      ],
@@ -2839,10 +2715,36 @@
      [
       "2026-11-02",
       10
+     ],
+     [
+      "2026-11-03",
+      10
      ]
     ],
     "first_seen": "2026-10-19T18:42:52Z",
     "gain": 0
+   },
+   {
+    "full_name": "microsoft/DataHub",
+    "url": "https://github.com/microsoft/DataHub",
+    "description": "One installer sets up an app on Microsoft Fabric or Azure that shows Microsoft 365 Copilot and agent adoption, value, consumption and governance.",
+    "stars": 10,
+    "language": "JavaScript",
+    "pushed": "2026-11-03T19:24:38Z",
+    "created": "2026-10-12T11:58:04Z",
+    "labels": [
+     "Copilot Studio",
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-11-03",
+      10
+     ]
+    ],
+    "first_seen": "2026-11-03T19:28:59Z",
+    "gain": null
    },
    {
     "full_name": "microsoft/cowork-investment-assessment",
@@ -2858,10 +2760,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-24",
-      9
-     ],
-     [
       "2026-10-25",
       9
      ],
@@ -2895,6 +2793,10 @@
      ],
      [
       "2026-11-02",
+      9
+     ],
+     [
+      "2026-11-03",
       9
      ]
     ],
@@ -2907,17 +2809,13 @@
     "description": "A Tampermonkey userscript for exporting M365 Copilot Chat conversations from the Microsoft 365 work/school chat experience as both raw JSON and readable Markdown",
     "stars": 9,
     "language": "JavaScript",
-    "pushed": "2026-11-01T15:12:42Z",
+    "pushed": "2026-11-03T16:15:46Z",
     "created": "2026-05-12T14:48:30Z",
     "labels": [
      "Microsoft 365 Copilot"
     ],
     "pinned": false,
     "log": [
-     [
-      "2026-10-24",
-      9
-     ],
      [
       "2026-10-25",
       9
@@ -2952,6 +2850,10 @@
      ],
      [
       "2026-11-02",
+      9
+     ],
+     [
+      "2026-11-03",
       9
      ]
     ],
@@ -2978,67 +2880,35 @@
      [
       "2026-11-02",
       8
+     ],
+     [
+      "2026-11-03",
+      8
      ]
     ],
     "first_seen": "2026-11-01T17:46:29Z",
     "gain": 0
    },
    {
-    "full_name": "site-speed/M365-Copilot-Chat-Export-extension",
-    "url": "https://github.com/site-speed/M365-Copilot-Chat-Export-extension",
-    "description": "A Chromium extension for exporting M365 Copilot Chat conversations from the Microsoft 365 work/school chat experience as both raw JSON and readable Markdown.",
-    "stars": 7,
-    "language": "JavaScript",
-    "pushed": "2026-11-01T14:58:57Z",
-    "created": "2026-05-12T14:50:42Z",
+    "full_name": "microsoft/frontiertour27-BRK231-trusted-ai-at-scale-foundry-to-agent-365",
+    "url": "https://github.com/microsoft/frontiertour27-BRK231-trusted-ai-at-scale-foundry-to-agent-365",
+    "description": "",
+    "stars": 8,
+    "language": "",
+    "pushed": "2026-10-22T19:43:26Z",
+    "created": "2026-08-10T20:31:27Z",
     "labels": [
-     "Microsoft 365 Copilot"
+     "Copilot Studio"
     ],
     "pinned": false,
     "log": [
      [
-      "2026-10-24",
-      7
-     ],
-     [
-      "2026-10-25",
-      7
-     ],
-     [
-      "2026-10-26",
-      7
-     ],
-     [
-      "2026-10-27",
-      7
-     ],
-     [
-      "2026-10-28",
-      7
-     ],
-     [
-      "2026-10-29",
-      7
-     ],
-     [
-      "2026-10-30",
-      7
-     ],
-     [
-      "2026-10-31",
-      7
-     ],
-     [
-      "2026-11-01",
-      7
-     ],
-     [
-      "2026-11-02",
-      7
+      "2026-11-03",
+      8
      ]
     ],
-    "first_seen": "2026-10-07T04:04:23Z",
-    "gain": 0
+    "first_seen": "2026-11-03T19:28:59Z",
+    "gain": null
    },
    {
     "full_name": "Yugpat1835/awesome-copilot-cowork-skills",
@@ -3054,10 +2924,6 @@
     "pinned": false,
     "log": [
      [
-      "2026-10-24",
-      6
-     ],
-     [
       "2026-10-25",
       6
      ],
@@ -3092,16 +2958,41 @@
      [
       "2026-11-02",
       6
+     ],
+     [
+      "2026-11-03",
+      6
      ]
     ],
     "first_seen": "2026-10-15T17:00:16Z",
     "gain": 0
+   },
+   {
+    "full_name": "kesslernity/awesome-copilot-office-skills",
+    "url": "https://github.com/kesslernity/awesome-copilot-office-skills",
+    "description": "Draw, tidy and check decks and workbooks inside Copilot in PowerPoint and Excel. 27 skills: build diagrams from your content as editable native shapes, strip the AI tone out of slide text, check a deck makes one…",
+    "stars": 5,
+    "language": "Python",
+    "pushed": "2026-10-25T20:46:23Z",
+    "created": "2026-10-24T09:27:22Z",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "pinned": false,
+    "log": [
+     [
+      "2026-11-03",
+      5
+     ]
+    ],
+    "first_seen": "2026-11-03T19:28:59Z",
+    "gain": null
    }
   ]
  },
  "upcoming": {
-  "checked": "2026-11-01T17:55:36Z",
-  "error": "Microsoft 365 Copilot: MCP server answered HTTP 403: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'…; Copilot Studio: MCP server answered HTTP 403: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'…; Work IQ: MCP server answered HTTP 403: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'…; Entra: MCP server answered HTTP 403: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'…; Purview: MCP server answered HTTP 403: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'…; Microsoft Foundry: MCP server answered HTTP 403: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'…; Azure Copilot: MCP server answered HTTP 403: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'…; Security: MCP server answered HTTP 403: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'…",
+  "checked": "2026-11-03T19:28:59Z",
+  "error": "",
   "rows": [
    {
     "key": "azure:573385",
@@ -3127,106 +3018,6 @@
     "clouds": [],
     "url": "https://azure.microsoft.com/updates?id=573385",
     "modified": "2026-09-30T17:09:51.5337578Z"
-   },
-   {
-    "key": "azure:571826",
-    "id": "571826",
-    "kind": "azure",
-    "labels": [
-     "Microsoft Foundry"
-    ],
-    "title": "Generally Available: Enable and disable controls for Microsoft Foundry agents in Agent 365",
-    "description": "Microsoft Foundry now exposes enable and disable actions for Foundry agent objects within the Agent 365 governance surface in Microsoft Admin Center, generally available. Administrators can control wh…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "Launched",
-    "products": [
-     "Microsoft Foundry"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=571826",
-    "modified": "2026-09-18T17:24:02.0816279Z"
-   },
-   {
-    "key": "azure:571816",
-    "id": "571816",
-    "kind": "azure",
-    "labels": [
-     "Microsoft Foundry"
-    ],
-    "title": "Generally Available: Publishing Microsoft Foundry agents to Microsoft 365 Copilot and Teams",
-    "description": "Publishing Microsoft Foundry agents to Microsoft 365 Copilot and Teams is now generally available. An agent only delivers value once it reaches the people who need it, and Foundry developers previousl…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "Launched",
-    "products": [
-     "Microsoft Foundry"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=571816",
-    "modified": "2026-09-18T17:21:06.4634401Z"
-   },
-   {
-    "key": "azure:563536",
-    "id": "563536",
-    "kind": "azure",
-    "labels": [
-     "Microsoft Foundry"
-    ],
-    "title": "Public Preview: Foundry Routines in Foundry Agent Service",
-    "description": "In public preview, Foundry Agent Service adds Foundry Routines, a native trigger primitive for running published agents automatically. Production agents often need to run on a schedule or when a busin…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "In preview",
-    "products": [
-     "Microsoft Foundry"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=563536",
-    "modified": "2026-09-18T19:10:53.5185011Z"
-   },
-   {
-    "key": "azure:571821",
-    "id": "571821",
-    "kind": "azure",
-    "labels": [
-     "Microsoft Foundry"
-    ],
-    "title": "Public Preview: Network egress controls for hosted agents in Microsoft Foundry",
-    "description": "In public preview, Microsoft Foundry now lets customers govern the outbound connections a hosted agent can make. Customers author ordered rules matched on destination host, including FQDN with wildcar…",
-    "month": "2026-09",
-    "milestone": "Announced",
-    "milestones": [
-     {
-      "month": "2026-09",
-      "ring": "Announced"
-     }
-    ],
-    "status": "In preview",
-    "products": [
-     "Microsoft Foundry"
-    ],
-    "clouds": [],
-    "url": "https://azure.microsoft.com/updates?id=571821",
-    "modified": "2026-09-18T17:23:21.3964293Z"
    },
    {
     "key": "azure:578153",
@@ -4275,34 +4066,6 @@
     "modified": "2026-07-28T22:43:45.1902826Z"
    },
    {
-    "key": "m365:558933",
-    "id": "558933",
-    "kind": "m365",
-    "labels": [
-     "Microsoft 365 Copilot"
-    ],
-    "title": "Microsoft Teams: AI-generated meeting memory for knowledge retention (formerly AI-generated meeting archive)",
-    "description": "Teams will store AI-generated meeting memory files for meetings where Intelligent Recap was turned on, allowing Copilot (and Facilitator) to retain key insights from meetings beyond transcript retenti…",
-    "month": "2026-11",
-    "milestone": "General availability",
-    "milestones": [
-     {
-      "month": "2026-11",
-      "ring": "General availability"
-     }
-    ],
-    "status": "In development",
-    "products": [
-     "Microsoft Teams",
-     "Microsoft Copilot (Microsoft 365)"
-    ],
-    "clouds": [
-     "Worldwide (Standard Multi-Tenant)"
-    ],
-    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=558933",
-    "modified": "2026-10-13T23:01:05.8995658Z"
-   },
-   {
     "key": "m365:560700",
     "id": "560700",
     "kind": "m365",
@@ -4463,7 +4226,7 @@
       "ring": "General availability"
      }
     ],
-    "status": "In development",
+    "status": "Rolling out",
     "products": [
      "Planner",
      "Microsoft Copilot (Microsoft 365)"
@@ -4472,7 +4235,35 @@
      "Worldwide (Standard Multi-Tenant)"
     ],
     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=567315",
-    "modified": "2026-10-21T23:02:10.3273945Z"
+    "modified": "2026-11-03T00:14:11.2188096Z"
+   },
+   {
+    "key": "m365:566314",
+    "id": "566314",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Planner: Save AI-generated filters in Planner Agent chat",
+    "description": "Save AI-filters generated by the Planner Agent for future use on your plans.",
+    "month": "2026-11",
+    "milestone": "General availability",
+    "milestones": [
+     {
+      "month": "2026-11",
+      "ring": "General availability"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Planner",
+     "Microsoft Copilot (Microsoft 365)"
+    ],
+    "clouds": [
+     "Worldwide (Standard Multi-Tenant)"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=566314",
+    "modified": "2026-11-03T00:14:11.2188096Z"
    },
    {
     "key": "m365:570852",
@@ -5036,6 +4827,36 @@
     "modified": "2026-02-06T00:00:51.3877603Z"
    },
    {
+    "key": "m365:573170",
+    "id": "573170",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Microsoft Copilot (Microsoft 365): New Microsoft 365 Copilot usage reports for Copilot Search, Connectors, and Agents for US Government customers",
+    "description": "We are introducing new Microsoft 365 Copilot usage reports for Copilot Search, Copilot Connectors, and Copilot Agents for US Government customers across GCC Moderate, GCC High, and DoD environments. T…",
+    "month": "2026-12",
+    "milestone": "General availability",
+    "milestones": [
+     {
+      "month": "2026-12",
+      "ring": "General availability"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Microsoft Copilot (Microsoft 365)",
+     "Microsoft 365 admin center"
+    ],
+    "clouds": [
+     "GCC",
+     "GCC High",
+     "DoD"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573170",
+    "modified": "2026-11-03T00:14:11.2188096Z"
+   },
+   {
     "key": "m365:553213",
     "id": "553213",
     "kind": "m365",
@@ -5572,6 +5393,34 @@
     "modified": "2026-10-12T23:01:05.1232604Z"
    },
    {
+    "key": "m365:558933",
+    "id": "558933",
+    "kind": "m365",
+    "labels": [
+     "Microsoft 365 Copilot"
+    ],
+    "title": "Microsoft Teams: AI-generated meeting memory for knowledge retention (formerly AI-generated meeting archive)",
+    "description": "Teams will store AI-generated meeting memory files for meetings where Intelligent Recap was turned on, allowing Copilot (and Facilitator) to retain key insights from meetings beyond transcript retenti…",
+    "month": "2027-01",
+    "milestone": "General availability",
+    "milestones": [
+     {
+      "month": "2027-01",
+      "ring": "General availability"
+     }
+    ],
+    "status": "In development",
+    "products": [
+     "Microsoft Teams",
+     "Microsoft Copilot (Microsoft 365)"
+    ],
+    "clouds": [
+     "Worldwide (Standard Multi-Tenant)"
+    ],
+    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=558933",
+    "modified": "2026-11-03T00:14:11.2188096Z"
+   },
+   {
     "key": "m365:570427",
     "id": "570427",
     "kind": "m365",
@@ -6086,9 +5935,9 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 30
+   "count": 28
   },
   {
    "id": "tc-agent365",
@@ -6100,7 +5949,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 2
   },
@@ -6113,10 +5962,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 1,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 21
+   "count": 20
   },
   {
    "id": "tc-defender",
@@ -6128,9 +5977,9 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 8
+   "count": 7
   },
   {
    "id": "copilot-studio",
@@ -6142,7 +5991,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 9
   },
@@ -6155,10 +6004,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 1,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 46
+   "count": 47
   },
   {
    "id": "gh-blog-copilot",
@@ -6170,7 +6019,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 14
   },
@@ -6184,7 +6033,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 0
   },
@@ -6198,9 +6047,9 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 6
+   "count": 5
   },
   {
    "id": "ms-official",
@@ -6212,7 +6061,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 1
   },
@@ -6223,12 +6072,12 @@
    "group": "microsoft",
    "company": "",
    "type": "rss",
-   "ok": false,
-   "error": "HTTP 403 Forbidden",
-   "new": 0,
-   "last_ok": "2026-11-01T17:55:36Z",
+   "ok": true,
+   "error": "",
+   "new": 2,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 169
+   "count": 166
   },
   {
    "id": "learn-copilot-release-notes",
@@ -6240,9 +6089,9 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 105
+   "count": 94
   },
   {
    "id": "learn-cowork-whats-new",
@@ -6253,10 +6102,10 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 2,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 15
+   "count": 17
   },
   {
    "id": "learn-scout-whats-new",
@@ -6268,7 +6117,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 6
   },
@@ -6282,7 +6131,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 5
   },
@@ -6295,10 +6144,10 @@
    "type": "learn",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 1,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 14
+   "count": 15
   },
   {
    "id": "learn-mdi",
@@ -6310,7 +6159,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 11
   },
@@ -6324,7 +6173,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 2
   },
@@ -6338,9 +6187,9 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 24
+   "count": 22
   },
   {
    "id": "learn-entra",
@@ -6352,7 +6201,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 0
   },
@@ -6366,7 +6215,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 16
   },
@@ -6380,7 +6229,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 60
   },
@@ -6394,7 +6243,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 7
   },
@@ -6407,8 +6256,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 3,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 6,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 136
   },
@@ -6421,10 +6270,10 @@
    "type": "page",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 1,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 32
+   "count": 33
   },
   {
    "id": "google",
@@ -6436,7 +6285,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 33
   },
@@ -6450,9 +6299,9 @@
    "ok": true,
    "error": "",
    "new": 1,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 31
+   "count": 29
   },
   {
    "id": "google-workspace",
@@ -6463,10 +6312,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 1,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 27
+   "count": 28
   },
   {
    "id": "xai",
@@ -6477,10 +6326,10 @@
    "type": "page",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 0,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 30
+   "count": 25
   },
   {
    "id": "meta-ai",
@@ -6492,9 +6341,9 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 1
+   "count": 0
   },
   {
    "id": "meta-news",
@@ -6506,7 +6355,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 6
   },
@@ -6520,7 +6369,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 14
   },
@@ -6533,8 +6382,8 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 0,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
    "count": 26
   },
@@ -6547,10 +6396,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 1,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 5,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 15
+   "count": 20
   },
   {
    "id": "nvidia",
@@ -6561,10 +6410,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 2,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 47
+   "count": 49
   },
   {
    "id": "amd",
@@ -6576,9 +6425,9 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 5
+   "count": 4
   },
   {
    "id": "huggingface",
@@ -6589,10 +6438,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 4,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 78
+   "count": 82
   },
   {
    "id": "ms-threat-intel",
@@ -6604,9 +6453,9 @@
    "ok": true,
    "error": "",
    "new": 1,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 16
+   "count": 17
   },
   {
    "id": "therecord",
@@ -6617,10 +6466,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 3,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 1,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 47
+   "count": 48
   },
   {
    "id": "bleepingcomputer",
@@ -6631,10 +6480,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 7,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 4,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 113
+   "count": 117
   },
   {
    "id": "thehackernews",
@@ -6645,10 +6494,10 @@
    "type": "rss",
    "ok": true,
    "error": "",
-   "new": 5,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 7,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "",
-   "count": 129
+   "count": 136
   },
   {
    "id": "yt-m365",
@@ -6659,10 +6508,10 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 1,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "UCc3pNIRzIZ8ynI38GO6H01Q",
-   "count": 26
+   "count": 24
   },
   {
    "id": "yt-mechanics",
@@ -6674,7 +6523,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "UCJ9905MRHxwLZ2jeNQGIWxA",
    "count": 24
   },
@@ -6688,7 +6537,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "UCn8PsBlVsGUt8J3tZCKsMPA",
    "count": 4
   },
@@ -6702,7 +6551,7 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "UC4s3tv0Qq_OSUBfR735Jc6A",
    "count": 9
   },
@@ -6716,9 +6565,9 @@
    "ok": true,
    "error": "",
    "new": 2,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "UCsMica-v34Irf9KVTh6xx-g",
-   "count": 37
+   "count": 39
   },
   {
    "id": "yt-github",
@@ -6729,8 +6578,8 @@
    "type": "youtube",
    "ok": true,
    "error": "",
-   "new": 2,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "new": 0,
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "UC7c3Kb6jYCRj4JOHHZTxKsQ",
    "count": 30
   },
@@ -6744,12 +6593,628 @@
    "ok": true,
    "error": "",
    "new": 0,
-   "last_ok": "2026-11-02T21:43:01Z",
+   "last_ok": "2026-11-03T19:28:59Z",
    "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "count": 13
   }
  ],
  "items": [
+  {
+   "id": "77eef035ebfc",
+   "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+   "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+   "published": "2026-11-03T18:51:04Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8afc2fab5966",
+   "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+   "published": "2026-11-03T18:16:19Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats",
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week. \"An external attacker gained unauthorized access to part of",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c12f1b8dac80",
+   "url": "https://therecord.media/british-businesses-caught-in-europe-wide-supermarket-fridge-attacks",
+   "title": "British businesses caught in Europe-wide supermarket fridge attacks",
+   "published": "2026-11-03T17:43:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "therecord",
+   "group": "security",
+   "company": "The Record",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Supermarket and grocery store refrigerator controls across Europe were hacked in the early hours of Monday in the second such wave of attacks in recent weeks — following a first wave in France — with unidentified perpetrators defrosting fridges and causing stock to spoil.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "86c38c1e82c9",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+   "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+   "published": "2026-11-03T17:32:47Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "ms-threat-intel",
+   "group": "security",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "a55665cf4895",
+   "url": "https://huggingface.co/blog/allenai/statebench",
+   "title": "StateBench: Testing how language models track state changes over long documents",
+   "published": "2026-11-03T17:15:21Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "7b04a568c5ad",
+   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "published": "2026-11-03T17:01:49Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "deepmind",
+   "group": "competitor",
+   "company": "Google",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "19a35a6714f9",
+   "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+   "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+   "published": "2026-11-03T16:55:58Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats",
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers. \"It was not a single isolated breach or a simple phishing incident,\"",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "bc4177032a04",
+   "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+   "title": "Palette: teaching a small model to build decks in your design language",
+   "published": "2026-11-03T16:35:36Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c90cd6cc0c02",
+   "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+   "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+   "published": "2026-11-03T16:00:45Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "ff1e1eee3a59",
+   "url": "https://www.youtube.com/shorts/Er0AYcDuZeA",
+   "title": "What does it really take to ship an AI agent?",
+   "published": "2026-11-03T16:00:07Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "yt-developer",
+   "group": "video",
+   "company": "Microsoft Developer",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "Full episode: https://youtu.be/gF2RMvXput8 Foundry portal: https://aka.ms/foundry-portal Meet Sparkles, a cupcake-ordering agent built with Microsoft Foundry and Microsoft Agent Framework. Follow the full development cycle: connect to a deployed model, load the shop’s persona and welcome banner from MCP prompts, call live Cupcake Store tools, inspect execution traces, and evaluate the resulting conversations.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "310fe7a6e4c3",
+   "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+   "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+   "published": "2026-11-03T15:41:53Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "9c22661ce9de",
+   "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+   "title": "GitHub Copilot is now available in JetBrains Air",
+   "published": "2026-11-03T15:11:46Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "gh-changelog-copilot",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "githubcopilot"
+   ],
+   "status": "ga",
+   "excerpt": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "f6282e8c323a",
+   "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+   "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+   "published": "2026-11-03T15:00:10Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "ai-threats"
+   ],
+   "status": "",
+   "excerpt": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection engineering to threat hunting and exposure management. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "c136875d05ca",
+   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "published": "2026-11-03T14:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "ai-threats",
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "26c6032e1d26",
+   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+   "title": "Accelerating engineering for the physical world",
+   "published": "2026-11-03T12:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "20c9c9965d29",
+   "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+   "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+   "published": "2026-11-03T11:18:20Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer than 10% of vulnerabilities are exploited, yet most are treated as urgent. The report also argues",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8491f2b2e054",
+   "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+   "title": "Harvard University data breach exposed info of 851,000 accounts",
+   "published": "2026-11-03T10:53:25Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "bleepingcomputer",
+   "group": "security",
+   "company": "BleepingComputer",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "e4e619867236",
+   "url": "https://workspaceupdates.googleblog.com/2026/10/display-custom-policy-in-green-room-before-Google-Meet-Calls.html",
+   "title": "Display Custom Policy in the Green Room before Google Meet Calls",
+   "published": "2026-11-03T10:15:09Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "google-workspace",
+   "group": "competitor",
+   "company": "Google",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "To help ensure end users at your organization are familiar with your organization’s policies for handling meeting artifacts like recordings, transcriptions and notes by Gemini, we’re introducing the ability to set custom policy text from the admin console that is displayed prior to users joining Google Meet calls. As an admin, you’ll be able to display a custom, short message that appears in the Green Room prior to…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0cf5a7454e17",
+   "url": "https://www.youtube.com/watch?v=J9GDIAewjPY",
+   "title": "How to Run AI Agents at the Industrial Edge",
+   "published": "2026-11-03T08:00:26Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "yt-developer",
+   "group": "video",
+   "company": "Microsoft Developer",
+   "kind": "video",
+   "topics": [],
+   "status": "",
+   "excerpt": "Physical AI connects real equipment to AI agents through a hybrid architecture. Cloud-connected devices link directly to Azure IoT Hub, while on-site devices run through Azure IoT Operations on Kubernetes at the edge, with Foundry Local running AI workloads on premises. Data from both paths lands in Microsoft Fabric, and Azure Resource Manager manages it all. Jason Farmer, Product Manager on Microsoft's digital…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "b4a4900d7348",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/",
+   "title": "CrowdStrike to Acquire Dreadnode to Bring Automated AI Security Testing to the Falcon Platform",
+   "published": "2026-11-03T08:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "crowdstrike",
+   "group": "competitor",
+   "company": "CrowdStrike",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "914eba08ce82",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/",
+   "title": "Introducing AI Kill Switch: Taking Control When AI Agents Go Rogue",
+   "published": "2026-11-03T08:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "crowdstrike",
+   "group": "competitor",
+   "company": "CrowdStrike",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8370513f76c7",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/",
+   "title": "CrowdStrike Secures AI Agents Inside Claude Cowork",
+   "published": "2026-11-03T08:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "crowdstrike",
+   "group": "competitor",
+   "company": "CrowdStrike",
+   "kind": "post",
+   "topics": [
+    "cowork"
+   ],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "710937bcc980",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/",
+   "title": "CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability",
+   "published": "2026-11-03T08:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "crowdstrike",
+   "group": "competitor",
+   "company": "CrowdStrike",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "44254febdab3",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/",
+   "title": "CrowdStrike Advances AI Security and Safety from Endpoint to Cloud",
+   "published": "2026-11-03T08:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "crowdstrike",
+   "group": "competitor",
+   "company": "CrowdStrike",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "08b710f1e780",
+   "url": "https://openai.com/index/heimstaden",
+   "title": "Heimstaden is changing residential real estate management with AI",
+   "published": "2026-11-03T08:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d108c8cad61e",
+   "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+   "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+   "published": "2026-11-03T07:43:07Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "36d509a3e525",
+   "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+   "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+   "published": "2026-11-03T07:27:07Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers. No chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or take it off the shelf. Danfoss, a Danish maker of refrigeration controls,",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "928e7584e6cd",
+   "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+   "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+   "published": "2026-11-03T07:00:12Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "nvidia",
+   "group": "competitor",
+   "company": "NVIDIA",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments […]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3e6bc640da57",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+   "published": "2026-11-03T05:34:41Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "thehackernews",
+   "group": "security",
+   "company": "The Hacker News",
+   "kind": "post",
+   "topics": [
+    "incidents"
+   ],
+   "status": "",
+   "excerpt": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "0522428470bd",
+   "url": "https://www.youtube.com/watch?v=eKDCAJ5dVKs",
+   "title": "Microsoft Copilot: A Beginner’s Introduction",
+   "published": "2026-11-03T01:28:59Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "yt-m365",
+   "group": "video",
+   "company": "Microsoft Copilot",
+   "kind": "video",
+   "topics": [
+    "copilot"
+   ],
+   "status": "",
+   "excerpt": "Microsoft Copilot is more than a chatbot or search tool—it’s a collaborator that meets you where you already are. In this beginner-friendly introduction, learn how Microsoft Copilot works alongside you in Microsoft 365 apps like Word, Excel, PowerPoint, and Outlook to help organize your thoughts, develop ideas, draft content, and make progress. Microsoft Copilot won’t replace your judgement, and you don’t need a…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "4f5f256b966b",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573170",
+   "title": "Microsoft Copilot (Microsoft 365): New Microsoft 365 Copilot usage reports for Copilot Search, Connectors, and Agents for US Government customers",
+   "published": "2026-11-03T00:14:11Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "copilot"
+   ],
+   "status": "dev",
+   "excerpt": "We are introducing new Microsoft 365 Copilot usage reports for Copilot Search, Copilot Connectors, and Copilot Agents for US Government customers across GCC Moderate, GCC High, and DoD environments. These reports will provide administrators with organization-level and user-level insights to help them understand usage and adoption of these Copilot capabilities. GA date: December CY2026",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "3a9e4d0e73e9",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578898",
+   "title": "Dynamics 365 Sales: Autonomously generate quotes and drive sales with Sales Development Agent",
+   "published": "2026-11-03T00:14:11Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "m365-roadmap",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "roadmap",
+   "topics": [
+    "agent365",
+    "agent-registries"
+   ],
+   "status": "dev",
+   "excerpt": "Sales Development Agent (SDA) can take leads from qualified opportunities to closed deals. Key capabilities include: Generating quotes through D365S as well as 1P/3P systems and sharing them with customers to company branded templates. Connectivity to quoting and transaction systems managed through Agent 365 MCP registry. Answer questions about the quote and adjust details based on customer feedback. Facilitate…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "fec0e46ceba4",
+   "url": "https://huggingface.co/blog/transformers-mic",
+   "title": "Transformers Model Integration Contracts",
+   "published": "2026-11-03T00:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "20954e3ac0ff",
+   "url": "https://huggingface.co/blog/cwe-bench",
+   "title": "CWE-bench v2: More coverage, quality, and transparency",
+   "published": "2026-11-03T00:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "huggingface",
+   "group": "competitor",
+   "company": "Hugging Face",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
   {
    "id": "f6edbcaffade",
    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
@@ -6862,6 +7327,40 @@
    "competes_with": []
   },
   {
+   "id": "6fd6ad7938fa",
+   "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+   "title": "Rewarding defenders with bigger bug bounties",
+   "published": "2026-11-02T18:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "262cfa35f430",
+   "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+   "title": "Preparing our next security sprint to harden OpenAI",
+   "published": "2026-11-02T18:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "65afadf0cbc2",
    "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
    "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
@@ -6912,6 +7411,23 @@
    "topics": [],
    "status": "",
    "excerpt": "Full episode: https://youtu.be/lLTqWYDhHZw Foundry portal: https://aka.ms/foundry-portal Build the Sparkles agent using the Microsoft Foundry Toolkit. Configure the deployed model and MCP connection, invoke the agent from the development environment, and verify that it can use the shop’s prompts and live ordering tools. Store traces, evaluation datasets, and results with the project for repeatable testing.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "de4cf53f9db9",
+   "url": "https://openai.com/index/scaling-git-at-openai",
+   "title": "Scaling Git at OpenAI",
+   "published": "2026-11-02T15:30:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -6986,6 +7502,25 @@
    ],
    "status": "",
    "excerpt": "A cyberattack on refrigeration systems has disrupted stores run by multiple supermarket chains across several European countries after hackers remotely changed temperature settings on freezers and cooling systems. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "d04d5a985f32",
+   "url": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-global-secure-access-one-offering-for-private/ba-p/4569098",
+   "title": "Microsoft Entra Global Secure Access: one offering for Private Access and Internet Access",
+   "published": "2026-11-02T14:15:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "tc-entra",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "entra"
+   ],
+   "status": "",
+   "excerpt": "Employees, and now AI agents, need secure access to resources wherever they live: the internet, Microsoft 365 and SaaS, cloud and datacenter workloads, on-premises apps, and AI services. Zero Trust means evaluating every one of those connections against full context, including identity, risk, device, app and data, location, and network, and enforcing the decision continuously, not only at sign-in. Organizations need…",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -7198,6 +7733,23 @@
    "competes_with": []
   },
   {
+   "id": "ff138f709a7e",
+   "url": "https://openai.com/index/dan-driscoll-joins-openai",
+   "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+   "published": "2026-11-02T00:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "openai",
+   "group": "competitor",
+   "company": "OpenAI",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "95e7a57b9036",
    "url": "https://x.ai/news/data-bot",
    "title": "Giving every team a data scientist with Grok Bot",
@@ -7246,6 +7798,26 @@
    ],
    "status": "",
    "excerpt": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "feddd42bb89f",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#november-2026",
+   "title": "Planner Plugin for Copilot Cowork",
+   "published": "2026-11-01T00:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "learn-cowork-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "copilot",
+    "cowork"
+   ],
+   "status": "",
+   "excerpt": "New features. The Planner Plugin connects Planner to Cowork.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -12856,6 +13428,23 @@
    "topics": [],
    "status": "",
    "excerpt": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "8676e164bad0",
+   "url": "https://www.anthropic.com/news/product",
+   "title": "Product",
+   "published": "2026-10-22T00:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "anthropic",
+   "group": "competitor",
+   "company": "Anthropic",
+   "kind": "post",
+   "topics": [],
+   "status": "",
+   "excerpt": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -22806,6 +23395,26 @@
    "competes_with": []
   },
   {
+   "id": "4b44f1afd947",
+   "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint#october-2026",
+   "title": "Local AI agent discovery on Windows and macOS",
+   "published": "2026-10-01T00:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "learn-mde",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "defender",
+    "agent-registries"
+   ],
+   "status": "ga",
+   "excerpt": "GA. Discover supported local AI agents and their configured MCP servers on onboarded Windows and macOS devices, and investigate them in the AI agent inventory and advanced hunting. Windows requires Microsoft Defender Antivirus platform version 4.18.26090.9 (2609) or later. macOS requires Microsoft Defender for Endpoint version 101.26072.0017 or later. Discovery in WSL remains in preview. See the discovery…",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
    "id": "3bba52758573",
    "url": "https://openai.com/index/the-den-family-social",
    "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
@@ -22837,6 +23446,25 @@
    ],
    "status": "",
    "excerpt": "New features. Accounting for Cowork (Frontier Public), Finance for Cowork, and Capital Markets for Cowork add role-specific skills for accounting work, financial planning and modeling, and investment research and transaction materials.",
+   "summary": "",
+   "relevance": "",
+   "competes_with": []
+  },
+  {
+   "id": "1c5ea2978c17",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new#october-2026",
+   "title": "Open Cowork in the Home tab (Frontier)",
+   "published": "2026-10-01T00:00:00Z",
+   "first_seen": "2026-11-03T19:28:59Z",
+   "source": "learn-cowork-whats-new",
+   "group": "microsoft",
+   "company": "Microsoft",
+   "kind": "post",
+   "topics": [
+    "cowork"
+   ],
+   "status": "frontier",
+   "excerpt": "New features. Select the Home tab. The Chat and Cowork toggle appears in the conversation box.",
    "summary": "",
    "relevance": "",
    "competes_with": []
@@ -29894,7 +30522,7 @@
    "topics": [
     "copilot"
    ],
-   "status": "dev",
+   "status": "ga",
    "excerpt": "Configure retention for Microsoft 365 Copilot memory to help preserve historical versions of memory items for security, compliance, and investigation scenarios. Copilot memory includes saved memories and details inferred from chat history that enable more personalized and context-aware Copilot experiences. Copilot memory items are stored in a hidden folder in the user’s Exchange mailbox. This capability will enable…",
    "summary": "",
    "relevance": "",
@@ -33622,796 +34250,6 @@
    "summary": "",
    "relevance": "",
    "competes_with": []
-  },
-  {
-   "id": "487981959078",
-   "url": "https://openai.com/index/unive",
-   "title": "Univé builds an AI-ready workforce",
-   "published": "2026-07-31T07:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "openai",
-   "group": "competitor",
-   "company": "OpenAI",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "dde532a86bfe",
-   "url": "https://x.ai/news/grok-imagine-video-1-5-references",
-   "title": "Imagine Video 1.5 with References",
-   "published": "2026-07-31T00:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "xai",
-   "group": "competitor",
-   "company": "xAI",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "Our best video model, now with text, image, and voice references — generating up to 1080p.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "0f2fe4495cc6",
-   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#july-2026",
-   "title": "Deprecation completed: Legacy grouped recommendations removed from Azure portal",
-   "published": "2026-07-31T00:00:00Z",
-   "first_seen": "2026-10-07T18:29:49Z",
-   "source": "learn-mdc",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "post",
-   "topics": [
-    "defender"
-   ],
-   "status": "retiring",
-   "excerpt": "Retirement of legacy grouped recommendations (sub-assessments) has started. Customers can no longer access the deprecated data through the API. The Azure portal and Azure Resource Graph might take a few days to reflect the change. Individual recommendations replace the legacy grouped recommendations, as announced in May 2026. Customers who previously relied on grouped recommendations should validate existing…",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "06b8d0ad6f63",
-   "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-   "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-   "published": "2026-07-30T15:00:59Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "deepmind",
-   "group": "competitor",
-   "company": "Google",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "8f5d3e55aad4",
-   "url": "https://www.youtube.com/watch?v=c5dsS21bt04",
-   "title": "Microsoft Copilot: Work, transformed",
-   "published": "2026-07-30T13:00:24Z",
-   "first_seen": "2026-10-07T16:05:29Z",
-   "source": "yt-m365",
-   "group": "video",
-   "company": "Microsoft Copilot",
-   "kind": "video",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Watch the audio description version: https://www.youtube.com/watch?v=kTUSb-0mpV0 Over the last twelve months, more than 30 million people have used Copilot to move faster, uncover deeper insights, and create greater impact. Together, we've reimagined what's possible at work. And we're excited for what we'll accomplish next. Learn more at: https://aka.ms/CopilotMomentum #Microsoft #Microsoft365Copilot #Copilot",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "860b56b262f5",
-   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-   "title": "The next measure of AI momentum is work transformed",
-   "published": "2026-07-30T13:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "m365-blog",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "post",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "fc362ba711f5",
-   "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-   "title": "Advancing the price-performance frontier with GPT-5.6",
-   "published": "2026-07-30T10:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "openai",
-   "group": "competitor",
-   "company": "OpenAI",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "9146ff1756af",
-   "url": "https://openai.com/index/avatarin",
-   "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-   "published": "2026-07-30T00:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "openai",
-   "group": "competitor",
-   "company": "OpenAI",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "0210c5079fce",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=568072",
-   "title": "Microsoft Viva: Copilot Dashboard - Targeted Audience Surveys",
-   "published": "2026-07-29T23:07:26Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "m365-roadmap",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "roadmap",
-   "topics": [
-    "copilot"
-   ],
-   "status": "dev",
-   "excerpt": "Targeted Audience Surveys let change leaders launch a Copilot Pulse survey directly from the Copilot Dashboard to all licensed or active users. Audiences update automatically using Insights data and respect existing dashboard filters like organization and job function, with privacy protected through population-level reporting only. Pair adoption metrics with employee sentiment in just a few clicks. GA date: November…",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "1d21829af571",
-   "url": "https://www.youtube.com/shorts/uq_XaicdDIk",
-   "title": "See Every Change Copilot Makes in Word",
-   "published": "2026-07-29T18:32:21Z",
-   "first_seen": "2026-10-07T16:05:29Z",
-   "source": "yt-m365",
-   "group": "video",
-   "company": "Microsoft Copilot",
-   "kind": "video",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Want to know exactly what Microsoft 365 Copilot changed? Turn on Track Changes in Word before asking Copilot to revise your document. You'll see every edit, compare versions, and stay in control of the final draft. See what else you can do with Copilot: https://msft.it/6056vf8Ng #WordTips #CopilotTips #EditingTips",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "705bd6c095e8",
-   "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-   "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-   "published": "2026-07-29T16:02:10Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "deepmind",
-   "group": "competitor",
-   "company": "Google",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "4a4e26d03542",
-   "url": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/mdti-convergence-in-microsoft-sentinel-and-defender-xdr-is/ba-p/4541279",
-   "title": "MDTI convergence in Microsoft Sentinel and Defender XDR is complete",
-   "published": "2026-07-29T16:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "tc-defender",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "post",
-   "topics": [
-    "defender"
-   ],
-   "status": "ga",
-   "excerpt": "Beginning August 1, the final phase of Microsoft Defender Threat Intelligence (MDTI) convergence will be generally available in the Defender portal, giving customers real-time Microsoft threat intelligence across detection, investigation, response, hunting, and automation at no additional cost. Announced last year, this unified SecOps experience reduces fragmented context and tool handoffs, creating a clearer path…",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "cc8e132c6199",
-   "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-   "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-   "published": "2026-07-29T15:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "openai",
-   "group": "competitor",
-   "company": "OpenAI",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "d8857843d093",
-   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
-   "title": "Lists in Context IQ",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T18:26:24Z",
-   "source": "learn-copilot-release-notes",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "release",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Microsoft 365 Copilot Chat. Users will be able to search for and select SharePoint Lists through the Context IQ menu to help ground their prompts when using Copilot Chat.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "c8f47b08ae31",
-   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
-   "title": "Admins can now edit user mappings and query filters for ServiceNow Connector",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T18:26:24Z",
-   "source": "learn-copilot-release-notes",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "release",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Microsoft 365 Copilot extensibility. Support connection edit of user mapping, query filter for ServiceNow",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "ba1c9d1f9938",
-   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
-   "title": "Surface rich images inline within responses",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T18:26:24Z",
-   "source": "learn-copilot-release-notes",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "release",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Microsoft 365 Copilot. Copilot now displays rich images from files and meetings directly within responses to improve comprehension.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "a03ba1a0a5cc",
-   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
-   "title": "Plan and build solutions on SharePoint with Copilot in SharePoint",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T18:26:24Z",
-   "source": "learn-copilot-release-notes",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "release",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Microsoft 365 SharePoint. Copilot in SharePoint lets you plan and build SharePoint solutions using natural language commands.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "6d964f10c333",
-   "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-   "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "openai",
-   "group": "competitor",
-   "company": "OpenAI",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "5f3153c0151e",
-   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
-   "title": "Enable adaptive card refresh in custom engine agents",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T18:26:24Z",
-   "source": "learn-copilot-release-notes",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "release",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Microsoft 365 Copilot extensibility. Adaptive card refresh now works in custom engine agents, improving dynamic content updates.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "4e788a35ddfd",
-   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
-   "title": "Floating Copilot icon in File Previewer for OneDrive",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T18:26:24Z",
-   "source": "learn-copilot-release-notes",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "release",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Microsoft 365 SharePoint. A new Copilot icon button provides a quick, visible entry point to Copilot directly within the file previewer in OneDrive. Positioned at the bottom-right corner (instead of the command bar), this button surfaces contextual prompts tailored to the file type and offers seamless access to Copilot chat, making it easier to get insights and take action without leaving the preview experience.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "4de65930d591",
-   "url": "https://x.ai/news/grok-voice-think-fast-2",
-   "title": "Introducing Grok Voice Think Fast 2.0",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "xai",
-   "group": "competitor",
-   "company": "xAI",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "Introducing our most capable speech-to-speech voice model.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "4b08a61d53ff",
-   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
-   "title": "Take Screenshot in Copilot",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T18:26:24Z",
-   "source": "learn-copilot-release-notes",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "release",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Microsoft 365 Copilot Chat. Give users a fast, built‑in way to capture screenshots and include them in Copilot prompts, helping them communicate visual context more easily and receive more accurate, actionable assistance.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "49fea3bd697c",
-   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
-   "title": "SharePoint list support in Agent Builder",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T18:26:24Z",
-   "source": "learn-copilot-release-notes",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "release",
-   "topics": [
-    "copilot",
-    "copilotstudio"
-   ],
-   "status": "",
-   "excerpt": "Microsoft 365 Copilot extensibility. Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge…",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "430cc2a322e6",
-   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
-   "title": "List email attachments in Microsoft 365 Copilot",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T18:26:24Z",
-   "source": "learn-copilot-release-notes",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "release",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Microsoft 365 Copilot Chat. Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "3d1d981da2e2",
-   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
-   "title": "Redesign Overview experience in Copilot notebooks in OneNote",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T18:26:24Z",
-   "source": "learn-copilot-release-notes",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "release",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "OneNote. The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "38e959f44523",
-   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026",
-   "title": "Redesign Overview experience in Copilot notebooks in OneNote",
-   "published": "2026-07-29T00:00:00Z",
-   "first_seen": "2026-10-07T18:26:24Z",
-   "source": "learn-copilot-release-notes",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "release",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Microsoft 365 Copilot Chat. The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "bf2444135527",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=567008",
-   "title": "Microsoft Copilot (Microsoft 365): New Rich Answer Cards",
-   "published": "2026-07-28T22:43:45Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "m365-roadmap",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "roadmap",
-   "topics": [
-    "copilot",
-    "entra"
-   ],
-   "status": "rolling",
-   "excerpt": "Surface new model-driven, dynamically placed Answer Cards across top 7 segments: weather, sports, finance, images, video, places and news for Entra & MSA users across all surfaces. GA date: September CY2026",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "9b86450768f1",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=515145",
-   "title": "Microsoft Copilot (Microsoft 365): Workforce Insights Agent",
-   "published": "2026-07-28T22:43:45Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "m365-roadmap",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "roadmap",
-   "topics": [
-    "copilot"
-   ],
-   "status": "dev",
-   "excerpt": "Workforce Insights (WFI) Agent in Microsoft 365 Copilot is an agent designed to help leaders, managers, and their delegates quickly understand their organization by turning complex workforce data into clear, actionable insights. With WFI Agent, leaders can quickly explore their organization’s structure, team composition, skills inventories, and flexible work patterns to move from insight to action in a single…",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "6fd6d72d3626",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=568217",
-   "title": "Microsoft Purview: Information Protection - Sensitivity Labels for Microsoft Entra Security Groups",
-   "published": "2026-07-28T22:43:45Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "m365-roadmap",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "roadmap",
-   "topics": [
-    "entra"
-   ],
-   "status": "dev",
-   "excerpt": "Apply sensitivity labels to Microsoft Entra cloud security groups to extend the classification and governance you already use for Microsoft 365 groups. The same labels you publish in the Microsoft Purview portal and configure for groups and sites apply automatically to cloud security groups, with no separate label configuration required. GA date: November CY2026",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "69fac7f17345",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=568368",
-   "title": "Outlook: Copilot Chat pop-out for Outlook for Mac and iPad",
-   "published": "2026-07-28T22:43:45Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "m365-roadmap",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "roadmap",
-   "topics": [
-    "copilot"
-   ],
-   "status": "rolling",
-   "excerpt": "Copilot Chat remains accessible within an Outlook app window but now can also be popped out to float over the main Outlook app window. Popping out Copilot Chat allows people to switch contexts or have more space for what they are working on in Outlook and control the space and form that Copilot Chat takes on screen. When you open Copilot chat and click the pop-out button, Copilot will open separately over the main…",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "df22037e3e0f",
-   "url": "https://openai.com/index/scientific-computing-agentic-ai",
-   "title": "Scientific computing in the age of agentic AI",
-   "published": "2026-07-28T17:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "openai",
-   "group": "competitor",
-   "company": "OpenAI",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "7909c613945e",
-   "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-   "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-   "published": "2026-07-28T13:21:37Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "deepmind",
-   "group": "competitor",
-   "company": "Google",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "6fd6d2da5a36",
-   "url": "https://x.ai/news/grok-github-copilot",
-   "title": "Grok 4.5 in GitHub Copilot",
-   "published": "2026-07-28T00:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "xai",
-   "group": "competitor",
-   "company": "xAI",
-   "kind": "post",
-   "topics": [
-    "githubcopilot"
-   ],
-   "status": "ga",
-   "excerpt": "Grok 4.5, our smartest coding model, is now available in GitHub Copilot.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "420ae9b5bcfc",
-   "url": "https://x.ai/news/grok-build-mode",
-   "title": "Introducing Build Mode",
-   "published": "2026-07-28T00:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "xai",
-   "group": "competitor",
-   "company": "xAI",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "Create and share websites, apps, games, and interactive dashboards. Now in Early Beta for SuperGrok Heavy subscribers on grok.com, iOS, and Android.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "13cdccd09288",
-   "url": "https://www.youtube.com/shorts/CXHSIY7c1ZY",
-   "title": "Book Lovers, You're Gonna Want This Excel Trick",
-   "published": "2026-07-27T16:00:33Z",
-   "first_seen": "2026-10-07T16:05:29Z",
-   "source": "yt-m365",
-   "group": "video",
-   "company": "Microsoft Copilot",
-   "kind": "video",
-   "topics": [
-    "copilot"
-   ],
-   "status": "",
-   "excerpt": "Want a better way to track your reading goals? Learn how to use Copilot in Excel to create a reading tracker, build a personalized reading dashboard, and turn your book data into visual charts. Perfect for tracking books read, pages completed, genres, ratings, reading goals, and more. See what else you can do with Copilot in Excel: https://msft.it/6056vfSTI #ReadingTracker #MicrosoftCopilot #ExcelTips",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "bde5e15a43c6",
-   "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
-   "title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-   "published": "2026-07-27T00:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "meta-ai",
-   "group": "competitor",
-   "company": "Meta",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "013fe685ef4c",
-   "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes#july-2026",
-   "title": "Database-level recommendations for SQL Vulnerability Assessment (GA)",
-   "published": "2026-07-26T00:00:00Z",
-   "first_seen": "2026-10-07T18:29:49Z",
-   "source": "learn-mdc",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "post",
-   "topics": [
-    "defender"
-   ],
-   "status": "ga",
-   "excerpt": "The SQL vulnerability assessment recommendations created as part of the transition from grouped to individual recommendations are now generally available. Each SQL vulnerability assessment rule is surfaced as its own recommendation, reported directly on the affected SQL database resource. For a deeper explanation of this change, see Transition from grouped to individual recommendations. For the mapping between the…",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "2b23626c66a2",
-   "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524",
-   "title": "Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot",
-   "published": "2026-07-24T21:11:08Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "tc-copilot",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "post",
-   "topics": [
-    "copilot"
-   ],
-   "status": "ga",
-   "excerpt": "Today we’re expanding model choice in Microsoft 365 Copilot with the addition of Anthropic’s latest model—Claude Opus 5. Claude Opus 5 is the newest model in Anthropic’s Opus family. Designed to be used every day for complex, multi-step work. It improves on Opus 4.8 across agentic coding, professional knowledge work, and long-horizon reasoning1. With Opus 5, Copilot takes on more of the steps between idea and…",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "604dcb8a4373",
-   "url": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/modernize-sap-identity-management-with-microsoft-entra/ba-p/4528596",
-   "title": "Modernize SAP Identity Management with Microsoft Entra",
-   "published": "2026-07-24T17:54:07Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "tc-entra",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "post",
-   "topics": [
-    "entra"
-   ],
-   "status": "",
-   "excerpt": "Many organizations are rethinking how they manage identity across their SAP landscape as they move away from on-premises identity management systems and adopt a more unified cloud strategy. That shift often starts with a practical question: how do you connect SAP identity processes with the rest of your application estate without introducing more complexity? That is where the ongoing work between Microsoft Entra and…",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "e2dfdad091fb",
-   "url": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/what-s-new-in-microsoft-entra-july-2026/ba-p/4534631",
-   "title": "What's New in Microsoft Entra: July 2026",
-   "published": "2026-07-24T17:47:47Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "tc-entra",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "post",
-   "topics": [
-    "entra"
-   ],
-   "status": "ga",
-   "excerpt": "Welcome to the July edition of our monthly newsletter, summarizing the latest news and developments in the exciting, ever-evolving world of Microsoft Entra. What went into General Availability (GA) since June 2026? Microsoft Entra Backup and Recovery - A capability that helps organizations restore a tenant after accidental or malicious changes. On by default, it automatically backs up critical directory objects…",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "588f9cc195c1",
-   "url": "https://x.ai/news/introducing-google-workspace-addon",
-   "title": "Grok in Google Workspace",
-   "published": "2026-07-24T00:00:00Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "xai",
-   "group": "competitor",
-   "company": "xAI",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "Use the Grok add-on for Google Workspace to work directly in Sheets, Slides, and Docs.",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "8856ba8d0125",
-   "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/1-million-documents-to-300-agents-building-an-enterprise-scale/ba-p/4540155",
-   "title": "1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector",
-   "published": "2026-07-23T18:57:12Z",
-   "first_seen": "2026-10-07T03:04:12Z",
-   "source": "tc-copilot",
-   "group": "microsoft",
-   "company": "Microsoft",
-   "kind": "post",
-   "topics": [
-    "copilot",
-    "copilotstudio"
-   ],
-   "status": "",
-   "excerpt": "1 million documents. 100,000+ monthly users. 300+ Copilot Studio agents. Here's what we learned building the Microsoft 365 Copilot connector behind them. Most enterprise knowledge lives in portals and repositories that people trust but rarely visit in the flow of work. That's the gap this connector was built to close. At Microsoft, we built an enterprise-scale Microsoft 365 Copilot connector to make internal…",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
-  },
-  {
-   "id": "84eeb01a5360",
-   "url": "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
-   "title": "AAI 2026: AMD Delivers Full-Stack Compute for the Agentic AI Era",
-   "published": "2026-07-23T18:30:00Z",
-   "first_seen": "2026-10-07T04:45:00Z",
-   "source": "amd",
-   "group": "competitor",
-   "company": "AMD",
-   "kind": "post",
-   "topics": [],
-   "status": "",
-   "excerpt": "",
-   "summary": "",
-   "relevance": "",
-   "competes_with": []
   }
  ],
  "seen": [
@@ -34428,23 +34266,28 @@
   "1f57478941aa",
   "21c4d9567dc3",
   "21f86e2d045a",
+  "24f3065d0ad5",
   "2a6cdd816b0e",
   "2db767bb8e7d",
   "35f668e71f34",
   "3a0b4572422c",
+  "3bcb8ce06dde",
   "3c5753723cca",
   "3f215c8c1541",
   "493bf5935eda",
+  "4a1497318d76",
   "4f0dc3b05402",
   "51b0395e5456",
   "51cd17c95d4b",
   "57d58bc6e4b5",
   "5c14792446f5",
+  "5d5986221c3c",
   "6258cf13f3d5",
   "6605bff5a015",
   "666b2774ae49",
   "676577ce317b",
   "74e694667f61",
+  "750b59cf8263",
   "774843208f32",
   "79ae92d8dc3d",
   "79b5674bbe85",
