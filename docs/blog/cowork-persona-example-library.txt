@@ -1,0 +1,11 @@
+New in my Copilot repo: Cowork Industry Persona Library.
+
+Plain Markdown library for Microsoft 365 Copilot Cowork adoption workshops: 15 personas × 3 example asks for 26 industries, plus example skills and reusable prompts. Nothing to install or deploy; read it on GitHub or…
+
+You'll need:
+• Microsoft 365 Copilot with Copilot Cowork
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/cowork-persona-example-library.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Cowork%20Persona%20Example%20Library
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents

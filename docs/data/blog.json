@@ -1,7 +1,27 @@
 {
- "generated": "2026-11-02T21:54:33+00:00",
+ "generated": "2026-11-04T19:59:35+00:00",
  "repo": "chadmcox/Copilot",
  "posts": [
+  {
+   "title": "Introducing Cowork Industry Persona Library",
+   "summary": "Plain Markdown library for Microsoft 365 Copilot Cowork adoption workshops: 15 personas × 3 example asks for 26 industries, plus example skills and reusable prompts. Nothing to install or deploy; read it on GitHub or…",
+   "purpose": "Plain Markdown library for Microsoft 365 Copilot Cowork adoption workshops: 15 personas × 3 example asks for 26 industries, plus example skills and reusable prompts. Nothing to install or deploy; read it on GitHub or in any Markdown viewer.",
+   "audience": "",
+   "needs": [
+    "Microsoft 365 Copilot with Copilot Cowork"
+   ],
+   "gets": [],
+   "linkedin": "New in my Copilot repo: Cowork Industry Persona Library.\n\nPlain Markdown library for Microsoft 365 Copilot Cowork adoption workshops: 15 personas × 3 example asks for 26 industries, plus example skills and reusable prompts. Nothing to install or deploy; read it on GitHub or…\n\nYou'll need:\n• Microsoft 365 Copilot with Copilot Cowork\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/cowork-persona-example-library.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Cowork%20Persona%20Example%20Library\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "cowork-persona-example-library",
+   "folder": "Cowork Persona Example Library",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Cowork%20Persona%20Example%20Library",
+   "page": "blog/cowork-persona-example-library.html",
+   "date": "2026-11-04T19:59:35+00:00",
+   "updated": "2026-11-04T19:59:35+00:00",
+   "ai": false,
+   "readme_hash": "c5e64ce6d32100d8",
+   "readme_changed": false
+  },
   {
    "title": "Introducing Entra ID Operations Report",
    "summary": "A read-only check of your Entra tenant against Microsoft's Entra operations reference guide: sync, licensing, MFA, Conditional Access, consent, privileged roles and PIM, access reviews, recommendations. Run it in…",
