@@ -4,7 +4,112 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Fri, 06 Nov 2026 19:24:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 17:44:33 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] Hackers pull off $133 million French bank heist via service provider</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/</link>
+      <guid isPermaLink="false">ded94754be20</guid>
+      <pubDate>Sat, 07 Nov 2026 15:25:35 +0000</pubDate>
+      <description>French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] Work together, your way, with GitHub Copilot</title>
+      <link>https://www.youtube.com/watch?v=VJBTPepfWUI</link>
+      <guid isPermaLink="false">ae37a032d5a3</guid>
+      <pubDate>Sat, 07 Nov 2026 15:00:51 +0000</pubDate>
+      <description>Your team might agree on what to build, but how to build it is another conversation. In this GitHub Universe 2026 session, join Pierce Boggan, Burke Holland, James Montemagno, Julia Kasper, and Katie Savage as they tackle a shared project with GitHub Copilot, bringing their favorite tools, models, and personal workflows. Working across the Copilot app, CLI, VS Code, and JetBrains, the team puts AI agents to work…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub</title>
+      <link>https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html</link>
+      <guid isPermaLink="false">804a43c3361e</guid>
+      <pubDate>Sat, 07 Nov 2026 06:44:17 +0000</pubDate>
+      <description>Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects "Yes, and don't ask again," Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft] ARTEX abuse expands as cybercriminals target financial sector</title>
+      <link>https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/</link>
+      <guid isPermaLink="false">e115b44724e2</guid>
+      <pubDate>Sat, 07 Nov 2026 02:44:34 +0000</pubDate>
+      <description>In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX.</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft] Copilot code review: API management and review overview updates</title>
+      <link>https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates</link>
+      <guid isPermaLink="false">d28d7745dd02</guid>
+      <pubDate>Sat, 07 Nov 2026 00:27:19 +0000</pubDate>
+      <description>You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Runaway AI hacking agent behind WorkOS breach after escaping sandbox</title>
+      <link>https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/</link>
+      <guid isPermaLink="false">b99b441690fc</guid>
+      <pubDate>Fri, 06 Nov 2026 22:27:25 +0000</pubDate>
+      <description>WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft] Copilot impact dashboard adds chat and VS Code agent usage</title>
+      <link>https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage</link>
+      <guid isPermaLink="false">df141a94aef9</guid>
+      <pubDate>Fri, 06 Nov 2026 22:17:28 +0000</pubDate>
+      <description>The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption…</description>
+      <category>copilot</category>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft] Beyond code generation: A developer’s guide to agentic engineering</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/</link>
+      <guid isPermaLink="false">5ab88d15c948</guid>
+      <pubDate>Fri, 06 Nov 2026 22:15:59 +0000</pubDate>
+      <description>Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft] What’s new in Microsoft Entra: November 2026</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-entra-blog/what-s-new-in-microsoft-entra-november-2026/ba-p/4556457</link>
+      <guid isPermaLink="false">81550201f6b2</guid>
+      <pubDate>Fri, 06 Nov 2026 21:04:04 +0000</pubDate>
+      <description>Don't miss our Microsoft Ignite announcements. Tune in or join us in person for AI is changing access: See how Microsoft Entra helps you stay ahead on November 18, 2026, at 10:15 AM Pacific for secure access news and demos from our latest product roadmap. Access is never a one-time decision. Employees change roles, devices fall out of compliance, AI agents get created and forgotten, and guests outlast the projects…</description>
+      <category>entra</category>
+    </item>
+    <item>
+      <title>[Microsoft] GitHub Copilot weekly releases — November 2</title>
+      <link>https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2</link>
+      <guid isPermaLink="false">5175c20e07f3</guid>
+      <pubDate>Fri, 06 Nov 2026 21:00:26 +0000</pubDate>
+      <description>This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft] @GitHub in Slack and Teams is generally available and more</title>
+      <link>https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available</link>
+      <guid isPermaLink="false">23359978bbf7</guid>
+      <pubDate>Fri, 06 Nov 2026 20:31:08 +0000</pubDate>
+      <description>Turn conversations into code with @GitHub in Slack and Teams! Investigate bugs, create issues, implement changes, and open pull requests—all without leaving your conversation. What’s new Build and review together…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs</title>
+      <link>https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/</link>
+      <guid isPermaLink="false">ba147c5fc5c9</guid>
+      <pubDate>Fri, 06 Nov 2026 20:24:19 +0000</pubDate>
+      <description>OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Google] Google Workspace Weekly Recap - November 6, 2026</title>
+      <link>https://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-06-2026.html</link>
+      <guid isPermaLink="false">268fe70f0c9c</guid>
+      <pubDate>Fri, 06 Nov 2026 19:47:50 +0000</pubDate>
+      <description>Display Custom Policy in the Green Room before Google Meet Calls To help ensure end users at your organization are familiar with your organization’s policies for handling meeting artifacts like recordings, transcriptions and notes by Gemini, we’re introducing the ability to set custom policy text from the admin console that is displayed prior to users joining Google Meet calls. | Learn more. Upload an image to…</description>
+    </item>
     <item>
       <title>[The Record] Certificate authority DigiCert reports data breach involving business customer info</title>
       <link>https://therecord.media/digicert-certificate-authority-reports-data-breach</link>
@@ -229,7 +334,7 @@
       <link>https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/</link>
       <guid isPermaLink="false">b1039a464e8e</guid>
       <pubDate>Thu, 05 Nov 2026 18:30:58 +0000</pubDate>
-      <description>We’re rolling out voice and expressive avatars in the Muse app, giving you a new, natural way to interact with your Muse.</description>
+      <description>We’re rolling out voice and expressive avatars in the Muse app, giving you a new way to interact with your Muse.</description>
       <category>personal-agents</category>
     </item>
     <item>
@@ -523,105 +628,6 @@
       <pubDate>Wed, 04 Nov 2026 16:00:18 +0000</pubDate>
       <description>mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]</description>
       <category>incidents</category>
-    </item>
-    <item>
-      <title>[GitHub] Get your skills recognized with GitHub Copilot verified proficiency</title>
-      <link>https://www.youtube.com/watch?v=aXK0wctLk5U</link>
-      <guid isPermaLink="false">83c108f26839</guid>
-      <pubDate>Wed, 04 Nov 2026 15:44:30 +0000</pubDate>
-      <description>Traditional technical certifications often require stepping away from daily projects to complete tests or multiple-choice questions. GitHub Copilot verified proficiency takes a different approach by evaluating how you already use the tool in your everyday development workflow. Without a separate exam, developers can opt in to calculate their proficiency level across five distinct tiers based on real product usage…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Google] Educators can now add Guided Learning to assignments in Google Classroom to help students get extra support</title>
-      <link>https://workspaceupdates.googleblog.com/2026/11/educators-can-now-add-guided-learning-to-assignments-in-Google-Classroom-to-help-students-get-extra-support.html</link>
-      <guid isPermaLink="false">cd0d60ed0514</guid>
-      <pubDate>Wed, 04 Nov 2026 14:39:59 +0000</pubDate>
-      <description>Building on our announcement earlier this year, a new Google Classroom integration that lets teachers add Guided Learning to any assignment is now rolling out globally in all Gemini-supported languages. Guided Learning is a mode in the Gemini app designed to help students deepen their understanding with step-by-step guidance, rather than giving the answer. Similar to how teachers can assign Gemini Notebooks in…</description>
-    </item>
-    <item>
-      <title>[OpenAI] OpenAI to acquire Pierre Computer Company, Inc.</title>
-      <link>https://openai.com/index/openai-to-acquire-pierre</link>
-      <guid isPermaLink="false">3a06f84c0f51</guid>
-      <pubDate>Wed, 04 Nov 2026 14:30:00 +0000</pubDate>
-      <description>OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.</description>
-    </item>
-    <item>
-      <title>[The Hacker News] APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits</title>
-      <link>https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html</link>
-      <guid isPermaLink="false">5e99d13bfbb2</guid>
-      <pubDate>Wed, 04 Nov 2026 14:27:52 +0000</pubDate>
-      <description>The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. "The injected JavaScript code collects browser and device attributes," Sekoia researchers Amaury-Jacques Garçon and</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Salesforce] Salesforce’s Agentforce Coworker Usage Soars 21x in Three Months as Enterprises Delegate Real Work to AI</title>
-      <link>https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/</link>
-      <guid isPermaLink="false">5e88b9a0556b</guid>
-      <pubDate>Wed, 04 Nov 2026 14:00:00 +0000</pubDate>
-      <description>More than 185,000 users are putting Coworker to work, with companies including The Adecco Group, Fulton Bank, and BACA Systems expanding adoption across their businesses. New capabilities make Coworker smarter, more proactive, and available wherever employees work — from Microsoft Teams to mobile and desktop. Salesforce (NYSE: CRM), the world’s #1 AI CRM, today announced […]</description>
-    </item>
-    <item>
-      <title>[The Record] Cyberattack wipes cloud data at major Russian hosting provider Beget</title>
-      <link>https://therecord.media/russia-cyberattack-beget-cloud</link>
-      <guid isPermaLink="false">4448a4360ec1</guid>
-      <pubDate>Wed, 04 Nov 2026 14:00:00 +0000</pubDate>
-      <description>A major Russian web hosting provider is struggling to restore its services after a cyberattack destroyed data across its cloud infrastructure and disrupted hundreds of websites.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Record] French blood service hit by Europe-wide cyberattacks on refrigeration</title>
-      <link>https://therecord.media/france-cyberattack-blood-refrigeration</link>
-      <guid isPermaLink="false">3d23258051aa</guid>
-      <pubDate>Wed, 04 Nov 2026 13:45:00 +0000</pubDate>
-      <description>Temperature controls were altered at three of France’s national blood service sites this week amid a wave of cyberattacks affecting refrigeration systems across Europe.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] CISA flags WordPress RCE flaw as actively exploited in attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/</link>
-      <guid isPermaLink="false">62ad9c2a6bdd</guid>
-      <pubDate>Wed, 04 Nov 2026 12:11:05 +0000</pubDate>
-      <description>The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It</title>
-      <link>https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html</link>
-      <guid isPermaLink="false">ecf2013fdfbb</guid>
-      <pubDate>Wed, 04 Nov 2026 11:34:20 +0000</pubDate>
-      <description>Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[OpenAI] Daybreak Red is now available in AWS GovCloud (US-East)</title>
-      <link>https://openai.com/index/daybreak-red-aws-govcloud</link>
-      <guid isPermaLink="false">75679f5aa60b</guid>
-      <pubDate>Wed, 04 Nov 2026 07:00:00 +0000</pubDate>
-      <description>Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.</description>
-      <category>security-agents</category>
-    </item>
-    <item>
-      <title>[CrowdStrike] CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries</title>
-      <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</link>
-      <guid isPermaLink="false">c398452d61b2</guid>
-      <pubDate>Wed, 04 Nov 2026 06:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[CrowdStrike] CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats</title>
-      <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</link>
-      <guid isPermaLink="false">4be5b1b33e18</guid>
-      <pubDate>Wed, 04 Nov 2026 06:00:00 +0000</pubDate>
-      <description />
-      <category>security-agents</category>
-    </item>
-    <item>
-      <title>[CrowdStrike] New Falcon Cloud Security Innovations Secure the Cloud AI Runs On</title>
-      <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</link>
-      <guid isPermaLink="false">261b8d4aff9d</guid>
-      <pubDate>Wed, 04 Nov 2026 06:00:00 +0000</pubDate>
-      <description />
     </item>
   </channel>
 </rss>
