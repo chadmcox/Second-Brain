@@ -4,7 +4,31 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Sat, 07 Nov 2026 17:44:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 17:55:35 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] Iris Ohyama data cloud breach exposes info of 7.7 million customers</title>
+      <link>https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/</link>
+      <guid isPermaLink="false">840fc9184c68</guid>
+      <pubDate>Sun, 08 Nov 2026 15:43:08 +0000</pubDate>
+      <description>Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] 17 agents, one SDLC: How Levi Strauss reimagined development on GitHub</title>
+      <link>https://www.youtube.com/watch?v=-GpxKKgoWWg</link>
+      <guid isPermaLink="false">47fbe5cbd9f1</guid>
+      <pubDate>Sun, 08 Nov 2026 15:01:59 +0000</pubDate>
+      <description>Levi Strauss &amp; Co. built an enterprise multi-agent software development lifecycle on GitHub Copilot's custom agents platform. In this GitHub Universe 2026 session, Jenny Patchen, Sr. Director at Levi Strauss &amp; Co., reveals how seventeen specialized AI agents handle requirements, spec generation, automated testing, security scanning, accessibility validation, and deployment connected to Jira, Confluence, and New…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[GitHub] Give yourself permission to play: how to learn with side projects</title>
+      <link>https://www.youtube.com/shorts/vtjr3YzLnvc</link>
+      <guid isPermaLink="false">87fd6787a796</guid>
+      <pubDate>Sun, 08 Nov 2026 13:00:21 +0000</pubDate>
+      <description>Ever talked yourself out of starting a side project because you knew how much boilerplate code it would take? On the GitHub Podcast, Martin Woodward explains why developers need to give themselves permission to play and treat experiments as genuine learning. From running local models on a Raspberry Pi to tracking license plates in his driveway, see how GitHub Copilot helps restart hobby projects. Set a timebox…</description>
+      <category>githubcopilot</category>
+    </item>
     <item>
       <title>[BleepingComputer] Hackers pull off $133 million French bank heist via service provider</title>
       <link>https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/</link>
@@ -604,30 +628,6 @@
       <pubDate>Wed, 04 Nov 2026 16:19:58 +0000</pubDate>
       <description>At Microsoft Ignite, November 17–20, the Microsoft Entra team will explore innovative ways to secure access for people and AI agents. But Microsoft Ignite is just the beginning. Post Ignite from December 15–17, keep the momentum going with three days dedicated to what’s next for identity and network access security. Join the Microsoft Entra team online for a series of deep dives: Take a closer look at the latest…</description>
       <category>entra</category>
-    </item>
-    <item>
-      <title>[The Record] Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack</title>
-      <link>https://therecord.media/ukraine-kyiv-independent-cyberattack</link>
-      <guid isPermaLink="false">7881f7cab76d</guid>
-      <pubDate>Wed, 04 Nov 2026 16:15:00 +0000</pubDate>
-      <description>A suspected Russian cyberattack disrupted the website of The Kyiv Independent, one of Ukraine’s leading English-language news outlets.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit</title>
-      <link>https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html</link>
-      <guid isPermaLink="false">78de6ffe4e2d</guid>
-      <pubDate>Wed, 04 Nov 2026 16:06:43 +0000</pubDate>
-      <description>Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] mSecure password manager hack prompts password reset warnings</title>
-      <link>https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/</link>
-      <guid isPermaLink="false">4ba7cadb265a</guid>
-      <pubDate>Wed, 04 Nov 2026 16:00:18 +0000</pubDate>
-      <description>mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]</description>
-      <category>incidents</category>
     </item>
   </channel>
 </rss>
