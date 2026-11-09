@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T20:15:16+00:00",
+ "generated": "2026-11-09T22:40:25+00:00",
  "repo": "chadmcox/Copilot",
  "posts": [
   {
@@ -25,7 +25,7 @@
    "updated": "2026-11-05T20:15:16+00:00",
    "ai": false,
    "readme_hash": "54cc766cea130a3b",
-   "readme_changed": false
+   "readme_changed": true
   },
   {
    "title": "Introducing Cowork Industry Persona Library",
