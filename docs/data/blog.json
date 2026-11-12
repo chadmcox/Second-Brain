@@ -1,7 +1,26 @@
 {
- "generated": "2026-11-12T16:30:00Z",
+ "generated": "2026-11-12T18:00:00Z",
  "repo": "chadmcox/Copilot",
  "posts": [
+  {
+   "title": "I Hate Documenting Environment Settings, So I Let Copilot Cowork Do It",
+   "summary": "An admin guide to having Copilot Cowork document any admin center for you, from Entra ID and Intune to Defender, Exchange, SharePoint, Teams, Purview and Power Platform, checked against CISA, CIS, NIST and Zero Trust baselines and kept current on its own.",
+   "purpose": "Hand the documenting of any admin center to Copilot Cowork: the prerequisites, a one-paragraph prompt, copy-ready prompts for nine Microsoft 365 workloads, baseline checks against CISA, CIS, NIST and Zero Trust, the least-privileged role to use, and a scheduled run that emails you when settings drift.",
+   "audience": "Microsoft 365, Entra and security administrators",
+   "needs": [],
+   "gets": [],
+   "linkedin": "I hate documenting environment settings. So I let Copilot Cowork do it.\n\nOne paragraph of prompt, and Cowork read the Entra admin center blade by blade (read-only, never clicked Save) and wrote a Word runbook: 19 sections, 114 settings, each with its current value, the PowerShell that sets it, and a status against CISA SCuBA, CIS, NIST and Microsoft Zero Trust guidance.\n\nAnd it isn't just Entra. The same pattern works for Defender, Intune, Exchange Online, SharePoint and OneDrive, Teams, Purview, Power Platform, or any admin console you can open in the browser.\n\nThe guide covers:\n• What Cowork needs before it can read an admin center for you\n• Copy-ready prompts for nine Microsoft 365 workloads\n• Why Global Reader, not Global Administrator, is all you need\n• A monthly schedule that emails you when a setting drifts\n\nI still hate writing documentation. Now I don't have to.\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/cowork-documents-environment-settings.html\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #EntraID #ZeroTrust",
+   "slug": "cowork-documents-environment-settings",
+   "folder": "article:cowork-documents-environment-settings",
+   "kind": "article",
+   "source": "",
+   "page": "blog/cowork-documents-environment-settings.html",
+   "date": "2026-11-12T18:00:00Z",
+   "updated": "2026-11-12T18:00:00Z",
+   "ai": false,
+   "readme_hash": "",
+   "readme_changed": false
+  },
   {
    "title": "Locking Down Copilot Connectors Without Breaking Anything",
    "summary": "How to move from \"everything on\" to \"approved only\" in the Microsoft 365 admin center, what you can automate today, and where the API still falls short.",

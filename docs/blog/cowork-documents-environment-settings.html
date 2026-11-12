@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I Hate Documenting Environment Settings, So I Let Copilot Cowork Do It | Copilot &amp; Agent Watch</title>
+<meta name="description" content="An admin guide to having Copilot Cowork document any admin center for you, from Entra ID and Intune to Defender, Exchange, SharePoint, Teams, Purview and Power Platform, checked against CISA, CIS, NIST and Zero Trust baselines and kept current on its own.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="I Hate Documenting Environment Settings, So I Let Copilot Cowork Do It">
+<meta property="og:description" content="An admin guide to having Copilot Cowork document any admin center for you, from Entra ID and Intune to Defender, Exchange, SharePoint, Teams, Purview and Power Platform, checked against CISA, CIS, NIST and Zero Trust baselines and kept current on its own.">
+<meta property="og:site_name" content="Copilot &amp; Agent Watch">
+<meta property="og:url" content="https://chadmcox.github.io/Second-Brain/blog/cowork-documents-environment-settings.html">
+<meta property="article:published_time" content="2026-11-12T18:00:00Z">
+<meta name="author" content="Chad Cox">
+<meta name="twitter:card" content="summary">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="../style.css">
+<script>try { var t = localStorage.getItem("watch-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+<style>
+  .article { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; line-height: 1.6; }
+  .article h1 { font: 700 clamp(1.9rem, 5vw, 2.8rem)/1.05 var(--display); letter-spacing: -0.02em; margin: 0.4rem 0 0.8rem; }
+  .article h2 { font-size: 1.35rem; margin-top: 2.25rem; }
+  .article h3 { font-size: 1.1rem; margin-top: 1.5rem; }
+  .article .meta { color: var(--muted); margin: 0; }
+  .article .lead { font-size: 1.2rem; }
+  .article li { margin-bottom: 0.35rem; }
+  .article li > p { margin: 0; }
+  .article table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  .article th, .article td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .article .endpoints td:nth-child(2) { font-family: ui-monospace, monospace; font-size: 0.82rem; overflow-wrap: anywhere; }
+  .article .prompt { margin: 0.5rem 0 1.25rem; padding: 1rem 1.2rem; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 6px 6px 0; }
+  .article .prompt p { margin-top: 0; }
+  .article a { overflow-wrap: anywhere; }
+  .article .copy-prompt { margin-bottom: 0; }
+  .article code { font-size: 0.88em; }
+</style>
+</head>
+<body>
+<main class="article">
+  <p class="meta"><a href="../#blog">← Copilot &amp; Agent Watch blog</a></p>
+  <h1>I Hate Documenting Environment Settings, So I Let Copilot Cowork Do It</h1>
+  <p class="meta">Nov 12, 2026 · Chad Cox</p>
+  <p class="lead">An admin guide to having Copilot Cowork document any admin center for you, from Entra ID and Intune to Defender, Exchange, SharePoint, Teams, Purview and Power Platform, checked against CISA, CIS, NIST and Zero Trust baselines and kept current on its own.</p>
+<h2 id="the-confession">The confession</h2>
+<p>I’ll say it: I hate writing documentation. I like building things and fixing things. I don’t like spending an afternoon taking screenshots of an admin center and typing setting names into a Word table.</p>
+<p>The first version is only half the job. Keeping it current is the worse half. Someone adds a Conditional Access policy, a sharing setting changes, a new admin role gets handed out, and the document is out of date. Then the next audit or the next tenant build turns up a document nobody trusts.</p>
+<p>So I tried something different. I asked Copilot Cowork to do it for me. It worked well enough that I’ve turned it into this guide: how an admin can hand the documenting of almost any environment setting to Cowork, from Entra ID to Intune to Power Platform, and have it stay current on its own.</p>
+<h2 id="what-this-guide-covers">What this guide covers</h2>
+<ul>
+<li>What Cowork needs before it can read an admin center for you</li>
+<li>The one-paragraph prompt that produces a full configuration document</li>
+<li>Ready-to-use prompts for Entra ID, Defender, Intune, Exchange Online, SharePoint and OneDrive, Teams, Purview, Power Platform and the Microsoft 365 admin center</li>
+<li>How each setting gets checked against CISA, CIS, NIST and Microsoft Zero Trust guidance</li>
+<li>The least-privileged role to run it with (it isn’t Global Administrator)</li>
+<li>How to schedule it and get an email when something drifts</li>
+</ul>
+<p>The pattern isn’t limited to Microsoft 365. If you can open a settings page in Edge and read it, Cowork can document it: the Azure portal, Power BI, or a third-party SaaS admin console you’re signed in to. Change the portal name and the list of areas in the prompt.</p>
+<h2 id="before-you-start-what-cowork-needs">Before you start: what Cowork needs</h2>
+<p>Cowork reads the admin center through Microsoft Edge on your own device, signed in as you. It has the same reach you do, never more. Put these in place first:</p>
+<ul>
+<li><strong>Cowork itself.</strong> Your account needs a Microsoft 365 Copilot licence and access to Cowork in your tenant.</li>
+<li><strong>Browser access turned on.</strong> It’s off by default. An admin enables it under Copilot &gt; Settings &gt; View all &gt; Cowork settings &gt; Allow browser access, and can limit it to a security group such as your admin group.</li>
+<li><strong>Cowork in a browser.</strong> Browser tasks aren’t supported in the desktop app or on mobile.</li>
+<li><strong>Microsoft Edge, signed in with the same work account.</strong> InPrivate and guest windows don’t work. If you manage Edge centrally, the CopilotCoworkToolActionsEnabled policy must allow Cowork to act in Edge.</li>
+<li><strong>A read-only role, activated.</strong> See the least-privilege section below. Global Reader covers almost everything.</li>
+<li><strong>Sign-in prompts.</strong> Conditional Access and MFA still apply. When a prompt appears, Cowork hands control back to you.</li>
+</ul>
+<p>Every Cowork browser task is recorded in the unified audit log, so there’s a record of what it opened.</p>
+<h2 id="what-i-asked-for">What I asked for</h2>
+<p>My prompt was basically one paragraph:</p>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-1">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-1">
+<p>Log into the Entra admin portal and write up a document about every setting that is currently set. Write it as a tech document that’s easy for peers to follow to set up another environment. Call out any setting that doesn’t follow best practices like CISA, CIS, NIST and Microsoft, including Zero Trust. This is documentation only. Do not make any setting changes. For each setting, include the PowerShell cmdlet that can be used to set it.</p>
+</blockquote>
+<p>That was it. Cowork opened the Entra admin center in the browser using my existing session and went through the tenant blade by blade. It only read pages and never clicked Save. Then it built the Word document directly in my OneDrive.</p>
+<h2 id="what-came-back">What came back</h2>
+<p>A formatted configuration baseline that a peer can follow from top to bottom. In my lab tenant, it covered:</p>
+<ul>
+<li><strong>Tenant identity and properties:</strong> licence tier, domains, security defaults</li>
+<li><strong>User settings, external collaboration and cross-tenant access defaults</strong></li>
+<li><strong>Groups:</strong> general settings, expiration and naming policy</li>
+<li><strong>Device settings, plus user and admin consent for applications</strong></li>
+<li><strong>Conditional Access:</strong> every policy (57 in my tenant), its state, and named locations</li>
+<li><strong>Authentication methods:</strong> policies, method settings and the registration campaign</li>
+<li><strong>Password protection, self-service password reset and on-premises integration</strong></li>
+<li><strong>ID Protection:</strong> user risk and MFA registration policies</li>
+<li><strong>Roles and administrators:</strong> Global Administrator count and privileged assignments</li>
+<li><strong>Hybrid identity (Entra Connect) and diagnostic settings</strong></li>
+</ul>
+<p>That added up to 19 sections and 114 documented settings. Each one has its current value, a status, the baseline it was checked against, and the PowerShell to set it.</p>
+<h3 id="the-powershell-column-is-the-part-peers-will-love">The PowerShell column is the part peers will love</h3>
+<p>Every section includes the Microsoft Graph PowerShell cmdlet that configures the setting, for example:</p>
+<ul>
+<li><code>Update-MgPolicyAuthorizationPolicy</code> for user and guest settings</li>
+<li><code>New-MgIdentityConditionalAccessPolicy</code> for Conditional Access</li>
+<li><code>Update-MgPolicyAuthenticationMethodPolicy</code> for authentication methods</li>
+<li><code>Update-MgPolicyCrossTenantAccessPolicyDefault</code> for cross-tenant access</li>
+</ul>
+<p>So the document is more than a record. It’s a runbook for building the next environment.</p>
+<h2 id="not-just-entra-id-the-whole-microsoft-365-estate">Not just Entra ID: the whole Microsoft 365 estate</h2>
+<p>I started with Entra because identity is where most attacks begin. But the same prompt works in any Microsoft admin center Cowork can open. Defender, Intune, Exchange Online, SharePoint and OneDrive, Teams, Purview and Power Platform all have settings that drift, baselines that apply and PowerShell that configures them.</p>
+<div class="table-wrap"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Workload</th>
+<th>What gets documented</th>
+<th>Baselines to check against</th>
+<th>PowerShell module and example cmdlets</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Entra ID</td>
+<td>User, guest and consent settings; Conditional Access; authentication methods; roles; ID Protection</td>
+<td>CISA SCuBA Entra ID, CIS M365 Foundations, NIST SP 800-63B</td>
+<td>Microsoft.Graph: Update-MgPolicyAuthorizationPolicy, New-MgIdentityConditionalAccessPolicy</td>
+</tr>
+<tr class="even">
+<td>Defender for Office 365</td>
+<td>Preset security policies, anti-phishing, anti-spam, anti-malware, Safe Links, Safe Attachments, alert policies</td>
+<td>CISA SCuBA Defender, CIS M365 Foundations</td>
+<td>ExchangeOnlineManagement: Set-AntiPhishPolicy, Set-SafeLinksPolicy, Set-SafeAttachmentPolicy, Set-HostedContentFilterPolicy</td>
+</tr>
+<tr class="odd">
+<td>Defender for Endpoint</td>
+<td>Attack surface reduction rules, tamper protection, EDR in block mode, advanced features, device groups</td>
+<td>Defender for Endpoint security baseline, CIS Windows benchmarks</td>
+<td>Mostly through Intune: New-MgBetaDeviceManagementConfigurationPolicy. On devices: Set-MpPreference</td>
+</tr>
+<tr class="even">
+<td>Intune</td>
+<td>Compliance policies, configuration profiles, security baselines, enrolment restrictions, app protection, Windows Update rings</td>
+<td>Microsoft security baselines, CIS Microsoft Intune for Windows</td>
+<td>Microsoft.Graph: New-MgDeviceManagementDeviceCompliancePolicy, New-MgBetaDeviceManagementConfigurationPolicy</td>
+</tr>
+<tr class="odd">
+<td>Exchange Online</td>
+<td>Organisation config, auditing, external forwarding, DKIM, mail flow rules, connectors</td>
+<td>CISA SCuBA Exchange Online, CIS M365 Foundations</td>
+<td>ExchangeOnlineManagement: Set-OrganizationConfig, Set-HostedOutboundSpamFilterPolicy, Set-DkimSigningConfig, New-TransportRule</td>
+</tr>
+<tr class="even">
+<td>SharePoint and OneDrive</td>
+<td>External sharing, default link type, guest expiry, sync and access restrictions</td>
+<td>CISA SCuBA SharePoint and OneDrive, CIS M365 Foundations</td>
+<td>Microsoft.Online.SharePoint.PowerShell: Set-SPOTenant, Set-SPOSite</td>
+</tr>
+<tr class="odd">
+<td>Teams</td>
+<td>External and guest access, meeting, messaging and app permission policies</td>
+<td>CISA SCuBA Teams, CIS M365 Foundations</td>
+<td>MicrosoftTeams: Set-CsTenantFederationConfiguration, Set-CsTeamsMeetingPolicy, Set-CsTeamsClientConfiguration</td>
+</tr>
+<tr class="even">
+<td>Microsoft Purview</td>
+<td>Unified audit log, retention, DLP, sensitivity labels and label policies</td>
+<td>CIS M365 Foundations, NIST SP 800-53</td>
+<td>Security &amp; Compliance PowerShell: New-DlpCompliancePolicy, New-RetentionCompliancePolicy, Set-Label. Exchange: Set-AdminAuditLogConfig</td>
+</tr>
+<tr class="odd">
+<td>Power Platform</td>
+<td>DLP policies, environment creation rights, tenant settings</td>
+<td>CISA SCuBA Power Platform</td>
+<td>Microsoft.PowerApps.Administration.PowerShell: New-AdminDlpPolicy, Set-TenantSettings</td>
+</tr>
+</tbody>
+</table></div>
+<p>A few tips for going wider:</p>
+<ul>
+<li><strong>One document per workload.</strong> Each document stays readable, and a drift email can say exactly which workload changed.</li>
+<li><strong>Some settings are portal-only.</strong> Where there’s no cmdlet, the document should say “set in the portal” and give the navigation path, so a peer can still follow it.</li>
+<li><strong>Pair it with the free tools.</strong> CISA’s ScubaGear checks a tenant against the SCuBA baselines, and Microsoft365DSC exports configuration as code. Cowork can turn either output into a document people will actually read.</li>
+</ul>
+<h2 id="example-prompts-for-each-workload">Example prompts for each workload</h2>
+<p>Each prompt below tells Cowork what to read. End every one of them with the same guardrails so the output is read-only, consistent and checked against the baselines.</p>
+<h3 id="the-guardrails-add-to-every-prompt">The guardrails (add to every prompt)</h3>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-2">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-2">
+<p>This is documentation only: do not change, save or create anything in the portal. For every setting, give the current value; whether it is Aligned, Gap, Review or Info against CISA SCuBA, the CIS Microsoft 365 Foundations Benchmark, NIST and Microsoft Zero Trust guidance; and the PowerShell cmdlet that sets it (or “portal only” with the navigation path). Write it as a Word document a peer could follow to rebuild the configuration, and save it to my OneDrive.</p>
+</blockquote>
+<h3 id="defender-for-office-365">Defender for Office 365</h3>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-3">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-3">
+<p>Open the Microsoft Defender portal and document every email and collaboration policy: preset security policies, anti-phishing, inbound and outbound anti-spam, anti-malware, Safe Links, Safe Attachments, quarantine policies and alert policies. Note which users and domains each policy applies to and which policy wins when they overlap.</p>
+</blockquote>
+<h3 id="defender-for-endpoint">Defender for Endpoint</h3>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-4">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-4">
+<p>Open the Microsoft Defender portal and document the endpoint settings: advanced features, device groups and remediation levels, automated investigation, attack surface reduction rules, tamper protection, EDR in block mode, indicators and onboarding status. Note which settings are delivered through Intune rather than the Defender portal.</p>
+</blockquote>
+<h3 id="intune">Intune</h3>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-5">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-5">
+<p>Open the Intune admin center and document compliance policies, configuration profiles, endpoint security policies, security baselines, enrolment restrictions, Windows Autopilot profiles, Windows update rings, app protection policies and tenant administration settings. Include each policy’s assignments and exclusions.</p>
+</blockquote>
+<h3 id="exchange-online">Exchange Online</h3>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-6">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-6">
+<p>Open the Exchange admin center and document organisation settings, mailbox auditing, remote domains and automatic forwarding, mail flow rules, connectors, accepted domains, DKIM, and the SPF and DMARC records for each accepted domain.</p>
+</blockquote>
+<h3 id="sharepoint-and-onedrive">SharePoint and OneDrive</h3>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-7">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-7">
+<p>Open the SharePoint admin center and document external sharing for SharePoint and OneDrive, default link type and permissions, guest access expiry, access control (unmanaged devices, idle session sign-out, network location), OneDrive sync restrictions, site creation and storage settings.</p>
+</blockquote>
+<h3 id="teams">Teams</h3>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-8">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-8">
+<p>Open the Teams admin center and document external access, guest access, Teams settings (email into channels, third-party file storage), meeting policies and meeting settings, messaging policies, and app permission and setup policies. Show the global (org-wide default) policy and every custom policy with who it is assigned to.</p>
+</blockquote>
+<h3 id="microsoft-purview">Microsoft Purview</h3>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-9">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-9">
+<p>Open the Microsoft Purview portal and document audit (on or off, and retention), retention policies and labels, data loss prevention policies, sensitivity labels and label policies, and any insider risk or communication compliance policies. Note the scope and mode (test or enforced) of each policy.</p>
+</blockquote>
+<h3 id="power-platform">Power Platform</h3>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-10">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-10">
+<p>Open the Power Platform admin center and document the environments (type, region, security group), data policies (DLP) and their connector groups, tenant settings such as who can create environments and trials, tenant isolation, and Copilot and AI settings.</p>
+</blockquote>
+<h3 id="microsoft-365-admin-center">Microsoft 365 admin center</h3>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-11">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-11">
+<p>Open the Microsoft 365 admin center and document the org settings: password expiration policy, idle session timeout, release preferences, Customer Lockbox, user-owned apps and services, Microsoft 365 on the web, calendar and Bookings sharing, and Copilot settings. Mark anything that can only be set in the portal.</p>
+</blockquote>
+<h2 id="the-industry-baselines-document-your-security-posture-not-just-your-settings">The industry baselines: document your security posture, not just your settings</h2>
+<p>This was the part I cared about most. A list of settings tells you what is configured. It doesn’t tell you whether that’s a good idea.</p>
+<p>Every setting in the document is tagged with one of four statuses:</p>
+<div class="table-wrap"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Status</th>
+<th>What it means</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aligned</td>
+<td>Matches the recommended baseline</td>
+</tr>
+<tr class="even">
+<td>Gap</td>
+<td>Doesn’t follow one or more baselines and should be remediated</td>
+</tr>
+<tr class="odd">
+<td>Review</td>
+<td>Depends on your environment. Make a deliberate decision and record why.</td>
+</tr>
+<tr class="even">
+<td>Info</td>
+<td>Informational. No baseline applies.</td>
+</tr>
+</tbody>
+</table></div>
+<p>The baselines referenced are:</p>
+<ul>
+<li>CISA SCuBA (Secure Cloud Business Applications) baselines, which cover Entra ID, Defender, Exchange Online, SharePoint and OneDrive, Teams, Power Platform and Power BI</li>
+<li>CIS Microsoft 365 Foundations Benchmark</li>
+<li>NIST SP 800-63B (digital identity and authentication), NIST SP 800-207 (Zero Trust architecture) and NIST SP 800-53 (security controls) for audit mapping</li>
+<li>Microsoft guidance, including Zero Trust deployment guidance and Conditional Access best practices</li>
+<li>Microsoft security baselines (for Intune, Windows, Defender for Endpoint and Edge) and Microsoft Secure Score recommendations</li>
+<li>CIS benchmarks for Windows, plus the CIS Microsoft Intune for Windows benchmark for device configuration</li>
+</ul>
+<p>In my tenant, that came out to 40 Gaps, 31 Review, 24 Aligned and 19 Info. The document also includes a prioritised remediation order. Some examples of the kind of findings it surfaced:</p>
+<ul>
+<li>Most Conditional Access policies were still in report-only mode, so they weren’t actually enforcing anything.</li>
+<li>There were far more Global Administrators than the “fewer than five” Microsoft recommends.</li>
+<li>Self-service password reset was turned off.</li>
+<li>Entra sign-in and audit logs weren’t being sent anywhere for long-term retention.</li>
+</ul>
+<p>Why does this matter beyond tidiness? Because this is evidence. When security, audit, compliance or cyber insurance asks “how is identity configured and how does it compare to a recognised framework?”, you can hand over a dated document instead of starting from scratch. The “Review” items also give you a place to write down <em>why</em> you deviated from a baseline. That’s exactly what an auditor wants to see.</p>
+<p><strong>Note:</strong> The baseline mapping is a strong starting point, not a certified audit. Have your security team validate the findings against the exact benchmark versions your organisation follows.</p>
+<h2 id="least-privilege-you-dont-need-global-administrator-for-this">Least privilege: you don’t need Global Administrator for this</h2>
+<p>I ran my first pass as a Global Administrator because that’s how I was signed in. But nothing in this process changes a setting. Every step is a read. That means the realistic, least-privileged way to run it is with <strong>Global Reader</strong>.</p>
+<p>Global Reader is a built-in Entra role, but it isn’t limited to Entra. Microsoft describes it as able to read settings and administrative information across Microsoft 365 services without being able to take management actions. That covers the Entra blades, and it also gives read-only access to the Defender portal, Intune, Exchange, SharePoint, Teams and most of Purview.</p>
+<div class="table-wrap"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>What you’re doing</th>
+<th>Least privilege needed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Interactive run in the Entra admin center (what Cowork did)</td>
+<td><strong>Global Reader</strong> (Entra role)</td>
+</tr>
+<tr class="even">
+<td>Narrower option if you only document Conditional Access and ID Protection</td>
+<td>Security Reader</td>
+</tr>
+<tr class="odd">
+<td>Reading diagnostic settings (log export)</td>
+<td>Global Reader for Entra. To check the destination workspace or storage, you also need Reader on the Azure subscription.</td>
+</tr>
+<tr class="even">
+<td>Scripted or unattended run through Microsoft Graph</td>
+<td>Read-only application permissions: Policy.Read.All, Directory.Read.All, RoleManagement.Read.Directory, Organization.Read.All</td>
+</tr>
+<tr class="odd">
+<td>Defender XDR and Defender for Office 365 (portal)</td>
+<td>Global Reader, or Security Reader</td>
+</tr>
+<tr class="even">
+<td>Intune (devices, compliance, configuration, security baselines)</td>
+<td>Global Reader, or the Intune Read Only Operator role</td>
+</tr>
+<tr class="odd">
+<td>Exchange Online, SharePoint and OneDrive, Teams, Microsoft 365 admin center</td>
+<td>Global Reader</td>
+</tr>
+<tr class="even">
+<td>Microsoft Purview (audit, retention, DLP, sensitivity labels)</td>
+<td>Global Reader for most pages. Some pages need a view-only Purview role group.</td>
+</tr>
+<tr class="odd">
+<td>Power Platform (DLP policies, tenant and environment settings)</td>
+<td>Test Global Reader first. Some settings may need Power Platform Administrator or an environment-level role.</td>
+</tr>
+</tbody>
+</table></div>
+<p>A few honest caveats:</p>
+<ul>
+<li><strong>Activate it with PIM.</strong> If you use Privileged Identity Management, make Global Reader an eligible assignment and activate it for the run. Don’t keep it standing.</li>
+<li><strong>Some values are hidden in the portal.</strong> These include group lifetime and smart lockout thresholds, and they were hidden even for a Global Administrator. The document flags them as “masked” rather than guessing.</li>
+<li><strong>Test with your own account.</strong> Before you rely on Global Reader, do one run with it to confirm it can see every blade your tenant uses.</li>
+<li><strong>Know the gaps.</strong> Microsoft documents a few places where Global Reader can’t yet see everything. Power Platform is the one most likely to need a different role. Check the current list before you rely on it.</li>
+</ul>
+<h2 id="set-it-and-forget-it-make-it-run-on-its-own">Set it and forget it: make it run on its own</h2>
+<p>Writing the document once saves an afternoon. The bigger win is never having to think about keeping it current.</p>
+<p>Cowork can run the same prompt on a schedule. For example: “On the first Monday of every month, capture the configuration baseline for Entra ID, Defender, Intune, Exchange Online, SharePoint and Teams, one document per workload, and save them to my OneDrive.” Each run produces fresh, dated versions, so the documentation is never more than a month old.</p>
+<h3 id="drift-detection-email-yourself-what-changed">Drift detection: email yourself what changed</h3>
+<p>This is where it gets useful. Save each run to OneDrive or to a SharePoint library with versioning turned on. Then add one more instruction to the scheduled prompt:</p>
+<p><button class="tool copy-prompt" type="button" data-target="prompt-12">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-12">
+<p>Compare this run with the previous version in my OneDrive (or SharePoint) folder. If any setting changed, a policy was added or removed, or a status moved from Aligned to Gap, email me a summary of the differences. If nothing changed, send a one-line “no drift” email.</p>
+</blockquote>
+<p>Now you get a short email that says something like “Conditional Access policy X was switched from Report-only to On” or “two new Global Administrators were added since last month.” You don’t have to remember to check. The change comes to you.</p>
+<p>That helps in three ways:</p>
+<ul>
+<li><strong>Change control.</strong> Unplanned changes show up within a cycle, not at the next audit.</li>
+<li><strong>Security.</strong> A new Global Administrator, a relaxed consent setting or a disabled policy is exactly the kind of drift you want to know about early.</li>
+<li><strong>Audit history.</strong> The version history in OneDrive or SharePoint becomes a dated record of your posture over time.</li>
+</ul>
+<p><strong>Tip:</strong> Store the baselines in a SharePoint library that your team owns rather than in a personal OneDrive. That way the history survives role changes, and peers can find the current version.</p>
+<h2 id="why-this-is-a-good-copilot-cowork-use-case">Why this is a good Copilot Cowork use case</h2>
+<p>This isn’t a “summarise my email” task. It’s real admin work with a lot of steps:</p>
+<ul>
+<li><strong>It does the tedious part.</strong> It opens dozens of blades, reads every value and records it.</li>
+<li><strong>It adds judgement.</strong> It maps each setting to industry baselines and orders the remediation.</li>
+<li><strong>It produces a real deliverable.</strong> You get a formatted Word document in OneDrive that peers can use, not a chat reply you have to copy and paste.</li>
+<li><strong>It respects boundaries.</strong> “Documentation only, make no changes” is followed, and the process works with a read-only role.</li>
+<li><strong>It can repeat on its own.</strong> A schedule plus a drift email turns a one-time document into ongoing configuration monitoring.</li>
+</ul>
+<h2 id="try-it-yourself">Try it yourself</h2>
+<ol type="1">
+<li>Activate <strong>Global Reader</strong> (through PIM if you use it).</li>
+<li>Open Copilot Cowork in the browser and give it the prompt from the top of this post. Swap in the admin center you want (Entra, Defender, Intune, Exchange, SharePoint, Teams, Purview or Power Platform), and keep the line “do not make any setting changes”.</li>
+<li>Review the document, especially the Gap and Review items, and add your reasons for any intentional deviations.</li>
+<li>Save it to a team SharePoint library.</li>
+<li>Schedule a monthly re-run with the drift-email instruction.</li>
+</ol>
+<p>I still hate writing documentation. Now I don’t have to, and it stays up to date on its own.</p>
+<h2 id="references">References</h2>
+<ul>
+<li>CISA Secure Cloud Business Applications (SCuBA): <a href="https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project" target="_blank" rel="noopener noreferrer">cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project</a></li>
+<li>ScubaGear: <a href="https://github.com/cisagov/ScubaGear" target="_blank" rel="noopener noreferrer">github.com/cisagov/ScubaGear</a></li>
+<li>CIS Microsoft 365 Foundations Benchmark: <a href="https://www.cisecurity.org/benchmark/microsoft_365" target="_blank" rel="noopener noreferrer">cisecurity.org/benchmark/microsoft_365</a></li>
+<li>Microsoft365DSC: <a href="https://microsoft365dsc.com" target="_blank" rel="noopener noreferrer">microsoft365dsc.com</a></li>
+<li>Global Reader role: <a href="https://learn.microsoft.com/entra/identity/role-based-access-control/permissions-reference#global-reader" target="_blank" rel="noopener noreferrer">learn.microsoft.com/entra/identity/role-based-access-control/permissions-reference#global-reader</a></li>
+<li>Use the local browser with Copilot Cowork: <a href="https://learn.microsoft.com/copilot/cowork/cowork-local-browser" target="_blank" rel="noopener noreferrer">learn.microsoft.com/copilot/cowork/cowork-local-browser</a></li>
+<li>Manage Copilot Cowork for your organization: <a href="https://learn.microsoft.com/copilot/cowork/cowork-admin-governance" target="_blank" rel="noopener noreferrer">learn.microsoft.com/copilot/cowork/cowork-admin-governance</a></li>
+<li>Related post: <a href="copilot-connector-governance.html">Locking Down Copilot Connectors Without Breaking Anything</a></li>
+</ul>
+
+</main>
+<script>
+  document.querySelectorAll(".copy-prompt").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var text = document.getElementById(b.dataset.target).innerText.trim();
+      function done(ok) { b.textContent = ok ? "Copied" : "Copy failed"; setTimeout(function () { b.textContent = "Copy prompt"; }, 2500); }
+      if (navigator.clipboard) navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(false); });
+      else done(false);
+    });
+  });
+</script>
+</body>
+</html>
