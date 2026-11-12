@@ -1,0 +1,17 @@
+I hate documenting environment settings. So I let Copilot Cowork do it.
+
+One paragraph of prompt, and Cowork read the Entra admin center blade by blade (read-only, never clicked Save) and wrote a Word runbook: 19 sections, 114 settings, each with its current value, the PowerShell that sets it, and a status against CISA SCuBA, CIS, NIST and Microsoft Zero Trust guidance.
+
+And it isn't just Entra. The same pattern works for Defender, Intune, Exchange Online, SharePoint and OneDrive, Teams, Purview, Power Platform, or any admin console you can open in the browser.
+
+The guide covers:
+• What Cowork needs before it can read an admin center for you
+• Copy-ready prompts for nine Microsoft 365 workloads
+• Why Global Reader, not Global Administrator, is all you need
+• A monthly schedule that emails you when a setting drifts
+
+I still hate writing documentation. Now I don't have to.
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/cowork-documents-environment-settings.html
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #EntraID #ZeroTrust
