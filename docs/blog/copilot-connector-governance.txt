@@ -1,0 +1,14 @@
+Locking down Copilot connectors without breaking anything.
+
+Most Copilot tenants have hundreds of agents, plugins, MCP servers and connectors set to "All users". Blocking everything isn't the answer. A four-step pattern works better:
+
+1. Measure usage first, and read a zero as "no recent measured use", not "never needed".
+2. Set an outer boundary with security groups under Agents > Settings > User access.
+3. Assign each approved tool to the groups that need it.
+4. Block what you never want, at the MCP server level.
+
+The Agent 365 Package Management API in Microsoft Graph handles inventory and blocking, but it can't yet say "only these groups may use this tool". The post covers where the API stops, and a sample Copilot prompt to finish the job in the admin center with a full audit trail.
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/copilot-connector-governance.html
+
+#MicrosoftCopilot #Agent365 #Microsoft365 #AIgovernance

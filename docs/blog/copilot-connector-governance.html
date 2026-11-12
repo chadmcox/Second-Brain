@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Locking Down Copilot Connectors Without Breaking Anything | Copilot &amp; Agent Watch</title>
+<meta name="description" content="How to move from &quot;everything on&quot; to &quot;approved only&quot; in the Microsoft 365 admin center, what you can automate today, and where the API still falls short.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Locking Down Copilot Connectors Without Breaking Anything">
+<meta property="og:description" content="How to move from &quot;everything on&quot; to &quot;approved only&quot; in the Microsoft 365 admin center, what you can automate today, and where the API still falls short.">
+<meta property="og:site_name" content="Copilot &amp; Agent Watch">
+<meta property="og:url" content="https://chadmcox.github.io/Second-Brain/blog/copilot-connector-governance.html">
+<meta property="article:published_time" content="2026-11-12T16:30:00Z">
+<meta name="author" content="Chad Cox">
+<meta name="twitter:card" content="summary">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="../style.css">
+<script>try { var t = localStorage.getItem("watch-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+<style>
+  .article { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; line-height: 1.6; }
+  .article h1 { font: 700 clamp(1.9rem, 5vw, 2.8rem)/1.05 var(--display); letter-spacing: -0.02em; margin: 0.4rem 0 0.8rem; }
+  .article h2 { font-size: 1.35rem; margin-top: 2.25rem; }
+  .article h3 { font-size: 1.1rem; margin-top: 1.5rem; }
+  .article .meta { color: var(--muted); margin: 0; }
+  .article .lead { font-size: 1.2rem; }
+  .article li { margin-bottom: 0.35rem; }
+  .article li > p { margin: 0; }
+  .article table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  .article th, .article td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .article td:nth-child(2) { font-family: ui-monospace, monospace; font-size: 0.82rem; overflow-wrap: anywhere; }
+  .article .prompt { margin: 0.5rem 0 1.25rem; padding: 1rem 1.2rem; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 6px 6px 0; }
+  .article .prompt p { margin-top: 0; }
+  .article a { overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<main class="article">
+  <p class="meta"><a href="../#blog">← Copilot &amp; Agent Watch blog</a></p>
+  <h1>Locking Down Copilot Connectors Without Breaking Anything</h1>
+  <p class="meta">Nov 12, 2026 · Chad Cox</p>
+  <p class="lead">How to move from &quot;everything on&quot; to &quot;approved only&quot; in the Microsoft 365 admin center, what you can automate today, and where the API still falls short.</p>
+<h2 id="the-problem-everything-is-on-by-default">The problem: everything
+is on by default</h2>
+<p>Open the Microsoft 365 admin center in a typical Copilot tenant and
+you will find hundreds of agents, plugins, MCP servers and connectors,
+many of them set to "All users". In one recent review, the Tools
+registry listed 470 plugins and 458 MCP servers, and the Copilot
+Connectors page showed dozens of third-party connections in a Ready
+state. Nobody had approved most of them individually; they were simply
+available.</p>
+<p>The instinct is to "block everything". In practice there is no single
+block-all button, and blocking blindly risks cutting people off from
+tools they rely on. A better pattern is to measure usage first, keep
+what is needed, and restrict the rest to approved groups.</p>
+<h2 id="a-four-step-pattern-that-works">A four-step pattern that
+works</h2>
+<h3 id="measure-before-you-change-anything">1. Measure before you change
+anything</h3>
+<p>Start with the usage reports, not the settings. Under Reports &gt;
+Usage &gt; Microsoft Copilot, the Connectors report shows connections
+used by Copilot and by agents, active connector users and connector
+responses over 7 or 30 days. The Agents report shows active users and
+active agents. In our review every number was zero, which meant
+restricting access would not interrupt anyone.</p>
+<p>Treat a zero carefully. The Connectors report is in preview, it only
+looks back 30 days, and it does not yet count usage inside Cowork. Zero
+means "no recent measured use", not "never needed".</p>
+<h3 id="set-an-outer-boundary-with-groups">2. Set an outer boundary with
+groups</h3>
+<p>Agents &gt; Settings &gt; User access controls who can use any agent
+or plugin at all. Changing it from "All users" to "Specific users or
+groups" is the single most powerful step, because everything else is
+limited by it. We used six security groups: one SuperUsers group plus
+five department groups (Revenue, Finance, People, Technology and
+Operations).</p>
+<p>Confirm the groups have the right members before you save. Anyone
+outside them loses access immediately.</p>
+<h3 id="assign-each-approved-tool-to-the-right-groups">3. Assign each
+approved tool to the right groups</h3>
+<p>Each plugin under Agents &gt; Tools has a Users tab with three
+options: All users, No users, or Specific users and groups. Each Copilot
+connection has an equivalent "Add staging" option. Give your SuperUsers
+group every approved item, then add the department that actually needs
+it. Leave items that are already set to "No users" alone; switching them
+to a group turns them on.</p>
+<h3 id="block-what-you-never-want">4. Block what you never want</h3>
+<p>Some tools should be off for everyone. Blocking an MCP server under
+Agents &gt; Tools &gt; MCP servers also blocks its linked plugins and
+connectors, and the confirmation dialog lists them. We blocked Google
+Drive, Google Calendar, Google Sheets, Google Tasks and Google Contacts
+this way. Note that there was no item called "Google Docs"; Docs files
+are reached through Google Drive, so check what a name actually covers
+before assuming it is missing.</p>
+<p>Finally, users can still see restricted plugins and choose Request
+access. Those requests land under Agents &gt; Tools &gt; Requests, which
+becomes your ongoing approval queue.</p>
+<h2 id="can-this-be-automated">Can this be automated?</h2>
+<p>Partly. Microsoft has published the Agent 365 Package Management API
+in Microsoft Graph. It treats each agent, plugin, MCP server or skill as
+a "package" and offers these operations:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th><strong>Operation</strong></th>
+<th><strong>Endpoint</strong></th>
+<th><strong>Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>List packages</td>
+<td>GET /copilot/admin/catalog/packages</td>
+<td>Available</td>
+</tr>
+<tr class="even">
+<td>Get package details</td>
+<td>GET /copilot/admin/catalog/packages/{id}</td>
+<td>Available</td>
+</tr>
+<tr class="odd">
+<td>Update package metadata</td>
+<td>PATCH /copilot/admin/catalog/packages/{id}</td>
+<td>Preview</td>
+</tr>
+<tr class="even">
+<td>Block a package</td>
+<td>POST /copilot/admin/catalog/packages/{id}/block</td>
+<td>Preview</td>
+</tr>
+<tr class="odd">
+<td>Unblock a package</td>
+<td>POST /copilot/admin/catalog/packages/{id}/unblock</td>
+<td>Preview</td>
+</tr>
+<tr class="even">
+<td>Reassign ownership</td>
+<td>POST /copilot/admin/catalog/packages/{id}/reassign</td>
+<td>Preview</td>
+</tr>
+</tbody>
+</table></div>
+<p>That covers inventory, blocking and ownership well. Pulling a full
+list of tools, filtering by type or last-updated date, and blocking a
+known list of unwanted items can all be scripted.</p>
+<h2 id="why-the-api-is-not-100-yet">Why the API is not 100% yet</h2>
+<p>Before you plan a fully scripted rollout, be honest about the
+gaps:</p>
+<ul>
+<li><p>The write operations (block, unblock, update, reassign) are in
+preview, so behavior and shape can change before general
+availability.</p></li>
+<li><p>Using the API requires a Microsoft Agent 365 license and the AI
+Administrator role.</p></li>
+<li><p>By default, listing packages returns only items that contain an
+agent. You must filter on element type to see plugins, MCP servers and
+skills.</p></li>
+<li><p>The API does not return Power Platform connectors.</p></li>
+<li><p>In Microsoft's published operation list, there is no endpoint for
+the organization-wide User access setting, the Agent and plugin access
+publisher categories, per-plugin "Specific users and groups" assignment,
+or connector staged rollout. Those steps, which were the heart of our
+group-based approach, still had to be done in the admin center.</p></li>
+<li><p>The usage reports that should drive your decisions are preview,
+short-window and missing Cowork activity.</p></li>
+</ul>
+<p>In short, the API can tell you what you have and switch individual
+items off. It cannot yet express "only these groups may use this tool",
+which is where most of the governance value lives.</p>
+<h2 id="bridging-the-gap-with-copilot">Bridging the gap with
+Copilot</h2>
+<p>Where the API stops, an AI assistant that can work the admin center
+for you fills in. Copilot can read the usage reports, walk the Tools
+registry, apply group assignments item by item, confirm each "updated
+successfully" message and write up a report as it goes. It is slower
+than an API call, and it should pause for your confirmation on anything
+that blocks or broadens access, but it removes hours of repetitive
+clicking and leaves an audit trail.</p>
+<h3 id="sample-prompt">Sample prompt</h3>
+<p>Copy and adapt this prompt: <button class="tool" type="button" id="copy-prompt">Copy prompt</button></p>
+<blockquote class="prompt" id="prompt-text">
+<p>Open the Microsoft 365 admin center and help me move Copilot agents,
+plugins and connectors to an approved-only model. Do this in order and
+pause for my approval before any change:</p>
+<ol type="1">
+<li><p>Read-only: pull the Copilot Connectors and Agents usage reports
+for the last 30 days and list every plugin, MCP server and Copilot
+connection with its current status and who it is available to. Save this
+as a spreadsheet.</p></li>
+<li><p>Set Agents &gt; Settings &gt; User access to Specific users or
+groups using these groups: SG-Copilot-SuperUsers,
+SG-Copilot-Revenue-Bronze, SG-Copilot-Finance-Bronze,
+SG-Copilot-People-Bronze, SG-Copilot-Technology-Bronze and
+SG-Copilot-Operations-Bronze.</p></li>
+<li><p>For every item that is currently Available, change it from All
+users to SG-Copilot-SuperUsers plus the department group I assign in the
+spreadsheet. Do not turn on anything that is currently set to No users
+or Not available.</p></li>
+<li><p>Block these MCP servers for the whole organization: [list items,
+for example Google Drive MCP, Google Calendar]. Show me the linked
+plugins and connectors before confirming each block.</p></li>
+<li><p>After each change, confirm the success message on screen. Keep a
+Word report of every action with the previous and new setting, and list
+anything you could not change.</p></li>
+</ol>
+</blockquote>
+<p>Three tips make prompts like this work well. Be explicit about what
+must stay off. Ask for a read-only inventory first. And ask for a report
+with before-and-after values, so you can roll back any single
+change.</p>
+<h2 id="takeaways">Takeaways</h2>
+<p>Measure usage before blocking. Use security groups as the outer
+boundary, then assign tools to groups rather than to everyone. Use the
+Package Management API for inventory and blocking, but expect to finish
+group-based access in the admin center until Microsoft adds those
+operations. And keep a written record of every change, because the
+fastest way to undo a governance mistake is knowing exactly what you
+changed.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><p>Agent 365 Package Management API overview:
+<a href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/api/admin-settings/package/overview" target="_blank" rel="noopener noreferrer">learn.microsoft.com/microsoft-365-copilot/extensibility/api/admin-settings/package/overview</a></p></li>
+<li><p>Manage plugins, skills and MCP servers:
+<a href="https://learn.microsoft.com/microsoft-agent-365/admin/manage-plugins-skills-mcp-servers" target="_blank" rel="noopener noreferrer">learn.microsoft.com/microsoft-agent-365/admin/manage-plugins-skills-mcp-servers</a></p></li>
+<li><p>Agent settings in the Microsoft 365 admin center:
+<a href="https://learn.microsoft.com/microsoft-agent-365/admin/agent-settings" target="_blank" rel="noopener noreferrer">learn.microsoft.com/microsoft-agent-365/admin/agent-settings</a></p></li>
+<li><p>Manage federated connector availability:
+<a href="https://learn.microsoft.com/microsoft-365/copilot/connectors/manage-federated-connectors" target="_blank" rel="noopener noreferrer">learn.microsoft.com/microsoft-365/copilot/connectors/manage-federated-connectors</a></p></li>
+<li><p>Microsoft 365 Copilot Connectors usage report:
+<a href="https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-connectors-usage" target="_blank" rel="noopener noreferrer">learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-connectors-usage</a></p></li>
+</ul>
+
+</main>
+<script>
+  document.getElementById("copy-prompt").addEventListener("click", function () {
+    var b = this, text = document.getElementById("prompt-text").innerText.trim();
+    function done(ok) { b.textContent = ok ? "Copied" : "Copy failed"; setTimeout(function () { b.textContent = "Copy prompt"; }, 2500); }
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(false); });
+    else done(false);
+  });
+</script>
+</body>
+</html>

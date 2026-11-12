@@ -1,7 +1,26 @@
 {
- "generated": "2026-11-09T22:40:25+00:00",
+ "generated": "2026-11-12T16:30:00Z",
  "repo": "chadmcox/Copilot",
  "posts": [
+  {
+   "title": "Locking Down Copilot Connectors Without Breaking Anything",
+   "summary": "How to move from \"everything on\" to \"approved only\" in the Microsoft 365 admin center, what you can automate today, and where the API still falls short.",
+   "purpose": "Measure usage, set a group boundary, assign approved tools to groups and block the rest, plus what the Agent 365 Package Management API can and cannot automate today.",
+   "audience": "Microsoft 365 and Copilot administrators",
+   "needs": [],
+   "gets": [],
+   "linkedin": "Locking down Copilot connectors without breaking anything.\n\nMost Copilot tenants have hundreds of agents, plugins, MCP servers and connectors set to \"All users\". Blocking everything isn't the answer. A four-step pattern works better:\n\n1. Measure usage first, and read a zero as \"no recent measured use\", not \"never needed\".\n2. Set an outer boundary with security groups under Agents > Settings > User access.\n3. Assign each approved tool to the groups that need it.\n4. Block what you never want, at the MCP server level.\n\nThe Agent 365 Package Management API in Microsoft Graph handles inventory and blocking, but it can't yet say \"only these groups may use this tool\". The post covers where the API stops, and a sample Copilot prompt to finish the job in the admin center with a full audit trail.\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/copilot-connector-governance.html\n\n#MicrosoftCopilot #Agent365 #Microsoft365 #AIgovernance",
+   "slug": "copilot-connector-governance",
+   "folder": "article:copilot-connector-governance",
+   "kind": "article",
+   "source": "",
+   "page": "blog/copilot-connector-governance.html",
+   "date": "2026-11-12T16:30:00Z",
+   "updated": "2026-11-12T16:30:00Z",
+   "ai": false,
+   "readme_hash": "",
+   "readme_changed": false
+  },
   {
    "title": "Introducing Copilot Access Governance Guide",
    "summary": "Scripts and steps that create the Copilot groups, access packages and PIM admin groups, and say which admin center setting each group goes in.",

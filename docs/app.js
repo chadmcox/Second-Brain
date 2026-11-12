@@ -650,7 +650,7 @@
       var when = Date.parse(p.date || "");
       if (when) meta.appendChild(el("span", { text: fmtShort.format(new Date(when)) }));
       if (when && Date.now() - when < 7 * DAY) meta.appendChild(el("span", { class: "fresh", text: "New" }));
-      meta.appendChild(el("span", { class: "tag", text: p.folder }));
+      meta.appendChild(el("span", { class: "tag", text: p.kind === "article" ? "Article" : p.folder }));
       if (p.ai) meta.appendChild(el("span", { text: "AI-written" }));
       if (p.readme_changed) meta.appendChild(el("span", { class: "key", text: "Readme changed since this post" }));
       var copy = el("button", { class: "tool", type: "button", text: "Copy LinkedIn post" });
@@ -661,7 +661,7 @@
       });
       var share = el("a", { class: "tool", target: "_blank", rel: "noopener noreferrer",
         href: "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(page || ""), text: "Share on LinkedIn" });
-      var src = safeUrl(p.source);
+      var src = p.source ? safeUrl(p.source) : "";
       var actions = el("p", { class: "blog-actions" }, [copy, share,
         src ? el("a", { class: "tool", href: src, target: "_blank", rel: "noopener noreferrer", text: "Project on GitHub" }) : ""]);
       list.appendChild(el("article", { class: "post" }, [
