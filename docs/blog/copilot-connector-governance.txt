@@ -7,7 +7,7 @@ Most Copilot tenants have hundreds of agents, plugins, MCP servers and connector
 3. Assign each approved tool to the groups that need it.
 4. Block what you never want, at the MCP server level.
 
-The Agent 365 Package Management API in Microsoft Graph handles inventory and blocking, but it can't yet say "only these groups may use this tool". The post covers where the API stops, and a sample Copilot prompt to finish the job in the admin center with a full audit trail.
+The Agent 365 Package Management API in Microsoft Graph handles inventory and blocking, but it can't yet say "only these groups may use this tool". The post covers where the API stops, the least-privilege roles for each step (no Global Administrator needed), what Copilot Cowork needs before it can work the admin center for you, and a sample prompt to finish the job with a full audit trail.
 
 Read more: https://chadmcox.github.io/Second-Brain/blog/copilot-connector-governance.html
 

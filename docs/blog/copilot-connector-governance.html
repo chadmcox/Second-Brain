@@ -27,7 +27,7 @@
   .article li > p { margin: 0; }
   .article table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
   .article th, .article td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
-  .article td:nth-child(2) { font-family: ui-monospace, monospace; font-size: 0.82rem; overflow-wrap: anywhere; }
+  .article .endpoints td:nth-child(2) { font-family: ui-monospace, monospace; font-size: 0.82rem; overflow-wrap: anywhere; }
   .article .prompt { margin: 0.5rem 0 1.25rem; padding: 1rem 1.2rem; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 6px 6px 0; }
   .article .prompt p { margin-top: 0; }
   .article a { overflow-wrap: anywhere; }
@@ -98,7 +98,7 @@ becomes your ongoing approval queue.</p>
 <p>Partly. Microsoft has published the Agent 365 Package Management API
 in Microsoft Graph. It treats each agent, plugin, MCP server or skill as
 a "package" and offers these operations:</p>
-<div class="table-wrap"><table>
+<div class="table-wrap"><table class="endpoints">
 <thead>
 <tr class="header">
 <th><strong>Operation</strong></th>
@@ -166,6 +166,75 @@ short-window and missing Cowork activity.</p></li>
 <p>In short, the API can tell you what you have and switch individual
 items off. It cannot yet express "only these groups may use this tool",
 which is where most of the governance value lives.</p>
+<h2 id="permissions-you-need-least-privilege">Permissions you need
+(least privilege)</h2>
+<p>None of this needs Global Administrator. The AI Administrator role is
+built for exactly this work: it covers Copilot settings, agents,
+plugins, MCP servers and skills, usage reports and most tenant-wide
+consent, without broad control over the rest of Microsoft 365. Two
+cautions. Microsoft notes the AI Administrator role is still being
+expanded, so test each step with it before assuming Global Administrator
+is required. And treat it as the privileged role it is: assign it
+through Privileged Identity Management so it is activated just in time,
+with MFA, only for the governance session.</p>
+<p>Here is the smallest role that can do each part of the job:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>Task</th>
+<th>Least-privileged role</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Read the Connectors and Agents usage reports</td>
+<td>AI Administrator</td>
+<td>Reports Reader can read the Copilot usage report APIs if you only
+need data.</td>
+</tr>
+<tr class="even">
+<td>Set Agents &gt; Settings &gt; User access to specific groups</td>
+<td>AI Administrator</td>
+<td>Organization-wide boundary for agents and plugins.</td>
+</tr>
+<tr class="odd">
+<td>Assign groups on each plugin, and block or unblock plugins and MCP
+servers</td>
+<td>AI Administrator</td>
+<td>Done from Agents &gt; Tools.</td>
+</tr>
+<tr class="even">
+<td>Approve MCP server requests and grant tenant-wide consent</td>
+<td>AI Administrator</td>
+<td>Apps that need Microsoft Graph application permissions still need
+Global Administrator or Privileged Role Administrator.</td>
+</tr>
+<tr class="odd">
+<td>Create the SG-Copilot groups and manage membership</td>
+<td>Groups Administrator</td>
+<td>Group owners can maintain membership day to day.</td>
+</tr>
+<tr class="even">
+<td>Read-only review of the setup</td>
+<td>AI Reader or Global Reader</td>
+<td>Cannot change any setting.</td>
+</tr>
+<tr class="odd">
+<td>Search the audit log for Copilot and Cowork activity</td>
+<td>Audit Reader (Microsoft Purview)</td>
+<td>Every Cowork browser task is logged in the unified audit log.</td>
+</tr>
+<tr class="even">
+<td>Script inventory or blocking with the Package Management API</td>
+<td>AI Administrator plus an Agent 365 license</td>
+<td>CopilotPackages.Read.All for inventory,
+CopilotPackages.ReadWrite.All to block. Granting a Graph application
+permission is a one-time Global Administrator or Privileged Role
+Administrator consent.</td>
+</tr>
+</tbody>
+</table></div>
 <h2 id="bridging-the-gap-with-copilot">Bridging the gap with
 Copilot</h2>
 <p>Where the API stops, an AI assistant that can work the admin center
@@ -175,17 +244,54 @@ successfully" message and write up a report as it goes. It is slower
 than an API call, and it should pause for your confirmation on anything
 that blocks or broadens access, but it removes hours of repetitive
 clicking and leaves an audit trail.</p>
+<h3 id="what-cowork-needs-before-it-can-do-the-clicking">What Cowork
+needs before it can do the clicking</h3>
+<p>Cowork drives the admin center through Microsoft Edge on your own
+device, signed in as you. It has the same reach you do, never more, so
+the permissions above still decide what it can change. Put these in
+place first:</p>
+<ul>
+<li><p>Cowork itself: the admin account needs a Microsoft 365 Copilot
+license and access to Cowork in your tenant (including the Anthropic
+subprocessor setting where your region requires it).</p></li>
+<li><p>Cowork browsing turned on: it is off by default. An admin enables
+it under Copilot &gt; Settings &gt; View all &gt; Cowork settings &gt;
+Allow browser access, and can limit it to specific security groups, such
+as your admin group.</p></li>
+<li><p>Cowork running in a browser: browser tasks are not supported in
+the desktop app or on mobile.</p></li>
+<li><p>Microsoft Edge 152.0.4191.53 or later installed (it does not need
+to be the default browser), signed in with the same work account you use
+for Cowork. InPrivate and guest windows do not work.</p></li>
+<li><p>Edge policy, if you manage Edge centrally: the
+CopilotCoworkToolActionsEnabled policy controls whether Cowork may take
+actions in Edge. Enable it for your admin devices or profiles.</p></li>
+<li><p>First-run consent: the first time Cowork needs the browser,
+select I understand in the conversation.</p></li>
+<li><p>The right role, activated: activate AI Administrator (and Groups
+Administrator if the session will touch group membership) in PIM before
+you start. If Cowork hits a permission error, it should stop and report
+it rather than look for another route.</p></li>
+<li><p>Sign-in prompts: Conditional Access and MFA still apply. When a
+prompt appears, Cowork hands control back to you to complete
+it.</p></li>
+</ul>
+<p>Because the session runs as you, every change is attributed to your
+account, and each Cowork browser task is recorded in the unified audit
+log. Search it in Microsoft Purview with the Audit Reader role.</p>
 <h3 id="sample-prompt">Sample prompt</h3>
 <p>Copy and adapt this prompt: <button class="tool" type="button" id="copy-prompt">Copy prompt</button></p>
 <blockquote class="prompt" id="prompt-text">
 <p>Open the Microsoft 365 admin center and help me move Copilot agents,
-plugins and connectors to an approved-only model. Do this in order and
-pause for my approval before any change:</p>
+plugins, MCP servers, skills and connectors to an approved-only model. I
+am signed in with the AI Administrator role activated; if any page says
+I lack permission, stop and tell me rather than trying another way. Do
+this in order and pause for my approval before any change:</p>
 <ol type="1">
 <li><p>Read-only: pull the Copilot Connectors and Agents usage reports
-for the last 30 days and list every plugin, MCP server and Copilot
-connection with its current status and who it is available to. Save this
-as a spreadsheet.</p></li>
+for the last 30 days and list every plugin, MCP server, skill and
+Copilot connection with its current status and who it is available to.
+Save this as a spreadsheet.</p></li>
 <li><p>Set Agents &gt; Settings &gt; User access to Specific users or
 groups using these groups: SG-Copilot-SuperUsers,
 SG-Copilot-Revenue-Bronze, SG-Copilot-Finance-Bronze,
@@ -227,6 +333,16 @@ changed.</p>
 <a href="https://learn.microsoft.com/microsoft-365/copilot/connectors/manage-federated-connectors" target="_blank" rel="noopener noreferrer">learn.microsoft.com/microsoft-365/copilot/connectors/manage-federated-connectors</a></p></li>
 <li><p>Microsoft 365 Copilot Connectors usage report:
 <a href="https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-connectors-usage" target="_blank" rel="noopener noreferrer">learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-connectors-usage</a></p></li>
+<li><p>AI Administrator role:
+<a href="https://learn.microsoft.com/entra/identity/role-based-access-control/permissions-reference#ai-administrator" target="_blank" rel="noopener noreferrer">learn.microsoft.com/entra/identity/role-based-access-control/permissions-reference#ai-administrator</a></p></li>
+<li><p>Least privileged roles by task in Microsoft Entra ID:
+<a href="https://learn.microsoft.com/entra/identity/role-based-access-control/delegate-by-task" target="_blank" rel="noopener noreferrer">learn.microsoft.com/entra/identity/role-based-access-control/delegate-by-task</a></p></li>
+<li><p>Use the local browser with Copilot Cowork:
+<a href="https://learn.microsoft.com/copilot/cowork/cowork-local-browser" target="_blank" rel="noopener noreferrer">learn.microsoft.com/copilot/cowork/cowork-local-browser</a></p></li>
+<li><p>Manage Copilot Cowork for your organization:
+<a href="https://learn.microsoft.com/copilot/cowork/cowork-admin-governance" target="_blank" rel="noopener noreferrer">learn.microsoft.com/copilot/cowork/cowork-admin-governance</a></p></li>
+<li><p>Edge policy CopilotCoworkToolActionsEnabled:
+<a href="https://learn.microsoft.com/deployedge/microsoft-edge-policies/copilotcoworktoolactionsenabled" target="_blank" rel="noopener noreferrer">learn.microsoft.com/deployedge/microsoft-edge-policies/copilotcoworktoolactionsenabled</a></p></li>
 </ul>
 
 </main>
