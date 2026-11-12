@@ -7,7 +7,7 @@
   var DAY = 86400000;
   var PAGE = 120;
   var KNOWN_LANES = ["copilot", "copilotstudio", "githubcopilot", "cowork", "autopilot", "agent365", "entra", "defender", "ai-threats", "incidents", "agent-registries", "security-agents", "foundry"];
-  var VIEWS = ["overview", "microsoft", "upcoming", "competitors", "security", "videos", "community", "models", "blog", "sources"];
+  var VIEWS = ["overview", "blog", "microsoft", "upcoming", "competitors", "security", "videos", "community", "models", "sources"];
   var FEEDS = { microsoft: "microsoft", competitors: "competitor", security: "security", videos: "video" };
   var DEFAULTS = { scope: "", theme: "", status: "", range: "30", q: "", key: "", roadmap: "" };
 
@@ -213,35 +213,57 @@
     }
 
     var box = clear($("lanes"));
-    data.products.forEach(function (t) {
-      box.appendChild(lane(t.name, row(function (i) {
-        return i.group === "microsoft" && i.topics.indexOf(t.id) >= 0;
-      }), t.id, function () { go("microsoft", { scope: t.id }); }));
-    });
-    function themeLanes(title, group, view) {
-      var themes = themesFor(view);
-      if (!themes.length) return;
-      box.appendChild(el("p", { class: "lane-group", text: title }));
-      themes.forEach(function (t) {
+    var detailed = store("watch-lanes") === "detail";
+
+    function detail() {
+      data.products.forEach(function (t) {
         box.appendChild(lane(t.name, row(function (i) {
-          return i.group === group && i.topics.indexOf(t.id) >= 0;
-        }), t.id, function () { go(view, { theme: t.id }); }));
+          return i.group === "microsoft" && i.topics.indexOf(t.id) >= 0;
+        }), t.id, function () { go("microsoft", { scope: t.id }); }));
+      });
+      function themeLanes(title, group, view) {
+        var themes = themesFor(view);
+        if (!themes.length) return;
+        box.appendChild(el("p", { class: "lane-group", text: title }));
+        themes.forEach(function (t) {
+          box.appendChild(lane(t.name, row(function (i) {
+            return i.group === group && i.topics.indexOf(t.id) >= 0;
+          }), t.id, function () { go(view, { theme: t.id }); }));
+        });
+      }
+      themeLanes("Threat intel", "security", "security");
+      themeLanes("Themes across competitors", "competitor", "competitors");
+      var companies = companyList("competitor");
+      if (companies.length) {
+        box.appendChild(el("p", { class: "lane-group", text: "Competitors" }));
+        companies.forEach(function (c) {
+          box.appendChild(lane(c, row(function (i) {
+            return i.group === "competitor" && i.company === c;
+          }), "", function () { go("competitors", { scope: c }); }));
+        });
+      }
+    }
+
+    function summary() {
+      [
+        { name: "Microsoft", group: "microsoft", lane: "copilot", view: "microsoft" },
+        { name: "Threat intel", group: "security", lane: "ai-threats", view: "security" },
+        { name: "Competitors", group: "competitor", lane: "", view: "competitors" }
+      ].forEach(function (s) {
+        box.appendChild(lane(s.name, row(function (i) { return i.group === s.group; }),
+          s.lane, function () { go(s.view); }));
       });
     }
-    themeLanes("Threat intel", "security", "security");
-    themeLanes("Themes across competitors", "competitor", "competitors");
-    var companies = companyList("competitor");
-    if (companies.length) {
-      box.appendChild(el("p", { class: "lane-group", text: "Competitors" }));
-      companies.forEach(function (c) {
-        box.appendChild(lane(c, row(function (i) {
-          return i.group === "competitor" && i.company === c;
-        }), "", function () { go("competitors", { scope: c }); }));
-      });
-    }
+
+    if (detailed) detail(); else summary();
     var axis = el("div", { class: "strip" });
     for (var w = 0; w < 4; w++) axis.appendChild(el("span", { text: fmtShort.format(days[w * 7]) }));
     box.appendChild(el("div", { class: "lane-axis", "aria-hidden": "true" }, [el("span"), axis]));
+    box.appendChild(el("button", {
+      class: "tool lanes-toggle", type: "button", "aria-expanded": String(detailed),
+      text: detailed ? "Show sections only" : "Show breakdown by product and company",
+      on: { click: function () { store("watch-lanes", detailed ? "summary" : "detail"); renderOverview(); } }
+    }));
 
     // Picks: this week's key items, or simply the newest posts without AI ratings.
     var weekAgo = Date.now() - 7 * DAY;

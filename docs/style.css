@@ -163,6 +163,7 @@ h2 { font: 700 1.5rem/1.15 var(--display); letter-spacing: -0.015em; margin: 0 0
 .lane-axis { margin-top: 0.4rem; color: var(--muted); font-size: 0.8125rem; }
 .lane-axis .strip span { grid-column: span 7; white-space: nowrap; padding-left: 4px; }
 .lane-axis .strip span:first-child { padding-left: 0; }
+.lanes-toggle { margin-top: 0.9rem; font-size: 0.875rem; }
 
 /* ---------------------------------------------------------- overview split */
 .split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(16rem, 22rem); gap: 2.5rem 3rem; align-items: start; }
