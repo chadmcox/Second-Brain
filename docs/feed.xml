@@ -4,9 +4,290 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 11 Nov 2026 19:34:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 19:53:07 +0000</lastBuildDate>
     <item>
-      <title>[Microsoft] Content Understanding adds GPT-5.6, GPT-6, and GPT-6.1: Choose the right model for your workload</title>
+      <title>[BleepingComputer] New N-able "4EverAble2Shell" zero-day exploited hours after PoC released</title>
+      <link>https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/</link>
+      <guid isPermaLink="false">5e7c3d53ea73</guid>
+      <pubDate>Thu, 12 Nov 2026 19:51:16 +0000</pubDate>
+      <description>Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed "4EverAble2Shell" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] United to block customers from using AI agents, citing cyber threats</title>
+      <link>https://therecord.media/united-airlines-to-block-customers-using-ai-agents</link>
+      <guid isPermaLink="false">bb48d6f8868d</guid>
+      <pubDate>Thu, 12 Nov 2026 19:20:00 +0000</pubDate>
+      <description>“Sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases" and more, United Airlines said.</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Hugging Face] LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B</title>
+      <link>https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite</link>
+      <guid isPermaLink="false">a88bddb17214</guid>
+      <pubDate>Thu, 12 Nov 2026 19:07:35 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Microsoft] Plugins at Microsoft Ignite 2026</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/plugins-at-microsoft-ignite-2026/ba-p/4569951</link>
+      <guid isPermaLink="false">f5d50b71542b</guid>
+      <pubDate>Thu, 12 Nov 2026 18:46:59 +0000</pubDate>
+      <description>Plugins are becoming a common way across the industry to bring reusable AI capabilities together, and they’re central to how users extend Microsoft Copilot. By bringing skills, tools, and agents into a connected offering, plugins help users complete more workflows in the context of the apps and experiences they already use. Plugins can include any combination of: Skills capture reusable instructions that teach…</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[The Record] Shipping giant Maersk says recent cyber incident affected legacy system</title>
+      <link>https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system</link>
+      <guid isPermaLink="false">2559f2095350</guid>
+      <pubDate>Thu, 12 Nov 2026 18:28:00 +0000</pubDate>
+      <description>The incident is the latest in a string of attacks on ports and other shipping organizations worldwide, with Brazil’s largest port hit with ransomware last week.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them</title>
+      <link>https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html</link>
+      <guid isPermaLink="false">950205e16691</guid>
+      <pubDate>Thu, 12 Nov 2026 18:07:15 +0000</pubDate>
+      <description>Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login might belong to an employee. An unusual API call could come from a machine account. Or an AI agent might be accessing sensitive systems using permissions nobody</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories</title>
+      <link>https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html</link>
+      <guid isPermaLink="false">0215fb6873ae</guid>
+      <pubDate>Thu, 12 Nov 2026 18:02:51 +0000</pubDate>
+      <description>A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Google] Introducing Gemini 4 Hydrogen</title>
+      <link>https://deepmind.google/blog/introducing-gemini-4-hydrogen/</link>
+      <guid isPermaLink="false">4bad5afe01a1</guid>
+      <pubDate>Thu, 12 Nov 2026 18:00:50 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Microsoft Copilot Studio] Copilot Studio Anthem Video</title>
+      <link>https://www.youtube.com/watch?v=Z2c691_EbT0</link>
+      <guid isPermaLink="false">34773c3305e6</guid>
+      <pubDate>Thu, 12 Nov 2026 18:00:04 +0000</pubDate>
+      <description>The people who know how to fix your business have always been there. They just haven't had the tools. Now, the people closest to the problem can build apps, workflows, and agents in one studio to turn problems into solutions. Copilot Studio is secured by Microsoft, governable, and ready to scale. Learn more at: https://msft.it/6052x6rKj #MicrosoftCopilotStudio #MicrosoftAgents</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
+    </item>
+    <item>
+      <title>[Google] Introducing Gemini 4 Hydrogen</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/</link>
+      <guid isPermaLink="false">ec9fd4077cce</guid>
+      <pubDate>Thu, 12 Nov 2026 18:00:00 +0000</pubDate>
+      <description>an image of carbon with the number 4 around it</description>
+    </item>
+    <item>
+      <title>[Google] Gemini 4 Hydrogen: everyday coding and agentic workflows for developers</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/</link>
+      <guid isPermaLink="false">7954dacf43d5</guid>
+      <pubDate>Thu, 12 Nov 2026 18:00:00 +0000</pubDate>
+      <description>Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.</description>
+    </item>
+    <item>
+      <title>[Google] Google Search gets a major upgrade with Gemini 4 Hydrogen</title>
+      <link>https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/</link>
+      <guid isPermaLink="false">459a57b4750a</guid>
+      <pubDate>Thu, 12 Nov 2026 18:00:00 +0000</pubDate>
+      <description>Rotating carousel of cards with text "Gemini 4 Hydrogen" "Now in Google Search" and examples from the Google Search UI</description>
+    </item>
+    <item>
+      <title>[Salesforce] New Data: Holiday Shoppers Will Rely on Agents. Retailers Must Be Ready.</title>
+      <link>https://www.salesforce.com/news/stories/ai-first-holiday/</link>
+      <guid isPermaLink="false">21951604ba8d</guid>
+      <pubDate>Thu, 12 Nov 2026 18:00:00 +0000</pubDate>
+      <description>A Salesforce survey shows that holiday shoppers are using AI agents for research and advice — almost 20% of shoppers now say that AI is their first stop on the way to the store — but most aren’t ready to let AI click Buy Now.</description>
+    </item>
+    <item>
+      <title>[The Hacker News] New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access</title>
+      <link>https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html</link>
+      <guid isPermaLink="false">1acaa8e77a2e</guid>
+      <pubDate>Thu, 12 Nov 2026 17:50:27 +0000</pubDate>
+      <description>Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft] Trained to betray: How post-training supply chain attacks hijack coding agents</title>
+      <link>https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/</link>
+      <guid isPermaLink="false">a9b2747b83a3</guid>
+      <pubDate>Thu, 12 Nov 2026 17:00:00 +0000</pubDate>
+      <description>Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities.</description>
+      <category>defender</category>
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[Google] Get quick answers from Gemini on any website.</title>
+      <link>https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/</link>
+      <guid isPermaLink="false">7bc6a3cb1dd3</guid>
+      <pubDate>Thu, 12 Nov 2026 17:00:00 +0000</pubDate>
+      <description>Get quick answers with Gemini in Chrome. Summarize articles, compare products, and explain complex topics directly in your side panel. Try it now.</description>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Microsoft Foundry Toolbox Tool Search</title>
+      <link>https://www.youtube.com/shorts/33-u5Iht67Q</link>
+      <guid isPermaLink="false">1428de9cd722</guid>
+      <pubDate>Thu, 12 Nov 2026 16:31:44 +0000</pubDate>
+      <description>How do you give an AI agent 1,000 tools without flooding its context? Tool search in a Microsoft Foundry (formerly Azure AI Foundry) toolbox surfaces only the tool descriptions a task needs. In Microsoft's ToolRet evaluation, that cut token use by more than 60% with 50 tools and more than 97% with 1,000 tools, compared with sending the full catalog up front. The savings come from tool search, not from the toolbox…</description>
+    </item>
+    <item>
+      <title>[The Record] ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations</title>
+      <link>https://therecord.media/connectwise-screenconnect-breaches-third-party-tool</link>
+      <guid isPermaLink="false">7968b43f44c2</guid>
+      <pubDate>Thu, 12 Nov 2026 16:16:00 +0000</pubDate>
+      <description>Abuse of an independent third-party tool led to breaches at ScreenConnect customers, confirmed the software's maker, ConnectWise. Cybersecurity researchers had spotted intrusions at nearly 50.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] New Windows SignDrop zero-day gives hackers SYSTEM privileges</title>
+      <link>https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/</link>
+      <guid isPermaLink="false">ad9757975fce</guid>
+      <pubDate>Thu, 12 Nov 2026 16:04:00 +0000</pubDate>
+      <description>Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Copilot Studio] Copilot Studio Product Tour</title>
+      <link>https://www.youtube.com/watch?v=U0qyQeyNX_w</link>
+      <guid isPermaLink="false">364a33a0082b</guid>
+      <pubDate>Thu, 12 Nov 2026 16:00:10 +0000</pubDate>
+      <description>See how you can build agents, workflows, and apps with the new Copilot Studio experience. Learn more at: https://msft.it/6056x6ryw #MicrosoftCopilotStudio #MicrosoftAgents</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
+    </item>
+    <item>
+      <title>[Salesforce] For AI Advice to Be Any Good, It Has to Actually Change the Outcome</title>
+      <link>https://www.salesforce.com/news/stories/visual-ai-assistants-ivg-lessons/</link>
+      <guid isPermaLink="false">90391a2ffa78</guid>
+      <pubDate>Thu, 12 Nov 2026 16:00:00 +0000</pubDate>
+      <description>Real-time AI video assistants need a new kind of test. Here’s how we built the necessary proving ground.</description>
+    </item>
+    <item>
+      <title>[The Hacker News] 186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers</title>
+      <link>https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html</link>
+      <guid isPermaLink="false">50b7d482cfd7</guid>
+      <pubDate>Thu, 12 Nov 2026 15:15:40 +0000</pubDate>
+      <description>Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island. "AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Apify rotates API tokens, prompts 2FA resets after breach</title>
+      <link>https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/</link>
+      <guid isPermaLink="false">7927f7b9de97</guid>
+      <pubDate>Thu, 12 Nov 2026 14:36:47 +0000</pubDate>
+      <description>Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[OpenAI] Holiday Extras is rethinking what it can build with Codex</title>
+      <link>https://openai.com/business/customer-stories/holidays-extras-codex</link>
+      <guid isPermaLink="false">0990939c7d6e</guid>
+      <pubDate>Thu, 12 Nov 2026 09:30:00 +0000</pubDate>
+      <description>With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.</description>
+    </item>
+    <item>
+      <title>[CrowdStrike] CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions</title>
+      <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/</link>
+      <guid isPermaLink="false">72cace5c82fd</guid>
+      <pubDate>Thu, 12 Nov 2026 06:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Hugging Face] The Definitive Fine-Tuning Guide for 3D Generation Models</title>
+      <link>https://huggingface.co/blog/3d-lora-finetuning</link>
+      <guid isPermaLink="false">56dac742ff29</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[BleepingComputer] Baker Tilly notifies clients of data breach at third-party provider</title>
+      <link>https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/</link>
+      <guid isPermaLink="false">7f241c94ac84</guid>
+      <pubDate>Wed, 11 Nov 2026 23:01:31 +0000</pubDate>
+      <description>The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Active ScreenConnect attacks breach MSPs, impact dozens of organizations</title>
+      <link>https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/</link>
+      <guid isPermaLink="false">ccdd6c7f3ffe</guid>
+      <pubDate>Wed, 11 Nov 2026 22:56:21 +0000</pubDate>
+      <description>ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft] Catch Microsoft Defender and Sentinel at Ignite 2026</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-defender-blog/catch-microsoft-defender-and-sentinel-at-ignite-2026/ba-p/4572639</link>
+      <guid isPermaLink="false">ed791abbaeab</guid>
+      <pubDate>Wed, 11 Nov 2026 22:22:31 +0000</pubDate>
+      <description>Join us at Microsoft Ignite 2026, November 17 to 20, in San Francisco and online. Find the Defender and Sentinel sessions that fit your role, and what you will take away from each. Times are Pacific (PT). 1. Start here If you only catch one session, make it this one. BRK324: The Alert Is Dead. The Blueprint for the Agentic SOC Wed, Nov 18, 9:00 to 9:45 AM PT | Moscone West, Level 3, Room 3014 | Level 200 The…</description>
+      <category>defender</category>
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[Google] Publish a Sheets canvas as a standalone link</title>
+      <link>https://workspaceupdates.googleblog.com/2026/11/publish-sheets-canvas-as-standalone-link.html</link>
+      <guid isPermaLink="false">8f0be0dad7c5</guid>
+      <pubDate>Wed, 11 Nov 2026 21:58:56 +0000</pubDate>
+      <description>Earlier this year we introduced Sheets canvas, which uses Gemini to turn spreadsheet data into interactive mini-apps like dashboards, kanban boards, and calendars. Starting today, you can publish a Sheets canvas directly to its own link, granting others read-only access to interact with the mini-app without sharing the full source spreadsheet. The published link is separate from the spreadsheet URL and has its own…</description>
+    </item>
+    <item>
+      <title>[Microsoft Developer] Your Path to Production for Agents</title>
+      <link>https://www.youtube.com/watch?v=VZPAjGP3EH0</link>
+      <guid isPermaLink="false">b1e60677d2d3</guid>
+      <pubDate>Wed, 11 Nov 2026 21:26:02 +0000</pubDate>
+      <description>Building an AI agent that impresses as a demo has never been easier. Building one that is secure, governable, cost-effective, and capable of delivering consistent business value in production is a very different challenge. In this first episode in our Path to Production for Agents master class series, Adelina Balasa, AI Global Strategy Lead at Microsoft, shares a practical framework developed from working with…</description>
+    </item>
+    <item>
+      <title>[Microsoft Copilot] Stay on brand with brand kit in Copilot in PowerPoint</title>
+      <link>https://www.youtube.com/shorts/CPmeYrazmI4</link>
+      <guid isPermaLink="false">67b8a04a1cfd</guid>
+      <pubDate>Wed, 11 Nov 2026 21:00:12 +0000</pubDate>
+      <description>No guesswork needed. Use Brand Kit in Copilot in PowerPoint to always stay on brand. #MicrosoftCopilot #CopilotInPowerPoint</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Notion says Fireworks breach exposed customer AI chat transcripts</title>
+      <link>https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/</link>
+      <guid isPermaLink="false">4555dea14647</guid>
+      <pubDate>Wed, 11 Nov 2026 20:54:20 +0000</pubDate>
+      <description>Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Copilot Studio] AI in Action: How AGCO Empowers Employees to Build AI Agents</title>
+      <link>https://www.youtube.com/watch?v=7_8lhRc960o</link>
+      <guid isPermaLink="false">29d24758c2fb</guid>
+      <pubDate>Wed, 11 Nov 2026 20:36:37 +0000</pubDate>
+      <description>How can organizations turn employee-led AI experimentation into enterprise-wide innovation? In this episode of AI in Action, Microsoft’s Bryan Goode speaks with Aryn Drawdy, Director of Strategic Partnerships at AGCO, about the company’s rapid adoption of AI agents. Aryn explains how AGCO expanded access to Copilot and Copilot Studio, connected citizen development with enterprise AI initiatives, and empowered…</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
+    </item>
+    <item>
+      <title>[Microsoft] The global socket: how threat actors are weaponizing GSocket for stealthy C2</title>
+      <link>https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/</link>
+      <guid isPermaLink="false">3c5e2d75ed5c</guid>
+      <pubDate>Wed, 11 Nov 2026 19:49:57 +0000</pubDate>
+      <description>Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity.</description>
+    </item>
+    <item>
+      <title>[Microsoft] Available today: Anthropic Claude Fable 5.2 in Microsoft Copilot</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/ba-p/4571829</link>
+      <guid isPermaLink="false">6e6ca1aa2969</guid>
+      <pubDate>Wed, 11 Nov 2026 19:34:04 +0000</pubDate>
+      <description>Claude Fable 5.2, the latest version of Anthropic’s Fable model, is now rolling out in Copilot Cowork and Copilot Studio. It expands the choice of frontier models in Copilot, so your teams can match the model to the work as they hand more complex tasks to AI. A model is only as useful as the context it works with. In Copilot, Work IQ grounds Fable 5.2 in your organization’s files, meetings, chats, and business…</description>
+      <category>copilot</category>
+      <category>copilotstudio</category>
+      <category>cowork</category>
+    </item>
+    <item>
+      <title>[Microsoft] Content Understanding adds GPT-6.1, 6, and 5.6: Choose the right model for your workload</title>
       <link>https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/</link>
       <guid isPermaLink="false">af1b7d0fc7fa</guid>
       <pubDate>Wed, 11 Nov 2026 18:24:28 +0000</pubDate>
@@ -49,6 +330,14 @@
       <pubDate>Wed, 11 Nov 2026 16:24:18 +0000</pubDate>
       <description>Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft] Microsoft Copilot Connectors Update: October 2026</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/microsoft-copilot-connectors-update-october-2026/ba-p/4572240</link>
+      <guid isPermaLink="false">b4dac483e74d</guid>
+      <pubDate>Wed, 11 Nov 2026 16:03:15 +0000</pubDate>
+      <description>Your organization's knowledge doesn't live in one place. It's spread across project boards, CRM records, knowledge bases, wikis and specialist research. Microsoft Copilot Connectors bring all of it into Microsoft Copilot, so people get answers grounded in the content that matters to them, with the permissions they already have. This month, we're expanding where connectors work, adding new domains, making answers…</description>
+      <category>copilot</category>
     </item>
     <item>
       <title>[Salesforce] Salesforce Releases R&amp;D Agents That Improve Its AI Models</title>
@@ -339,290 +628,6 @@
       <guid isPermaLink="false">de7c8a6c389e</guid>
       <pubDate>Tue, 10 Nov 2026 16:42:27 +0000</pubDate>
       <description>Why does an AI agent give up on complex tasks? Asked for a quarterly spend forecast and an executive PDF report, a prompt agent on the Microsoft Foundry (formerly Azure AI Foundry) Responses API takes one pass and stops. It has no agent loop, no persistence, and no skills or subagents to keep working the problem. ▶ Full video: https://youtu.be/4vCbQMUVV-I ▶ Start building: https://ai.azure.com #Shorts…</description>
-    </item>
-    <item>
-      <title>[Google] Schedule meetings in a single click from conversations in Google Chat</title>
-      <link>https://workspaceupdates.googleblog.com/2026/11/schedule-meetings-in-single-click-from-conversations-in-Google-Chat.html</link>
-      <guid isPermaLink="false">7ccd54280cc5</guid>
-      <pubDate>Tue, 10 Nov 2026 16:32:49 +0000</pubDate>
-      <description>With help from Gemini, we’re making it easier than ever to schedule meetings directly from conversations in Google Chat. When someone in a Chat conversation with up to five members suggests finding a time to meet, using a phrase such as “Are you free tomorrow afternoon to go over the proposal?” or “Let’s grab 15 minutes to discuss this in person”, Gemini automatically detects the intent to schedule a meeting, and…</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers</title>
-      <link>https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/</link>
-      <guid isPermaLink="false">82b5e1a648c0</guid>
-      <pubDate>Tue, 10 Nov 2026 16:17:16 +0000</pubDate>
-      <description>A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Record] AI company Fireworks says hackers stole data, billing info during October breaches</title>
-      <link>https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks</link>
-      <guid isPermaLink="false">4a9230aea75f</guid>
-      <pubDate>Tue, 10 Nov 2026 16:08:00 +0000</pubDate>
-      <description>Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack.</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Google] Gemini 4 Carbon is now available</title>
-      <link>https://deepmind.google/blog/gemini-4-carbon-is-now-available/</link>
-      <guid isPermaLink="false">0b2e1c02de47</guid>
-      <pubDate>Tue, 10 Nov 2026 16:03:47 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[NVIDIA] NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure</title>
-      <link>https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/</link>
-      <guid isPermaLink="false">b4eac762a15a</guid>
-      <pubDate>Tue, 10 Nov 2026 16:00:03 +0000</pubDate>
-      <description>Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA […]</description>
-    </item>
-    <item>
-      <title>[Google] Gemini 4 Carbon is now available</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/</link>
-      <guid isPermaLink="false">e884d1655a0b</guid>
-      <pubDate>Tue, 10 Nov 2026 16:00:00 +0000</pubDate>
-      <description>an illustrated carbon with several number 4's around it</description>
-    </item>
-    <item>
-      <title>[Google] Gemini 4 Carbon is now available for developers.</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/</link>
-      <guid isPermaLink="false">8951a43ce62f</guid>
-      <pubDate>Tue, 10 Nov 2026 16:00:00 +0000</pubDate>
-      <description>Starting today, developers can build with Gemini 4 Carbon, our strongest model with frontier performance in cybersecurity and long-horizon capabilities. Built for sustai…</description>
-    </item>
-    <item>
-      <title>[Google] Introducing the Multimodal Knowledge Agent benchmark</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/</link>
-      <guid isPermaLink="false">5140aec84899</guid>
-      <pubDate>Tue, 10 Nov 2026 16:00:00 +0000</pubDate>
-      <description>Text "Visual Knowledge Work" next to the Gemini 4 logo and an illustration of documents</description>
-    </item>
-    <item>
-      <title>[The Hacker News] Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats</title>
-      <link>https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html</link>
-      <guid isPermaLink="false">7646e96e2e7b</guid>
-      <pubDate>Tue, 10 Nov 2026 15:33:59 +0000</pubDate>
-      <description>Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a "limited set of accounts." In a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Ransomware recovery is now a client retention metric</title>
-      <link>https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/</link>
-      <guid isPermaLink="false">74f31cae8a39</guid>
-      <pubDate>Tue, 10 Nov 2026 15:01:11 +0000</pubDate>
-      <description>Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[GitHub] A pixel dog that writes songs: lessons from my first MCP server with GitHub Copilot</title>
-      <link>https://www.youtube.com/watch?v=w2NrzcVzpC4</link>
-      <guid isPermaLink="false">701122365742</guid>
-      <pubDate>Tue, 10 Nov 2026 15:00:05 +0000</pubDate>
-      <description>It’s 2 a.m. You’re deep in a solo coding session, and your IDE doesn’t notice you haven’t moved in an hour, but the golden retriever on your desk does. In this GitHub Universe 2026 session, Yunika Liu introduces Coco, a pixel-art golden retriever that lives on a desktop window and an LED display to encourage you while you build. Discover how she used GitHub Copilot and Model Context Protocol (MCP) support to build a…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Salesforce] Missionforce National Security Achieves ‘Awardable’ Status for Department of War Recruiting Capabilities in the CDAO’s Tradewinds Solutions Marketplace</title>
-      <link>https://www.salesforce.com/news/press-releases/2026/11/10/missionforce-achieves-awardable-status/</link>
-      <guid isPermaLink="false">e0893eda2db8</guid>
-      <pubDate>Tue, 10 Nov 2026 14:00:00 +0000</pubDate>
-      <description>SAN FRANCISCO and WASHINGTON, November 10, 2026 — Salesforce, the world’s #1 Agentic CRM, today announced it has received “Awardable” status for Missionforce National Security personnel recruiting through the Chief Digital and Artificial Intelligence Office’s (CDAO) Tradewinds Solutions Marketplace. This designation gives Department of War (DOW) organizations direct access to Salesforce’s recruiting solutions…</description>
-    </item>
-    <item>
-      <title>[Google] We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.</title>
-      <link>https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/</link>
-      <guid isPermaLink="false">c5fffc8a0cbd</guid>
-      <pubDate>Tue, 10 Nov 2026 14:00:00 +0000</pubDate>
-      <description>Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.</description>
-    </item>
-    <item>
-      <title>[Google] Google Cloud launches Gemini for healthcare.</title>
-      <link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/</link>
-      <guid isPermaLink="false">155d33cae726</guid>
-      <pubDate>Tue, 10 Nov 2026 13:00:00 +0000</pubDate>
-      <description>Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.</description>
-    </item>
-    <item>
-      <title>[Google] Introducing AlphaProof Code: a breakthrough in verifying complex software at depth</title>
-      <link>https://deepmind.google/blog/introducing-alphaproof-code/</link>
-      <guid isPermaLink="false">428ac4b42c0b</guid>
-      <pubDate>Tue, 10 Nov 2026 12:02:28 +0000</pubDate>
-      <description>AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.</description>
-    </item>
-    <item>
-      <title>[OpenAI] Introducing Businesses in ChatGPT</title>
-      <link>https://openai.com/index/introducing-businesses-chatgpt</link>
-      <guid isPermaLink="false">5ca4dc7b6d88</guid>
-      <pubDate>Tue, 10 Nov 2026 10:00:00 +0000</pubDate>
-      <description>Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.</description>
-    </item>
-    <item>
-      <title>[The Hacker News] France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites</title>
-      <link>https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html</link>
-      <guid isPermaLink="false">e56a3763b149</guid>
-      <pubDate>Tue, 10 Nov 2026 09:08:20 +0000</pubDate>
-      <description>An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Google patches eighth Chrome zero-day exploited in attacks this year</title>
-      <link>https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/</link>
-      <guid isPermaLink="false">7e1f9b33c691</guid>
-      <pubDate>Tue, 10 Nov 2026 08:51:25 +0000</pubDate>
-      <description>Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark</title>
-      <link>https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html</link>
-      <guid isPermaLink="false">0e6f77f0820c</guid>
-      <pubDate>Tue, 10 Nov 2026 08:16:14 +0000</pubDate>
-      <description>Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers "complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft Developer] Microsoft Foundry with Adrian Twarog: Build Your First Agent</title>
-      <link>https://www.youtube.com/watch?v=-B9pIyQfaSU</link>
-      <guid isPermaLink="false">693c1b0dc3ca</guid>
-      <pubDate>Tue, 10 Nov 2026 08:00:17 +0000</pubDate>
-      <description>Microsoft Foundry is where you build, test and publish AI agents, with usage and billing tracked in Azure. Developer and YouTube creator Adrian Twarog (@AdrianTwarog) takes Microsoft Foundry from first login to a published agent. He creates an agent, tests it in the playground, deploys models, connects an MCP server with scoped permissions and calls the finished agent from the Azure SDK. Along the way, he shows the…</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] Fireworks AI discloses new breach after cloud provider hack</title>
-      <link>https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/</link>
-      <guid isPermaLink="false">7d2482c88528</guid>
-      <pubDate>Tue, 10 Nov 2026 07:49:58 +0000</pubDate>
-      <description>AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026</title>
-      <link>https://thehackernews.com/2026/11/google-issues-chrome-security-update.html</link>
-      <guid isPermaLink="false">9844bc61915e</guid>
-      <pubDate>Tue, 10 Nov 2026 06:52:54 +0000</pubDate>
-      <description>Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: 8.8), has been described as a use-after-free bug in the XML component. "Use-after-free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits</title>
-      <link>https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html</link>
-      <guid isPermaLink="false">329980cc6fad</guid>
-      <pubDate>Tue, 10 Nov 2026 06:44:36 +0000</pubDate>
-      <description>N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. "As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft Copilot] Beat procrastination with Copilot in Word</title>
-      <link>https://www.youtube.com/shorts/ATvR8jCgqSQ</link>
-      <guid isPermaLink="false">4a81a0064335</guid>
-      <pubDate>Tue, 10 Nov 2026 01:55:59 +0000</pubDate>
-      <description>Beat writer's block and create a first draft based on previous work with Copilot in Word. #Microsoft #copilot #microsoftcopilot</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[Google] Scale customized AI across your team with skills in Google Workspace and Workspace Studio</title>
-      <link>https://workspaceupdates.googleblog.com/2026/11/skills-in-workspace.html</link>
-      <guid isPermaLink="false">5196fdd1d71c</guid>
-      <pubDate>Tue, 10 Nov 2026 00:03:58 +0000</pubDate>
-      <description>Following our initial announcement and recent rollout update, skills in Google Workspace — reusable, custom instructions that guide Gemini to apply your team’s rules, templates, and reference files — are now rolling out across Google Workspace Studio and Workspace apps. Here’s how to get started: Create, test, and share skills in Google Workspace Studio and Google Docs: Build skills from scratch, start from new…</description>
-    </item>
-    <item>
-      <title>[Anthropic] Anthropic launches roadshow for proposed initial public offering</title>
-      <link>https://www.anthropic.com/news/roadshow-launch</link>
-      <guid isPermaLink="false">85a32fe1244f</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.</description>
-    </item>
-    <item>
-      <title>[Hugging Face] Pay for Hugging Face Hub with your Google Cloud Account</title>
-      <link>https://huggingface.co/blog/hub-gcp-marketplace</link>
-      <guid isPermaLink="false">724fae925148</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Hugging Face] Decision Models in Hugging Face</title>
-      <link>https://huggingface.co/blog/decision</link>
-      <guid isPermaLink="false">3229de0d9192</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <description />
-      <category>decision-models</category>
-    </item>
-    <item>
-      <title>[OpenAI] Cogent and OpenAI build cyber defense factories for enterprises</title>
-      <link>https://openai.com/index/cogent-security</link>
-      <guid isPermaLink="false">1ff74ee2cb10</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] Vanderbilt University hit in BYOD ransomware attack, data theft claimed</title>
-      <link>https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/</link>
-      <guid isPermaLink="false">48d9ef3d98d6</guid>
-      <pubDate>Mon, 09 Nov 2026 23:52:12 +0000</pubDate>
-      <description>Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] SEGA newsletter data breach exposes 2.2 million email addresses</title>
-      <link>https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/</link>
-      <guid isPermaLink="false">fb65eccd7583</guid>
-      <pubDate>Mon, 09 Nov 2026 22:09:33 +0000</pubDate>
-      <description>Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Google] Quickly confirm system-applied classification labels in Google Drive, Docs, Sheets, and Slides</title>
-      <link>https://workspaceupdates.googleblog.com/2026/11/quickly-confirm-system-applied-classification-labels-in-Google-Drive-Docs-Sheets-and-Slides.html</link>
-      <guid isPermaLink="false">bd01abb33c15</guid>
-      <pubDate>Mon, 09 Nov 2026 21:44:48 +0000</pubDate>
-      <description>We’re making it faster to confirm automatically applied classification labels in Google Drive, Docs, Sheets, and Slides. Previously, files labeled by AI classification or default classification rules only showed a Review button in the top banner. Now, when a single label is automatically applied, users with permission to modify it see Accept and Edit buttons directly in the banner. Selecting Accept confirms the…</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] N-able takes cloud platform offline after 30+ "zero-days" published</title>
-      <link>https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/</link>
-      <guid isPermaLink="false">8d206c962ee8</guid>
-      <pubDate>Mon, 09 Nov 2026 21:26:25 +0000</pubDate>
-      <description>N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] York University breach exposed personal information dating to 2007</title>
-      <link>https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/</link>
-      <guid isPermaLink="false">b9b072a1ed15</guid>
-      <pubDate>Mon, 09 Nov 2026 21:22:31 +0000</pubDate>
-      <description>York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Turn Copilot insights into action with connector write capabilities</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/turn-copilot-insights-into-action-with-connector-write/ba-p/4571160</link>
-      <guid isPermaLink="false">6fbc44b229d9</guid>
-      <pubDate>Mon, 09 Nov 2026 20:51:51 +0000</pubDate>
-      <description>Copilot connectors write actions are now generally available across Copilot Chat and Cowork, helping you turn insights from your conversations into action in connected applications. With hundreds of Microsoft-, partner- and custom-built connectors available, you can ask Copilot in plain language to create, update, or delete information without leaving the conversation. Review the proposed action, approve it, and…</description>
-      <category>copilot</category>
-      <category>cowork</category>
-    </item>
-    <item>
-      <title>[The Record] Data breach at hearing aid giant Amplifon impacts thousands</title>
-      <link>https://therecord.media/amplifon-hearing-aid-company-data-breach</link>
-      <guid isPermaLink="false">cd41a3a65bdc</guid>
-      <pubDate>Mon, 09 Nov 2026 20:44:00 +0000</pubDate>
-      <description>The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] FORGE Lab uses agentic tools to identify memory safety issues in Rust</title>
-      <link>https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/</link>
-      <guid isPermaLink="false">5bce94b89cfb</guid>
-      <pubDate>Mon, 09 Nov 2026 20:17:31 +0000</pubDate>
-      <description>Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three patterns of misplaced trust in unsafe code and what they reveal about Rust's safety guarantees.</description>
-      <category>security-agents</category>
     </item>
   </channel>
 </rss>
