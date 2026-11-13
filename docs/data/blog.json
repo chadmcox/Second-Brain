@@ -4,7 +4,7 @@
  "posts": [
   {
    "title": "I Hate Documenting Environment Settings, So I Let Copilot Cowork Do It",
-   "summary": "An admin guide to having Copilot Cowork document any admin center for you, from Entra ID and Intune to Defender, Exchange, SharePoint, Teams, Purview and Power Platform, checked against CISA, CIS, NIST and Zero Trust baselines and kept current on its own.",
+   "summary": "Have Copilot Cowork document any Microsoft 365 admin center, check each setting against CISA, CIS, NIST and Zero Trust guidance, and email you when something drifts.",
    "purpose": "Hand the documenting of any admin center to Copilot Cowork: the prerequisites, a one-paragraph prompt, copy-ready prompts for nine Microsoft 365 workloads, baseline checks against CISA, CIS, NIST and Zero Trust, the least-privileged role to use, and a scheduled run that emails you when settings drift.",
    "audience": "Microsoft 365, Entra and security administrators",
    "needs": [],
@@ -16,7 +16,7 @@
    "source": "",
    "page": "blog/cowork-documents-environment-settings.html",
    "date": "2026-11-12T18:00:00Z",
-   "updated": "2026-11-12T18:00:00Z",
+   "updated": "2026-11-13T15:50:00Z",
    "ai": false,
    "readme_hash": "",
    "readme_changed": false
@@ -35,7 +35,7 @@
    "source": "",
    "page": "blog/copilot-connector-governance.html",
    "date": "2026-11-12T16:30:00Z",
-   "updated": "2026-11-12T16:55:00Z",
+   "updated": "2026-11-13T15:50:00Z",
    "ai": false,
    "readme_hash": "",
    "readme_changed": false
