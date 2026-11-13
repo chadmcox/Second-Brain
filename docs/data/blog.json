@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T18:00:00Z",
+ "generated": "2026-11-13T19:59:25+00:00",
  "repo": "chadmcox/Copilot",
  "posts": [
   {
@@ -248,7 +248,7 @@
    "updated": "2026-11-01T17:48:02+00:00",
    "ai": false,
    "readme_hash": "62ac2c73c9f8fcea",
-   "readme_changed": false
+   "readme_changed": true
   },
   {
    "title": "Introducing Copilot Group Assignment Guide",
@@ -293,7 +293,7 @@
    "updated": "2026-11-01T17:48:02+00:00",
    "ai": false,
    "readme_hash": "f26d31f85039227f",
-   "readme_changed": false
+   "readme_changed": true
   },
   {
    "title": "Introducing Second Brain Prompts for Microsoft Copilot Cowork",
@@ -315,7 +315,7 @@
    "updated": "2026-11-01T17:48:02+00:00",
    "ai": false,
    "readme_hash": "0f8b7bffffa214f1",
-   "readme_changed": false
+   "readme_changed": true
   }
  ]
 }
