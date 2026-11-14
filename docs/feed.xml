@@ -4,7 +4,56 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Fri, 13 Nov 2026 19:41:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 18:00:02 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] Cursor confirms security breach led to malicious Claude Code extension</title>
+      <link>https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/</link>
+      <guid isPermaLink="false">403e4bdfaeb6</guid>
+      <pubDate>Sat, 14 Nov 2026 17:27:25 +0000</pubDate>
+      <description>Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] The view from the labs: What's next for AI-assisted development</title>
+      <link>https://www.youtube.com/watch?v=eYPxL3pTylk</link>
+      <guid isPermaLink="false">feacaa2e8874</guid>
+      <pubDate>Sat, 14 Nov 2026 16:14:52 +0000</pubDate>
+      <description>The people building frontier AI models see early signals about where capabilities are heading and which developer skills and workflows are about to matter most. Recorded live at GitHub Universe 2026, this panel brings together leaders from Anthropic, OpenAI, Google Cloud, and GitHub Copilot for a forward-looking discussion on where AI-assisted development is heading over the next two years. Learn how frontier…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[The Record] FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’</title>
+      <link>https://therecord.media/artex-ai-tool-fbi-flash-alert</link>
+      <guid isPermaLink="false">f0f23fdb08d7</guid>
+      <pubDate>Fri, 13 Nov 2026 21:32:00 +0000</pubDate>
+      <description>Open source hacking tool Artex "significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours," the FBI said.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft] SCKit abuses ScreenConnect to deploy remote access and target technician sessions</title>
+      <link>https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/</link>
+      <guid isPermaLink="false">78498214505c</guid>
+      <pubDate>Fri, 13 Nov 2026 21:31:44 +0000</pubDate>
+      <description>SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting.</description>
+      <category>defender</category>
+    </item>
+    <item>
+      <title>[Microsoft] Upcoming deprecation of selected GitHub Copilot models in December</title>
+      <link>https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december</link>
+      <guid isPermaLink="false">bc1ca702be31</guid>
+      <pubDate>Fri, 13 Nov 2026 20:40:05 +0000</pubDate>
+      <description>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[The Record] City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents</title>
+      <link>https://therecord.media/city-of-osaka-japan-email-data-breach</link>
+      <guid isPermaLink="false">810ecd44c3ac</guid>
+      <pubDate>Fri, 13 Nov 2026 19:43:00 +0000</pubDate>
+      <description>Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.</description>
+      <category>incidents</category>
+    </item>
     <item>
       <title>[Microsoft] GitHub Enterprise Server support in the GitHub Copilot app</title>
       <link>https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app</link>
@@ -173,6 +222,20 @@
       <pubDate>Fri, 13 Nov 2026 10:44:22 +0000</pubDate>
       <description>Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[OpenAI] Shield helps technicians hand off legacy portal work with OpenAI</title>
+      <link>https://openai.com/business/customer-stories/shield</link>
+      <guid isPermaLink="false">d1318183fe17</guid>
+      <pubDate>Fri, 13 Nov 2026 08:00:00 +0000</pubDate>
+      <description>Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.</description>
+    </item>
+    <item>
+      <title>[CrowdStrike] Inside Falcon AI Gateway: One Control Point for AI Traffic</title>
+      <link>https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/</link>
+      <guid isPermaLink="false">74c03507cc4e</guid>
+      <pubDate>Fri, 13 Nov 2026 06:00:00 +0000</pubDate>
+      <description />
     </item>
     <item>
       <title>[Microsoft] Build once, run on any agent: A practical guide to agent skills</title>
@@ -563,69 +626,6 @@
       <pubDate>Wed, 11 Nov 2026 16:03:15 +0000</pubDate>
       <description>Your organization's knowledge doesn't live in one place. It's spread across project boards, CRM records, knowledge bases, wikis and specialist research. Microsoft Copilot Connectors bring all of it into Microsoft Copilot, so people get answers grounded in the content that matters to them, with the permissions they already have. This month, we're expanding where connectors work, adding new domains, making answers…</description>
       <category>copilot</category>
-    </item>
-    <item>
-      <title>[Salesforce] Salesforce Releases R&amp;D Agents That Improve Its AI Models</title>
-      <link>https://www.salesforce.com/news/stories/agents-that-improve-ai-models/</link>
-      <guid isPermaLink="false">ac911e664782</guid>
-      <pubDate>Wed, 11 Nov 2026 16:00:00 +0000</pubDate>
-      <description>SFR-AutoR&amp;D, a new self-improving system from Salesforce, trains and improves the embedding models in deployment-grade enterprise AI.</description>
-    </item>
-    <item>
-      <title>[The Hacker News] AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets</title>
-      <link>https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html</link>
-      <guid isPermaLink="false">63cbf25606a5</guid>
-      <pubDate>Wed, 11 Nov 2026 15:34:27 +0000</pubDate>
-      <description>Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. "In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against</description>
-      <category>security-agents</category>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Hackers use AntiFox AI agents in AWS credential-theft attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/</link>
-      <guid isPermaLink="false">9c9df925add3</guid>
-      <pubDate>Wed, 11 Nov 2026 15:12:59 +0000</pubDate>
-      <description>Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Google] AlphaGenome 2: Deciphering how cells read DNA to better understand disease</title>
-      <link>https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/</link>
-      <guid isPermaLink="false">5b916f1bea87</guid>
-      <pubDate>Wed, 11 Nov 2026 15:00:15 +0000</pubDate>
-      <description>Predicting how DNA sequences and their variations impact specific human cell types and disease.</description>
-    </item>
-    <item>
-      <title>[The Record] Poland shuts down government services platform ePUAP following cyberattack</title>
-      <link>https://therecord.media/poland-shuts-down-government-services-platform-cyberattack</link>
-      <guid isPermaLink="false">2b63f8aad1bf</guid>
-      <pubDate>Wed, 11 Nov 2026 13:18:00 +0000</pubDate>
-      <description>The attack targeted a nationwide system that allows users to submit official documents, communicate with government agencies and complete administrative procedures online.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[GitHub] 3D printing a custom microphone stand with GitHub Copilot</title>
-      <link>https://www.youtube.com/shorts/wNDn7LuGIvE</link>
-      <guid isPermaLink="false">2cab1bc2a9ba</guid>
-      <pubDate>Wed, 11 Nov 2026 13:00:08 +0000</pubDate>
-      <description>Can you use GitHub Copilot to customize physical 3D prints? After printing a standard DJI microphone stand, we turned to the GitHub Copilot app to see if an AI prompt could modify the 3D model directly instead of relying on manual CAD software. The result embedded clean GitHub platform icons across the entire handle, creating a custom textured grip in minutes. It turns out developer AI tools can handle creative…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] N-able releases security hotfixes for zero-day vulnerabilities</title>
-      <link>https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/</link>
-      <guid isPermaLink="false">693679885746</guid>
-      <pubDate>Wed, 11 Nov 2026 12:32:27 +0000</pubDate>
-      <description>N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords</title>
-      <link>https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html</link>
-      <guid isPermaLink="false">14caa111eec6</guid>
-      <pubDate>Wed, 11 Nov 2026 12:19:40 +0000</pubDate>
-      <description>Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or</description>
-      <category>ai-threats</category>
     </item>
   </channel>
 </rss>
