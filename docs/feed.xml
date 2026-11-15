@@ -4,7 +4,48 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Sat, 14 Nov 2026 18:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 18:50:19 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] FBI warns ARTEX AI hacking tool is powering global cyberattacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/</link>
+      <guid isPermaLink="false">4201db3ac682</guid>
+      <pubDate>Sun, 15 Nov 2026 18:29:53 +0000</pubDate>
+      <description>The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] The hidden security risk of running AI agents without boundaries</title>
+      <link>https://www.youtube.com/shorts/QfMPlcz9AdI</link>
+      <guid isPermaLink="false">b9bf1f004bdc</guid>
+      <pubDate>Sun, 15 Nov 2026 18:00:27 +0000</pubDate>
+      <description>When executive pressure to adopt AI meets everyday workplace tools, security boundaries are often the first thing to disappear. In this clip from our interview with cybersecurity researcher Niels Provos, learn why installing autonomous AI agents with unrestricted access to your email, calendar, and data creates major enterprise risks. Many third-party agent skills can harbor hidden malicious behavior, turning…</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] TSMC employee data breach linked to cloud provider</title>
+      <link>https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/</link>
+      <guid isPermaLink="false">bbb8a6727085</guid>
+      <pubDate>Sun, 15 Nov 2026 15:23:48 +0000</pubDate>
+      <description>Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] Four days, zero lines: the AI force multiplier with GitHub Copilot</title>
+      <link>https://www.youtube.com/watch?v=ldhFlABY9Rs</link>
+      <guid isPermaLink="false">028f4d88c402</guid>
+      <pubDate>Sun, 15 Nov 2026 14:36:38 +0000</pubDate>
+      <description>How do you clear a massive governance backlog without destroying developer velocity? In just four days, Jeff Doolittle of Trimble used GitHub Copilot to build an automated system and rapidly clear the backlog without manually writing a single line of code. In this GitHub Universe 2026 session, you’ll learn how to use AI not just as a coding assistant, but as an architectural force multiplier. You'll leave knowing…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident</title>
+      <link>https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html</link>
+      <guid isPermaLink="false">960f41318ea9</guid>
+      <pubDate>Sun, 15 Nov 2026 08:22:04 +0000</pubDate>
+      <description>The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. "An attacker obtained an access key we had issued to Fireworks," Cursor said in a Friday update. "The key was exposed by Fireworks, and the attacker used it to copy data from a read-only</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
     <item>
       <title>[BleepingComputer] Cursor confirms security breach led to malicious Claude Code extension</title>
       <link>https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/</link>
@@ -21,6 +62,14 @@
       <pubDate>Sat, 14 Nov 2026 16:14:52 +0000</pubDate>
       <description>The people building frontier AI models see early signals about where capabilities are heading and which developer skills and workflows are about to matter most. Recorded live at GitHub Universe 2026, this panel brings together leaders from Anthropic, OpenAI, Google Cloud, and GitHub Copilot for a forward-looking discussion on where AI-assisted development is heading over the next two years. Learn how frontier…</description>
       <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[Microsoft] AI is changing access: Catch Microsoft Entra at Ignite 2026</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-entra-blog/ai-is-changing-access-catch-microsoft-entra-at-ignite-2026/ba-p/4513159</link>
+      <guid isPermaLink="false">667f86f1b73e</guid>
+      <pubDate>Sat, 14 Nov 2026 00:13:31 +0000</pubDate>
+      <description>Join us at Microsoft Ignite 2026, November 17–20, 2026, at Moscone Center in San Francisco and online. Explore Microsoft Entra and learn how to secure access for users and AI agents. From stopping identity attacks to simplifying access policies and securing agents, our sessions bring practical guidance and demos to your toughest access challenges. Use this guide to plan your sessions, connect with our team, and…</description>
+      <category>entra</category>
     </item>
     <item>
       <title>[The Record] FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’</title>
@@ -581,51 +630,6 @@
       <pubDate>Wed, 11 Nov 2026 18:24:28 +0000</pubDate>
       <description>Azure Content Understanding now supports the GPT-5.6, GPT-6, and GPT-6.1 model families, giving you more choices for document, text, speech, and video workflows. This adds to the existing set of supported models like the GPT-5 series. To help customers understand how to use this expanded set of options, we’re updating our model recommendations and sharing […]</description>
       <category>foundry</category>
-    </item>
-    <item>
-      <title>[Google] Gemini Decisions API: Fast, calibrated multimodal decisions</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</link>
-      <guid isPermaLink="false">8e4104a923ec</guid>
-      <pubDate>Wed, 11 Nov 2026 18:00:00 +0000</pubDate>
-      <description>Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.</description>
-    </item>
-    <item>
-      <title>[Google] Talk it through with Gemini, now on Apple CarPlay</title>
-      <link>https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/</link>
-      <guid isPermaLink="false">845b2050df4d</guid>
-      <pubDate>Wed, 11 Nov 2026 17:00:00 +0000</pubDate>
-      <description>an MP4 video of Gemini in Apple CarPlay</description>
-    </item>
-    <item>
-      <title>[Google] Get certified as a Google Cloud Professional Agentic Architect.</title>
-      <link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/professional-agentic-architect/</link>
-      <guid isPermaLink="false">322b72c0ea85</guid>
-      <pubDate>Wed, 11 Nov 2026 17:00:00 +0000</pubDate>
-      <description>Today we announced Google Cloud's new Professional Agentic Architect certification.</description>
-    </item>
-    <item>
-      <title>[Microsoft] Lessons from 59 Linux Kernel Bug Reports</title>
-      <link>https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/</link>
-      <guid isPermaLink="false">e564f8c52313</guid>
-      <pubDate>Wed, 11 Nov 2026 16:55:00 +0000</pubDate>
-      <description>Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings into validated vulnerabilities and upstream fixes.</description>
-      <category>security-agents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Maersk confirms data breach as WhiteArmor ransomware demands $5 million</title>
-      <link>https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/</link>
-      <guid isPermaLink="false">4c32248b415f</guid>
-      <pubDate>Wed, 11 Nov 2026 16:24:18 +0000</pubDate>
-      <description>Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Microsoft Copilot Connectors Update: October 2026</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/microsoft-copilot-connectors-update-october-2026/ba-p/4572240</link>
-      <guid isPermaLink="false">b4dac483e74d</guid>
-      <pubDate>Wed, 11 Nov 2026 16:03:15 +0000</pubDate>
-      <description>Your organization's knowledge doesn't live in one place. It's spread across project boards, CRM records, knowledge bases, wikis and specialist research. Microsoft Copilot Connectors bring all of it into Microsoft Copilot, so people get answers grounded in the content that matters to them, with the permissions they already have. This month, we're expanding where connectors work, adding new domains, making answers…</description>
-      <category>copilot</category>
     </item>
   </channel>
 </rss>
