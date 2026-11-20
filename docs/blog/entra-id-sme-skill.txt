@@ -1,0 +1,18 @@
+New in my Copilot repo: Entra ID SME Skill.
+
+A skill that answers Entra ID questions and checks every setting, property and date against Microsoft Learn and the Graph reference first. Cowork or GitHub Copilot.
+
+A skill that answers Microsoft Entra ID and identity-security questions and checks every claim against Microsoft Learn and the Microsoft Graph API reference before stating it. Each answer comes with source tags ([MS Learn], [Graph API], [CISA], [Author repo], [3P]) and a confidence line: Verified, Partially verified or Unverified.
+
+Works in Copilot Cowork and GitHub Copilot (VS Code and the Copilot CLI). Both use the same skill files.
+
+You'll need:
+• PowerShell 7
+• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell
+
+What you get: Entra ID answers with sources and a confidence line, plus read-only KQL and Graph PowerShell
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/entra-id-sme-skill.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Entra%20ID%20SME%20Skill
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents

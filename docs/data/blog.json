@@ -1,7 +1,53 @@
 {
- "generated": "2026-11-13T19:59:25+00:00",
+ "generated": "2026-11-20T20:41:33+00:00",
  "repo": "chadmcox/Copilot",
  "posts": [
+  {
+   "title": "Introducing Copilot AI SME Skill",
+   "summary": "A skill that answers Copilot, Cowork, Autopilot, Copilot Studio, agent governance and Copilot FinOps questions, checked against Microsoft Learn, the Copilot Roadmap and official blogs, and maps agents to CISA, NIST…",
+   "purpose": "A skill that answers Microsoft Copilot, Cowork, Autopilot, Copilot Studio, agent governance, Copilot FinOps and AI security questions, and checks every setting, credit rate, status and date against Microsoft Learn, the Microsoft Copilot Roadmap, Message Center and official Microsoft blogs before stating it. Each answer comes with source tags ([MS Learn], [Roadmap], [MS Blog], [CISA], [NIST], [OWASP], [Author repo], [3P]), a status label (GA, Preview, Frontier, Rolling out) and a confidence line.\n\nWorks in Copilot Cowork and GitHub Copilot (VS Code and the Copilot CLI). Both use the same skill files. For Entra ID identity questions, use the Entra ID SME Skill.",
+   "audience": "",
+   "needs": [
+    "PowerShell 7",
+    "Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell"
+   ],
+   "gets": [
+    "Copilot answers with sources, status and a confidence line, plus credit estimates, threat models and framework mappings"
+   ],
+   "linkedin": "New in my Copilot repo: Copilot AI SME Skill.\n\nA skill that answers Copilot, Cowork, Autopilot, Copilot Studio, agent governance and Copilot FinOps questions, checked against Microsoft Learn, the Copilot Roadmap and official blogs, and maps agents to CISA, NIST…\n\nA skill that answers Microsoft Copilot, Cowork, Autopilot, Copilot Studio, agent governance, Copilot FinOps and AI security questions, and checks every setting, credit rate, status and date against Microsoft Learn, the Microsoft Copilot Roadmap, Message Center and official Microsoft blogs before stating it. Each answer comes with source tags ([MS Learn], [Roadmap], [MS Blog], [CISA], [NIST], [OWASP], [Author repo], [3P]), a status label (GA, Preview, Frontier, Rolling out) and a confidence line.\n\nWorks in Copilot Cowork and GitHub Copilot (VS Code and the Copilot CLI). Both use the same skill files. For Entra ID identity questions, use the Entra ID SME Skill.\n\nYou'll need:\n• PowerShell 7\n• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell\n\nWhat you get: Copilot answers with sources, status and a confidence line, plus credit estimates, threat models and framework mappings\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/copilot-ai-sme-skill.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Copilot%20AI%20SME%20Skill\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "copilot-ai-sme-skill",
+   "folder": "Copilot AI SME Skill",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Copilot%20AI%20SME%20Skill",
+   "page": "blog/copilot-ai-sme-skill.html",
+   "date": "2026-11-20T20:41:33+00:00",
+   "updated": "2026-11-20T20:41:33+00:00",
+   "ai": false,
+   "readme_hash": "c26e3c0881a94593",
+   "readme_changed": false
+  },
+  {
+   "title": "Introducing Entra ID SME Skill",
+   "summary": "A skill that answers Entra ID questions and checks every setting, property and date against Microsoft Learn and the Graph reference first. Cowork or GitHub Copilot.",
+   "purpose": "A skill that answers Microsoft Entra ID and identity-security questions and checks every claim against Microsoft Learn and the Microsoft Graph API reference before stating it. Each answer comes with source tags ([MS Learn], [Graph API], [CISA], [Author repo], [3P]) and a confidence line: Verified, Partially verified or Unverified.\n\nWorks in Copilot Cowork and GitHub Copilot (VS Code and the Copilot CLI). Both use the same skill files.",
+   "audience": "",
+   "needs": [
+    "PowerShell 7",
+    "Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell"
+   ],
+   "gets": [
+    "Entra ID answers with sources and a confidence line, plus read-only KQL and Graph PowerShell"
+   ],
+   "linkedin": "New in my Copilot repo: Entra ID SME Skill.\n\nA skill that answers Entra ID questions and checks every setting, property and date against Microsoft Learn and the Graph reference first. Cowork or GitHub Copilot.\n\nA skill that answers Microsoft Entra ID and identity-security questions and checks every claim against Microsoft Learn and the Microsoft Graph API reference before stating it. Each answer comes with source tags ([MS Learn], [Graph API], [CISA], [Author repo], [3P]) and a confidence line: Verified, Partially verified or Unverified.\n\nWorks in Copilot Cowork and GitHub Copilot (VS Code and the Copilot CLI). Both use the same skill files.\n\nYou'll need:\n• PowerShell 7\n• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell\n\nWhat you get: Entra ID answers with sources and a confidence line, plus read-only KQL and Graph PowerShell\n\nRead more: https://chadmcox.github.io/Second-Brain/blog/entra-id-sme-skill.html\nThe project: https://github.com/chadmcox/Copilot/tree/main/Entra%20ID%20SME%20Skill\n\n#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents",
+   "slug": "entra-id-sme-skill",
+   "folder": "Entra ID SME Skill",
+   "source": "https://github.com/chadmcox/Copilot/tree/main/Entra%20ID%20SME%20Skill",
+   "page": "blog/entra-id-sme-skill.html",
+   "date": "2026-11-20T20:41:33+00:00",
+   "updated": "2026-11-20T20:41:33+00:00",
+   "ai": false,
+   "readme_hash": "0617763c1badce09",
+   "readme_changed": false
+  },
   {
    "title": "I Hate Documenting Environment Settings, So I Let Copilot Cowork Do It",
    "summary": "Have Copilot Cowork document any Microsoft 365 admin center, check each setting against CISA, CIS, NIST and Zero Trust guidance, and email you when something drifts.",

@@ -1,0 +1,18 @@
+New in my Copilot repo: Copilot AI SME Skill.
+
+A skill that answers Copilot, Cowork, Autopilot, Copilot Studio, agent governance and Copilot FinOps questions, checked against Microsoft Learn, the Copilot Roadmap and official blogs, and maps agents to CISA, NIST…
+
+A skill that answers Microsoft Copilot, Cowork, Autopilot, Copilot Studio, agent governance, Copilot FinOps and AI security questions, and checks every setting, credit rate, status and date against Microsoft Learn, the Microsoft Copilot Roadmap, Message Center and official Microsoft blogs before stating it. Each answer comes with source tags ([MS Learn], [Roadmap], [MS Blog], [CISA], [NIST], [OWASP], [Author repo], [3P]), a status label (GA, Preview, Frontier, Rolling out) and a confidence line.
+
+Works in Copilot Cowork and GitHub Copilot (VS Code and the Copilot CLI). Both use the same skill files. For Entra ID identity questions, use the Entra ID SME Skill.
+
+You'll need:
+• PowerShell 7
+• Microsoft 365 Copilot with Copilot Cowork, if you run it there instead of PowerShell
+
+What you get: Copilot answers with sources, status and a confidence line, plus credit estimates, threat models and framework mappings
+
+Read more: https://chadmcox.github.io/Second-Brain/blog/copilot-ai-sme-skill.html
+The project: https://github.com/chadmcox/Copilot/tree/main/Copilot%20AI%20SME%20Skill
+
+#MicrosoftCopilot #CopilotCowork #Microsoft365 #AIagents
