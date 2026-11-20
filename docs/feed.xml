@@ -4,7 +4,219 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Thu, 19 Nov 2026 20:35:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 20:17:15 +0000</lastBuildDate>
+    <item>
+      <title>[The Record] Container Store restores systems after cyberattack</title>
+      <link>https://therecord.media/container-store-restores-systems-cyberattack</link>
+      <guid isPermaLink="false">edfeced150c6</guid>
+      <pubDate>Fri, 20 Nov 2026 19:32:00 +0000</pubDate>
+      <description>The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Bell Canada says 'agentic' hacker stole enterprise customer data</title>
+      <link>https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/</link>
+      <guid isPermaLink="false">6c623452a14a</guid>
+      <pubDate>Fri, 20 Nov 2026 18:51:43 +0000</pubDate>
+      <description>Bell Canada has confirmed that an "agentic" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Google] Google Vids now lets you reuse your media in video generation</title>
+      <link>https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html</link>
+      <guid isPermaLink="false">c99aec0471f2</guid>
+      <pubDate>Fri, 20 Nov 2026 17:59:59 +0000</pubDate>
+      <description>When generating videos with Gemini Omni in Google Vids, your media is now stored in a new “Assets” section, letting you easily reuse media for future video generations within the same project. The Assets section supports a variety of multimedia formats across images, videos, and audio, and is integrated directly into the AI video generation experience for quick access. Pick from recent assets to use as ingredients…</description>
+    </item>
+    <item>
+      <title>[The Record] Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university</title>
+      <link>https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day</link>
+      <guid isPermaLink="false">cd038ca0a29b</guid>
+      <pubDate>Fri, 20 Nov 2026 17:30:00 +0000</pubDate>
+      <description>A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Hackers use autonomous AI tool Cairn to find zero-day, take over server</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/</link>
+      <guid isPermaLink="false">0abe4221510a</guid>
+      <pubDate>Fri, 20 Nov 2026 17:30:00 +0000</pubDate>
+      <description>Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Google] How Watch Duty is using Gemini to get wildfire alerts out faster</title>
+      <link>https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/</link>
+      <guid isPermaLink="false">b224850c9f0f</guid>
+      <pubDate>Fri, 20 Nov 2026 17:00:00 +0000</pubDate>
+      <description>Watch Duty rendering</description>
+    </item>
+    <item>
+      <title>[The Hacker News] Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control</title>
+      <link>https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html</link>
+      <guid isPermaLink="false">9dbbebdeb6a3</guid>
+      <pubDate>Fri, 20 Nov 2026 16:58:16 +0000</pubDate>
+      <description>Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. "Bazuka is a full malware framework,</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Vendor data breach exposes Chase, Visa, Mastercard customer info</title>
+      <link>https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/</link>
+      <guid isPermaLink="false">bbc19bb6f991</guid>
+      <pubDate>Fri, 20 Nov 2026 15:58:06 +0000</pubDate>
+      <description>J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Microsoft Copilot Harness in Microsoft Foundry</title>
+      <link>https://www.youtube.com/shorts/L0LMTqUHkLQ</link>
+      <guid isPermaLink="false">01206b085cf1</guid>
+      <pubDate>Fri, 20 Nov 2026 15:15:26 +0000</pubDate>
+      <description>What changes when the same agent moves onto the Microsoft Copilot harness? With the same definition and managed runtime in Microsoft Foundry (formerly Azure AI Foundry), the agent plans its work, pulls data, runs analysis, loops through skills, and calls subagents, all inside a secure sandbox. It works around issues on the fly and returns an executive PDF report and a separate forecast file. ▶ Full video…</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Microsoft] Serve open models in production with Foundry Managed Compute</title>
+      <link>https://devblogs.microsoft.com/foundry/managed-compute-ga/</link>
+      <guid isPermaLink="false">e52310c47411</guid>
+      <pubDate>Fri, 20 Nov 2026 15:00:44 +0000</pubDate>
+      <description>Managed Compute serves open models on dedicated GPUs in Microsoft Foundry, with Global and US or EU Data Zone deployments.</description>
+      <category>foundry</category>
+    </item>
+    <item>
+      <title>[GitHub] Building domain-specific AI agents for hardware reliability at NVIDIA</title>
+      <link>https://www.youtube.com/watch?v=M_tzUBAfRP0</link>
+      <guid isPermaLink="false">bc252164d93f</guid>
+      <pubDate>Fri, 20 Nov 2026 15:00:01 +0000</pubDate>
+      <description>GitHub Copilot catches surface-level issues, but what about hardware-specific constraints, firmware interactions, and system-level failures? In this GitHub Universe 2026 session, Maria Victoria Gromysch, Test Engineer at NVIDIA, shares a practical framework for integrating AI across the full engineering lifecycle. Discover how NVIDIA uses GitHub Copilot, GitHub Actions, and custom AI agents for test generation at…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[The Record] Dozens of credit unions hit by supplier breach that went unnoticed for six weeks</title>
+      <link>https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach</link>
+      <guid isPermaLink="false">c21f2f095f9f</guid>
+      <pubDate>Fri, 20 Nov 2026 14:24:00 +0000</pubDate>
+      <description>Ireland’s Data Protection Commission told Recorded Future News on Thursday it had received more than 40 breach notifications from credit unions that used the Belfast-based company as a data processor.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] N-able says recent security breach led to major service outage</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/</link>
+      <guid isPermaLink="false">d9a325150570</guid>
+      <pubDate>Fri, 20 Nov 2026 13:18:36 +0000</pubDate>
+      <description>N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] Can you trust your AI agent? Niels Provos built a trap to find out</title>
+      <link>https://www.youtube.com/shorts/UNUNQIMp7FA</link>
+      <guid isPermaLink="false">5fc7040f4b0b</guid>
+      <pubDate>Fri, 20 Nov 2026 13:00:29 +0000</pubDate>
+      <description>Can you trust an autonomous AI agent to browse the web on your behalf without leaking private data? In this clip from our interview with cybersecurity researcher Niels Provos, learn how prompt injection and multi-turn intent drift can hijack agents like OpenClaw. To test how easily agents can be misled, Niels built a 2026-style honeypot website using hidden prompt injections to lure agents into submitting user email…</description>
+    </item>
+    <item>
+      <title>[The Hacker News] The Path to AI Autonomy in the SOC</title>
+      <link>https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html</link>
+      <guid isPermaLink="false">d9e0b261f408</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortable at that level. Overall, AI SOC was the highest ranking initiative for 2027. The pressure</description>
+      <category>security-agents</category>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws</title>
+      <link>https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html</link>
+      <guid isPermaLink="false">b6dced9e8be0</guid>
+      <pubDate>Fri, 20 Nov 2026 10:38:22 +0000</pubDate>
+      <description>SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. "Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever," SonicWall said. "We expect internet-facing Gen 6 firewalls to be actively</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network</title>
+      <link>https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html</link>
+      <guid isPermaLink="false">c9ddefa65f50</guid>
+      <pubDate>Fri, 20 Nov 2026 10:32:50 +0000</pubDate>
+      <description>Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[OpenAI] Combatting adversarial distillation</title>
+      <link>https://openai.com/index/combatting-adversarial-distillation</link>
+      <guid isPermaLink="false">3ea993db7e3c</guid>
+      <pubDate>Fri, 20 Nov 2026 10:00:00 +0000</pubDate>
+      <description>OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.</description>
+    </item>
+    <item>
+      <title>[The Hacker News] China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data</title>
+      <link>https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html</link>
+      <guid isPermaLink="false">dc6901c8a6d8</guid>
+      <pubDate>Fri, 20 Nov 2026 09:38:15 +0000</pubDate>
+      <description>The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It</title>
+      <link>https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html</link>
+      <guid isPermaLink="false">fa700a4eb8ce</guid>
+      <pubDate>Fri, 20 Nov 2026 05:30:01 +0000</pubDate>
+      <description>A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Microsoft Entra Agent ID and Egress Rules</title>
+      <link>https://www.youtube.com/shorts/f5XVyW_Bjmo</link>
+      <guid isPermaLink="false">f7a84428040f</guid>
+      <pubDate>Fri, 20 Nov 2026 03:45:28 +0000</pubDate>
+      <description>What controls does an enterprise AI agent need? Three: who the agent is, what it can and can't do, and visibility into everything it does. In Microsoft Foundry (formerly Azure AI Foundry), Microsoft Entra Agent ID gives every agent its own enterprise identity the moment it's deployed, egress rules restrict web calls to paths you've allowed, and every decision is logged for your security team. ▶ Full video…</description>
+      <category>entra</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] VMware patches vCenter zero-day exploited in attacks since September</title>
+      <link>https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/</link>
+      <guid isPermaLink="false">c5e24a06d395</guid>
+      <pubDate>Fri, 20 Nov 2026 00:26:25 +0000</pubDate>
+      <description>Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Anthropic] Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement</title>
+      <link>https://www.anthropic.com/news/ipo-close</link>
+      <guid isPermaLink="false">9afed0143cc7</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.</description>
+    </item>
+    <item>
+      <title>[Hugging Face] Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup</title>
+      <link>https://huggingface.co/blog/inkling2mini</link>
+      <guid isPermaLink="false">80d31a6dee29</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Hugging Face] Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost</title>
+      <link>https://huggingface.co/blog/harness-adapters-at-scale</link>
+      <guid isPermaLink="false">211fbe8009a4</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Microsoft Copilot] Introducing Agent 365 Business Analytics #MSIgnite</title>
+      <link>https://www.youtube.com/shorts/NvEIB5eqC5c</link>
+      <guid isPermaLink="false">237b1af2a70b</guid>
+      <pubDate>Thu, 19 Nov 2026 21:40:04 +0000</pubDate>
+      <description>At Microsoft Ignite, Satya Nadella introduces Agent 365 Business Analytics, a new way for organizations to connect AI spend, adoption, and ROI. Now rolling out in Frontier Public, it helps leaders understand the value of work completed and make more informed AI investments. #MicrosoftCopilot #BusinessAnalytics</description>
+      <category>agent365</category>
+    </item>
+    <item>
+      <title>[Google] ICYMI: Transfer your history from other AI apps into Gemini.</title>
+      <link>https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/</link>
+      <guid isPermaLink="false">63715c934641</guid>
+      <pubDate>Thu, 19 Nov 2026 20:30:00 +0000</pubDate>
+      <description>Transfer your chat history into Gemini. Import your ZIP files and AI summaries to continue conversations seamlessly. Get the details.</description>
+    </item>
     <item>
       <title>[Microsoft] Build trusted autonomous agents for your team with Microsoft Foundry</title>
       <link>https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/</link>
@@ -75,6 +287,14 @@
       <category>incidents</category>
     </item>
     <item>
+      <title>[The Hacker News] Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication</title>
+      <link>https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html</link>
+      <guid isPermaLink="false">7008c485fa38</guid>
+      <pubDate>Thu, 19 Nov 2026 15:11:06 +0000</pubDate>
+      <description>A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The</description>
+      <category>incidents</category>
+    </item>
+    <item>
       <title>[BleepingComputer] Five warning signs of ransomware breach before encryption or data theft</title>
       <link>https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/</link>
       <guid isPermaLink="false">75044bab3e73</guid>
@@ -142,6 +362,30 @@
       <guid isPermaLink="false">f1086bbce99e</guid>
       <pubDate>Thu, 19 Nov 2026 04:00:38 +0000</pubDate>
       <description>What is an AI agent harness? It's the environment that wraps your model and agent, giving it what it needs to run with token efficiency, plus the constraints that keep it from doing things you don't want. Two core components: the agent loop, which reasons, acts, observes, and iterates until it hits your limit or finishes, and context management, which compresses and prioritizes information as context grows. ▶ Full…</description>
+    </item>
+    <item>
+      <title>[OpenAI] Explore the Codex Security Plugin</title>
+      <link>https://openai.com/business/learn/codex-security-plugin-demo</link>
+      <guid isPermaLink="false">e29ac258c013</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.</description>
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[OpenAI] Get started with Daybreak Blue</title>
+      <link>https://openai.com/business/learn/daybreak-blue-onboarding-demo</link>
+      <guid isPermaLink="false">a2fb00344062</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.</description>
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[OpenAI] Deploying Daybreak Red</title>
+      <link>https://openai.com/business/learn/deploying-daybreak-red</link>
+      <guid isPermaLink="false">4b08ec50268e</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.</description>
+      <category>security-agents</category>
     </item>
     <item>
       <title>[BleepingComputer] Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms</title>
@@ -381,247 +625,6 @@
       <guid isPermaLink="false">2f5d6d63b059</guid>
       <pubDate>Wed, 18 Nov 2026 14:00:31 +0000</pubDate>
       <description>New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]</description>
-    </item>
-    <item>
-      <title>[The Hacker News] AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor</title>
-      <link>https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html</link>
-      <guid isPermaLink="false">c9f8dc26d8d0</guid>
-      <pubDate>Wed, 18 Nov 2026 12:15:00 +0000</pubDate>
-      <description>TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting vendors aren't interchangeable. Most look convincing in a demo. The gaps show up in your logged-in flows, your coverage, and your production safety. Make</description>
-      <category>security-agents</category>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are</title>
-      <link>https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html</link>
-      <guid isPermaLink="false">63ab0fd18797</guid>
-      <pubDate>Wed, 18 Nov 2026 11:03:57 +0000</pubDate>
-      <description>AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with both. AI pentesting has emerged as a way to run in-depth tests whenever teams need them, instead of waiting for the</description>
-      <category>security-agents</category>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[OpenAI] How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise</title>
-      <link>https://openai.com/business/customer-stories/sumitomo-life</link>
-      <guid isPermaLink="false">b527b6f0ddce</guid>
-      <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
-      <description>Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.</description>
-    </item>
-    <item>
-      <title>[OpenAI] Research acceleration: The jagged frontier</title>
-      <link>https://openai.com/index/research-acceleration-jagged-frontier</link>
-      <guid isPermaLink="false">9fa731b0ef6c</guid>
-      <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
-      <description>OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.</description>
-    </item>
-    <item>
-      <title>[OpenAI] Inside the Codex sandbox</title>
-      <link>https://openai.com/index/inside-the-codex-sandbox</link>
-      <guid isPermaLink="false">53f2a14376dd</guid>
-      <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
-      <description>See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.</description>
-    </item>
-    <item>
-      <title>[CrowdStrike] CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM</title>
-      <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/</link>
-      <guid isPermaLink="false">f0ed0fdc40d9</guid>
-      <pubDate>Wed, 18 Nov 2026 06:00:00 +0000</pubDate>
-      <description />
-      <category>security-agents</category>
-    </item>
-    <item>
-      <title>[CrowdStrike] CrowdStrike Brings the Human Advantage to AI Detection and Response</title>
-      <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-human-advantage-aidr/</link>
-      <guid isPermaLink="false">aee65bc8ab68</guid>
-      <pubDate>Wed, 18 Nov 2026 06:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[OpenAI] Managing frontier AI risk: From training to deployment</title>
-      <link>https://openai.com/index/managing-frontier-ai-risk</link>
-      <guid isPermaLink="false">8b6ac2940fdc</guid>
-      <pubDate>Wed, 18 Nov 2026 06:00:00 +0000</pubDate>
-      <description>OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.</description>
-    </item>
-    <item>
-      <title>[The Hacker News] Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization</title>
-      <link>https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html</link>
-      <guid isPermaLink="false">ee9a23761ba0</guid>
-      <pubDate>Wed, 18 Nov 2026 05:58:04 +0000</pubDate>
-      <description>The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Satya Nadella opens Microsoft Ignite 2026</title>
-      <link>https://www.youtube.com/watch?v=Nv8-Km25Qj4</link>
-      <guid isPermaLink="false">e32f96eba8b5</guid>
-      <pubDate>Wed, 18 Nov 2026 03:03:07 +0000</pubDate>
-      <description>Get a closer look at Satya Nadella's opening keynote at Microsoft Ignite 2026. See how Microsoft is building the frontier ecosystem, from Copilot and Foundry to Azure and Fabric, plus the major announcements from the stage. Watch full keynote: https://youtube.com/live/ZR4v1c4CClc</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[The Record] Uber says nearly 150,000 impacted by third-party breach</title>
-      <link>https://therecord.media/uber-says-150000-impacted-third-party-breach</link>
-      <guid isPermaLink="false">9409189d8358</guid>
-      <pubDate>Wed, 18 Nov 2026 01:20:00 +0000</pubDate>
-      <description>In breach notification letters, the rideshare company said it was notified by a third party service provider on October 9 that internal credentials were stolen and used to access Uber’s account.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] AI is changing access. See how Microsoft Entra helps you stay ahead.</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-entra-blog/ai-is-changing-access-see-how-microsoft-entra-helps-you-stay/ba-p/4556456</link>
-      <guid isPermaLink="false">1d0f8f35eedb</guid>
-      <pubDate>Wed, 18 Nov 2026 00:39:46 +0000</pubDate>
-      <description>⭐Don't miss Microsoft Ignite BRK343 to see demos of what's in this post.⭐ Wednesday, November 18, 2026, 10:15 to 11:00 AM Pacific Time Watch: AI is changing access. See how Microsoft Entra helps you stay ahead. AI and agents are changing the access landscape at a pace that challenges even mature identity and security programs. Without centralized visibility and control, agent sprawl risks becoming shadow IT at a…</description>
-      <category>entra</category>
-    </item>
-    <item>
-      <title>[OpenAI] Advancing chip design with OpenAI models</title>
-      <link>https://openai.com/index/advancing-chip-design-with-our-models</link>
-      <guid isPermaLink="false">c7d3ecb00643</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <description>OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.</description>
-    </item>
-    <item>
-      <title>[Hugging Face] 180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers</title>
-      <link>https://huggingface.co/blog/moe-expert-streaming</link>
-      <guid isPermaLink="false">af1852b4c46d</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Anthropic] Anthropic prices initial public offering</title>
-      <link>https://www.anthropic.com/news/anthropic-prices-initial-public-offering</link>
-      <guid isPermaLink="false">909b75797cd1</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Today Anthropic, PBC priced its initial public offering of its Class A common stock.</description>
-    </item>
-    <item>
-      <title>[Hugging Face] Rumble-2-Flash: an open 0.5B speech model for 40+ languages</title>
-      <link>https://huggingface.co/blog/rumble-2-flash</link>
-      <guid isPermaLink="false">679cee5ea146</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Google] Gemini-powered data classification in Google Drive is now generally available</title>
-      <link>https://workspaceupdates.googleblog.com/2026/11/gemini-powered-data-classification-in-Google-Drive-is-now-generally-available.html</link>
-      <guid isPermaLink="false">ee5f689fd9f6</guid>
-      <pubDate>Tue, 17 Nov 2026 22:00:35 +0000</pubDate>
-      <description>Gemini-powered AI classification in Google Drive is now generally available. Following our open beta, administrators can now deploy natural-language classification instructions at scale with two new capabilities designed to provide admins a better understanding of automated data classification for their files: Test your instructions: Before deploying the new instructions, admins can test and refine Gemini…</description>
-    </item>
-    <item>
-      <title>[Google] See what 5 builders are making with Gemini 4 Carbon</title>
-      <link>https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders/</link>
-      <guid isPermaLink="false">cdc7326c2991</guid>
-      <pubDate>Tue, 17 Nov 2026 21:00:00 +0000</pubDate>
-      <description>Collage of different projects made with Gemini 4 Carbon</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] Japan takes Fugaku supercomputer offlline after cyberattack</title>
-      <link>https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/</link>
-      <guid isPermaLink="false">1dff6dd6c93a</guid>
-      <pubDate>Tue, 17 Nov 2026 20:51:21 +0000</pubDate>
-      <description>The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Microsoft Ignite: Opening Keynote 2026</title>
-      <link>https://www.youtube.com/watch?v=ZR4v1c4CClc</link>
-      <guid isPermaLink="false">e841df9d181a</guid>
-      <pubDate>Tue, 17 Nov 2026 20:38:29 +0000</pubDate>
-      <description>Catch Microsoft Chairman and CEO Satya Nadella live from Microsoft Ignite 2026 as he shares the latest innovations and a look at what's next. Chapters: 0:00 Opening video: A moment unlike any other 1:18 Opening keynote | Satya Nadella 7:00 Copilot: The new operating system for work 11:20 Introducing Copilot Workspaces 13:34 Microsoft IQ, Foundry &amp; new MAI models 22:24 Agent 365, Microsoft Perception &amp; AI…</description>
-      <category>copilot</category>
-      <category>agent365</category>
-    </item>
-    <item>
-      <title>[Microsoft] OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available</title>
-      <link>https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available</link>
-      <guid isPermaLink="false">96ff71f54c6e</guid>
-      <pubDate>Tue, 17 Nov 2026 20:20:29 +0000</pubDate>
-      <description>OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Microsoft] Office at Ignite 2026: From apps to agentic system of work</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/office-at-ignite-2026-from-apps-to-agentic-system-of-work/ba-p/4572226</link>
-      <guid isPermaLink="false">b8348bd69a2a</guid>
-      <pubDate>Tue, 17 Nov 2026 20:17:59 +0000</pubDate>
-      <description>Work no longer happens in a silo. A single project can start as a question in an AI chat, become a Word draft, turn into a PowerPoint deck, and end as a decision in an email thread. People expect their context, and their AI, to come along at every step. At Ignite, we’re excited to share the next chapter for Office, as it evolves from a set of applications into a human-led, agentic system of work. We're bringing…</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[Microsoft] What's new in Microsoft Agent 365: Ignite 2026</title>
-      <link>https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-microsoft-agent-365-ignite-2026/ba-p/4571753</link>
-      <guid isPermaLink="false">b7a460eeed96</guid>
-      <pubDate>Tue, 17 Nov 2026 19:54:53 +0000</pubDate>
-      <description>Organizations have registered more than 50 million agents in Microsoft Agent 365 since its May 2026 launch. That scale brings new questions: who owns each agent, what risk do they carry, and what do they cost – and importantly, is it worth it. Today at Microsoft Ignite 2026, we're expanding Agent 365, the observability platform for AI, to give you more visibility and control across your AI estate. IT, security, and…</description>
-      <category>agent365</category>
-    </item>
-    <item>
-      <title>[The Record] Kazakh ransomware hacking suspect extradited from Italy</title>
-      <link>https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx</link>
-      <guid isPermaLink="false">1e05409f353f</guid>
-      <pubDate>Tue, 17 Nov 2026 19:09:00 +0000</pubDate>
-      <description>The U.S. accused Roman Khlynovskiy of participating in ransomware attacks against healthcare organizations, schools and companies as part of the "8 Digits Team" connected with INC and Lynx.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[GitHub] Stop manually picking AI models: how GitHub Copilot Fusion works</title>
-      <link>https://www.youtube.com/watch?v=9UMpD5QMU-c</link>
-      <guid isPermaLink="false">4c0c8f777ae1</guid>
-      <pubDate>Tue, 17 Nov 2026 19:00:30 +0000</pubDate>
-      <description>Learn what GitHub Copilot Fusion is and how it removes the guesswork of choosing between models from the leading providers. Select Standard, High, or Max effort levels, and Copilot Fusion automatically determines whether to route your prompt to a single model or combine multiple models, balancing quality, speed, and cost for every task. Watch a live walkthrough of multi-model orchestration in action, from everyday…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[The Record] Chinese state group developing automated attack tool for cyber espionage, Google says</title>
-      <link>https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage</link>
-      <guid isPermaLink="false">3910748ba894</guid>
-      <pubDate>Tue, 17 Nov 2026 18:50:00 +0000</pubDate>
-      <description>Google released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks — now leaning more heavily on autonomous multi-agent offensive frameworks like Artex, CAIRN, CyberStrikeAI and PentAGI to execute multi-stage intrusions at greater operational velocity.</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Microsoft] Ignite 2026: What’s new in endpoint security</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-defender-blog/ignite-2026-what-s-new-in-endpoint-security/ba-p/4573835</link>
-      <guid isPermaLink="false">0909618f01f8</guid>
-      <pubDate>Tue, 17 Nov 2026 18:45:00 +0000</pubDate>
-      <description>As more work happens in the browser, the browser has become a prime target for attackers. A fake CAPTCHA or a convincing error message persuades users to take an action that seems harmless, like running a command or approving a request. In these attacks, the user unknowingly carries the threat from the browser to the operating system. Once that happens, the attacker can install malware, steal credentials, or…</description>
-      <category>defender</category>
-    </item>
-    <item>
-      <title>[Microsoft] What's new in Copilot Cowork at Ignite 2026</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-copilot-cowork-at-ignite-2026/ba-p/4572242</link>
-      <guid isPermaLink="false">b1cdd6044833</guid>
-      <pubDate>Tue, 17 Nov 2026 18:44:09 +0000</pubDate>
-      <description>Copilot Cowork is changing how work gets done. Sellers turn a quarter of account activity into a business review deck and follow-up plan. Finance teams pull forecasts from several workbooks into a board-ready variance memo. HR and learning teams turn thousands of survey comments into targeted learning paths, and legal teams check a stack of agreements against their playbook. And it's happening at scale. Since…</description>
-      <category>copilot</category>
-      <category>cowork</category>
-    </item>
-    <item>
-      <title>[Microsoft Copilot] Optimize your AI spend with Microsoft Agent 365</title>
-      <link>https://www.youtube.com/watch?v=uA1ZaQpIh3Q</link>
-      <guid isPermaLink="false">6d1274fec8ad</guid>
-      <pubDate>Tue, 17 Nov 2026 18:39:25 +0000</pubDate>
-      <description>With new Business Analytics and Cost Management tools, Microsoft Agent 365 enables you to plan ahead, stay in control, and optimize over time—turning your AI investment into business outcomes. Learn more: https://msft.it/6054xEXD0 #MicrosoftAgent365 #Agent365 #MicrosoftAI</description>
-      <category>agent365</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Researchers hijack Hugging Face account for popular Kokoro AI model</title>
-      <link>https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/</link>
-      <guid isPermaLink="false">a2076d4177b9</guid>
-      <pubDate>Tue, 17 Nov 2026 18:21:24 +0000</pubDate>
-      <description>A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Microsoft] Introducing Copilot Workspaces | Microsoft Ignite 2026</title>
-      <link>https://www.youtube.com/watch?v=Jwp2aZDSVss</link>
-      <guid isPermaLink="false">8b16c8f4814a</guid>
-      <pubDate>Tue, 17 Nov 2026 18:18:58 +0000</pubDate>
-      <description>Copilot is now multiplayer. From shared projects in Copilot Workspaces to working alongside your Autopilot in Microsoft Teams, Copilot is now built for people and agents. At Ignite 2026, Satya Nadella announced Copilot Workspaces. Watch the full keynote: https://www.youtube.com/watch?v=ZR4v1c4CClc More from Ignite: https://ignite.microsoft.com/en-US/home</description>
-      <category>copilot</category>
     </item>
   </channel>
 </rss>
