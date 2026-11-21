@@ -4,7 +4,96 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Fri, 20 Nov 2026 20:17:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 19:14:27 +0000</lastBuildDate>
+    <item>
+      <title>[Microsoft] Hosted agents in your own virtual network: five checks when the Agents page times out</title>
+      <link>https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/</link>
+      <guid isPermaLink="false">090f13394b0c</guid>
+      <pubDate>Sat, 21 Nov 2026 18:12:21 +0000</pubDate>
+      <description>The five questions teams ask most when they run hosted agents in their own virtual network: which subnet is the agent subnet, why listing agents times out, why a TLS-inspecting firewall still breaks after you add your CA, how peered VNets and DNS fit, and why a subnet stays in use after you delete an account.</description>
+      <category>foundry</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Microsoft Entra Connect Health flaw exploited to steal tenant data</title>
+      <link>https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/</link>
+      <guid isPermaLink="false">1e1dbef95d66</guid>
+      <pubDate>Sat, 21 Nov 2026 18:01:58 +0000</pubDate>
+      <description>Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]</description>
+      <category>entra</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] What open source can teach us about agents in CI/CD</title>
+      <link>https://www.youtube.com/watch?v=bUhCBYi4dys</link>
+      <guid isPermaLink="false">09653e35748b</guid>
+      <pubDate>Sat, 21 Nov 2026 15:00:30 +0000</pubDate>
+      <description>What happens when you build an operating system the way you build an application? In this GitHub Universe 2026 session, Jorge Castro from the CNCF uses Project Bluefin (projectbluefin.io) to demonstrate how container images, GitHub Actions, GitOps, and open source projects unite in a reproducible software supply chain. Discover where AI agents in CI/CD help update configurations and react to pipeline events while…</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] FBI reportedly hacked again, this time targeting nationwide police database</title>
+      <link>https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/</link>
+      <guid isPermaLink="false">efef5bd50b96</guid>
+      <pubDate>Sat, 21 Nov 2026 14:26:04 +0000</pubDate>
+      <description>FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access</title>
+      <link>https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html</link>
+      <guid isPermaLink="false">16765aea3bd9</guid>
+      <pubDate>Sat, 21 Nov 2026 11:03:17 +0000</pubDate>
+      <description>Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS</title>
+      <link>https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html</link>
+      <guid isPermaLink="false">9da47b8efcbb</guid>
+      <pubDate>Sat, 21 Nov 2026 08:49:20 +0000</pubDate>
+      <description>Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is "incomplete." The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft Copilot] 3 Copilot announcements from #MSIgnite</title>
+      <link>https://www.youtube.com/shorts/khT19223cDU</link>
+      <guid isPermaLink="false">c805cb6dda85</guid>
+      <pubDate>Sat, 21 Nov 2026 00:39:39 +0000</pubDate>
+      <description>Hearing buzz that Copilot is the new OS for work? See the 3 major announcements from day 1 of Microsoft Ignite you need to know, and what it means for your organization. #MicrosoftCopilot #MicrosoftIgnite #CopilotWorkspaces</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Google] Google Workspace Weekly Recap - November 20, 2026</title>
+      <link>https://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-20-2026.html</link>
+      <guid isPermaLink="false">01c4b8f4e4b7</guid>
+      <pubDate>Fri, 20 Nov 2026 21:21:00 +0000</pubDate>
+      <description>Schedule meetings with a default 5-minute buffer in Google Calendar Back-to-back meetings can leave no time for a break in your day. To help you build in short breaks, we’re expanding the “Speedy meetings” setting in Google Calendar into new, per-calendar Event duration &amp; buffer settings. | Learn more Easily customize and extend Google Workspace with Gemini in Apps Script Now, with the Gemini side panel in Apps…</description>
+    </item>
+    <item>
+      <title>[Microsoft Copilot] Bringing the power of Salesforce into Copilot</title>
+      <link>https://www.youtube.com/shorts/y607t5cFn98</link>
+      <guid isPermaLink="false">de2c73f7963d</guid>
+      <pubDate>Fri, 20 Nov 2026 20:57:33 +0000</pubDate>
+      <description>The new Salesforce plugin combines Salesforce customer data with work context from Microsoft 365, helping sellers manage opportunities, identify risks, and take action directly in Copilot. #MicrosoftCopilot #Salesforce #CopilotForce</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[The Record] US companies’ use of Chinese open weight AI draws rebuke from House chairmen</title>
+      <link>https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation</link>
+      <guid isPermaLink="false">e010061a1eb7</guid>
+      <pubDate>Fri, 20 Nov 2026 20:25:00 +0000</pubDate>
+      <description>An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft] Available today: OpenAI's GPT-6.2 Sol and GPT-6.2 Astra in Microsoft Copilot</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-2-sol-and-gpt-6-2-astra-in/ba-p/4574229</link>
+      <guid isPermaLink="false">6a2828a07b1e</guid>
+      <pubDate>Fri, 20 Nov 2026 20:07:04 +0000</pubDate>
+      <description>OpenAI's GPT-6.2 Sol and GPT-6.2 Astra are now joining the frontier models available in Microsoft Copilot, giving customers more choice as they delegate more complex tasks to AI. With both models in Copilot, you can match the model to the work in front of you, from a draft in Word to a multi-step task you hand off in Copilot Cowork, and spend your time reviewing results and making decisions. As more work is…</description>
+      <category>copilot</category>
+      <category>cowork</category>
+    </item>
     <item>
       <title>[The Record] Container Store restores systems after cyberattack</title>
       <link>https://therecord.media/container-store-restores-systems-cyberattack</link>
@@ -61,6 +150,14 @@
       <pubDate>Fri, 20 Nov 2026 16:58:16 +0000</pubDate>
       <description>Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. "Bazuka is a full malware framework,</description>
       <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft] Demystifying macOS Platform SSO: How Apple and Microsoft Entra ID work together</title>
+      <link>https://techcommunity.microsoft.com/t5/microsoft-entra-blog/demystifying-macos-platform-sso-how-apple-and-microsoft-entra-id/ba-p/4437423</link>
+      <guid isPermaLink="false">51eec5d446d1</guid>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 +0000</pubDate>
+      <description>Platform SSO has been transforming the macOS sign-in experience by bringing Microsoft Entra authentication closer to the operating system. Users can sign in to their Mac and access work applications with fewer authentication prompts, while organizations retain Microsoft Entra device trust and access controls. As more organizations deploy Platform SSO, new questions have emerged: What actually happens under the hood?…</description>
+      <category>entra</category>
     </item>
     <item>
       <title>[BleepingComputer] Vendor data breach exposes Chase, Visa, Mastercard customer info</title>
@@ -182,6 +279,13 @@
       <category>incidents</category>
     </item>
     <item>
+      <title>[OpenAI] Hebbia sees improvements in financial research with GPT-6 Astra</title>
+      <link>https://openai.com/business/customer-stories/hebbia</link>
+      <guid isPermaLink="false">d15c45643214</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.</description>
+    </item>
+    <item>
       <title>[Anthropic] Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement</title>
       <link>https://www.anthropic.com/news/ipo-close</link>
       <guid isPermaLink="false">9afed0143cc7</guid>
@@ -222,7 +326,7 @@
       <link>https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/</link>
       <guid isPermaLink="false">991aacbced51</guid>
       <pubDate>Thu, 19 Nov 2026 19:53:30 +0000</pubDate>
-      <description>A new kind of agent can work alongside your team in Microsoft 365, with its own identity, permissions, and a manager accountable for its work. Enterprises are all-in on AI agents, but the ROI hasn’t followed. What’s holding those agents back isn’t capability. Today’s agents can do remarkable work on their own. They can start […]</description>
+      <description>Enterprises are all-in on AI agents, but the ROI hasn’t followed. What’s holding those agents back isn’t capability. Today’s agents can do remarkable work on their own. They can solve math problems that stumped mathematicians for decades, build functional operating systems from scratch, and teach themselves a new skill by watching you do a task […]</description>
       <category>foundry</category>
     </item>
     <item>
@@ -524,107 +628,6 @@
       <pubDate>Wed, 18 Nov 2026 17:00:39 +0000</pubDate>
       <description>Your next agent can start wherever you like to build: in your editor, at the terminal, or with your favorite coding agent. At Microsoft Ignite, we’re making that first step easier: the Foundry Dev Pack (aka.ms/foundrydevpack) is now generally available, bringing the Microsoft Foundry developer tools to your machine in a single install. Move from […]</description>
       <category>foundry</category>
-    </item>
-    <item>
-      <title>[Microsoft] What’s new in Foundry Agent Service at Ignite 2026</title>
-      <link>https://devblogs.microsoft.com/foundry/whats-new-in-foundry-agent-service-at-ignite-2026/</link>
-      <guid isPermaLink="false">0504a496523f</guid>
-      <pubDate>Wed, 18 Nov 2026 17:00:28 +0000</pubDate>
-      <description>Your customers don’t judge agents by how well they demo. They judge them by whether the work gets done: the case resolved, the report delivered, the follow-up sent. That takes more than a model. It takes the right context and tools, a runtime that holds up under real demand, and a way to keep improving […]</description>
-      <category>foundry</category>
-    </item>
-    <item>
-      <title>[Microsoft] Build once, reuse across your agent fleet: Tools and Toolboxes in Foundry</title>
-      <link>https://devblogs.microsoft.com/foundry/build-once-reuse-across-your-agent-fleet-tools-and-toolboxes-in-foundry/</link>
-      <guid isPermaLink="false">b9dafcb13092</guid>
-      <pubDate>Wed, 18 Nov 2026 17:00:18 +0000</pubDate>
-      <description>Connecting one tool to one agent is not hard. The challenge is managing a useful set of tools and agentic capabilities across a fleet of production agents at scale. Every new agent shouldn’t require you to build the same integrations, copy the same instructions, and troubleshoot the same dependencies. And adding a useful capability shouldn’t […]</description>
-      <category>foundry</category>
-    </item>
-    <item>
-      <title>[Google] The Gemini app is now available on lower-memory Android devices.</title>
-      <link>https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/</link>
-      <guid isPermaLink="false">03ca256a4adf</guid>
-      <pubDate>Wed, 18 Nov 2026 17:00:00 +0000</pubDate>
-      <description>The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.</description>
-    </item>
-    <item>
-      <title>[Google] Starter prompts and descriptions for Google Chat apps and agents</title>
-      <link>https://workspaceupdates.googleblog.com/2026/11/starter-prompts-and-descriptions-for-Google-Chat-apps-and-agents.html</link>
-      <guid isPermaLink="false">eaa1c7c4c333</guid>
-      <pubDate>Wed, 18 Nov 2026 16:33:57 +0000</pubDate>
-      <description>Developers can now add starter prompts and descriptions to their Google Chat apps, helping users understand what an app or AI agent can do from their very first conversation. When a user opens a direct message with a Chat app, they’ll see the app’s description and up to three suggested prompts to help them get started. Both features can be set up in the Google Cloud console without writing any code. Developers can…</description>
-    </item>
-    <item>
-      <title>[Microsoft] The End of Starting Over: How Work IQ helps Copilot understand you and your work</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/the-end-of-starting-over-how-work-iq-helps-copilot-understand/ba-p/4571169</link>
-      <guid isPermaLink="false">a2b902609583</guid>
-      <pubDate>Wed, 18 Nov 2026 16:08:44 +0000</pubDate>
-      <description>As Copilot and agents become part of your everyday work, you increasingly rely on them to help you complete tasks, make decisions, and move work forward. Just as you expect colleagues to understand your preferences, ways of working, and the context behind what you're doing, you need AI to build that same understanding. Yet too often, you spend valuable time getting AI assistants up to speed, explaining your role…</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] Introducing Autopilot, your personal and proactive agent</title>
-      <link>https://www.youtube.com/watch?v=KtV_f3chj9A</link>
-      <guid isPermaLink="false">09a6be6ecd1f</guid>
-      <pubDate>Wed, 18 Nov 2026 16:06:42 +0000</pubDate>
-      <description>Put an AI teammate to work around the clock with Autopilot in Microsoft Copilot, a persistent, proactive and personal agent that runs in the cloud and keeps working after you power off your laptop. Describe your goals in plain language, and your Autopilot watches for updates in your channels, tracks commitments, follows up on conversations, runs recurring tasks and drives projects that span weeks across Outlook…</description>
-      <category>copilot</category>
-      <category>personal-agents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Customize GitHub Copilot for your team</title>
-      <link>https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team</link>
-      <guid isPermaLink="false">f9b17ed5db16</guid>
-      <pubDate>Wed, 18 Nov 2026 16:00:13 +0000</pubDate>
-      <description>You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams. Team…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] Build apps by describing what you want | Copilot Code</title>
-      <link>https://www.youtube.com/watch?v=b5ZSPULTrz8</link>
-      <guid isPermaLink="false">630ac83c1fd3</guid>
-      <pubDate>Wed, 18 Nov 2026 15:58:05 +0000</pubDate>
-      <description>Turn your app idea into a working, interactive web app with Copilot Code. Describe what you want in plain language, ground it in your work data with Work IQ, build what-if modeling from your own business logic, and refine it prompt by prompt. Publish and share cloud projects that reside within your company’s Microsoft tenant boundary and respect your organization’s access and security controls. Track usage, health…</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[GitHub] How we optimize GitHub Copilot for every new model</title>
-      <link>https://www.youtube.com/watch?v=JSC8eVojIWY</link>
-      <guid isPermaLink="false">2757d6fe5e0e</guid>
-      <pubDate>Wed, 18 Nov 2026 15:00:35 +0000</pubDate>
-      <description>How do you ship a coding agent that works smoothly across OpenAI, Claude, Gemini, and whatever model drops next week? You build a harness. In this GitHub Universe 2026 session, Julia Kasper from Microsoft shares the evaluation framework the GitHub Copilot team uses to continuously test, measure, and optimize its coding agent across a matrix of clients, models, and configurations. Discover how reproducible…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[Hugging Face] Time-Series Models in the Streamhouse: A New Frontier and Use Cases</title>
-      <link>https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse</link>
-      <guid isPermaLink="false">bf1424b145e4</guid>
-      <pubDate>Wed, 18 Nov 2026 15:00:23 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[BleepingComputer] From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters</title>
-      <link>https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/</link>
-      <guid isPermaLink="false">8e8debc4b233</guid>
-      <pubDate>Wed, 18 Nov 2026 15:00:10 +0000</pubDate>
-      <description>Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations prevent social engineering threats. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Meta] Meta Welcomes Loblaw as First Canadian Retail Partner to Muse</title>
-      <link>https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/</link>
-      <guid isPermaLink="false">9f1f1193899f</guid>
-      <pubDate>Wed, 18 Nov 2026 14:07:00 +0000</pubDate>
-      <description>Starting today, Loblaw is bringing its catalogue to Muse as a partner connector, the first Canadian retailer to do so. Connectors are a big reason Muse can do so much. Canadians can connect their Muse to apps they already use, including Gmail, Google Calendar and Instagram, so it can help them manage email, coordinate schedules and draw on saved content to get everyday tasks done. With participating Loblaw banners…</description>
-      <category>personal-agents</category>
-    </item>
-    <item>
-      <title>[NVIDIA] NVIDIA RTX Spark Compact Desktops Out Now</title>
-      <link>https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/</link>
-      <guid isPermaLink="false">2f5d6d63b059</guid>
-      <pubDate>Wed, 18 Nov 2026 14:00:31 +0000</pubDate>
-      <description>New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]</description>
     </item>
   </channel>
 </rss>
