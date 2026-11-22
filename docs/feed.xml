@@ -4,7 +4,62 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Sat, 21 Nov 2026 19:14:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 19:38:14 +0000</lastBuildDate>
+    <item>
+      <title>[Microsoft Mechanics] GitHub Copilot Skill for Azure SQL Hyperscale</title>
+      <link>https://www.youtube.com/shorts/K0mHkk0IBxo</link>
+      <guid isPermaLink="false">6820f96bfd8d</guid>
+      <pubDate>Sun, 22 Nov 2026 18:15:27 +0000</pubDate>
+      <description>Not sure how to size a new Azure SQL database? The Azure SQL Hyperscale configuration skill for GitHub Copilot in Visual Studio Code takes your requirements from a prompt and recommends a configuration. Here, that's serverless scaling from 1 to 8 cores with auto-pause, and the skill deploys it once you approve. ▶ Full video: https://youtu.be/IFEd7SNqNPk ▶ Get the skill: https://aka.ms/SQLHyperscaleMechanics #Shorts…</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Cleverbridge warns hackers stole credit card numbers, CVVs in data breach</title>
+      <link>https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/</link>
+      <guid isPermaLink="false">855a50efe0f3</guid>
+      <pubDate>Sun, 22 Nov 2026 15:43:04 +0000</pubDate>
+      <description>E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Signal to block Siri, Gemini AI from capturing chats on iOS, Android</title>
+      <link>https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/</link>
+      <guid isPermaLink="false">2361e0929a29</guid>
+      <pubDate>Sun, 22 Nov 2026 15:15:25 +0000</pubDate>
+      <description>Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[GitHub] Beyond the prompt: building an AI that takes initiative</title>
+      <link>https://www.youtube.com/watch?v=aLsIaslZ0Ik</link>
+      <guid isPermaLink="false">62626ad109ba</guid>
+      <pubDate>Sun, 22 Nov 2026 15:00:07 +0000</pubDate>
+      <description>When Cameron Hamilton asked his AI assistant, HALIE, to connect a nursery camera, it turned it into a baby monitor unprompted, and when asked to automate business growth, it suggested meeting customers in person. In this GitHub Universe 2026 session, Cameron Hamilton, Creator of Alliance AI, explores how to make proactive AI agents dependable using three core architectures: anticipation, self-evolution, and…</description>
+    </item>
+    <item>
+      <title>[The Hacker News] OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms</title>
+      <link>https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html</link>
+      <guid isPermaLink="false">78074d39dfa2</guid>
+      <pubDate>Sun, 22 Nov 2026 05:06:55 +0000</pubDate>
+      <description>Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps</title>
+      <link>https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html</link>
+      <guid isPermaLink="false">0be8ff22df4a</guid>
+      <pubDate>Sun, 22 Nov 2026 05:03:41 +0000</pubDate>
+      <description>A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Rackspace Spot breach let hackers access customer Kubernetes secrets</title>
+      <link>https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/</link>
+      <guid isPermaLink="false">9f2af01a2aa9</guid>
+      <pubDate>Sat, 21 Nov 2026 22:59:58 +0000</pubDate>
+      <description>Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]</description>
+      <category>incidents</category>
+    </item>
     <item>
       <title>[Microsoft] Hosted agents in your own virtual network: five checks when the Agents page times out</title>
       <link>https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/</link>
@@ -575,59 +630,6 @@
       <guid isPermaLink="false">75623b38e68b</guid>
       <pubDate>Wed, 18 Nov 2026 18:53:43 +0000</pubDate>
       <description />
-    </item>
-    <item>
-      <title>[Google] Transform your notes and research into dynamic tools with Gemini Notebook</title>
-      <link>https://workspaceupdates.googleblog.com/2026/11/transform-your-notes-and-research-into-dynamic-tools-with-Gemini-Notebook.html</link>
-      <guid isPermaLink="false">77b719bcf351</guid>
-      <pubDate>Wed, 18 Nov 2026 18:47:43 +0000</pubDate>
-      <description>Gemini Notebook can now turn sources into interactive sites to help you quickly make sense of complex information. To get started, users can simply type “make me a site” in the Gemini Notebook chat along with a description of what they want to build for work or study, then select “Open in a new tab” to interact with it, or share it with others. For example, students and professionals can build: Visual explainers to…</description>
-    </item>
-    <item>
-      <title>[Google] Genie 4 is now available</title>
-      <link>https://deepmind.google/blog/genie-4-is-now-available/</link>
-      <guid isPermaLink="false">652211f5c064</guid>
-      <pubDate>Wed, 18 Nov 2026 18:13:42 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[The Hacker News] Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required</title>
-      <link>https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html</link>
-      <guid isPermaLink="false">9c40ff9a7698</guid>
-      <pubDate>Wed, 18 Nov 2026 17:10:45 +0000</pubDate>
-      <description>A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution. "Deserialization of Untrusted</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft Security] Microsoft Perception | Investigate faster. Stay in control of what happens next</title>
-      <link>https://www.youtube.com/shorts/tLnK5_jR01g</link>
-      <guid isPermaLink="false">ec3bc0f60ed2</guid>
-      <pubDate>Wed, 18 Nov 2026 17:04:51 +0000</pubDate>
-      <description>Microsoft Perception is now available. See multi-agent defense in action with Microsoft Perception. Discover how ready-to-use playbooks bring specialized AI agents together to detect and investigate threats, strengthen defenses, and reduce exposure—helping security teams move faster while staying in control. Learn more: https://msft.it/6052xEsOO #MSIgnite #MicrosoftPerception #AgenticSecurity</description>
-    </item>
-    <item>
-      <title>[Microsoft] Hosted agents in Foundry Agent Service at Ignite 2026: from pilot to production inside your enterprise boundaries</title>
-      <link>https://devblogs.microsoft.com/foundry/hosted-agents-foundry-agent-service-ignite-2026/</link>
-      <guid isPermaLink="false">b07d3afb72ab</guid>
-      <pubDate>Wed, 18 Nov 2026 17:00:54 +0000</pubDate>
-      <description>What is new for hosted agents in Foundry Agent Service at Ignite 2026: shared subnet IPs, private CA trust, network egress controls, deployment to your own AKS clusters, resilient execution and memory snapshots.</description>
-      <category>foundry</category>
-    </item>
-    <item>
-      <title>[Microsoft] Browser Automation Tool in Microsoft Foundry : Ignite’26 Announcements</title>
-      <link>https://devblogs.microsoft.com/foundry/browser-automation-tool-ignite/</link>
-      <guid isPermaLink="false">5c6fce382184</guid>
-      <pubDate>Wed, 18 Nov 2026 17:00:47 +0000</pubDate>
-      <description>Enterprise-ready cloud browsers for every Foundry agent: MCP action batching, Live View and Take control, session recording, VNet injection, browser proxy, profile reuse, secret management, and CAPTCHA handling.</description>
-      <category>foundry</category>
-    </item>
-    <item>
-      <title>[Microsoft] The Foundry Dev Pack is here: build Foundry agents your way</title>
-      <link>https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/</link>
-      <guid isPermaLink="false">64f4d5a8fe5d</guid>
-      <pubDate>Wed, 18 Nov 2026 17:00:39 +0000</pubDate>
-      <description>Your next agent can start wherever you like to build: in your editor, at the terminal, or with your favorite coding agent. At Microsoft Ignite, we’re making that first step easier: the Foundry Dev Pack (aka.ms/foundrydevpack) is now generally available, bringing the Microsoft Foundry developer tools to your machine in a single install. Move from […]</description>
-      <category>foundry</category>
     </item>
   </channel>
 </rss>
