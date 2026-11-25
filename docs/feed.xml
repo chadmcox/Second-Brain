@@ -4,7 +4,192 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Tue, 24 Nov 2026 22:25:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 21:40:35 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] 1Password customer data stolen after employee GitHub account breach</title>
+      <link>https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/</link>
+      <guid isPermaLink="false">70f66acc3de7</guid>
+      <pubDate>Wed, 25 Nov 2026 21:33:33 +0000</pubDate>
+      <description>1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] Microsoft: China’s Salt Typhoon hackers are using Artex</title>
+      <link>https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool</link>
+      <guid isPermaLink="false">17a805c0d69c</guid>
+      <pubDate>Wed, 25 Nov 2026 21:18:00 +0000</pubDate>
+      <description>An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Copilot] The skill you need for Wall Street</title>
+      <link>https://www.youtube.com/shorts/0SYz_kPgZNA</link>
+      <guid isPermaLink="false">667e84b4ac29</guid>
+      <pubDate>Wed, 25 Nov 2026 21:00:08 +0000</pubDate>
+      <description>Chris Riggs calls Excel the most important tool in finance, and he means it as encouragement, not a warning. Ten years on Wall Street taught him two things: relationships matter, and so does the spreadsheet. On mentors, New York, and why he thinks Copilot gives the next generation a faster start than he had. #CopilotInExcel</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[The Record] FIFA says hackers accessed ‘limited set of personal and business information’</title>
+      <link>https://therecord.media/fifa-data-breach-limited</link>
+      <guid isPermaLink="false">dbfa2402c895</guid>
+      <pubDate>Wed, 25 Nov 2026 20:40:00 +0000</pubDate>
+      <description>The Switzerland-based international governing body for soccer says it's working with relevant authorities and law enforcement to investigate a recent breach.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Security] How AI agents find and fix exploitable web app vulnerabilities | Microsoft Perception demo</title>
+      <link>https://www.youtube.com/watch?v=aadyl-oAiJE</link>
+      <guid isPermaLink="false">1434d829c95e</guid>
+      <pubDate>Wed, 25 Nov 2026 20:30:19 +0000</pubDate>
+      <description>See how AI agents separate exploitable web app vulnerabilities from scanning noise, generate fixes, and deliver a ready-to-review pull request in GitHub. In this Microsoft Perception demo, Mona runs the Protect web app playbook against a critical business app. Red and green team agents work together to: 🔹 Codename MDASH, Microsoft's agentic code scanner, flags 48 potential vulnerabilities in the app's code 🔹 The Web…</description>
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Italy and Switzerland warn of autonomous AI-driven cyberattacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/</link>
+      <guid isPermaLink="false">63da0c2dc091</guid>
+      <pubDate>Wed, 25 Nov 2026 19:39:31 +0000</pubDate>
+      <description>Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Where scientists draw the line on AI agents</title>
+      <link>https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents</link>
+      <guid isPermaLink="false">37b5c9ba9326</guid>
+      <pubDate>Wed, 25 Nov 2026 18:52:55 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Microsoft Security] How AI agents triage incidents and close detection gaps | Microsoft Perception demo</title>
+      <link>https://www.youtube.com/watch?v=-tPVehw2d18</link>
+      <guid isPermaLink="false">41baed6f95f6</guid>
+      <pubDate>Wed, 25 Nov 2026 18:48:18 +0000</pubDate>
+      <description>See how AI agents help a SOC cut through alert noise, investigate a compromised identity, and close detection gaps before the next attack. In this Microsoft Perception demo, follow Mona, a senior SOC analyst, as blue team agents automatically run the Investigate attack playbook on every new incident: 🔹 The Triage Agent checks every incident around the clock and clears out the noise 🔹 The Attack Investigation Agent…</description>
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[Microsoft] What defenders need to know about ARTEX, the agentic AI framework threat actors abuse</title>
+      <link>https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/</link>
+      <guid isPermaLink="false">fc1fe5cb80de</guid>
+      <pubDate>Wed, 25 Nov 2026 18:09:06 +0000</pubDate>
+      <description>The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web application exploitation.</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Record] Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms</title>
+      <link>https://therecord.media/ransomware-doj-indictment-recovery</link>
+      <guid isPermaLink="false">4fcf01c31362</guid>
+      <pubDate>Wed, 25 Nov 2026 17:30:00 +0000</pubDate>
+      <description>The CEO of a ransomware recovery firm was indicted by a federal grand jury over allegations he lied about his services and paid out ransoms to cybercriminals.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Model a Shift to Lower-Cost AI Models</title>
+      <link>https://www.youtube.com/shorts/3oyICVKQ6tc</link>
+      <guid isPermaLink="false">542fed493a2c</guid>
+      <pubDate>Wed, 25 Nov 2026 15:00:37 +0000</pubDate>
+      <description>What happens to your AI bill if you switch to lower-cost models? Cost &amp; Forecast in Agent 365 Business Analytics projects month-end cost and shows what drives increases and decreases by job function, model, and service. Model a spending cap, expanded access, or a different model mix, then compare the forecast with current usage. ▶ Full video: https://youtu.be/53stVRSReis ▶ Agent 365 Business Analytics…</description>
+      <category>agent365</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] More Pentests Without More Pentesters: Where AI Safely Helps</title>
+      <link>https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/</link>
+      <guid isPermaLink="false">a3b682ce2592</guid>
+      <pubDate>Wed, 25 Nov 2026 15:00:10 +0000</pubDate>
+      <description>Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Microsoft] How to choose the next safe step in application modernization</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/</link>
+      <guid isPermaLink="false">60ccd11aa2a7</guid>
+      <pubDate>Wed, 25 Nov 2026 15:00:00 +0000</pubDate>
+      <description>Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.</description>
+      <category>githubcopilot</category>
+    </item>
+    <item>
+      <title>[The Record] Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital</title>
+      <link>https://therecord.media/guadeloupe-ransomware-hospital-cyber</link>
+      <guid isPermaLink="false">fa1f50764b02</guid>
+      <pubDate>Wed, 25 Nov 2026 13:30:00 +0000</pubDate>
+      <description>France’s national cybersecurity agency is investigating a suspected ransomware attack that impaired the computer systems of the University Hospital of Guadeloupe, forcing doctors to postpone surgeries, suspend some cancer treatments and revert to pen and paper.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail</title>
+      <link>https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html</link>
+      <guid isPermaLink="false">3885183f3278</guid>
+      <pubDate>Wed, 25 Nov 2026 10:43:07 +0000</pubDate>
+      <description>A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October 9, 2026, for allegedly bugging the artificial intelligence (AI) company's offices with the aim</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[Hugging Face] An Indic Voice Agent with CUGA</title>
+      <link>https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga</link>
+      <guid isPermaLink="false">d0a3a7f662b5</guid>
+      <pubDate>Wed, 25 Nov 2026 10:22:09 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[BleepingComputer] Hackers now exploit critical Drupal RCE flaw to hijack sites</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/</link>
+      <guid isPermaLink="false">7bb089ac45e5</guid>
+      <pubDate>Wed, 25 Nov 2026 10:10:20 +0000</pubDate>
+      <description>The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[CrowdStrike] CrowdStrike Accelerates the Shift to the Agentic SOC</title>
+      <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-isoc/</link>
+      <guid isPermaLink="false">55a04ecbb2db</guid>
+      <pubDate>Wed, 25 Nov 2026 08:00:00 +0000</pubDate>
+      <description />
+      <category>security-agents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Hackers reportedly breached CIA intelligence analysis system</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/</link>
+      <guid isPermaLink="false">3bc6f96dec95</guid>
+      <pubDate>Wed, 25 Nov 2026 07:45:03 +0000</pubDate>
+      <description>Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign</title>
+      <link>https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html</link>
+      <guid isPermaLink="false">be8229fa8688</guid>
+      <pubDate>Wed, 25 Nov 2026 06:50:19 +0000</pubDate>
+      <description>An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13), is assessed to have targeted organizations in the financial services, energy, government,</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion</title>
+      <link>https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html</link>
+      <guid isPermaLink="false">7a5ea8907df3</guid>
+      <pubDate>Wed, 25 Nov 2026 06:37:06 +0000</pubDate>
+      <description>Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to "numerous waves of vishing attacks" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services, healthcare, and legal services located in the U.S., the U.K., and Australia. Other targets include construction,</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Agent 365 Business Analytics: Top AI Cost Drivers</title>
+      <link>https://www.youtube.com/shorts/bUClGBZ8Vzs</link>
+      <guid isPermaLink="false">92eac0b0f94b</guid>
+      <pubDate>Wed, 25 Nov 2026 03:15:35 +0000</pubDate>
+      <description>What's driving your AI spend? In this Agent 365 Business Analytics demo, GitHub Copilot makes up over 42% of total running cost and Cowork more than 40%, broken down by model provider. The combined view shows which models each advanced AI service uses and how that adds up to spend. ▶ Full video: https://youtu.be/53stVRSReis ▶ Agent 365 Business Analytics: https://aka.ms/A365Analytics #Shorts #Agent365…</description>
+      <category>githubcopilot</category>
+      <category>cowork</category>
+      <category>agent365</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000</title>
+      <link>https://huggingface.co/blog/inkling-2-mini-inference-hillclimb</link>
+      <guid isPermaLink="false">d8d6777ecf09</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <description />
+    </item>
     <item>
       <title>[BleepingComputer] Rackspace shuts down Spot cloud platform after security breach</title>
       <link>https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/</link>
@@ -193,6 +378,13 @@
       <category>incidents</category>
     </item>
     <item>
+      <title>[Google] From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity</title>
+      <link>https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/</link>
+      <guid isPermaLink="false">dd94f7af62fb</guid>
+      <pubDate>Tue, 24 Nov 2026 13:07:53 +0000</pubDate>
+      <description>Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.</description>
+    </item>
+    <item>
       <title>[OpenAI] GPT-6 models demonstrate intrinsic protein-design capabilities</title>
       <link>https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities</link>
       <guid isPermaLink="false">3c6728c1bfd1</guid>
@@ -255,6 +447,13 @@
       <description>How do you know if your AI spend is paying off? In Agent 365 Business Analytics, the Use cases view shows how services like Cowork are being used, with session counts, the cost of identified use cases, and their AI value. AI value is calculated from the time it would take a person to do comparable work, using official sources including the U.S. Department of Labor. ▶ Full video: https://youtu.be/53stVRSReis ▶ Agent…</description>
       <category>cowork</category>
       <category>agent365</category>
+    </item>
+    <item>
+      <title>[OpenAI] Clay helps sales teams win with Codex and ChatGPT</title>
+      <link>https://openai.com/business/customer-stories/clay-plugins-openai</link>
+      <guid isPermaLink="false">99b93f3e1098</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <description>ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.</description>
     </item>
     <item>
       <title>[OpenAI] How iFood scales coding agents across 15,000 repositories</title>
@@ -430,205 +629,6 @@
       <guid isPermaLink="false">759d50b40080</guid>
       <pubDate>Mon, 23 Nov 2026 12:28:09 +0000</pubDate>
       <description>N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE</title>
-      <link>https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html</link>
-      <guid isPermaLink="false">31afdc96e80b</guid>
-      <pubDate>Mon, 23 Nov 2026 09:11:56 +0000</pubDate>
-      <description>Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf ("Idunno.AntiCsrf.dll") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms</title>
-      <link>https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html</link>
-      <guid isPermaLink="false">80927b607c9d</guid>
-      <pubDate>Mon, 23 Nov 2026 08:24:15 +0000</pubDate>
-      <description>The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial transactions at banking and financial services entities, as well as technology service providers</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[OpenAI] Richpanel helps companies automate 50% of support in 30 days</title>
-      <link>https://openai.com/business/customer-stories/richpanel-ai-customer-support</link>
-      <guid isPermaLink="false">680b35173b97</guid>
-      <pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate>
-      <description>Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] CISA flags critical Cisco RCE flaw as actively exploited in attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/</link>
-      <guid isPermaLink="false">5d81d8091009</guid>
-      <pubDate>Mon, 23 Nov 2026 07:44:19 +0000</pubDate>
-      <description>The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Hugging Face] How to build and maintain an agentic evaluation</title>
-      <link>https://huggingface.co/blog/agentic-evals</link>
-      <guid isPermaLink="false">6fd4c32fe34a</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] GitHub Copilot Skill for Azure SQL Hyperscale</title>
-      <link>https://www.youtube.com/shorts/K0mHkk0IBxo</link>
-      <guid isPermaLink="false">6820f96bfd8d</guid>
-      <pubDate>Sun, 22 Nov 2026 18:15:27 +0000</pubDate>
-      <description>Not sure how to size a new Azure SQL database? The Azure SQL Hyperscale configuration skill for GitHub Copilot in Visual Studio Code takes your requirements from a prompt and recommends a configuration. Here, that's serverless scaling from 1 to 8 cores with auto-pause, and the skill deploys it once you approve. ▶ Full video: https://youtu.be/IFEd7SNqNPk ▶ Get the skill: https://aka.ms/SQLHyperscaleMechanics #Shorts…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Cleverbridge warns hackers stole credit card numbers, CVVs in data breach</title>
-      <link>https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/</link>
-      <guid isPermaLink="false">855a50efe0f3</guid>
-      <pubDate>Sun, 22 Nov 2026 15:43:04 +0000</pubDate>
-      <description>E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Signal to block Siri, Gemini AI from capturing chats on iOS, Android</title>
-      <link>https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/</link>
-      <guid isPermaLink="false">2361e0929a29</guid>
-      <pubDate>Sun, 22 Nov 2026 15:15:25 +0000</pubDate>
-      <description>Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[GitHub] Beyond the prompt: building an AI that takes initiative</title>
-      <link>https://www.youtube.com/watch?v=aLsIaslZ0Ik</link>
-      <guid isPermaLink="false">62626ad109ba</guid>
-      <pubDate>Sun, 22 Nov 2026 15:00:07 +0000</pubDate>
-      <description>When Cameron Hamilton asked his AI assistant, HALIE, to connect a nursery camera, it turned it into a baby monitor unprompted, and when asked to automate business growth, it suggested meeting customers in person. In this GitHub Universe 2026 session, Cameron Hamilton, Creator of Alliance AI, explores how to make proactive AI agents dependable using three core architectures: anticipation, self-evolution, and…</description>
-    </item>
-    <item>
-      <title>[The Hacker News] OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms</title>
-      <link>https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html</link>
-      <guid isPermaLink="false">78074d39dfa2</guid>
-      <pubDate>Sun, 22 Nov 2026 05:06:55 +0000</pubDate>
-      <description>Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps</title>
-      <link>https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html</link>
-      <guid isPermaLink="false">0be8ff22df4a</guid>
-      <pubDate>Sun, 22 Nov 2026 05:03:41 +0000</pubDate>
-      <description>A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Rackspace Spot breach let hackers access customer Kubernetes secrets</title>
-      <link>https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/</link>
-      <guid isPermaLink="false">9f2af01a2aa9</guid>
-      <pubDate>Sat, 21 Nov 2026 22:59:58 +0000</pubDate>
-      <description>Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft] Hosted agents in your own virtual network: five checks when the Agents page times out</title>
-      <link>https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/</link>
-      <guid isPermaLink="false">090f13394b0c</guid>
-      <pubDate>Sat, 21 Nov 2026 18:12:21 +0000</pubDate>
-      <description>The five questions teams ask most when they run hosted agents in their own virtual network: which subnet is the agent subnet, why listing agents times out, why a TLS-inspecting firewall still breaks after you add your CA, how peered VNets and DNS fit, and why a subnet stays in use after you delete an account.</description>
-      <category>foundry</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Microsoft Entra Connect Health flaw exploited to steal tenant data</title>
-      <link>https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/</link>
-      <guid isPermaLink="false">1e1dbef95d66</guid>
-      <pubDate>Sat, 21 Nov 2026 18:01:58 +0000</pubDate>
-      <description>Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]</description>
-      <category>entra</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[GitHub] What open source can teach us about agents in CI/CD</title>
-      <link>https://www.youtube.com/watch?v=bUhCBYi4dys</link>
-      <guid isPermaLink="false">09653e35748b</guid>
-      <pubDate>Sat, 21 Nov 2026 15:00:30 +0000</pubDate>
-      <description>What happens when you build an operating system the way you build an application? In this GitHub Universe 2026 session, Jorge Castro from the CNCF uses Project Bluefin (projectbluefin.io) to demonstrate how container images, GitHub Actions, GitOps, and open source projects unite in a reproducible software supply chain. Discover where AI agents in CI/CD help update configurations and react to pipeline events while…</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] FBI reportedly hacked again, this time targeting nationwide police database</title>
-      <link>https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/</link>
-      <guid isPermaLink="false">efef5bd50b96</guid>
-      <pubDate>Sat, 21 Nov 2026 14:26:04 +0000</pubDate>
-      <description>FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access</title>
-      <link>https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html</link>
-      <guid isPermaLink="false">16765aea3bd9</guid>
-      <pubDate>Sat, 21 Nov 2026 11:03:17 +0000</pubDate>
-      <description>Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,</description>
-      <category>ai-threats</category>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Hacker News] Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS</title>
-      <link>https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html</link>
-      <guid isPermaLink="false">9da47b8efcbb</guid>
-      <pubDate>Sat, 21 Nov 2026 08:49:20 +0000</pubDate>
-      <description>Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is "incomplete." The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Microsoft Copilot] 3 Copilot announcements from #MSIgnite</title>
-      <link>https://www.youtube.com/shorts/khT19223cDU</link>
-      <guid isPermaLink="false">c805cb6dda85</guid>
-      <pubDate>Sat, 21 Nov 2026 00:39:39 +0000</pubDate>
-      <description>Hearing buzz that Copilot is the new OS for work? See the 3 major announcements from day 1 of Microsoft Ignite you need to know, and what it means for your organization. #MicrosoftCopilot #MicrosoftIgnite #CopilotWorkspaces</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[Google] Google Workspace Weekly Recap - November 20, 2026</title>
-      <link>https://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-20-2026.html</link>
-      <guid isPermaLink="false">01c4b8f4e4b7</guid>
-      <pubDate>Fri, 20 Nov 2026 21:21:00 +0000</pubDate>
-      <description>Schedule meetings with a default 5-minute buffer in Google Calendar Back-to-back meetings can leave no time for a break in your day. To help you build in short breaks, we’re expanding the “Speedy meetings” setting in Google Calendar into new, per-calendar Event duration &amp; buffer settings. | Learn more Easily customize and extend Google Workspace with Gemini in Apps Script Now, with the Gemini side panel in Apps…</description>
-    </item>
-    <item>
-      <title>[Microsoft Copilot] Bringing the power of Salesforce into Copilot</title>
-      <link>https://www.youtube.com/shorts/y607t5cFn98</link>
-      <guid isPermaLink="false">de2c73f7963d</guid>
-      <pubDate>Fri, 20 Nov 2026 20:57:33 +0000</pubDate>
-      <description>The new Salesforce plugin combines Salesforce customer data with work context from Microsoft 365, helping sellers manage opportunities, identify risks, and take action directly in Copilot. #MicrosoftCopilot #Salesforce #CopilotForce</description>
-      <category>copilot</category>
-    </item>
-    <item>
-      <title>[The Record] US companies’ use of Chinese open weight AI draws rebuke from House chairmen</title>
-      <link>https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation</link>
-      <guid isPermaLink="false">e010061a1eb7</guid>
-      <pubDate>Fri, 20 Nov 2026 20:25:00 +0000</pubDate>
-      <description>An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Microsoft] Available today: OpenAI's GPT-6.2 Sol and GPT-6.2 Astra in Microsoft Copilot</title>
-      <link>https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-2-sol-and-gpt-6-2-astra-in/ba-p/4574229</link>
-      <guid isPermaLink="false">6a2828a07b1e</guid>
-      <pubDate>Fri, 20 Nov 2026 20:07:04 +0000</pubDate>
-      <description>OpenAI's GPT-6.2 Sol and GPT-6.2 Astra are now joining the frontier models available in Microsoft Copilot, giving customers more choice as they delegate more complex tasks to AI. With both models in Copilot, you can match the model to the work in front of you, from a draft in Word to a multi-step task you hand off in Copilot Cowork, and spend your time reviewing results and making decisions. As more work is…</description>
-      <category>copilot</category>
-      <category>cowork</category>
-    </item>
-    <item>
-      <title>[The Record] Container Store restores systems after cyberattack</title>
-      <link>https://therecord.media/container-store-restores-systems-cyberattack</link>
-      <guid isPermaLink="false">edfeced150c6</guid>
-      <pubDate>Fri, 20 Nov 2026 19:32:00 +0000</pubDate>
-      <description>The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Bell Canada says 'agentic' hacker stole enterprise customer data</title>
-      <link>https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/</link>
-      <guid isPermaLink="false">6c623452a14a</guid>
-      <pubDate>Fri, 20 Nov 2026 18:51:43 +0000</pubDate>
-      <description>Bell Canada has confirmed that an "agentic" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]</description>
-      <category>ai-threats</category>
       <category>incidents</category>
     </item>
   </channel>
