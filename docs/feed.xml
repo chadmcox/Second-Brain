@@ -4,7 +4,85 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Wed, 25 Nov 2026 21:40:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 21:29:55 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug</title>
+      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/</link>
+      <guid isPermaLink="false">e0bf93ab8a32</guid>
+      <pubDate>Thu, 26 Nov 2026 21:06:22 +0000</pubDate>
+      <description>OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[The Hacker News] ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories</title>
+      <link>https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html</link>
+      <guid isPermaLink="false">2cde4a64c5de</guid>
+      <pubDate>Thu, 26 Nov 2026 19:39:57 +0000</pubDate>
+      <description>A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tells you so much. Then there’s the question of who gets to use what. Stolen logins are opening</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Remus malware steals Gmail messages via fake Google Sheets extension</title>
+      <link>https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/</link>
+      <guid isPermaLink="false">17ea7e9dd6a3</guid>
+      <pubDate>Thu, 26 Nov 2026 15:23:28 +0000</pubDate>
+      <description>The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon</title>
+      <link>https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</link>
+      <guid isPermaLink="false">02a088434703</guid>
+      <pubDate>Thu, 26 Nov 2026 11:37:17 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[The Hacker News] 1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach</title>
+      <link>https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html</link>
+      <guid isPermaLink="false">420627cd7e6f</guid>
+      <pubDate>Thu, 26 Nov 2026 10:57:25 +0000</pubDate>
+      <description>Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. "While we took immediate steps to contain the incident, the attacker gained access to some of our backend systems and accessed a</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation</title>
+      <link>https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html</link>
+      <guid isPermaLink="false">457c08cf27ea</guid>
+      <pubDate>Thu, 26 Nov 2026 07:02:34 +0000</pubDate>
+      <description>Drupal has warned of a new "highly critical" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference</title>
+      <link>https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin</link>
+      <guid isPermaLink="false">d3aa48daa62d</guid>
+      <pubDate>Thu, 26 Nov 2026 05:05:36 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Create a Copilot Credit Spending Policy</title>
+      <link>https://www.youtube.com/shorts/JQHbHGMVsPY</link>
+      <guid isPermaLink="false">7135605706e4</guid>
+      <pubDate>Thu, 26 Nov 2026 03:00:31 +0000</pubDate>
+      <description>How do you cap AI spend in Microsoft 365? In the Microsoft 365 admin center, create a spending policy scoped by identity (users or groups) or by resource, such as a shared agent. Choose the services it covers, then set a cumulative monthly budget limit and, optionally, a per-user limit. These are hard limits: services are interrupted when they're hit. ▶ Full video: https://youtu.be/53stVRSReis ▶ Set up your…</description>
+      <category>copilot</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems</title>
+      <link>https://huggingface.co/blog/training-swarms</link>
+      <guid isPermaLink="false">c01600d41603</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <description />
+    </item>
+    <item>
+      <title>[Microsoft] Copilot code review billing will default to the organization</title>
+      <link>https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization</link>
+      <guid isPermaLink="false">c0d40e212e2d</guid>
+      <pubDate>Wed, 25 Nov 2026 22:18:03 +0000</pubDate>
+      <description>If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep…</description>
+      <category>copilot</category>
+      <category>githubcopilot</category>
+    </item>
     <item>
       <title>[BleepingComputer] 1Password customer data stolen after employee GitHub account breach</title>
       <link>https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/</link>
@@ -140,6 +218,13 @@
       <pubDate>Wed, 25 Nov 2026 10:10:20 +0000</pubDate>
       <description>The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]</description>
       <category>incidents</category>
+    </item>
+    <item>
+      <title>[CrowdStrike] Securing Employees’ AI Use Requires a Unified Architecture</title>
+      <link>https://www.crowdstrike.com/en-us/blog/securing-employees-ai-use-requires-unified-architecture/</link>
+      <guid isPermaLink="false">f6f7fcdada17</guid>
+      <pubDate>Wed, 25 Nov 2026 08:00:00 +0000</pubDate>
+      <description />
     </item>
     <item>
       <title>[CrowdStrike] CrowdStrike Accelerates the Shift to the Agentic SOC</title>
@@ -515,7 +600,7 @@
       <link>https://www.youtube.com/watch?v=BGAVxG5_ybs</link>
       <guid isPermaLink="false">b55d3e2cb4b6</guid>
       <pubDate>Mon, 23 Nov 2026 18:32:39 +0000</pubDate>
-      <description>Join us live for four hours of GitHub Copilot, from the people building it and the developers putting it to work. December 15, 8:00 AM Pacific. #GitHubCopilot #CopilotDay #GitHub Stay up-to-date on all things GitHub by subscribing and following us at: YouTube: http://bit.ly/subgithub Blog: https://github.blog X: https://twitter.com/github LinkedIn: https://linkedin.com/company/github Instagram…</description>
+      <description>Join us live for hours of GitHub Copilot, from the people building it and the developers putting it to work. December 15, 8:00 AM Pacific. #GitHubCopilot #CopilotDay #GitHub Stay up-to-date on all things GitHub by subscribing and following us at: YouTube: http://bit.ly/subgithub Blog: https://github.blog X: https://twitter.com/github LinkedIn: https://linkedin.com/company/github Instagram…</description>
       <category>githubcopilot</category>
     </item>
     <item>
@@ -547,89 +632,6 @@
       <guid isPermaLink="false">ea7cf607d4db</guid>
       <pubDate>Mon, 23 Nov 2026 18:00:00 +0000</pubDate>
       <description>Collage of six 3D graphics showcasing virtual environments, interactive scenes, and model comparisons including "Gemini 4 Hydrogen" and "Gemini 3.8 Flash."</description>
-    </item>
-    <item>
-      <title>[Hugging Face] RoboTrack: Point tracking for real-world robotic manipulation</title>
-      <link>https://huggingface.co/blog/allenai/robotrack</link>
-      <guid isPermaLink="false">ca38829e7312</guid>
-      <pubDate>Mon, 23 Nov 2026 17:20:37 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[The Record] CrowdStrike to purchase Zscaler for $43.9 billion</title>
-      <link>https://therecord.media/crowdstrike-zscaler</link>
-      <guid isPermaLink="false">c23cd2a7d9a6</guid>
-      <pubDate>Mon, 23 Nov 2026 17:14:00 +0000</pubDate>
-      <description>“We see a path to become the largest AI safety and security company the world has ever seen,” CrowdStrike CEO George Kurtz said.</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Google] Organize and share your holiday memories with these five updates in Google Photos.</title>
-      <link>https://blog.google/products-and-platforms/products/photos/google-photo-tools-holiday-season-2026/</link>
-      <guid isPermaLink="false">fcdc7c956ad7</guid>
-      <pubDate>Mon, 23 Nov 2026 17:00:00 +0000</pubDate>
-      <description>Organize holiday memories with five new Google Photos updates. Use Gemini for video tasks and filter shared albums by people. Try these features today.</description>
-    </item>
-    <item>
-      <title>[Google] Finding faster quantum algorithms with agents and formal verification</title>
-      <link>https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/</link>
-      <guid isPermaLink="false">9dddeb89e408</guid>
-      <pubDate>Mon, 23 Nov 2026 16:59:40 +0000</pubDate>
-      <description>Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.</description>
-    </item>
-    <item>
-      <title>[BleepingComputer] GlobeTopper loses $2.5 million after hackers steal $70k in gift cards</title>
-      <link>https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/</link>
-      <guid isPermaLink="false">0af9a7510182</guid>
-      <pubDate>Mon, 23 Nov 2026 16:50:01 +0000</pubDate>
-      <description>A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Google] Introducing file slicing controls in the Gemini API</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/</link>
-      <guid isPermaLink="false">6cdd85d9df36</guid>
-      <pubDate>Mon, 23 Nov 2026 16:12:00 +0000</pubDate>
-      <description>Introducing File Slicing Controls</description>
-    </item>
-    <item>
-      <title>[The Hacker News] ⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble</title>
-      <link>https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html</link>
-      <guid isPermaLink="false">ca0d1bdeb307</guid>
-      <pubDate>Mon, 23 Nov 2026 15:10:48 +0000</pubDate>
-      <description>A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly a small opening can turn into a much bigger mess. One breach helps attackers reach another target. Tools people rely</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[GitHub] The factory mindset: Agentic workflows in production</title>
-      <link>https://www.youtube.com/watch?v=TYhsC-S-Fx0</link>
-      <guid isPermaLink="false">b5c3c220d611</guid>
-      <pubDate>Mon, 23 Nov 2026 15:00:35 +0000</pubDate>
-      <description>A factory isn’t defined by what it produces, but by the process that produces it. In this GitHub Universe 2026 session, Peli de Halleux (GitHub Next, Microsoft), Tim Mason (Marks and Spencer), and Paul Snider (Provation / Fortive) demonstrate how to build an agentic software factory using GitHub Actions and GitHub Copilot. See how a team of five engineers ships 460 pull requests a week, how Marks &amp; Spencer fixed 77…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] AI Agents Are Creating a Shared Responsibility Gap</title>
-      <link>https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/</link>
-      <guid isPermaLink="false">594a8d6fa697</guid>
-      <pubDate>Mon, 23 Nov 2026 15:00:10 +0000</pubDate>
-      <description>AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permissions, and accountability. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[Google] Make messages in Google Chat from apps and agents easier to read with tables and headings</title>
-      <link>https://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html</link>
-      <guid isPermaLink="false">8b974a47bd6b</guid>
-      <pubDate>Mon, 23 Nov 2026 14:53:48 +0000</pubDate>
-      <description>Agents and apps in Google Chat can now send messages formatted with tables and headings. Tables make it easy to compare options, share status trackers, and present data in rows and columns. Headings provide a way to separate long messages, like summaries, reports, and plans, into clear, scannable sections. Developers can add both through the Google Chat API using standard Markdown. Headings support three levels (#…</description>
-    </item>
-    <item>
-      <title>[The Hacker News] N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation</title>
-      <link>https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html</link>
-      <guid isPermaLink="false">759d50b40080</guid>
-      <pubDate>Mon, 23 Nov 2026 12:28:09 +0000</pubDate>
-      <description>N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the</description>
-      <category>incidents</category>
     </item>
   </channel>
 </rss>
