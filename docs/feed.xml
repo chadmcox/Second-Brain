@@ -4,7 +4,142 @@
     <title>Copilot &amp; Agent Watch</title>
     <link>https://chadmcox.github.io/Second-Brain/</link>
     <description>Microsoft Copilot, agent, Entra and Defender updates plus competitor moves, in one feed.</description>
-    <lastBuildDate>Thu, 26 Nov 2026 21:29:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 21:16:08 +0000</lastBuildDate>
+    <item>
+      <title>[BleepingComputer] pCloud confirms password manager hack after suspicious login alerts</title>
+      <link>https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/</link>
+      <guid isPermaLink="false">c33ac200edb1</guid>
+      <pubDate>Fri, 27 Nov 2026 19:26:04 +0000</pubDate>
+      <description>The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] New Boston Scientific data breach exposes personal, medical info</title>
+      <link>https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/</link>
+      <guid isPermaLink="false">72cf1a5347d2</guid>
+      <pubDate>Fri, 27 Nov 2026 18:57:42 +0000</pubDate>
+      <description>Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Google] Google Workspace Weekly Recap - November 27, 2026</title>
+      <link>https://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-27-2026.html</link>
+      <guid isPermaLink="false">210565fb9792</guid>
+      <pubDate>Fri, 27 Nov 2026 17:13:18 +0000</pubDate>
+      <description>Make messages in Google Chat from apps and agents easier to read with tables and headings Agents and apps in Google Chat can now send messages formatted with tables and headings. Tables make it easy to compare options, share status trackers, and present data in rows and columns. Headings provide a way to separate long messages, like summaries, reports, and plans, into clear, scannable sections. | Learn more Google…</description>
+    </item>
+    <item>
+      <title>[BleepingComputer] Unpatched Cacti zero-day with public PoC gives remote code execution</title>
+      <link>https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/</link>
+      <guid isPermaLink="false">8b62149719af</guid>
+      <pubDate>Fri, 27 Nov 2026 17:06:13 +0000</pubDate>
+      <description>A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Microsoft Mechanics] Raise a Copilot Spending Limit in Agent 365</title>
+      <link>https://www.youtube.com/shorts/sqJFBOgHt_4</link>
+      <guid isPermaLink="false">87fb5a594657</guid>
+      <pubDate>Fri, 27 Nov 2026 15:30:37 +0000</pubDate>
+      <description>What happens when a team hits its AI spending limit? Spending policies are hard limits, so the engineering team in this demo is blocked even while AI is streamlining their work. A budget owner with delegated access edits the policy in Agent 365 Business Analytics, raises the limit under Limits and alerts, and unblocks the team without needing Microsoft 365 admin center access. ▶ Full video…</description>
+      <category>copilot</category>
+      <category>agent365</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] US Air Force cloud platform reportedly hacked in latest federal breach</title>
+      <link>https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/</link>
+      <guid isPermaLink="false">2778b393e634</guid>
+      <pubDate>Fri, 27 Nov 2026 15:09:40 +0000</pubDate>
+      <description>Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[GitHub] OpenClaw's founder: success means no finish line</title>
+      <link>https://www.youtube.com/shorts/2cSjxPA8Gt4</link>
+      <guid isPermaLink="false">d5eb3a6c2b72</guid>
+      <pubDate>Fri, 27 Nov 2026 15:00:12 +0000</pubDate>
+      <description>What does real success look like for an open-source AI project? In this short, OpenClaw's founder shares why seeing pioneered concepts, like proactive agents, self-scheduled cron jobs, and persistent memory systems trickle down into commercial software already counts as a win. Operating as a nonprofit, OpenClaw measures impact by encouraging developers to spend time exploring and thinking critically about the future…</description>
+    </item>
+    <item>
+      <title>[The Record] Japan’s education ministry discloses breach of government procurement system</title>
+      <link>https://therecord.media/japan-education-ministry-cyberattack</link>
+      <guid isPermaLink="false">4a82d3723014</guid>
+      <pubDate>Fri, 27 Nov 2026 14:15:00 +0000</pubDate>
+      <description>Japan’s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] Software giant SAP confirms cyber incident amid reports of source code breach</title>
+      <link>https://therecord.media/sap-germany-cyberattack-github</link>
+      <guid isPermaLink="false">9a79f6f175db</guid>
+      <pubDate>Fri, 27 Nov 2026 13:15:00 +0000</pubDate>
+      <description>German software giant SAP confirmed a cybersecurity incident following reports that hackers infiltrated its software development infrastructure, potentially gaining access to the company’s source code.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control</title>
+      <link>https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html</link>
+      <guid isPermaLink="false">4895aa5a5bc0</guid>
+      <pubDate>Fri, 27 Nov 2026 11:49:34 +0000</pubDate>
+      <description>Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool ("snipp.codes-team[.]com"), from where a Microsoft-signed installer called "Snipping-Tool.exe" is</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] How to Keep Your Security Picture Current When Attackers Move at AI Speed</title>
+      <link>https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html</link>
+      <guid isPermaLink="false">415efee3262b</guid>
+      <pubDate>Fri, 27 Nov 2026 10:32:18 +0000</pubDate>
+      <description>Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together the week before, cleans them up, and presents a picture of a program that is,</description>
+      <category>ai-threats</category>
+    </item>
+    <item>
+      <title>[BleepingComputer] Drupal warns of new site takeover flaw exploited in attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/</link>
+      <guid isPermaLink="false">30a43f231a87</guid>
+      <pubDate>Fri, 27 Nov 2026 10:10:15 +0000</pubDate>
+      <description>The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware</title>
+      <link>https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html</link>
+      <guid isPermaLink="false">99bc87f8212c</guid>
+      <pubDate>Fri, 27 Nov 2026 09:29:30 +0000</pubDate>
+      <description>Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. "Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators</title>
+      <link>https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html</link>
+      <guid isPermaLink="false">bdba96d745bb</guid>
+      <pubDate>Fri, 27 Nov 2026 06:04:20 +0000</pubDate>
+      <description>Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disruptions reported. The victims have not been named, and it is not known who is</description>
+      <category>ai-threats</category>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Hacker News] Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access</title>
+      <link>https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html</link>
+      <guid isPermaLink="false">706168821faa</guid>
+      <pubDate>Fri, 27 Nov 2026 05:48:20 +0000</pubDate>
+      <description>Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. "I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[The Record] Cyberattack disrupts global news distribution platform at France’s AFP</title>
+      <link>https://therecord.media/france-afp-hit-by-cyberattack</link>
+      <guid isPermaLink="false">f9571136225a</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <description>French international news agency Agence France-Presse was hit by a cyberattack Thursday, forcing it to take offline one of its main platforms for distributing news content to media organizations worldwide.</description>
+      <category>incidents</category>
+    </item>
+    <item>
+      <title>[Hugging Face] Taking Trainium3 to the Track: Generating Videos with LTX-2.5</title>
+      <link>https://huggingface.co/blog/video-trainium3</link>
+      <guid isPermaLink="false">2d7f8b4f8454</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <description />
+    </item>
     <item>
       <title>[BleepingComputer] OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug</title>
       <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/</link>
@@ -499,139 +634,6 @@
       <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP</description>
       <category>ai-threats</category>
       <category>incidents</category>
-    </item>
-    <item>
-      <title>[Meta] Introducing Muse in the UK: A Personal AI Agent You Control</title>
-      <link>https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/</link>
-      <guid isPermaLink="false">b6d232fb2fed</guid>
-      <pubDate>Tue, 24 Nov 2026 06:00:40 +0000</pubDate>
-      <description>Muse is now in the UK: a personal AI agent that doesn't just answer questions, but one that you can task to get things done on your behalf</description>
-      <category>personal-agents</category>
-    </item>
-    <item>
-      <title>[Meta] Muse Now Available in the UK: Muse Does the Work, You Stay in Control</title>
-      <link>https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/</link>
-      <guid isPermaLink="false">ab631f8c46ba</guid>
-      <pubDate>Tue, 24 Nov 2026 06:00:04 +0000</pubDate>
-      <description>Muse, Meta’s personal AI agent, is now available to adults in the UK. Think of it as a helping hand for the jobs that pile up, like chasing a refund, renewing car insurance or keeping on top of the school calendar. To get those jobs done you can connect Muse to the apps you already use, from your email and calendar to the retailer apps you shop on. Handing tasks to an AI agent is new for most of us, and we know it’s…</description>
-      <category>personal-agents</category>
-    </item>
-    <item>
-      <title>[Microsoft Security] Top Security News from Microsoft Ignite 2026</title>
-      <link>https://www.youtube.com/shorts/8O0FAErW0CE</link>
-      <guid isPermaLink="false">2c326ebccbb3</guid>
-      <pubDate>Tue, 24 Nov 2026 02:30:34 +0000</pubDate>
-      <description>Kevin Nanns breaks down the security news to know from #MSIgnite, from Microsoft Perception to agent security and the integrated SOC in Microsoft Defender. #MicrosoftSecurity #ad #MicrosoftIgnite</description>
-      <category>defender</category>
-    </item>
-    <item>
-      <title>[Microsoft Mechanics] Agent 365 Business Analytics AI Value Explained</title>
-      <link>https://www.youtube.com/shorts/KjRCl678hA8</link>
-      <guid isPermaLink="false">5834ac580611</guid>
-      <pubDate>Tue, 24 Nov 2026 01:20:20 +0000</pubDate>
-      <description>How do you know if your AI spend is paying off? In Agent 365 Business Analytics, the Use cases view shows how services like Cowork are being used, with session counts, the cost of identified use cases, and their AI value. AI value is calculated from the time it would take a person to do comparable work, using official sources including the U.S. Department of Labor. ▶ Full video: https://youtu.be/53stVRSReis ▶ Agent…</description>
-      <category>cowork</category>
-      <category>agent365</category>
-    </item>
-    <item>
-      <title>[OpenAI] Clay helps sales teams win with Codex and ChatGPT</title>
-      <link>https://openai.com/business/customer-stories/clay-plugins-openai</link>
-      <guid isPermaLink="false">99b93f3e1098</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
-      <description>ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.</description>
-    </item>
-    <item>
-      <title>[OpenAI] How iFood scales coding agents across 15,000 repositories</title>
-      <link>https://openai.com/business/customer-stories/ifood</link>
-      <guid isPermaLink="false">7a6462e387eb</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
-      <description />
-    </item>
-    <item>
-      <title>[The Record] Hackers breach Austrian Foreign Ministry website, access diplomats' contact details</title>
-      <link>https://therecord.media/austrian-foreign-ministry-says-website-hacked</link>
-      <guid isPermaLink="false">5e4209ae3740</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Austria's Foreign Ministry said late last week that hackers breached one of its websites and accessed the names and official contact information of employees at its Vienna headquarters and at Austria’s diplomatic missions abroad.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] South Korea’s power giant KEPCO confirms data breach impacting 1.5 million</title>
-      <link>https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/</link>
-      <guid isPermaLink="false">f1397973b7c6</guid>
-      <pubDate>Mon, 23 Nov 2026 20:54:51 +0000</pubDate>
-      <description>A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] OpenRouter drops AI providers over leaked prompts and secrets</title>
-      <link>https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/</link>
-      <guid isPermaLink="false">ad3d2932dda1</guid>
-      <pubDate>Mon, 23 Nov 2026 20:00:20 +0000</pubDate>
-      <description>OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Microsoft Azure flaw exploited to steal customers' API credentials</title>
-      <link>https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/</link>
-      <guid isPermaLink="false">53716c4432ab</guid>
-      <pubDate>Mon, 23 Nov 2026 19:42:20 +0000</pubDate>
-      <description>Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[BleepingComputer] Spanish LaLiga confirms hackers stole soccer fans’ personal data</title>
-      <link>https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/</link>
-      <guid isPermaLink="false">f714b48247a9</guid>
-      <pubDate>Mon, 23 Nov 2026 18:38:40 +0000</pubDate>
-      <description>LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[The Record] Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents</title>
-      <link>https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems</link>
-      <guid isPermaLink="false">6edcda57ebae</guid>
-      <pubDate>Mon, 23 Nov 2026 18:37:00 +0000</pubDate>
-      <description>Google’s Gemini Intelligence and Apple's Siri AI "are changing this environment in a way that’s making it increasingly hostile to privacy," Signal said.</description>
-      <category>ai-threats</category>
-    </item>
-    <item>
-      <title>[GitHub] GitHub Copilot Day live: new releases, real workflows, and live coding</title>
-      <link>https://www.youtube.com/watch?v=BGAVxG5_ybs</link>
-      <guid isPermaLink="false">b55d3e2cb4b6</guid>
-      <pubDate>Mon, 23 Nov 2026 18:32:39 +0000</pubDate>
-      <description>Join us live for hours of GitHub Copilot, from the people building it and the developers putting it to work. December 15, 8:00 AM Pacific. #GitHubCopilot #CopilotDay #GitHub Stay up-to-date on all things GitHub by subscribing and following us at: YouTube: http://bit.ly/subgithub Blog: https://github.blog X: https://twitter.com/github LinkedIn: https://linkedin.com/company/github Instagram…</description>
-      <category>githubcopilot</category>
-    </item>
-    <item>
-      <title>[The Record] FBI reportedly facing second data breach involving National Crime Information Center</title>
-      <link>https://therecord.media/fbi-cyberattack-data-breach</link>
-      <guid isPermaLink="false">4ca5a6cc42e6</guid>
-      <pubDate>Mon, 23 Nov 2026 18:30:00 +0000</pubDate>
-      <description>The FBI is reportedly investigating a data breach involving the National Crime Information Center, a database used by U.S. law enforcement agencies that contains information on criminals, fugitives and missing people.</description>
-      <category>incidents</category>
-    </item>
-    <item>
-      <title>[Microsoft Copilot] Is your AI spend actually paying off? #MSIgnite</title>
-      <link>https://www.youtube.com/shorts/11ee9Ckt1A0</link>
-      <guid isPermaLink="false">0d5a5fbd152a</guid>
-      <pubDate>Mon, 23 Nov 2026 18:03:17 +0000</pubDate>
-      <description>We've seen what AI can do for productivity, but what about cost? Let's break down the latest from Ignite and how Agent 365 helps your organization stay on track with the bottom line. #Agent365 #MicrosoftIgnite #CostofAI</description>
-      <category>agent365</category>
-    </item>
-    <item>
-      <title>[Google] Here are 4 things you didn’t know you could do with Gemini Canvas.</title>
-      <link>https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/</link>
-      <guid isPermaLink="false">fb9ed0228401</guid>
-      <pubDate>Mon, 23 Nov 2026 18:00:00 +0000</pubDate>
-      <description>Boost productivity with Google Gemini Canvas. Build web apps, create custom study tools, and refine writing side-by-side. Try it in your next chat.</description>
-    </item>
-    <item>
-      <title>[Google] See what 6 builders are making with Gemini 4 Hydrogen</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/</link>
-      <guid isPermaLink="false">ea7cf607d4db</guid>
-      <pubDate>Mon, 23 Nov 2026 18:00:00 +0000</pubDate>
-      <description>Collage of six 3D graphics showcasing virtual environments, interactive scenes, and model comparisons including "Gemini 4 Hydrogen" and "Gemini 3.8 Flash."</description>
     </item>
   </channel>
 </rss>
